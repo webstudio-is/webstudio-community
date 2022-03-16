@@ -1,28 +1,30 @@
-# Webstudio
+<section align="center">
+   <h1>Webstudio</h1>
 
-Webstudio is an Open Source Visual Development Platform for developers, designers, and cross-functional teams.
+   Webstudio is an Open Source Visual Development Platform for developers, designers, and cross-functional teams.<br />
+   You own the data, components, and infrastructure.<br /> 
+   You can use the hosted version or roll out your own.
 
-You own the data, components, and infrastructure. You can use the hosted version or roll out your own.
-
-[Website](https://webstudio.is) • [Twitter](https://twitter.com/webstudio-is) • [Discussions](https://github.com/webstudio-is/webstudio/discussions)
+   [Website](https://webstudio.is) • [Twitter](https://twitter.com/webstudiois) • [Discussions](https://github.com/webstudio-is/webstudio/discussions)
+</section>
 
 ## Overview
 
-1. [Designer](/webstudio-is/webstudio-designer)
+### [Designer](https://github.com/webstudio-is/webstudio-designer)
 
    Webstudio Designer is a NoCode Visual Tool inspired by Webflow. It is the place where you can build your site or app visually.
 
-2. [SDK](/webstudio-is/webstudio-sdk)
+### [SDK](https://github.com/webstudio-is/webstudio-sdk)
 
    Webstudio SDK is an optional JavaScript/Typescript API that lets you render the same components you see on the canvas in Designer. The Designer is also using this SDK to render on the canvas.
 
    SDK lets you integrate the site or app you created in Designer into your custom react code base.
 
-3. [API](/webstudio-is/webstudio-designer)
+### [API](https://github.com/webstudio-is/webstudio-designer)
 
    Webstudio Designer provides an HTTP API you can use to fetch the data from Designer and render it in any way you want.
 
-4. [CLI](/webstudio-is/webstudio-cli)
+### [CLI](https://github.com/webstudio-is/webstudio-cli)
 
    Webstudio CLI is a command-line interface you can use to simplify working with the HTTP API. You can execute a simple script that will fetch the data from a Webstudio Designer instance of your choice and download it onto your local project's file system.
 
