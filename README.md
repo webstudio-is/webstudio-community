@@ -5,7 +5,7 @@
    You own the data, components, and infrastructure.<br /> 
    You can use the hosted version or roll out your own.
 
-   [Website](https://webstudio.is) • [Twitter](https://twitter.com/webstudiois) • [Discussions](https://github.com/webstudio-is/webstudio/discussions)
+   [__Website__](https://webstudio.is) • [__Twitter__](https://twitter.com/webstudiois) • [__Discussions__](https://github.com/webstudio-is/webstudio/discussions)
    
    <img width="938" alt="Screenshot" src="https://user-images.githubusercontent.com/52824/158712579-7d1b49dd-40f8-4112-a923-5edd976e2077.png">
 </section>
