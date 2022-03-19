@@ -7,7 +7,8 @@
 
    [__Website__](https://webstudio.is) • [__Twitter__](https://twitter.com/webstudiois) • [__Discussions__](https://github.com/webstudio-is/webstudio/discussions)
    
-   <img width="938" alt="Screenshot" src="https://user-images.githubusercontent.com/52824/158712579-7d1b49dd-40f8-4112-a923-5edd976e2077.png">
+   <img width="883" alt="Screenshot" src="https://user-images.githubusercontent.com/52824/159119092-0f2f22d9-846d-4f89-95fd-41b7f18f3aee.png">
+
 </section>
 
 ## Overview
