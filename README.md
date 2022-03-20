@@ -13,23 +13,27 @@
 
 ## Overview
 
-### [Designer](https://github.com/webstudio-is/webstudio-designer)
+### Examples
 
-   Webstudio Designer is a NoCode Visual Tool inspired by Webflow. It is the place where you can build your site or app visually.
+- [Webstudio landing site](https://github.com/webstudio-is/webstudio-landing)
 
-### [SDK](https://github.com/webstudio-is/webstudio-sdk)
+### Designer
 
-   Webstudio SDK is an optional JavaScript/Typescript API that lets you render the same components you see on the canvas in Designer. The Designer is also using this SDK to render on the canvas.
+   [Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) is a NoCode Visual Tool inspired by Webflow. It is the place where you can build your site or app visually.
+
+### SDK
+
+   [Webstudio SDK](https://github.com/webstudio-is/webstudio-sdk) is an optional JavaScript/Typescript API that lets you render the same components you see on the canvas in Designer. The Designer is also using this SDK to render on the canvas.
 
    SDK lets you integrate the site or app you created in Designer into your custom react code base.
 
-### [API](https://github.com/webstudio-is/webstudio-designer)
+### API
 
-   Webstudio Designer provides an HTTP API you can use to fetch the data from Designer and render it in any way you want.
+   [Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) provides an HTTP API you can use to fetch the data from Designer and render it in any way you want.
 
-### [CLI](https://github.com/webstudio-is/webstudio-cli)
+### CLI
 
-   Webstudio CLI is a command-line interface you can use to simplify working with the HTTP API. You can execute a simple script that will fetch the data from a Webstudio Designer instance of your choice and download it onto your local project's file system.
+   [Webstudio CLI](https://github.com/webstudio-is/webstudio-cli) is a command-line interface you can use to simplify working with the HTTP API. You can execute a simple script that will fetch the data from a Webstudio Designer instance of your choice and download it onto your local project's file system.
 
 ## Built with
 
