@@ -11,17 +11,20 @@
 
 </section>
 
-## Overview
 
-### Examples
+## Intro
 
-- [Webstudio landing site](https://github.com/webstudio-is/webstudio-landing)
+[Webstudio - next generation visual development](https://dev.to/oleg008/webstudio-next-generation-visual-development-4d0d)
 
-### Designer
+## Examples
+
+[Webstudio landing site](https://github.com/webstudio-is/webstudio-landing)
+
+## Designer
 
    [Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) is a NoCode Visual Tool inspired by Webflow. It is the place where you can build your site or app visually.
 
-### SDK
+## SDK
 
    [Webstudio SDK](https://github.com/webstudio-is/webstudio-sdk) is an optional JavaScript/Typescript API that lets you render the same components you see on the canvas in Designer. The Designer is also using this SDK to render on the canvas.
 
@@ -31,7 +34,7 @@
 
    [Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) provides an HTTP API you can use to fetch the data from Designer and render it in any way you want.
 
-### CLI
+## CLI
 
    [Webstudio CLI](https://github.com/webstudio-is/webstudio-cli) is a command-line interface you can use to simplify working with the HTTP API. You can execute a simple script that will fetch the data from a Webstudio Designer instance of your choice and download it onto your local project's file system.
 
