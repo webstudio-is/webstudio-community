@@ -32,7 +32,7 @@
 
 ### API
 
-   [Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) provides an HTTP API you can use to fetch the data from Designer and render it in any way you want.
+   [Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) provides a HTTP API you can use to fetch the data from Designer and render it in any way you want.
 
 ## CLI
 
