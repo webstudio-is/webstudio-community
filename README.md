@@ -12,9 +12,17 @@
 </section>
 
 
-## Intro
+## Articles
 
 [Webstudio - next generation visual development](https://dev.to/oleg008/webstudio-next-generation-visual-development-4d0d)
+
+## Community
+
+[Twitter](https://twitter.com/webstudiois) 
+
+[Discussions](https://github.com/webstudio-is/webstudio/discussions)
+
+[Discord](https://discord.gg/Tfdr3u8x)
 
 ## Examples
 
@@ -30,9 +38,9 @@
 
    SDK lets you integrate the site or app you created in Designer into your custom react code base.
 
-### API
+## API
 
-   [Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) provides a HTTP API you can use to fetch the data from Designer and render it in any way you want.
+   [Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) provides a HTTP API you can use to fetch the data from Designer and render it in any way you want.   
 
 ## CLI
 
