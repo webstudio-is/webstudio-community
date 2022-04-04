@@ -5,7 +5,7 @@
    You own the data, components, and infrastructure.<br /> 
    You can use the hosted version or roll out your own.
 
-   [__Website__](https://webstudio.is) • [__Article__](https://dev.to/oleg008/webstudio-next-generation-visual-development-4d0d) • [__Twitter__](https://twitter.com/webstudiois) • [__Discussions__](https://github.com/webstudio-is/webstudio/discussions) • [__Discord__](https://discord.gg/Tfdr3u8x)
+   [__Website__](https://webstudio.is) • [__Article__](https://dev.to/oleg008/webstudio-next-generation-visual-development-4d0d) • [__Twitter__](https://twitter.com/webstudiois) • [__Discussions__](https://github.com/webstudio-is/webstudio/discussions) • [__Discord__](https://discord.gg/UNdyrDkq5r)
    
    <img width="883" alt="Screenshot" src="https://user-images.githubusercontent.com/52824/159119092-0f2f22d9-846d-4f89-95fd-41b7f18f3aee.png">
 
