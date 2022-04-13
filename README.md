@@ -1,24 +1,29 @@
 <section align="center">
    <h1>Webstudio</h1>
 
-   Webstudio is an Open Source Visual Development Platform for developers, designers, and cross-functional teams.<br />
-   You own the data, components, and infrastructure.<br /> 
-   You can use the hosted version or roll out your own.
+Webstudio is an Open Source Visual Development Platform for developers, designers, and cross-functional teams.<br />
+You own the data, components, and infrastructure.<br />
+You can use the hosted version or roll out your own.
 
-   [__Website__](https://webstudio.is) • [__Article__](https://dev.to/oleg008/webstudio-next-generation-visual-development-4d0d) • [__Twitter__](https://twitter.com/webstudiois) • [__Discussions__](https://github.com/webstudio-is/webstudio/discussions) • [__Discord__](https://discord.gg/UNdyrDkq5r)
-   
+[**Website**](https://webstudio.is) • [**Article**](https://dev.to/oleg008/webstudio-next-generation-visual-development-4d0d) • [**Twitter**](https://twitter.com/webstudiois) • [**Discussions**](https://github.com/webstudio-is/webstudio/discussions) • [**Discord**](https://discord.gg/UNdyrDkq5r)
+
    <img width="883" alt="Screenshot" src="https://user-images.githubusercontent.com/52824/159119092-0f2f22d9-846d-4f89-95fd-41b7f18f3aee.png">
 
 </section>
-
 
 ## Articles
 
 [Webstudio - next generation visual development](https://dev.to/oleg008/webstudio-next-generation-visual-development-4d0d)
 
+### Contributing
+
+Don't hesitate to reach out of you have questions around contributing to the project.
+
+[Contributing guide](https://github.com/webstudio-is/webstudio/blob/main/docs/contributing.md)
+
 ## Community
 
-[Twitter](https://twitter.com/webstudiois) 
+[Twitter](https://twitter.com/webstudiois)
 
 [Discussions](https://github.com/webstudio-is/webstudio/discussions)
 
@@ -30,21 +35,21 @@
 
 ## Designer
 
-   [Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) is a NoCode Visual Tool inspired by Webflow. It is the place where you can build your site or app visually.
+[Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) is a NoCode Visual Tool inspired by Webflow. It is the place where you can build your site or app visually.
 
 ## SDK
 
-   [Webstudio SDK](https://github.com/webstudio-is/webstudio-sdk) is an optional JavaScript/Typescript API that lets you render the same components you see on the canvas in Designer. The Designer is also using this SDK to render on the canvas.
+[Webstudio SDK](https://github.com/webstudio-is/webstudio-sdk) is an optional JavaScript/Typescript API that lets you render the same components you see on the canvas in Designer. The Designer is also using this SDK to render on the canvas.
 
-   SDK lets you integrate the site or app you created in Designer into your custom react code base.
+SDK lets you integrate the site or app you created in Designer into your custom react code base.
 
 ## API
 
-   [Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) provides a HTTP API you can use to fetch the data from Designer and render it in any way you want.   
+[Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) provides a HTTP API you can use to fetch the data from Designer and render it in any way you want.
 
 ## CLI
 
-   [Webstudio CLI](https://github.com/webstudio-is/webstudio-cli) is a command-line interface you can use to simplify working with the HTTP API. You can execute a simple script that will fetch the data from a Webstudio Designer instance of your choice and download it onto your local project's file system.
+[Webstudio CLI](https://github.com/webstudio-is/webstudio-cli) is a command-line interface you can use to simplify working with the HTTP API. You can execute a simple script that will fetch the data from a Webstudio Designer instance of your choice and download it onto your local project's file system.
 
 ## Built with
 
