@@ -5,31 +5,46 @@
    You own the data, components, and infrastructure.<br /> 
    You can use the hosted version or roll out your own.
 
-   [__Website__](https://webstudio.is) • [__Twitter__](https://twitter.com/webstudiois) • [__Discussions__](https://github.com/webstudio-is/webstudio/discussions)
+   [__Website__](https://webstudio.is) • [__Article__](https://dev.to/oleg008/webstudio-next-generation-visual-development-4d0d) • [__Twitter__](https://twitter.com/webstudiois) • [__Discussions__](https://github.com/webstudio-is/webstudio/discussions) • [__Discord__](https://discord.gg/UNdyrDkq5r)
    
    <img width="883" alt="Screenshot" src="https://user-images.githubusercontent.com/52824/159119092-0f2f22d9-846d-4f89-95fd-41b7f18f3aee.png">
 
 </section>
 
-## Overview
 
-### [Designer](https://github.com/webstudio-is/webstudio-designer)
+## Articles
 
-   Webstudio Designer is a NoCode Visual Tool inspired by Webflow. It is the place where you can build your site or app visually.
+[Webstudio - next generation visual development](https://dev.to/oleg008/webstudio-next-generation-visual-development-4d0d)
 
-### [SDK](https://github.com/webstudio-is/webstudio-sdk)
+## Community
 
-   Webstudio SDK is an optional JavaScript/Typescript API that lets you render the same components you see on the canvas in Designer. The Designer is also using this SDK to render on the canvas.
+[Twitter](https://twitter.com/webstudiois) 
+
+[Discussions](https://github.com/webstudio-is/webstudio/discussions)
+
+[Discord](https://discord.gg/Tfdr3u8x)
+
+## Examples
+
+[Webstudio landing site](https://github.com/webstudio-is/webstudio-landing)
+
+## Designer
+
+   [Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) is a NoCode Visual Tool inspired by Webflow. It is the place where you can build your site or app visually.
+
+## SDK
+
+   [Webstudio SDK](https://github.com/webstudio-is/webstudio-sdk) is an optional JavaScript/Typescript API that lets you render the same components you see on the canvas in Designer. The Designer is also using this SDK to render on the canvas.
 
    SDK lets you integrate the site or app you created in Designer into your custom react code base.
 
-### [API](https://github.com/webstudio-is/webstudio-designer)
+## API
 
-   Webstudio Designer provides an HTTP API you can use to fetch the data from Designer and render it in any way you want.
+   [Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) provides a HTTP API you can use to fetch the data from Designer and render it in any way you want.   
 
-### [CLI](https://github.com/webstudio-is/webstudio-cli)
+## CLI
 
-   Webstudio CLI is a command-line interface you can use to simplify working with the HTTP API. You can execute a simple script that will fetch the data from a Webstudio Designer instance of your choice and download it onto your local project's file system.
+   [Webstudio CLI](https://github.com/webstudio-is/webstudio-cli) is a command-line interface you can use to simplify working with the HTTP API. You can execute a simple script that will fetch the data from a Webstudio Designer instance of your choice and download it onto your local project's file system.
 
 ## Built with
 
