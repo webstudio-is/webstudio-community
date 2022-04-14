@@ -5,7 +5,7 @@ Webstudio is an Open Source Visual Development Platform for developers, designer
 You own the data, components, and infrastructure.<br />
 You can use the hosted version or roll out your own.
 
-[**Website**](https://webstudio.is) • [**Article**](https://dev.to/oleg008/webstudio-next-generation-visual-development-4d0d) • [**Twitter**](https://twitter.com/webstudiois) • [**Discussions**](https://github.com/webstudio-is/webstudio/discussions) • [**Discord**](https://discord.gg/UNdyrDkq5r)
+[**Website**](https://webstudio.is) • [**Twitter**](https://twitter.com/webstudiois) • [**Discussions**](https://github.com/webstudio-is/webstudio/discussions) • [**Discord**](https://discord.gg/UNdyrDkq5r)
 
    <img width="883" alt="Screenshot" src="https://user-images.githubusercontent.com/52824/159119092-0f2f22d9-846d-4f89-95fd-41b7f18f3aee.png">
 
@@ -67,11 +67,9 @@ SDK lets you integrate the site or app you created in Designer into your custom 
 
 ## Roadmap
 
-The roadmap is going to be community-driven, so it's yet TBD. Some initial ideas would be:
+The roadmap is community-driven, so don't hesitate to reach out and help shaping it:
 
-1. Quality and feature parity with Webflow's Style Panel and more.
-2. Visual Interface for GraphQL bindings creation for integrating with any GraphQL API from services like Shopify or GraphCMS.
-3. Accessibility features that help guide users to produce accessible sites.
+[Roadmap](https://github.com/orgs/webstudio-is/projects/1)
 
 ## Why Are We Building This?
 
