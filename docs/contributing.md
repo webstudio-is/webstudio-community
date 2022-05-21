@@ -27,12 +27,12 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 7. Run `yarn dev` - URL will be logged
 
 
-## Run designer and sdk in parallel
+## Develop designer and SDK in parallel
 
 For this we current use [relative-deps](https://github.com/mweststrate/relative-deps) and the way you can run both things is the following:
 
 * Git clone the sdk at https://github.com/webstudio-is/webstudio-sdk
-* In the designer run `yarn dev` and in another window run `yarn sdk:watch`
+* In the designer run `yarn dev` and in another window run `yarn watch:sdk`
 
 This will trigger a build of the sdk when you make changes and that will in turn reload your designer.
 
