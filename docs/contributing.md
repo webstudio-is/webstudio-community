@@ -26,6 +26,16 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 6. Run `yarn` - install dependencies
 7. Run `yarn dev` - URL will be logged
 
+
+## Run designer and sdk in parallel
+
+For this we current use [relative-deps](https://github.com/mweststrate/relative-deps) and the way you can run both things is the following:
+
+* Git clone the sdk at https://github.com/webstudio-is/webstudio-sdk
+* In the designer run `yarn dev` and in another window run `yarn sdk:watch`
+
+This will trigger a build of the sdk when you make changes and that will in turn reload your designer.
+
 ## Designer deployment to Vercel
 
 1. [import your Git repository](https://vercel.com/new) into Vercel, and it will be deployed.
