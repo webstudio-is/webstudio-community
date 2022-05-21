@@ -34,7 +34,7 @@ For this we current use [relative-deps](https://github.com/mweststrate/relative-
 * Git clone the sdk at https://github.com/webstudio-is/webstudio-sdk
 * In the designer run `yarn dev` and in another window run `yarn watch:sdk`
 
-This will trigger a build of the sdk when you make changes and that will in turn reload your designer.
+This will trigger a build of the SDK whenever make changes to it and that will in turn reload your designer.
 
 ## Designer deployment to Vercel
 
