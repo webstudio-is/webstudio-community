@@ -20,19 +20,20 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 
 1. Install [Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
 2. Install [Yarn](https://yarnpkg.com/) `npm i -g yarn`
-3. Install [MongoDB](https://www.mongodb.com/) or use [Atlas](https://www.mongodb.com/atlas/database) (recommended)
+3. Install Postgres, in here there are two main options:
+   3.1: Install the [official Postgres app](https://www.postgresql.org/download/) - Make sure to remember the username and password you choose since you will need it for the connection string
+   3.2: On a mac you can also install [Postgres.app](https://postgresapp.com/) and in that case you will have no password and your username will be the same as your system username.
 4. Clone the repository `git clone git@github.com:webstudio-is/webstudio-designer.git`
-5. Connect to the [database](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/mongodb/connect-your-database-typescript-mongodb): add a database URL to the env variables by creating an .env file in the root of the project and adding there `DATABASE_URL="mongodb+srv://user:password@host"`
+5. Connect to the [database](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-postgres): add a database URL to the env variables by creating an .env file in the root of the project and adding there `DATABASE_URL=postgresql://user:pass@localhost/webstudio` or `DATABASE_URL=postgresql://user@localhost/webstudio`if using Postgres.app.
 6. Run `yarn` - install dependencies
 7. Run `yarn dev` - URL will be logged
-
 
 ## Develop designer and SDK in parallel
 
 For this we current use [relative-deps](https://github.com/mweststrate/relative-deps) and the way you can run both things is the following:
 
-* Git clone the sdk at https://github.com/webstudio-is/webstudio-sdk
-* In the designer run `yarn dev` and in another window run `yarn watch:sdk`
+- Git clone the sdk at https://github.com/webstudio-is/webstudio-sdk
+- In the designer run `yarn dev` and in another window run `yarn watch:sdk`
 
 This will trigger a build of the SDK whenever make changes to it and that will in turn reload your designer.
 
