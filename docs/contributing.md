@@ -39,14 +39,14 @@ To enable you must have two lines in your `.env`:
 
 ```
 DEV_LOGIN=true
-AUTH_SECRET="a random value"
+AUTH_SECRET=a random value
 ```
 
 To login in the app click on the "Dev Login" button and paste the value of your `AUTH_SECRET` in the input.
 
 ### GitHub Login
 
-To login and use GitHub login you will need to create an OAuth with the following values:
+To login and use GitHub login you will need to create an OAuth app with the following values:
 
 ```
 Name: Webstudio
@@ -56,7 +56,7 @@ Authorization callback URL: http://localhost:3000/auth/github/callback
 
 > When creating the app with `http://localhost:3000` you will need to always open your app at `http://localhost:3000` for the GitHub login to work.
 
-After the app is created you will need to create a client secret and then copy those values to your `.env` file:
+After the app is created you will need to create a client secret and then copy that value and your client id to the `.env` file:
 
 ```
 GH_CLIENT_SECRET=
