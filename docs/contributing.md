@@ -28,6 +28,43 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 6. Run `yarn` - install dependencies
 7. Run `yarn dev` - URL will be logged
 
+## Login locally
+
+When downloading the app you will have two options for login and they both work in different ways.
+
+### Dev login
+
+Dev login will create you a dev account so you don't need to be online or create a github app.
+To enable you must have two lines in your `.env`:
+
+```
+DEV_LOGIN=true
+AUTH_SECRET=a random value
+```
+
+To login in the app click on the "Dev Login" button and paste the value of your `AUTH_SECRET` in the input.
+
+### GitHub Login
+
+To login and use GitHub login you will need to create an OAuth app with the following values:
+
+```
+Name: Webstudio
+Homepage URL: http://localhost:3000
+Authorization callback URL: http://localhost:3000/auth/github/callback
+```
+
+> When creating the app with `http://localhost:3000` you will need to always open your app at `http://localhost:3000` for the GitHub login to work.
+
+After the app is created you will need to create a client secret and then copy that value and your client id to the `.env` file:
+
+```
+GH_CLIENT_SECRET=
+GH_CLIENT_ID=
+```
+
+You are done! 🎉
+
 ## Develop designer and SDK in parallel
 
 For this we current use [relative-deps](https://github.com/mweststrate/relative-deps) and the way you can run both things is the following:
