@@ -42,7 +42,7 @@ DEV_LOGIN=true
 AUTH_SECRET=a random value
 ```
 
-To login in the app click on the "Dev Login" button and paste the value of your `AUTH_SECRET` in the input.
+To login in the app click on the "Dev Login" button and paste the first four character of your `AUTH_SECRET` in the input.
 
 ### GitHub Login
 
