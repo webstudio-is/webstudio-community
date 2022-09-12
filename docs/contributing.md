@@ -26,7 +26,7 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 4. Clone the repository `git clone git@github.com:webstudio-is/webstudio-designer.git`
 5. Connect to the [database](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-postgres): add a database URL to the env variables by creating an .env file in the `apps/designer` and adding there `DATABASE_URL=postgresql://user:pass@localhost/webstudio` or `DATABASE_URL=postgresql://user@localhost/webstudio` if using Postgres.app.
 6. Run `yarn` - install dependencies
-7. Run `yarn migrate` - apply database migrations
+7. Run `yarn migrations migrate` - apply database migrations
 8. Run `yarn dev` - URL will be logged
 
 ## Login locally
