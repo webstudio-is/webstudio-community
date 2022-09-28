@@ -89,3 +89,13 @@ vercel
 ```
 
 It is generally recommended to use a Git repository, because future commits will then automatically be deployed by Vercel, through its [Git Integration](https://vercel.com/docs/concepts/git).
+
+## Release new version of a package
+
+Follow this guide if you would like to release a new version one of our package available to npm.
+
+The flow looks like the following:
+1. Modify the code in a branch other than `main`.
+2. Every commit on any branch builds and publish to npm with `--dry-run` options.
+3. If everything looks fine, bump the version in `package.json`, open a PR and if it's approved, merge it.
+4. Every commit on `main` will try publish to npm in case of any files or release process (GitHub Action) changed inside the package directory.
