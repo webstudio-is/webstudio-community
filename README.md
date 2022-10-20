@@ -27,7 +27,7 @@ Don't hesitate to reach out of you have questions around contributing to the pro
 
 [Discussions](https://github.com/webstudio-is/webstudio/discussions)
 
-[Discord](https://discord.gg/Tfdr3u8x)
+[Discord](https://discord.com/invite/UNdyrDkq5r)
 
 ## Examples
 
