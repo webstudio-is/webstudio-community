@@ -24,7 +24,7 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 
    1. Install the [official Postgres app](https://www.postgresql.org/download/) - Make sure to remember the username and password you choose since you will need it for the connection string
    2. On a mac you can also install [Postgres.app](https://postgresapp.com/) and in that case you will have no password and your username will be the same as your system username.
-   3. Intall [Docker Engine](https://docs.docker.com/engine/install/), run `docker compose -f ./apps/designer/ docker-compose.yaml up -d` to start Postgres _(use PGPORT environment variable in case of default is already used)_.
+   3. Intall [Docker Engine](https://docs.docker.com/engine/install/), run `docker compose -f ./apps/designer/docker-compose.yaml up -d` to start Postgres _(use PGPORT environment variable in case of default is already used)_.
 
 4. Clone the repository `git clone git@github.com:webstudio-is/webstudio-designer.git`
 5. Connect to the [database](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-postgres): add a database URL to the env variables by creating an .env file in the `apps/designer` and adding there `DATABASE_URL=postgresql://user:pass@localhost/webstudio` or `DATABASE_URL=postgresql://user@localhost/webstudio` if using Postgres.app.
