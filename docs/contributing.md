@@ -19,7 +19,7 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 ## Designer installation
 
 1. Install [Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
-2. Install [Yarn](https://yarnpkg.com/) `npm i -g yarn`
+2. Install [PNpm](https://pnpm.io/) `npm i -g pnpm`
 3. Install Postgres, in here there are three main options:
 
    1. Install the [official Postgres app](https://www.postgresql.org/download/) - Make sure to remember the username and password you choose since you will need it for the connection string
@@ -28,9 +28,9 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 
 4. Clone the repository `git clone git@github.com:webstudio-is/webstudio-designer.git`
 5. Connect to the [database](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-postgres): add a database URL to the env variables by creating an .env file in the `apps/designer` and adding there `DATABASE_URL=postgresql://user:pass@localhost/webstudio` or `DATABASE_URL=postgresql://user@localhost/webstudio` if using Postgres.app.
-6. Run `yarn` - install dependencies
-7. Run `yarn migrations migrate` - apply database migrations
-8. Run `yarn dev` - URL will be logged
+6. Run `pnpm install` - install dependencies
+7. Run `pnpm migrations migrate` - apply database migrations
+8. Run `pnpm dev` - URL will be logged
 
 ## Login locally
 
@@ -74,7 +74,7 @@ You are done! 🎉
 For this we current use [relative-deps](https://github.com/mweststrate/relative-deps) and the way you can run both things is the following:
 
 - Git clone the sdk at https://github.com/webstudio-is/webstudio-sdk
-- In the designer run `yarn dev` and in another window run `yarn watch:sdk`
+- In the designer run `pnpm dev` and in another window run `pnpm watch:sdk`
 
 This will trigger a build of the SDK whenever make changes to it and that will in turn reload your designer.
 
