@@ -2,7 +2,7 @@
 
 ## Open Source
 
-Open Source started as the Free Software movement, which believes users should "have the freedom to run, copy, distribute, study, change and improve the software." If you ask 10 people about the difference between Open Source and Free Software, you'll likely get 10 different answers. While the philosophy can be unclear, in practice, this translates to software licenses, which are clear and legally binding. 
+Open Source started as the Free Software movement, which believes users should "have the freedom to run, copy, distribute, study, change and improve the software." If you ask 10 people about the difference between Open Source and Free Software, you'll likely get 10 different answers. While the philosophy can be vague, in practice, this translates to software licenses, which are clear and legally binding. 
 
 According to the Open Source Initiative, in order for a software license to count as open source, it has to allow for freedom of redistribution, distribution of source code (both in text and compiled form), and modified/derived works. The licence cannot discriminate against any groups of people, or against any use cases. It also cannot restrict any other software that might be bundled with the open source program as part of a larget product.
 
