@@ -10,7 +10,7 @@ The Webstudio Designer is distributed under the MIT license, an Open Source lice
 
 Many products use a combination of Open Source and proprietary parts, and as such can't be called Open Source. Some companies choose to differentiate the open source components vs the entire product (e.g. The Android on your Pixel phone is proprietary, but within it is the Android Open Source Project (AOSP) which is Open Source). Some companies choose instead to call their products Open Core, which says that the "core" of the product is Open Source, but acknowledges the existence of proprietary parts within. In our case, while the Webstudio Designer is open source, Webstudio as a whole would be Open Core.
 
-Links: [Open Source Definition](https://opensource.org/osd), [MIT License](https://mit-license.org/)
+[Open Source Definition](https://opensource.org/osd), [MIT License](https://mit-license.org/)
 
 ## Edge deployment
 
@@ -22,7 +22,7 @@ When a user does something, it registers as an event (e.g clicks on a sign-up bu
 
 Examples of CDNs include AWS Lamda, and Cloudflare Workers. The difference between AWS Lamda and Cloudflare workers is that AWS Lamda runs full Node.JS, and Cloudflare Workers use Workers (a Javascript virtual machine + APIs) that run inside a V8 browser (the same tech used in Google Chrome). The advantage of running full Node.JS is there is full compatibility, but it's slower as the Node.JS code takes time to start up (known as the cold start problem), keeping the Node.JS code running and listening for more events solves this, but is resource intensive. The benefit of Workers in the browser is that they start up much faster, and thus can be turned off once the function is executed. Cloudflare has also open-sourced its Workers technology (workerd). So someone could create their own Workers system without Cloudlfare.
 
-Links: [Cloudflare Workers](https://workers.cloudflare.com/), [Cloudflare's open source workerd technology](https://blog.cloudflare.com/workerd-open-source-workers-runtime/)
+[Cloudflare Workers](https://workers.cloudflare.com/), [Cloudflare's open source workerd technology](https://blog.cloudflare.com/workerd-open-source-workers-runtime/)
 
 ## Design Tokens
 
@@ -36,7 +36,7 @@ Because Design Tokens are essentially stored variables, they can do lots of thin
 
 Design Tokens don't replace design documentation, but are used in conjunction to create a design system that is easily implemented and maintained.
 
-Links: [WC3 Design Tokens Format](https://tr.designtokens.org/format/), [Tokens Studio Plugin documentation](https://docs.tokens.studio/)
+[WC3 Design Tokens Format](https://tr.designtokens.org/format/), [Tokens Studio Plugin documentation](https://docs.tokens.studio/)
 
 ## GDPR Compliance (Data Privacy)
 
@@ -67,7 +67,7 @@ Overall, it is very easy to violate GDPR compliance. Common practices like using
 
 Considering that our product is designed to be extensible, we can't guarantee that every website made with Webstudio will be GDPR compliant, but we will make it so that there is nothing inherent about our product that violates GDPR.
 
-Links: [What is GDPR?](https://gdpr.eu/what-is-gdpr/), [Who must comply with GDPR](https://gdpr.eu/companies-outside-of-europe/)
+[What is GDPR?](https://gdpr.eu/what-is-gdpr/), [Who must comply with GDPR](https://gdpr.eu/companies-outside-of-europe/)
 
 ## Image Optimization
 
@@ -79,7 +79,7 @@ Formats aside, another determining factor of image size is its dimensions. All e
 
 In addition to automatically converting images to WebP, Webstudio detects the exact dimensions the image needs to fit into on the webpage, and resizes the image accordingly. Both of these steps ensure that images are as small as possible without degrading the viewing experience.
 
-Links: [WebP FAQ](https://developers.google.com/speed/webp/faq)
+[WebP FAQ](https://developers.google.com/speed/webp/faq)
 
 ## Extensibility (APIs)
 
@@ -97,7 +97,7 @@ Webstudio provides public APIs to allow developers to retrieve information about
 
 Webstudio uses APIs to allow developers to extend its functionality to fit their needs. It provides an Integration API that allows developers to create their own UIs within Webstudio, similar with Figma plugins. In addition, developers can use APIs to provide metadata about their components.
 
-Links: [API Wiki](https://en.wikipedia.org/wiki/API)
+[API Wiki](https://en.wikipedia.org/wiki/API)
 
 ## Webstudio Roadmap
 
@@ -105,4 +105,4 @@ Beyond the beta, Webstudio is focusing on becoming the best tool for creating Us
 
 Using APIs, users can integrate Webstudip with services of their choice, such as CMS, E-commerce platforms, Automation tools, Databases, etc. As much as possible, Webflow uses Open Source components and standards to give users the freedom to create whatever they want, however they want.
 
-Links: [Webstudio Vision Document](https://webstudiois.notion.site/Vision-f52ed097ccaa410eb05076981d446c2f)
+[Webstudio Vision Document](https://webstudiois.notion.site/Vision-f52ed097ccaa410eb05076981d446c2f)
