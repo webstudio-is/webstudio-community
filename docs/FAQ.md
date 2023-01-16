@@ -38,7 +38,7 @@ Design Tokens don't replace design documentation, but are used in conjunction to
 
 [WC3 Design Tokens Format](https://tr.designtokens.org/format/), [Tokens Studio Plugin documentation](https://docs.tokens.studio/)
 
-## How does the GDPR protext data privacy? (What counts as GDPR compliant?)
+## How does the GDPR protect data privacy? (What counts as GDPR compliant?)
 
 The General Data Protection Regulation (GDPR) is the toughest data privacy and security law in the world. This law applies to organizations everywhere that target and collect data from people in the EU. Fines for violating the GDPR can go up to €20 million or 4% of the company's global revenue (whichever is higher).
 
