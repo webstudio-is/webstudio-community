@@ -1,6 +1,6 @@
-# Core Concepts
+# FAQ
 
-## Open Source
+## What is Open Source?
 
 Open Source started as the Free Software movement, which believes users should "have the freedom to run, copy, distribute, study, change and improve the software." If you ask 10 people about the difference between Open Source and Free Software, you'll likely get 10 different answers. While the philosophy can be vague, in practice, this translates to software licenses, which are clear and legally binding. 
 
@@ -12,7 +12,7 @@ Many products use a combination of Open Source and proprietary parts, and as suc
 
 [Open Source Definition](https://opensource.org/osd), [MIT License](https://mit-license.org/)
 
-## Edge deployment
+## How does Edge Deployment work?
 
 Cloudflare allows you to "deploy serverless code instantly across the globe to give it exceptional performance, reliability, and scale." What does that mean?
 
@@ -24,7 +24,7 @@ Examples of CDNs include AWS Lamda, and Cloudflare Workers. The difference betwe
 
 [Cloudflare Workers](https://workers.cloudflare.com/), [Cloudflare's open source workerd technology](https://blog.cloudflare.com/workerd-open-source-workers-runtime/)
 
-## Design Tokens
+## What are Design Tokens?
 
 The larger a design system gets, the harder it is to keep things consistent. Colors, spacing, border-widths, font-sizes, etc, can become a nightmare to upkeep, especially without documentation (e.g. use the eyedropper tool to find the color of the button). Even with good design documentation, it can be unclear which value goes where (e.g. is the button supposed to be blue-400 or blue-500?), and every time something new is implemented is a chance to muddy the system.
 
@@ -38,7 +38,7 @@ Design Tokens don't replace design documentation, but are used in conjunction to
 
 [WC3 Design Tokens Format](https://tr.designtokens.org/format/), [Tokens Studio Plugin documentation](https://docs.tokens.studio/)
 
-## GDPR Compliance (Data Privacy)
+## How does the GDPR protext data privacy? (What counts as GDPR compliant?)
 
 The General Data Protection Regulation (GDPR) is the toughest data privacy and security law in the world. This law applies to organizations everywhere that target and collect data from people in the EU. Fines for violating the GDPR can go up to €20 million or 4% of the company's global revenue (whichever is higher).
 
@@ -69,7 +69,7 @@ Considering that our product is designed to be extensible, we can't guarantee th
 
 [What is GDPR?](https://gdpr.eu/what-is-gdpr/), [Who must comply with GDPR](https://gdpr.eu/companies-outside-of-europe/)
 
-## Image Optimization
+## How does Webstudio optimize images?
 
 Images comprise up to 60%-65% of bytes on most web pages and page size is a major factor in total rendering time. In order to improve page load, Google created the WebP image format. On average WebP images are about 30% smaller than equivalent PNG/JPEG images. In addition, WebP is also an Open Source format.
 
@@ -81,7 +81,7 @@ In addition to automatically converting images to WebP, Webstudio detects the ex
 
 [WebP FAQ](https://developers.google.com/speed/webp/faq)
 
-## Extensibility (APIs)
+## How is Webstudio Extensible? (What is an API?)
 
 How does your weather app know what the whether is like? How does Booking.com know the rates of all those hotels and airlines? How do websites allow you to login via Google/Twitter/Facebook? With APIs!
 
@@ -99,9 +99,9 @@ Webstudio uses APIs to allow developers to extend its functionality to fit their
 
 [API Wiki](https://en.wikipedia.org/wiki/API)
 
-## Webstudio Roadmap
+## What is Webstudio trying to be?
 
-Beyond the beta, Webstudio is focusing on becoming the best tool for creating User Interfaces for the web. Today it is capable of building static websites that are fast and responsive. Additional features like the linked CSS editor, animations and real-time collaboration are coming. 
+Beyond the beta, Webstudio is focusing on becoming the best tool for creating user interfaces for the web. Today it is capable of building static websites that are fast and responsive. Additional features like the linked CSS editor, animations and real-time collaboration are coming. 
 
 Using APIs, users can integrate Webstudip with services of their choice, such as CMS, E-commerce platforms, Automation tools, Databases, etc. As much as possible, Webflow uses Open Source components and standards to give users the freedom to create whatever they want, however they want.
 
