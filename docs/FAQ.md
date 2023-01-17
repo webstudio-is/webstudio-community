@@ -106,3 +106,5 @@ Beyond the beta, Webstudio is focusing on becoming the best tool for creating us
 Using APIs, users can integrate Webstudip with services of their choice, such as CMS, E-commerce platforms, Automation tools, Databases, etc. As much as possible, Webflow uses Open Source components and standards to give users the freedom to create whatever they want, however they want.
 
 [Webstudio Vision Document](https://webstudiois.notion.site/Vision-f52ed097ccaa410eb05076981d446c2f)
+
+Fin.
