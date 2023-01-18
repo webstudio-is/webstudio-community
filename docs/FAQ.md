@@ -81,7 +81,7 @@ In addition to automatically converting images to WebP, Webstudio detects the ex
 
 [WebP FAQ](https://developers.google.com/speed/webp/faq)
 
-## How is Webstudio Extensible? (What is an API?)
+## How is Webstudio extensible? (What is an API?)
 
 How does your weather app know what the whether is like? How does Booking.com know the rates of all those hotels and airlines? How do websites allow you to login via Google/Twitter/Facebook? With APIs!
 
