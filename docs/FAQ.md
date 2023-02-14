@@ -13,7 +13,7 @@ For example: The Android on a Pixel phone is proprietary, but it's powered by An
 Some companies choose instead to call their products open core, rather than open source, which denotes that the primary functionality (or "core") of the product is open source, but acknowledges the existence of proprietary parts within.
 
 ## How is Webstudio licensed?
-The Webstudio Designer is distributed under the MIT license, an open source license that allows the user to copy, modify, merge, publish, distrubute, sublicense, or sell as long as the same copyright/permission notice is included. In short: do what you want, with Webstudio, but give credit. The MIT license very popular, as it's considered one of the most permissive open source licenses and limits legal headaches.
+The Webstudio Builder is distributed under the MIT license, an open source license that allows the user to copy, modify, merge, publish, distrubute, sublicense, or sell as long as the same copyright/permission notice is included. In short: do what you want, with Webstudio, but give credit. The MIT license very popular, as it's considered one of the most permissive open source licenses and limits legal headaches.
 
 ## Is Webstudio open source?
 The Webstudio Builder is open source, while the entire Webstudio platform is open core.
@@ -36,7 +36,7 @@ The larger a design system gets, the harder it is to keep things consistent. Col
 
 Design Tokens solve this problem by creating a single source of truth for both designers and developers. Variables that dictate font size, border widths, color, spacing, etc. are stored as tokens, and are accessible to team members via their tools of choice (such as through JSON files and sync providers like Github).
 
-A designer can change a design token on Figma, and a developer will see that change on Visual Studio Code. 
+A builder can change a design token on Figma, and a developer will see that change on Visual Studio Code. 
 
 A common use case for design tokens is semantic colors, where colors are named after their use (e.g., the button color is $button.primary, and the hex-code for $button.primary is defined in the token).
 
