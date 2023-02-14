@@ -33,23 +33,23 @@ Don't hesitate to reach out of you have questions around contributing to the pro
 
 [Webstudio landing site](https://github.com/webstudio-is/webstudio-landing)
 
-## Designer
+## Builder
 
-[Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) is a NoCode Visual Tool inspired by Webflow. It is the place where you can build your site or app visually.
+[Webstudio Builder](https://github.com/webstudio-is/webstudio-builder) is a NoCode Visual Tool inspired by Webflow. It is the place where you can build your site or app visually.
 
 ## SDK
 
-[Webstudio SDK](https://github.com/webstudio-is/webstudio-sdk) is an optional JavaScript/Typescript API that lets you render the same components you see on the canvas in Designer. The Designer is also using this SDK to render on the canvas.
+[Webstudio SDK](https://github.com/webstudio-is/webstudio-sdk) is an optional JavaScript/Typescript API that lets you render the same components you see on the canvas in Builder. The Builder is also using this SDK to render on the canvas.
 
-SDK lets you integrate the site or app you created in Designer into your custom react code base.
+SDK lets you integrate the site or app you created in Builder into your custom react code base.
 
 ## API
 
-[Webstudio Designer](https://github.com/webstudio-is/webstudio-designer) provides a HTTP API you can use to fetch the data from Designer and render it in any way you want.
+[Webstudio Builder](https://github.com/webstudio-is/webstudio-builder) provides a HTTP API you can use to fetch the data from Builder and render it in any way you want.
 
 ## CLI
 
-[Webstudio CLI](https://github.com/webstudio-is/webstudio-cli) is a command-line interface you can use to simplify working with the HTTP API. You can execute a simple script that will fetch the data from a Webstudio Designer instance of your choice and download it onto your local project's file system.
+[Webstudio CLI](https://github.com/webstudio-is/webstudio-cli) is a command-line interface you can use to simplify working with the HTTP API. You can execute a simple script that will fetch the data from a Webstudio Builder instance of your choice and download it onto your local project's file system.
 
 ## Built with
 

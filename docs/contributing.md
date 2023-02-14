@@ -4,7 +4,7 @@
 
 If you want to contribute and don't know where to start, here is a step-by-step for a complete lifecycle, from idea to deployment.
 
-1. If you have an idea that is not already in [discussion](https://github.com/webstudio-is/webstudio/discussions) or [issues](https://github.com/webstudio-is/webstudio-designer/issues), please start a discussion or reach out on [discord](https://discord.gg/UNdyrDkq5r)
+1. If you have an idea that is not already in [discussion](https://github.com/webstudio-is/webstudio/discussions) or [issues](https://github.com/webstudio-is/webstudio-builder/issues), please start a discussion or reach out on [discord](https://discord.gg/UNdyrDkq5r)
 
 1. We welcome everyone, developers and non-developers. If you are a developer and would like to build it - please say so and we will assign the issue to you, so you will have a complete ownership over it's development.
 
@@ -16,7 +16,7 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 
 1. When the implementation is in a mergeable state, a core team member will deploy it to production.
 
-## Designer installation
+## Builder installation
 
 1. Install [Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
 2. Install [PNpm](https://pnpm.io/) `npm i -g pnpm`
@@ -24,10 +24,10 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 
    1. Install the [official Postgres app](https://www.postgresql.org/download/) - Make sure to remember the username and password you choose since you will need it for the connection string
    2. On a mac you can also install [Postgres.app](https://postgresapp.com/) and in that case you will have no password and your username will be the same as your system username.
-   3. Intall [Docker Engine](https://docs.docker.com/engine/install/), run `docker compose -f ./apps/designer/docker-compose.yaml up -d` to start Postgres _(use PGPORT environment variable in case of default is already used)_.
+   3. Intall [Docker Engine](https://docs.docker.com/engine/install/), run `docker compose -f ./apps/builder/docker-compose.yaml up -d` to start Postgres _(use PGPORT environment variable in case of default is already used)_.
 
-4. Clone the repository `git clone git@github.com:webstudio-is/webstudio-designer.git`
-5. Connect to the [database](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-postgres): add a database URL to the env variables by creating an .env file in the `apps/designer` and adding there `DATABASE_URL=postgresql://user:pass@localhost/webstudio` or `DATABASE_URL=postgresql://user@localhost/webstudio` if using Postgres.app.
+4. Clone the repository `git clone git@github.com:webstudio-is/webstudio-builder.git`
+5. Connect to the [database](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-postgres): add a database URL to the env variables by creating an .env file in the `apps/builder` and adding there `DATABASE_URL=postgresql://user:pass@localhost/webstudio` or `DATABASE_URL=postgresql://user@localhost/webstudio` if using Postgres.app.
 6. Run `pnpm install` - install dependencies
 7. Run `pnpm migrations migrate` - apply database migrations
 8. Run `pnpm dev` - URL will be logged
@@ -69,16 +69,16 @@ GH_CLIENT_ID=
 
 You are done! 🎉
 
-## Develop designer and SDK in parallel
+## Develop builder and SDK in parallel
 
 For this we current use [relative-deps](https://github.com/mweststrate/relative-deps) and the way you can run both things is the following:
 
 - Git clone the sdk at https://github.com/webstudio-is/webstudio-sdk
-- In the designer run `pnpm dev` and in another window run `pnpm watch:sdk`
+- In the builder run `pnpm dev` and in another window run `pnpm watch:sdk`
 
-This will trigger a build of the SDK whenever make changes to it and that will in turn reload your designer.
+This will trigger a build of the SDK whenever make changes to it and that will in turn reload your builder.
 
-## Designer deployment to Vercel
+## Builder deployment to Vercel
 
 1. [import your Git repository](https://vercel.com/new) into Vercel, and it will be deployed.
 2. Add DATABASE_URL to env variables
