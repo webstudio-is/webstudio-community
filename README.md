@@ -7,7 +7,7 @@ You can use the hosted version or roll out your own.
 
 [**Website**](https://webstudio.is) • [**Twitter**](https://twitter.com/webstudiois) • [**Discussions**](https://github.com/webstudio-is/webstudio/discussions) • [**Discord**](https://discord.gg/UNdyrDkq5r) • [**Wishlist**](https://github.com/webstudio-is/webstudio/discussions/categories/wishlist)
 
-   <img width="883" alt="Screenshot" src="https://user-images.githubusercontent.com/52824/159119092-0f2f22d9-846d-4f89-95fd-41b7f18f3aee.png">
+<img width="1512" alt="Screenshot 2023-02-16 at 20 49 47" src="https://user-images.githubusercontent.com/52824/219483810-7f3b97d5-5bd0-4988-a7c6-0b29a913ef40.png">
 
 </section>
 
