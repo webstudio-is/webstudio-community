@@ -32,6 +32,14 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 7. Run `pnpm migrations migrate` - apply database migrations
 8. Run `pnpm dev` - URL will be logged
 
+## Creating database
+
+If you are configuring the app for the first time. Create the database before running migrations.
+
+```sh
+user=# CREATE DATABASE webstudio;
+```
+
 ## Login locally
 
 When downloading the app you will have two options for login and they both work in different ways.
@@ -46,7 +54,7 @@ DEV_LOGIN=true
 AUTH_SECRET=a random value
 ```
 
-To login in the app click on the "Dev Login" button and paste the first four character of your `AUTH_SECRET` in the input.
+To login in the app click on the "Dev Login" button and paste the **first four character** of your `AUTH_SECRET` in the input.
 
 ### GitHub Login
 
