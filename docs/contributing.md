@@ -37,7 +37,7 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 If you are configuring the app for the first time. Create the database before running migrations.
 
 ```sh
-user=# CREATE DATABASE webstudio;
+> CREATE DATABASE webstudio;
 ```
 
 ## Login locally
