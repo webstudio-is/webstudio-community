@@ -5,15 +5,17 @@
 </section>
 <br /><br />
 
+## Learning ressources
+
+- [Blog](https://webstudio.is/blog)
+- [Community documentation](https://github.com/webstudio-is/webstudio/tree/main/docs)
+- [Brand and product design](https://github.com/webstudio-is/webstudio-design/)
+
 ## Social Media
 
 - [Twitter](https://twitter.com/getwebstudio)
 - [Youtube](https://www.youtube.com/@getwebstudio)
 - [Discord](https://discord.gg/UNdyrDkq5r)
-
-## Learning ressources
-
-- [Blog](https://webstudio.is/blog)
 
 ## Contributing
 
