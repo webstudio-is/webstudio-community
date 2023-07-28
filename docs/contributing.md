@@ -6,9 +6,12 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 
 1. If you have an idea that is not already in [discussion](https://github.com/webstudio-is/webstudio/discussions) or [issues](https://github.com/webstudio-is/webstudio-builder/issues), please start a discussion or reach out on [discord](https://discord.gg/UNdyrDkq5r)
 
-1. We welcome everyone, developers and non-developers. If you are a developer and would like to build it - please say so and we will assign the issue to you, so you will have a complete ownership over it's development.
+1. We welcome everyone, developers and non-developers.
 
-   If you are a designer, you can lead the process too. We will find a developer who will pair up with you.
+   - If you are a DEVLOPER, and you want to contribute to the Builder UI, your first step is to become familiar with our design system in figma. Start with the first page of our [Design Docs](https://www.figma.com/file/xCBegXEWxROLqA1Y31z2Xo/%F0%9F%93%96-Webstudio-Design-Docs?type=design&node-id=234%3A36754&t=w3VxT162RQF0gTrI-1). And for our design system & components see the [Webstudio Library](https://www.figma.com/file/sfCE7iLS0k25qCxiifQNLE/%F0%9F%93%9A-Webstudio-Library?type=design&node-id=2647%3A10046&t=f4xr8mcumXfXkHVh-1).
+   Please read the docs carefully and throughly so you can use our design system properly to create a UI that looks like it's a natural part of Webstudio. If any part of the design is confusing or intimidating you can reach out to [Taylor Nowotny](https://github.com/taylornowotny) with questions or feedback. I'm happy to give a tour of the design system to anyone who asks.
+
+   - If you are a DESIGNER, you can browse our design files with the above links, you can share your ideas in any discussion, or if you would like to get more deeply involved you can reach out to [Taylor Nowotny](https://github.com/taylornowotny), our product design lead. I'm happy to give a tour of the design system to anyone who asks.
 
 1. After submitting an enhancement or a bug we need to agree on a solution. You can jump into implementation right away, but be aware that we have to agree on the solution in the end. Communicating the problem you are solving and why you think the approach you are taking is the best is key for a quick process.
 
@@ -29,8 +32,9 @@ If you want to contribute and don't know where to start, here is a step-by-step 
 4. Clone the repository `git clone git@github.com:webstudio-is/webstudio-builder.git`
 5. Connect to the [database](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-postgres): add a database URL to the env variables by creating an .env file in the `apps/builder` and adding there `DATABASE_URL=postgresql://user:pass@localhost/webstudio` or `DATABASE_URL=postgresql://user@localhost/webstudio` if using Postgres.app.
 6. Run `pnpm install` - install dependencies
-7. Run `pnpm migrations migrate` - apply database migrations
-8. Run `pnpm dev` - URL will be logged
+7. Run `pnpm build`
+8. Run `pnpm migrations migrate` - apply database migrations
+9. Run `pnpm dev` - URL will be logged
 
 ## Creating database
 
