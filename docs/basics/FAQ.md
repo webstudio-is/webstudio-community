@@ -1,6 +1,8 @@
-# FAQ
+# ❓ FAQs
 
-## What is open source?
+<details>
+
+<summary>What is open source?</summary>
 
 Open source software is a branch that formed from the free software movement. The free software movement's philosophy is rooted in the freedom to run, study, copy, contribute, change, and improve the software. While there is much discussion and debate around the terms _open source_, _free_, _libre_, and _open core_, there are many similarities, with subtle differentiators. These differentiators can lie in the way in which the software is licensed, how permissive they are, and other variables.
 
@@ -12,16 +14,29 @@ For example: The Android on a Pixel phone is proprietary, but it's powered by An
 
 Some companies choose instead to call their products open core, rather than open source, which denotes that the primary functionality (or "core") of the product is open source, but acknowledges the existence of proprietary parts within.
 
-## How is Webstudio licensed?
+</details>
+
+<details>
+
+<summary>How is Webstudio licensed?</summary>
+
 The Webstudio Builder is distributed under the MIT license, an open source license that allows the user to copy, modify, merge, publish, distrubute, sublicense, or sell as long as the same copyright/permission notice is included. In short: do what you want, with Webstudio, but give credit. The MIT license very popular, as it's considered one of the most permissive open source licenses and limits legal headaches.
 
-## Is Webstudio open source?
+</details>
+
+<details>
+
+<summary>Is Webstudio open source?</summary>
+
 The Webstudio Builder is open source, while the entire Webstudio platform is open core.
 
 [Open Source Definition](https://opensource.org/osd), [MIT License](https://mit-license.org/)
 
-## What is Cloudflare Workers edge deployment, and how does it work?
-The Cloudflare Workers edge-based serverless platform helps developers to deploy instantly across the globe for exceptional performance, reliability, and scale. Workers runs at global scale by default because it automatically routes traffic across Cloudflare’s network of more than 250 cities in over 100 countries.
+</details>
+
+<details>
+
+<summary>What is Cloudflare Workers edge deployment, and how does it work?</summary>
 
 In the old days, you had to manage your own servers (actual machines) meaning deploying your code on your own equipment. This is expensive, labor-intensive, and takes resources away from writing business logic. These days we do it with edge deployment, which deploys code using Content Delivery Networks (CDNs). CDNs are systems of servers (virtual machines that run on physical hardware) that deliver web content to users based on their geographic location, allowing for faster and more efficient delivery of web pages.
 
@@ -31,22 +46,31 @@ AWS Lambda and Cloudflare Workers are examples of CDNs. The difference between A
 
 [Cloudflare Workers](https://workers.cloudflare.com/), [Cloudflare's open source workerd technology](https://blog.cloudflare.com/workerd-open-source-workers-runtime/)
 
-## What are design tokens?
+</details>
+
+<details>
+
+<summary>What are design tokens?</summary>
+
 The larger a design system gets, the harder it is to keep things consistent. Colors, spacing, border widths, font sizes, etc, can become a nightmare to upkeep, especially without documentation (e.g. use the eyedropper tool to find the color of the button). Even with good design documentation, it can be unclear which value goes where (e.g. is the button supposed to be blue-400 or blue-500?), and every time something new is implemented is a chance to muddy the system.
 
 Design Tokens solve this problem by creating a single source of truth for both designers and developers. Variables that dictate font size, border widths, color, spacing, etc. are stored as tokens, and are accessible to team members via their tools of choice (such as through JSON files and sync providers like Github).
 
-A builder can change a design token on Figma, and a developer will see that change on Visual Studio Code. 
+A builder can change a design token on Figma, and a developer will see that change on Visual Studio Code.
 
 A common use case for design tokens is semantic colors, where colors are named after their use (e.g., the button color is $button.primary, and the hex-code for $button.primary is defined in the token).
 
-Because design tokens are essentially stored variables, they can do lots of things. Tokens can reference other tokens (e.g., $button.primary is defined as the same value as $blue-500 and the hex-code for $blue-500 is #0000FF). Tokens can be changed in specific situations (e.g., in dark mode, let $button.primary be $blue.400). Tokens can also be manipulated with math (e.g., $border-width.2=$border-width.1*2).
+Because design tokens are essentially stored variables, they can do lots of things. Tokens can reference other tokens (e.g., $button.primary is defined as the same value as $blue-500 and the hex-code for $blue-500 is #0000FF). Tokens can be changed in specific situations (e.g., in dark mode, let $button.primary be $blue.400). Tokens can also be manipulated with math (e.g., $border-width.2=$border-width.1\*2).
 
 Design tokens don't replace design documentation, but are used in conjunction to create a design system that is easily implemented _and_ maintained.
 
 [WC3 Design Tokens Format](https://tr.designtokens.org/format/), [Tokens Studio Plugin documentation](https://docs.tokens.studio/)
 
-## What is GDPR, and how does it protect data? (What counts as GDPR compliant?)
+</details>
+
+<details>
+
+<summary>What is GDPR, and how does it protect data? (What counts as GDPR compliant?)</summary>
 
 The General Data Protection Regulation (GDPR) is the toughest data privacy and security law in the world. Although the law was drafted in the European Union, GDPR applies to organizations globally if they target and collect data from people within the EU. Fines for violating GDPR can go up to €20 million or 4% of the company's global revenue, whichever is higher.
 
@@ -79,7 +103,12 @@ Considering that Webstudio is designed to be extensible, we can't guarantee that
 
 [What is GDPR?](https://gdpr.eu/what-is-gdpr/), [Who must comply with GDPR](https://gdpr.eu/companies-outside-of-europe/)
 
-## How does Webstudio optimize images?
+</details>
+
+<details>
+
+<summary>How does Webstudio optimize images?</summary>
+
 Images comprise 60%-65% of bytes on most web pages, with the total page size being a major factor in total rendering time. In order to improve page loading speed, Google created the WebP image format. On average, WebP images are about 30% smaller than equivalent PNG/JPEG images. In addition, WebP is also an open source format.
 
 WebP supports both lossless and lossy image formats (lossless retains the exact color data of each pixel but you end up with a bigger file, lossy trades some of that color accuracy for smaller file sizes), as well as alpha channels (transparency), ICC Color profiles (which tell a computer/printer how to manage colors), metadata (EXIF and XMP data that provide context information such as where and when a photo was shot), and animation (frame animations similar to GIFs). These WebP features make it a lean and versatlie format.
@@ -90,13 +119,18 @@ In addition to automatically converting images to WebP, Webstudio detects the ex
 
 [WebP FAQ](https://developers.google.com/speed/webp/faq)
 
-## How is Webstudio extensible? (What is an API?)
+</details>
+
+<details>
+
+<summary>How is Webstudio extensible? (What is an API?)</summary>
 
 How does your weather app know what the whether is like? How does Booking.com know the rates of all those hotels and airlines? How do websites allow you to login via Google/Twitter/Facebook? With APIs!
 
 Application Programing Interfaces (APIs) are how apps exchange information. Usually this communication takes place between a client app and a server app. For example: the weather app on your phone (the client) uses an API to retrieve weather data from an online source like Accuweather (the server). There are 3 major types of APIs: Private APIs for internal use within orgs; Public APIs used by companies to make their products/services available to the public; and Partner APIs that are accessible to people within an organization and authorized partners.
 
 Webstudio provides public APIs to allow developers to retrieve information about:
+
 1. Component tree
 2. CSS
 3. Images
@@ -108,9 +142,16 @@ Webstudio uses APIs to allow developers to extend its functionality to fit their
 
 [API Wiki](https://en.wikipedia.org/wiki/API)
 
-## How can I use Webstudio today, and how will it evolve?
-Beyond the beta, Webstudio is focusing on becoming the best tool for creating web user interfaces. Today, it's capable of building static websites that are fast and responsive. Additional features like the linked CSS editor, animations, and real-time collaboration are in the works. 
+</details>
+
+<details>
+
+<summary>How can I use Webstudio today, and how will it evolve?</summary>
+
+Beyond the beta, Webstudio is focusing on becoming the best tool for creating web user interfaces. Today, it's capable of building static websites that are fast and responsive. Additional features like the linked CSS editor, animations, and real-time collaboration are in the works.
 
 Using APIs, users can integrate Webstudio with services of their choice, such as content management systems (CMS), eCommerce platforms, automation tools, databases, and more. Webflow uses open source components and standards as much as possible to give users the freedom to create whatever they want, however they want.
 
 [Webstudio Vision Document](https://webstudiois.notion.site/Vision-f52ed097ccaa410eb05076981d446c2f)
+
+</details>
