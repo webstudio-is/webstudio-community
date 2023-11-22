@@ -4,7 +4,7 @@
 Welcome to Webstudio
 {% endembed %}
 
-In this video overview we cover the basics in getting started with your first video project.&#x20;
+In this video overview we cover the basics in getting started with your first Webstudio project.&#x20;
 
 ### Signup to Webstudio&#x20;
 
