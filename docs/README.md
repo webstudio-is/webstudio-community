@@ -1,6 +1,8 @@
-# ℹ Overview
+---
+description: New to Webstudio?
+---
 
-### New to Webstudio?&#x20;
+# ℹ Welcome
 
 Our getting started guide will help you navigate through building your first Webstudio website. It covers the essentials of creating web designs and integrating third-party tools. You'll learn how to utilize Webstudio's unique features like Design Tokens and Components, and how to contribute to the project.
 
