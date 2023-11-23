@@ -2,7 +2,7 @@
 
 ## Basics
 
-* [ℹ Overview](README.md)
+* [ℹ Welcome](README.md)
 * [🔥 Intro](basics/intro.md)
 * [🎓 Building your first site](basics/building-your-first-site.md)
 * [🔗 Roadmap & Links](basics/roadmap-and-links.md)
