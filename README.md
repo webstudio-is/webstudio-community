@@ -7,7 +7,7 @@
 </section>
 <br /><br />
 
-## Learning ressources
+## Learning resources
 
 - [Blog](https://webstudio.is/blog)
 - [Community documentation](https://github.com/webstudio-is/webstudio/tree/main/docs)
