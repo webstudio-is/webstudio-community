@@ -2,12 +2,12 @@
 
 {% embed url="https://vimeo.com/831343124" %}
 
-Webstudio is an open-source visual development platform that empowers designers and developers to create responsive web designs with ease. It's a tool designed to bridge the gap between design and code, enabling users to build visually while maintaining control over the underlying HTML, CSS, and JavaScript.
+Webstudio is an open-source visual development platform that empowers designers and developers to create responsive web designs with ease. Bridging the gap between design and code, it allows users to visually build while maintaining control over the underlying HTML, CSS, and JavaScript.
 
 ### 🧑‍🎨 For Designers
 
-Webstudio offers a powerful platform to bring their creative visions to life without the need for extensive coding knowledge. It provides an intuitive visual interface where they can construct layouts, style components, and animate elements in real-time on a live canvas. This direct manipulation of design elements allows for immediate feedback and faster iteration cycles.&#x20;
+Webstudio offers a powerful platform for designers to bring their creative visions to life, without needing extensive coding knowledge. Its intuitive visual interface enables the construction of layouts, styling of components, and animation of elements in real-time on a live canvas. This direct manipulation of design elements facilitates immediate feedback and accelerates iteration cycles.
 
 ### 🧑‍💻 For Developers
 
-Developers will find value in Webstudio's flexibility and extensibility. While it simplifies many aspects of web development through its visual interface, it does not abstract away from the underlying code entirely. Developers can dive into custom code and create unique components with complex logic or specific integrations - providing them with all the power and versatility that coding affords while still benefiting from Webstudio's streamlined visual workflows. Being open-source also means developers have freedom to extend functionality based on project needs or contribute back to improve upon existing features.
+Developers will appreciate Webstudio's flexibility and extensibility. It simplifies web development with its visual interface, yet provides full access to the underlying code. Developers can create custom components with complex logic or specific integrations, harnessing the power of coding while benefiting from Webstudio's streamlined visual workflows. As an open-source tool, Webstudio offers the freedom to extend functionality as needed and contribute to the enhancement of its features.

@@ -1,29 +1,46 @@
-<img width="1512" alt="builder-screenshot" src="https://github.com/webstudio-is/.github/blob/main/assets/builder-screenshot.png?raw=true">
+![Webstudio Builder Screenshot](https://github.com/webstudio-is/.github/blob/main/assets/builder-screenshot.png?raw=true)
 
+---
 
-  <br /><br />
-<section align="center">
-  Webstudio is an Open Source Visual Development Platform for developers, designers, and cross-functional teams. You own the data, components, and infrastructure. You can use the hosted version or roll out your own.
-</section>
-<br /><br />
+<div align="center">
+  <strong>🌟 Welcome to Webstudio 🌟</strong><br>
+  The Open Source Visual Development Platform tailor made for developers, designers, and cross-functional teams.<br>
+  Here, you control your data, components, and infrastructure.<br>
+  Choose our hosted solution or deploy it in your environment.
+</div>
 
-## Learning resources
+---
 
-- [Blog](https://webstudio.is/blog)
-- [Community documentation](https://github.com/webstudio-is/webstudio/tree/main/docs)
-- [Brand and product design](https://github.com/webstudio-is/webstudio-design/)
+## 📚 Learn with Webstudio
 
-## Social Media
+Enhance your skills and understanding of Webstudio with our curated learning resources:
 
-- [Twitter](https://twitter.com/getwebstudio)
-- [Youtube](https://www.youtube.com/@getwebstudio)
-- [Discord](https://discord.gg/UNdyrDkq5r)
+- **[Webstudio Blog](https://webstudio.is/blog)**: Explore insights and updates.
+- **[Community Documentation](https://docs.webstudio.is/basics/welcome)**: Deep-dive into our comprehensive guides.
+- **[Brand and Product Design Resources](https://github.com/webstudio-is/webstudio-design/)**: Discover our design philosophy and assets.
 
-## Contributing
+## 🌐 Stay Connected
 
-- [Contributing guide](https://github.com/webstudio-is/webstudio/blob/main/docs/contributing.md)
-- [Github Discussions](https://github.com/webstudio-is/webstudio/discussions)
-- [Wishlist](https://github.com/webstudio-is/webstudio/discussions/categories/wishlist)
-- [Builder Issues tracker](https://github.com/webstudio-is/webstudio-builder/issues)
-- [Roadmap](https://github.com/orgs/webstudio-is/projects)
-- [Design Assets and docs](https://github.com/webstudio-is/webstudio-design)
+Join our vibrant community and stay up-to-date:
+
+- **[Twitter](https://twitter.com/getwebstudio)**: Follow us for the latest news.
+- **[YouTube](https://www.youtube.com/@getwebstudio)**: Watch tutorials and feature highlights.
+- **[Discord](https://discord.gg/UNdyrDkq5r)**: Engage with the Webstudio community.
+
+## 👐 Get Involved
+
+Your contributions shape the future of Webstudio. Here's how you can contribute:
+
+### For Developers
+- **[Developers' Contributing Guide](https://github.com/webstudio-is/webstudio-community/blob/main/docs/contributing/contributing-for-developers.md)**: Guidelines and resources for developers.
+- **[Builder Issues Tracker](https://github.com/webstudio-is/webstudio-builder/issues)**: Report and tackle development issues.
+- **[GitHub Discussions](https://github.com/webstudio-is/webstudio-community/discussions)**: Engage in technical discussions and share feedback.
+
+### For Designers
+- **[Designers' Contributing Guide](https://github.com/webstudio-is/webstudio-community/blob/main/docs/contributing/contributing-for-designers.md)**: Principles and instructions for design contributions.
+- **[Design Assets and Docs](https://github.com/webstudio-is/webstudio-design)**: Access and contribute to our design toolkit.
+- **[Wishlist](https://github.com/webstudio-is/webstudio-community/discussions/categories/wishlist)**: Suggest design enhancements and new features.
+
+### General Contributions
+- **[Roadmap](https://github.com/orgs/webstudio-is/projects)**: Explore and contribute to our future plans.
+---
