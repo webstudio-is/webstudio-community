@@ -22,8 +22,8 @@ Our getting started guide will help you navigate through building your first Web
 [core-components](university/core-components/)
 {% endcontent-ref %}
 
-{% content-ref url="basics/FAQ.md" %}
-[FAQ.md](basics/FAQ.md)
+{% content-ref url="basics/faq" %}
+[FAQ](basics/faq)
 {% endcontent-ref %}
 
 {% content-ref url="university/how-tos/" %}
