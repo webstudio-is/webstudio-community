@@ -22,17 +22,15 @@ Our getting started guide will help you navigate through building your first Web
 [core-components](university/core-components/)
 {% endcontent-ref %}
 
-{% content-ref url="basics/faq" %}
-[FAQ](basics/faq)
+{% content-ref url="basics/FAQ.md" %}
+[FAQ.md](basics/FAQ.md)
 {% endcontent-ref %}
 
 {% content-ref url="university/how-tos/" %}
 [how-tos](university/how-tos/)
 {% endcontent-ref %}
 
-
-
-### Looking to contribute to Webstudio?&#x20;
+### Looking to contribute to Webstudio?
 
 {% content-ref url="contributing/contributing-for-designers.md" %}
 [contributing-for-designers.md](contributing/contributing-for-designers.md)
