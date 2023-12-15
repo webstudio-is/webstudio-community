@@ -55,8 +55,10 @@
 * [⭐ How-Tos](university/how-tos/README.md)
   * [▶ How to add icons](university/how-tos/how-to-add-icons.md)
   * [▶ How to create fluid video backgrounds with Vimeo](university/how-tos/how-to-create-fluid-video-backgrounds-with-vimeo.md)
+  * [▶ How to create a countdown](university/how-tos/how-to-create-a-countdown.md)
+  * [▶ How to crop an image with out cropping the original image](university/how-tos/how-to-crop-an-image-with-out-cropping-the-original-image.md)
 
 ## Contributing
 
 * [🧑🎨 Contributing for Designers](contributing/contributing-for-designers.md)
-* [🧑💻 Contributing for  Developers](contributing/contributing-for-developers.md)
+* [🧑💻 Contributing for Developers](contributing/contributing-for-developers.md)
