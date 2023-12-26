@@ -53,6 +53,7 @@
   * [▶ Vercel](university/self-hosting-and-cli/vercel.md)
   * [▶ Netlify](university/self-hosting-and-cli/netlify.md)
 * [⭐ How-Tos](university/how-tos/README.md)
+  * [▶ Connecting your Hostinger Domain to Webstudio](university/how-tos/connecting-your-hostinger-domain-to-webstudio.md)
   * [▶ How to add icons](university/how-tos/how-to-add-icons.md)
   * [▶ How to create fluid video backgrounds with Vimeo](university/how-tos/how-to-create-fluid-video-backgrounds-with-vimeo.md)
   * [▶ How to create a countdown](university/how-tos/how-to-create-a-countdown.md)
