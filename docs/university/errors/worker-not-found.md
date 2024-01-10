@@ -1,0 +1,9 @@
+# Worker not found
+
+Webstudio is utilizing [Cloudflare's](https://workers.cloudflare.com/) most advanced Edge Publishing network.
+
+Worker can not be found due to one of the following reasons:
+
+1. You haven't published your project after adding a custom domain, [learn more about publishing](../foundations/publishing-and-custom-domains.md),
+2. You clicked on publish, but it is still in the process of deployment, it usually takes 1 minute to distribute your project across the globe.
+3. Your domain was not properly connected or you need to republish.

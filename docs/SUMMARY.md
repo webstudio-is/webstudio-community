@@ -10,6 +10,7 @@
 
 ## university
 
+* [Page](university/page.md)
 * [⚛ Foundations](university/foundations/README.md)
   * [🛠 Anatomy of the Webstudio Builder](university/foundations/anatomy-of-the-webstudio-builder.md)
   * [🖌 Design Tokens](university/foundations/design-tokens.md)
@@ -58,6 +59,8 @@
   * [▶ How to create fluid video backgrounds with Vimeo](university/how-tos/how-to-create-fluid-video-backgrounds-with-vimeo.md)
   * [▶ How to create a countdown](university/how-tos/how-to-create-a-countdown.md)
   * [▶ How to crop an image with out cropping the original image](university/how-tos/how-to-crop-an-image-with-out-cropping-the-original-image.md)
+* [⚠ Errors](university/errors/README.md)
+  * [Worker not found](university/errors/worker-not-found.md)
 
 ## Contributing
 
