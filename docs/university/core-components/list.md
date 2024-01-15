@@ -11,9 +11,9 @@ description: >-
 
 ### How to use the List Component
 
-The “List” component can be found in Components > General, and you can place it on your canvas by dragging and dropping it or clicking it in the Components panel. Every List component comes with three “List Item” instances as bullet points by default.
+The “List” component can be found in **Components > General**, and you can place it on your canvas by dragging and dropping it or clicking it in the Components panel. Every List component comes with three “List Item” instances as bullet points by default.
 
-To add more list items, place a “List Item” component in your list from Components > General.
+To add more list items, place a “List Item” component in your list from **Components > General**.
 
 Once the List Component is on your canvas, you can customize its appearance in the Style panel. For instance, you can change bullet point styles, numbering formats, spacing, and text properties.
 
