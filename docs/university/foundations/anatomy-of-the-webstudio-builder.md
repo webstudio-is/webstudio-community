@@ -10,9 +10,14 @@ This guide discusses the anatomy of the Webstudio Builder, an all-in-one visual 
 
 ***
 
+
+![Webstudio builder](../../.gitbook/assets/university/Anatomy_Webstudio_Builder_Main.avif)
+
+
 ### The Canvas
 
 As the central workspace of the Webstudio Builder, the canvas provides a visual representation of the website you are creating. After adding components from the Components Panel, you can arrange and style their instances on the canvas.
+![Webstudio canvas](../../.gitbook/assets/university/Anatomy_Webstudio_Builder_Canvas.png)
 
 ***
 
@@ -21,6 +26,7 @@ As the central workspace of the Webstudio Builder, the canvas provides a visual 
 The Navigator Panel is a hierarchical overview of all component instances in your project. It displays the website’s structure, showing the nesting and relationships between different instances. You can select the instance of any component inside your project by clicking it on the canvas or inside the navigator.
 
 In the bottom half of the Navigator, you will find the CSS Preview section, which is a real-time preview of the CSS styles applied to your selected instance.
+![Webstudio navigator](../../.gitbook/assets/university/Anatomy_Webstudio_Builder_Navigator.png)
 
 ***
 
@@ -29,6 +35,7 @@ In the bottom half of the Navigator, you will find the CSS Preview section, whic
 Breakpoints are crucial for creating responsive websites that adapt to different screen sizes and devices. In the Webstudio Builder, breakpoints represent specific screen widths at which the website layout adjusts to optimize the user experience.
 
 By defining how components should behave at different screen sizes, you can ensure your website looks great on various devices, including desktops, tablets, and smartphones. You can select and modify the breakpoints for your Webstudio project in the “Edit breakpoints” menu.
+![Webstudio breakpoints](../../.gitbook/assets/university/Anatomy_Webstudio_Builder_Breakpoints.png)
 
 ***
 
@@ -37,7 +44,7 @@ By defining how components should behave at different screen sizes, you can ensu
 The Components Panel contains a list of all available components that you can add to your Webstudio project. You can do this by clicking the components in the panel or dragging and dropping them on the canvas.
 
 Components are grouped into sections like General, Text, Media, and Forms. For instance, the Text section has all typography-related components, while the Form section nests the building blocks of a form.
-
+![Webstudio components panel](../../.gitbook/assets/university/Anatomy_Webstudio_Builder_Components.png)
 ***
 
 ### The Assets Panel
@@ -88,4 +95,4 @@ With the Publish Tab, you can launch your website to a Webstudio subdomain and y
 
 You can also configure your domain using the “Configure automatically” button that will show you a step-by-step guide to connect your domain without leaving the builder UI.
 
-To learn more about publishing on Webstudio, check out [this article](https://webstudio.is/blog/publishing-your-webstudio-site).
+To learn more about [publishing on Webstudio](https://webstudio.is/blog/publishing-your-webstudio-site).

@@ -1,4 +1,4 @@
-# ▶ N8N
+# ▶ n8n
 
 This guide shows you how to link Webstudio Forms with [n8n](https://n8n.io/) for workflow automation. We will move data from Webstudio to n8n, save it in a Supabase table, and then ping a Slack channel when certain conditions are met.
 
@@ -30,7 +30,7 @@ For our Webstudio integration, we will create a workflow that sends form submiss
 
 Start by logging in to your n8n account.
 
-* Inside your dashboard, go to Credentials > Add credential. For this demo, we will be using Supabase and Slack. You can find detailed instructions for all supported credential setups [here](https://docs.n8n.io/integrations/builtin/credentials).
+* Inside your dashboard, go to Credentials > Add credential. For this demo, we will be using Supabase and Slack. You can find detailed instructions for all [supported credential setups](https://docs.n8n.io/integrations/builtin/credentials).
 * After setting up the relevant credentials, go to “Workflows” and create a new workflow to start building your automation.
 
 #### Create the workflow trigger
@@ -41,7 +41,7 @@ To initiate our n8n workflow with a webhook, we need to configure a webhook trig
 * Set HTTP Method to POST.
 * Copy the “Test Webhook URL” and head over to Webstudio.
 
-You can learn more about the Webhook node and its parameters [here](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/).
+You can learn more about the [Webhook node and its parameters](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/).
 
 #### Connect the webhook to your Webstudio Form
 
@@ -63,7 +63,7 @@ Next, let’s add an external application to our workflow. To demonstrate this s
 2. Select the Supabase account you have linked to n8n and modify the other relevant parameters.
 3. Link your form’s input fields to your Supabase table by mapping them to your Webhook’s Output Data.
 
-You can learn more about the Supabase node and its parameters [here](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.supabase).
+You can learn more about the [Supabase node and its parameters](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.supabase).
 
 #### Add an IF Node
 
@@ -79,7 +79,7 @@ For this example, we will create a condition to send a Slack channel message onl
 
     b. On “false”, the value is over $10,000.
 
-You can learn more about the IF node and its parameters [here](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.if/).
+You can [learn more about the IF node and its parameters](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.if/).
 
 #### Add a Slack Node
 
@@ -91,7 +91,7 @@ Finally, let’s add a Slack node to our workflow. We will configure this node t
 4. Set “Message Type” to “Simple Text Message” from the dropdown.
 5. Map the relevant data from the “Input” Section to your Slack message in the “Message Text” parameter.
 
-You can learn more about the Slack node and its parameters [here](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.slack/).
+You can [learn more about the Slack node and its parameters](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.slack/).
 
 #### Finalize your workflow
 
