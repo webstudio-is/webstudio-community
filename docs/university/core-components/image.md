@@ -13,6 +13,8 @@ description: >-
 ### How to use the Image component
 
 The "Image Component" can be found in Components > Media, and you can place it on your canvas by dragging and dropping it or clicking it in the Components panel.
+![Webstudio image component](../../.gitbook/assets/university/Image-Article-1.webp)
+
 
 #### Responsive Images
 
@@ -26,7 +28,7 @@ All images in Webstudio are automatically optimized and served in WEBP or AVIF f
 
 WEBP is supported by all modern browsers, including Chrome, Edge, and Firefox, while AVIF offers better compression quality and smaller file sizes but lacks support in browsers like Edge and Internet Explorer.
 
-#### Ensure Stable Layout for Improved Performance
+#### Ensure a Stable Layout for Improved Performance
 
 It is essential to ensure that your browser can calculate an image's width and height without waiting for it to load. You can do this by setting the image's width/height in the Style panel or directly in the Image instance's properties.
 
