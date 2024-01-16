@@ -1,4 +1,4 @@
-# ▶ N8N
+# ▶ n8n
 
 This guide shows you how to link Webstudio Forms with [n8n](https://n8n.io/) for workflow automation. We will move data from Webstudio to n8n, save it in a Supabase table, and then ping a Slack channel when certain conditions are met.
 
@@ -79,7 +79,7 @@ For this example, we will create a condition to send a Slack channel message onl
 
     b. On “false”, the value is over $10,000.
 
-You can learn more about the IF node and its parameters [here](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.if/).
+You can [learn more about the IF node and its parameters](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.if/).
 
 #### Add a Slack Node
 
