@@ -1,4 +1,4 @@
-# Worker not found
+# 🔌 Worker not found
 
 Webstudio is utilizing [Cloudflare's](https://workers.cloudflare.com/) most advanced Edge Publishing network.
 
