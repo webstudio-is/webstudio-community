@@ -24,6 +24,10 @@
 [vimeo.md](vimeo.md)
 {% endcontent-ref %}
 
+{% content-ref url="vimeo-background-video.md" %}
+[vimeo-background-video.md](vimeo-background-video.md)
+{% endcontent-ref %}
+
 {% content-ref url="blockquote.md" %}
 [blockquote.md](blockquote.md)
 {% endcontent-ref %}
