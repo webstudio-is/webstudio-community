@@ -19,6 +19,8 @@ Without slots, on the other hand, you would have to create multiple instances of
 Here is the process for creating and reusing slot instances:
 
 Creating a slot instance
+![create a slot in Webstudio](../../.gitbook/assets/university/Slots_Image.avif)
+
 
 1. You can find the Slots component in the “Components Panel.”
 2. Drag “Slot” from the Components Panel onto your canvas to create a slot instance. Alternatively, you can add it to the currently selected instance with a click.
