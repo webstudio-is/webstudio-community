@@ -1,5 +1,11 @@
 # 🌐 Publishing & Custom Domains
 
+
+
+{% hint style="warning" %}
+If you're having trouble connecting your domain with registrars like GoDaddy please visit [this page](../how-tos/domain-connection-issues-godaddy.md)
+{% endhint %}
+
 This guide discusses the methods to connect a custom domain to your Webstudio site. You can configure a custom domain automatically without leaving the Webstudio Builder or manually by via your domain registrar/DNS host.\
 \
 You can also publish your site on the default Webstudio subdomain, as a staging environment.
