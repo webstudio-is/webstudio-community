@@ -54,11 +54,11 @@
   * [▶ Vercel](university/self-hosting-and-cli/vercel.md)
   * [▶ Netlify](university/self-hosting-and-cli/netlify.md)
 * [⭐ How-Tos](university/how-tos/README.md)
-  * [▶ Connecting your Hostinger Domain to Webstudio](university/how-tos/connecting-your-hostinger-domain-to-webstudio.md)
   * [▶ How to add icons](university/how-tos/how-to-add-icons.md)
   * [▶ How to create fluid video backgrounds with Vimeo](university/how-tos/how-to-create-fluid-video-backgrounds-with-vimeo.md)
   * [▶ How to create a countdown](university/how-tos/how-to-create-a-countdown.md)
   * [▶ How to crop an image with out cropping the original image](university/how-tos/how-to-crop-an-image-with-out-cropping-the-original-image.md)
+  * [▶ Dark mode (unofficial)](university/how-tos/dark-mode-unofficial.md)
 
 ## Contributing
 
@@ -68,4 +68,6 @@
 ***
 
 * [⚠ Errors](errors/README.md)
-  * [Worker not found](errors/worker-not-found.md)
+  * [▶ Domain connection issues (GoDaddy)](errors/domain-connection-issues-godaddy.md)
+  * [▶ Connecting your Hostinger Domain to Webstudio](errors/connecting-your-hostinger-domain-to-webstudio.md)
+  * [🔌 Worker not found](errors/worker-not-found.md)
