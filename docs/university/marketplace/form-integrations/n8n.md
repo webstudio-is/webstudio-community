@@ -1,4 +1,4 @@
-# ▶ n8n
+# ▶ N8N
 
 This guide shows you how to link Webstudio Forms with [n8n](https://n8n.io/) for workflow automation. We will move data from Webstudio to n8n, save it in a Supabase table, and then ping a Slack channel when certain conditions are met.
 
@@ -104,4 +104,5 @@ After setting up your workflow, you should test it to ensure it runs properly.
 After the checks are concluded, activate your workflow.
 
 1. Replace the “Test Webhook URL” with the “Production Webhook URL” in your Form’s Action property.
-2. Go to the upper left of your n8n canvas and activate your workflow by toggling it from “Inactive” to “Active”.![](../../../.gitbook/assets/creators.app.n8n\_2\_L2bSfi01s2coM05A7-69U.avif)
+2. Go to the upper left of your n8n canvas and activate your workflow by toggling it from “Inactive” to “Active”.\
+   ![](../../../.gitbook/assets/creators.app.n8n\_2\_L2bSfi01s2coM05A7-69U.avif)

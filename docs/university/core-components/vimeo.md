@@ -23,12 +23,14 @@ We have picked Vimeo to be Webstudio’s first video component for the following
 You can find the Vimeo Component in the Components Panel in the Media Section. Here is how you can add and use the component on your site:
 
 #### Adding the Vimeo component to your canvas
-![Vimeo to your canvas](../../.gitbook/assets/university/Video_component_step_1.avif)
+
+![Vimeo to your canvas](../../.gitbook/assets/university/Video\_component\_step\_1.avif)
+
 1. You can find the Vimeo component in the “Components Panel” in the Media section.
 2. Add the component by dragging and dropping it to the canvas or with a click to put it inside the selected instance.
 3. Once you have the component on your canvas, you can head to Settings on the right to add your video URL and make other changes.
 
-![Vimeo background settings](../../.gitbook/assets/university/Video_component_properties.avif)
+![Vimeo background settings](../../.gitbook/assets/university/Video\_component\_properties.avif)
 
 #### Modifying the Preview Image
 
@@ -41,23 +43,19 @@ You can find the Vimeo Component in the Components Panel in the Media Section. H
 
 The Vimeo component comes with several properties that you can use to customize your video player. These properties appear in the Settings panel to the right of the canvas when your Vimeo component is selected.
 
-Here’s how you can use the following properties:
-![Vimeo background properties](../../.gitbook/assets/university/Vimeo_instance_properties-2.avif)
+Here’s how you can use the following properties:&#x20;
+
+![Vimeo background properties](../../.gitbook/assets/university/Vimeo\_instance\_properties-2.avif)
 
 * **Show Preview**\
-  Toggle this property on to render the preview image from Vimeo rather than the static image in Webstudio. This property is turned off by default because rendering the Vimeo preview requires making an API call which can slow down the speed of your page.\
-
+  Toggle this property on to render the preview image from Vimeo rather than the static image in Webstudio. This property is turned off by default because rendering the Vimeo preview requires making an API call which can slow down the speed of your page.\\
 * **AutoPlay**\
-  If you enable the “AutoPlay” property, your video will start playing automatically when the player loads.\
-
+  If you enable the “AutoPlay” property, your video will start playing automatically when the player loads.\\
 * **Background Mode**\
-  When enabled, the “Background Mode” property will hide the Vimeo Player’s controls, loop the embedded video and play it automatically.\
-
+  When enabled, the “Background Mode” property will hide the Vimeo Player’s controls, loop the embedded video and play it automatically.\\
 * **Do Not Track**\
-  If you enable the “Do Not Track” property, the Vimeo Player will not be able to track session data, such as cookies. It is important to note that video statistics, such as the number of views, would also no longer be recorded.\
-
+  If you enable the “Do Not Track” property, the Vimeo Player will not be able to track session data, such as cookies. It is important to note that video statistics, such as the number of views, would also no longer be recorded.\\
 * **Controls Color**\
-  With the “Controls Color” property, you can customize the colors of the Vimeo Player’s controls on your site to match your brand identity.\
-
+  With the “Controls Color” property, you can customize the colors of the Vimeo Player’s controls on your site to match your brand identity.\\
 * **Other Properties**\
   You can customize your Vimeo component further by adding [other properties](https://developer.vimeo.com/player/sdk/embed) that are not listed in the “Properties” section by default.

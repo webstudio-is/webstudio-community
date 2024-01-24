@@ -11,19 +11,22 @@ Form components allow site owners to collect data from site visitors. A basic Fo
 You can add a Form component to your canvas from the Components Panel > Forms section.
 
 Inside the Form component, you will find three nested instances:
+
 1. Form Content
 2. Success Message
-3. Error Message
+3. Error Message&#x20;
+
 While you can always add new components to further expand and modify your form, these instances make up the default look.
 
 #### Form Content
 
 The Form Content instance is made up of:
-- Two “Input Label” instances
-- Two “Text Input” instances
-- One “Button” instance
-![Webstudio form content panel](../../.gitbook/assets/university/Form_component_1.avif)
 
+* Two “Input Label” instances
+* Two “Text Input” instances
+*   One “Button” instance
+
+    &#x20;![Webstudio form content panel](../../.gitbook/assets/university/Form\_component\_1.avif)
 
 #### Input Label
 
@@ -59,7 +62,8 @@ You can see the error message on your canvas by setting the Form component’s s
 #### Customizing the Text Input component
 
 You can view the properties of your “Text Input” instance by selecting it in your navigator and heading to the “Settings” section.
-![Webstudio form text input](../../.gitbook/assets/university/Form_component_2.avif)
+
+&#x20;![Webstudio form text input](../../.gitbook/assets/university/Form\_component\_2.avif)
 
 1. **Name**: The “Name” field allows you to identify your “Text Input” instance.
 2. **Type**: You can assign a “Type” to your “Text Input” component to define what type of data a site visitor can enter inside the text field.\
@@ -71,8 +75,7 @@ You can view the properties of your “Text Input” instance by selecting it in
 
 #### Customizing the Button component’s type
 
-To customize a “Button” instance, select it in the navigator and head over to the “Settings” Panel:
-![Webstudio form button component](../../.gitbook/assets/university/Form_component_3.avif)
+To customize a “Button” instance, select it in the navigator and head over to the “Settings” Panel: ![Webstudio form button component](../../.gitbook/assets/university/Form\_component\_3.avif)
 
 1. **Button**: Setting your Button instance to “Button” will make it a general element with no specific default action.
 2. **Submit**: If your button is placed in a form and you set it to “Submit” type, it will submit the collected data to the site owner when clicked.
@@ -82,8 +85,7 @@ To customize a “Button” instance, select it in the navigator and head over t
 
 ### Other “Forms” components
 
-We have explored the instances that are a part of every Form component by default. You can add additional components from the Components Panel > Forms section to expand your Form.
-![Other form components](../../.gitbook/assets/university/Form_component_4.avif)
+We have explored the instances that are a part of every Form component by default. You can add additional components from the Components Panel > Forms section to expand your Form. ![Other form components](../../.gitbook/assets/university/Form\_component\_4.avif)
 
 Here is a more detailed look at the other components in the Forms section:
 
