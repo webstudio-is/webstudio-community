@@ -10,7 +10,6 @@
 
 ## university
 
-* [Page](university/page.md)
 * [⚛ Foundations](university/foundations/README.md)
   * [🛠 Anatomy of the Webstudio Builder](university/foundations/anatomy-of-the-webstudio-builder.md)
   * [🖌 Design Tokens](university/foundations/design-tokens.md)

@@ -1,4 +1,4 @@
-# ▶ Vimeo
+# ⏯ Vimeo
 
 {% embed url="https://www.youtube.com/watch?v=YzyyZ10fcu4" %}
 
