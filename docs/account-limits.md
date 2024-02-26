@@ -14,7 +14,7 @@ You can find your plan name from your dashboard beside your profile image as sho
 | --------- | ------------ | -------------- |
 | T1        | 10           | 200k           |
 | T2        | unlimited    | 2M             |
-| T3        | unlimited    | Unlimited      |
+| T3        | unlimited    | unlimited      |
 
 
 
