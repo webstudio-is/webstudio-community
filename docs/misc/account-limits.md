@@ -8,7 +8,7 @@ You can find your plan name from your dashboard beside your profile image as sho
 
 ### Webstudio LTDs
 
-
+Purchase link: [https://wstd.us/pricing](https://wstd.us/pricing)
 
 | Plan name | Domain limit | Pageview limit |
 | --------- | ------------ | -------------- |
@@ -20,7 +20,7 @@ You can find your plan name from your dashboard beside your profile image as sho
 
 ### RocketHub LTDs
 
-
+No longer available for purchase.
 
 | Plan name | Domain limit | Pageview limit |
 | --------- | ------------ | -------------- |
@@ -32,7 +32,7 @@ You can find your plan name from your dashboard beside your profile image as sho
 
 ### Appsumo LTDs
 
-
+Purchase link: [https://wstd.us/appsumo](https://wstd.us/appsumo)
 
 | Plan name | Domain limit | Pageview limit |
 | --------- | ------------ | -------------- |
