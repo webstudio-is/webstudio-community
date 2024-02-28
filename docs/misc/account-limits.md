@@ -12,9 +12,9 @@ Purchase link: [https://wstd.us/pricing](https://wstd.us/pricing)
 
 | Plan name | Domain limit | Pageview limit |
 | --------- | ------------ | -------------- |
-| T1        | 10           | 200k           |
-| T2        | unlimited    | 2M             |
-| T3        | unlimited    | unlimited      |
+| LTD T1    | 10           | 200k           |
+| LTD T2    | unlimited    | 2M             |
+| LTD T3    | unlimited    | unlimited      |
 
 
 
@@ -22,11 +22,11 @@ Purchase link: [https://wstd.us/pricing](https://wstd.us/pricing)
 
 No longer available for purchase.
 
-| Plan name | Domain limit | Pageview limit |
-| --------- | ------------ | -------------- |
-| T1        | 10           | 200k           |
-| T2        | unlimited    | 1M             |
-| T3        | unlimited    | 2M             |
+| Plan name    | Domain limit | Pageview limit |
+| ------------ | ------------ | -------------- |
+| RocketHub T1 | 10           | 200k           |
+| RocketHub T2 | unlimited    | 1M             |
+| RocketHub T3 | unlimited    | 2M             |
 
 
 
@@ -34,12 +34,12 @@ No longer available for purchase.
 
 Purchase link: [https://wstd.us/appsumo](https://wstd.us/appsumo)
 
-| Plan name | Domain limit | Pageview limit |
-| --------- | ------------ | -------------- |
-| T1        | 10           | 200k           |
-| T2        | 25           | 500k           |
-| T3        | 50           | 1M             |
-| T4        | unlimited    | 2M             |
+| Plan name  | Domain limit | Pageview limit |
+| ---------- | ------------ | -------------- |
+| AppSumo T1 | 10           | 200k           |
+| AppSumo T2 | 25           | 500k           |
+| AppSumo T3 | 50           | 1M             |
+| AppSumo T4 | unlimited    | 2M             |
 
 
 
