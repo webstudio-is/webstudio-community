@@ -32,3 +32,9 @@ When/If the AppSumo deal ends and there remains issues with redemption we will u
 
 
 
+#### AppSumo is bugged, it won't let me rebuy a license for Webstudio:&#x20;
+
+AppSumo have some security measures in place to prevent credit card fraud. If you're running into issues purchasing a new license after the refund you might need to wait 24h before the system automatically unlocks your account. If the problem persists and your account is locked please reach out to AppSumo support to unlock your account.&#x20;
+
+
+
