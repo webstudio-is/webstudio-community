@@ -71,5 +71,6 @@
   * [▶️ Domain connection issues (GoDaddy)](errors/domain-connection-issues-godaddy.md)
   * [▶️ Connecting your Hostinger Domain to Webstudio](errors/connecting-your-hostinger-domain-to-webstudio.md)
   * [🔌 Worker not found](errors/worker-not-found.md)
+  * [🌮 AppSumo redemption failed](errors/appsumo-redemption-failed.md)
 * [Misc](misc/README.md)
   * [📊 Account Limits](misc/account-limits.md)
