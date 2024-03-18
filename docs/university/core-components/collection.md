@@ -1,5 +1,5 @@
-# 🗄️ Collections
-In Webstudio, "Collections" are a powerful feature designed to manage and display dynamic content on web pages. Essentially, they serve as containers that can connect to various data sources, like databases or APIs, to fetch and present data in a structured and repeatable manner. This allows developers and designers to create elements, such as lists, galleries, or testimonial sections, where each item in the collection is automatically populated with data from the connected source. By using Collections, Webstudio users can efficiently create pages with content that updates in real-time, reflecting changes in the data source without manual intervention, thereby enhancing the site's interactivity and relevance.
+# 🗄️ Collection
+In Webstudio, a "Collection" is a powerful feature designed to manage and display dynamic content on web pages. Essentially, they serve as containers that can connect to various data sources, like databases or APIs, to fetch and present data in a structured and repeatable manner. This allows developers and designers to create instances, such as lists, galleries, or testimonial sections, where each item in the collection is automatically populated with data from the connected source. By using a collection, Webstudio users can efficiently create pages with content that updates in real-time, reflecting changes in the data source without manual intervention, thereby enhancing the site's interactivity and relevance.
 
 {% embed url="https://www.youtube.com/watch?v=2MrkfnjYuCo" %}
 
