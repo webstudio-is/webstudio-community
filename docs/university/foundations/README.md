@@ -1,9 +1,5 @@
 # ⚛ Foundations
 
-{% content-ref url="webstudio-dashboard.md" %}
-[webstudio-dashboard.md](webstudio-dashboard.md)
-{% endcontent-ref %}
-
 {% content-ref url="anatomy-of-the-webstudio-builder.md" %}
 [anatomy-of-the-webstudio-builder.md](anatomy-of-the-webstudio-builder.md)
 {% endcontent-ref %}
