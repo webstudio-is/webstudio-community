@@ -57,8 +57,8 @@
 
 
 <!-- ## DATA COMPONENTS -->
-{% content-ref url="collections.md" %}
-[collections.md](collections.md)
+{% content-ref url="collection.md" %}
+[collection.md](collection.md)
 {% endcontent-ref %}
 
 
