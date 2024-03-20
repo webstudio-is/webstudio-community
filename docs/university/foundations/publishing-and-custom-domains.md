@@ -14,7 +14,7 @@ You can also publish your site on the default Webstudio subdomain, as a staging 
 
 ***
 
-### How to connect a custom domain to your Webstudio site
+## How to connect a custom domain to your Webstudio site
 
 <figure><img src="../../.gitbook/assets/Custom_Domain_Publish_Tab_c4Be8GtmQbd97POPKiVB0.avif" alt=""><figcaption></figcaption></figure>
 
@@ -22,7 +22,7 @@ You can also publish your Webstudio site to a custom domain by going to the “P
 
 After entering your root domain in the resulting input field, you need to configure your domain manually or automatically with Entri.
 
-#### Configure your domain manually
+### Configure your domain manually
 
 You can configure your custom domain manually by adding the CNAME and TXT records from Webstudio into your domain providers DNS settings.
 
@@ -35,7 +35,7 @@ You can configure your custom domain manually by adding the CNAME and TXT record
 
 It is important to note that DNS propagation can take up to 48 hours to complete.
 
-#### Configure your domain automatically with Entri
+### Configure your domain automatically with Entri
 
 Using the "Entri" option makes configuring your domain extremely simple — no puzzling registrar UIs. You can do it without leaving Webstudio Builder in just a couple of clicks.
 
@@ -49,17 +49,17 @@ Once your site is live, you can visit it by clicking the Preview icon next to th
 
 ***
 
-### How to add a custom domain on registrars that don’t allow root CNAMES records
+## How to add a custom domain on registrars that don’t allow root CNAMES records
 
 While the domain configuration process works perfectly for modern DNS providers like [Cloudflare](https://www.cloudflare.com/), it is slightly different for older platforms who only allows for CNAME records to be added to a subdomain.
 
 There are two workarounds to this:
 
-#### 1. Change your DNS provider
+### 1. Change your DNS provider
 
 The easiest way to work around the CNAME limitation is to switch your DNS control over to a provider like [Cloudflare](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/). This process takes about 10 minutes and once you have migrated, you can use the original process to configure it manually or via Entri.
 
-#### 2. Publishing your website on a "www." subdomain
+### 2. Publishing your website on a "www." subdomain
 
 To publish your site on a “www.” subdomain and continue using the original DNS controls provided by your domain registrar, follow this process:
 
@@ -69,7 +69,7 @@ To publish your site on a “www.” subdomain and continue using the original D
 
 ***
 
-### How to publish your site on the Webstudio subdomain
+## How to publish your site on the Webstudio subdomain
 
 <figure><img src="../../.gitbook/assets/Subdomain_Publish_Tab_EHecsESuuMf3Dgswunq-d.avif" alt=""><figcaption></figcaption></figure>
 
@@ -80,7 +80,7 @@ Every Webstudio project comes with a subdomain ending in "wstd.io". You can use 
 
 ***
 
-### How to remove a domain
+## How to remove a domain
 
 To remove a domain from Webstudio:
 
@@ -92,7 +92,28 @@ This will remove the domain from the Publish tab.
 
 ***
 
-### How to export your site in Webstudio
+## Redirect www to naked domain in Cloudflare
+
+### In Webstudio
+1. Make sure your project URL is to the naked domain (with no www)
+![Webstudio Publish](../../.gitbook/assets/publish_01.png)
+
+### In Cloudflare
+1. Setup a CNAME record with @
+2. Setup a CNAME record with www
+3. Confirm the TXT record is to naked domain, *not __webstudio_is_www*
+4. Setup page rule to 301 redirect:
+
+  - *URL* www.yoursite.com/*
+  - *Pick a setting* Forwarding URL
+  - *Status code* 301 - Permanent Redirect
+  - *Destination URL* https://yoursite.com/$1
+  - Save Page rule
+
+![Cloudflare settings](../../.gitbook/assets/publish_02.png)
+***
+
+## How to export your site in Webstudio
 
 You can export your published site to your local machine and continually sync it with the cloud, using the Webstudio CLI.
 
