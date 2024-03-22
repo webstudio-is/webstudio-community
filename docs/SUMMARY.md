@@ -16,6 +16,7 @@
   * [🌐 Publishing & Custom Domains](university/foundations/publishing-and-custom-domains.md)
   * [🎯 SEO Settings](university/foundations/seo-settings.md)
 * [🧩 Core Components](university/core-components/README.md)
+  * [📦 Box](university/core-components/box.md.md)
   * [🔗 Link](university/core-components/link.md)
   * [🖼️ Image](university/core-components/image.md)
   * [📃 List](university/core-components/list.md)

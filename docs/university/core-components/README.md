@@ -1,8 +1,7 @@
 # 🧩 Core Components
 
-<!-- ## GENERAL COMPONENTS -->
-{% content-ref url="box.md" %}
-[box.md](box.md)
+{% content-ref url="box.md.md" %}
+[box.md.md](box.md.md)
 {% endcontent-ref %}
 
 {% content-ref url="link.md" %}
@@ -33,8 +32,6 @@
 [code-text.md](code-text.md)
 {% endcontent-ref %}
 
-
-<!-- ## TEXT COMPONENTS -->
 {% content-ref url="text.md" %}
 [text.md](text.md)
 {% endcontent-ref %}
@@ -51,22 +48,10 @@
 [blockquote.md](blockquote.md)
 {% endcontent-ref %}
 
-
-
-
-
-
-<!-- ## DATA COMPONENTS -->
 {% content-ref url="collections.md" %}
 [collections.md](collections.md)
 {% endcontent-ref %}
 
-
-
-
-
-
-<!-- ## MEDIA COMPONENTS -->
 {% content-ref url="image.md" %}
 [image.md](image.md)
 {% endcontent-ref %}
@@ -75,16 +60,9 @@
 [vimeo.md](vimeo.md)
 {% endcontent-ref %}
 
-
-
-
-
-
-<!-- ## FORM COMPONENTS -->
 {% content-ref url="form.md" %}
 [form.md](form.md)
 {% endcontent-ref %}
-
 
 {% content-ref url="button.md" %}
 [button.md](button.md)
@@ -110,23 +88,18 @@
 [checkbox.md](checkbox.md)
 {% endcontent-ref %}
 
-
-
-
-
-<!-- ## RADIX COMPONENTS -->
 {% content-ref url="sheet.md" %}
 [sheet.md](sheet.md)
 {% endcontent-ref %}
 
 {% content-ref url="nav-menu.md" %}
 [nav-menu.md](nav-menu.md)
-
 {% endcontent-ref %}
+
 {% content-ref url="tabs.md" %}
 [tabs.md](tabs.md)
-
 {% endcontent-ref %}
+
 {% content-ref url="accordion.md" %}
 [accordion.md](accordion.md)
 {% endcontent-ref %}
@@ -167,12 +140,6 @@
 [label.md](label.md)
 {% endcontent-ref %}
 
-
-
-
-
-
-<!-- ## MISC. -->
 {% content-ref url="vimeo-background-video.md" %}
 [vimeo-background-video.md](vimeo-background-video.md)
 {% endcontent-ref %}
