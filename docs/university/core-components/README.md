@@ -44,8 +44,8 @@
 [blockquote.md](blockquote.md)
 {% endcontent-ref %}
 
-{% content-ref url="collections.md" %}
-[collections.md](collections.md)
+{% content-ref url="collection.md.md" %}
+[collection.md.md](collection.md.md)
 {% endcontent-ref %}
 
 {% content-ref url="image.md" %}
