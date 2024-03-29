@@ -27,7 +27,7 @@
   * [💬 Blockquote](university/core-components/blockquote.md)
   * [🔲 Slot](university/core-components/slot.md)
   * [➖ Separator](university/core-components/separator.md.md)
-  * [📄 Code Text Component](university/core-components/code-text.md.md)
+  * [📄 Code Text](university/core-components/code-text.md.md)
   * [🔘 Button](university/core-components/button.md.md)
   * [💾 Collection](university/core-components/collection.md.md)
 * [🛍️ Marketplace](university/marketplace/README.md)
