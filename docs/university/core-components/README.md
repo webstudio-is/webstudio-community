@@ -12,10 +12,6 @@
 [list.md](list.md)
 {% endcontent-ref %}
 
-{% content-ref url="list-item.md" %}
-[list-item.md](list-item.md)
-{% endcontent-ref %}
-
 {% content-ref url="separator.md" %}
 [separator.md](separator.md)
 {% endcontent-ref %}
