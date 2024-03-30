@@ -29,3 +29,7 @@ In Webstudio, clicking on links will navigate your pages without a full reload. 
 </script>
 ```
 
+#### Demo
+
+[Preview Link](https://simple-gsap-demo.wstd.io/)\
+[Builder Link](https://apps.webstudio.is/builder/623cdb40-24bb-4809-a610-145b6eefcf21?authToken=d0544921-f4bb-4697-a0d8-2efd2a0c4a11\&mode=preview)
