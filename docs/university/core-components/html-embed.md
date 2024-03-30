@@ -1,4 +1,4 @@
-# ⌨ HTML Embed
+# ⌨️ HTML Embed
 
 {% embed url="https://www.youtube.com/watch?v=ay0_plImm6w" %}
 
@@ -18,13 +18,21 @@ You can add your custom HTML, CSS, or JavaScript code to the HTML Embed instance
 
 #### Code
 
-<figure><img src="../../.gitbook/assets/HTML_Embed_Article_IMG_875ViDSKOMTEV6397STSe.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-30 at 17.29.27.png" alt=""><figcaption></figcaption></figure>
 
 The "Code" section has a text area for adding your custom code. After you paste your code here, it will be rendered on the canvas. You can add anything to your site including custom widgets, third-party services, API integrations, animations, and interactive content.
 
 #### Run Script on Canvas
 
-The "Run Script on Canvas" toggle allows you to render the html embed directly on the canvas, including executing JavaScript code. It will look exactly the same way as when you publish the site.
+The "Run Script on Canvas" toggle allows you to not only render the HTML embed directly on the canvas, but also execute scripts. It will look exactly the same way as when you publish the site.
+
+#### Client Only
+
+If your HTML embed is script-free and only includes items like SVG icons, CSS, or static HTML, you don't need this option.
+
+For embeds with scripts that change HTML, like GSAP animations or sliders, activate the "Client Only" option. This prevents server-side rendering of the HTML. The embed, along with scripts, will render correctly once client-side JavaScript is loaded.
+
+Check out how to embed [GSAP animations](../how-tos/how-to-add-a-gsap-animation.md).
 
 ***
 

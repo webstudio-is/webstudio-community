@@ -16,6 +16,10 @@
 [how-to-create-a-countdown.md](how-to-create-a-countdown.md)
 {% endcontent-ref %}
 
+{% content-ref url="how-to-add-a-gsap-animation.md" %}
+[how-to-add-a-gsap-animation.md](how-to-add-a-gsap-animation.md)
+{% endcontent-ref %}
+
 {% content-ref url="how-to-crop-an-image-with-out-cropping-the-original-image.md" %}
 [how-to-crop-an-image-with-out-cropping-the-original-image.md](how-to-crop-an-image-with-out-cropping-the-original-image.md)
 {% endcontent-ref %}
