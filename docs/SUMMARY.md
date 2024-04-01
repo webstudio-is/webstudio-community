@@ -64,6 +64,7 @@
   * [▶️ How to create a countdown](university/how-tos/how-to-create-a-countdown.md)
   * [▶️ How to crop an image with out cropping the original image](university/how-tos/how-to-crop-an-image-with-out-cropping-the-original-image.md)
   * [🍀 How to add a GSAP animation](university/how-tos/how-to-add-a-gsap-animation.md)
+  * [Build Your Own Directory Website with Airtable](university/how-tos/build-your-own-directory-website-with-airtable.md)
   * [▶️ Dark mode (unofficial)](university/how-tos/dark-mode-unofficial.md)
 
 ## Contributing
