@@ -81,3 +81,4 @@
   * [🌮 AppSumo redemption failed](errors/appsumo-redemption-failed.md)
 * [Misc](misc/README.md)
   * [📊 Account Limits](misc/account-limits.md)
+  * [🆘 Webstudio Support Process](misc/webstudio-support-process.md)
