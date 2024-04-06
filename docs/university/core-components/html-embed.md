@@ -46,9 +46,9 @@ You can reuse your custom code across your project by putting it inside a Slot i
 
 Please note that any updates you make inside your slot will update all other instances of that slot.
 
-### Don't create global variables
+### Avoid creating global variables
 
-When using \<script> tag, every variable you create is global by default and this can lead to unpredictable effects.\
+When using the tag, every variable you create is global by default, which can lead to unpredictable effects.\
 \
 Example:
 
@@ -58,16 +58,16 @@ Example:
 </script>
 ```
 
-In this example we created a constant "a" and assigned a variable 1 to it. What really happened though because script tags by default use global scope is you created `window.a = 1`;\
+In this example, we created a constant `a` and assigned the value 1 to it. However, because script tags by default use global scope, what really happened is that you created `window.a = 1`.\
 \
 What could go wrong? 😅
 
-1. If you navigate away and come back to the page, script gets executed again and you will get a syntax error: "Identifier 'a' has already been declared". This is due to the fact that const can be declared only once. You could workaround this by using `var` or `let` instead.
-2. What will happen if your logic relies on an existing variable and you don't redefine it? it will use a any random value that happen to be there at a given time.
+1. If you navigate away and come back to the page, the script gets executed again and you will get a syntax error: "Identifier 'a' has already been declared". This is due to the fact that const can be declared only once. You could workaround this by using `var` or `let` instead.
+2. If your logic relies on an existing variable and you don't redefine it, it will use any random value that happens to be there at a given time.
 
-#### Solution 1: modules
+#### Solution 1 - module
 
-When using module type, script has its own scope and the variables don't become global
+When using the module type, the script has its own scope, and the variables don't become global.
 
 ```html
 <script type="module">
@@ -75,9 +75,9 @@ When using module type, script has its own scope and the variables don't become 
 </script>
 ```
 
-#### Solution 2:  function scope
+#### Solution 2 - function scope
 
-Use an immediately invoked function (IIFE) to create a function scope
+Use an Immediately Invoked Function Expression (IIFE) to create a function scope.
 
 ```html
 <script>
