@@ -29,6 +29,21 @@ In Webstudio, clicking on links will navigate your pages without a full reload. 
 </script>
 ```
 
+#### Reusing animation on multiple pages
+
+Here are the steps to reuse the HTML Embed you just created:
+
+1. Create a [Slot](../core-components/slot.md) instance
+2. Move the embed inside the Slot
+3. Copy the Slot to every page where you need it, ensure it is placed AFTER the element it tries to animate.
+
+#### Gotchas
+
+1. Can I split the animation into multiple HTML Embeds? \
+   If you load the GSAP library in one embed and use it in another embed, we can't ensure the execution order, and your library might not be loaded yet at the time your second script gets executed.
+2. Can I use the Scripts textarea from project settings to include GSAP on all pages? \
+   While you can add the library in the HEAD in project settings, this HTML won't run in preview, so you can't test inside the builder. Additionally, if you use async or defer attributes, there is no guarantee that your HTML Embed scripts on the page won't run before the library is loaded. If you don't use defer or async attributes, you will slow down your site by blocking the rendering until the library is loaded.
+
 #### Demo
 
 [Preview Link](https://simple-gsap-demo.wstd.io/)\
