@@ -2,7 +2,7 @@
 
 ## Basics
 
-* [👐 Welcome](README.md)
+* [👋 Welcome](README.md)
 * [🔥 Intro](basics/intro.md)
 * [🎓 Building your first site](basics/building-your-first-site.md)
 * [🔗 Roadmap & Links](basics/roadmap-and-links.md)
@@ -58,13 +58,13 @@
 * [📤 Self-Hosting & CLI](university/self-hosting-and-cli/README.md)
   * [▶️ Vercel](university/self-hosting-and-cli/vercel.md)
   * [▶️ Netlify](university/self-hosting-and-cli/netlify.md)
-* [⭐ How-Tos](university/how-tos/README.md)
+* [1️ How-Tos](university/how-tos/README.md)
   * [▶️ How to add icons](university/how-tos/how-to-add-icons.md)
   * [▶️ How to create fluid video backgrounds with Vimeo](university/how-tos/how-to-create-fluid-video-backgrounds-with-vimeo.md)
   * [▶️ How to create a countdown](university/how-tos/how-to-create-a-countdown.md)
   * [▶️ How to crop an image with out cropping the original image](university/how-tos/how-to-crop-an-image-with-out-cropping-the-original-image.md)
   * [🍀 How to add a GSAP animation](university/how-tos/how-to-add-a-gsap-animation.md)
-  * [Build Your Own Directory Website with Airtable](university/how-tos/build-your-own-directory-website-with-airtable.md)
+  * [▶️ Build Your Own Directory Website with Airtable](university/how-tos/build-your-own-directory-website-with-airtable.md)
   * [▶️ Dark mode (unofficial)](university/how-tos/dark-mode-unofficial.md)
 
 ## Contributing

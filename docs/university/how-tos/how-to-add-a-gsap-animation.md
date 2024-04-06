@@ -2,7 +2,7 @@
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-03-30 at 17.29.27.png" alt=""><figcaption></figcaption></figure>
 
-#### Embed GSAP library on the page
+### Embed GSAP library on the page
 
 1. Add HTML [Embed Component](../core-components/html-embed.md) to the canvas
 2. Activate "[Client Only](../core-components/html-embed.md#client-only)" setting
@@ -29,22 +29,22 @@ In Webstudio, clicking on links will navigate your pages without a full reload. 
 </script>
 ```
 
-#### Reusing animation on multiple pages
+### Q\&A
 
-Here are the steps to reuse the HTML Embed you just created:
+#### How to reuse the animation on multiple pages?
 
-1. Create a [Slot](../core-components/slot.md) instance
-2. Move the embed inside the Slot
-3. Copy the Slot to every page where you need it, ensure it is placed AFTER the element it tries to animate.
+You can reuse the animation using [Slot component](../core-components/html-embed.md#how-to-reuse-your-custom-code-across-multiple-web-pages)
 
-#### Gotchas
+#### Can I split the animation into multiple HTML Embeds?&#x20;
 
-1. Can I split the animation into multiple HTML Embeds? \
-   If you load the GSAP library in one embed and use it in another embed, we can't ensure the execution order, and your library might not be loaded yet at the time your second script gets executed.
-2. Can I use the Scripts textarea from project settings to include GSAP on all pages? \
-   While you can add the library in the HEAD in project settings, this HTML won't run in preview, so you can't test inside the builder. Additionally, if you use async or defer attributes, there is no guarantee that your HTML Embed scripts on the page won't run before the library is loaded. If you don't use defer or async attributes, you will slow down your site by blocking the rendering until the library is loaded.
+Can I split the animation into multiple HTML Embeds? \
+If you load the GSAP library in one embed and use it in another embed, we can't ensure the execution order, and your library might not be loaded yet at the time your second script gets executed.
 
-#### Demo
+#### Can I use the Custom Code from project settings to include GSAP on all pages?&#x20;
+
+While you can add the library in the HEAD in project settings, this HTML won't run in preview, so you can't test inside the builder. Additionally, if you use async or defer attributes, there is no guarantee that your HTML Embed scripts on the page won't run before the library is loaded. If you don't use defer or async attributes, you will slow down your site by blocking the rendering until the library is loaded.
+
+### Demo
 
 [Preview Link](https://simple-gsap-demo.wstd.io/)\
 [Builder Link](https://apps.webstudio.is/builder/623cdb40-24bb-4809-a610-145b6eefcf21?authToken=d0544921-f4bb-4697-a0d8-2efd2a0c4a11\&mode=preview)
