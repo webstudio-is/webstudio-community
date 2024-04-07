@@ -44,6 +44,10 @@ If you load the GSAP library in one embed and use it in another embed, we can't 
 
 While you can add the library in the HEAD in project settings, this HTML won't run in preview, so you can't test inside the builder. Additionally, if you use async or defer attributes, there is no guarantee that your HTML Embed scripts on the page won't run before the library is loaded. If you don't use defer or async attributes, you will slow down your site by blocking the rendering until the library is loaded.
 
+#### Identifier 'x' has already been declared
+
+Learn more about script scope [here](../core-components/html-embed.md#avoid-creating-global-variables).
+
 ### Demo
 
 [Preview Link](https://simple-gsap-demo.wstd.io/)\
