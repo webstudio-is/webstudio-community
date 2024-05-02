@@ -12,7 +12,7 @@
 
 #### Example
 
-<mark style="color:red;">Attention!</mark> DO NOT USE the "DOMContentLoaded" event. \
+<mark style="color:red;">Attention!</mark> You do not need the "DOMContentLoaded" event. \
 In Webstudio, clicking on links will navigate your pages without a full reload. This makes it very fast, but it also means there will be no "DOMContentLoaded" event after the initial load.
 
 ```html
