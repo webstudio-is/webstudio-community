@@ -1,4 +1,4 @@
-# Build Your Own Directory Website with Airtable
+# ▶️ Build Your Own Directory Website with Airtable
 
 {% embed url="https://youtu.be/21y1_CiBqnM" %}
 

@@ -1,4 +1,4 @@
-# ⭐ How-Tos
+# 1️ 1️ How-Tos
 
 {% content-ref url="how-to-add-icons.md" %}
 [how-to-add-icons.md](how-to-add-icons.md)
