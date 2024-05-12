@@ -16,6 +16,7 @@
   * [🖌️ Design Tokens](university/foundations/design-tokens.md)
   * [🌐 Publishing & Custom Domains](university/foundations/publishing-and-custom-domains.md)
   * [🎯 SEO Settings](university/foundations/seo-settings.md)
+  * [Expression Editor](university/foundations/expression-editor.md)
 * [🧩 Core Components](university/core-components/README.md)
   * [📦 Box](university/core-components/box.md.md)
   * [🔗 Link](university/core-components/link.md)
@@ -67,6 +68,7 @@
   * [🍀 How to add a GSAP animation](university/how-tos/how-to-add-a-gsap-animation.md)
   * [▶️ Build Your Own Directory Website with Airtable](university/how-tos/build-your-own-directory-website-with-airtable.md)
   * [▶️ Dark mode (unofficial)](university/how-tos/dark-mode-unofficial.md)
+  * [▶️ Using filters to dynamically display content (Airtable example)](university/how-tos/using-filters-to-dynamically-display-content.md)
 
 ## Contributing
 

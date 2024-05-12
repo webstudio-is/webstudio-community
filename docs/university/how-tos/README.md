@@ -23,3 +23,7 @@
 {% content-ref url="how-to-crop-an-image-with-out-cropping-the-original-image.md" %}
 [how-to-crop-an-image-with-out-cropping-the-original-image.md](how-to-crop-an-image-with-out-cropping-the-original-image.md)
 {% endcontent-ref %}
+
+{% content-ref url="using-filters-to-dynamically-display-content.md" %}
+[using-filters-to-dynamically-display-content.md](using-filters-to-dynamically-display-content.md)
+{% endcontent-ref %}
