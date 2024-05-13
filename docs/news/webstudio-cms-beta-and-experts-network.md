@@ -39,13 +39,13 @@ If you are looking to get more clients, hurry up, create a profile with at least
 
 ### Changelog Highlights
 
+* Added "Advanced section" in style panel that allows you to use nearly every CSS property and value.
 * Added support for backdrop-filter and text-shadow property in the style panel.
 * We are now excluding the page from search by default, so that you don't accidentally publish something experimental,
-* Allow customizing contact email when using Webhook Form in project settings.
 * Color picker now has eyedropper 🪈
 * A variable inspector dialog allows you to see any value comfortable in code editor, click on menu in variables list, then "inspect".
-* Added "Advanced section" in style panel that allows you to use nearly every CSS property and value.
 * You can now paste a cURL string into Resource URL and get all the fields automatically filled out.
+* Allow customizing contact email when using Webhook Form in project settings.
 * New Share Project permissions allow you to share the project without allowing to clone or copy.
 * Our Redirects allow you to use 301 and 302 status codes for permanent and temporary redirects
 
