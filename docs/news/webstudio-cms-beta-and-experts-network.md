@@ -15,7 +15,7 @@ Now let's dive in.
 
 ### 1. Webstudio CMS Beta - The Best CMS Is the One You Already Use.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Webstudio - visual frontend for headless CMS</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Webstudio - visual frontend for headless CMS</p></figcaption></figure>
 
 It's been a while since we said we are launching CMS integrations soon, and now we are ready! We needed to get it right because the whole point of building Webstudio is not to create yet another static site builder. The power of Webstudio is its Dynamic Data capability powered by rock-solid, massively scaled Cloudflare Workers. These little machines spread across 270 locations globally are why Webstudio sites are dynamic at the speed of static.
 
@@ -27,7 +27,7 @@ All of this is fully customizable and can be reused as a clonable project.\
 
 ### 2. Experts Network on Contra - Earn More Money or find builders
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Contra - the commission-free freelance marketplace</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Contra - the commission-free freelance marketplace</p></figcaption></figure>
 
 Tons of people have asked us where they can find Webstudio experts, designers, and developers. Now we have an answer, an Expert Network powered by [Contra](https://contra.com/) - a commission-free platform that allows you to showcase your work, find clients, and find builders!
 

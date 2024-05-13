@@ -8,8 +8,11 @@
 * [🤓 Courses](basics/courses.md)
 * [🔗 Roadmap & Links](basics/roadmap-and-links.md)
 * [❓ FAQs](basics/FAQ.md)
-* [🆕 News](basics/news/README.md)
-  * [🔥 Webstudio CMS Beta and Experts Network](basics/news/webstudio-cms-beta-and-experts-network.md)
+
+***
+
+* [🆕 News](news/README.md)
+  * [🔥 Webstudio CMS Beta and Experts Network](news/webstudio-cms-beta-and-experts-network.md)
 
 ## university
 
