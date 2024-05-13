@@ -2,7 +2,7 @@
 description: All news around Webstudio Project.
 ---
 
-# 🆕 News
+# NEWS
 
 {% content-ref url="webstudio-cms-beta-and-experts-network.md" %}
 [webstudio-cms-beta-and-experts-network.md](webstudio-cms-beta-and-experts-network.md)

@@ -11,8 +11,8 @@
 
 ***
 
-* [🆕 News](news/README.md)
-  * [🔥 Webstudio CMS Beta and Experts Network](news/webstudio-cms-beta-and-experts-network.md)
+* [NEWS](news/README.md)
+  * [🆕 Webstudio CMS Beta and Experts Network](news/webstudio-cms-beta-and-experts-network.md)
 
 ## university
 
