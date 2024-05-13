@@ -9,10 +9,9 @@
 * [🔗 Roadmap & Links](basics/roadmap-and-links.md)
 * [❓ FAQs](basics/FAQ.md)
 
-***
+## NEWS
 
-* [NEWS](news/README.md)
-  * [🆕 Webstudio CMS Beta and Experts Network](news/webstudio-cms-beta-and-experts-network.md)
+* [🆕 Webstudio CMS Beta and Experts Network](news/webstudio-cms-beta-and-experts-network.md)
 
 ## university
 

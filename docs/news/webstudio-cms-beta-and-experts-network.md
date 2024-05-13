@@ -2,7 +2,7 @@
 description: Launching CMS Integrations and Experts Network
 ---
 
-# 🔥 Webstudio CMS Beta and Experts Network
+# 🆕 Webstudio CMS Beta and Experts Network
 
 Hey Builders, we have 2 giant updates for you! Before I dive into details, here are 2 actionable items:
 
