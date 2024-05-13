@@ -13,7 +13,7 @@ Hey Builders, we have 2 giant updates for you! Before I dive into details, here 
 
 Now let's dive in.
 
-### 1. Webstudio CMS Beta - The Best CMS Is the One You Already Use.
+### Webstudio CMS Beta - The Best CMS Is the One You Already Use.
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Webstudio - visual frontend for headless CMS</p></figcaption></figure>
 
@@ -24,7 +24,7 @@ Now with this CMS Beta launch, we have created all the primitives to connect to 
 All of this is fully customizable and can be reused as a clonable project, more about it [on our blog](https://webstudio.is/blog/frontend-for-headless-cms).\
 
 
-### 2. Experts Network on Contra - Earn More Money or find builders
+### Experts Network on Contra - Earn More Money or find builders
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Contra - the commission-free freelance marketplace</p></figcaption></figure>
 
@@ -32,7 +32,7 @@ Tons of people have asked us where they can find Webstudio experts, designers, a
 
 If you are looking to get more clients, hurry up, create a profile with at least one project made in Webstudio. Once the first 12 profiles are selected, they will get extra 👀 when Contra sends out an update to their network!
 
-### 3. More news
+### More news
 
 1. Please welcome John from [createtoday.io](https://createtoday.io) as a core team member of Webstudio! You may not know, but John has created a [Webstudio Essentials course](https://shop.createtoday.io/l/webstudio-essentials) that gets you from 0 to Complete Website With SEO
 2. Watch[ this deep dive ](https://www.youtube.com/watch?v=n5tG2j6\_4dw) into creating dynamic, filterable, and searchable content with Webstudio and Airtable
