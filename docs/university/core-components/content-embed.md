@@ -40,4 +40,4 @@ Styles applied to each of these tags will apply to all occurrences of that tag w
 
 While very similar, there is one distinct difference: Content Embed enables styling the contained HTML.
 
-If there is no need to apply styles to the contained HTML, then use the [HTML Embed Component](html-embed.md). However, if you need to style the contents (which is typically the case if fetching HTML from a CMS), then you Content Embed.
+If there is no need to apply styles to the contained HTML, then use the [HTML Embed Component](html-embed.md). However, if you need to style the contents (which is typically the case if fetching HTML from a CMS), then use Content Embed.
