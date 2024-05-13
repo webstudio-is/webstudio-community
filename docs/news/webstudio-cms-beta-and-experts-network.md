@@ -8,7 +8,7 @@ Hey Creators, we have 2 giant updates for you! Before I dive into details, here 
 
 1. Click the “Notify me” button on[ Product Hunt](https://www.producthunt.com/products/webstudio); it’s super important to not miss the date because we will need your support to become #1 product of the day!  Also, you can subscribe to the waitlist [here](https://webstudio.is/cms) to learn when it goes live.\
    \
-   Please help us make the Webstudio CMS launch a giant success by reposting on X  and commenting on Product Hunt during the launch day!
+   Help us make the Webstudio CMS launch a giant success by reposting on X  and commenting on Product Hunt during the launch day!
 2. Make more money by creating a [Contra](https://contra.com/) profile.
 
 Now let's dive in.
