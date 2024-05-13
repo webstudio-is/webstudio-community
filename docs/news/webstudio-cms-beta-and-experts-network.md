@@ -36,3 +36,17 @@ If you are looking to get more clients, hurry up, create a profile with at least
 
 1. Please welcome John from [createtoday.io](https://createtoday.io) as a core team member of Webstudio! You may not know, but John has created a [Webstudio Essentials course](https://shop.createtoday.io/l/webstudio-essentials) that gets you from 0 to Complete Website With SEO
 2. Watch[ this deep dive ](https://www.youtube.com/watch?v=n5tG2j6\_4dw) into creating dynamic, filterable, and searchable content with Webstudio and Airtable
+
+### Changelog Highlights
+
+* Added support for backdrop-filter and text-shadow property in the style panel.
+* We are now excluding the page from search by default, so that you don't accidentally publish something experimental,
+* Allow customizing contact email when using Webhook Form in project settings.
+* Color picker now has eyedropper 🪈
+* A variable inspector dialog allows you to see any value comfortable in code editor, click on menu in variables list, then "inspect".
+* Added "Advanced section" in style panel that allows you to use nearly every CSS property and value.
+* You can now paste a cURL string into Resource URL and get all the fields automatically filled out.
+* New Share Project permissions allow you to share the project without allowing to clone or copy.
+* Our Redirects allow you to use 301 and 302 status codes for permanent and temporary redirects
+
+[See Full Changelog](https://github.com/webstudio-is/webstudio/releases)
