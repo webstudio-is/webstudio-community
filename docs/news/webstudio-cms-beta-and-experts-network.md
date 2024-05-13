@@ -39,6 +39,7 @@ If you are looking to get more clients, hurry up, create a profile with at least
 
 ### Changelog Highlights
 
+* Marketplace for section and page templates is now available directly from the builder. You can also submit free and paid templates to earn money.
 * Added "Advanced section" in style panel that allows you to use nearly every CSS property and value.
 * Added support for backdrop-filter and text-shadow property in the style panel.
 * We are now excluding the page from search by default, so that you don't accidentally publish something experimental,
