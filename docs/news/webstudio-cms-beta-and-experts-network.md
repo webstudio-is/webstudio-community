@@ -21,8 +21,7 @@ It's been a while since we said we are launching CMS integrations soon, and now 
 
 Now with this CMS Beta launch, we have created all the primitives to connect to any CMS, CRM, Database to make Webstudio truly dynamic thanks to dynamic routing,  data-driven SEO settings, redirects, status codes, language, sitemaps, and rich text.
 
-All of this is fully customizable and can be reused as a clonable project.\
-\
+All of this is fully customizable and can be reused as a clonable project, more about it [on our blog](https://webstudio.is/blog/frontend-for-headless-cms).\
 
 
 ### 2. Experts Network on Contra - Earn More Money or find builders
