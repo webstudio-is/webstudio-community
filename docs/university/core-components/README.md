@@ -55,3 +55,7 @@
 {% content-ref url="../marketplace/ui-kits-and-components/" %}
 [ui-kits-and-components](../marketplace/ui-kits-and-components/)
 {% endcontent-ref %}
+
+{% content-ref url="content-embed.md" %}
+[content-embed.md](content-embed.md)
+{% endcontent-ref %}

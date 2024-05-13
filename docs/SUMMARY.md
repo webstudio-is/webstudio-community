@@ -32,6 +32,7 @@
   * [📄 Code Text](university/core-components/code-text.md.md)
   * [🔘 Button](university/core-components/button.md.md)
   * [💾 Collection](university/core-components/collection.md.md)
+  * [🪜 Content Embed](university/core-components/content-embed.md)
 * [🛍️ Marketplace](university/marketplace/README.md)
   * [🧩 UI Kits & Components](university/marketplace/ui-kits-and-components/README.md)
     * [▫️ Radix](university/marketplace/ui-kits-and-components/radix/README.md)
