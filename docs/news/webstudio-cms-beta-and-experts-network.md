@@ -4,7 +4,7 @@ description: Launching CMS Integrations and Experts Network
 
 # 🆕 Webstudio CMS Beta and Experts Network
 
-Hey Builders, we have 2 giant updates for you! Before I dive into details, here are 2 actionable items:
+Hey Creators, we have 2 giant updates for you! Before I dive into details, here are 2 actionable items:
 
 1. Click the “Notify me” button on[ Product Hunt](https://www.producthunt.com/products/webstudio); it’s super important to not miss the date because we will need your support to become #1 product of the day!  Also, you can subscribe to the waitlist [here](https://webstudio.is/cms) to learn when it goes live.\
    \
