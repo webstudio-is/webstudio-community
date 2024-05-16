@@ -59,3 +59,7 @@
 {% content-ref url="content-embed.md" %}
 [content-embed.md](content-embed.md)
 {% endcontent-ref %}
+
+{% content-ref url="xml-node.md" %}
+[xml-node.md](xml-node.md)
+{% endcontent-ref %}
