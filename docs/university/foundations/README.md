@@ -15,3 +15,7 @@
 {% content-ref url="seo-settings.md" %}
 [seo-settings.md](seo-settings.md)
 {% endcontent-ref %}
+
+{% content-ref url="variables.md" %}
+[variables.md](variables.md)
+{% endcontent-ref %}

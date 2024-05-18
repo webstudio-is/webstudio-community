@@ -20,6 +20,7 @@
   * [🖌️ Design Tokens](university/foundations/design-tokens.md)
   * [🌐 Publishing & Custom Domains](university/foundations/publishing-and-custom-domains.md)
   * [🎯 SEO Settings](university/foundations/seo-settings.md)
+  * [🔡 Variables](university/foundations/variables.md)
   * [Expression Editor](university/foundations/expression-editor.md)
 * [🧩 Core Components](university/core-components/README.md)
   * [📦 Box](university/core-components/box.md.md)
