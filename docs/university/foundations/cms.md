@@ -12,7 +12,7 @@ The building blocks of Webstudio CMS are:
 
 1. [**Dynamic pages**](cms.md#dynamic-pages) – In their simplest form, they are essentially blog templates – one page that dynamically displays data depending on the URL viewed.
 2. [**Resources**](variables.md#resource) – A way to fetch data from an API, whether it's a simple blog post or a complex data model.
-3. [**Bindings**](expression-editor.md#binding)– Enabling connecting or mapping the CMS data to Webstudio components. You can bind external data to any component and field within Webstudio, from rich text to meta titles.
+3. [**Bindings**](expression-editor.md#binding) – Enabling connecting or mapping the CMS data to Webstudio components. You can bind external data to any component and field within Webstudio, from rich text to meta titles.
 
 For an in-depth tutorial on creating a blog using Webstudio and a headless CMS ([Hygraph](https://hygraph.com/)), [watch this video](https://youtu.be/QC6Y7BHduLw).
 
