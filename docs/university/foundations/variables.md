@@ -16,7 +16,7 @@ To access variables in the Page Settings, the variable must be defined on the Bo
 
 ### Variables
 
-### System
+#### System
 
 System variable is a unique variable in that it exists by default, while all other variables are added by the user.
 
