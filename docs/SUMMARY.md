@@ -68,7 +68,7 @@
 * [📤 Self-Hosting & CLI](university/self-hosting-and-cli/README.md)
   * [▶️ Vercel](university/self-hosting-and-cli/vercel.md)
   * [▶️ Netlify](university/self-hosting-and-cli/netlify.md)
-* [1️ 1️ 1️ How-Tos](university/how-tos/README.md)
+* [1️ How-Tos](university/how-tos/README.md)
   * [▶️ How to add icons](university/how-tos/how-to-add-icons.md)
   * [▶️ How to create fluid video backgrounds with Vimeo](university/how-tos/how-to-create-fluid-video-backgrounds-with-vimeo.md)
   * [▶️ How to create a countdown](university/how-tos/how-to-create-a-countdown.md)
