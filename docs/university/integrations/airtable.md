@@ -58,7 +58,7 @@ Go to your Webstudio project > Pages > Create a new page.
 
 Add a path with a minimum of two segments in the Dynamic Path field. This example uses the path `/products/:slug`.
 
-<figure><img src="https://images.surferseo.art/50c2d540-a187-4a67-8f0a-7b82c94fe6f2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://images.surferseo.art/50c2d540-a187-4a67-8f0a-7b82c94fe6f2.png" alt="Dynamic path of /products/:slug"><figcaption></figcaption></figure>
 
 1. The first segment should be something to describe your records (e.g., `products`)
 2. The second is a dynamic component. You can name it whatever. This example uses `:slug`. The value will be used in the following steps.
@@ -73,7 +73,7 @@ Go to the Navigator on the left > select Body > Settings on the right > and crea
 
 While the URL and remaining fields can be manually entered, there is also a shortcut – you can paste in a curl command, and Webstudio will automatically parse it and populate the respective fields. To get the curl command custom to your Base, go to your Airtable Base > Help > API documentation > click on your Table on the left > then click "List records".
 
-<figure><img src="https://images.surferseo.art/9825e416-8da0-4a5d-87e0-31ff3a8b8205.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://images.surferseo.art/9825e416-8da0-4a5d-87e0-31ff3a8b8205.png" alt="Airtable curl command"><figcaption></figcaption></figure>
 
 Copy the curl command as shown in the image, then paste it into the URL field in the Resource.
 
@@ -81,7 +81,7 @@ Now, you need to add several customizations to it.
 
 First, replace `YOUR_SECRET_API_TOKEN` with your API token. Refer to [Airtable's documentation](https://support.airtable.com/docs/creating-personal-access-tokens) for generating a token. Make sure you keep `Bearer` in front of the token.
 
-<figure><img src="https://images.surferseo.art/84dc1cba-c30f-4e13-9184-6ccd618b66bc.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://images.surferseo.art/84dc1cba-c30f-4e13-9184-6ccd618b66bc.png" alt="Airtable authorization Bearer" width="375"><figcaption></figcaption></figure>
 
 Second, you must modify the URL to filter by the currently viewed URL. So, for example, if somebody is viewing `/products/wireless-mouse`, the URL needs to filter Airtable records using `wireless-mouse`.
 
@@ -105,11 +105,11 @@ Be sure to:
 
 Nothing will be retrieved until we give it a test slug value. To do this, go to the Address Bar and manually enter one of the values from the Airtable column you are filtering by.
 
-<figure><img src="https://images.surferseo.art/74e10fcc-00a2-4319-81d6-e0b570a5dc13.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://images.surferseo.art/74e10fcc-00a2-4319-81d6-e0b570a5dc13.png" alt="Adding a test param slug which is a value from my Airtable Base" width="375"><figcaption></figcaption></figure>
 
 Now, go to your variable and inspect it.
 
-<figure><img src="https://images.surferseo.art/5a601a53-1994-493e-8a2c-cc8760d62542.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://images.surferseo.art/5a601a53-1994-493e-8a2c-cc8760d62542.png" alt="Response from Airtable API call"><figcaption></figcaption></figure>
 
 You should see data within "records" like the image shows. If you are not seeing data, then there is likely an issue with mapping the value from your dynamic path to the dynamic URL. If you see an error, read it and try to correct it.
 
@@ -125,7 +125,7 @@ First, add the various [components](../core-components/) you want on your page. 
 
 Here's a page with the various components with their default values:
 
-<figure><img src="https://images.surferseo.art/cb93cbff-d57a-4efb-ad77-ce3b6b6a481b.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://images.surferseo.art/cb93cbff-d57a-4efb-ad77-ce3b6b6a481b.png" alt="Dynamic page with components without bindings"><figcaption></figcaption></figure>
 
 For each component, go to Settings and the field to which you want to attach an external value and click the "+" to open Bindings.
 
@@ -133,7 +133,7 @@ In the [Expression Editor](../foundations/expression-editor.md), click or type t
 
 Here is what that looks like:
 
-<figure><img src="https://images.surferseo.art/51e88932-60cb-4929-94a2-dd40019e13e0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://images.surferseo.art/51e88932-60cb-4929-94a2-dd40019e13e0.png" alt="Binding Airtable data to Webstudio components"><figcaption></figcaption></figure>
 
 Continue this process for all components. All fields in Webstudio can have Airtable fields bound to them, including page fields like Title.
 
@@ -141,7 +141,7 @@ Continue this process for all components. All fields in Webstudio can have Airta
 
 Here are the Page Settings bound to Airtable values:
 
-<figure><img src="https://images.surferseo.art/40573512-4811-43fa-a7d7-7d928e8ba9d3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://images.surferseo.art/40573512-4811-43fa-a7d7-7d928e8ba9d3.png" alt="Page Settings bound to Airtable values"><figcaption></figcaption></figure>
 
 There is one more place to bind: the status code. You want to ensure that if there is no matching value within your Airtable, the page returns a 404, not a 200.
 
@@ -155,7 +155,7 @@ The format will be like this:
 
 For this example, it looks like this:
 
-<figure><img src="https://images.surferseo.art/dcd9f284-2c14-46a3-9e35-b3631cf09918.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://images.surferseo.art/dcd9f284-2c14-46a3-9e35-b3631cf09918.png" alt="Status code for Airtable page."><figcaption></figcaption></figure>
 
 In plain text, the expression says, "If the Airtable value exists, return 200 (found); otherwise, return 404 (not found).
 
@@ -163,7 +163,7 @@ Well done! So far, you have successfully created a Dynamic Page, fetched the dat
 
 ### 4 Create an overview page
 
-<figure><img src="https://images.surferseo.art/57850fff-5fa3-4179-8a29-ac09dc3ed8cb.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://images.surferseo.art/57850fff-5fa3-4179-8a29-ac09dc3ed8cb.png" alt="Grid of Airtable products in Webstudio"><figcaption></figcaption></figure>
 
 In this step, you will create a page that lists the various Airtable records and links them so that users can click on them and land on the Dynamic Page containing the proper data.
 
@@ -179,7 +179,7 @@ Create a new variable, same as last time, except the URL will _not_ be dynamic. 
 
 Add the [**Collection**](../core-components/collection.md.md) component, which will iterate over a list of the records. So, if you can design what a record should look like once, it will replicate it for each record. You need to bind the list of records to the Collection. Here's what that looks like:
 
-<figure><img src="https://images.surferseo.art/80a98c18-69e4-4176-ace9-a9f25292292a.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://images.surferseo.art/80a98c18-69e4-4176-ace9-a9f25292292a.png" alt="Airtable records attached to Collection"><figcaption></figcaption></figure>
 
 The Collection has a default variable containing the value of the current iteration's record. The default name is "Collection Item"; however, in the screenshot, you can see it was renamed to "Airtable Product" for clarity.
 
@@ -189,7 +189,7 @@ Next, bind the various values to the components, as you learned previously. For 
 
 Here is what that looks like in this example:
 
-<figure><img src="https://images.surferseo.art/0d08b0e5-7895-4e40-9f1f-05381c2566fc.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://images.surferseo.art/0d08b0e5-7895-4e40-9f1f-05381c2566fc.png" alt="Linking to each Airtable records&#x27; corresponding page"><figcaption></figcaption></figure>
 
 Note that the static value is in quotes ("/products/"), and there is a "+" to glue it together with the dynamic slug value.
 
