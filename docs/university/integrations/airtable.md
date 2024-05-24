@@ -21,9 +21,9 @@ layout:
     visible: true
 ---
 
-# 🔗 How to build a frontend for Airtable using Webstudio
+# How to build a frontend for Airtable using Webstudio
 
-By the end of this tutorial, you will have the following using your [Airtable](https://airtable.com/) database and [Webstudio](https://apps.webstudio.is/dashboard):
+By the end of this tutorial, you will have the following using your [Airtable](https://airtable.com/) database and [Webstudio](https://webstudio.is/):
 
 * **An overview page** – One page that contains all the records in Airtable, each with a link to view that record on a details page (a dynamic page).
 * **A details page** – A template displaying the record/row matching the record viewed. If the user is on /products/mouse, the Dynamic Page will fetch the Airtable record matching "mouse" and display its contents.

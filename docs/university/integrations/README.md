@@ -10,6 +10,7 @@ description: >-
 This page is a work in progress – much more to come.
 {% endhint %}
 
+* [Hygraph](hygraph.md)
 * [Airtable](airtable.md)
 
 Have a platform you want to see a tutorial for? Send us a message in [Discord](https://discord.gg/UNdyrDkq5r).

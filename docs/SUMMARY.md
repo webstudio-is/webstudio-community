@@ -78,7 +78,8 @@
   * [▶️ Dark mode (unofficial)](university/how-tos/dark-mode-unofficial.md)
   * [▶️ Using filters to dynamically display content (Airtable example)](university/how-tos/using-filters-to-dynamically-display-content.md)
 * [🔗 Integrations](university/integrations/README.md)
-  * [🔗 How to build a frontend for Airtable using Webstudio](university/integrations/airtable.md)
+  * [How to build a frontend for Hygraph using Webstudio](university/integrations/hygraph.md)
+  * [How to build a frontend for Airtable using Webstudio](university/integrations/airtable.md)
 
 ## Contributing
 
