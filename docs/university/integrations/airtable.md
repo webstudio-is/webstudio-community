@@ -34,7 +34,7 @@ By the end of this tutorial, you will have the following using your [Airtable](h
 Video tutorial
 {% endembed %}
 
-### Webstudio is a visual builder that connects to Airtable
+## Webstudio is a visual builder that connects to Airtable
 
 Webstudio is solely focused on creating a visual builder for the frontend. It's backend agnostic, meaning we don't lock you into using any one backend/CMS/database.
 
@@ -42,15 +42,15 @@ In the case of Airtable, this enables you to leverage your current data and the 
 
 Webstudio is open source, has all CSS properties, and is dynamic at the speed of static.
 
-### Why Airtable
+## Why Airtable
 
 Airtable is a highly maintainable way of managing tabular data such as team members, products, portfolio projects, business data, and _many_ other types of data.
 
 Many data types can benefit from displaying them on a frontend/website.
 
-### Steps to building an Airtable frontend using Webstudio
+## Steps to building an Airtable frontend using Webstudio
 
-#### 1 Create a dynamic page
+### 1 Create a dynamic page
 
 In this step, you will create a [Dynamic Page](../foundations/cms.md#dynamic-pages) in Webstudio. Think of it as your record template – one page that dynamically changes based on the URL. The URL will contain a dynamic path, and its value will be used to get the record from Airtable.
 
@@ -63,7 +63,7 @@ Add a path with a minimum of two segments in the Dynamic Path field. This exampl
 1. The first segment should be something to describe your records (e.g., `products`)
 2. The second is a dynamic component. You can name it whatever. This example uses `:slug`. The value will be used in the following steps.
 
-#### 2 Fetch Airtable data
+### 2 Fetch Airtable data
 
 In this step, you will configure a [Resource](../foundations/cms.md#resources) in Webstudio to get data from Airtable.
 
@@ -115,7 +115,7 @@ You should see data within "records" like the image shows. If you are not seeing
 
 Now that you are getting data, you can move to the next step, mapping or "binding" the data to the various components within Webstudio.
 
-#### 3 Bind Airtable data to Webstudio components
+### 3 Bind Airtable data to Webstudio components
 
 [Binding](../foundations/cms.md#binding-data) enables you to connect or map values from the Airtable response (aka the Airtable data) to the Webstudio components to build your frontend.
 
@@ -161,7 +161,7 @@ In plain text, the expression says, "If the Airtable value exists, return 200 (f
 
 Well done! So far, you have successfully created a Dynamic Page, fetched the data from Airtable, and bound the data to Webstudio Components. In the following steps, these same concepts will be used to create an overview page with your various records all on one page and a sitemap for search engines.
 
-#### 4 Create an overview page
+### 4 Create an overview page
 
 <figure><img src="https://images.surferseo.art/57850fff-5fa3-4179-8a29-ac09dc3ed8cb.png" alt=""><figcaption></figcaption></figure>
 
@@ -205,7 +205,7 @@ Refer to the following guide to create the filters:
 
 This page is great to let users browse your records, but we need to create a page for search engines, a sitemap.
 
-#### 5 Create a sitemap
+### 5 Create a sitemap
 
 Webstudio enables you to visually build a dynamic sitemap using [**Collections**](../core-components/collection.md.md) and [**XML Nodes**](../core-components/xml-node.md).
 
@@ -218,13 +218,13 @@ Here's how to do it:
 
 Refer to [this video chapter](https://www.youtube.com/watch?v=QC6Y7BHduLw\&t=975s) for a full video demonstration on building a sitemap. While the backend differs in this video, the concepts are the same.
 
-### Start using Webstudio as a frontend for Airtable
+## Start using Webstudio as a frontend for Airtable
 
 With [Webstudio](https://apps.webstudio.is/dashboard), you can build an entire Airtable frontend, including a record overview page, a dynamic page displaying each record, and a sitemap – all without writing code!
 
 The flexibility of Resources enables you to fetch exactly what you need from one or more Airtable Databases and even multiple systems altogether (e.g., Airtable team members and Hygraph for blog posts).
 
-### Resources
+## Resources
 
 * [Using filters to dynamically display Airtable content](../how-tos/using-filters-to-dynamically-display-content.md)
 * [Building dynamic pages for Airtable data](https://youtu.be/3mW7cPDXIxY)
