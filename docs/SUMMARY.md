@@ -77,6 +77,8 @@
   * [▶️ Build Your Own Directory Website with Airtable](university/how-tos/build-your-own-directory-website-with-airtable.md)
   * [▶️ Dark mode (unofficial)](university/how-tos/dark-mode-unofficial.md)
   * [▶️ Using filters to dynamically display content (Airtable example)](university/how-tos/using-filters-to-dynamically-display-content.md)
+* [🔗 Integrations](university/integrations/README.md)
+  * [🔗 How to build a frontend for Airtable using Webstudio](university/integrations/airtable.md)
 
 ## Contributing
 

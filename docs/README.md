@@ -30,6 +30,10 @@ Our getting started guide will help you navigate through building your first Web
 [how-tos](university/how-tos/)
 {% endcontent-ref %}
 
+{% content-ref url="university/integrations/" %}
+[integrations](university/integrations/)
+{% endcontent-ref %}
+
 ### Looking to contribute to Webstudio?
 
 {% content-ref url="contributing/contributing-for-designers.md" %}
