@@ -23,6 +23,10 @@ layout:
 
 # How to build a frontend for Hygraph using Webstudio
 
+{% hint style="success" %}
+A lightweight Hygraph template is in the Marketplace. To start a new project, [clone the template](https://apps.webstudio.is/builder/d606d380-194b-4824-ac13-14250cebb67d). To integrate with an existing project, visit the Marketplace and insert the various pages.
+{% endhint %}
+
 By the end of this tutorial, you will have the following using your [Hygraph](https://hygraph.com/) data and [Webstudio](https://webstudio.is/):
 
 * **An overview page** – One page that contains all the records in the Hygraph blog model, each with a link to view that record on a details page (a dynamic page).
