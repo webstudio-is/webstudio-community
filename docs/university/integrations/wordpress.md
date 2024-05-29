@@ -14,7 +14,7 @@ By the end of this tutorial, you will have the following using [WordPress](https
 * **A blog page** – A template displaying the Post matching the URL viewed. If the user is on /blogs/mouse, the Dynamic Page will fetch the WordPress Post with the slug "mouse" and display its contents.
 * **A sitemap** – A dynamic sitemap containing the Posts in WordPress.
 
-### **Webstudio is a visual builder that connects to headless WordPress**
+## **Webstudio is a visual builder that connects to headless WordPress**
 
 Webstudio is solely focused on creating a visual builder for the frontend. It's backend agnostic, meaning we don't lock you into using any one backend/CMS/database.
 
@@ -24,7 +24,7 @@ Webstudio enables you to build a custom frontend for headless WordPress without 
 
 Webstudio is open source, has all CSS properties, and is dynamic at the speed of static.
 
-### **Why Headless WordPress**
+## **Why Headless WordPress**
 
 1. You already use WordPress and want to keep your blog data there using it as a headless CMS.
 2. You want to start a new blog and like the flexibility of WordPress.
@@ -33,9 +33,9 @@ Overall, you want to use the WordPress CMS and not the page builders or WordPres
 
 This setup lets you take advantage of the flexible blogging capabilities without bloating your site with WordPress Plugins that come with a traditional WordPress setup.
 
-### **Steps to building a WordPress frontend using Webstudio**
+## **Steps to building a WordPress frontend using Webstudio**
 
-#### **1 Create a dynamic page**
+### **1 Create a dynamic page**
 
 In this step, you will create a [Dynamic Page](../foundations/cms.md#dynamic-pages) in Webstudio. Think of it as your Post template – one page that dynamically changes based on the URL. The URL will contain a dynamic path, and its value will be used to fetch the Post from WordPress.
 
@@ -48,7 +48,7 @@ Add a path with at least two segments in the Dynamic Path field. This example us
 1. The first segment should be something to describe your records (e.g., blogs)
 2. The second is a dynamic component. You can name it whatever. This example uses `:slug`. The value will be used in the following steps.
 
-#### 2 Make WordPress headless
+### 2 Make WordPress headless
 
 In this step, head over to your WordPress dashboard and install the [WordPress GraphQL plugin](https://wordpress.org/plugins/wp-graphql/).
 
@@ -68,7 +68,7 @@ You now have a headless WordPress setup that is ready to be your content managem
 If you are converting an existing WordPress site to leverage the headless WordPress architecture, make sure you go back and remove any of the plugins, themes, pages, and anything else that is no longer needed. Eliminating unnecessary items will lead to improved performance and security.
 {% endhint %}
 
-#### **3 Fetch WordPress data**
+### **3 Fetch WordPress data**
 
 In this step, you will configure a [Resource](../foundations/variables.md#graphql) in Webstudio to fetch data from your headless WordPress site.
 
@@ -136,7 +136,7 @@ If you are not seeing data, then there is likely an issue with mapping the value
 
 Now that you are getting data, you can move to the next step, mapping or "binding" the data to the various components within Webstudio.
 
-#### **4 Bind WordPress data to Webstudio components**
+### **4 Bind WordPress data to Webstudio components**
 
 [Binding](../foundations/expression-editor.md#binding) enables you to connect or map values from the WordPress response (aka the WordPress data) to the Webstudio components to build your frontend.
 
@@ -187,7 +187,7 @@ In plain text, the expression says, "If the WordPress value exists, return 200 (
 
 Well done! So far, you have successfully created a Dynamic Page, fetched the data from WordPress, and bound the data to Webstudio Components. In the following steps, these concepts will be used to create an overview page with your various Posts on one page and a sitemap for search engines.
 
-#### **5 Create an overview page**
+### **5 Create an overview page**
 
 In this step, you will create a page that lists the various WordPress Posts and links them so that users can click on them and land on the Dynamic Page containing the proper data.
 
@@ -227,7 +227,7 @@ Note that the static value is in quotes ("/blogs/"), and there is a "+" to glue 
 
 This page is great for letting users browse your Posts, but you need to create a sitemap for search engines.
 
-#### **6 Create a sitemap**
+### **6 Create a sitemap**
 
 Webstudio enables you to visually build a dynamic sitemap using [**Collections**](../core-components/collection.md.md) and [**XML Nodes**](../core-components/xml-node.md).
 
@@ -239,7 +239,7 @@ Here's how to do it:
 
 Refer to [this video chapter](https://www.youtube.com/watch?v=QC6Y7BHduLw\&t=975s) for a full demonstration of building a sitemap.
 
-### **Start using Webstudio as a frontend for your headless WordPress site**
+## **Start using Webstudio as a frontend for your headless WordPress site**
 
 In this headless WordPress tutorial, you learned how to set up a WordPress site to be headless, use GraphQL to fetch data, and build a frontend using [Webstudio](https://apps.webstudio.is/dashboard) (no need for React, Vue, Next.js or any other JavaScript frameworks).
 
