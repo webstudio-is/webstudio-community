@@ -18,7 +18,7 @@ For an in-depth tutorial on creating a blog using Webstudio and a headless CMS (
 
 {% embed url="https://youtu.be/QC6Y7BHduLw" %}
 
-### Dynamic Pages
+## Dynamic Pages
 
 Similar to a static page, the path includes dynamic parameters, like a post slug. This enables the page contents to change dynamically based on the requested page.
 
@@ -45,7 +45,7 @@ Address Bar values are saved in the editor by:
 * Manually entering values
 * Navigating links that lead to the Dynamic Page, such as clicking on `/post/hello-world`
 
-### Resources
+## Resources
 
 A Resource variable gets its value from a fetch request, allowing data from a remote system to be used within Webstudio.
 
@@ -57,7 +57,7 @@ Dynamic pages may have multiple parameters, enabling the query to become even mo
 
 If interacting with a GraphQL API, use the [GraphQL resource](variables.md#graphql).
 
-### Binding Data
+## Binding Data
 
 At this point, the Resource Variable has the CMS Data, and now you need to bind or connect that data to the components and fields.
 
@@ -67,7 +67,7 @@ For example, go to a Header component > Settings > Text Content > and the “+�
 
 For more information, see the [Expression Editor documentation](expression-editor.md).
 
-### Compatible CMSs
+## Compatible CMSs
 
 Webstudio CMS supports any content management system (CMS) that provides an HTTP API. This feature enables users to use their existing CMS or the one that works best for them.
 
@@ -91,7 +91,7 @@ Below is a non-comprehensive list of CMSs, whether or not they provide an HTTP A
 While we do our best to verify the supported features, we may make mistakes in our research.
 {% endhint %}
 
-#### Rich text support
+### Rich text support
 
 While most CMS field types seamlessly map to Webstudio components (e.g., Plain Text → Heading), rich text may not, depending on how the CMS stores/delivers it.
 
