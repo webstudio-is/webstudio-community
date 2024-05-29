@@ -211,10 +211,9 @@ Webstudio enables you to visually build a dynamic sitemap using [**Collections**
 
 Here's how to do it:
 
-1. Create a new page with a path of `/sitemap.xml` and a Document Type of XML.
-2. Go to Marketplace > Pages > CMS Sitemap > and click Sitemap. This will insert a template sitemap.
-3. Add a new Resource that fetches your slugs and, optionally, the record's updated time to inform search engines when the last edit was made.
-4. Bind those values.
+1. Go to Marketplace > Pages > CMS Sitemap > and click Sitemap. This will insert a template sitemap.
+2. Add a new Resource that fetches your slugs and, optionally, the record's updated time to inform search engines when the last edit was made.
+3. Bind those values.
 
 Refer to [this video chapter](https://www.youtube.com/watch?v=QC6Y7BHduLw\&t=975s) for a full video demonstration on building a sitemap. While the backend differs in this video, the concepts are the same.
 
