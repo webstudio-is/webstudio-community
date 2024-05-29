@@ -37,7 +37,7 @@ For the Dynamic Path `/post/:slug`, you would enter a slug value that exists in 
 <figure><img src="../../.gitbook/assets/address-bar.png" alt="Address Bar with hello-world"><figcaption><p>Entering "hello-world" as a test value</p></figcaption></figure>
 
 {% hint style="danger" %}
-Note: The static part of the URL (in this case, `/post/`) is already in the Address Bar and should not be included when adding the test value.
+The static part of the URL (in this case, `/post/`) is already in the Address Bar and should not be included when adding the test value.
 {% endhint %}
 
 Address Bar values are saved in the editor by:
