@@ -28,6 +28,23 @@ The path can include dynamic parameters like `:name`, which could be made option
 
 The value of the parameter comes from whatever is in the URL. If the path path is `/post/:slug` and somebody views `/post/hello-world` then `hello-world` is the value used in your Resource.
 
+#### **Address Bar**
+
+The Address Bar enables previewing Dynamic Pages in the editor by entering parameter value(s).
+
+For the Dynamic Path `/post/:slug`, you would enter a slug value that exists in the CMS, such as `hello-world`.
+
+<figure><img src="../../.gitbook/assets/address-bar.png" alt="Address Bar with hello-world"><figcaption><p>Entering "hello-world" as a test value</p></figcaption></figure>
+
+{% hint style="danger" %}
+Note: The static part of the URL (in this case, `/post/`) is already in the Address Bar and should not be included when adding the test value.
+{% endhint %}
+
+Address Bar values are saved in the editor by:
+
+* Manually entering values
+* Navigating links that lead to the Dynamic Page, such as clicking on `/post/hello-world`
+
 ### Resources
 
 A Resource variable gets its value from a fetch request, allowing data from a remote system to be used within Webstudio.
