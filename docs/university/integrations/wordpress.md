@@ -3,6 +3,22 @@ description: >-
   Learn how to use Webstudio's advanced visual builder to create a WordPress
   frontend without writing code, including an overview page, a blog page, and a
   sitemap.
+cover: ../../.gitbook/assets/headless-wordpress-cover.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # How to build a WordPress frontend using Webstudio (no-code builder)
