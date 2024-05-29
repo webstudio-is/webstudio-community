@@ -28,7 +28,7 @@ The path can include dynamic parameters like `:name`, which could be made option
 
 The value of the parameter comes from whatever is in the URL. If the path path is `/post/:slug` and somebody views `/post/hello-world` then `hello-world` is the value used in your Resource.
 
-#### **Address Bar**
+### **Address Bar**
 
 The Address Bar enables previewing Dynamic Pages in the editor by entering parameter value(s).
 
