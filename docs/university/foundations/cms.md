@@ -86,6 +86,7 @@ Below is a non-comprehensive list of CMSs, whether or not they provide an HTTP A
 | [Payload](https://payloadcms.com/)        | ✅          | ✅ Need to create a field and hook that auto converts rich text from field A and saves HTML in field B ([src](https://payloadcms.com/docs/rich-text/lexical#outputting-html-from-the-collection)) |                                          |
 | [Airtable](https://www.airtable.com/)     | ✅          | ❌                                                                                                                                                                                                | [Tutorial](../integrations/airtable.md)  |
 | [Notion](https://www.notion.so/)          | ✅          | ❌                                                                                                                                                                                                |                                          |
+| [Flotiq](https://flotiq.com/)             | ✅          | ✅                                                                                                                                                                                                |                                          |
 
 {% hint style="warning" %}
 While we do our best to verify the supported features, we may make mistakes in our research.
