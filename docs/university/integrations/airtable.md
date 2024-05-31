@@ -24,7 +24,7 @@ layout:
 # How to build a frontend for Airtable using Webstudio
 
 {% hint style="success" %}
-A lightweight Airtable template is in the Marketplace. To start a new project, [clone the template](https://apps.webstudio.is/builder/1c21872a-e03e-4923-bf43-1d41ea71cfc3). To integrate with an existing project, visit the Marketplace and insert the various pages.
+A lightweight Airtable template is in the Marketplace. To start a new project, [clone the template](https://wstd.us/airtable-template). To integrate with an existing project, visit the Marketplace and insert the various pages.
 {% endhint %}
 
 By the end of this tutorial, you will have the following using your [Airtable](https://airtable.com/) database and [Webstudio](https://webstudio.is/):
