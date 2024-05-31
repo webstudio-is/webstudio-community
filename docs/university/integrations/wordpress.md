@@ -23,6 +23,10 @@ layout:
 
 # How to build a WordPress frontend using Webstudio (no-code builder)
 
+{% hint style="success" %}
+A lightweight WordPress template is in the Marketplace. To start a new project, [clone the template](https://wstd.us/wordpress-template). To integrate with an existing project, visit the Marketplace and insert the various pages.
+{% endhint %}
+
 By the end of this tutorial, you will have the following using [WordPress](https://wordpress.org/) and [Webstudio](https://webstudio.is/):
 
 * **Headless WordPress CMS** – Make your WordPress website headless.
