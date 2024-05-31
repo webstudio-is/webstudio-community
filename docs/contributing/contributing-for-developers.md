@@ -1,4 +1,4 @@
-# 🧑💻 Contributing for  Developers
+# 🧑‍💻 Contributing for Developers
 
 ## Process
 
@@ -11,20 +11,37 @@ If you want to contribute and don't know where to start, here is a step-by-step 
     In fact, we are happy to help communicating your ideas, so if you are not sure - talk to us on discord.
 4. When the implementation is in a mergeable state, a core team member will deploy it to production.
 
-## Builder installation
-1. Install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) (Windows Only)
-2. Install [Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
-3. Install [PNpm](https://pnpm.io/) `npm i -g pnpm`
-4. Install Postgres, in here there are three main options:
-   1. Install the [official Postgres app](https://www.postgresql.org/download/) - Make sure to remember the username and password you choose since you will need it for the connection string
-   2. On a mac you can also install [Postgres.app](https://postgresapp.com/) and in that case you will have no password and your username will be the same as your system username.
-   3. Intall [Docker Engine](https://docs.docker.com/engine/install/), run `docker compose -f ./apps/builder/docker-compose.yaml up -d` to start Postgres _(use PGPORT environment variable in case of default is already used)_.
-5. Clone the repository `git clone git@github.com:webstudio-is/webstudio-builder.git`
-6. Connect to the [database](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-postgres): add a database URL to the env variables by creating an .env file in the `apps/builder` and adding there `DATABASE_URL=postgresql://user:pass@localhost/webstudio` or `DATABASE_URL=postgresql://user@localhost/webstudio` if using Postgres.app.
-7. Run `pnpm install` - install dependencies
-8. Run `pnpm build`
-9. Run `pnpm migrations migrate` - apply database migrations
-10. Run `pnpm dev` - URL will be logged
+### Builder installation
+
+#### Running the Webstudio Project Using GitHub Codespaces
+
+1. Open the Webstudio repository on GitHub:
+   * [Webstudio Repository](https://github.com/webstudio-is/webstudio)
+2. Click the green "Code" button.
+3. Select "Open with Codespaces".
+4. If you don't have a Codespace already, click "New codespace".&#x20;
+   * The Webstudio project will now open in a Codespace with the development environment pre-configured.
+5. Wait for the setup to complete:
+   * The installation process will take some time as the environment is set up and dependencies are installed.
+   * This setup is defined by the `postCreateCommand` in the `.devcontainer` configuration.
+6. Run the development server:
+   * After the setup completes, open the terminal in Codespaces.
+   *   Run the following command:
+
+       ```sh
+       pnpm dev
+       ```
+7. Open the application in your browser
+   * After running \`pnpm dev\`, you will see a URL in the console that looks like this:  \` ➜  Local:   http://localhost:5173/\`
+   * Cmd + click on the URL in the console to open it in your browser.
+
+#### Notes
+
+* **No additional setup is required**; everything is handled automatically within the Codespace.
+
+Enjoy coding in your fully pre-configured Codespace for the Webstudio project!
+
+
 
 ## Login locally
 
