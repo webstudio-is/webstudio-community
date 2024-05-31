@@ -11,9 +11,9 @@ If you want to contribute and don't know where to start, here is a step-by-step 
     In fact, we are happy to help communicating your ideas, so if you are not sure - talk to us on discord.
 4. When the implementation is in a mergeable state, a core team member will deploy it to production.
 
-### Builder installation
 
-#### Running the Webstudio Project Using GitHub Codespaces
+
+### Running the Webstudio Project Using GitHub Codespaces
 
 1. Open the Webstudio repository on GitHub:
    * [Webstudio Repository](https://github.com/webstudio-is/webstudio)
@@ -32,16 +32,56 @@ If you want to contribute and don't know where to start, here is a step-by-step 
        pnpm dev
        ```
 7. Open the application in your browser
-   * After running `pnpm dev`, you will see a URL in the console that looks like this:  `➜  Local:   http://localhost:5173/`
+   *   After running `pnpm dev`, you will see a URL in the console that looks like this: &#x20;
+
+       ```
+       ➜  Local:   http://localhost:5173/
+       ```
    * Cmd + click on the URL in the console to open it in your browser.
 
-#### Notes
-
-* **No additional setup is required**; everything is handled automatically within the Codespace.
-
-Enjoy coding in your fully pre-configured Codespace for the Webstudio project!
 
 
+### Running the Webstudio Project Using VS Code
+
+#### Prerequisites
+
+* VS Code installed: [Download VS Code](https://code.visualstudio.com/Download)
+* Docker installed: [Install Docker](https://docs.docker.com/get-docker/)
+
+#### Steps
+
+1. Install the "Dev Containers" extension in VS Code:
+   * Open VS Code.
+   * Go to the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window.
+   * Search for "Dev Containers" and click Install. Alternatively, you can install it from the recommended extensions listed in the Webstudio project.
+2. Fork and clone the Webstudio repository:
+   * Fork the repository on GitHub.
+   * Clone your forked repository to your local machine.
+3. Open the repository in VS Code:
+   * Open VS Code.
+   * Select "File" > "Open Folder" and choose your project folder.
+4. Reopen in Container:
+   * Once your folder is open, you might see a notification asking if you want to reopen in a container. Click "Reopen in Container".
+   * If you don't see a notification, press `F1`, type `Dev Containers: Reopen in Container`, and select it.
+
+VS Code will now build the Docker container and open the Webstudio project inside it. This process will take some time as the environment is set up and dependencies are installed.
+
+5. Run the development server:
+   * After the setup completes, open the terminal in VS Code.
+   *   Run the following command:
+
+       ```sh
+       pnpm dev
+       ```
+6. Open the application in your browser:
+   *   After running `pnpm dev`, you will see a URL in the console that looks like this:
+
+       ```
+       ➜  Local:   http://localhost:5173/
+       ```
+   * Cmd + click on the URL in the console to open it in your browser.
+
+###
 
 ## Login locally
 
