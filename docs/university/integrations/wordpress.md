@@ -34,6 +34,10 @@ By the end of this tutorial, you will have the following using [WordPress](https
 * **A blog page** – A template displaying the Post matching the URL viewed. If the user is on /blogs/mouse, the Dynamic Page will fetch the WordPress Post with the slug "mouse" and display its contents.
 * **A sitemap** – A dynamic sitemap containing the Posts in WordPress.
 
+## Video Tutorial
+
+{% embed url="https://youtu.be/TkiUInblEPo" %}
+
 ## **Webstudio is a visual builder that connects to headless WordPress**
 
 Webstudio is solely focused on creating a visual builder for the frontend. It's backend agnostic, meaning we don't lock you into using any one backend/CMS/database.
