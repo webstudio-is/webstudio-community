@@ -32,7 +32,7 @@ If you want to contribute and don't know where to start, here is a step-by-step 
        pnpm dev
        ```
 7. Open the application in your browser
-   * After running \`pnpm dev\`, you will see a URL in the console that looks like this:  \` ➜  Local:   http://localhost:5173/\`
+   * After running `pnpm dev`, you will see a URL in the console that looks like this:  `➜  Local:   http://localhost:5173/`
    * Cmd + click on the URL in the console to open it in your browser.
 
 #### Notes
