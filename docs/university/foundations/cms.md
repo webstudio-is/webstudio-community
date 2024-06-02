@@ -87,6 +87,7 @@ Below is a non-comprehensive list of CMSs, whether or not they provide an HTTP A
 | [Airtable](https://www.airtable.com/)     | ✅          | ❌                                                                                                                                                                                                | [Tutorial](../integrations/airtable.md)  |
 | [Notion](https://www.notion.so/)          | ✅          | ❌                                                                                                                                                                                                |                                          |
 | [Flotiq](https://flotiq.com/)             | ✅          | ✅                                                                                                                                                                                                |                                          |
+| [Ghost](https://ghost.org/)               | ✅          | ✅                                                                                                                                                                                                |                                          |
 
 {% hint style="warning" %}
 While we do our best to verify the supported features, we may make mistakes in our research.
