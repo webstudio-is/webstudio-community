@@ -1,7 +1,61 @@
+---
+description: >-
+  Use Collection to iterate over data and repeat the same structure but with
+  different data for each iteration.
+---
+
 # 💾 Collection
 
+<figure><img src="../../.gitbook/assets/collection-component.png" alt="Collection component" width="317"><figcaption></figcaption></figure>
 
+## Why Collections are needed
 
-{% embed url="https://youtu.be/2MrkfnjYuCo?si=BKDl8BG0graIwsiI" %}
+Let's say you are building a list of all your blog posts. Each blog post will have an image, a title, and a link.&#x20;
 
-<figure><img src="../../.gitbook/assets/component-collection.png" alt=""><figcaption></figcaption></figure>
+You have 50 blog posts. Does this mean you need to duplicate your design 50 times manually? No.&#x20;
+
+Collections let you design something once, and it will repeat it for every item in the array and contain the data for the current iteration (e.g., the blog post title).
+
+## What's an array?
+
+An array is a programming term that generally translates to **a list of data**.&#x20;
+
+In the case of blog posts, this might look like the following:
+
+```javascript
+0 { title: "Hello world"},
+1 { title: "Lorem ipsum"},
+2 { title: "Webstudio rocks!" }
+```
+
+{% hint style="warning" %}
+It's important that when binding data to a Collection, **you must bind the array**, i.e., the data you want to iterate over.
+{% endhint %}
+
+If you are binding external data, the array is nested somewhere within.
+
+<figure><img src="../../.gitbook/assets/right-and-wrong-way-collections.png" alt=""><figcaption><p>Example of where they array is at for an external service (will vary for each service)</p></figcaption></figure>
+
+In the image, the data bound to the component is:
+
+1. ❌ Not the array
+2. ❌ The first item in the array (0), not the entire list
+3. ✅ The array
+
+It's unclear why each item is correct or incorrect by just looking at the image, so let's clarify.
+
+**You'll know when you get to the array when the next items in the autocomplete are numbers.** The numbers represent each item in the list. Once you see the numbers, backspace, as you don't want to select one item; you want the list.
+
+<figure><img src="../../.gitbook/assets/component-array.png" alt="Autocomplete showing array items in Binding"><figcaption><p>The numbers indicate each item in the list/array</p></figcaption></figure>
+
+## How to use Collection
+
+Add the Collection component to the canvas and either manually enter data (less common) or [bind data](../foundations/expression-editor.md#binding) to it (more common).
+
+**The Collection iterates over the array, so you must bind just the array portion of your variable to it. See** [**What's an Array**](collection.md.md#whats-an-array) **for more info.**
+
+Optionally, rename the default Collection Item variable to something more semantic. If you are iterating over blog posts, name it "Blog Post."
+
+Now, you can add components to the Collection, and the Collection will automatically duplicate it for the number of items in the array. If you have multiple components, wrap everything in a [Box](box.md.md) component.
+
+Next, [bind](../foundations/expression-editor.md#binding) the Collection Item (or whatever you named it) to the various components. You will see it output a different value depending on the iteration.
