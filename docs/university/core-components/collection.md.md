@@ -29,8 +29,12 @@ In the case of blog posts, this might look like the following:
 ```
 
 {% hint style="warning" %}
-It's important that when binding data to a Collection, **you must bind the array**, i.e., the data you want to iterate over.
+It's important that when binding data to a Collection, **you must bind the array**, i.e., the data you want to iterate over. If you don't bind the array, you'll receive an error:\
+\
+"The Collection component requires an array in the data property. When binding external data, it is likely that the array is nested somewhere within, and you need to provide the correct path in the binding."
 {% endhint %}
+
+<figure><img src="../../.gitbook/assets/collection-error.png" alt="Error when binding a value other than an array"><figcaption><p>Error when binding a value other than an array</p></figcaption></figure>
 
 If you are binding external data, the array is nested somewhere within.
 
