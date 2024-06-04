@@ -34,7 +34,7 @@ It's important that when binding data to a Collection, **you must bind the array
 
 If you are binding external data, the array is nested somewhere within.
 
-<figure><img src="../../.gitbook/assets/right-and-wrong-way-collections.png" alt=""><figcaption><p>Example of where they array is at for an external service (will vary for each service)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/right-and-wrong-way-collections.png" alt="Right and wrong ways to bind data to a collection"><figcaption><p>Example of where they array is at for an external service (will vary for each service)</p></figcaption></figure>
 
 In the image, the data bound to the component is:
 
