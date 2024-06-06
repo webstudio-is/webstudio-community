@@ -80,12 +80,12 @@ If your query looks like this:
 
 <pre class="language-jsx"><code class="lang-jsx">query Posts {
 	...
-<strong>  posts {
-</strong><strong>    title
+  posts {
+<strong>    title
 </strong><strong>    slug
-</strong><strong>    ...
-</strong><strong>  }
-</strong>}
+</strong>    ...
+  }
+}
 </code></pre>
 
 It will now look like this:
@@ -100,14 +100,14 @@ It will now look like this:
       hasNextPage
       hasPreviousPage
     }
-<strong>    edges {
-</strong><strong>      node {
-</strong><strong>        title
+    edges {
+      node {
+<strong>        title
 </strong><strong>        slug
-</strong><strong>        ...
-</strong><strong>      }
-</strong><strong>    }
-</strong>  }
+</strong>        ...
+      }
+    }
+  }
 }
 
 </code></pre>
