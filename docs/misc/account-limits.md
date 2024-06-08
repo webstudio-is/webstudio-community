@@ -13,7 +13,7 @@ Purchase link: [https://wstd.us/pricing](https://wstd.us/pricing)
 | Plan name | Domain limit | Pageview limit |
 | --------- | ------------ | -------------- |
 | LTD T1    | 10           | 200k           |
-| LTD T2    | unlimited    | 1M             |
+| LTD T2    | unlimited    | 2M             |
 | LTD T3    | unlimited    | unlimited      |
 
 
