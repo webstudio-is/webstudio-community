@@ -1,8 +1,8 @@
 # 📊 Account Limits
 
-As a thank you to our earliest adopters, we've decided to increase the limits of all existing accounts. Here below are the new limits to each account type:&#x20;
+As a thank you to our earliest adopters, we've decided to increase the limits of all existing accounts. Here below are the new limits to each account type:
 
-You can find your plan name from your dashboard beside your profile image as shown below.&#x20;
+You can find your plan name from your dashboard beside your profile image as shown below.
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -16,8 +16,6 @@ Purchase link: [https://wstd.us/pricing](https://wstd.us/pricing)
 | LTD T2    | unlimited    | 2M             |
 | LTD T3    | unlimited    | unlimited      |
 
-
-
 ### RocketHub LTDs
 
 No longer available for purchase.
@@ -28,11 +26,9 @@ No longer available for purchase.
 | RocketHub T2 | unlimited    | 1M             |
 | RocketHub T3 | unlimited    | 2M             |
 
-
-
 ### Appsumo LTDs
 
-Purchase link: [https://wstd.us/appsumo](https://wstd.us/appsumo)
+No longer available for purchase.
 
 | Plan name  | Domain limit | Pageview limit |
 | ---------- | ------------ | -------------- |
@@ -40,6 +36,3 @@ Purchase link: [https://wstd.us/appsumo](https://wstd.us/appsumo)
 | AppSumo T2 | 25           | 500k           |
 | AppSumo T3 | 50           | 1M             |
 | AppSumo T4 | unlimited    | 2M             |
-
-
-
