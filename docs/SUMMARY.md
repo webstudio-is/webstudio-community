@@ -80,6 +80,7 @@
   * [How to build a frontend for Hygraph using Webstudio](university/integrations/hygraph.md)
   * [How to build a frontend for Airtable using Webstudio](university/integrations/airtable.md)
   * [How to build a WordPress frontend using Webstudio (no-code builder)](university/integrations/wordpress.md)
+  * [How to integrate a Notion database with Webstudio](university/integrations/notion.md)
 
 ## Contributing
 

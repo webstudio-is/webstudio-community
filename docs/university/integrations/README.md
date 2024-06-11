@@ -13,5 +13,6 @@ This page is a work in progress – much more to come.
 * [Hygraph](hygraph.md)
 * [Airtable](airtable.md)
 * [WordPress](wordpress.md)
+* [Notion](notion.md)
 
 Have a platform you want to see a tutorial for? Send us a message in [Discord](https://discord.gg/UNdyrDkq5r).
