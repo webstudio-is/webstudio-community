@@ -148,7 +148,7 @@ This is where the magic happens. It says, "Query, I know you are looking for an 
 
 **Add a test URL**
 
-The actual value of the slug will be what's in the URL, but in the editor, you can provide a test value by going to the Address Bar and entering a slug from one of your WordPress Posts.
+The actual value of the slug will be what's in the URL, but in the editor, you can provide a test value by going to the [Address Bar](../foundations/cms.md#address-bar) and entering a slug from one of your WordPress Posts.
 
 <figure><img src="https://images.surferseo.art/c8e9f29f-8d15-45fd-acd6-f3eedf791dc6.png" alt="Test WordPress slug/param in Address Bar"><figcaption><p>Test WordPress slug/param in Address Bar</p></figcaption></figure>
 

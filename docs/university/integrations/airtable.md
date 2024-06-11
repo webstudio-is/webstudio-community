@@ -107,7 +107,7 @@ Be sure to:
 
 **Add a test URL value**
 
-Nothing will be retrieved until we give it a test slug value. To do this, go to the Address Bar and manually enter one of the values from the Airtable column you are filtering by.
+Nothing will be retrieved until we give it a test slug value. To do this, go to the [Address Bar](../foundations/cms.md#address-bar) and manually enter one of the values from the Airtable column you are filtering by.
 
 <figure><img src="https://images.surferseo.art/74e10fcc-00a2-4319-81d6-e0b570a5dc13.png" alt="Adding a test param slug which is a value from my Airtable Base" width="375"><figcaption></figcaption></figure>
 
