@@ -78,7 +78,7 @@ If you have an existing query, it will need to be modified if it uses `<yourMode
 
 If your query looks like this:
 
-<pre class="language-jsx"><code class="lang-jsx">query Posts {
+<pre class="language-graphql"><code class="lang-graphql">query Posts {
 	...
   posts {
 <strong>    title
@@ -90,7 +90,7 @@ If your query looks like this:
 
 It will now look like this:
 
-<pre class="language-jsx"><code class="lang-jsx">query Posts($first: Int, $skip: Int = 0) {
+<pre class="language-graphql"><code class="lang-graphql">query Posts($first: Int, $skip: Int = 0) {
   postsConnection(
     first: $first
     skip: $skip

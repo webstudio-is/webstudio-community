@@ -272,3 +272,76 @@ Additional info:
 * The flexibility of Resources enables you to fetch exactly what you need from WordPress and even multiple content management systems/databases (e.g., Airtable for team members and WordPress for blog posts).
 * Webstudio does not charge by site, meaning you can build frontends for many headless WordPress sites.
 * Content creation/editing continues to exist in your WordPress dashboard. There is no need to republish Webstudio upon publishing/updating WordPress content. This is because Webstudio does _not_ use static site generation – it's dynamic.
+
+## Pagination <a href="#pagination" id="pagination"></a>
+
+The demo did not show how to paginate your WordPress content, so this section will show you.
+
+{% hint style="warning" %}
+Use pagination only if necessary. Users and search engines prefer minimal navigation.
+{% endhint %}
+
+First, start by going to the Marketplace > WordPress > and insert the Posts page.
+
+The Posts page contains:
+
+* A query ready for pagination
+* A `Posts Per Page` variable on the body that lets you define how many posts should display
+* Accessibility and SEO-friendly pagination that will display if the amount of posts in WordPress exceeds the `Posts Per Page` number
+* First/Next buttons with conditional display to hide the links if at the beginning or end
+
+This method of pagination relies on [cursors](https://www.wpgraphql.com/2020/03/26/forward-and-backward-pagination-with-wpgraphql), which define the last ID on the page, letting you fetch the next batch of posts after that ID when navigating.
+
+{% hint style="info" %}
+The template has intentionally left out a previous button because going backward causes two URLs per page, such as `?after=abc` and `?before=ghi`, which is not good for SEO. Users can, however, use their browser back feature.
+{% endhint %}
+
+{% hint style="info" %}
+If you want to use an alternative method for pagination, check out the [WP GraphQL Offset plugin](https://github.com/valu-digital/wp-graphql-offset-pagination). This method uses an offset to skip posts depending on which page you are on. It also enables the use of a previous button if that's important to you. The [Hygraph](hygraph.md) template uses this method to give you an idea of how to implement it.
+{% endhint %}
+
+### Converting your existing query <a href="#converting-your-existing-query" id="converting-your-existing-query"></a>
+
+If you have an existing query, it will need to be modified if it uses `posts.nodes`, and not `posts.edges.node`.
+
+If your query looks like this:
+
+<pre class="language-graphql"><code class="lang-graphql">query Posts {
+  ...
+<strong>  posts {
+</strong><strong>    nodes {
+</strong>      title(format: RENDERED)
+      slug
+      ...
+    }
+  }
+}
+</code></pre>
+
+It will now look like this:
+
+<pre class="language-graphql"><code class="lang-graphql"><strong>query Posts($search: String = "", $first: Int, $after: String) {
+</strong><strong>  posts(where: {search: $search}, first: $first, after: $after) {
+</strong><strong>    pageInfo {
+</strong><strong>      hasNextPage
+</strong><strong>      hasPreviousPage
+</strong><strong>      startCursor
+</strong><strong>      endCursor
+</strong><strong>    }
+</strong><strong>    edges {
+</strong><strong>      cursor,
+</strong><strong>      node {
+</strong>        title(format: RENDERED)
+        slug
+        ...
+      }
+    }
+  }
+}
+</code></pre>
+
+The contents of `posts.edges.node` in the second query are exactly the same as the contents of `posts.nodes` from the first query. Therefore, you can copy the contents of `posts.nodes` and paste them into `posts.edges.node`.
+
+The rest of the second query provides context about whether there are previous or next pages and introduces filters to fetch the next batch of content.
+
+If you already setup a page using `posts.nodes`, you will need to rebind the values on your page because the Resource response will be different. For example, `Post Item.node.title` instead of `Post Item.title`.
