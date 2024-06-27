@@ -173,10 +173,6 @@ Here is what that looks like:
 
 <figure><img src="https://images.surferseo.art/6441da4e-4ef4-4b03-af61-338c8af20f6c.png" alt="Binding Notion data to Webstudio components"><figcaption></figcaption></figure>
 
-{% hint style="danger" %}
-You must disable "[Optimize](../core-components/image.md#optimize)" for Notion images because Notion doesn't allow the image transformer access. Go to the Image Component and toggle Optimize.
-{% endhint %}
-
 Continue this process for all components. All fields in Webstudio can have Notion properties bound to them, including page fields like Title.
 
 #### **Bind data to Page Settings**
