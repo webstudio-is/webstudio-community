@@ -54,7 +54,7 @@ Webstudio is open source, has all CSS properties, and is dynamic at the speed of
 
 Notion is where many teams and individuals already manage content, typically in preparation for adding it to their website. By integrating the website builder directly with Notion, people can avoid the unnecessary step of manually transferring the data to the website.
 
-## Use Notion Databases instead of Notion Pages
+## Use Notion Databases (not Notion Pages)
 
 You can use Webstudio as a Notion website builder for any properties in your database. **Notion Pages cannot be fetched in Webstudio.**
 
@@ -172,6 +172,10 @@ Notion database properties are contained in: `<Your Variable>.results[0].propert
 Here is what that looks like:
 
 <figure><img src="https://images.surferseo.art/6441da4e-4ef4-4b03-af61-338c8af20f6c.png" alt="Binding Notion data to Webstudio components"><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+You must disable "Optimize" for images. Go to the Image Component and toggle Optimize.
+{% endhint %}
 
 Continue this process for all components. All fields in Webstudio can have Notion properties bound to them, including page fields like Title.
 

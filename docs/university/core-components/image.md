@@ -4,7 +4,7 @@ description: >-
   a site using the Image Component in Webstudio.
 ---
 
-# 🖼 Image
+# 🖼️ Image
 
 {% embed url="https://www.youtube.com/watch?v=o2tEwZ_zeUI" %}
 
@@ -12,9 +12,7 @@ description: >-
 
 ### How to use the Image component
 
-The "Image Component" can be found in Components > Media, and you can place it on your canvas by dragging and dropping it or clicking it in the Components panel.
-![Webstudio image component](../../.gitbook/assets/university/Image-Article-1.webp)
-
+The "Image Component" can be found in Components > Media, and you can place it on your canvas by dragging and dropping it or clicking it in the Components panel. ![Webstudio image component](../../.gitbook/assets/university/Image-Article-1.webp)
 
 #### Responsive Images
 
@@ -71,3 +69,7 @@ The "alt" property provides alternative text for the image. This text is vital f
 The "Loading" property specifies how the browser handles image loading. You can set it to "Lazy" to load the image only when it comes into the viewport or "Eager" to load it immediately.
 
 Here's a helpful tip: If you have an image in the initial viewport, always set it to "Eager." This way, the image gets priority, and it loads quickly, improving your site's overall performance.
+
+#### Optimize
+
+The "optimize" property lets you control if the image will go through the image transformation process including resizing, converting, and compressing it. This setting works on first and third-party images (e.g., images that come from a headless CMS). In rare scenarios, the user may want to turn this off.
