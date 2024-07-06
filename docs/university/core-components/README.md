@@ -52,8 +52,8 @@
 [collection.md.md](collection.md.md)
 {% endcontent-ref %}
 
-{% content-ref url="../marketplace/ui-kits-and-components/" %}
-[ui-kits-and-components](../marketplace/ui-kits-and-components/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="content-embed.md" %}

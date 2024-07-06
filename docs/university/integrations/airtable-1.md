@@ -4,7 +4,7 @@ description: >-
   Airtable using a simple automation.
 ---
 
-# ▶ Airtable
+# How to integrate a Webhook Form with Airtable
 
 {% embed url="https://www.youtube.com/watch?v=xYJFh_u-8Tc" %}
 
@@ -24,7 +24,7 @@ You can integrate your Webstudio form with Airtable in 3 simple steps:
 
 To configure your form for the integration, you will need to define the input name for each field. Select your form input field in the navigator, and head over to “Settings” on the right to fill in the name property. Repeat this for every input field on your form as this is what Airtable will use to identify your website form submissions.
 
-<figure><img src="../../../.gitbook/assets/Input_settings_yMT_DZuztiiOcyMEWcFfT (1).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Input_settings_yMT_DZuztiiOcyMEWcFfT (1).avif" alt=""><figcaption></figcaption></figure>
 
 ### Step 2: Setting Up Webhooks in Airtable and Webstudio
 
@@ -35,7 +35,7 @@ Airtable simplifies the process of setting up webhooks within the platform.
 3. Create a new automation by selecting "Create Automation" and choose the trigger event. In this case, select "When webhook received" as the trigger.
 4. Copy the webhook URL to your clipboard.
 
-<figure><img src="../../../.gitbook/assets/Group_3_w01YNmN5_ItZ3Huc6Nr-O (1).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group_3_w01YNmN5_ItZ3Huc6Nr-O (1).avif" alt=""><figcaption></figcaption></figure>
 
 Next, link your Webstudio form to this webhook.
 
@@ -61,7 +61,7 @@ To learn more about how to use Airtable's powerful automation tool, refer to the
 4. Turn on your automation\
    Now that we have finished configuring our automation, we can turn it on.
 
-<figure><img src="../../../.gitbook/assets/group_4_PlqnP8v1v_6YdeJ3jf3tx (2).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/group_4_PlqnP8v1v_6YdeJ3jf3tx (2).avif" alt=""><figcaption></figcaption></figure>
 
 ### Conclusion
 
