@@ -124,14 +124,14 @@ When downloading the app you will have two options for login and they both work 
 
 ### Dev login
 
-Dev login will create you a dev account so you don't need to be online or create a github app. To enable you must have two lines in your `.env`:
+Dev login will create you a dev account so you don't need to be online or create a github app. To enable you create a file `.env.development` and include two lines:
 
 ```
 DEV_LOGIN=true
 AUTH_SECRET=a random value
 ```
 
-To login in the app click on the "Dev Login" button and paste the first four character of your `AUTH_SECRET` in the input.
+To login in the app click on the "Dev Login" button and paste the **first four characters** of your `AUTH_SECRET` in the input.
 
 ### GitHub Login
 
