@@ -1,0 +1,92 @@
+---
+description: >-
+  Webstudio supports pasting Webflow Elements, converting them from Webflow
+  format to Webstudio format.
+---
+
+# ↔️ Webflow
+
+It works by copying anything in Webflow format, such as component libraries and projects, and pasting it into Webstudio, transferring the structure and styles.
+
+## What does and doesn’t transfer
+
+### Elements
+
+| Webflow Element  | Transfers? | Notes                                                                                                                                                                                                                  |
+| ---------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Section          | ✅          | Maps to “[Box](../../core-components/box.md.md)” with section tag                                                                                                                                                      |
+| Container        | ✅          | Maps to “[Box](../../core-components/box.md.md)” with a container Token and styles                                                                                                                                     |
+| Quick Stack      | ✅          | Maps to “[Box](../../core-components/box.md.md)”                                                                                                                                                                       |
+| V Flex           | ✅          | Maps to “[Box](../../core-components/box.md.md)”, no default styles applied                                                                                                                                            |
+| H Flex           | ✅          | Maps to “[Box](../../core-components/box.md.md)”, no default styles applied                                                                                                                                            |
+| Div Block        | ✅          | Maps to “[Box](../../core-components/box.md.md)”                                                                                                                                                                       |
+| List             | ✅          |                                                                                                                                                                                                                        |
+| List Item        | ✅          |                                                                                                                                                                                                                        |
+| Link Block       | ✅          | Maps to “[Link](../../core-components/link.md)”                                                                                                                                                                        |
+| Button           | ✅          | Maps to “[Link](../../core-components/link.md)”. [Buttons](../../core-components/button.md.md) are for interactions, like submitting a form, not linking.                                                              |
+| Heading          | ✅          |                                                                                                                                                                                                                        |
+| Paragraph        | ✅          |                                                                                                                                                                                                                        |
+| Text Link        | ✅          | Maps to “[Link](../../core-components/link.md)”                                                                                                                                                                        |
+| Text Block       | ✅          | Maps to “Text”                                                                                                                                                                                                         |
+| Block Quote      | ✅          |                                                                                                                                                                                                                        |
+| Rich Text        | ✅          | There is no Rich Text component in Webstudio, though any children of the copied Rich Text paste in as their respective components. For example, Rich Text with a Heading and Link will transfer as a Heading and Link. |
+| Collection List  | ❌          | Though Webstudio does have a “[Collection](../../core-components/collection.md.md)” component.                                                                                                                         |
+| Image            | ✅          |                                                                                                                                                                                                                        |
+| Video            | ❌          | Rebuild using “[Vimeo](../../core-components/vimeo.md)” or “[HTML Embed](../../core-components/html-embed.md)”                                                                                                         |
+| YouTube          | ❌          | Rebuild using “[HTML Embed](../../core-components/html-embed.md)”.  [See status](https://github.com/webstudio-is/webstudio/issues/1747) of this component in Webstudio.                                                |
+| Lottie Animation | ❌          | Rebuild using “[HTML Embed](../../core-components/html-embed.md)”                                                                                                                                                      |
+| Spline Scene     | ❌          | Rebuild using “[HTML Embed](../../core-components/html-embed.md)”                                                                                                                                                      |
+| Form Block       | ✅          |                                                                                                                                                                                                                        |
+| Label            | ✅          |                                                                                                                                                                                                                        |
+| Input            | ✅          |                                                                                                                                                                                                                        |
+| File Upload      | ❌          | [See status](https://github.com/webstudio-is/webstudio/issues/3023) of this component in Webstudio                                                                                                                     |
+| Text Area        | ✅          |                                                                                                                                                                                                                        |
+| Checkbox         | ✅          |                                                                                                                                                                                                                        |
+| Radio Button     | ✅          |                                                                                                                                                                                                                        |
+| Select           | ✅          |                                                                                                                                                                                                                        |
+| reCAPTCHA        | ❌          | reCAPTCHA doesn’t transfer as Webstudio uses alternative methods of preventing spam.                                                                                                                                   |
+| Form Button      | ✅          | Maps to “[Button](../../core-components/button.md.md)”                                                                                                                                                                 |
+| Search           | ❌          |                                                                                                                                                                                                                        |
+| Background Video | ❌          |                                                                                                                                                                                                                        |
+| Dropdown         | ❌          | Rebuild using Radix “[Select](../../radix/select.md)”                                                                                                                                                                  |
+| Code Embed       | ✅          | Maps to “[HTML Embed](../../core-components/html-embed.md)”                                                                                                                                                            |
+| Lightbox         | ❌          |                                                                                                                                                                                                                        |
+| Locales List     | ❌          |                                                                                                                                                                                                                        |
+| Navbar           | ✅          | Generates the corresponding components such as [Boxes](../../core-components/box.md.md) and [Links](../../core-components/link.md) with [Tokens](../design-tokens.md) and styles.                                      |
+| Slider           | ❌          | Rebuild using Swiper.js in the Marketplace                                                                                                                                                                             |
+| Tabs             | ❌          | Rebuild using Radix “[Tabs](../../radix/tabs.md)”                                                                                                                                                                      |
+| Map              | ❌          |                                                                                                                                                                                                                        |
+| Facebook         | ❌          |                                                                                                                                                                                                                        |
+| X (Twitter)      | ❌          |                                                                                                                                                                                                                        |
+| Custom Element   | ❌          | [See status](https://github.com/webstudio-is/webstudio/issues/3632) of this component in Webstudio                                                                                                                     |
+| Code Block       | ✅          | Maps to “[Code Text](../../core-components/code-text.md.md)”                                                                                                                                                           |
+| Grid             | ✅          | Maps to “[Box](../../core-components/box.md.md)” with grid [Token](../design-tokens.md) and styles.                                                                                                                    |
+| Columns          | ✅          | Maps to multiple “[Box](../../core-components/box.md.md)” components with [Token](../design-tokens.md).                                                                                                                |
+
+### Styles
+
+✅ Both Webflow and Webstudio support all CSS properties, allowing all styles defined in the style panel to transfer.
+
+✅ Webflow preset styles, which Webflow adds by default to pages and Elements.
+
+❌ Webflow variables and their values do not transfer as those values are not available within the Webflow copy.
+
+❌ User-defined styles on **global tag selectors** as they are not available in the Webflow copy. For example, global styling on an H1 does not transfer, but a Token of h1 is created and available for applying the styles.
+
+![Global tag styling in webflow](../../../.gitbook/assets/global-tags.png)    ![h1 token in webstudio](../../../.gitbook/assets/h1-token.png)
+
+### Classes
+
+✅ Classes and combo classes will transfer as [Tokens](../design-tokens.md) with their respective styles.
+
+{% hint style="success" %}
+Pasting a class/Token that already exists will not cause duplication or override it.
+{% endhint %}
+
+### Breakpoints
+
+✅ Responsive styles and breakpoints will transfer.
+
+### Interactions
+
+❌ Interactions and animations do not transfer.

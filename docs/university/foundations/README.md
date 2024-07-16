@@ -27,3 +27,7 @@
 {% content-ref url="cms.md" %}
 [cms.md](cms.md)
 {% endcontent-ref %}
+
+{% content-ref url="copy-paste/" %}
+[copy-paste](copy-paste/)
+{% endcontent-ref %}
