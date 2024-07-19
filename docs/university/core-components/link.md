@@ -52,3 +52,13 @@ You can use the "Target" property to modify a link instance's behavior and defin
 2. **Intent**: If you select "Intent," the browser preloads the linked resource in the background when the user hovers over the link. This aims to reduce load times by having the content ready whenever the user decides to navigate to the linked page.
 3. **Render**: This loads the linked page when the current page renders, improving the load times of subsequent pages. However, it also adds a significant load to the browser, which is why it is primarily recommended for pages with only 1 or 2 links, such as a landing page.
 4. **Viewport**: If you select the 'Viewport' option, the browser preloads linked content just before it's about to appear in the user's view. This optimization enhances loading and facilitates instant page transitions, maintaining a balance between resource utilization and user experience.
+
+
+
+### How to style an current page state
+
+When you use links for navigation and want to highlight the current page, link component has a "Current Page" state on every style source.\
+\
+
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-07-19 at 18.15.28.png" alt=""><figcaption></figcaption></figure>
