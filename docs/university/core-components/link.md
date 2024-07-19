@@ -53,12 +53,8 @@ You can use the "Target" property to modify a link instance's behavior and defin
 3. **Render**: This loads the linked page when the current page renders, improving the load times of subsequent pages. However, it also adds a significant load to the browser, which is why it is primarily recommended for pages with only 1 or 2 links, such as a landing page.
 4. **Viewport**: If you select the 'Viewport' option, the browser preloads linked content just before it's about to appear in the user's view. This optimization enhances loading and facilitates instant page transitions, maintaining a balance between resource utilization and user experience.
 
+### How to style the Current Page state
 
-
-### How to style an current page state
-
-When you use links for navigation and want to highlight the current page, link component has a "Current Page" state on every style source.\
-\
-
+When using links for navigation and wanting to highlight the current page, the link component has a "Current Page" state in every style source.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-07-19 at 18.15.28.png" alt=""><figcaption></figcaption></figure>
