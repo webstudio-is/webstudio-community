@@ -1,10 +1,10 @@
-# 🎓 Building Your First Site
+# 🎓 Building your first site
 
-{% embed url="https://youtu.be/0JRlyYOgB-Q" %}
-Welcome to Webstudio
+{% embed url="https://www.youtube.com/playlist?list=PL4vVqpngzeT4Bfs_D25xNi_qNMY99R928" %}
+Webstudio 101 Playlist
 {% endembed %}
 
-In this video overview, we cover the basics of getting started with your first Webstudio project.
+This video series is a quick overview of the most important parts of the builder to get you up to speed.
 
 ### 🚀 Signup to Webstudio
 

@@ -1,10 +1,12 @@
-# 🛠 Anatomy of the Webstudio Builder
+# 🛠️ Anatomy of the Webstudio Builder
 
 This guide discusses the anatomy of the Webstudio Builder, an all-in-one visual development platform that allows you to build stunning, responsive websites.
 
 ***
 
-{% embed url="https://youtu.be/aL2sBSb3ghg" %}
+{% embed url="https://www.youtube.com/playlist?list=PL4vVqpngzeT4Bfs_D25xNi_qNMY99R928" %}
+Webstudio 101 Playlist
+{% endembed %}
 
 ***
 
