@@ -32,6 +32,14 @@ Webstudio Builder is an open source, while the overall Webstudio Platform adopts
 
 <details>
 
+<summary>💾 Can I use the CMS Integration when self-hosting?</summary>
+
+**Yes**. [CMS](../university/foundations/cms.md) and [Resources](../university/foundations/cms.md#resources) are available when self-hosting the builder and exporting the projects. The speed at which remote data is fetched will depend on your hosting.
+
+</details>
+
+<details>
+
 <summary>🌍 What is Cloudflare Workers edge deployment, and how does it work?</summary>
 
 Cloudflare Workers are like small programs that run on Cloudflare's global network of servers. They allow you to customize and control how your website or application behaves, all without needing to manage your own server infrastructure. This global and distributed nature means that your code executes closer to your users, resulting in faster response times and improved reliability, regardless of where your users are located around the world. Plus, you can easily scale your application without worrying about provisioning or managing servers in different regions.
