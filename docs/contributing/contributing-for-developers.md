@@ -124,7 +124,7 @@ When downloading the app you will have two options for login and they both work 
 
 ### Dev login
 
-Dev login will create you a dev account so you don't need to be online or create a github app. To enable you create a file `.env.development` and include two lines:
+Dev login will create you a dev account so you don't need to be online or create a github app. To enable you create a file `.env.development` in `apps/builder` and include two lines:
 
 ```
 DEV_LOGIN=true
