@@ -36,7 +36,7 @@ description: Webstudio provides comprehensive SEO features.
 
 ## 🌐 Global Site Settings
 
-In the 'Site Settings' under the Webstudio menu, you'll find essential settings for your entire website:
+In '[Project Settings](project-settings.md)' under the Webstudio menu, you'll find essential settings for your entire project:
 
 * **Site Name**: Used to output WebSite structured data to clearly define your website's identity.
 * **Favicon**: Output your logo in search engines, browser tabs, and more.
