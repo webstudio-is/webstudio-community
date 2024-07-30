@@ -7,7 +7,7 @@ description: Learn how to deploy your project to GitHub Pages.
 [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) lets you publish static sites directly from your GitHub repository for free.
 
 {% hint style="info" %}
-GitHub supports only static sites. See [export rendering options](./#export-rendering-options) for more information about static and app exports.
+GitHub supports only static sites. See [export rendering options](./#export-rendering-options) for more information about static vs. app exports.
 {% endhint %}
 
 ## Static

@@ -9,7 +9,7 @@ description: Learn how to deploy your static site to Cloudflare Pages.
 While Cloudflare Pages supports static sites and dynamic apps, only the Webstudio static export is currently compatible.
 
 {% hint style="info" %}
-See [export rendering options](./#export-rendering-options) for more information about static and app exports.
+See [export rendering options](./#export-rendering-options) for more information about static vs. app exports.
 {% endhint %}
 
 ## Static

@@ -9,12 +9,12 @@ description: Learn how to deploy your project to Netlify.
 **Netlify supports deploying both dynamic apps and static sites.**
 
 {% hint style="info" %}
-See [export rendering options](./#export-rendering-options) for more information about static and app exports.
+See [export rendering options](./#export-rendering-options) for more information about static vs. app exports.
 {% endhint %}
 
 ## JavaScript application
 
-Learn how to deploy your dynamic JavaScript project to Netlify.
+Learn how to deploy your dynamic JavaScript application to Netlify.
 
 {% embed url="https://www.youtube.com/watch?v=Gr1jPtsg6_Q" %}
 

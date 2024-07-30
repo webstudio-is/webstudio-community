@@ -101,7 +101,7 @@ webstudio build
 ```
 
 {% hint style="info" %}
-See [export rendering options](./#export-rendering-options) for more information about static and app exports.
+See [export rendering options](./#export-rendering-options) for more information about static vs. app exports.
 {% endhint %}
 
 **Build a JavaScript application**

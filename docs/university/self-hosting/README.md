@@ -10,7 +10,7 @@ description: >-
 The Webstudio Builder can also be self-hosted, but at this time, it’s only for advanced users and is intended to be run locally. See the [hosting the Builder documentation](../../contributing/contributing-for-developers.md) for more information.
 {% endhint %}
 
-## Exporting
+## Export methods
 
 There are two ways to export Projects:
 
