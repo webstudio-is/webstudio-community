@@ -100,7 +100,7 @@ VS Code will now build the Docker container and open the Webstudio project insid
     * Navigate to the .devcontainer folder and execute the SQL setup with Docker Compose:
 
     ```bash
-    docker-compose up -d pg
+    docker compose  up -d
     ```
 
     * Go to the project root directory and run the following command to create the database schema:
