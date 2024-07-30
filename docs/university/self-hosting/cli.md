@@ -104,7 +104,7 @@ webstudio build
 See [export rendering options](./#export-rendering-options) for more information about static and dynamic exports.
 {% endhint %}
 
-**Build using sever-sider rendering (SSR)**
+##### **Build using sever-sider rendering (SSR)**
 
 During this phase, the CLI establishes the necessary routes and pages, scaffolding the entire application using the default Remix template. Additionally, all assets, such as images and fonts, are downloaded to the `assets` folder inside the `public` directory.
 
@@ -114,7 +114,7 @@ If you want to build a production version of the app, you can run `npm run build
 
 See [SSR platforms](./#platforms) we have documented.
 
-**Build using a static site generator**
+##### **Build using a static site generator**
 
 You can optionally build the project as a static site by selecting "Static Site Generation (SSG)" in templates or with the following command:
 
