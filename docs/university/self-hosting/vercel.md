@@ -4,10 +4,6 @@ description: Learn how to deploy your project to Vercel.
 
 # ▶️ Vercel
 
-{% embed url="https://www.youtube.com/watch?v=eoyB9DfWdT8" %}
-How to Export and Self-Host Your Site on Vercel
-{% endembed %}
-
 [Vercel](https://vercel.com/), a popular cloud platform for static sites and Serverless Functions, is known for its ease of use and performance optimization capabilities. It provides an ideal environment for deploying your Webstudio Projects.
 
 {% hint style="info" %}
@@ -17,6 +13,10 @@ See [export types](./#export-types) for more information about JavaScript applic
 ## JavaScript application
 
 Learn how to deploy your dynamic JavaScript application to Vercel.
+
+{% embed url="https://www.youtube.com/watch?v=eoyB9DfWdT8" %}
+How to Export and Self-Host Your Site on Vercel
+{% endembed %}
 
 ### **Prerequisites**
 
