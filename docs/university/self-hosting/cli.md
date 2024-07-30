@@ -8,7 +8,7 @@ description: >-
 
 One of the key features of Webstudio's CLI is its exporting capability. With this, you can export your entire Webstudio Project in full.
 
-Once exported, these projects are ready to be deployed on any hosting platform of your choice - giving you complete freedom over where and how your website goes live.&#x20;
+Once exported, these projects are ready to be deployed on any hosting platform of your choice - giving you complete freedom over where and how your website goes live.
 
 ## Prerequisites: Installing Node.js
 
@@ -80,7 +80,7 @@ webstudio link
 
 This command will prompt you to paste a link which you can create using the _Share_ option in your Project.
 
-**Make sure to provide **_**Build**_** access when generating the link in Webstudio Cloud.**
+**Make sure to provide \_Build**\_\*\* access when generating the link in Webstudio Cloud.\*\*
 
 #### sync
 
@@ -101,10 +101,10 @@ webstudio build
 ```
 
 {% hint style="info" %}
-See [export rendering options](./#export-rendering-options) for more information about static and dynamic exports.
+See [export rendering options](./#export-rendering-options) for more information about static and app exports.
 {% endhint %}
 
-##### **Build using sever-sider rendering (SSR)**
+**Build a JavaScript application**
 
 During this phase, the CLI establishes the necessary routes and pages, scaffolding the entire application using the default Remix template. Additionally, all assets, such as images and fonts, are downloaded to the `assets` folder inside the `public` directory.
 
@@ -112,9 +112,9 @@ Once the project is scaffolded, you can run `npm install` and then `npm run dev`
 
 If you want to build a production version of the app, you can run `npm run build`.
 
-See [SSR platforms](./#platforms) we have documented.
+See [JavaScript app hosting platforms](./#platforms) we have documented.
 
-##### **Build using a static site generator**
+**Build a static site**
 
 You can optionally build the project as a static site by selecting "Static Site Generation (SSG)" in templates or with the following command:
 
@@ -124,4 +124,4 @@ webstudio build --template ssg
 
 Please review [the limitations](./#ssg-limitations) of using the static site export instead of dynamic (i.e., all the other options in templates).
 
-See [SSG platforms](./#platforms-1) we have documented.
+See [static site hosting platforms](./#platforms-1) we have documented.

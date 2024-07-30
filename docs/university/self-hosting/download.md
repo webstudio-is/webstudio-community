@@ -7,7 +7,7 @@ description: Export your Webstudio Project with a click of a button.
 The Webstudio Builder has a button that lets you download a static version of your site.
 
 {% hint style="info" %}
-See [export rendering options](./#export-rendering-options) for more information about static and dynamic exports.
+See [export rendering options](./#export-rendering-options) for more information about static and app exports.
 {% endhint %}
 
 ## Downloading your project
@@ -23,4 +23,4 @@ See [export rendering options](./#export-rendering-options) for more information
 
 The export contains a static site consisting of HTML, CSS, JS, and images ready to be uploaded to another platform.
 
-See [SSG platforms](./#platforms-1) we have documented.
+See [static site hosting platforms](./#platforms-1) we have documented.

@@ -11,19 +11,19 @@ How to Export and Self-Host Your Site on Vercel
 [Vercel](https://vercel.com/), a popular cloud platform for static sites and Serverless Functions, is known for its ease of use and performance optimization capabilities. It provides an ideal environment for deploying your Webstudio Projects.
 
 {% hint style="info" %}
-See [export rendering options](./#export-rendering-options) for more information about static and dynamic exports.
+See [export rendering options](./#export-rendering-options) for more information about static and app exports.
 {% endhint %}
 
-## Dynamic
+## JavaScript application
 
-Learn how to deploy your dynamic project to Vercel.
+Learn how to deploy your dynamic JavaScript application to Vercel.
 
 ### **Prerequisites**
 
 * Install the [Webstudio CLI](cli.md)
 * [Build](cli.md#build) your project locally
 
-Once you've built the project locally, you can use the [Vercel CLI](https://vercel.com/docs/cli) to deploy your site directly to Vercel:
+Once you've built the project locally, you can use the [Vercel CLI](https://vercel.com/docs/cli) to deploy your app directly to Vercel:
 
 ```
 vercel deploy
@@ -37,7 +37,7 @@ If you use `vercel build` before `vercel deploy`, make sure to clean your `app` 
 
 Vercel injects a few [files](https://github.com/vercel/vercel/blob/a8ad176262ef822860ce338927e6f959961d2d32/packages/remix/src/build.ts#L63) to support and deploy Remix using their CLI, but these files are not necessary for your project when you use it locally.
 
-## **Static**
+## Static site
 
 Learn how to upload your static site to Vercel.
 

@@ -6,10 +6,10 @@ description: Learn how to deploy your static site to Cloudflare Pages.
 
 [Cloudflare Pages](https://pages.cloudflare.com/) is a powerful platform for deploying your projects. It’s simple to use, has a generous free tier, and leverages the Cloudflare Network, offering speed, security, and reliability.
 
-While Cloudflare Pages supports static and dynamic projects, only the Webstudio static export is currently compatible.
+While Cloudflare Pages supports static sites and dynamic apps, only the Webstudio static export is currently compatible.
 
 {% hint style="info" %}
-See [export rendering options](./#export-rendering-options) for more information about static and dynamic exports.
+See [export rendering options](./#export-rendering-options) for more information about static and app exports.
 {% endhint %}
 
 ## Static

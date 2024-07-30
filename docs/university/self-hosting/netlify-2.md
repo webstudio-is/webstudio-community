@@ -4,17 +4,17 @@ description: Learn how to deploy your project to Netlify.
 
 # ▶️ Netlify
 
-[Netlify](https://www.netlify.com/), a popular choice for deploying modern websites, offers features like continuous deployment from Git across a global application delivery network, serverless form handling, and more. It provides an ideal environment for deploying your Webstudio Projects.
+[Netlify](https://www.netlify.com/), a popular choice for deploying modern websites and apps, offers features like continuous deployment from Git across a global application delivery network, serverless form handling, and more. It provides an ideal environment for deploying your Webstudio Projects.
 
 **Netlify supports deploying both dynamic apps and static sites.**
 
 {% hint style="info" %}
-See [export rendering options](./#export-rendering-options) for more information about static and dynamic exports.
+See [export rendering options](./#export-rendering-options) for more information about static and app exports.
 {% endhint %}
 
-## Dynamic
+## JavaScript application
 
-Learn how to deploy your dynamic project to Netlify.
+Learn how to deploy your dynamic JavaScript project to Netlify.
 
 {% embed url="https://www.youtube.com/watch?v=Gr1jPtsg6_Q" %}
 
@@ -22,7 +22,7 @@ Learn how to deploy your dynamic project to Netlify.
 
 * Install the [Webstudio CLI](cli.md)
 
-Use the [Netlify CLI](https://docs.netlify.com/cli/get-started/) to deploy your site directly to [Netlify](https://netlify.com/):
+Use the [Netlify CLI](https://docs.netlify.com/cli/get-started/) to deploy your app directly to [Netlify](https://netlify.com/):
 
 ```bash
 netlify deploy
@@ -42,7 +42,7 @@ and for edge functions:
 webstudio build --template netlify-edge-functions
 ```
 
-## Static
+## Static site
 
 Learn how to upload your static site to Netlify.
 
