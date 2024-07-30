@@ -17,9 +17,9 @@ There are two ways to export Projects:
 1. [**Webstudio CLI** ](cli.md)– Allows you to interact with and export your Projects. **Supports** [**SSR**](./#server-side-rendering-ssr) **and** [**SSG**](./#static-site-generator-ssg) **(see below).**
 2. [**Download button in the Builder**](download.md) – Click a button in the Webstudio Builder, and the Project will be downloaded as a zip. **Supports** [**SSG**](./#ssg-limitations) **only (see below).**&#x20;
 
-## Export rendering options
+## Export types
 
-There are two rendering options when exporting Projects:
+There are two types of exports:
 
 * **JavaScript application** – Builds a dynamic [Remix app](https://remix.run/). This is the default behavior of Webstudio Cloud and provides the most functionality, but it requires hosting that works with apps.
 * **Static site** – Outputs a static site (HTML/CSS/JS) with limited functionality, but has more versatile hosting options.
