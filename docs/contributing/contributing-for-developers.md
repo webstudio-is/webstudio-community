@@ -11,15 +11,13 @@ If you want to contribute and don't know where to start, here is a step-by-step 
     In fact, we are happy to help communicating your ideas, so if you are not sure - talk to us on discord.
 4. When the implementation is in a mergeable state, a core team member will deploy it to production.
 
-
-
 ### Running the Webstudio Project Using GitHub Codespaces
 
 1. Open the Webstudio repository on GitHub:
    * [Webstudio Repository](https://github.com/webstudio-is/webstudio)
 2. Click the green "Code" button.
 3. Select "Open with Codespaces".
-4. If you don't have a Codespace already, click "New codespace".&#x20;
+4. If you don't have a Codespace already, click "New codespace".
    * The Webstudio project will now open in a Codespace with the development environment pre-configured.
 5. Wait for the setup to complete:
    * The installation process will take some time as the environment is set up and dependencies are installed.
@@ -32,14 +30,12 @@ If you want to contribute and don't know where to start, here is a step-by-step 
        pnpm dev
        ```
 7. Open the application in your browser
-   *   After running `pnpm dev`, you will see a URL in the console that looks like this: &#x20;
+   *   After running `pnpm dev`, you will see a URL in the console that looks like this:
 
        ```
        ➜  Local:   http://localhost:5173/
        ```
    * Cmd + click on the URL in the console to open it in your browser.
-
-
 
 ### Running the Webstudio Project Using VS Code
 
@@ -131,7 +127,9 @@ DEV_LOGIN=true
 AUTH_SECRET=a random value
 ```
 
-To login in the app click on the "Dev Login" button and paste the **first four characters** of your `AUTH_SECRET` in the input.
+To login in the app click on the "Dev Login" button and paste the **first four characters** of your `AUTH_SECRET` in the input.\
+To log in as another user in dev mode, use the first four characters of your AUTH\_SECRET, followed by : and any email address. For example: \`abcd:example@email.com\`\
+
 
 ### GitHub Login
 
