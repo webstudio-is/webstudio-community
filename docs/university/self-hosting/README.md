@@ -40,8 +40,8 @@ JavaScript applications require a hosting environment that handles server-side c
 
 Here are the platforms we have documented:
 
-{% content-ref url="netlify-2.md" %}
-[netlify-2.md](netlify-2.md)
+{% content-ref url="netlify.md" %}
+[netlify.md](netlify.md)
 {% endcontent-ref %}
 
 {% content-ref url="vercel.md" %}
@@ -71,16 +71,16 @@ While static site exporting and hosting are less technical, this comes at the co
 
 Here are the platforms we have documented:
 
+{% content-ref url="cloudflare-pages.md" %}
+[cloudflare-pages.md](cloudflare-pages.md)
+{% endcontent-ref %}
+
+{% content-ref url="github-pages.md" %}
+[github-pages.md](github-pages.md)
+{% endcontent-ref %}
+
 {% content-ref url="netlify.md" %}
 [netlify.md](netlify.md)
-{% endcontent-ref %}
-
-{% content-ref url="netlify-1.md" %}
-[netlify-1.md](netlify-1.md)
-{% endcontent-ref %}
-
-{% content-ref url="netlify-2.md" %}
-[netlify-2.md](netlify-2.md)
 {% endcontent-ref %}
 
 {% content-ref url="vercel.md" %}

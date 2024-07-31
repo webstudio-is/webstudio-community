@@ -1,32 +1,67 @@
 ---
-description: Learn how to deploy your static site to Cloudflare Pages.
+description: Learn how to deploy your project to Netlify.
 ---
 
-# ▶️ Cloudflare Pages
+# ▶️ Netlify
 
-[Cloudflare Pages](https://pages.cloudflare.com/) is a powerful platform for deploying your projects. It’s simple to use, has a generous free tier, and leverages the Cloudflare Network, offering speed, security, and reliability.
+[Netlify](https://www.netlify.com/), a popular choice for deploying modern websites and apps, offers features like continuous deployment from Git across a global application delivery network, serverless form handling, and more. It provides an ideal environment for deploying your Webstudio Projects.
 
-While Cloudflare Pages supports static sites and dynamic apps, only the Webstudio static export is currently compatible.
+**Netlify supports deploying both dynamic apps and static sites.**
 
 {% hint style="info" %}
 See [export types](./#export-types) for more information about JavaScript applications vs. static sites.
 {% endhint %}
 
-## Static
+## JavaScript application
 
-Learn how to upload your static site to Cloudflare Pages.
+Learn how to deploy your dynamic JavaScript application to Netlify.
 
-<figure><img src="../../.gitbook/assets/cloudflare-pages-new-project.png" alt="Cloudflare Pages new project dashboard"><figcaption></figcaption></figure>
+{% embed url="https://www.youtube.com/watch?v=Gr1jPtsg6_Q" %}
 
 ### Prerequisites
 
-Export your project using one of the [export methods](./#exporting).
+* Install the [Webstudio CLI](cli.md)
 
-**How to upload your project to Cloudflare Pages:**
+Use the [Netlify CLI](https://docs.netlify.com/cli/get-started/) to deploy your app directly to [Netlify](https://netlify.com/):
 
-* Go to your Cloudflare Account > Workers and Pages
-* Click “Create” then select the “Pages” tab
-* Upload your site manually or add your code to a repository and connect to it
-* Name your project and deploy it
+```bash
+netlify deploy
+```
 
-See [Cloudflare’s getting started docs](https://developers.cloudflare.com/pages/get-started/) for a comprehensive tutorial.
+You can configure the project to support Netlify serverless/edge-functions respectively, as deployment target at the time of initially setting up your project. Please check the [initiating-a-webstudio-project](https://github.com/webstudio-is/webstudio/tree/main/packages/cli#initiating-a-webstudio-project) section.
+
+You can manually change it using the `build` command. For serverless functions:
+
+```bash
+webstudio build --template netlify-functions
+```
+
+and for edge functions:
+
+```bash
+webstudio build --template netlify-edge-functions
+```
+
+## Static site
+
+Learn how to upload your static site to Netlify.
+
+<figure><img src="../../.gitbook/assets/netlify-new-project.png" alt="netlify new site dashboard"><figcaption></figcaption></figure>
+
+### Prerequisites
+
+* Export your project using one of the [export methods](./#exporting).
+
+**How to upload your project to Netlify:**
+
+* Go to Sites
+*   Add a new site
+
+    * **Manually** – upload the export zip from Webstudio
+
+    ![Drag and drop upload static site to netlify](../../.gitbook/assets/netlify-drag-drop.png)
+
+    * **Git** – Unzip the export and add it to a repository such as GitHub
+* Click “Open production deploy”
+
+\
