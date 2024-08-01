@@ -23,4 +23,4 @@ See [export types](./#export-types) for more information about JavaScript applic
 
 The export contains a static site consisting of HTML, CSS, JS, and images ready to be uploaded to another platform.
 
-See [static site hosting platforms](./#platforms-1) we have documented.
+See [static site hosting platforms](./#platforms-for-static-sites) we have documented.

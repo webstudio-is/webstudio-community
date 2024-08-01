@@ -112,7 +112,7 @@ Once the project is scaffolded, you can run `npm install` and then `npm run dev`
 
 If you want to build a production version of the app, you can run `npm run build`.
 
-See [JavaScript app hosting platforms](./#platforms) we have documented.
+See [JavaScript app hosting platforms](./#platforms-for-javascript-applications) we have documented.
 
 **Build a static site**
 
@@ -124,4 +124,4 @@ webstudio build --template ssg
 
 Please review [the limitations](./#ssg-limitations) of using the static site export instead of dynamic (i.e., all the other options in templates).
 
-See [static site hosting platforms](./#platforms-1) we have documented.
+See [static site hosting platforms](./#platforms-for-static-sites) we have documented.
