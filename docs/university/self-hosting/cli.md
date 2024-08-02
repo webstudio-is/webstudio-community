@@ -80,7 +80,7 @@ webstudio link
 
 This command will prompt you to paste a link which you can create using the _Share_ option in your Project.
 
-**Make sure to provide \_Build**\_\*\* access when generating the link in Webstudio Cloud.\*\*
+**Make sure to provide Build access when generating the link in Webstudio Cloud.**
 
 #### sync
 
