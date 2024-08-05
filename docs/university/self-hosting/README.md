@@ -14,8 +14,8 @@ The Webstudio Builder can also be self-hosted, but at this time, it’s only for
 
 There are two ways to export Projects:
 
-1. [**Webstudio CLI** ](cli.md)– Allows you to interact with and export your Projects. **Supports** [**SSR**](./#server-side-rendering-ssr) **and** [**SSG**](./#static-site-generator-ssg) **(see below).**
-2. [**Download button in the Builder**](download.md) – Click a button in the Webstudio Builder, and the Project will be downloaded as a zip. **Supports** [**SSG**](./#ssg-limitations) **only (see below).**&#x20;
+1. [**Webstudio CLI** ](cli.md)– Allows you to interact with and export your Projects. **Supports static and dynamic (see below).**
+2. [**Download button in the Builder**](download.md) – Click a button in the Webstudio Builder, and the Project will be downloaded as a zip. **Supports static only (see below).**&#x20;
 
 ## Export types
 
