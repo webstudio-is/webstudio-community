@@ -16,4 +16,6 @@ Example sources:
 * Notion
 * SurferSEO
 * Obsidian
-* Coda\
+* Coda
+
+Want to embed Markdown? See [Markdown Embed](../../core-components/markdown-embed.md).\

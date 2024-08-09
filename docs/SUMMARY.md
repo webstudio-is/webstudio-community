@@ -43,6 +43,7 @@
   * [🔘 Button](university/core-components/button.md.md)
   * [💾 Collection](university/core-components/collection.md.md)
   * [🪜 Content Embed](university/core-components/content-embed.md)
+  * [🪜 Markdown Embed](university/core-components/markdown-embed.md)
   * [📘 XML Node](university/core-components/xml-node.md)
 * [▫️ Radix UI Components](university/radix/README.md)
   * [Accordion](university/radix/accordion.md)
