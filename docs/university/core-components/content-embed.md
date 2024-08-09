@@ -42,7 +42,7 @@ While very similar, there is one distinct difference: Content Embed enables styl
 
 If there is no need to apply styles to the contained HTML, then use the [HTML Embed Component](html-embed.md). However, if you need to style the contents (which is typically the case if fetching HTML from a CMS), then use Content Embed.
 
-### Similar components
+## Similar components
 
 {% content-ref url="html-embed.md" %}
 [html-embed.md](html-embed.md)

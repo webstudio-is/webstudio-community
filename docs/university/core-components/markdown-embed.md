@@ -32,7 +32,7 @@ In the Navigator, Markdown Embed has various HTML tags nested. Expand Markdown E
 
 Styles applied to each of these tags will apply to all occurrences of that tag within the Markdown Embed. For example, if you apply a border on the Image tag, then all images contained within the HTML will have a border.
 
-### Similar components
+## Similar components
 
 {% content-ref url="html-embed.md" %}
 [html-embed.md](html-embed.md)
