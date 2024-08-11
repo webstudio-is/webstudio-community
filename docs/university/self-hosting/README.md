@@ -67,6 +67,10 @@ While static site exporting and hosting are less technical, this comes at the co
 * No robots.txt
 * No sitemap.xml
 
+#### Local
+
+To run a project locally, you must run a simple local server. Use the command `npx serve .` to spin one up. This is required because the static files use absolute URLs.
+
 #### Platforms for static sites
 
 Here are the platforms we have documented:
