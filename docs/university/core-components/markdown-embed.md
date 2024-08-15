@@ -32,6 +32,14 @@ In the Navigator, Markdown Embed has various HTML tags nested. Expand Markdown E
 
 Styles applied to each of these tags will apply to all occurrences of that tag within the Markdown Embed. For example, if you apply a border on the Image tag, then all images contained within the HTML will have a border.
 
+## Image handling
+
+Webstudio does NOT optimize images contained in the markup.
+
+On the other hand, images bound to the [Image Component](image.md) are [optimized by default](image.md#optimize).
+
+The difference is in markup, we are not mapping every element to a Webstudio Component; rather, the element is served as-is with the exception of your custom styles applied to it.
+
 ## Similar components
 
 {% content-ref url="html-embed.md" %}
