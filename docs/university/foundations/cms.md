@@ -8,6 +8,10 @@ Webstudio is backend-agnostic, meaning it enables you to connect to any backend 
 
 While some users may be used to seeing a CMS tab within their platform, Webstudio is different. It’s approached CMS by providing a flexible way to interact with third-party systems such as CMSs, CRMs, and databases.
 
+{% hint style="info" %}
+Need help finding a CMS? Use the [Headless CMS Finder](https://wstd.us/cms-finder).
+{% endhint %}
+
 The building blocks of Webstudio CMS are:
 
 1. [**Dynamic pages**](cms.md#dynamic-pages) – In their simplest form, they are essentially blog templates – one page that dynamically displays data depending on the URL viewed.
@@ -87,7 +91,7 @@ For more information, see the [Expression Editor documentation](expression-edito
 
 Webstudio CMS supports any content management system (CMS) that provides an HTTP API. This feature enables users to use their existing CMS or the one that works best for them.
 
-Below is a non-comprehensive list of CMSs, whether or not they provide an HTTP API (i.e., compatible with Webstudio), and the compatibility of specific CMS features.
+Below is a non-comprehensive list of CMSs, whether or not they provide an HTTP API (i.e., compatible with Webstudio), and the compatibility of specific CMS features. You can also use the [Headless CMS Finder](https://wstd.us/cms-finder) to compare and filter headless CMS options based on key features and pricing.
 
 | CMS                                       | Compatible | Rich text                                                                                                                                                                                        | Tutorial                                 | Template                                       | Known issues                                                                         |
 | ----------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------ |
