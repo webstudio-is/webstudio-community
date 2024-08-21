@@ -1,6 +1,6 @@
 ---
-description: The list of keyboard shortcuts to build in Webstudio.
 icon: command
+description: The list of keyboard shortcuts to build in Webstudio.
 ---
 
 # Shortcuts
@@ -41,6 +41,8 @@ icon: command
 * Reset style for all corners: `shift + alt + click`
 * Edit spacing on all sides: `shift + drag`
 * Edit spacing on two sides: `alt + drag`
+* Increment value by 10: `shift + up/down arrow`
+* Increment value by .1: `alt + up/down arrow`
 
 ## **Settings Panel**
 
