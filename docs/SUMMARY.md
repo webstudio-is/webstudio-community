@@ -27,6 +27,7 @@
   * [↔️ Copy-Paste](university/foundations/copy-paste/README.md)
     * [↔️ Webflow](university/foundations/copy-paste/webflow.md)
     * [↔️ Markdown](university/foundations/copy-paste/markdown.md)
+  * [Shortcuts](university/foundations/shortcuts.md)
 * [🧩 Core Components](university/core-components/README.md)
   * [📦 Box](university/core-components/box.md.md)
   * [🔗 Link](university/core-components/link.md)
