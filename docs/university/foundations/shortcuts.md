@@ -39,8 +39,10 @@ description: The list of keyboard shortcuts to build in Webstudio.
 * Open Style Panel: `s`
 * Reset style: `alt + click`
 * Reset style for all corners: `shift + alt + click`
-* Edit spacing on all sides: `shift + drag`
-* Edit spacing on two sides: `alt + drag`
+* Edit spacing on all sides (via drag): `shift + drag`
+* Edit spacing on two sides (via drag): `option + drag`
+* Edit spacing on all sides (via entry): add value to one side, and before closing, use `shift + enter`
+* Edit spacing on two sides (via entry): add value to one side, and before closing, use `option + enter`
 * Increment value by 10: `shift + up/down arrow`
 * Increment value by .1: `alt + up/down arrow`
 
