@@ -1,23 +1,31 @@
 ---
 description: >-
-  Webstudio Projects can be exported and self-hosted, putting you in control of
-  your hosting, pricing, security, and compliance.
+  Webstudio can be self-hosted, putting you in control of your hosting, pricing,
+  security, and compliance.
 ---
 
 # 📤 Self-Hosting
 
-{% hint style="info" %}
-The Webstudio Builder can also be self-hosted, but at this time, it’s only for advanced users and is intended to be run locally. See the [hosting the Builder documentation](../../contributing/contributing-for-developers.md) for more information.
+The Builder and Projects are hosted separately. The Builder is used to create Projects, and when a Project is published or exported, the site/app is deployed independently.
+
+## Builder
+
+{% hint style="warning" %}
+While both the Builder and the generated site are open-source, self-hosting the Builder in production is more difficult and currently not recommended. You can still [self-host the Builder for development](../../contributing/contributing-for-developers.md#running-the-webstudio-project-using-github-codespaces), and of course, you can self-host the sites for production.
 {% endhint %}
 
-## Export methods
+## Projects
+
+After building, export your Projects and host them on your own server or preferred platform.
+
+### Export methods
 
 There are two ways to export Projects:
 
 1. [**Webstudio CLI** ](cli.md)– Allows you to interact with and export your Projects. **Supports static and dynamic (see below).**
 2. [**Download button in the Builder**](download.md) – Click a button in the Webstudio Builder, and the Project will be downloaded as a zip. **Supports static only (see below).**&#x20;
 
-## Export types
+### Export types
 
 There are two types of exports:
 
@@ -28,7 +36,7 @@ There are two types of exports:
 If you want the export to contain human-readable class names, disable atomic CSS. See [Atomic CSS](../foundations/project-settings.md#atomic-css) for more information.
 {% endhint %}
 
-### **JavaScript application**
+#### **JavaScript application**
 
 This is the default behavior if you were to publish to Webstudio Cloud.
 
@@ -48,7 +56,7 @@ Here are the platforms we have documented:
 [vercel.md](vercel.md)
 {% endcontent-ref %}
 
-### **Static site**
+#### **Static site**
 
 You can optionally export your Webstudio Project as a static site, i.e., a collection of HTML, CSS, JavaScript, and image files. This allows you to host your site on traditional hosting providers or, better yet, on dedicated static site hosting and deployment platforms.
 
