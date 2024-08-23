@@ -60,7 +60,7 @@ Here are the platforms we have documented:
 
 You can optionally export your Webstudio Project as a static site, i.e., a collection of HTML, CSS, JavaScript, and image files. This allows you to host your site on traditional hosting providers or, better yet, on dedicated static site hosting and deployment platforms.
 
-#### Static site limitations
+##### Static site limitations
 
 While static site exporting and hosting are less technical, this comes at the cost of functionality.
 
@@ -75,11 +75,11 @@ While static site exporting and hosting are less technical, this comes at the co
 * No robots.txt
 * No sitemap.xml
 
-#### Local
+##### Local
 
 To run a project locally, you must run a simple local server. Use the command `npx serve .` to spin one up. This is required because the static files use absolute URLs.
 
-#### Platforms for static sites
+##### Platforms for static sites
 
 Here are the platforms we have documented:
 
