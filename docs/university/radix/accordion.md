@@ -6,7 +6,7 @@ description: >-
 
 # Accordion
 
-### Features
+## Features
 
 * Full keyboard navigation.
 * Supports horizontal/vertical orientation.
@@ -14,7 +14,7 @@ description: >-
 * Can expand one or multiple items.
 * Can be controlled or uncontrolled.
 
-### How to use the Radix UI Accordion
+## How to use the Radix UI Accordion
 
 The Accordion Component is in the "Components Panel" under the "Radix" section. Click on it or drag it onto the canvas. The Accordion will populate a template that's easy to adjust for your needs.
 
@@ -24,8 +24,14 @@ You can edit, delete or add more Accordions with ease by copying/pasting any of 
 
 <figure><img src="../../.gitbook/assets/radix-accordion.png" alt=""><figcaption></figcaption></figure>
 
-### Changing an Accordion's content
+## Changing an Accordion's content
 
 To change the content of an Accordion that isn't currently displayed in the canvas, click on the "item content" instance that you want to change and it will be displayed.
 
 <figure><img src="../../.gitbook/assets/radix-accordion-content.png" alt=""><figcaption></figcaption></figure>
+
+## Using Collections within Accordions
+
+To create an accordion with a [Collection](../core-components/collection.md.md) that iterates over data and outputs an accordion item for each entry, ensure each item has a unique value set, like this:
+
+<figure><img src="../../.gitbook/assets/accordion-collection.png" alt="accordion collection unique item"><figcaption></figcaption></figure>
