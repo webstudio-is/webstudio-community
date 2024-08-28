@@ -1,102 +1,78 @@
-# ✍ Form
+---
+description: Forms are used for searches, filters, and custom functionality.
+---
 
-{% embed url="https://www.youtube.com/watch?v=eE-CkewQHMs" %}
+# ✍️ Form
 
-Form components allow site owners to collect data from site visitors. A basic Form component will send this information to the site owner’s registered email. However, you can also customize your component and link it to external services like n8n, Airtable and Notion.
+{% hint style="warning" %}
+If you need the form submissions to be emailed to you/someone else or sent to a webhook, use [Webhook Form](webhook-form.md).
+{% endhint %}
 
-***
+## When to use Form
 
-### How to use the Form Component
+When providing visitors with a search field or filters, the submission data does _not_ need to be emailed to you (can you imagine!?). Instead, the submission data is used to modify the page's contents, like a search field on a blog.
 
-You can add a Form component to your canvas from the Components Panel > Forms section.
+## How Form works
 
-Inside the Form component, you will find three nested instances:
+When submitting a form, its values are added to the URL as query parameters, triggering [Resources](../foundations/cms.md#resources) to re-fetch APIs and use the query parameters (available in the [System Variable](../foundations/variables.md#system)).
 
-1. Form Content
-2. Success Message
-3. Error Message&#x20;
+This all happens _without_ a page refresh, improving user experience.
 
-While you can always add new components to further expand and modify your form, these instances make up the default look.
+### An example
 
-#### Form Content
+There's a blog listing page showing 100's blog posts over multiple pages and a Form added to the top with one text input, and its name field value is `searchBlog`.
 
-The Form Content instance is made up of:
+<figure><img src="../../.gitbook/assets/search-blog.png" alt="search input with searchBlog name"><figcaption></figcaption></figure>
 
-* Two “Input Label” instances
-* Two “Text Input” instances
-*   One “Button” instance
+The goal is simple: only blogs containing the search term will be shown when a visitor submits the form.
 
-    &#x20;![Webstudio form content panel](../../.gitbook/assets/university/Form\_component\_1.avif)
+**Here's how it works:**
 
-#### Input Label
+1. A [Resource](../foundations/cms.md#resources) is already responsible for fetching all of those blog posts. The URL path in the Resource might look something like this: `/api/blogs`.
+2. The Resource will be modified to include the input value (just one in this case, but you can add as many as you need) like this:
 
-This component defines the name, purpose or function of a form field. This makes it easier to navigate and define your form structure.
+```javascript
+`/api/blogs${system.search.searchBlog ? `?search=${system.search.searchBlog}` : ''}`
+```
 
-#### Text Input
+This [expression](../foundations/expression-editor.md#expressions) contains the JavaScript Ternary Operator and Template Literals. It says, "Get the blogs, and if the `searchBlog` value is present, add the search filter to the API call; otherwise, don't."
 
-This component allows site visitors to input single-line data, which is then submitted to the site owner. This component comes with several customizable properties that we will discuss in the next section.
+All the search input values are available in [`system.search`](../foundations/variables.md#system), so if you have an input with a name, `helloWorld` you can access its value with `system.search.helloWorld`.
 
-#### Button
+In summary, when submitting a form, its values are added to the URL as query parameters, which can then be used in [Resources](../foundations/cms.md#resources). Resources are re-fetched when query parameters change so that the Resource can use the values when the form is submitted.
 
-This component is the backbone of every form! When site visitors click the Submit button, all the collected data is sent over to the site owner. You can modify the text on your button by double-clicking and editing it.
+## Form inputs
 
-#### Success Message
+Many types of inputs can be added to a form.
 
-If a form is submitted without any errors, the site visitor will be greeted with a success message. Here is how you can see and edit the “Success Message” for your form:
+There are currently two categories of form Components.
 
-1. Start by selecting the main “Form” Instance and going over to “Settings”.
-2. Here you will see that the “State” of your form is set to “Initial” by default. To view and edit your success message, set the state to “Success.”
+### **Webstudio Form Components**
 
-Now you should see the default “Success Message” on your canvas instead of the “Form Content.” To edit your message, double-click it and type away!
+These generate standard HTML inputs. While simple to implement, they have limited styling options, especially for elements like checkboxes, due to the constraints of HTML and CSS.
 
-#### Error Message
+They can be found in Add Components > Forms:
 
-If a form submission faces any errors, the site visitor will see an error message. The process for viewing and editing the “Error Message” is the same as the one for success messages.
+<figure><img src="../../.gitbook/assets/form-components.png" alt="webstudio form components" width="299"><figcaption></figcaption></figure>
 
-You can see the error message on your canvas by setting the Form component’s state to “Error.”
+#### Input types
 
-***
+* **Button** – To submit the form, reset it, or for interactions like opening something. [Buttons are _not_ links](button.md.md). There are three types in Settings:
+  * **Button**: Makes it a general element with no specific default action. Mainly used for interactions like opening something.
+  * **Submit**: Will submit the form.
+  * **Reset**: Will remove any data the user has put into a form.
+*   **Text Input** – By default, it's a simple text field, but it can be changed by going to Settings > Type and selecting one of the following types: number, search, time, hidden, color, date, datetime-local, email, month, password, range, tel, url, or week.
 
-### How to Customize Your Form
+    ![text input that can be changed](../../.gitbook/assets/text-input.png)
+* **Select** – Provides a dropdown visitors can select one or more options.
+* **Text Area** – Allows visitors to add multi-line data as part of their answers. It is similar to the “Text Input” component and the two share the same list of properties.
+* **Checkbox** – Provides multiple options that the visitor can check or leave unchecked as part of their input.
+* **Radio** – Gives the visitor a list of options and they have to select one.
 
-#### Customizing the Text Input component
+### **Radix Form Components**
 
-You can view the properties of your “Text Input” instance by selecting it in your navigator and heading to the “Settings” section.
+[Radix Form Components](../radix/) provide enhanced styling and control by using dynamic elements. They work by hiding the actual HTML inputs (which have limited styling capabilities) and displaying customizable versions. When users interact with these styled elements, the system automatically updates the state of the hidden inputs, providing a visually rich and flexible user experience.
 
-&#x20;![Webstudio form text input](../../.gitbook/assets/university/Form\_component\_2.avif)
+They can be found in Add Components > Radix:
 
-1. **Name**: The “Name” field allows you to identify your “Text Input” instance.
-2. **Type**: You can assign a “Type” to your “Text Input” component to define what type of data a site visitor can enter inside the text field.\
-   \
-   The type can be set to anything from Number, Text, Email, Password, Tel (telephone number) or URL. Each of these comes with its properties and restrictions. For instance, setting the type to “Password” will hide the typed characters and choosing “Email” will only let the user put in an email address.
-3. **Placeholder**: The “Placeholder” text is placed inside your ”Text Input” component and acts as a general guide for a site visitor. This text is overwritten once a user starts typing into the text field.
-4. **Required**: If you enable the “Required” property for your “Text Input” component, on a text field, site visitors will not be able to submit the form without filling it out.
-5. **Auto Focus**: If you enable the Auto Focus property, the selected instance will receive focus when the page loads, taking the site visitor to the portion of the page with the text field that they need to see.
-
-#### Customizing the Button component’s type
-
-To customize a “Button” instance, select it in the navigator and head over to the “Settings” Panel: ![Webstudio form button component](../../.gitbook/assets/university/Form\_component\_3.avif)
-
-1. **Button**: Setting your Button instance to “Button” will make it a general element with no specific default action.
-2. **Submit**: If your button is placed in a form and you set it to “Submit” type, it will submit the collected data to the site owner when clicked.
-3. **Reset**: With the “Reset” type, the button will remove any data the user has put into a form.
-
-***
-
-### Other “Forms” components
-
-We have explored the instances that are a part of every Form component by default. You can add additional components from the Components Panel > Forms section to expand your Form. ![Other form components](../../.gitbook/assets/university/Form\_component\_4.avif)
-
-Here is a more detailed look at the other components in the Forms section:
-
-#### Text Area
-
-This component allows site visitors to add multi-line data as part of their answers. It is similar to the “Text Input” component and the two share the same list of properties.
-
-#### Checkbox
-
-With the Checkbox component, you can provide multiple options that the site visitor can check or leave unchecked as part of their input.
-
-#### Radio
-
-Unlike the Checkbox component, the Radio component is used to give the site visitor a list of options and they have to select one.
+<figure><img src="../../.gitbook/assets/radix-forms.png" alt="radix form components" width="299"><figcaption></figcaption></figure>
