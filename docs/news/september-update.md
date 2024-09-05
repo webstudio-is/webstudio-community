@@ -16,7 +16,7 @@ Previously, you were able to copy and paste [Markdown](../university/foundations
 
 {% embed url="https://x.com/getwebstudio/status/1826284832478896270" %}
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Components Search</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt="search box on components"><figcaption><p>Components Search</p></figcaption></figure>
 
 Now you can quickly access components from the keyboard and insert them. \
 \
