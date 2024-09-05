@@ -11,7 +11,7 @@
 
 ## NEWS
 
-* [🆕 September update](news/september-update.md)
+* [🆕 September Update](news/september-update.md)
 * [🆕 Webstudio CMS Beta and Experts Network](news/webstudio-cms-beta-and-experts-network.md)
 
 ## university

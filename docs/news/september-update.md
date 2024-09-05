@@ -1,8 +1,8 @@
 ---
-description: A lot happened in the last 3 month, let me give you some highlights!
+description: A lot has happened in the last 3 months, let me give you some highlights!
 ---
 
-# 🆕 September update
+# 🆕 September Update
 
 ## 1. Paste from Webflow
 
