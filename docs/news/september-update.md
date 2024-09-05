@@ -71,7 +71,7 @@ These enable you to rotate, skew, translate, and apply other effects to your des
 ## 45 other features
 
 1. Show/hide toggle in the navigator.
-2. Support for text wrapping.
+2. Support for `text-wrap`.
 3. Support for `-webkit-line-clamp`.
 4. Highlight navigator item when a canvas instance is hovered.
 5. Display properties already applied to the node at the top of the transition property list.
