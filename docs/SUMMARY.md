@@ -11,7 +11,7 @@
 
 ## NEWS
 
-* [🆕 Webstudio CMS Beta and Experts Network](news/webstudio-cms-beta-and-experts-network.md)
+* [🆕 Webstudio CMS Beta and Experts Network](news/13-05-2024.md)
 
 ## university
 
