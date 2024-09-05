@@ -33,7 +33,7 @@ If you want to contribute and don't know where to start, here is a step-by-step 
    *   After running `pnpm dev`, you will see a URL in the console that looks like this:
 
        ```
-       ➜  Local:   http://localhost:5173/
+       ➜  Local:   https://wstd.dev:5173/
        ```
    * Cmd + click on the URL in the console to open it in your browser.
 
@@ -73,7 +73,7 @@ VS Code will now build the Docker container and open the Webstudio project insid
    *   After running `pnpm dev`, you will see a URL in the console that looks like this:
 
        ```
-       ➜  Local:   http://localhost:5173/
+       ➜  Local:   https://wstd.dev:5173/
        ```
    * Cmd + click on the URL in the console to open it in your browser.
 
