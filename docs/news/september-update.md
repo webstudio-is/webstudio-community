@@ -4,7 +4,7 @@ description: A lot happened in the last 3 month, let me give you some highlights
 
 # 🆕 September update
 
-## 1. Paste from Webflow.
+## 1. Paste from Webflow
 
 {% embed url="https://vimeo.com/984985222" %}
 
@@ -12,32 +12,7 @@ We added the ability to copy elements in Webflow and paste them in Webstudio. Co
 \
 Previously, you were able to copy and paste [Markdown](../university/foundations/copy-paste/markdown.md), copy and paste Webstudio instances between pages and projects, and now we've added the ability to [copy and paste from Webflow](../university/foundations/copy-paste/webflow.md) into Webstudio (there are some [limitations](../university/foundations/copy-paste/webflow.md#what-does-and-doesnt-transfer)).  See the [announcement on X](https://x.com/getwebstudio/status/1813282002503619009).
 
-## 2. Components search & new keyboard shortcuts
-
-{% embed url="https://x.com/getwebstudio/status/1826284832478896270" %}
-
-<figure><img src="../.gitbook/assets/image (7).png" alt="search box on components"><figcaption><p>Components Search</p></figcaption></figure>
-
-Now you can quickly access components from the keyboard and insert them. \
-\
-`A` - opens the components panel, where you can start typing right away\
-`Z` - opens navigator\
-`S` - opens the style panel\
-`D` - opens the settings panel\
-\
-Read about all [available shortcuts](../university/foundations/shortcuts.md).
-
-## 3. Image transformations for 3rd party URLs
-
-With this update, you can use a remote image URL with the [Image component](../university/core-components/image.md), for example when working with APIs, and it will be transformed on the fly to an optimal format (e.g., WebP or AVIF) and rendered responsively depending on the viewport size.
-
-## 4. Markdown Embed Component
-
-{% embed url="https://www.youtube.com/watch?v=wTpDo4ieFYs" %}
-
-With [this update](https://x.com/getwebstudio/status/1822270103452319872), we added a "[Markdown Embed](../university/core-components/markdown-embed.md)" component. Now you can render and style Markdown—whether it's written directly in Webstudio or fetched from any CMS. It is 100% server-side, SEO friendly!
-
-## 5. Static Site Export
+## 2. Static Site Export
 
 {% embed url="https://www.youtube.com/watch?v=-ZIUpvoCXQU" %}
 Static Export
@@ -53,6 +28,31 @@ With [this update](https://x.com/getwebstudio/status/1820504786820903159), we ma
 * Free to use
 
 You can also use the [CLI](../university/self-hosting/cli.md) to build a static site.
+
+## 3. Components search & new keyboard shortcuts
+
+{% embed url="https://x.com/getwebstudio/status/1826284832478896270" %}
+
+<figure><img src="../.gitbook/assets/image (7).png" alt="search box on components"><figcaption><p>Components Search</p></figcaption></figure>
+
+Now you can quickly access components from the keyboard and insert them. \
+\
+`A` - opens the components panel, where you can start typing right away\
+`Z` - opens navigator\
+`S` - opens the style panel\
+`D` - opens the settings panel\
+\
+Read about all [available shortcuts](../university/foundations/shortcuts.md).
+
+## 4. Image transformations for 3rd party URLs
+
+With this update, you can use a remote image URL with the [Image component](../university/core-components/image.md), for example when working with APIs, and it will be transformed on the fly to an optimal format (e.g., WebP or AVIF) and rendered responsively depending on the viewport size.
+
+## 5. Markdown Embed Component
+
+{% embed url="https://www.youtube.com/watch?v=wTpDo4ieFYs" %}
+
+With [this update](https://x.com/getwebstudio/status/1822270103452319872), we added a "[Markdown Embed](../university/core-components/markdown-embed.md)" component. Now you can render and style Markdown—whether it's written directly in Webstudio or fetched from any CMS. It is 100% server-side, SEO friendly!
 
 ## 6. Headless CMS finder
 
