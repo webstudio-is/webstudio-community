@@ -56,6 +56,20 @@ Shortcut: The URL field supports pasting in a cURL command. Doing so will automa
 * Method – A [request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods). Refer to the third-party API docs to find the suitable method.
 * Headers – Key/value pairs such `Content-Type application/json`. Refer to [Request Headers](https://developer.mozilla.org/en-US/docs/Glossary/Request\_header) for more info.
 
+#### Caching
+
+You may be wondering whether every visit to your blog results in an API call to your CMS or if the content is cached in Webstudio.
+
+When you configure a Resource, the data is fetched using Cloudflare Workers, which has a built-in [caching system](https://developers.cloudflare.com/workers/reference/how-the-cache-works/).
+
+Several factors determine what gets cached and for how long, but one of the primary factors is what the origin system instructs the requesting entity to cache. In other words, the headless CMS tells Cloudflare Workers what can be cached, if anything, and for how long.
+
+{% hint style="info" %}
+[This feature request](https://github.com/webstudio-is/webstudio/issues/4077) would allow users to override the origin’s cache rules easily. Subscribe and vote if you are interested.
+{% endhint %}
+
+Webstudio sees approximately 45% of sub-requests (i.e., fetches from Cloudflare Workers) served from the cache. This means that, on average, roughly half of the time someone visits a page that uses Resources, such as a blog post, the request will go through to the origin/CMS.
+
 ### GraphQL
 
 A GraphQL Resource variable gets its value from a GraphQL API, allowing data from a remote system to be used within Webstudio. While similar to [Resource](variables.md#resource), it’s unique in that the available fields are specifically designed for interacting with GraphQL APIs.
