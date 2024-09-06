@@ -60,6 +60,7 @@
   * [Switch](university/radix/switch.md)
   * [Tabs](university/radix/tabs.md)
   * [Tooltip](university/radix/tooltip.md)
+* [Marketplace](university/marketplace.md)
 * [🤖 Webstudio AI](university/webstudio-ai.md)
 * [📤 Self-Hosting](university/self-hosting/README.md)
   * [▶️ CLI](university/self-hosting/cli.md)
@@ -90,6 +91,7 @@
 
 * [🧑‍🎨 Contributing for Designers](contributing/contributing-for-designers.md)
 * [🧑‍💻 Contributing for Developers](contributing/contributing-for-developers.md)
+* [Contributing to the Marketplace](contributing/contributing-to-the-marketplace.md)
 
 ***
 
