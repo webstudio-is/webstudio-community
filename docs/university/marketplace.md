@@ -1,8 +1,8 @@
 ---
+icon: puzzle
 description: >-
   The Marketplace is integrated into the Builder and offers templates
   contributed by Webstudio and the community.
-icon: puzzle
 ---
 
 # Marketplace
@@ -45,4 +45,4 @@ Webstudio supports templates, component libraries, and projects from the Webflow
 
 You can contribute free or paid templates by creating a project and submitting it for review.
 
-Learn about about [contributing to the Marketplace](../contributing/contributing-to-the-marketplace.md).
+Learn about about [contributing to the Marketplace](../contributing/marketplace.md).
