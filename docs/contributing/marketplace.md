@@ -1,15 +1,15 @@
 ---
+icon: puzzle
 description: >-
   You can contribute free or paid templates by creating a project and submitting
   it for review. Approved templates will appear in the Marketplace.
-icon: puzzle
 ---
 
 # Contributing to the Marketplace
 
 ## Submission Process
 
-### **1. Create a Project**:
+### **1. Create a Project**
 
 Create a project with a page per section or page you want to make available.
 
@@ -17,7 +17,7 @@ Create a project with a page per section or page you want to make available.
 When creating sections, ensure there is one parent wrapper for the entire section, as only the first wrapper is inserted when sections are inserted. The Body and its styles are only inserted on pages, not sections.
 {% endhint %}
 
-### **2. Submit the Project**:
+### **2. Submit the Project**
 
 Navigate to Project Settings > Marketplace, fill out the required fields, select whether your Project includes pages or sections, and submit it for review.
 

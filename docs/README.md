@@ -22,8 +22,16 @@ Our getting started guide will help you navigate through building your first Web
 [core-components](university/core-components/)
 {% endcontent-ref %}
 
-{% content-ref url="basics/FAQ.md" %}
-[FAQ.md](basics/FAQ.md)
+{% content-ref url="university/radix/" %}
+[radix](university/radix/)
+{% endcontent-ref %}
+
+{% content-ref url="university/marketplace.md" %}
+[marketplace.md](university/marketplace.md)
+{% endcontent-ref %}
+
+{% content-ref url="university/self-hosting/" %}
+[self-hosting](university/self-hosting/)
 {% endcontent-ref %}
 
 {% content-ref url="university/how-tos/" %}
@@ -34,6 +42,10 @@ Our getting started guide will help you navigate through building your first Web
 [integrations](university/integrations/)
 {% endcontent-ref %}
 
+{% content-ref url="basics/FAQ.md" %}
+[FAQ.md](basics/FAQ.md)
+{% endcontent-ref %}
+
 ### Looking to contribute to Webstudio?
 
 {% content-ref url="contributing/contributing-for-designers.md" %}
@@ -42,4 +54,8 @@ Our getting started guide will help you navigate through building your first Web
 
 {% content-ref url="contributing/contributing-for-developers.md" %}
 [contributing-for-developers.md](contributing/contributing-for-developers.md)
+{% endcontent-ref %}
+
+{% content-ref url="contributing/marketplace.md" %}
+[marketplace.md](contributing/marketplace.md)
 {% endcontent-ref %}
