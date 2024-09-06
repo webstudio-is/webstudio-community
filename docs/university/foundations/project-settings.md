@@ -12,7 +12,7 @@ Project Settings are located in the top left by clicking the Webstudio logo > Pr
 
 * **Site Name** – Used to output [WebSite structured data](https://schema.org/WebSite) to clearly define your website's identity.
 * **Favicon** – Output your logo in search engines, browser tabs, and more.
-* **Custom Header Code** – Global field to output scripts in the head. For outputting a script in the body on every page, use a [Slot](../core-components/slot.md). For example, add [HTML Embed(s)](../core-components/html-embed.md) to your Footer Slot so that it outputs on every page.
+* **Custom Code** – Global field to output scripts in the head. Custom Code is often used to add analytics scripts such as Google Analytics, PostHog, Plausible, and any other scripts/code you want to output on every page. Please note that this code does _not_ output in the Builder, so your scripts aren't tracking Builder page views. For outputting a script in the body on every page, use a [Slot](../core-components/slot.md). For example, add [HTML Embed(s)](../core-components/html-embed.md) to your Footer Slot so that it outputs on every page.
 * **Compiler** – Atomic CSS reduces the CSS file size by \~70% in many cases. See more below.
 
 ### Atomic CSS
