@@ -19,9 +19,9 @@ The Marketplace contains more templates than what's shown in the Dashboard. The 
 
 Page templates are pre-designed single or multi-page layouts for entire pages. Upon selection, a new page will be inserted into your Project.
 
-### **CMS Templates**
+### **Integrations**
 
-CMS templates are [pages](marketplace.md#pages) with preconfigured [Resources](foundations/variables.md#resource).
+Integration templates are [pages](marketplace.md#pages) with preconfigured [Resources](foundations/variables.md#resource), such as Airtable, Notion, Ghost, Baserow, and more.
 
 Blog templates, for example, typically include pages like:
 
@@ -31,7 +31,7 @@ Blog templates, for example, typically include pages like:
 * Tag
 * Sitemap
 
-CMS templates are typically unstyled, allowing you to apply your own design while providing the backend API connections.
+Integration templates are typically unstyled or minimally styled, allowing you to apply your own design while providing the backend API connections.
 
 ### **Sections**
 

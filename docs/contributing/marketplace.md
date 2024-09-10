@@ -19,7 +19,7 @@ When creating sections, ensure there is one parent wrapper for the entire sectio
 
 ### **2. Submit the Project**
 
-Navigate to Project Settings > Marketplace, fill out the required fields, select whether your Project includes pages or sections, and submit it for review.
+Navigate to Project Settings > Marketplace, fill out the required fields, select whether your Project includes pages, sections, or integrations, and submit it for review.
 
 <figure><img src="../.gitbook/assets/marketplace-submission.png" alt="Marketplace Submission"><figcaption></figcaption></figure>
 
