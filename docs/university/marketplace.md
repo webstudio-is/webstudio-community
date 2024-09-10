@@ -7,7 +7,7 @@ description: >-
 
 # Marketplace
 
-<figure><img src="../.gitbook/assets/marketplace.png" alt="Webstudio Marketplace in the Builder" width="288"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/marketplace-three-tabs.png" alt="Webstudio Marketplace in the Builder" width="175"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The Marketplace contains more templates than what's shown in the Dashboard. The Dashboard shows starter Projects, while the Builder shows everything in the Dashboard, plus pages and sections.
