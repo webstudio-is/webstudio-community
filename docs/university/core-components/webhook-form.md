@@ -45,6 +45,10 @@ Now, anytime the form is submitted, it will deliver the payload (the form submis
 
 You can add a Webhook Form Component to your canvas from the Components Panel > Data section.
 
+{% hint style="warning" %}
+Webhook Forms do not submit inside the Builder, including in Preview. They only submit on the published site.
+{% endhint %}
+
 Inside the Webhook Form, you will find three nested instances:
 
 1. Form Content
