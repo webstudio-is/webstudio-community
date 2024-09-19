@@ -41,8 +41,8 @@ description: The list of keyboard shortcuts to build in Webstudio.
 * Reset style for all corners: `shift + alt + click`
 * Edit spacing on all sides (via drag): `shift + drag`
 * Edit spacing on all sides (via one input): add value to one side, and before closing, use `shift + enter`
-* Edit spacing on two sides (via drag): `option + drag`
-* Edit spacing on two sides (via one input): add value to one side, and before closing, use `option + enter`
+* Edit spacing on two sides (via drag): `alt + drag`
+* Edit spacing on two sides (via one input): add value to one side, and before closing, use `alt + enter`
 * Increment value by 10: `shift + up/down arrow`
 * Increment value by .1: `alt + up/down arrow`
 
@@ -52,5 +52,6 @@ description: The list of keyboard shortcuts to build in Webstudio.
 
 ## **Top Bar**
 
+* Open the current page's settings: `alt + click page`
 * Preview: `command + shift + p`
 * Switch breakpoints: `numbers` (e.g., `1` switches to the first one)
