@@ -30,6 +30,7 @@ description: The list of keyboard shortcuts to build in Webstudio.
 * Open Navigator: `z`
 * Open Add Components: `a`
 * Edit Component: `enter`
+* Rename instance label: `command + e`
 * Expand Navigator item: `right arrow`
 * Collapse Navigator item: `left arrow`
 * Expand all Navigator item children: `alt + click`
