@@ -63,3 +63,13 @@ Optionally, rename the default Collection Item variable to something more semant
 Now, you can add components to the Collection, and the Collection will automatically duplicate it for the number of items in the array. If you have multiple components, wrap everything in a [Box](box.md.md) component.
 
 Next, [bind](../foundations/expression-editor.md#binding) the Collection Item (or whatever you named it) to the various components. You will see it output a different value depending on the iteration.
+
+## Using Collections with Radix Components <a href="#using-collections-within-accordions" id="using-collections-within-accordions"></a>
+
+When working with [Radix Components](../radix/), you might want to dynamically generate items for various components such as accordions, tabs, or menus.
+
+**You must provide the Value field with a unique value for each item.** This is commonly done by binding an ID or slug from the dynamic data to the field.
+
+For an accordion, it would look like this:
+
+<figure><img src="../../.gitbook/assets/accordion-collection.png" alt=""><figcaption><p>The Item has a unique value from the dynamic data bound to the Value field</p></figcaption></figure>

@@ -9,7 +9,7 @@ description: This page highlights where to get support for all Webstudio custome
 If you're looking to upgrade your account and wish to receive a credit for any previous purchase, follow the below steps:&#x20;
 
 * Visit [https://webstudio.is/pricing](https://webstudio.is/pricing)
-* Select the "Existing Lifetime Customer, Click here" text as illustrated below. ![](<../.gitbook/assets/image (1) (1).png>)
+* Select the "Existing Lifetime Customer, Click here" text as illustrated below. ![](<../.gitbook/assets/image (1) (1) (1).png>)
 * Fill out the upgrade request form.&#x20;
 
 

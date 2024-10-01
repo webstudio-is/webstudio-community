@@ -56,6 +56,10 @@ Shortcut: The URL field supports pasting in a cURL command. Doing so will automa
 * Method – A [request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods). Refer to the third-party API docs to find the suitable method.
 * Headers – Key/value pairs such `Content-Type application/json`. Refer to [Request Headers](https://developer.mozilla.org/en-US/docs/Glossary/Request\_header) for more info.
 
+#### Response
+
+Once the Resource fetches data, you'll use the [Expression Editor](expression-editor.md) to bind data from the response to your website. See [Binding](expression-editor.md#binding) for more information.
+
 #### Caching
 
 You may be wondering whether every visit to your blog results in an API call to your CMS or if the content is cached in Webstudio.

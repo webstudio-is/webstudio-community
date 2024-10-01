@@ -1,7 +1,7 @@
 ---
 description: >-
   Webhook Hook Forms enable form submissions to get sent to an email address and
-  optionally third-party services like Airtable, n8n, or Notion.
+  optionally third-party services like Airtable, n8n, or Zapier.
 ---
 
 # ✍️ Webhook Form

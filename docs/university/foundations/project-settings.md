@@ -92,9 +92,6 @@ Redirects old URLs to new ones so that you don’t lose any traffic or search en
 
 ## Marketplace
 
-Submit your Project, or parts of your Project, to the public Webstudio Marketplace.
+You can contribute free or paid templates by creating a Project and submitting it for review. Approved templates will appear in the [Marketplace](../marketplace.md).
 
-Things to note:
-
-* Once submitted, each page in your project will have an option to include/exclude it from the Marketplace, letting you control which pages are public. They also have meta information so you can upload custom images. If no images are provided, the Marketplace will use default placeholders with the name of the page.
-* Don't forget to publish your project after every change to make your changes available in the marketplace!
+For more information, see [Contributing to the Marketplace](../../contributing/marketplace.md).
