@@ -42,6 +42,10 @@ Our getting started guide will help you navigate through building your first Web
 [integrations](university/integrations/)
 {% endcontent-ref %}
 
+{% content-ref url="university/craft.md" %}
+[craft.md](university/craft.md)
+{% endcontent-ref %}
+
 {% content-ref url="basics/FAQ.md" %}
 [FAQ.md](basics/FAQ.md)
 {% endcontent-ref %}

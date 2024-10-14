@@ -63,6 +63,10 @@ Verification may take up to 24 hours but usually takes only a few minutes.
 You must publish your site _after_ the domain is verified, or else "[Worker not found](publishing-and-custom-domains.md#domain-issues)" will show on the site.
 {% endhint %}
 
+{% hint style="info" %}
+Publishing currently takes around 45 seconds. During publishing, your Project is built into a JavaScript app and deployed to 300+ servers around the world.
+{% endhint %}
+
 Once your site is live, you can visit it by clicking the open icon next to the green checkmark.
 
 ***

@@ -18,17 +18,18 @@
 
 * [⚛️ Foundations](university/foundations/README.md)
   * [🛠️ Anatomy of the Webstudio Builder](university/foundations/anatomy-of-the-webstudio-builder.md)
+  * [🧱 CSS Variables](university/foundations/css-variables.md)
   * [🖌️ Design Tokens](university/foundations/design-tokens.md)
-  * [🌐 Publishing & Custom Domains](university/foundations/publishing-and-custom-domains.md)
-  * [🎯 SEO Settings](university/foundations/seo-settings.md)
-  * [⚙️ Project Settings](university/foundations/project-settings.md)
-  * [🔡 Variables](university/foundations/variables.md)
+  * [🔡 Data Variables](university/foundations/variables.md)
   * [➕ Expression Editor](university/foundations/expression-editor.md)
   * [💾 CMS](university/foundations/cms.md)
   * [↔️ Copy-Paste](university/foundations/copy-paste/README.md)
     * [↔️ Webflow](university/foundations/copy-paste/webflow.md)
     * [↔️ Markdown](university/foundations/copy-paste/markdown.md)
+  * [🎯 SEO Settings](university/foundations/seo-settings.md)
   * [Shortcuts](university/foundations/shortcuts.md)
+  * [⚙️ Project Settings](university/foundations/project-settings.md)
+  * [🌐 Publishing & Custom Domains](university/foundations/publishing-and-custom-domains.md)
 * [🧩 Core Components](university/core-components/README.md)
   * [📦 Box](university/core-components/box.md.md)
   * [🔗 Link](university/core-components/link.md)
@@ -86,6 +87,7 @@
   * [How to integrate Webhook Form with Zappier](university/integrations/zapier.md)
   * [How to integrate Webhook Form with N8N](university/integrations/n8n.md)
   * [How to integrate a Webhook Form with Airtable](university/integrations/airtable-1.md)
+* [Craft](university/craft.md)
 
 ## Contributing
 

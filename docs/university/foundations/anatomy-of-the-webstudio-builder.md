@@ -1,6 +1,10 @@
-# 🛠️ Anatomy of the Webstudio Builder
+---
+description: >-
+  This guide discusses the anatomy of the Webstudio Builder, an all-in-one
+  visual development platform that allows you to build advanced websites.
+---
 
-This guide discusses the anatomy of the Webstudio Builder, an all-in-one visual development platform that allows you to build stunning, responsive websites.
+# 🛠️ Anatomy of the Webstudio Builder
 
 ***
 
@@ -10,90 +14,137 @@ Webstudio 101 Playlist
 
 ***
 
-![Webstudio builder](../../.gitbook/assets/university/Anatomy\_Webstudio\_Builder\_Main.avif)
+## Canvas
 
-### The Canvas
+The canvas provides a visual representation of the website you are creating. After adding components from the Components Panel, you can arrange and style their instances on the canvas.
 
-As the central workspace of the Webstudio Builder, the canvas provides a visual representation of the website you are creating. After adding components from the Components Panel, you can arrange and style their instances on the canvas.
-
-&#x20;![Webstudio canvas](../../.gitbook/assets/university/Anatomy\_Webstudio\_Builder\_Canvas.png)
+<figure><img src="../../.gitbook/assets/canvas.png" alt="Canvas"><figcaption></figcaption></figure>
 
 ***
 
-### The Navigator
+## Navigator
 
-The Navigator Panel is a hierarchical overview of all component instances in your project. It displays the website’s structure, showing the nesting and relationships between different instances. You can select the instance of any component inside your project by clicking it on the canvas or inside the navigator.
+The Navigator Panel is a hierarchical overview of all instances on your page. It displays the website’s structure, showing the nesting and relationships between different instances. You can select the instance of any component inside your Project by clicking it on the canvas or inside the navigator.
 
-In the bottom half of the Navigator, you will find the CSS Preview section, which is a real-time preview of the CSS styles applied to your selected instance.
+In the bottom half of the navigator, you will find the CSS Preview section, which is a real-time preview of the CSS styles applied to your selected instance.
 
-&#x20;![Webstudio navigator](../../.gitbook/assets/university/Anatomy\_Webstudio\_Builder\_Navigator.png)
+<figure><img src="../../.gitbook/assets/navigator.png" alt="" width="373"><figcaption></figcaption></figure>
 
-***
+### Global Root
 
-### Breakpoints
+In the Navigator is the Global Root, the highest level of the page. Changes made to it apply to every page. It’s useful for setting global styles, such as font size and line height, and defining [CSS variables](css-variables.md) so they are accessible on every instance on every page. Changing the font size on the root affects all CSS properties that use REM, as this unit is relative to the root font size. For example, `1rem` outputs as `1 x root font size`.
 
-Breakpoints are crucial for creating responsive websites that adapt to different screen sizes and devices. In the Webstudio Builder, breakpoints represent specific screen widths at which the website layout adjusts to optimize the user experience.
+{% hint style="info" %}
+Global Root uses the`:root` [CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) under the hood.
+{% endhint %}
 
-By defining how components should behave at different screen sizes, you can ensure your website looks great on various devices, including desktops, tablets, and smartphones. You can select and modify the breakpoints for your Webstudio project in the “Edit breakpoints” menu. ![Webstudio breakpoints](../../.gitbook/assets/university/Anatomy\_Webstudio\_Builder\_Breakpoints.png)
-
-***
-
-### The Components Panel
-
-The Components Panel contains a list of all available components that you can add to your Webstudio project. You can do this by clicking the components in the panel or dragging and dropping them on the canvas.
-
-Components are grouped into sections like General, Text, Media, and Forms. For instance, the Text section has all typography-related components, while the Form section nests the building blocks of a form.&#x20;
-
-![Webstudio components panel](../../.gitbook/assets/university/Anatomy\_Webstudio\_Builder\_Components.png)
+<figure><img src="../../.gitbook/assets/global-root.png" alt="Global Root"><figcaption><p>Global Root</p></figcaption></figure>
 
 ***
 
-### The Assets Panel
+## Breakpoints
+
+Breakpoints are crucial for creating responsive websites that adapt to different screen sizes and devices. _Style_ changes you make on one breakpoint cascade, or affect, that breakpoint and all the smaller ones.
+
+{% hint style="success" %}
+You can create custom breakpoints and change `max-width` queries to `min-width` so styles cascade up.
+{% endhint %}
+
+{% hint style="warning" %}
+Adding too many breakpoints or mixing and matching `min-width` and `max-width` will make maintenance difficult. The default breakpoints suffice more in the majority of use cases.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/breakpoints.png" alt="Webstudio Breakpoints"><figcaption></figcaption></figure>
+
+By defining how components should behave at different screen sizes, you can ensure your website looks great on various devices, including desktops, tablets, and smartphones.
+
+{% hint style="info" %}
+When you select a breakpoint, such as 991, you’ll notice that the canvas is sized to 768. This is intentional. The goal is to style for the minimum (or maximum, if using min-width) to ensure all design issues are addressed at the "extreme" end of that breakpoint. When the viewport changes to 767, the next breakpoint is triggered.
+{% endhint %}
+
+***
+
+## Components Panel
+
+The Components Panel contains a list of all available [components](../core-components/) that you can add to your Webstudio Project. You can do this by clicking the components in the panel or dragging and dropping them on the canvas.
+
+Components are grouped into sections like General, Text, Media, Forms, and [Radix](../radix/). For example, the Text section has all typography-related components, while the Form section nests the building blocks of a form.&#x20;
+
+<figure><img src="../../.gitbook/assets/components.png" alt="Add components" width="279"><figcaption></figcaption></figure>
+
+***
+
+## Assets Panel
 
 The Assets Panel is the second panel to the left of your canvas, and this is where all the static files are stored. You can upload, organize, and manage project assets inside this panel before using them on the canvas.
 
 ***
 
-### The Pages Panel
+## Pages Panel
 
-The Pages Panel offers an overview of the website’s page structure and hierarchy, and it is the last panel on the left side of your canvas, under the Components and Asset Panels.
+The Pages Panel offers an overview of the website’s page structure and hierarchy, and it is the last panel on the left side of your canvas, under the Components and Assets Panels.
 
-You can use this panel to add new pages to your Webstudio site, set the homepage, rename existing ones, and manage the design and settings of each page individually.
-
-***
-
-### The Style Panel
-
-The Style Panel is located to the right of the canvas, and you can use it to customize the appearance and layout of a selected instance. It offers a comprehensive set of styling options, such as typography, colors, spacing, and positioning.
-
-You can also create and add design tokens to your project in the Style Panel.
+You can use this panel to add new pages to your Webstudio site, set the homepage, rename existing ones, and configure fields for social sharing and search engines.
 
 ***
 
-### The Settings Panel
+## Style Panel
 
-The Settings Panel is the last panel on the right side of your canvas. You can use this panel to access and edit component-specific properties for a selected instance.
+The Style Panel is located to the right of the canvas, and you can use it to customize the appearance and layout of a selected instance. It offers access to all CSS properties, visually.
+
+<figure><img src="../../.gitbook/assets/style-panel.png" alt="Style Panel" width="256"><figcaption></figcaption></figure>
+
+There are three methods for adding styles:
+
+1.  Local - By default, the Local icon is active, meaning any styles you apply to that instance are for that instance only.
+
+    <img src="../../.gitbook/assets/local.png" alt="Local style source" data-size="original">
+2. [CSS Variables](css-variables.md) - Instead of pasting in your colors, sizes, and other styles, you can create a variable for each style and access the variables in each input field. For example, you can define a variable called "color-primary," and in your border color field, you can enter the variable name instead of the color itself.
+3. [Tokens](design-tokens.md) - These enable reusing groupings of styles across your site. You can either create a new Token and apply styles to it or start with Local and convert it to a Token. Tokens are typically comprised of CSS variables and one-off styles.
+
+### Label colors
+
+The style input labels change colors indicating there is a style present.
+
+| Label color                                                            | What it means                                                                                                                                                                                                       |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <mark style="background-color:blue;">**Blue**</mark>                   | This style is on the current Token.                                                                                                                                                                                 |
+| <mark style="color:orange;background-color:orange;">**Orange**</mark>  | This style is coming from another source: a Token that is not selected, a state not selected (e.g., you're on hover but the style is local), inherited from a parent instance, or cascaded from another breakpoint. |
+| <mark style="background-color:yellow;">**Gray**</mark>                 | This is a Webstudio or browser default style (like font-family: arial).                                                                                                                                             |
+| <mark style="color:red;background-color:red;">**Red**</mark>           | This style is on the current Style Source, but it’s being overwritten by something else in the Style Source input, such as Local or another Token.                                                                  |
+
+{% hint style="info" %}
+The order of tokens in the Style Source Input matters. When multiple Tokens have a value for the same property, Tokens toward the end of the list will overwrite Tokens toward the beginning of the list.
+{% endhint %}
 
 ***
 
-### The Preview Mode
+## Settings Panel
 
-The Preview Mode allows you to review and interact with your website before making it live on the web. You can use this mode to test your site’s functionality, responsiveness, and user experience in real-time.
-
-***
-
-### The Share Dialog
-
-The Share Dialog allows you to create a shareable personal link to your project. You can set your link to have “View” or “Build” permissions depending on what level of access you wish to provide.
-
-If you set your shared custom link to “View” mode, anyone with the link can view your site, but any changes they make inside the builder will not be saved.
+The Settings Panel is on the right side of your canvas. You can use this panel to access and edit component-specific properties (such as ID or class) and [Data Variables](variables.md) for a selected instance, enabling you to store reusable content and fetch APIs — a building block of [CMS](cms.md).
 
 ***
 
-### The Publish Dialog
+## Preview Mode
 
-With the Publish Tab, you can launch your website to a Webstudio subdomain and your custom domain. If you are publishing to a custom domain, you can configure your domain manually by setting up the DNS records in your domain registrar’s UI.
+The Preview Mode allows you to review and interact with your website before making it live on the web.  This mode is great for quickly checking your website, especially without the editor interfering.
 
-You can also configure your domain using the “Configure automatically” button that will show you a step-by-step guide to connect your domain without leaving the builder UI.
+***
 
-To learn more about [publishing on Webstudio](https://webstudio.is/blog/publishing-your-webstudio-site).
+## Share Dialog
+
+The Share Dialog allows you to create a shareable personal link to your Project. You can set your link to have “View” or “Build” permissions depending on what level of access you wish to provide.
+
+If you set your shared custom link to “View” mode, anyone with the link can view your site and clone it, but any changes they make inside the builder will not be saved.
+
+***
+
+## Publish Dialog
+
+The Publish Dialog enables you to add a custom domain, publish to Staging and/or your custom domain, and [export your Project](../self-hosting/).
+
+{% hint style="info" %}
+Publishing currently takes around 45 seconds. During publishing, your Project is built into a JavaScript app and deployed to 300+ servers around the world.
+{% endhint %}
+
+To learn more, see [publishing on Webstudio](publishing-and-custom-domains.md).

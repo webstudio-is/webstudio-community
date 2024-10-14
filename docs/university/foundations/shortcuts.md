@@ -46,6 +46,7 @@ description: The list of keyboard shortcuts to build in Webstudio.
 * Edit spacing on two sides (via one input): add value to one side, and before closing, use `alt + enter`
 * Increment value by 10: `shift + up/down arrow`
 * Increment value by .1: `alt + up/down arrow`
+* View the computed CSS variable value in the tooltip: `hold alt`
 
 ## **Settings Panel**
 

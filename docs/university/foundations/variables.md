@@ -1,10 +1,16 @@
 ---
-description: Variables enable the definition and use of a value throughout the page.
+description: Data Variables enable the definition and use of a value throughout the page.
 ---
 
-# 🔡 Variables
+# 🔡 Data Variables
 
-Variables are defined on any instance in the navigator such as Body or Heading. Variables can be found on the right panel in the settings tab.
+{% hint style="info" %}
+**Hint:** [CSS Variables](css-variables.md) are different than Data Variables. They enable the reuse of values in the Style Panel.
+{% endhint %}
+
+
+
+Data Variables are defined on any instance in the navigator such as Body or Heading. Variables can be found on the right panel in the settings tab.
 
 <figure><img src="../../.gitbook/assets/webstudio-variables.png" alt="Variables in the builder" width="375"><figcaption></figcaption></figure>
 
