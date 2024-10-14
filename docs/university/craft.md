@@ -1,6 +1,6 @@
 ---
-description: Craft is the standard guideline for building with Webstudio.
 icon: ruler-triangle
+description: Craft is the standard guideline for building with Webstudio.
 ---
 
 # Craft
@@ -81,6 +81,7 @@ The page on the site is used to display and design the various HTML elements lik
 | Labels                                | Title  | If using a custom name, use semantic names.                            | `Page Wrapper` `Cards` `Team Member`                                        | Default components are title case and the navigator is for humans to understand the structure and purpose. |
 | Box, Slot, HTML Embed, and Collection |        | Always create a custom name.                                           | `Wrapper` `Card` `Animation Script`                                         | The purpose of these components are not clear without a custom name.                                       |
 | Parent > Child                        |        | Use plural for parent and singular for children when they are related. | <p><code>Cards</code><br>    <code>Card</code><br>    <code>Card</code></p> | Helps indicate the relationship of instances.                                                              |
+| Sections                              |        | Prefix Boxes that have the `section` tag with "Section ".              | `Section Hero`                                                              | Indicatees where the section is at without digging into settings.                                          |
 
 ### Structure
 
