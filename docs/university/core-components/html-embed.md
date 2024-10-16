@@ -50,7 +50,7 @@ Please note that any updates you make inside your slot will update all other ins
 
 When using the tag, every variable you create is global by default, which can lead to unpredictable effects.\
 \
-Example:
+Example (bad):
 
 ```html
 <script>

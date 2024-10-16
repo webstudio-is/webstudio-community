@@ -15,7 +15,7 @@
 ```html
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
-<script>
+<script type="module">
   gsap.registerPlugin(Flip);
   gsap.fromTo(".animation", {opacity: 0}, {
     opacity: 1, 
