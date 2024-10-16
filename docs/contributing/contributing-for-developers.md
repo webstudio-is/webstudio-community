@@ -77,6 +77,12 @@ VS Code will now build the Docker container and open the Webstudio project insid
        ```
    * Cmd + click on the URL in the console to open it in your browser.
 
+{% hint style="danger" %}
+If VS Code shows you an "Open Browser" button, it will lead you to the wrong URL as they are only watching ports. Be sure to use `wstd.dev` and **NOT** `localhost`. The proper URL will show in the console.\
+\
+<img src="../.gitbook/assets/vscode-dialog.png" alt="VS Code Open Browser Dialog" data-size="original">
+{% endhint %}
+
 ### Running the Webstudio Project without Devcontainer
 
 #### Prerequisites
