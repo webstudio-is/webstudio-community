@@ -10,9 +10,7 @@ description: >-
 **Hint:** [Data Variables](variables.md) are different than CSS Variables. They enable the reuse of data in the Settings tab.
 {% endhint %}
 
-{% embed url="https://youtu.be/NrU_9BZytQY" %}
-CSS variables 101
-{% endembed %}
+{% embed url="https://www.youtube.com/watch?v=NrU_9BZytQY" %}
 
 Why Use CSS variables?
 
