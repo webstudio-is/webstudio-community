@@ -6,10 +6,14 @@ description: Webstudio supports copy-pasting within the platform and from extern
 
 ## Supported External Sources
 
-{% content-ref url="webflow.md" %}
-[webflow.md](webflow.md)
+{% content-ref url="css.md" %}
+[css.md](css.md)
 {% endcontent-ref %}
 
 {% content-ref url="markdown.md" %}
 [markdown.md](markdown.md)
+{% endcontent-ref %}
+
+{% content-ref url="webflow.md" %}
+[webflow.md](webflow.md)
 {% endcontent-ref %}
