@@ -25,6 +25,10 @@ There are two ways to export Projects:
 1. [**Webstudio CLI** ](cli.md)– Allows you to interact with and export your Projects. **Supports static and dynamic (see below).**
 2. [**Download button in the Builder**](download.md) – Click a button in the Webstudio Builder, and the Project will be downloaded as a zip. **Supports static only (see below).**
 
+{% hint style="warning" %}
+If you are self hosting the builder app, then please use the Webstudio CLI to export your project.
+{% endhint %}
+
 ### Export types
 
 There are two types of exports:
