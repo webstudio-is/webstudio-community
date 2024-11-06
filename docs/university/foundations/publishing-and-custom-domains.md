@@ -103,15 +103,27 @@ Root domain is synonymous with apex, bare, and naked. An example is `example.com
 1. Choose whether you want to use `www` or your root domain
 2. Add your choice to Webstudio (e.g., `www.example.com` or `example.com`)
 3. Add the provided records to your DNS
-4. Redirect the domain you did _not_ add to the domain you added by following one of the next sections.
+4. Redirect the domain you did _not_ add to the domain you added by following the next sections.
 
-### Redirect root to `www`
+### 1: Add a DNS record for the other domain
+
+Cloudflare rules can't apply to traffic that isn't proxied through Cloudflare. Therefore, adding a DNS record for the domain you are _not_ using is essential. Cloudflare offers an IP address for this exact use case.
+
+**Create an A record and point it to `192.0.2.1`.**
+
+> This address does not route traffic to an origin server but allows Cloudflare to apply rules, redirects, and Workers to incoming traffic. The equivalent IP address for an AAAA record is 100::. \
+> \
+> \- [Cloudflare](https://developers.cloudflare.com/fundamentals/setup/manage-domains/redirect-domain/)
+
+Next, follow one of the subsequent options depending on your desired setup.
+
+### 1a: Redirect root to `www`
 
 If you are using `www` then it's important to redirect the root domain to it. For example, redirect `example.com` to `www.example.com`.
 
 Follow [Cloudflare's guide](https://developers.cloudflare.com/rules/url-forwarding/examples/redirect-root-to-www/) to redirect your root domain to `www`.
 
-### Redirect `www` to root
+### 1b: Redirect `www` to root
 
 While `www` is merely a subdomain and not technically different than `xyz.example.com`, old habits die hard, and some users may still type in `www` to get to your site. Therefore, it's good practice to redirect it to your root so they can reach your site.
 
