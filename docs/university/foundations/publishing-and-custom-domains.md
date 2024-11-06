@@ -117,13 +117,13 @@ Cloudflare rules can't apply to traffic that isn't proxied through Cloudflare. T
 
 Next, follow one of the subsequent options depending on your desired setup.
 
-### 1a: Redirect root to `www`
+### 2a: Redirect root to `www`
 
 If you are using `www` then it's important to redirect the root domain to it. For example, redirect `example.com` to `www.example.com`.
 
 Follow [Cloudflare's guide](https://developers.cloudflare.com/rules/url-forwarding/examples/redirect-root-to-www/) to redirect your root domain to `www`.
 
-### 1b: Redirect `www` to root
+### 2b: Redirect `www` to root
 
 While `www` is merely a subdomain and not technically different than `xyz.example.com`, old habits die hard, and some users may still type in `www` to get to your site. Therefore, it's good practice to redirect it to your root so they can reach your site.
 
