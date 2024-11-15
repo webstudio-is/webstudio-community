@@ -11,7 +11,7 @@ Contribute changes to Craft by commenting on this [GitHub Discussion](https://ws
 
 When building highly maintainable and scaleable websites, some conventions prove to work well. Plus, when collaborating with team members and other creators, a standardized system results in a smoother learning curve and easier sharing, such as through the [Marketplace](marketplace.md).
 
-**Craft contains a set of standards, CSS variables, and Tokens that make building websites fast, flexible, and maintainable. It also enables sharing Projects without mixing different naming conventions.**
+**Craft contains a set of standards, CSS variables, and Tokens that make building websites fast, maintainable, and reusable.** It also enables sharing Projects without mixing different naming conventions.
 
 While Craft is not mandatory, it’s the recommended way to build in Webstudio.
 
