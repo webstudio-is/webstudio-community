@@ -1,17 +1,17 @@
 ---
 icon: ruler-triangle
-description: Craft is the standard guideline for building with Webstudio.
+description: Craft is the standard for building with Webstudio.
 ---
 
 # Craft
 
-{% hint style="warning" %}
-**Work in progress.** Contribute your thoughts on this guide by commenting on this [GitHub Discussion](https://wstd.us/discuss-craft). Coming up with the standard is a community effort.
+{% hint style="info" %}
+Contribute changes to Craft by commenting on this [GitHub Discussion](https://wstd.us/discuss-craft).
 {% endhint %}
 
 When building highly maintainable and scaleable websites, some conventions prove to work well. Plus, when collaborating with team members and other creators, a standardized system results in a smoother learning curve and easier sharing, such as through the [Marketplace](marketplace.md).
 
-Craft is a set of standards, CSS variables, and guidelines that make building websites fast, flexible, and maintainable. It also enables sharing without our websites becoming cluttered with other people’s CSS variables, Tokens, and naming conventions.
+**Craft contains a set of standards, CSS variables, and Tokens that make building websites fast, flexible, and maintainable. It also enables sharing Projects without mixing different naming conventions.**
 
 While Craft is not mandatory, it’s the recommended way to build in Webstudio.
 
@@ -21,6 +21,33 @@ Here are the standards and guidelines of Craft.
 
 Craft uses [Open Props](https://open-props.style/), an MIT-licensed library of CSS variables that helps accelerate adaptive and consistent design.
 
+In addition to the Open Props variables, Craft includes the following CSS variables:
+
+```
+--foreground-primary
+--foreground-secondary
+--foreground-accent
+--foreground-muted
+--foreground-border
+
+--background-primary
+--background-secondary
+--background-accent
+--background-card
+
+--gap-xs
+--gap-s
+--gap-m
+--gap-l
+
+--focus-color
+--focus-width
+--focus-offset
+
+--duration-default
+--easing-default
+```
+
 {% hint style="info" %}
 Insert Craft from the Marketplace, and it will add the CSS variables to your Global Root. To match your branding, you can customize the values, such as colors, gradients, and more. You can also add custom variables.
 {% endhint %}
@@ -29,9 +56,9 @@ Insert Craft from the Marketplace, and it will add the CSS variables to your Glo
 CSS Props doesn't impose style opinions on your site. This library contains variables like `--size-4` and `--gradient-5`. Then, it's up to you to customize their values or use the defaults.
 {% endhint %}
 
-| Type | Rule         | Examples               |
-| ---- | ------------ | ---------------------- |
-| Size | Use numbers. | `--size-4` `--blue-10` |
+| Type                    | Rule         | Examples               |
+| ----------------------- | ------------ | ---------------------- |
+| Size and color palettes | Use numbers. | `--size-4` `--blue-10` |
 
 ## Tokens
 
