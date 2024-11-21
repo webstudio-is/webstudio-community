@@ -70,6 +70,24 @@ When working with [Radix Components](../radix/), you might want to dynamically g
 
 **You must provide the Value field with a unique value for each item.** This is commonly done by binding an ID or slug from the dynamic data to the field.
 
-For an accordion, it would look like this:
+### Accordions
 
 <figure><img src="../../.gitbook/assets/accordion-collection.png" alt=""><figcaption><p>The Item has a unique value from the dynamic data bound to the Value field</p></figcaption></figure>
+
+### Tabs
+
+On Tabs, you need to manually add the "value" property on both the Tab Trigger and Tab Content by going to Settings > Properties & Attributes > "+".
+
+Tab Triggers and Tab Contents maintain their relationship by having the same value. For example, the Tab Trigger with the value "asdf" will make the Tab Content with the value "asdf" active.
+
+<div>
+
+<figure><img src="../../.gitbook/assets/tab-trigger.png" alt=""><figcaption><p>Tab Trigger with custom value</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/tab-content.png" alt=""><figcaption><p>Tab Content with custom value</p></figcaption></figure>
+
+</div>
+
+Also, you can change the default value on the Tabs instance by binding the first value in the collection to it.
