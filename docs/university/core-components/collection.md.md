@@ -82,11 +82,11 @@ Tab Triggers and Tab Contents maintain their relationship by having the same val
 
 <div>
 
-<figure><img src="../../.gitbook/assets/tab-trigger.png" alt=""><figcaption><p>Tab Trigger with custom value</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tab-trigger (1).png" alt=""><figcaption><p>Tab Trigger with custom value</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/tab-content.png" alt=""><figcaption><p>Tab Content with custom value</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tab-content (1).png" alt=""><figcaption><p>Tab Content with custom value</p></figcaption></figure>
 
 </div>
 
