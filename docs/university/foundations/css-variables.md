@@ -35,7 +35,7 @@ For example, you can create one variable per color in your design system. Those 
 
 ### Layer 2: Tokens
 
-[**Tokens**](design-tokens.md) **are the next layer. They package up **_**multiple**_** styles.** A `Card` Token may include padding, color, and gap styles, for example.
+[**Tokens**](design-tokens.md) **are the next layer. They package up&#x20;**_**multiple**_**&#x20;styles.** A `Card` Token may include padding, color, and gap styles, for example.
 
 The values you enter for each style should be defined as variables. This approach ensures consistent designs and allows you to update a value in one place, with the change automatically reflected wherever the variable is used.
 
@@ -58,7 +58,7 @@ A CSS variable is defined in the Advanced section by using two dashes followed b
 ```
 
 {% hint style="info" %}
-This syntax is not unique to Webstudio. It’s the official [CSS variable](https://developer.mozilla.org/en-US/docs/Web/CSS/Using\_CSS\_custom\_properties) syntax.
+This syntax is not unique to Webstudio. It’s the official [CSS variable](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) syntax.
 {% endhint %}
 
 Then, the variable's value can be anything such as a color, gradient, duration, size, or number.

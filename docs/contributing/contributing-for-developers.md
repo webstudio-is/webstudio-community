@@ -29,13 +29,14 @@ If you want to contribute and don't know where to start, here is a step-by-step 
        ```sh
        pnpm dev
        ```
-7. Open the application in your browser
-   *   After running `pnpm dev`, you will see a URL in the console that looks like this:
+   * If you don't see `Network: https://wstd.dev:5173/` when it's done, try executing the command once more.
+7.  Change the port protocol to HTTPS (Ports > Right Click > Change Port Protocol)
 
-       ```
-       ➜  Local:   https://wstd.dev:5173/
-       ```
-   * Cmd + click on the URL in the console to open it in your browser.
+
+
+    <figure><img src="../.gitbook/assets/protcol.png" alt=""><figcaption></figcaption></figure>
+8. Open the application in your browser
+   * Go to Ports and open the Forwarded Address
 
 ### Running the Webstudio Project Using VS Code
 
