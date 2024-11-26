@@ -7,11 +7,13 @@ description: >-
 
 # Marketplace
 
-<figure><img src="../.gitbook/assets/marketplace-three-tabs.png" alt="Webstudio Marketplace in the Builder" width="175"><figcaption></figcaption></figure>
+See [Webstudio Templates](https://webstudio.is/marketplace/templates) or head over to the Builder to view all templates.
 
 {% hint style="info" %}
-The Marketplace contains more templates than what's shown in the Dashboard. The Dashboard shows starter Projects, while the Builder shows everything in the Dashboard, plus pages and sections.
+The Marketplace in the Builder contains more templates than what's shown in the Dashboard. The Dashboard shows starter Projects, while the Builder shows everything in the Dashboard, plus pages and sections.
 {% endhint %}
+
+<figure><img src="../.gitbook/assets/marketplace-three-tabs.png" alt="Webstudio Marketplace in the Builder" width="175"><figcaption></figcaption></figure>
 
 ## Types of templates
 
