@@ -88,6 +88,7 @@
   * [How to integrate Webhook Form with Zappier](university/integrations/zapier.md)
   * [How to integrate Webhook Form with N8N](university/integrations/n8n.md)
   * [How to integrate a Webhook Form with Airtable](university/integrations/airtable-1.md)
+  * [How to integrate Flotiq with Webstudio](university/integrations/flotiq.md)
 * [Craft](university/craft.md)
 
 ## Contributing
