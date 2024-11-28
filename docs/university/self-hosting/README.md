@@ -68,7 +68,7 @@ You can optionally export your Webstudio Project as a static site, i.e., a colle
 
 While static site exporting and hosting are less technical, this comes at the cost of functionality.
 
-**The following are \_not s**\_**upported:**
+**The following are&#x20;**_**not**_**&#x20;supported:**
 
 * Dynamic pages
 * Redirects
