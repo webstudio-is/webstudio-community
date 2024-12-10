@@ -59,4 +59,6 @@ description: The list of keyboard shortcuts to build in Webstudio.
   * Design: `command + shift + d`
   * Content: `command + shift + c`
   * Preview: `command + shift + p`
+* Switch between current mode and Preview: `command + shift + c|d`
+  * For example, if you are in Design mode, you can press `command + shift + d` and it’ll toggle Preview. You can use the same shortcut to exit Preview.
 * Switch breakpoints: `numbers` (e.g., `1` switches to the first one)
