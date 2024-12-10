@@ -125,26 +125,24 @@ The Settings Panel is on the right side of your canvas. You can use this panel t
 
 ***
 
-## Preview Mode
+## Modes
 
-The Preview Mode allows you to review and interact with your website before making it live on the web.  This mode is great for quickly checking your website, especially without the editor interfering.
+[Modes](anatomy-of-the-webstudio-builder.md#modes) change the Builder’s behavior, such as previewing your site without distractions.
+
+<figure><img src="../../.gitbook/assets/modes.png" alt="mode switcher"><figcaption></figcaption></figure>
 
 ***
 
 ## Share Dialog
 
-The Share Dialog allows you to create a shareable personal link to your Project. You can set your link to have “View” or “Build” permissions depending on what level of access you wish to provide.
-
-If you set your shared custom link to “View” mode, anyone with the link can view your site and clone it, but any changes they make inside the builder will not be saved.
+The [Share Dialog](share-links.md) allows you to create shareable personal links to your Project with varying permissions.
 
 ***
 
 ## Publish Dialog
 
-The Publish Dialog enables you to add a custom domain, publish to Staging and/or your custom domain, and [export your Project](../self-hosting/).
+The [Publish Dialog](anatomy-of-the-webstudio-builder.md#publish-dialog) enables you to add a custom domain, publish to Staging and/or your custom domain, and [export your Project](../self-hosting/).
 
 {% hint style="info" %}
 Publishing currently takes around 45 seconds. During publishing, your Project is built into a JavaScript app and deployed to 300+ servers around the world.
 {% endhint %}
-
-To learn more, see [publishing on Webstudio](publishing-and-custom-domains.md).

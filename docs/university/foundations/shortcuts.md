@@ -55,5 +55,8 @@ description: The list of keyboard shortcuts to build in Webstudio.
 ## **Top Bar**
 
 * Open the current page's settings: `alt + click page`
-* Preview: `command + shift + p`
+* Switch [modes](modes.md)
+  * Design: `command + shift + d`
+  * Content: `command + shift + c`
+  * Preview: `command + shift + p`
 * Switch breakpoints: `numbers` (e.g., `1` switches to the first one)
