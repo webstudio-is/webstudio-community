@@ -39,11 +39,11 @@ description: The list of keyboard shortcuts to build in Webstudio.
 
 * Open Style Panel: `s`
 * Reset style: `alt + click`
-* Reset style for all corners: `shift + alt + click`
+* Reset style for all sides: `shift + alt + click`
 * Edit spacing on all sides (via drag): `shift + drag`
-* Edit spacing on all sides (via one input): `shift + click input`, add value, enter
+* Edit spacing on all sides (via one input): add value then `shift + enter`
 * Edit spacing on two sides (via drag): `alt + drag`
-* Edit spacing on two sides (via one input): `alt + click input`, add value, enter
+* Edit spacing on two sides (via one input): add value then `alt + enter`
 * Increment value by 10: `shift + up/down arrow`
 * Increment value by .1: `alt + up/down arrow`
 * View the computed CSS variable value in the tooltip: `hold alt`
