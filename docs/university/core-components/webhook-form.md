@@ -30,12 +30,12 @@ Pro feature: You can customize the recipient of the email notifications by going
 
 ### Webhooks
 
-You can optionally also send the form submission data to a Webhook – a URL provided by a third party that "catches" the data when submitted and performs some action(s), like adding the contact to an email automation platform.
+You can optionally also send the form submission data to a webhook – a URL provided by a third party that "catches" the data when submitted and performs some action(s), like adding the contact to an email automation platform.
 
 Sending data to a webhook is done in two steps:
 
 1. Obtain a webhook URL from a third-party platform such as [Airtable](../integrations/airtable-1.md).
-2. Paste the URL into the `Action` field found in Webhook Form > Settings.
+2. Paste the URL into the `Action` field found in webhook Form > Settings.
 
 Now, anytime the form is submitted, it will deliver the payload (the form submission fields and values) to the webhook.&#x20;
 
@@ -79,5 +79,9 @@ You can see the error message on your canvas by setting the Webhook Form Compone
 ***
 
 ## Form inputs
+
+You must provide a value for the name field on each input in order for the submission data to show in the notification email or webhook.
+
+<figure><img src="../../.gitbook/assets/form-name.png" alt="form input name"><figcaption></figcaption></figure>
 
 For information about all the inputs you can add to a form, such as checkboxes and radios, refer to [Form Inputs](form.md#form-inputs).
