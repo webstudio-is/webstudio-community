@@ -80,7 +80,11 @@ You can see the error message on your canvas by setting the Webhook Form Compone
 
 ## Form inputs
 
-You must provide a value for the name field on each input in order for the submission data to show in the notification email or webhook.
+{% hint style="warning" %}
+Inputs must have their `name` field filled out in order for the data to show up.
+{% endhint %}
+
+**You must provide a value for the `name` field on each input in order for the submission data to show in the notification email or webhook.**
 
 <figure><img src="../../.gitbook/assets/form-name.png" alt="form input name"><figcaption></figcaption></figure>
 
