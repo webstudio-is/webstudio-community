@@ -17,6 +17,8 @@ Create a Project with a page per section or page you want to make available.
 When creating sections, ensure there is one parent wrapper for the entire section, as only the first wrapper is inserted when sections are inserted. The Body and its styles are only inserted on pages, not sections.
 {% endhint %}
 
+We recommend creating templates using [Craft](../university/craft.md) — the standard for building with Webstudio. It contains a set of standards, CSS variables, and Tokens that make building websites fast, maintainable, and reusable. While Craft is not mandatory, it’s the recommended way to build in Webstudio. See [Craft](../university/craft.md) for more information.
+
 ### **2. Submit the Project**
 
 Navigate to Project Settings > Marketplace, fill out the required fields, select whether your Project includes pages, sections, or integrations, and submit it for review.

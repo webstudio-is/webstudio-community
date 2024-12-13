@@ -15,6 +15,8 @@ When building highly maintainable and scaleable websites, some conventions prove
 
 While Craft is not mandatory, it’s the recommended way to build in Webstudio.
 
+{% embed url="https://youtu.be/EeLoBZvlygI" %}
+
 Here are the standards and guidelines of Craft.
 
 ## CSS Variables
