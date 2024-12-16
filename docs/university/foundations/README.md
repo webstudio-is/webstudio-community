@@ -28,8 +28,8 @@
 [copy-paste](copy-paste/)
 {% endcontent-ref %}
 
-{% content-ref url="command-panel.md" %}
-[command-panel.md](command-panel.md)
+{% content-ref url="commands-and-search.md" %}
+[commands-and-search.md](commands-and-search.md)
 {% endcontent-ref %}
 
 {% content-ref url="seo-settings.md" %}

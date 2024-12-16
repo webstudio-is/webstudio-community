@@ -27,7 +27,7 @@
     * [↔️ CSS](university/foundations/copy-paste/css.md)
     * [↔️ Markdown](university/foundations/copy-paste/markdown.md)
     * [↔️ Webflow](university/foundations/copy-paste/webflow.md)
-  * [Command Panel](university/foundations/command-panel.md)
+  * [Commands & Search](university/foundations/commands-and-search.md)
   * [🎯 SEO Settings](university/foundations/seo-settings.md)
   * [Shortcuts](university/foundations/shortcuts.md)
   * [⚙️ Project Settings](university/foundations/project-settings.md)

@@ -1,15 +1,16 @@
 ---
-description: >-
-  Command Panel is a centralized place to navigate the builder and perform
-  actions such as switching pages and adding components — all with the keyboard.
 icon: arrow-turn-down-left
+description: >-
+  The Commands & Search Panel is a centralized place to navigate the builder and
+  perform actions such as switching pages and adding components — all with the
+  keyboard.
 ---
 
-# Command Panel
+# Commands & Search
 
-Command Panel speeds up the building process and introduces new shortcuts.
+Commands & Search Panel speeds up the building process and introduces new shortcuts.
 
-**Open Command Panel with ⌘ + K (Control + K for Windows).**
+**Open Commands & Search  with ⌘ + K (Control + K for Windows).**
 
 {% embed url="https://youtu.be/ofUP0Uc_ttY" %}
 

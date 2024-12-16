@@ -20,8 +20,8 @@ description: The list of keyboard shortcuts to build in Webstudio.
 * Undo: `⌘ + z`
 * Redo: `⌘ + shift + z`
 * Deselect/abort: `esc`
-* Open Command Panel: `⌘ + k`
-  * See [Command Panel](command-panel.md) to perform the following actions:
+* Open Commands & Search: `⌘ + k`
+  * See [Commands & Search](commands-and-search.md) to perform the following actions:
     * Unwrap
     * Wrap In Box
     * Wrap In Link
