@@ -8,9 +8,9 @@ description: >-
 
 # Commands & Search
 
-Commands & Search Panel speeds up the building process and introduces new shortcuts.
+Commands & Search speeds up the building process and introduces new shortcuts.
 
-**Open Commands & Search  with ⌘ + K (Control + K for Windows).**
+**Open Commands & Search with ⌘ + K (Control + K for Windows).**
 
 {% embed url="https://youtu.be/ofUP0Uc_ttY" %}
 
