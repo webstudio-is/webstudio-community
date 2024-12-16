@@ -52,4 +52,9 @@ Fine-tune SEO settings for each page through the 'Pages' tab:
 * **SEO Previews**: Visualize how your pages will display in search results and on social media.
 * **Exclude from Search Results**: Opt to hide (no index) specific pages from search engines. No indexing the content will also remove it from the sitemap.
 * **Social Sharing**: Set engaging images for social media sharing, complete with previews.
+
+{% hint style="info" %}
+The social image you add to your homepage will be used as the cover image for the project on the dashboard.
+{% endhint %}
+
 * **Custom Meta Tags**: Add additional Meta Tags your page for further search and social customization.
