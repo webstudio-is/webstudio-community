@@ -9,7 +9,7 @@ description: The list of keyboard shortcuts to build in Webstudio.
 
 ### Windows
 
-* Replace `command` (`⌘`) with `control` (`Ctrl`).
+* Replace `⌘` (`command`) with `control` (`Ctrl`).
 
 ### Mac
 
@@ -17,20 +17,25 @@ description: The list of keyboard shortcuts to build in Webstudio.
 
 ## **General**
 
-* Undo: `command + z`
-* Redo: `command + shift + z`
+* Undo: `⌘ + z`
+* Redo: `⌘ + shift + z`
 * Deselect/abort: `esc`
+* Open Command Panel: `⌘ + k`
+  * See [Command Panel](command-panel.md) to perform the following actions:
+    * Unwrap
+    * Wrap In Box
+    * Wrap In Link
 
 ## **Sidebar Left**
 
-* Copy: `command + c`
-* Cut: `command + x`
-* Paste: `command + v`
-* Duplicate: `command + d`
+* Copy: `⌘ + c`
+* Cut: `⌘ + x`
+* Paste: `⌘ + v`
+* Duplicate: `⌘ + d`
 * Open Navigator: `z`
 * Open Add Components: `a`
 * Edit Component: `enter`
-* Rename instance label: `command + e`
+* Rename instance label: `⌘ + e`
 * Expand Navigator item: `right arrow`
 * Collapse Navigator item: `left arrow`
 * Expand all Navigator item children: `alt + click`
@@ -56,9 +61,9 @@ description: The list of keyboard shortcuts to build in Webstudio.
 
 * Open the current page's settings: `alt + click page`
 * Switch [modes](modes.md)
-  * Design: `command + shift + d`
-  * Content: `command + shift + c`
-  * Preview: `command + shift + p`
-* Switch between current mode and Preview: `command + shift + c|d`
-  * For example, if you are in Design mode, you can press `command + shift + d` and it’ll toggle Preview. You can use the same shortcut to exit Preview.
+  * Design: `⌘ + shift + d`
+  * Content: `⌘ + shift + c`
+  * Preview: `⌘ + shift + p`
+* Switch between current mode and Preview: `⌘ + shift + c|d`
+  * For example, if you are in Design mode, you can press `⌘ + shift + d` and it’ll toggle Preview. You can use the same shortcut to exit Preview.
 * Switch breakpoints: `numbers` (e.g., `1` switches to the first one)

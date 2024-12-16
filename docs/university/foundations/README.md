@@ -28,6 +28,10 @@
 [copy-paste](copy-paste/)
 {% endcontent-ref %}
 
+{% content-ref url="command-panel.md" %}
+[command-panel.md](command-panel.md)
+{% endcontent-ref %}
+
 {% content-ref url="seo-settings.md" %}
 [seo-settings.md](seo-settings.md)
 {% endcontent-ref %}
@@ -38,6 +42,14 @@
 
 {% content-ref url="project-settings.md" %}
 [project-settings.md](project-settings.md)
+{% endcontent-ref %}
+
+{% content-ref url="modes.md" %}
+[modes.md](modes.md)
+{% endcontent-ref %}
+
+{% content-ref url="share-links.md" %}
+[share-links.md](share-links.md)
 {% endcontent-ref %}
 
 {% content-ref url="publishing-and-custom-domains.md" %}
