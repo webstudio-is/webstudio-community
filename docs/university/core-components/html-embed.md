@@ -87,3 +87,6 @@ Use an Immediately Invoked Function Expression (IIFE) to create a function scope
 </script>
 ```
 
+### Don't use DOMContentLoaded
+
+The **DOMContentLoaded** event won't fire during client-side navigation between pages because, technically, the page isn't reloaded. Use the same logic you intended to write inside that event handler, and if you need to wait for an element to be rendered first, place the embed after it.
