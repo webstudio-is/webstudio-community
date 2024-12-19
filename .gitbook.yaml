@@ -5,4 +5,4 @@ root: ./docs/
   summary: SUMMARY.md​
 
 redirects:
-  errors/domain-connection-issues-godaddy: university/foundations/publishing-and-custom-domains
+  errors/domain-connection-issues-godaddy: university/foundations/publishing-and-custom-domains.md
