@@ -11,41 +11,14 @@ If you want to contribute and don't know where to start, here is a step-by-step 
     In fact, we are happy to help communicating your ideas, so if you are not sure - talk to us on discord.
 4. When the implementation is in a mergeable state, a core team member will deploy it to production.
 
-### Running the Webstudio Project Using GitHub Codespaces
+## Running the Webstudio Project Using VS Code
 
-1. Open the Webstudio repository on GitHub:
-   * [Webstudio Repository](https://github.com/webstudio-is/webstudio)
-2. Click the green "Code" button.
-3. Select "Open with Codespaces".
-4. If you don't have a Codespace already, click "New codespace".
-   * The Webstudio project will now open in a Codespace with the development environment pre-configured.
-5. Wait for the setup to complete:
-   * The installation process will take some time as the environment is set up and dependencies are installed.
-   * This setup is defined by the `postCreateCommand` in the `.devcontainer` configuration.
-6. Run the development server:
-   * After the setup completes, open the terminal in Codespaces.
-   *   Run the following command:
-
-       ```sh
-       pnpm dev
-       ```
-   * If you don't see `Network: https://wstd.dev:5173/` when it's done, try executing the command once more.
-7.  Change the port protocol to HTTPS (Ports > Right Click > Change Port Protocol)
-
-
-
-    <figure><img src="../.gitbook/assets/protcol.png" alt=""><figcaption></figcaption></figure>
-8. Open the application in your browser
-   * Go to Ports and open the Forwarded Address
-
-### Running the Webstudio Project Using VS Code
-
-#### Prerequisites
+### Prerequisites
 
 * VS Code installed: [Download VS Code](https://code.visualstudio.com/Download)
 * Docker installed: [Install Docker](https://docs.docker.com/get-docker/)
 
-#### Steps
+### Steps
 
 1. Install the "Dev Containers" extension in VS Code:
    * Open VS Code.
@@ -84,13 +57,13 @@ If VS Code shows you an "Open Browser" button, it will lead you to the wrong URL
 <img src="../.gitbook/assets/vscode-dialog.png" alt="VS Code Open Browser Dialog" data-size="original">
 {% endhint %}
 
-### Running the Webstudio Project without Devcontainer
+## Running the Webstudio Project without Devcontainer
 
-#### Prerequisites
+### Prerequisites
 
 * Docker installed: [Install Docker](https://docs.docker.com/get-docker/)
 
-#### Steps
+### Steps
 
 1. Fork and clone the Webstudio repository:
    * Fork the repository on GitHub.
