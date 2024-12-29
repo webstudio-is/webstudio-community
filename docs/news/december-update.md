@@ -24,7 +24,7 @@ Just like you design other elements, you can design each block yourself and make
 
 ## 3. Search & Commands
 
-The [Commands & Search Panel](../university/foundations/commands-and-search.md) is a centralized place to navigate the builder and perform actions such as switching pages and adding components — all with the keyboard.
+The [Search & Commands](../university/foundations/commands-and-search.md) is a centralized place to navigate the builder and perform actions such as switching pages and adding components — all with the keyboard.
 
 {% embed url="https://www.youtube.com/watch?v=ofUP0Uc_ttY" %}
 
