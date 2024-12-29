@@ -6,9 +6,9 @@ description: A lot has happened in the last 3 months, let me give you some highl
 
 ## 1. Content Mode
 
-{% embed url="https://youtu.be/hzRy45vIViY" %}
-
 [Content Mode](../university/foundations/modes.md#content) allows you to share editing access with clients or content editors, protecting your designs from accidental changes while enabling editors to modify only the areas you specify.
+
+{% embed url="https://youtu.be/hzRy45vIViY" %}
 
 Here is what the editing experience looks like:
 
@@ -16,21 +16,19 @@ Here is what the editing experience looks like:
 
 ## 2. Content Block component - better than Rich Text
 
-{% embed url="https://x.com/getwebstudio/status/1871088660302471206" %}
-
 [Content Block](../university/core-components/content-block.md) is a component that enables authoring content with a Notion-like editing experience, where everything is accessible via a slash command by typing `/`. Content Block is more than just a rich text editor—it provides a way to add and remove components available for editing by adding instances to the Templates container within the Content Block. \
 \
 Just like you design other elements, you can design each block yourself and make it available to content editors. For example, you can design a "Card" and add it to the Templates. The content editor can then press the slash key, insert the "Card," and start editing it immediately.
 
-## 3. Search & Commands
+{% embed url="https://x.com/getwebstudio/status/1871088660302471206" %}
 
-{% embed url="https://www.youtube.com/watch?v=ofUP0Uc_ttY" %}
+## 3. Search & Commands
 
 The [Commands & Search Panel](../university/foundations/commands-and-search.md) is a centralized place to navigate the builder and perform actions such as switching pages and adding components — all with the keyboard.
 
-## 4. CSS Variables
+{% embed url="https://www.youtube.com/watch?v=ofUP0Uc_ttY" %}
 
-{% embed url="https://www.youtube.com/watch?v=NrU_9BZytQY" %}
+## 4. CSS Variables
 
 [CSS variables](../university/foundations/css-variables.md) enable you to build complex websites in a much more maintainable way. Our UX for CSS variables supports all the features developers know and love about CSS variables.
 
@@ -43,9 +41,9 @@ The [Commands & Search Panel](../university/foundations/commands-and-search.md) 
 
 Building with design systems gives a HUGE boost in speed, consistency, and maintainability.
 
-## 5. Craft - the standard for building with Webstudio.
+{% embed url="https://www.youtube.com/watch?v=NrU_9BZytQY" %}
 
-{% embed url="https://www.youtube.com/watch?v=EeLoBZvlygI" %}
+## 5. Craft - the standard for building with Webstudio.
 
 [Craft](../university/craft.md) is a new standard for building with Webstudio. It allows you to eliminate the learning curve when switching between Projects and structure your projects really well and consistently.
 
@@ -58,23 +56,25 @@ It contains:
 
 Craft makes building websites fast, flexible, and reusable.
 
-## 6. Modern Font Stacks
+{% embed url="https://www.youtube.com/watch?v=EeLoBZvlygI" %}
 
-{% embed url="https://www.youtube.com/watch?v=9E-qoNw1KD4" %}
+## 6. Modern Font Stacks
 
 Custom fonts are killing performance, but what can we do about it?
 
 There is a way - it's called [Modern Font Stacks](https://github.com/system-fonts/modern-font-stacks). No downloads, no layout shifts, no flashes — just instant renders.
 
-## 7. Publish to staging
+{% embed url="https://www.youtube.com/watch?v=9E-qoNw1KD4" %}
 
-{% embed url="https://x.com/getwebstudio/status/1840634055685029966" %}
+## 7. Publish to staging
 
 [Publish to the default subdomain](../university/foundations/publishing-and-custom-domains.md#publish-to-staging) or any custom domain and see a preview of the site that is 100% identical to production!
 
 * Test it on different devices
 * Share it with your team
 * Get approval from your client
+
+{% embed url="https://x.com/getwebstudio/status/1840634055685029966" %}
 
 ## 8. AI Support Hub
 

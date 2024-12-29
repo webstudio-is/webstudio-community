@@ -6,21 +6,17 @@ description: A lot has happened in the last 3 months, let me give you some highl
 
 ## 1. Paste from Webflow
 
-{% embed url="https://vimeo.com/984985222" %}
-
 We added the ability to copy elements in Webflow and paste them in Webstudio. Copying and pasting is a huge efficiency booster for any tool, especially in the coding world. We are trying to incorporate as much copy-pasting functionality into the builder as possible to speed up your workflows.\
 \
 Previously, you were able to copy and paste [Markdown](../university/foundations/copy-paste/markdown.md), copy and paste Webstudio instances between pages and projects, and now we've added the ability to [copy and paste from Webflow](../university/foundations/copy-paste/webflow.md) into Webstudio (there are some [limitations](../university/foundations/copy-paste/webflow.md#what-does-and-doesnt-transfer)).  See the [announcement on X](https://x.com/getwebstudio/status/1813282002503619009).
 
+{% embed url="https://vimeo.com/984985222" %}
+
 ## 2. Static Site Export
 
-{% embed url="https://www.youtube.com/watch?v=-ZIUpvoCXQU" %}
-Static Export
-{% endembed %}
+With [this update](https://x.com/getwebstudio/status/1820504786820903159), we made [self-hosting static sites](../university/self-hosting/#static-site) for free SUPER EASY.
 
 Webstudio is more than a static site builder, its for dynamic, data-driven sites and apps, but you can still build great static sites with it and we made it possible to export a static site.&#x20;
-
-With [this update](https://x.com/getwebstudio/status/1820504786820903159), we made [self-hosting static sites](../university/self-hosting/#static-site) for free SUPER EASY.
 
 * One-click download
 * Human-readable classes – Host anywhere (Vercel, Netlify, Cloudflare Pages, GitHub Pages, etc.)
@@ -29,11 +25,11 @@ With [this update](https://x.com/getwebstudio/status/1820504786820903159), we ma
 
 You can also use the [CLI](../university/self-hosting/cli.md) to build a static site.
 
+{% embed url="https://www.youtube.com/watch?v=-ZIUpvoCXQU" %}
+Static Export
+{% endembed %}
+
 ## 3. Components search & new keyboard shortcuts
-
-{% embed url="https://x.com/getwebstudio/status/1826284832478896270" %}
-
-<figure><img src="../.gitbook/assets/image (7).png" alt="search box on components"><figcaption><p>Components Search</p></figcaption></figure>
 
 Now you can quickly access components from the keyboard and insert them. \
 \
@@ -44,15 +40,19 @@ Now you can quickly access components from the keyboard and insert them. \
 \
 Read about all [available shortcuts](../university/foundations/shortcuts.md).
 
+{% embed url="https://x.com/getwebstudio/status/1826284832478896270" %}
+
+<figure><img src="../.gitbook/assets/image (7).png" alt="search box on components"><figcaption><p>Components Search</p></figcaption></figure>
+
 ## 4. Image transformations for 3rd party URLs
 
 With this update, you can use a remote image URL with the [Image component](../university/core-components/image.md), for example when working with APIs, and it will be transformed on the fly to an optimal format (e.g., WebP or AVIF) and rendered responsively depending on the viewport size.
 
 ## 5. Markdown Embed Component
 
-{% embed url="https://www.youtube.com/watch?v=wTpDo4ieFYs" %}
-
 With [this update](https://x.com/getwebstudio/status/1822270103452319872), we added a "[Markdown Embed](../university/core-components/markdown-embed.md)" component. Now you can render and style Markdown—whether it's written directly in Webstudio or fetched from any CMS. It is 100% server-side, SEO friendly!
+
+{% embed url="https://www.youtube.com/watch?v=wTpDo4ieFYs" %}
 
 ## 6. Headless CMS finder
 
@@ -64,9 +64,9 @@ CMS Finder launch
 
 ## 7. CSS Transforms
 
-{% embed url="https://youtu.be/AypQNEU3tlM" %}
-
 These enable you to rotate, skew, translate, and apply other effects to your designs – all without writing code.
+
+{% embed url="https://youtu.be/AypQNEU3tlM" %}
 
 ## 45 other features
 
