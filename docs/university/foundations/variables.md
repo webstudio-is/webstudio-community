@@ -8,8 +8,6 @@ description: Data Variables enable the definition and use of a value throughout 
 **Hint:** [CSS Variables](css-variables.md) are different than Data Variables. They enable the reuse of values in the Style Panel.
 {% endhint %}
 
-
-
 Data Variables are defined on any instance in the navigator such as Body or Heading. Variables can be found on the right panel in the settings tab.
 
 <figure><img src="../../.gitbook/assets/webstudio-variables.png" alt="Variables in the builder" width="375"><figcaption></figcaption></figure>
@@ -60,7 +58,9 @@ Shortcut: The URL field supports pasting in a cURL command. Doing so will automa
 
 * URL – Where the resource is located.
 * Method – A [request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods). Refer to the third-party API docs to find the suitable method.
-* Headers – Key/value pairs such `Content-Type application/json`. Refer to [Request Headers](https://developer.mozilla.org/en-US/docs/Glossary/Request\_header) for more info.
+* Headers – Key/value pairs such `Content-Type application/json`. Refer to [Request Headers](https://developer.mozilla.org/en-US/docs/Glossary/Request_header) for more info.
+
+{% include "../../.gitbook/includes/the-requests-including-any....md" %}
 
 #### Response
 
@@ -89,6 +89,8 @@ The are several fields available to configure the fetch request.
 * **URL** – Where the resource is located.
 * **Query** – A GraphQL query.
 * **Variables** – A JavaScript object containing variables that will be passed into the request. This is commonly used to pass in parameters in a URL within a Dynamic Page. For example `{ slug: system.params.slug }` See [System Variable](variables.md#system) for more info.
+
+{% include "../../.gitbook/includes/the-requests-including-any....md" %}
 
 ### System Resource
 
