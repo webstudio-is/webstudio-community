@@ -45,6 +45,7 @@
   * [✍️ Form](university/core-components/form.md)
   * [⏯️ Vimeo](university/core-components/vimeo.md)
   * [▶️ Vimeo Background Video](university/core-components/vimeo-background-video.md)
+  * [YouTube](university/core-components/youtube.md)
   * [💬 Blockquote](university/core-components/blockquote.md)
   * [🔲 Slot](university/core-components/slot.md)
   * [➖ Separator](university/core-components/separator.md.md)
