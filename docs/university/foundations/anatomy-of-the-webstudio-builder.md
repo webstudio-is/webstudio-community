@@ -96,7 +96,7 @@ The Style Panel is located to the right of the canvas, and you can use it to cus
 
 There are three methods for adding styles:
 
-1.  Local - By default, the Local icon is active, meaning any styles you apply to that instance are for that instance only.
+1.  Local - By default, the Local icon is active, meaning any styles you apply to that instance are for that instance only. The dot in the middle of the Local icon indicates that it has styles, whereas no dot indicates that there are no styles applied, making it easy to identify which ones have styles applied.
 
     <img src="../../.gitbook/assets/local.png" alt="Local style source" data-size="original">
 2. [CSS Variables](css-variables.md) - Instead of pasting in your colors, sizes, and other styles, you can create a variable for each style and access the variables in each input field. For example, you can define a variable called "color-primary," and in your border color field, you can enter the variable name instead of the color itself.
