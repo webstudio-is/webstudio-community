@@ -96,4 +96,4 @@ The are several fields available to configure the fetch request.
 
 A System Resource variable gets its value from internal data.
 
-For example, there is a Sitemap inside the System Reousrcep. It contains the data about the static pages on the website, which is commonly used to build a custom sitemap that combines dynamic data with static data. Refer to the [XML Node component](../core-components/xml-node.md#including-the-static-sitemap) for more info.
+For example, there is a Sitemap inside the System Resource. It contains the data about the static pages on the website, which is commonly used to build a custom sitemap that combines dynamic data with static data. Refer to the [XML Node component](../core-components/xml-node.md#including-the-static-sitemap) for more info.
