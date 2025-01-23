@@ -48,6 +48,7 @@
   * [YouTube](university/core-components/youtube.md)
   * [💬 Blockquote](university/core-components/blockquote.md)
   * [🔲 Slot](university/core-components/slot.md)
+  * [Head Slot](university/core-components/head-slot.md)
   * [➖ Separator](university/core-components/separator.md.md)
   * [📄 Code Text](university/core-components/code-text.md.md)
   * [🔘 Button](university/core-components/button.md.md)

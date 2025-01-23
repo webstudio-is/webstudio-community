@@ -48,6 +48,10 @@
 [slot.md](slot.md)
 {% endcontent-ref %}
 
+{% content-ref url="head-slot.md" %}
+[head-slot.md](head-slot.md)
+{% endcontent-ref %}
+
 {% content-ref url="separator.md.md" %}
 [separator.md.md](separator.md.md)
 {% endcontent-ref %}
