@@ -1,9 +1,9 @@
 ---
+icon: box-archive
 description: >-
   Head Slot is a component that enables visually customizing the <head> on a
   per-page basis. It’s useful for setting canonical URLs, alternate links, and
   more.
-icon: box-archive
 ---
 
 # Head Slot
@@ -14,8 +14,8 @@ icon: box-archive
 
 ## Key information
 
-* Even though the Head Slot is visually in the Body instance, the contents of Head Slot are added to the `<head>`. This hierarchy enables the use of [Data Variables](../foundations/variables.md) defined on the Body to be used in the head.
-* If Head Slot and Page Settings define the same data, such as meta title, Head Slot will take priority. Similarly, a default canonical is output on every page and references the current path. By specifying a canonical in Head Slot, the default canonical will not be displayed on that page.
+* Even though the Head Slot is visually in the Body instance, the contents of Head Slot are added to the `<head>`. This hierarchy enables [Data Variables](../foundations/variables.md) defined on the Body to be used in the head.
+* If Head Slot and Page Settings define the same data, such as meta title, Head Slot will take priority. Similarly, a default canonical is output on every page and references the current path. By specifying a canonical in Head Slot, the default canonical will not be displayed on the page.
 * Head Slot comes with an instance for Title, Link, and Meta. These can be duplicated. If you remove them and later need to add them back, you can copy them from a new Head Slot instance.
 
 ## Third Party Documentation
