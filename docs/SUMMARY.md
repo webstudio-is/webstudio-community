@@ -78,6 +78,7 @@
   * [▶️ GitHub Pages](university/self-hosting/github-pages.md)
   * [▶️ Netlify](university/self-hosting/netlify.md)
   * [▶️ Vercel](university/self-hosting/vercel.md)
+  * [▶️ Flightcontrol using Docker](university/self-hosting/flightcontrol.md)
 * [🧑‍🏫 How-Tos](university/how-tos/README.md)
   * [▶️ How to add icons](university/how-tos/how-to-add-icons.md)
   * [▶️ How to create fluid video backgrounds with Vimeo](university/how-tos/how-to-create-fluid-video-backgrounds-with-vimeo.md)

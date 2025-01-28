@@ -50,7 +50,15 @@ JavaScript applications require a hosting environment that handles server-side c
 
 #### Platforms for JavaScript applications
 
-Here are the platforms we have documented:
+Here are the platforms we have documented.
+
+**Serverless:**
+
+Serverless platforms enable you to push code, and they handle the rest, from infrastructure to scaling.
+
+{% hint style="info" %}
+This self-hosting option is the easiest to use, though there is less flexibility in platform choice.
+{% endhint %}
 
 {% content-ref url="netlify.md" %}
 [netlify.md](netlify.md)
@@ -58,6 +66,18 @@ Here are the platforms we have documented:
 
 {% content-ref url="vercel.md" %}
 [vercel.md](vercel.md)
+{% endcontent-ref %}
+
+**Servers:**
+
+Webstudio provides a Dockerfile, which enables your site to run on any server that supports containers.
+
+{% hint style="info" %}
+This self-hosting option is more technical compared to others, but it offers a higher degree of flexibility regarding its deployment location.
+{% endhint %}
+
+{% content-ref url="flightcontrol.md" %}
+[flightcontrol.md](flightcontrol.md)
 {% endcontent-ref %}
 
 #### **Static site**
