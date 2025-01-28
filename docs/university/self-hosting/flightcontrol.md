@@ -34,7 +34,7 @@ Use the [CLI](cli.md) to export your Project and select the “Docker” option.
 Now that the site code is local, push it to GitHub.
 
 {% hint style="info" %}
-You do not need to build the app locally.
+You do not need to install dependencies.
 {% endhint %}
 
 ## 4. Setup Flightcontrol
@@ -55,9 +55,14 @@ You do not need to build the app locally.
 
     ![Adding third party domains to flightcontrol](../../.gitbook/assets/third-party-images-flight-control.png)
 
-## 5. Sync and push new changes
+## 5. Sync, Build, and push new changes
 
-When you make changes to your Webstudio Project, click publish, run `webstudio sync,` and push the changes to GitHub. This will trigger Flightcontrol to deploy the latest changes.
+When you are ready to publish your latest changes again, follow these steps:
+
+1. Click “Publish” in the builder (even though you aren’t publishing to the cloud, it’s necessary to generate the latest build data).
+2. Run `webstudio sync`
+3. Run `webstudio build --template docker`
+4. Push the changes to GitHub
 
 <figure><img src="../../.gitbook/assets/webstudio-sync.png" alt="webstudio sync command"><figcaption></figcaption></figure>
 
