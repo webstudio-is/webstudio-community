@@ -51,6 +51,9 @@ You do not need to build the app locally.
 4.  Deploy and wait. The initial deployment takes some time. Please allow up to  \~15 minutes for the deployment to finish.
 
     ![Deployed app](../../.gitbook/assets/flightcontrol-done.png)
+5.  (Optional) If you are loading images from third-party domains, usually in the case of [CMS integrations](../foundations/cms.md), you must specify those asset domains in the Environment Variables tab with the key `DOMAINS` and a comma-separated list of the third-party domains. It’s best to inspect your HTML/API response to see the exact domain the platform is using.
+
+    ![Adding third party domains to flightcontrol](../../.gitbook/assets/third-party-images-flight-control.png)
 
 ## 5. Sync and push new changes
 
