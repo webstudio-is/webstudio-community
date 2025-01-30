@@ -45,9 +45,9 @@ You do not need to install dependencies.
 2.  Connect your GitHub account and select the repository you want to give it permission to.
 
     ![connect GitHub button](../../.gitbook/assets/connect-github.PNG)
-3.  Follow the prompts > select “Build your own” > select "Web server" > and use the default settings.
+3.  Follow the prompts: Select "Build your own" > Select "Web server" > and select "Dockerfile" in "Build Configuration".
 
-    ![build your own option](../../.gitbook/assets/buildown.PNG)
+    ![build your own option](../../.gitbook/assets/buildown.PNG)![build config dockerfile](../../.gitbook/assets/build-config.png)
 4.  Deploy and wait. The initial deployment takes some time. Please allow up to  \~15 minutes for the deployment to finish.
 
     ![Deployed app](../../.gitbook/assets/flightcontrol-done.png)
