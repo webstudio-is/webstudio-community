@@ -19,7 +19,7 @@ Most commonly used with [Resources](variables.md#resource), Expression Editor ha
 Hint: Expand Expression Editor to work within a larger window.
 {% endhint %}
 
-### Binding
+## Binding
 
 Binding is when you “connect” or “map” various values to fields within Webstudio. For example, when creating a Dynamic Page for a blog, only one page exists in Webstudio, but the values within that page dynamically change based on the URL viewed. The dynamic aspect is enabled by _binding_ the various CMS fields to Webstudio components.
 
@@ -42,12 +42,56 @@ If you wanted to bind the title of the post to a header component, you need to d
 
 For the image URL, you would type `CMS Data.image.url` .
 
-### Expressions
+## Expressions
 
 Expression Editor supports a simple subset of JavaScript, giving users a simple syntax without the footguns a complex programming language brings.
 
 The following JavaScript expressions are supported:
 
-* [Ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional\_operator) – Useful for conditions such as “If the image is in my CMS, display it, otherwise hide it.” The actual expression for this would look something like `CMS Data.image ? true : false` and be bound to the “Show” field.
-* [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template\_literals) – Useful for inserting dynamic values inside templated text. For example, if you wanted to have “Updated On \<insert dynamic data>”, it would look like `` `Updated On ${CMS Data.updatedOn}` ``. Note the Expression starts and ends with backticks, and the dynamic values are within `${}`.
-* [Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions\_and\_Operators) – Useful for concatenating two values (alternative solution to template literals). For example, `"Updated on " + CMS Data.updatedOn`.
+* [Ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) – Useful for conditions such as “If the image is in my CMS, display it, otherwise hide it.” The actual expression for this would look something like `CMS Data.image ? true : false` and be bound to the “Show” field.
+* [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) – Useful for inserting dynamic values inside templated text. For example, if you wanted to have “Updated On \<insert dynamic data>”, it would look like `` `Updated On ${CMS Data.updatedOn}` ``. Note the Expression starts and ends with backticks, and the dynamic values are within `${}`.
+* [Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators) – Useful for concatenating two values (alternative solution to template literals). For example, `"Updated on " + CMS Data.updatedOn`.
+
+## Example Expressions
+
+### Schema
+
+You can create a schema and bind your [CMS](cms.md) data to it. The schema can go in the head or body. Add an [HTML Embed](../core-components/html-embed.md), create a binding, and use the following expression. Be sure to change out the schema type and variables with your data.
+
+```javascript
+`<script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "${YOUR.CMS.TITLE}",
+  "image": [
+    "${YOUR.CMS.LOGO_URL}"
+  ],
+  "datePublished": "${YOUR.CMS.PUBLISHED_DATE}",
+  "dateModified": "${YOUR.CMS.MODIFIED_DATE}",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "${YOUR.CMS.AUTHOR_NAME}",
+      "url": "${YOUR.CMS.AUTHOR_URL}"
+    }
+  ]
+}
+</script>`
+```
+
+### Conditional Collection Items
+
+Sometimes we need to conditionally hide some records in a [Collection](../core-components/collection.md.md) based on some context. For example, below a blog post we can have related blog posts, but we wouldn’t want to show the _current_ blog post in there. To do so, create an expression on the Show property in Settings.
+
+We need to turn this statement into code: “If the current page’s slug is the same as the current collection’s slug, then don’t show this post.”
+
+Here is the expression. Be sure to modify it with your variables.
+
+```javascript
+system.params.slug === collectionItem.slug ? false : true
+```
+
+Again, be sure to change `slug` to your dynamic path parameter and `collectionItem.slug` to your Collection variable and its data.
+
+This expression will now show “false” meaning “turn this off” if the related blog post is actually the same as the current blog post.
