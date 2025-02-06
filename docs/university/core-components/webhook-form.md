@@ -7,85 +7,94 @@ description: >-
 # ✍️ Webhook Form
 
 {% hint style="info" %}
-**Name change:** Webhook Hooks forms used to be called Forms, however, [Forms](form.md) are now a different Component intended for building searches and filters.
+**Name change:** Webhook Forms used to be called "Forms." However, [Forms](form.md) are now a different component intended for building searches and filters.
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=eE-CkewQHMs" %}
 
-***
+---
 
 ## Receiving Form Submissions
 
-Webhook Forms are used when the form submission data needs to get sent somewhere else (as opposed to a form that modifies page content like searches and filters).
+Webhook Forms are used when you need to send form submission data to an external service, rather than modifying page content like searches and filters.
 
-### Email
+### Email Notifications
 
 By default, submissions are sent to the Project owner.
 
 {% hint style="info" %}
-Pro feature: You can customize the recipient of the email notifications by going to Project Settings > General.
+**Pro feature:** You can customize the recipient of email notifications by navigating to **Project Settings > General**.
 
-![field to customize the recipient of the form submissions](../../.gitbook/assets/form-recipient.png)
+![Field to customize the recipient of the form submissions](../../.gitbook/assets/form-recipient.png)
 {% endhint %}
 
 ### Webhooks
 
-You can optionally also send the form submission data to a webhook – a URL provided by a third party that "catches" the data when submitted and performs some action(s), like adding the contact to an email automation platform.
+You can also send form submission data to a webhook—an external URL that receives the data and triggers an action, such as adding a contact to an email automation platform.
 
-Sending data to a webhook is done in two steps:
+#### How to Send Form Data to a Webhook
 
-1. Obtain a webhook URL from a third-party platform such as [Airtable](../integrations/airtable-1.md).
-2. Paste the URL into the `Action` field found in webhook Form > Settings.
+1. Obtain a webhook URL from a third-party platform such as [Airtable](../integrations/airtable-1.md), [Beeceptor](https://beeceptor.com/), or [Request Inspector](https://requestinspector.com/).
+2. Paste the URL into the `Action` field in **Webhook Form > Settings**.
 
-Now, anytime the form is submitted, it will deliver the payload (the form submission fields and values) to the webhook.&#x20;
+Once set up, every form submission will send a payload (form fields and values) to the webhook URL.
 
-***
+#### Testing Webhooks
 
-## How to use the Webhook Form Component
+Before integrating with a production service, you can test webhook submissions using tools like:
 
-You can add a Webhook Form Component to your canvas from the Components Panel > Data section.
+- **[Beeceptor](https://beeceptor.com/)** – Create a test endpoint to inspect requests in real time.
+- **[Request Inspector](https://requestinspector.com/)** – Monitor HTTP requests and debug form submissions.
+
+---
+
+## Using the Webhook Form Component
+
+You can add a Webhook Form Component to your canvas from **Components Panel > Data section**.
 
 {% hint style="warning" %}
 Webhook Forms do not submit inside the Builder, including in Preview. They only submit on the published site.
 {% endhint %}
 
-Inside the Webhook Form, you will find three nested instances:
+### Webhook Form Structure
 
-1. Form Content
-2. Success Message
-3. Error Message&#x20;
+A Webhook Form consists of three nested instances:
 
-While you can always [add new Components](form.md#form-inputs) to further expand and modify your form, these instances make up the default look.
+1. **Form Content** – The primary form fields.
+2. **Success Message** – Displayed upon successful submission.
+3. **Error Message** – Shown when an error occurs.
+
+You can [add new Components](form.md#form-inputs) to further expand and modify your form.
 
 ### Form States
 
-The Webhook Form will automatically display a success message or error message.
+Webhook Forms automatically switch between states based on submission results.
 
 #### Success Message
 
-If a form is submitted without any errors, the site visitor will be greeted with a success message. Here is how you can see and edit the “Success Message” for your form.
+When a submission is successful, users will see a success message. To customize it:
 
-1. Start by selecting the main “Form” Instance and going over to “Settings”.
-2. Here you will see that the “State” of your form is set to “Initial” by default. To view and edit your success message, set the state to “Success.”
-
-Now you should see the default “Success Message” on your canvas instead of the “Form Content.” To edit your message, double-click it and type away!
+1. Select the main "Form" instance and go to **Settings**.
+2. Change the **State** from "Initial" to "Success."
+3. Edit the success message directly on the canvas.
 
 #### Error Message
 
-If a form submission faces any errors, the site visitor will see an error message. The process for viewing and editing the “Error Message” is the same as the one for success messages.
+If there’s an error during submission, users will see an error message. To modify it:
 
-You can see the error message on your canvas by setting the Webhook Form Component’s state to “Error.”
+1. Select the Webhook Form Component.
+2. Set the **State** to "Error" to preview and edit the error message.
 
-***
+---
 
-## Form inputs
+## Form Inputs
 
 {% hint style="warning" %}
-Inputs must have their `name` field filled out in order for the data to show up.
+Each input field must have a `name` attribute for its data to appear in email notifications and webhook payloads.
 {% endhint %}
 
-**You must provide a value for the `name` field on each input in order for the submission data to show in the notification email or webhook.**
+Ensure every form input has a value for the `name` field to be included in submissions.
 
-<figure><img src="../../.gitbook/assets/form-name.png" alt="form input name"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/form-name.png" alt="Form input name"><figcaption></figcaption></figure>
 
-For information about all the inputs you can add to a form, such as checkboxes and radios, refer to [Form Inputs](form.md#form-inputs).
+For a full list of input types, including checkboxes and radio buttons, refer to [Form Inputs](form.md#form-inputs).
