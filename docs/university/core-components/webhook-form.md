@@ -12,8 +12,6 @@ description: >-
 
 {% embed url="https://www.youtube.com/watch?v=eE-CkewQHMs" %}
 
----
-
 ## Receiving Form Submissions
 
 Webhook Forms are used when you need to send form submission data to an external service, rather than modifying page content like searches and filters.
@@ -32,21 +30,10 @@ By default, submissions are sent to the Project owner.
 
 You can also send form submission data to a webhook—an external URL that receives the data and triggers an action, such as adding a contact to an email automation platform.
 
-#### How to Send Form Data to a Webhook
-
-1. Obtain a webhook URL from a third-party platform such as [Airtable](../integrations/airtable-1.md), [Beeceptor](https://beeceptor.com/), or [Request Inspector](https://requestinspector.com/).
+1. Obtain a webhook URL from a third-party platform such as [Airtable](../integrations/airtable-1.md).
 2. Paste the URL into the `Action` field in **Webhook Form > Settings**.
 
 Once set up, every form submission will send a payload (form fields and values) to the webhook URL.
-
-#### Testing Webhooks
-
-Before integrating with a production service, you can test webhook submissions using tools like:
-
-- **[Beeceptor](https://beeceptor.com/)** – Create a test endpoint to inspect requests in real time.
-- **[Request Inspector](https://requestinspector.com/)** – Monitor HTTP requests and debug form submissions.
-
----
 
 ## Using the Webhook Form Component
 
@@ -84,8 +71,6 @@ If there’s an error during submission, users will see an error message. To mod
 
 1. Select the Webhook Form Component.
 2. Set the **State** to "Error" to preview and edit the error message.
-
----
 
 ## Form Inputs
 
