@@ -1,6 +1,6 @@
 ---
 description: >-
-  Webhook Hook Forms enable form submissions to get sent to an email address and
+  Webhook Forms enable form submissions to get sent to an email address and
   optionally third-party services like Airtable, n8n, or Zapier.
 ---
 
@@ -23,7 +23,7 @@ By default, submissions are sent to the Project owner.
 {% hint style="info" %}
 **Pro feature:** You can customize the recipient of email notifications by navigating to **Project Settings > General**.
 
-![Field to customize the recipient of the form submissions](../../.gitbook/assets/form-recipient.png)
+<img src="../../.gitbook/assets/form-recipient.png" alt="Field to customize the recipient of the form submissions" data-size="original">
 {% endhint %}
 
 ### Webhooks
