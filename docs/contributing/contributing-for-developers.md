@@ -57,42 +57,7 @@ If VS Code shows you an "Open Browser" button, it will lead you to the wrong URL
 <img src="../.gitbook/assets/vscode-dialog.png" alt="VS Code Open Browser Dialog" data-size="original">
 {% endhint %}
 
-## Running the Webstudio Project without Devcontainer
 
-### Prerequisites
-
-* Docker installed: [Install Docker](https://docs.docker.com/get-docker/)
-
-### Steps
-
-1. Fork and clone the Webstudio repository:
-   * Fork the repository on GitHub.
-   * Clone your forked repository to your local machine.
-2.  Navigate to the project directory:
-
-    ```bash
-    corepack enable
-    pnpm install
-    pnpm build
-    ```
-3.  Set up the PostgreSQL database:
-
-    * Navigate to the .devcontainer folder and execute the SQL setup with Docker Compose:
-
-    ```bash
-    docker compose  up -d
-    ```
-
-    * Go to the project root directory and run the following command to create the database schema:
-
-    ```bash
-    pnpm migrations migrate
-    ```
-4.  Start the development server:
-
-    ```bash
-    pnpm dev
-    ```
 
 ## Login locally
 
