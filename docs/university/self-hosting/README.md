@@ -76,6 +76,10 @@ Webstudio provides a Dockerfile, which enables your site to run on any server th
 This self-hosting option is more technical compared to others, but it offers a higher degree of flexibility regarding its deployment location.
 {% endhint %}
 
+{% hint style="warning" %}
+The Docker build requires a _minimum_ of 1 GB of memory and 1 core CPU, though more is recommended.
+{% endhint %}
+
 {% content-ref url="flightcontrol.md" %}
 [flightcontrol.md](flightcontrol.md)
 {% endcontent-ref %}
