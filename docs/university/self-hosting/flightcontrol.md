@@ -2,13 +2,15 @@
 description: How to deploy your Website Project to Flightcontrol using the Docker template.
 ---
 
-# ▶️ Flightcontrol using Docker
+# ▶️ AWS with Flightcontrol (Docker)
 
 In this tutorial, you will learn how to export your Webstudio Project and use [Flightcontrol](https://www.flightcontrol.dev) to deploy it to [AWS](https://aws.amazon.com).
 
 {% hint style="info" %}
 Flightcontrol is a PaaS that deploys to your AWS account, enabling you to leverage the power and cost of AWS without the complexity.
 {% endhint %}
+
+{% embed url="https://youtu.be/_YpTBvARxic" %}
 
 ## Prerequisites
 

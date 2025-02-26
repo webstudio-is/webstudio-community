@@ -84,6 +84,14 @@ The Docker build requires a _minimum_ of 1 GB of memory and 1 core CPU, though m
 [flightcontrol.md](flightcontrol.md)
 {% endcontent-ref %}
 
+{% content-ref url="digital-ocean-coolify.md" %}
+[digital-ocean-coolify.md](digital-ocean-coolify.md)
+{% endcontent-ref %}
+
+{% content-ref url="hetzner-coolify.md" %}
+[hetzner-coolify.md](hetzner-coolify.md)
+{% endcontent-ref %}
+
 #### **Static site**
 
 You can optionally export your Webstudio Project as a static site, i.e., a collection of HTML, CSS, JavaScript, and image files. This allows you to host your site on traditional hosting providers or, better yet, on dedicated static site hosting and deployment platforms.
