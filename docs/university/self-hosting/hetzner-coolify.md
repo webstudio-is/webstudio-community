@@ -1,5 +1,5 @@
 ---
-description: How to deploy your Website Project to Hetzner using Coolify.
+description: How to deploy your Webstudio Project to Hetzner using Coolify.
 ---
 
 # ▶️ Hetzner with Coolify (Docker)
