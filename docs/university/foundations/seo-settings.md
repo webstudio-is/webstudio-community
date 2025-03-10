@@ -17,6 +17,8 @@ description: Webstudio provides comprehensive SEO features.
 * Sitemap
 * Custom sitemap
 * No index
+* Default canonical with the ability to [customize it](../core-components/head-slot.md)
+* Customizable head (global and [per page](../core-components/head-slot.md))
 * Auto exclude no index from sitemap
 * Robots.txt
 * SSL
@@ -40,7 +42,7 @@ In '[Project Settings](project-settings.md)' under the Webstudio menu, you'll fi
 
 * **Site Name**: Used to output WebSite structured data to clearly define your website's identity.
 * **Favicon**: Output your logo in search engines, browser tabs, and more.
-* **Custom Header Code**: Global field to output scripts in the head.
+* **Custom Header Code**: Global field to output scripts in the head. For modifying the head on a per-page basis, see [Head Slot](../core-components/head-slot.md).
 
 These settings ensure uniformity and brand coherence across all pages of your website.
 
@@ -58,3 +60,4 @@ The social image you add to your homepage will be used as the cover image for th
 {% endhint %}
 
 * **Custom Meta Tags**: Add additional Meta Tags your page for further search and social customization.
+* **Custom Head**: Visually customize the head on a per-page basis with [Head Slot](../core-components/head-slot.md).

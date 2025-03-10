@@ -136,3 +136,13 @@ Avoid abbreviations unless otherwise noted. Universal clarity is a priority, and
 
 * 1 instance = 1 purpose
 * Start the code with a comment about its purpose
+
+## Changelog
+
+### 1.1
+
+* Added `—spacing-default`. Common use cases include left/right padding on containers and card padding. Improves consistency within the site and enables marketplace sections to adapt to our default spacing rather than introducing random spacing that deviates from the preferred.
+
+### 1.0
+
+* Release\
