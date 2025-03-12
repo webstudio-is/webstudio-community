@@ -10,7 +10,15 @@ description: >-
 
 Slots enable you to create reusable sections on your site. Changes made to one instance of the Slot will automatically change all other instances.
 
+{% hint style="info" %}
+Slots and their children will appear purple in the navigator and canvas to indicate they are Slots, and any changes made to them will affect all other instances of the Slot.
+{% endhint %}
+
 Slots are most commonly used to create reusable navigations and footers, though they are helpful for any sections you want to reuse throughout your site.
+
+{% hint style="info" %}
+Data Variables defined on the Global Root are accessible within Slots, while those defined on other instances outside the Slot are not.
+{% endhint %}
 
 ***
 
@@ -20,7 +28,7 @@ Here is the process for creating and reusing Slot instances:
 
 #### Creating a Slot instance
 
-&#x20;![create a slot in Webstudio](../../.gitbook/assets/university/Slots\_Image.avif)
+&#x20;![create a slot in Webstudio](../../.gitbook/assets/university/Slots_Image.avif)
 
 1. You can find the Slots component in the “Components Panel.”
 2. Drag “Slot” from the Components Panel onto your canvas to create a Slot instance. Alternatively, you can add it to the currently selected instance with a click.

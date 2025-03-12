@@ -52,7 +52,7 @@ The following JavaScript expressions are supported:
 * [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) – Useful for inserting dynamic values inside templated text. For example, if you wanted to have “Updated On \<insert dynamic data>”, it would look like `` `Updated On ${CMS Data.updatedOn}` ``. Note the Expression starts and ends with backticks, and the dynamic values are within `${}`.
 * [Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators) – Useful for concatenating two values (alternative solution to template literals). For example, `"Updated on " + CMS Data.updatedOn`.
 
-## Example Expressions
+## Example expressions
 
 ### Schema
 
@@ -80,7 +80,7 @@ You can create a schema and bind your [CMS](cms.md) data to it. The schema can g
 </script>`
 ```
 
-### Conditional Collection Items
+### Conditional collection items
 
 Sometimes we need to conditionally hide some records in a [Collection](../core-components/collection.md.md) based on some context. For example, below a blog post we can have related blog posts, but we wouldn’t want to show the _current_ blog post in there. To do so, create an expression on the Show property in Settings.
 
@@ -95,3 +95,23 @@ system.params.slug === collectionItem.slug ? false : true
 Again, be sure to change `slug` to your dynamic path parameter and `collectionItem.slug` to your Collection variable and its data.
 
 This expression will now show “false” meaning “turn this off” if the related blog post is actually the same as the current blog post.
+
+### 404 status code
+
+When working with a dynamic page, how do we determine if the page should return `404` (not found) or `200` (found/success)?
+
+After all, the content on the page is dependent on the response from the [Resource](variables.md#resource).
+
+Therefore, we need to tell the page to return `404` when the Resource doesn’t return any data.
+
+To do so, go to the Page Settings > Status Code > and bind an expression to it. The goal is to look for some piece of data in the response and if it’s not there, output `404`.
+
+```javascript
+cmsData.data[0].id ? 200 : 404
+```
+
+This example looks for the ID of a record. If it’s there, output `200` (we found something!) otherwise nothing was found therefore `404`.
+
+{% hint style="info" %}
+The exact key to look for will depend on your CMS, but think of something that will always be there if the post/record is found (slug, ID, title).
+{% endhint %}

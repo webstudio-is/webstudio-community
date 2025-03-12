@@ -8,15 +8,19 @@ description: Data Variables enable the definition and use of a value throughout 
 **Hint:** [CSS Variables](css-variables.md) are different than Data Variables. They enable the reuse of values in the Style Panel.
 {% endhint %}
 
-Data Variables are defined on any instance in the navigator such as Body or Heading. Variables can be found on the right panel in the settings tab.
+Data Variables are defined on any instance in the navigator such as Global Root, Body, or Heading. Variables can be found on the right panel in the settings tab.
 
 <figure><img src="../../.gitbook/assets/webstudio-variables.png" alt="Variables in the builder" width="375"><figcaption></figcaption></figure>
 
 ## Variable scope
 
-Variables are available within the instance they are defined on and any of its children. They are _not_ available in the parent of the instance or on other pages (we will create global variables in the future).
+Variables are available within the instance they are defined on and any of its children. They are _not_ available in the parent.
 
+If you define a variable on the Global Root, it will be available on all pages and can be used within [Slots](../core-components/slot.md).
+
+{% hint style="info" %}
 To access variables in the Page Settings, the variable must be defined on the Body of the page.
+{% endhint %}
 
 ## Variables
 
