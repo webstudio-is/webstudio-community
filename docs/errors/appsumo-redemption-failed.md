@@ -15,7 +15,7 @@ This activation can fail for several reasons:&#x20;
 * Logged-into wrong account when redeeming the licence (browser will automatically attempt to validate the license on the current logged-in account)
 * AppSumo API got confused and hurt itself in confusion
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Hurt itself in confusion Pokemon meme.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Hurt itself in confusion Pokemon meme.</p></figcaption></figure>
 
 ### How to resolve the issue:&#x20;
 

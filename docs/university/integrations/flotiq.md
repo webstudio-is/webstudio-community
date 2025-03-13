@@ -32,7 +32,7 @@ Before starting, ensure you have the following:
 
 Start by creating a content type in Flotiq. For this tutorial, we’ll use Flotiq’s **Blogpost Template**, which includes fields like `title`, `slug`, `excerpt`, `content`, and `headerImage`.
 
-<figure><img src="https://flotiq.com/docs/Deep-Dives/images/webstudio/webstudio-blogpost.png" alt="Create a Page with a Dynamic Path"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-2.png" alt="Create content type in Flotiq"><figcaption></figcaption></figure>
 
 ### **Add sample data**
 
@@ -51,11 +51,11 @@ Populate your content type with a few example blog posts to test your integratio
 
 To create a page with a dynamic path, go to **Pages > Add New Page**. In the **Dynamic Path** field, use a parameter to represent the dynamic part of the URL, such as the slug of your blog posts.
 
-<figure><img src="https://flotiq.com/docs/Deep-Dives/images/webstudio/webstudio-page-configuration.png" alt="Create a Page with a Dynamic Path"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.jpeg" alt="Create a Page with a Dynamic Path"><figcaption></figcaption></figure>
 
 In the [Address Bar](../foundations/cms.md#address-bar), provide a test value.
 
-<figure><img src="https://flotiq.com/docs/Deep-Dives/images/webstudio/webstudio-define-dynamic-path-value.png" alt="Set the dynamic path"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-3.png" alt="Set the dynamic path"><figcaption></figcaption></figure>
 
 ### **Add a GraphQL Data Variable**
 
@@ -95,11 +95,11 @@ Next, configure the variable:
 
 The variable should be configured as shown in the screenshot below:
 
-<figure><img src="https://flotiq.com/docs/Deep-Dives/images/webstudio/webstudio-graphql-variables.png" alt="Configure a data variable"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-4.png" alt="Configure a data variable"><figcaption></figcaption></figure>
 
 Test the variable - if it is configured correctly, the fetched Flotiq content will appear in the **Inspect Tool**.
 
-<figure><img src="https://flotiq.com/docs/Deep-Dives/images/webstudio/webstudio-inspecting-data-variable.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-5.png" alt=""><figcaption></figcaption></figure>
 
 ### **Bind Flotiq data to your page**
 
@@ -119,7 +119,7 @@ To bind data:
 > For images add an **Image Component**, and bind the **Source Property** to the image URL: `"https://api.flotiq.com/" + VariableName.data.data.blogpost.headerImage[0].url`.
 {% endhint %}
 
-<figure><img src="https://flotiq.com/docs/Deep-Dives/images/webstudio/webstudio-binding-text.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.gif" alt=""><figcaption></figcaption></figure>
 
 ### **Create a listing page**
 
@@ -154,7 +154,7 @@ query Posts {
 
 Add components to the collection item (e.g., cards with titles, excerpts, and images). Editing one item applies the same layout to all items.
 
-<figure><img src="https://flotiq.com/docs/Deep-Dives/images/webstudio/webstudio-creating-overview.gif" alt="Create overwiev page"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-2.gif" alt="Create overwiev page"><figcaption></figcaption></figure>
 
 ## Conclusion
 
