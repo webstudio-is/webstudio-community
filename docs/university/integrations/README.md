@@ -15,6 +15,7 @@ This page is a work in progress – much more to come.
 * [Hygraph](hygraph.md)
 * [Airtable](airtable.md)
 * [WordPress](wordpress.md)
+* [Flotiq](flotiq.md)
 
 ### Databases
 
