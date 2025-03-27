@@ -25,7 +25,7 @@ Join our vibrant community and stay up-to-date:
 
 - **[Twitter](https://twitter.com/getwebstudio)**: Follow us for the latest news.
 - **[YouTube](https://www.youtube.com/@getwebstudio)**: Watch tutorials and feature highlights.
-- **[Discord](https://discord.gg/UNdyrDkq5r)**: Engage with the Webstudio community.
+- **[Discord](https://wstd.us/community)**: Engage with the Webstudio community.
 
 ## 👐 Get Involved
 
