@@ -1,6 +1,6 @@
 ---
-icon: command
 description: The list of keyboard shortcuts to build in Webstudio.
+icon: command
 ---
 
 # Shortcuts
@@ -43,6 +43,7 @@ description: The list of keyboard shortcuts to build in Webstudio.
 ## **Style Panel**
 
 * Open Style Panel: `s`
+* Focus Style Sources: `⌘ + enter`
 * Reset style: `alt + click`
 * Reset style for all sides: `shift + alt + click`
 * Edit spacing on all sides (via drag): `shift + drag`
