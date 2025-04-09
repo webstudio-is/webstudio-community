@@ -153,7 +153,9 @@ When animating instances _in_ (e.g., fading in or performing complex transitions
 
 Here are examples of animations with their corresponding styles in the Style Panel and Animation Group:
 
-> Animations transitioning from a custom style to their default state don’t require the default state to be explicitly defined in the Style Panel. For instance, to fade something in (i.e., opacity `0` → `1`), you only need to specify the non-default value (`opacity: 0`) in the Animation Group. CSS will interpolate to the default state (e.g., `opacity: 1`) automatically. However, you must define a style in the Style Panel if the final "in" state is not a default value (defaults being `0`, `none`, `auto`, etc.). For example, if an image’s final state is slightly rotated, such as `rotate: 3deg`, this must be explicitly set in the Style Panel, as the default rotation is effectively `0`.
+{% hint style="success" %}
+Animations transitioning from a custom style to their default state don’t require the default state to be explicitly defined in the Style Panel. For instance, to fade something in (i.e., opacity `0` → `1`), you only need to specify the non-default value (`opacity: 0`) in the Animation Group. CSS will interpolate to the default state (e.g., `opacity: 1`) automatically. However, you must define a style in the Style Panel if the final "in" state is not a default value (defaults being `0`, `none`, `auto`, etc.). For example, if an image’s final state is slightly rotated, such as `rotate: 3deg`, this must be explicitly set in the Style Panel, as the default rotation is effectively `0`.
+{% endhint %}
 
 | Animation       | Style Panel                                           | Animation Group                                       |
 | --------------- | ----------------------------------------------------- | ----------------------------------------------------- |
