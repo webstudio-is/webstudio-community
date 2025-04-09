@@ -54,6 +54,10 @@ Fine-tune animation start and end points relative to the viewport:
 
 Positive values delay the animation, while negative values trigger it earlier.
 
+{% hint style="info" %}
+For an alternative workflow, the Style Panel accepts `view-timeline-inset` in Advanced on the child instances of the Animation Group. The usage of this property is automatically polyfilled for cross-browser support. If you opt to use the Style Panel, be sure to explicitly set the Top and Bottom Inset values to `auto` in the Animation Group.
+{% endhint %}
+
 ### Debug mode
 
 {% hint style="warning" %}

@@ -20,6 +20,18 @@
 [html-embed.md](html-embed.md)
 {% endcontent-ref %}
 
+{% content-ref url="animation-group.md" %}
+[animation-group.md](animation-group.md)
+{% endcontent-ref %}
+
+{% content-ref url="text-animation.md" %}
+[text-animation.md](text-animation.md)
+{% endcontent-ref %}
+
+{% content-ref url="stagger-animation.md" %}
+[stagger-animation.md](stagger-animation.md)
+{% endcontent-ref %}
+
 {% content-ref url="webhook-form.md" %}
 [webhook-form.md](webhook-form.md)
 {% endcontent-ref %}

@@ -20,6 +20,10 @@
 [expression-editor.md](expression-editor.md)
 {% endcontent-ref %}
 
+{% content-ref url="animations.md" %}
+[animations.md](animations.md)
+{% endcontent-ref %}
+
 {% content-ref url="cms.md" %}
 [cms.md](cms.md)
 {% endcontent-ref %}
