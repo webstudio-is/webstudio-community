@@ -151,4 +151,18 @@ Avoid abbreviations unless otherwise noted. Universal clarity is a priority, and
 
 ### 1.0
 
-* Release\
+* Release
+
+## Craft Library
+
+Craft Library is a collection of pre-built section templates built to Craft standards, available in the [Marketplace](marketplace.md).
+
+<figure><img src="../.gitbook/assets/craft-library.png" alt=""><figcaption><p>Craft Library in the Marketplace</p></figcaption></figure>
+
+Templates contain no hardcoded values such as colors or sizes. They rely entirely on [Craft CSS variables](craft.md#css-variables), so each section adapts to your site’s design system.
+
+The library speeds up development while keeping your project clean and fully customizable.
+
+This post demonstrates Craft Library getting inserted on two completely different sites:
+
+{% embed url="https://x.com/getwebstudio/status/1895213059251011768" %}
