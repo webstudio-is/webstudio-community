@@ -1,6 +1,6 @@
 ---
-icon: ruler-triangle
 description: Craft is the standard for building with Webstudio.
+icon: ruler-triangle
 ---
 
 # Craft
@@ -138,6 +138,12 @@ Avoid abbreviations unless otherwise noted. Universal clarity is a priority, and
 * Start the code with a comment about its purpose
 
 ## Changelog
+
+### 1.2
+
+*   Changed `container` token to use flex for proper compatibility with Craft Library. To adopt this change, go to any container token and set display flex, flex-direction column, and gap to `var(--gap-m)` . Any containers that need a horizontal layout will need to be manually set on Local, such as the style guide navigation.
+
+    ![container flex styles](../.gitbook/assets/1.2.png)
 
 ### 1.1
 
