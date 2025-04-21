@@ -5,7 +5,9 @@ icon: arrow-up-big-small
 
 # Animations
 
-The Webstudio Animation Engine is a powerful, performant, and highly customizable system built on the [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API), with lightweight [polyfills](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill) to ensure broad browser compatibility. It empowers designers and developers to create sophisticated animations with ease, offering scalability and flexibility for projects of any complexity. Whether you're animating simple transitions or orchestrating intricate, multi-layered effects, this engine provides the tools to bring your vision to life.
+The Webstudio Animation Engine is a powerful, performant, and highly customizable system built on the [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API), with lightweight [polyfills](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill) to ensure broad browser compatibility. It empowers designers and developers to create sophisticated animations with ease, offering scalability and flexibility for projects of any complexity. Whether you're animating simple transitions or orchestrating intricate, multi-layered effects, this engine provides the tools to bring your vision to life. \
+\
+If you want to learn the lower-level technical foundation behind Scroll-Driven animations, check out [https://scroll-driven-animations.style/](https://scroll-driven-animations.style/).
 
 ## Core Features
 
