@@ -8,8 +8,6 @@ icon: arrow-up-big-small
 
 # Text Animation
 
-{% include "../../.gitbook/includes/animations-beta.md" %}
-
 Let's say you want to animate one letter at a time - instead of having to manually wrap _each_ letter in an [Animation Group](animation-group.md), you can simply wrap a text instance (like a heading) in the Text Animation component.
 
 {% hint style="info" %}

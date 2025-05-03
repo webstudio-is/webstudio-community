@@ -20,9 +20,10 @@ If you want to learn the lower-level technical foundation behind Scroll-Driven a
 
 The engine’s user interface is composed of three main components, each designed to work together for a cohesive animation workflow:
 
-1. [**Animation Group**](../core-components/animation-group.md) – The cornerstone of the system, Animation Groups serve as containers that define how their contents animate. They support two trigger types—view-based (viewport entry/exit) and scroll-based (scroll position)—and offer extensive configuration options like axis, scroll source, insets, and debug tools. You can nest Animation Groups infinitely to craft complex, layered animations.
+1. [**Animation Group**](../core-components/animation-group.md) – The cornerstone of the system, Animation Groups serve as containers that define how their contents animate. They support two trigger types—view-based (scrollport entry/exit) and scroll-based (scroll position)—and offer extensive configuration options like axis, scroll source, insets, and debug tools. You can nest Animation Groups infinitely to craft complex, layered animations.
 2. [**Text Animation**](../core-components/text-animation.md) – Simplifies animating text by automatically splitting it into individual words or characters, allowing for dynamic effects without manual wrapping.
-3. [**Stagger Animation**](../core-components/stagger-animation.md) – Creates a cascading effect by animating child elements sequentially.
+3. [Video Animation](../core-components/video-animation.md) - allows video playback when video enters the scrollport.
+4. [**Stagger Animation**](../core-components/stagger-animation.md) – Creates a cascading effect by animating child elements sequentially.
 
 ## Hover Animations
 

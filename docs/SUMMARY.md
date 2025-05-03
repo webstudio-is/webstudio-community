@@ -44,6 +44,7 @@
   * [⌨️ HTML Embed](university/core-components/html-embed.md)
   * [Animation Group](university/core-components/animation-group.md)
   * [Text Animation](university/core-components/text-animation.md)
+  * [Video Animation](university/core-components/video-animation.md)
   * [Stagger Animation](university/core-components/stagger-animation.md)
   * [✍️ Webhook Form](university/core-components/webhook-form.md)
   * [✍️ Form](university/core-components/form.md)

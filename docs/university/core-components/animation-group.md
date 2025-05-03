@@ -5,8 +5,6 @@ icon: arrow-up-big-small
 
 # Animation Group
 
-{% include "../../.gitbook/includes/animations-beta.md" %}
-
 Animation Groups serve as containers that define how their contents animate. You can nest Animation Groups to create complex animations.
 
 {% hint style="info" %}

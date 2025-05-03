@@ -5,8 +5,6 @@ icon: arrow-up-big-small
 
 # Stagger Animation
 
-{% include "../../.gitbook/includes/animations-beta.md" %}
-
 Stagger Animation applies the parent animation to one child at a time, producing a smooth, sequential animation flow.
 
 {% hint style="info" %}
