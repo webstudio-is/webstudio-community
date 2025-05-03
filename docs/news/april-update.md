@@ -1,5 +1,5 @@
 ---
-description: Things we made happen since January 2015
+description: Things we made happen since January 2025
 ---
 
 # 🆕 April Update
