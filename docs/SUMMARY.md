@@ -11,6 +11,7 @@
 
 ## NEWS
 
+* [🆕 April Update](news/april-update.md)
 * [🆕 December Update](news/december-update.md)
 * [🆕 September Update](news/september-update.md)
 * [🆕 Webstudio CMS Beta and Experts Network](news/webstudio-cms-beta-and-experts-network.md)
