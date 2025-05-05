@@ -77,7 +77,7 @@ We started adding more and more context menus, staring with  advanced section in
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Copy-paste animations</td><td><a href="../.gitbook/assets/image (2).png">image (2).png</a></td></tr><tr><td>Copy-paste CSS declarations</td><td><a href="../.gitbook/assets/Screenshot 2025-05-05 at 12.01.45.png">Screenshot 2025-05-05 at 12.01.45.png</a></td></tr></tbody></table>
 
-## 9. All Pro features available on a free plan
+## 9. All Pro features accessible from a free plan for testing
 
 We have made all Pro features available on a free plan so that everyone can test these features without paying. Additionally, we added checks on publishing and exporting if Pro features are used.
 
