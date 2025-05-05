@@ -102,4 +102,6 @@ We have also added plenty of new beautiful templates.
 * Accessible and draggable pages tree
 * Open the page settings in one click or key press from the top bar
 
-See [Release 0.196.0](https://github.com/webstudio-is/webstudio/releases/tag/0.196.0) and older for a detailed changelog.
+
+
+See [Release 0.218.0](https://github.com/webstudio-is/webstudio/releases/tag/0.218.0) and older for a detailed changelog.
