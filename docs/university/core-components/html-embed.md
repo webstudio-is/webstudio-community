@@ -18,7 +18,7 @@ You can add your custom HTML, CSS, or JavaScript code to the HTML Embed instance
 
 #### Code
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-03-30 at 17.29.27.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gsap.png" alt=""><figcaption></figcaption></figure>
 
 The "Code" section has a text area for adding your custom code. After you paste your code here, it will be rendered on the canvas. You can add anything to your site including custom widgets, third-party services, API integrations, animations, and interactive content.
 

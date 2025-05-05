@@ -1,6 +1,6 @@
 # 🍀 How to add a GSAP animation
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-03-30 at 17.29.27.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gsap.png" alt=""><figcaption></figcaption></figure>
 
 ## Embed GSAP library on the page
 
@@ -13,8 +13,8 @@
 ### Example
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
 <script type="module">
   gsap.registerPlugin(Flip);
   gsap.fromTo(".animation", {opacity: 0}, {
