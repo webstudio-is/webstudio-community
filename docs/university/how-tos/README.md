@@ -27,3 +27,7 @@
 {% content-ref url="using-filters-to-dynamically-display-content.md" %}
 [using-filters-to-dynamically-display-content.md](using-filters-to-dynamically-display-content.md)
 {% endcontent-ref %}
+
+{% content-ref url="how-to-use-custom-fonts.md" %}
+[how-to-use-custom-fonts.md](how-to-use-custom-fonts.md)
+{% endcontent-ref %}
