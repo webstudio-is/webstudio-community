@@ -23,4 +23,4 @@ Webstudio includes built-in support for [Modern Font Stacks](https://modernfonts
 
 ---
 
-![upload-font](https://github.com/user-attachments/assets/22901f6f-a67a-4f28-8a1b-7de0db9d5f07)
+![upload-font](../../.gitbook/assets/upload-font.png)
