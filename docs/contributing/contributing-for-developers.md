@@ -95,38 +95,3 @@ GH_CLIENT_ID=
 ```
 
 You are done! 🎉
-
-## Develop builder and SDK in parallel
-
-For this we current use [relative-deps](https://github.com/mweststrate/relative-deps) and the way you can run both things is the following:
-
-* Git clone the sdk at https://github.com/webstudio-is/webstudio-sdk
-* In the builder run `pnpm dev` and in another window run `pnpm watch:sdk`
-
-This will trigger a build of the SDK whenever make changes to it and that will in turn reload your builder.
-
-## Builder deployment to Vercel
-
-1. [import your Git repository](https://vercel.com/new) into Vercel, and it will be deployed.
-2. Add DATABASE\_URL to env variables
-3. Redeploy
-
-If you'd like to avoid using a Git repository, you can also deploy the directory by running [Vercel CLI](https://vercel.com/cli):
-
-```sh
-npm i -g vercel
-vercel
-```
-
-It is generally recommended to use a Git repository, because future commits will then automatically be deployed by Vercel, through its [Git Integration](https://vercel.com/docs/concepts/git).
-
-## Release new version of a package
-
-Follow this guide if you would like to release a new version one of our package available to npm.
-
-The flow looks like the following:
-
-1. Modify the code in a branch other than `main`.
-2. Every commit on any branch builds and publish to npm with `--dry-run` options.
-3. If everything looks fine, bump the version in `package.json`, open a PR and if it's approved, merge it.
-4. Every commit on `main` will try publish to npm in case of any files or release process (GitHub Action) changed inside the package directory.
