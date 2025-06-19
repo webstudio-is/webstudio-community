@@ -1,44 +1,93 @@
-# 🗄️ Collection
-In Webstudio, a "Collection" is a powerful feature designed to manage and display dynamic content on web pages. Essentially, they serve as containers that can connect to various data sources, like databases or APIs, to fetch and present data in a structured and repeatable manner. This allows developers and designers to create instances, such as lists, galleries, or testimonial sections, where each item in the collection is automatically populated with data from the connected source. By using a collection, Webstudio users can efficiently create pages with content that updates in real-time, reflecting changes in the data source without manual intervention, thereby enhancing the site's interactivity and relevance.
+---
+description: >-
+  Use Collection to iterate over data and repeat the same structure but with
+  different data for each iteration.
+---
 
-{% embed url="https://www.youtube.com/watch?v=2MrkfnjYuCo" %}
+# 💾 Collection
 
-## Dynamic Content Creation with Webstudio and Supabase
-To create pages featuring dynamic content in Webstudio by integrating Supabase as your data source.
+<figure><img src="../../.gitbook/assets/collection-component.png" alt="Collection component" width="317"><figcaption></figcaption></figure>
 
-***
+## Why Collections are needed
 
-### Setting Up Your Supabase Project
-1. Sign up for a free Supabase account.
-2. Create a new project. (You'll need to set a strong password for your project to proceed).
-3. Once your project is initialized, navigate to the table editor to create a new table
-4. Define your fields
+Let's say you are building a list of all your blog posts. Each blog post will have an image, a title, and a link.&#x20;
 
-***
+You have 50 blog posts. Does this mean you need to duplicate your design 50 times manually? No.&#x20;
 
-### Uploading Images to Supabase Storage
-- Create a new bucket - set it as public, and upload your images.
-- Each image will have a URL
+Collections let you design something once, and it will repeat it for every item in the array and contain the data for the current iteration (e.g., the blog post title).
 
-***
+## What's an array?
 
-### Integrating Supabase with Webstudio
-To connect Supabase to Webstudio, you'll need to set up Row Level Security (RLS) policies for your table and obtain your API URL from Supabase's API docs.
-1. **Creating RLS Policies**: Navigate to the RLS policies section in Supabase and create a new policy that allows read access for everyone.
-2. **Retrieving the API URL**: Find your table in the API docs, switch the example code to bash, and copy the URL provided.
+An array is a programming term that generally translates to **a list of data**.&#x20;
 
-In Webstudio, select your container and add a new collection component. Configure a collection variable with the Supabase API URL, ensuring the request is authenticated with your Supabase API key.
+In the case of blog posts, this might look like the following:
 
-***
+```javascript
+0 { title: "Hello world"},
+1 { title: "Lorem ipsum"},
+2 { title: "Webstudio rocks!" }
+```
 
-### Mapping Data and Finalizing Your Page
-Map the data from Supabase to your Webstudio project. This involves setting up the data within your collection to inform Webstudio about the available data for use.
+{% hint style="warning" %}
+It's important that when binding data to a Collection, **you must bind the array**, i.e., the data you want to iterate over. If you don't bind the array, you'll receive an error:\
+\
+"The Collection component requires an array in the data property. When binding external data, it is likely that the array is nested somewhere within, and you need to provide the correct path in the binding."
+{% endhint %}
 
-- Delete any automatically generated preview box within the collection.
-- Drag in your pre-created and pre-styled components, which will be repeated for each fetched item from Supabase.
-- For each component (e.g., paragraph, field, and image), bind the corresponding data from your Supabase collection.
-- Once everything is connected and data is properly mapped, your page will dynamically display the testimonials stored in Supabase.
+<figure><img src="../../.gitbook/assets/collection-error.png" alt="Error when binding a value other than an array"><figcaption><p>Error when binding a value other than an array</p></figcaption></figure>
 
-Make sure to check the responsiveness and appearance on mobile devices before publishing.
+If you are binding external data, the array is nested somewhere within.
 
-***
+<figure><img src="../../.gitbook/assets/right-and-wrong-way-collections.png" alt="Right and wrong ways to bind data to a collection"><figcaption><p>Example of where they array is at for an external service (will vary for each service)</p></figcaption></figure>
+
+In the image, the data bound to the component is:
+
+1. ❌ Not the array
+2. ❌ The first item in the array (0), not the entire list
+3. ✅ The array
+
+It's unclear why each item is correct or incorrect by just looking at the image, so let's clarify.
+
+**You'll know when you get to the array when the next items in the autocomplete are numbers.** The numbers represent each item in the list. Once you see the numbers, backspace, as you don't want to select one item; you want the list.
+
+<figure><img src="../../.gitbook/assets/component-array.png" alt="Autocomplete showing array items in Binding"><figcaption><p>The numbers indicate each item in the list/array</p></figcaption></figure>
+
+## How to use Collection
+
+Add the Collection component to the canvas and either manually enter data (less common) or [bind data](../foundations/expression-editor.md#binding) to it (more common).
+
+**The Collection iterates over the array, so you must bind just the array portion of your variable to it. See** [**What's an Array**](collection.md.md#whats-an-array) **for more info.**
+
+Optionally, rename the default Collection Item variable to something more semantic. If you are iterating over blog posts, name it "Blog Post."
+
+Now, you can add components to the Collection, and the Collection will automatically duplicate it for the number of items in the array. If you have multiple components, wrap everything in a [Box](box.md.md) component.
+
+Next, [bind](../foundations/expression-editor.md#binding) the Collection Item (or whatever you named it) to the various components. You will see it output a different value depending on the iteration.
+
+## Using Collections with Radix Components <a href="#using-collections-within-accordions" id="using-collections-within-accordions"></a>
+
+When working with [Radix Components](../radix/), you might want to dynamically generate items for various components such as accordions, tabs, or menus.
+
+**You must provide the Value field with a unique value for each item.** This is commonly done by binding an ID or slug from the dynamic data to the field.
+
+### Accordions
+
+<figure><img src="../../.gitbook/assets/accordion-collection.png" alt=""><figcaption><p>The Item has a unique value from the dynamic data bound to the Value field</p></figcaption></figure>
+
+### Tabs
+
+On Tabs, you need to manually add the "value" property on both the Tab Trigger and Tab Content by going to Settings > Properties & Attributes > "+".
+
+Tab Triggers and Tab Contents maintain their relationship by having the same value. For example, the Tab Trigger with the value "asdf" will make the Tab Content with the value "asdf" active.
+
+<div>
+
+<figure><img src="../../.gitbook/assets/tab-trigger (1).png" alt=""><figcaption><p>Tab Trigger with custom value</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/tab-content (1).png" alt=""><figcaption><p>Tab Content with custom value</p></figcaption></figure>
+
+</div>
+
+Also, you can change the default value on the Tabs instance by binding the first value in the collection to it.
