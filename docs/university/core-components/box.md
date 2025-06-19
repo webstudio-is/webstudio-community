@@ -1,4 +1,4 @@
-# 📦 BoxAdd commentMore actions
+# 📦 Box
 
 ### How to use the Box component
 
