@@ -1,7 +1,7 @@
 # 🧩 Core Components
 
-{% content-ref url="box.md.md" %}
-[box.md.md](box.md.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="link.md" %}
@@ -64,20 +64,20 @@
 [head-slot.md](head-slot.md)
 {% endcontent-ref %}
 
-{% content-ref url="separator.md.md" %}
-[separator.md.md](separator.md.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="code-text.md.md" %}
-[code-text.md.md](code-text.md.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="button.md.md" %}
-[button.md.md](button.md.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="collection.md.md" %}
-[collection.md.md](collection.md.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="content-embed.md" %}

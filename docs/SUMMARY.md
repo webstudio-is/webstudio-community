@@ -38,7 +38,7 @@
   * [Share Links & Transferring Projects](university/foundations/share-links.md)
   * [🌐 Publishing & Custom Domains](university/foundations/publishing-and-custom-domains.md)
 * [🧩 Core Components](university/core-components/README.md)
-  * [📦 Box](university/core-components/box.md)
+  * [📦 Element](university/core-components/box.md)
   * [🔗 Link](university/core-components/link.md)
   * [🖼️ Image](university/core-components/image.md)
   * [📃 List](university/core-components/list.md)

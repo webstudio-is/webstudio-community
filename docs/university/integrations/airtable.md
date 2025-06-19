@@ -181,7 +181,7 @@ Create a new variable, same as last time, except the URL will _not_ be dynamic. 
 
 **Setup a Collection**
 
-Add the [**Collection**](../core-components/collection.md.md) component, which will iterate over a list of the records. So, if you can design what a record should look like once, it will replicate it for each record. You need to bind the list of records to the Collection. Here's what that looks like:
+Add the [**Collection**](broken-reference) component, which will iterate over a list of the records. So, if you can design what a record should look like once, it will replicate it for each record. You need to bind the list of records to the Collection. Here's what that looks like:
 
 <figure><img src="https://images.surferseo.art/80a98c18-69e4-4176-ace9-a9f25292292a.png" alt="Airtable records attached to Collection"><figcaption></figcaption></figure>
 
@@ -211,7 +211,7 @@ This page is great to let users browse your records, but we need to create a pag
 
 ### 5 Create a sitemap
 
-Webstudio enables you to visually build a dynamic sitemap using [**Collections**](../core-components/collection.md.md) and [**XML Nodes**](../core-components/xml-node.md).
+Webstudio enables you to visually build a dynamic sitemap using [**Collections**](broken-reference) and [**XML Nodes**](../core-components/xml-node.md).
 
 Here's how to do it:
 

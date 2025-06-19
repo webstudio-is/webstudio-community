@@ -48,7 +48,7 @@ A Boolean variable represents a true or false value. It is ideal for toggling st
 
 ### JSON
 
-A JSON variable allows for structured data in JSON format. It is ideal for creating simple data structures used with [Collections](../core-components/collection.md.md) to iterate over each item, such as creating a dynamic gallery.
+A JSON variable allows for structured data in JSON format. It is ideal for creating simple data structures used with [Collections](broken-reference) to iterate over each item, such as creating a dynamic gallery.
 
 ### Resource
 

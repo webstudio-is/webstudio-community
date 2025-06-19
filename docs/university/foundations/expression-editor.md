@@ -82,7 +82,7 @@ You can create a schema and bind your [CMS](cms.md) data to it. The schema can g
 
 ### Conditional collection items
 
-Sometimes we need to conditionally hide some records in a [Collection](../core-components/collection.md.md) based on some context. For example, below a blog post we can have related blog posts, but we wouldn’t want to show the _current_ blog post in there. To do so, create an expression on the Show property in Settings.
+Sometimes we need to conditionally hide some records in a [Collection](broken-reference) based on some context. For example, below a blog post we can have related blog posts, but we wouldn’t want to show the _current_ blog post in there. To do so, create an expression on the Show property in Settings.
 
 We need to turn this statement into code: “If the current page’s slug is the same as the current collection’s slug, then don’t show this post.”
 

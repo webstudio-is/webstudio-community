@@ -146,7 +146,7 @@ query Posts {
 
 #### **Add a collection component**
 
-* Bind the list (array) of items from the Data Variable to the [collection](../core-components/collection.md.md):\
+* Bind the list (array) of items from the Data Variable to the [collection](broken-reference):\
   `<Data Variable Name>.data.data.<Content Type API Name>List`.
 * The collection component iterates over each item and replicates your design. Bind the **collectionItem** to get the current iteration's data.
 
