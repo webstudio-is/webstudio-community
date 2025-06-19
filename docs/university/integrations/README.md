@@ -20,6 +20,7 @@ This page is a work in progress – much more to come.
 ### Databases
 
 * [Notion](notion.md)
+* [Supabase](supabase.md)
 
 ### Forms
 
