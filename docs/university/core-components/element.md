@@ -6,7 +6,7 @@ The "Element Component" can be found in Components > General, and you can place 
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt="" width="278"><figcaption><p>Components panel</p></figcaption></figure>
 
-The element component is a container for content. By default, it is a DIV, but the tag can be changed in the settings.
+The element component can be any HTML element. By default, it is a DIV, but the tag can be changed in the settings.
 
 This component will be widely used in your project. It can wrap your entire page contents or individual instances.
 
