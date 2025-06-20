@@ -1,9 +1,8 @@
 ---
 description: Creates a cascading effect by animating child elements sequentially.
-icon: arrow-up-big-small
 ---
 
-# Stagger Animation
+# 👨‍👨‍👦‍👦 Stagger Animation
 
 Stagger Animation applies the parent animation to one child at a time, producing a smooth, sequential animation flow.
 

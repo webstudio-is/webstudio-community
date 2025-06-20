@@ -3,7 +3,7 @@ description: >-
   The Text Animation component simplifies animating text by automatically
   splitting it into individual words or characters, allowing for dynamic effects
   without manual wrapping.
-icon: arrow-up-big-small
+icon: t
 ---
 
 # Text Animation

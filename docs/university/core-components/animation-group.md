@@ -1,9 +1,8 @@
 ---
 description: The foundation of all animations in Webstudio.
-icon: arrow-up-big-small
 ---
 
-# Animation Group
+# 🎬 Animation Group
 
 Animation Groups serve as containers that define how their contents animate. You can nest Animation Groups to create complex animations.
 
