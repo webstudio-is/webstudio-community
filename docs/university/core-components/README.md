@@ -99,3 +99,7 @@
 {% content-ref url="xml-node.md" %}
 [xml-node.md](xml-node.md)
 {% endcontent-ref %}
+
+{% content-ref url="time.md" %}
+[time.md](time.md)
+{% endcontent-ref %}
