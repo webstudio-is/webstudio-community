@@ -5,20 +5,6 @@ description: >-
   details page, and a sitemap.
 cover: ../../.gitbook/assets/airtable-frontend-cover (1).png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # How to build a frontend for Airtable using Webstudio

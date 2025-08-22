@@ -52,19 +52,8 @@ You can use the "Target" property to modify a link instance's behavior and defin
    \
    On the other hand, selecting "Top" will open the link instance in the top-level window, replacing all frames if there are any. This is useful when you want to break out of any frames and provide a full-page experience.
 
-### Prefetch
+## How to style the current page state
 
-<figure><img src="../../.gitbook/assets/Mask_group-2_9wlKH3AlsVuvSJJcKDzK0.avif" alt=""><figcaption></figcaption></figure>
+When using links for navigation and wanting to highlight the current page, the link component has a "Local Link" state in every style source.
 
-"Prefetch" instructs the browser on how to preload linked resources in the background.
-
-1. **None**: This is the default value, and it indicates that the browser will not preload the linked resource. If the linked content is unlikely to be accessed immediately or frequently, selecting "None" can help conserve network resources.
-2. **Intent**: If you select "Intent," the browser preloads the linked resource in the background when the user hovers over the link. This aims to reduce load times by having the content ready whenever the user decides to navigate to the linked page.
-3. **Render**: This loads the linked page when the current page renders, improving the load times of subsequent pages. However, it also adds a significant load to the browser, which is why it is primarily recommended for pages with only 1 or 2 links, such as a landing page.
-4. **Viewport**: If you select the 'Viewport' option, the browser preloads linked content just before it's about to appear in the user's view. This optimization enhances loading and facilitates instant page transitions, maintaining a balance between resource utilization and user experience.
-
-## How to style the Current Page state
-
-When using links for navigation and wanting to highlight the current page, the link component has a "Current Page" state in every style source.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-19 at 18.15.28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 11.36.02.png" alt=""><figcaption></figcaption></figure>
