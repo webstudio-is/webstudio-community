@@ -72,7 +72,7 @@ DEV_LOGIN=true
 AUTH_SECRET=a random value
 ```
 
-To login in the app click on the "Dev Login" button and paste your `AUTH_SECRET` in the input.\
+To login in the app click on the "Login with Secret" button and paste your `AUTH_SECRET` in the input.\
 To log in as another user in dev mode, use your AUTH\_SECRET, followed by : and any email address. For example: \`abcd:example@email.com\`\\
 
 ### GitHub Login
