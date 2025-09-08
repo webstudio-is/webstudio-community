@@ -63,7 +63,7 @@ Shortcut: The URL field supports pasting in a cURL command. Doing so will automa
 * URL – Where the resource is located.
 * Method – A [request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods). Refer to the third-party API docs to find the suitable method.
 * Search Params - Key/value pairs used for providing additional parameters as part of the URL. Values can be bound to other variables.
-* Cache Max Age  allows you to override the API response cache headers and define your own cache lifetime.
+* Cache Max Age  allows you to define your own cache lifetime.
 * Headers – Key/value pairs such `Content-Type application/json`. Refer to [Request Headers](https://developer.mozilla.org/en-US/docs/Glossary/Request_header) for more info.
 
 {% include "../../.gitbook/includes/the-requests-including-any....md" %}
@@ -80,7 +80,7 @@ When you configure a Resource, the data is fetched using Cloudflare Workers, whi
 
 By default, several factors determine what gets cached and for how long, but one of the primary factors is what the origin system instructs the requesting entity to cache. In other words, the headless CMS tells Cloudflare Workers what can be cached, if anything, and for how long.\
 \
-If you set a custom **Cache Max Age** value, it will define your cache lifetime instead of the API response headers.
+If you set a custom **Cache Max Age** value, it will define your cache lifetime instead of relying on API response headers.
 
 Webstudio sees approximately 45% of sub-requests (i.e., fetches from Cloudflare Workers) served from the cache. This means that, on average, roughly half of the time someone visits a page that uses Resources, such as a blog post, the request will go through to the origin/CMS.
 
