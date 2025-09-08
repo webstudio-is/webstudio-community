@@ -10,7 +10,7 @@ description: Data Variables enable the definition and use of a value throughout 
 
 Data Variables are defined on any instance in the navigator such as Global Root, Body, or Heading. Variables can be found on the right panel in the settings tab.
 
-<figure><img src="../../.gitbook/assets/webstudio-variables.png" alt="Variables in the builder" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-08 at 20.25.49.png" alt="Variables in the builder"><figcaption></figcaption></figure>
 
 ## Variable scope
 
@@ -62,6 +62,8 @@ Shortcut: The URL field supports pasting in a cURL command. Doing so will automa
 
 * URL – Where the resource is located.
 * Method – A [request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods). Refer to the third-party API docs to find the suitable method.
+* Search Params - Key/value pairs used for providing additional parameters as part of the URL. Values can be bound to other variables.
+* Cache Max Age  allows you to override the API response cache headers and define your own cache lifetime.
 * Headers – Key/value pairs such `Content-Type application/json`. Refer to [Request Headers](https://developer.mozilla.org/en-US/docs/Glossary/Request_header) for more info.
 
 {% include "../../.gitbook/includes/the-requests-including-any....md" %}
@@ -76,13 +78,13 @@ You may be wondering whether every visit to your blog results in an API call to 
 
 When you configure a Resource, the data is fetched using Cloudflare Workers, which has a built-in [caching system](https://developers.cloudflare.com/workers/reference/how-the-cache-works/).
 
-Several factors determine what gets cached and for how long, but one of the primary factors is what the origin system instructs the requesting entity to cache. In other words, the headless CMS tells Cloudflare Workers what can be cached, if anything, and for how long.
-
-{% hint style="info" %}
-[This feature request](https://github.com/webstudio-is/webstudio/issues/4077) would allow users to override the origin’s cache rules easily. Subscribe and vote if you are interested.
-{% endhint %}
+By default, several factors determine what gets cached and for how long, but one of the primary factors is what the origin system instructs the requesting entity to cache. In other words, the headless CMS tells Cloudflare Workers what can be cached, if anything, and for how long.\
+\
+If you set a custom **Cache Max Age** value, it will define your cache lifetime instead of the API response headers.
 
 Webstudio sees approximately 45% of sub-requests (i.e., fetches from Cloudflare Workers) served from the cache. This means that, on average, roughly half of the time someone visits a page that uses Resources, such as a blog post, the request will go through to the origin/CMS.
+
+
 
 ### GraphQL
 
