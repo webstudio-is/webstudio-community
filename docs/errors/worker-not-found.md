@@ -9,5 +9,5 @@ Worker can not be found due to one of the following reasons:
 3. Your domain was not properly connected or you need to republish.
 
 {% hint style="info" %}
-If your website was unpublished due to the deprecation of free publishing, don’t worry - your project is safe. Simply upgrade your account, then open your project and publish it again.
+If your website was unpublished due to the deprecation of free publishing, don’t worry - your project is safe. Simply upgrade your account, then open your project and publish it again. If you think this is a mistake, please send an email to support@webstudio.is.
 {% endhint %}
