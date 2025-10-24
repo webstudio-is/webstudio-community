@@ -1,17 +1,10 @@
----
 description: AI Demos
 ---
 
 # 🤖 Webstudio AI
 
-### Hero Section
+Webstudio AI has been discontinued and is no longer maintained. It has been succeeded by [Inception](https://webstudio.is/inception), a new product from the Webstudio team that reimagines the creative workflow with a more advanced AI foundation.  
 
-{% embed url="https://www.youtube.com/watch?v=_DC427IPBeU" %}
+Inception offers a far more powerful and flexible experience for building and designing with AI.
 
-### Feature Section
-
-{% embed url="https://www.youtube.com/watch?v=0bokBySzEEo" %}
-
-### Pricing Section
-
-{% embed url="https://youtu.be/Kpw8ldwAUr8" %}
+While Webstudio AI was an experimental open-source project, Inception represents the next generation of the platform, built from the ground up with everything the team learned from earlier iterations.
