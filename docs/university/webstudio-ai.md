@@ -1,8 +1,3 @@
-description: AI Demos
----
-
-# 🤖 Webstudio AI
-
 Webstudio AI has been discontinued and is no longer maintained.
 
 Separately, the Webstudio team has launched [Inception](https://wstd.us/inception) — a **standalone product** designed specifically for creative design exploration, powered by a much more advanced AI foundation.
