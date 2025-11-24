@@ -5,7 +5,7 @@ description: Learn how to connect a custom domain to your Project.
 # 🌐 Publishing & Custom Domains
 
 {% hint style="warning" %}
-If your DNS provider doesn’t allow you to add a CNAME at the apex, jump to [this section](publishing-and-custom-domains.md#dns-provider-doesnt-allow-cname-flattening).
+Many DNS providers do not allow adding a CNAME at the root/apex. If yours doesn’t, jump to [this section](publishing-and-custom-domains.md#dns-provider-doesnt-allow-cname-flattening) for alternate options.
 {% endhint %}
 
 ## Adding a custom domain
@@ -94,10 +94,14 @@ When publishing the site, optionally select the domain(s) you want to publish to
 
 ## Standardizing on root or `www` using Cloudflare
 
-This will show you how to standardize on either `www` or your root domain using Cloudflare.
+{% hint style="info" %}
+Why would you want to do this? Standardizing your domain through Cloudflare is free, flexible, and easy to manage, while also delivering excellent performance.
+{% endhint %}
+
+These instructions show you how to standardize your site’s primary domain in Cloudflare by choosing either `www` or the root domain.
 
 {% hint style="info" %}
-Root domain is synonymous with apex, bare, and naked. An example is `example.com`.
+Note root domain is synonymous with apex, bare, and naked. An example is `example.com`.
 {% endhint %}
 
 1. Choose whether you want to use `www` or your root domain
@@ -107,7 +111,7 @@ Root domain is synonymous with apex, bare, and naked. An example is `example.com
 
 ### 1: Add a DNS record for the other domain
 
-Cloudflare rules can't apply to traffic that isn't proxied through Cloudflare. Therefore, adding a DNS record for the domain you are _not_ using is essential. Cloudflare offers an IP address for this exact use case.
+Cloudflare rules can’t apply to traffic that isn’t proxied through Cloudflare. Therefore, adding a DNS record for the domain you are _not_ using is essential. Cloudflare offers an IP address for this exact use case.
 
 **Create an A record and point it to `192.0.2.1`.**
 
@@ -115,19 +119,17 @@ Cloudflare rules can't apply to traffic that isn't proxied through Cloudflare. T
 > \
 > \- [Cloudflare](https://developers.cloudflare.com/fundamentals/setup/manage-domains/redirect-domain/)
 
-Next, follow one of the subsequent options depending on your desired setup.
+Next, choose one of the following options based on your preferred setup.
 
 ### 2a: Redirect root to `www`
 
-If you are using `www` then it's important to redirect the root domain to it. For example, redirect `example.com` to `www.example.com`.
+If you choose `www` as your primary domain, be sure to redirect the root domain to it. For example, `example.com` should redirect to `www.example.com`.
 
 Follow [Cloudflare's guide](https://developers.cloudflare.com/rules/url-forwarding/examples/redirect-root-to-www/) to redirect your root domain to `www`.
 
 ### 2b: Redirect `www` to root
 
-While `www` is merely a subdomain and not technically different than `xyz.example.com`, old habits die hard, and some users may still type in `www` to get to your site. Therefore, it's good practice to redirect it to your root so they can reach your site.
-
-Follow [Cloudflare's guide](https://developers.cloudflare.com/rules/url-forwarding/examples/redirect-www-to-root/) to redirect `www` to your root domain.
+Although `www` is just a subdomain like `xyz.example.com`, many users still reference it out of habit. To ensure they reach your site, it’s best practice to redirect `www` to your root domain. To do this, make sure you’ve create the A record with `192.0.2.1` as described above, then follow [Cloudflare’s guide](https://developers.cloudflare.com/rules/url-forwarding/examples/redirect-www-to-root/) to set up a _Rule_ in the Cloudflare dashboard.
 
 ***
 
@@ -169,13 +171,14 @@ This list is _not_ comprehensive.
 * DigitalOcean
 * Namecheap
 * IONOS
+* Hover
 
-#### Option 1: Change your DNS provider
+#### Option 1: Switch your DNS provider (without changing your domain registrar)
 
-The easiest way to work around the CNAME limitation is to switch your DNS control over to a provider like [Cloudflare](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/). This process takes about 10 minutes and once you have migrated, you can use the original process to configure it..
+The easiest way to work around the CNAME limitation is to switch your DNS control over to a provider like [Cloudflare](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/). This process takes about 10 minutes and is free. Once you have migrated, you can use the original process detailed above to configure it.
 
 {% hint style="info" %}
-You can move the DNS (where the DNS records are managed) _without_ moving the registration (where the domain is purchased), though it may make sense to move both.
+You can move the DNS (where the DNS records are managed) _without_ needing to move the registration (i.e. where the domain was purchased), though it may make sense to move both.
 {% endhint %}
 
 #### Option 2: Publish your website on a `www` subdomain
