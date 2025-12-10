@@ -127,7 +127,7 @@ The Settings Panel is on the right side of your canvas. You can use this panel t
 
 ## Modes
 
-[Modes](anatomy-of-the-webstudio-builder.md#modes) change the Builder’s behavior, such as previewing your site without distractions.
+[Modes](modes.md) change the Builder’s behavior, such as previewing your site without distractions.
 
 <figure><img src="../../.gitbook/assets/modes.png" alt="mode switcher"><figcaption></figcaption></figure>
 
@@ -141,7 +141,7 @@ The [Share Dialog](share-links.md) allows you to create shareable personal links
 
 ## Publish Dialog
 
-The [Publish Dialog](anatomy-of-the-webstudio-builder.md#publish-dialog) enables you to add a custom domain, publish to Staging and/or your custom domain, and [export your Project](../self-hosting/).
+The [Publish Dialog](publishing-and-custom-domains.md) enables you to add a custom domain, publish to Staging and/or your custom domain, and [export your Project](../self-hosting/).
 
 {% hint style="info" %}
 Publishing currently takes around 45 seconds. During publishing, your Project is built into a JavaScript app and deployed to 300+ servers around the world.
