@@ -4,7 +4,7 @@
 
 If you want to contribute and don't know where to start, here is a step-by-step for a complete lifecycle, from idea to deployment.
 
-1. If you have an idea that is not already in [discussion](https://github.com/webstudio-is/webstudio-community/discussions) or [issues](https://github.com/webstudio-is/webstudio-builder/issues), please start a discussion or reach out on [discord](https://discord.gg/UNdyrDkq5r)
+1. If you have an idea that is not already in [discussion](https://github.com/webstudio-is/webstudio-community/discussions) or [issues](https://github.com/webstudio-is/webstudio-builder/issues), please start a discussion or reach out on [discord](https://wstd.us/community)
 2. If you are a DEVELOPER, and you want to contribute to the Builder UI, your first step is to become familiar with our design system in figma. Start with the first page of our [Design Docs](https://www.figma.com/file/xCBegXEWxROLqA1Y31z2Xo/%F0%9F%93%96-Webstudio-Design-Docs?type=design\&node-id=234%3A36754\&t=w3VxT162RQF0gTrI-1). And for our design system & components see the [Webstudio Library](https://www.figma.com/file/sfCE7iLS0k25qCxiifQNLE/%F0%9F%93%9A-Webstudio-Library?type=design\&node-id=2647%3A10046\&t=f4xr8mcumXfXkHVh-1). Please read the docs carefully and throughly so you can use our design system properly to create a UI that looks like it's a natural part of Webstudio. If any part of the design is confusing or intimidating you can reach out to us on Discord with questions or feedback.
 3.  After submitting an enhancement or a bug we need to agree on a solution. You can jump into implementation right away, but be aware that we have to agree on the solution in the end. Communicating the problem you are solving and why you think the approach you are taking is the best is key for a quick process.
 
@@ -56,8 +56,6 @@ If VS Code shows you an "Open Browser" button, it will lead you to the wrong URL
 \
 <img src="../.gitbook/assets/vscode-dialog.png" alt="VS Code Open Browser Dialog" data-size="original">
 {% endhint %}
-
-
 
 ## Login locally
 
