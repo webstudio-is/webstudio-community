@@ -12,7 +12,7 @@ See [export types](./#export-types) for more information about JavaScript applic
 
 ## JavaScript application
 
-Learn how to deploy your dynamic JavaScript application to Vercel.
+Learn how to deploy your static JavaScript application to Vercel.
 
 {% embed url="https://www.youtube.com/watch?v=eoyB9DfWdT8" %}
 How to Export and Self-Host Your Site on Vercel
