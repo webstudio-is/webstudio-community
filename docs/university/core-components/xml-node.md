@@ -21,7 +21,7 @@ Webstudio automatically generates a sitemap for static pages such as Home and Ab
 ### Tips
 
 * XML Nodes can be nested within each other
-* Use [Collection](broken-reference) to iterate over a list of data
+* Use [Collection](/broken/pages/pauhKZIgEF1NC1u9qwLe) to iterate over a list of data
 * A sitemap skeleton is available in the Marketplace
 
 ### Including the static sitemap
@@ -36,4 +36,4 @@ To include the static sitemap data in your custom sitemap, follow these steps:
 4.  Fetch the static data by clicking Create Variable > System Resource (Type) > Sitemap (Resource)&#x20;
 
     <figure><img src="../../.gitbook/assets/static-sitemap-data.png" alt=""><figcaption></figcaption></figure>
-5. Use a [Collection](broken-reference) to iterate over the static sitemap data
+5. Use a [Collection](/broken/pages/pauhKZIgEF1NC1u9qwLe) to iterate over the static sitemap data

@@ -61,7 +61,7 @@ To learn more about how to use Airtable's powerful automation tool, refer to the
 4. Turn on your automation\
    Now that we have finished configuring our automation, we can turn it on.
 
-<figure><img src="../../.gitbook/assets/group_4_PlqnP8v1v_6YdeJ3jf3tx (2).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/group_4_PlqnP8v1v_6YdeJ3jf3tx (1).avif" alt=""><figcaption></figcaption></figure>
 
 ### Conclusion
 

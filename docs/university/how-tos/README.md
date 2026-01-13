@@ -12,8 +12,8 @@
 [how-to-create-fluid-video-backgrounds-with-vimeo.md](how-to-create-fluid-video-backgrounds-with-vimeo.md)
 {% endcontent-ref %}
 
-{% content-ref url="how-to-create-a-countdown.md" %}
-[how-to-create-a-countdown.md](how-to-create-a-countdown.md)
+{% content-ref url="/broken/pages/7yuZqDFNktY0pYAYGbJP" %}
+[Broken link](/broken/pages/7yuZqDFNktY0pYAYGbJP)
 {% endcontent-ref %}
 
 {% content-ref url="how-to-add-a-gsap-animation.md" %}

@@ -18,4 +18,4 @@ Example sources:
 * Obsidian
 * Coda
 
-Want to embed Markdown? See [Markdown Embed](../../core-components/markdown-embed.md).\
+Want to embed Markdown? See [Markdown Embed](../../core-components/markdown-embed.md).<br>

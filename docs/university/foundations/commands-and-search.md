@@ -22,6 +22,6 @@ Commands & Search speeds up the building process and introduces new shortcuts.
   * Open page settings
 * Execute commands
   * Unwrap – Move the children out of the current instance and remove the current instance.
-  * Wrap In Box – Wrap the current instance in a [Box](broken-reference).
+  * Wrap In Box – Wrap the current instance in a [Box](/broken/pages/J1vuJ2d8twUqPm14bKDs).
   * Wrap In Link – Wrap the current instance in a [Link](../core-components/link.md).
   * All other [keyboard shortcuts](shortcuts.md)

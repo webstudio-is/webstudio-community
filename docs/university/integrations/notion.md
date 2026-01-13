@@ -207,7 +207,7 @@ The Marketplace contains a filter property that sorts, paginates, and filters ev
 
 #### **Setup a Collection**
 
-Add the [**Collection**](broken-reference) component, which will iterate over a list of the records. You can design what a record should look like once, and it will replicate it for each record. You need to bind the list of records to the Collection. Here's what that looks like:
+Add the [**Collection**](/broken/pages/pauhKZIgEF1NC1u9qwLe) component, which will iterate over a list of the records. You can design what a record should look like once, and it will replicate it for each record. You need to bind the list of records to the Collection. Here's what that looks like:
 
 <figure><img src="https://images.surferseo.art/0ab681b1-5e38-4b79-9281-542d843feb06.png" alt="Notion records attached to Collection"><figcaption></figcaption></figure>
 
@@ -225,7 +225,7 @@ Note that the static value is in quotes ("/events/"), and there is a "+" to glue
 
 ### **5 Create a sitemap for search engines**
 
-Webstudio enables you to visually build a dynamic sitemap using [**Collections**](broken-reference) and [**XML Nodes**](../core-components/xml-node.md).
+Webstudio enables you to visually build a dynamic sitemap using [**Collections**](/broken/pages/pauhKZIgEF1NC1u9qwLe) and [**XML Nodes**](../core-components/xml-node.md).
 
 The sitemap helps Google and other search engines discover pages on your website and understand when they were last updated. Building a sitemap is a key step in making your Notion website SEO-friendly.
 

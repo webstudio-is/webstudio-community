@@ -32,6 +32,6 @@ To change the content of an Accordion that isn't currently displayed in the canv
 
 ## Using Collections within Accordions
 
-To create an accordion with a [Collection](broken-reference) that iterates over data and outputs an accordion item for each entry, ensure each item has a unique value set, like this:
+To create an accordion with a [Collection](/broken/pages/pauhKZIgEF1NC1u9qwLe) that iterates over data and outputs an accordion item for each entry, ensure each item has a unique value set, like this:
 
 <figure><img src="../../.gitbook/assets/accordion-collection.png" alt="accordion collection unique item"><figcaption></figcaption></figure>
