@@ -1,12 +1,12 @@
 # ▶️ VPS with Docker
 
-# Webstudio CLI Docker Deployment on a VPS (Step by Step)
+## Webstudio CLI Docker Deployment on a VPS (Step by Step)
 
 This guide explains how to build a Webstudio project locally using the Docker template and deploy it on an Ubuntu VPS using Docker, Nginx as a reverse proxy, and Let’s Encrypt SSL.
 
----
+***
 
-## 1. Build the Website Locally
+### 1. Build the Website Locally
 
 On your local machine, inside your Webstudio project:
 
@@ -17,13 +17,14 @@ webstudio build --template docker
 This generates a Docker-ready build that runs a Node.js server (React Router) inside a container.
 
 You should end up with a folder containing at least:
-- `Dockerfile`
-- `package.json`
-- `build/`
 
----
+* `Dockerfile`
+* `package.json`
+* `build/`
 
-## 2. Prepare the VPS (Ubuntu)
+***
+
+### 2. Prepare the VPS (Ubuntu)
 
 Connect to your VPS via SSH:
 
@@ -54,9 +55,9 @@ logout
 
 Reconnect via SSH.
 
----
+***
 
-## 3. Upload the Build to the VPS
+### 3. Upload the Build to the VPS
 
 From your local machine:
 
@@ -70,17 +71,17 @@ On the VPS:
 cd ~/example-site
 ```
 
----
+***
 
-## 4. Build the Docker Image on the VPS
+### 4. Build the Docker Image on the VPS
 
 ```bash
 docker build -t webstudio-site .
 ```
 
----
+***
 
-## 5. Run the Webstudio Container
+### 5. Run the Webstudio Container
 
 The Webstudio Docker template runs a Node.js server on port **3000**.
 
@@ -100,9 +101,9 @@ curl http://localhost:3000
 
 If HTML is returned, the container works correctly.
 
----
+***
 
-## 6. Install Nginx on the VPS
+### 6. Install Nginx on the VPS
 
 Nginx will act as a reverse proxy and handle ports 80 and 443.
 
@@ -112,9 +113,9 @@ sudo systemctl enable nginx
 sudo systemctl start nginx
 ```
 
----
+***
 
-## 7. Configure Nginx Reverse Proxy
+### 7. Configure Nginx Reverse Proxy
 
 Create a new site configuration:
 
@@ -156,9 +157,9 @@ Test in the browser:
 http://example-site.tld
 ```
 
----
+***
 
-## 8. Install Let’s Encrypt SSL (Certbot)
+### 8. Install Let’s Encrypt SSL (Certbot)
 
 Install Certbot and the Nginx plugin:
 
@@ -174,9 +175,9 @@ sudo certbot --nginx -d example-site.tld
 
 Choose the option to redirect HTTP to HTTPS.
 
----
+***
 
-## 9. Verify SSL and Auto-Renewal
+### 9. Verify SSL and Auto-Renewal
 
 Access the site:
 
@@ -190,32 +191,34 @@ Test renewal:
 sudo certbot renew --dry-run
 ```
 
----
+***
 
-## 10. Updating the Website
+### 10. Updating the Website
 
 When you need to update the site:
 
-1. Rebuild locally:
-   ```bash
-   webstudio build --template docker
-   ```
+1.  Rebuild locally:
+
+    ```bash
+    webstudio build --template docker
+    ```
 2. Upload the updated files to the VPS
-3. Rebuild and restart the container:
-   ```bash
-   docker stop webstudio
-   docker rm webstudio
-   docker build -t webstudio-site .
-   docker run -d -p 3000:3000 --restart unless-stopped webstudio-site
-   ```
+3.  Rebuild and restart the container:
 
----
+    ```bash
+    docker stop webstudio
+    docker rm webstudio
+    docker build -t webstudio-site .
+    docker run -d -p 3000:3000 --restart unless-stopped webstudio-site
+    ```
 
-## Final Architecture
+***
 
-- Webstudio runs as a Node.js app inside Docker (port 3000)
-- Nginx listens on ports 80 and 443
-- Nginx proxies requests to Docker
-- Let’s Encrypt provides SSL
+### Final Architecture
+
+* Webstudio runs as a Node.js app inside Docker (port 3000)
+* Nginx listens on ports 80 and 443
+* Nginx proxies requests to Docker
+* Let’s Encrypt provides SSL
 
 This setup is simple, stable, and production-ready.
