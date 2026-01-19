@@ -81,6 +81,7 @@
   * [▶️ AWS with Flightcontrol (Docker)](university/self-hosting/flightcontrol.md)
   * [▶️ Digital Ocean with Coolify (Docker)](university/self-hosting/digital-ocean-coolify.md)
   * [▶️ Hetzner with Coolify (Docker)](university/self-hosting/hetzner-coolify.md)
+  * [▶️ VPS with Docker](university/self-hosting/vps-with-docker.md)
 * [🧑‍🏫 How-Tos](university/how-tos/README.md)
   * [▶️ How to add icons](university/how-tos/how-to-add-icons.md)
   * [▶️ How to create fluid video backgrounds with Vimeo](university/how-tos/how-to-create-fluid-video-backgrounds-with-vimeo.md)
