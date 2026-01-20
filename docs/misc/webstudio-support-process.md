@@ -28,4 +28,4 @@ If you're having trouble activating your AppSumo license please read [this artic
 
 ## Any other type of support
 
-All other support is run directly via our community.  We have a thriving community of creators who are always around to help out new members. The core Webstudio team also monitors the community posts daily. You can join the Webstudio communtiy anytime from [here](https://wstd.us/community).&#x20;
+All other support is run directly via our community.  We have a thriving community of creators who are always around to help out new members. The core Webstudio team also monitors the community posts daily. You can join the Webstudio community anytime from [here](https://wstd.us/community).&#x20;

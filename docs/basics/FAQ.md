@@ -24,7 +24,7 @@ Webstudio Builder is distributed under the AGPL license. The AGPL (Affero Genera
 
 <summary>🔓 Is Webstudio Builder open source?</summary>
 
-Webstudio Builder is an open source, while the overall Webstudio Platform adopts an Open Core model.
+Webstudio Builder is open source, while the overall Webstudio Platform adopts an Open Core model.
 
 [Open Source Definition](https://opensource.org/osd), [AGPL License](https://www.gnu.org/licenses/agpl-3.0.en.html)
 

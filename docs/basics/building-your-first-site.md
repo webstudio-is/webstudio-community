@@ -21,7 +21,7 @@ Understanding the interface is key to effectively using any new tool. Familiariz
 
 ### 🎨 Use Design Tokens
 
-Webstudio utilizes Design Tokens for styling, offering consistency across platforms. These reusable styles help avoid naming conflicts and dependency issues common in large projects. Learn more about [Design Tokens in WebStudio](../university/foundations/design-tokens.md).
+Webstudio utilizes Design Tokens for styling, offering consistency across platforms. These reusable styles help avoid naming conflicts and dependency issues common in large projects. Learn more about [Design Tokens in Webstudio](../university/foundations/design-tokens.md).
 
 ### 🔧 Experiment With Components
 

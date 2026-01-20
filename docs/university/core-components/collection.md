@@ -38,7 +38,7 @@ It's important that when binding data to a Collection, **you must bind the array
 
 If you are binding external data, the array is nested somewhere within.
 
-<figure><img src="../../.gitbook/assets/right-and-wrong-way-collections.png" alt="Right and wrong ways to bind data to a collection"><figcaption><p>Example of where they array is at for an external service (will vary for each service)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/right-and-wrong-way-collections.png" alt="Right and wrong ways to bind data to a collection"><figcaption><p>Example of where the array is at for an external service (will vary for each service)</p></figcaption></figure>
 
 In the image, the data bound to the component is:
 
@@ -56,11 +56,11 @@ It's unclear why each item is correct or incorrect by just looking at the image,
 
 Add the Collection component to the canvas and either manually enter data (less common) or [bind data](../foundations/expression-editor.md#binding) to it (more common).
 
-**The Collection iterates over the array, so you must bind just the array portion of your variable to it. See** [**What's an Array**](collection.md.md#whats-an-array) **for more info.**
+**The Collection iterates over the array, so you must bind just the array portion of your variable to it. See** [**What's an Array**](collection.md#whats-an-array) **for more info.**
 
 Optionally, rename the default Collection Item variable to something more semantic. If you are iterating over blog posts, name it "Blog Post."
 
-Now, you can add components to the Collection, and the Collection will automatically duplicate it for the number of items in the array. If you have multiple components, wrap everything in a [Box](box.md.md) component.
+Now, you can add components to the Collection, and the Collection will automatically duplicate it for the number of items in the array. If you have multiple components, wrap everything in a [Box](box.md) component.
 
 Next, [bind](../foundations/expression-editor.md#binding) the Collection Item (or whatever you named it) to the various components. You will see it output a different value depending on the iteration.
 

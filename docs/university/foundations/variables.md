@@ -54,7 +54,7 @@ A JSON variable allows for structured data in JSON format. It is ideal for creat
 
 A Resource variable gets its value from a fetch request, allowing data from a remote system to be used within Webstudio. For example, Resource can be used to interact with a REST API. While it can also be used to interact with a GraphQL API, it’s recommended to use the [GraphQL Resource](variables.md#graphql) instead.
 
-The are several fields available to configure the fetch request.
+There are several fields available to configure the fetch request.
 
 {% hint style="info" %}
 Shortcut: The URL field supports pasting in a cURL command. Doing so will automatically populate the various fields within the Resource. Many API docs will provide you with a cURL command, so look out for it to save time.
@@ -90,7 +90,7 @@ Webstudio sees approximately 45% of sub-requests (i.e., fetches from Cloudflare 
 
 A GraphQL Resource variable gets its value from a GraphQL API, allowing data from a remote system to be used within Webstudio. While similar to [Resource](variables.md#resource), it’s unique in that the available fields are specifically designed for interacting with GraphQL APIs.
 
-The are several fields available to configure the fetch request.
+There are several fields available to configure the fetch request.
 
 * **URL** – Where the resource is located.
 * **Query** – A GraphQL query.

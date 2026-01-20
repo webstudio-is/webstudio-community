@@ -25,7 +25,7 @@ Setting the List Style Type allows you to define the appearance of the bullet po
 
 ***
 
-### How to customize a Link instance's properties in Webstudio
+### How to customize a List instance's properties in Webstudio
 
 <figure><img src="../../.gitbook/assets/List_Component_Article_Image_KbSE_DHwgNmwowMkgT7Sy.avif" alt=""><figcaption></figcaption></figure>
 

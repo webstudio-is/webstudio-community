@@ -22,9 +22,9 @@ These responsive images automatically adjust their size based on the user's scre
 
 #### Supported Image Formats
 
-All images in Webstudio are automatically optimized and served in WEBP or AVIF format, depending on the responsive image resolution and browser support. This eliminates the need for pre-optimization and extra tools to compress or convert images.
+All images in Webstudio are automatically optimized and served in WebP or AVIF format, depending on the responsive image resolution and browser support. This eliminates the need for pre-optimization and extra tools to compress or convert images.
 
-WEBP is supported by all modern browsers, including Chrome, Edge, and Firefox, while AVIF offers better compression quality and smaller file sizes but lacks support in browsers like Edge and Internet Explorer.
+WebP is supported by all modern browsers, including Chrome, Edge, and Firefox, while AVIF offers better compression quality and smaller file sizes but lacks support in browsers like Edge and Internet Explorer.
 
 #### Ensure a Stable Layout for Improved Performance
 
