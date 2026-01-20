@@ -1,2 +1,103 @@
 # Radio Group
 
+The Radio Group component allows users to select a single option from a list of choices. Unlike checkboxes, only one radio button in a group can be selected at a time.
+
+## When to Use
+
+Use Radio Group for:
+- Selecting one option from a small set (2-5 options)
+- Payment method selection
+- Shipping options
+- Any mutually exclusive choice
+
+## Structure
+
+The Radio Group component consists of:
+
+| Component | Description |
+|-----------|-------------|
+| **Radio Group** | The container managing selection state |
+| **Radio Group Item** | An individual radio button |
+| **Radio Group Indicator** | The visual indicator (dot) when selected |
+
+## How to Use
+
+1. Drag a **Radio Group** component from Components > Radix onto your canvas
+2. The component comes with sample radio items
+3. Add or remove Radio Group Items as needed
+4. Set a unique `value` on each Radio Group Item
+5. Add labels next to each item for clarity
+6. Style the items and indicators
+
+## Using with Labels
+
+For proper accessibility, wrap each radio in a [Label](label.md):
+
+```
+Label
+├── Radio Group Item
+│   └── Radio Group Indicator
+└── Text "Option Name"
+```
+
+Or connect via `id` and `htmlFor` attributes.
+
+## Using with Collections
+
+To generate radio options dynamically:
+
+1. Add a [Collection](../core-components/collection.md) inside the Radio Group
+2. Add a Label containing a Radio Group Item
+3. Bind the `value` property to a unique identifier
+4. Bind the label text to your option's name
+
+## Properties
+
+### Radio Group
+
+| Property | Description |
+|----------|-------------|
+| **id** | Unique identifier |
+| **name** | Form field name for submission |
+| **value** | The currently selected value |
+| **required** | Whether selection is required |
+
+### Radio Group Item
+
+| Property | Description |
+|----------|-------------|
+| **value** | Unique identifier for this option (required) |
+
+## Styling States
+
+Style radio items based on state:
+
+- **Checked** (`[data-state=checked]`) - Item is selected
+- **Unchecked** (`[data-state=unchecked]`) - Item is not selected
+- **Disabled** (`:disabled`) - Item cannot be selected
+- **Focus** (`:focus-visible`) - Item has keyboard focus
+
+## Accessibility
+
+Radio Group follows the [WAI-ARIA Radio Group pattern](https://www.w3.org/WAI/ARIA/apg/patterns/radio/):
+
+- Arrow keys navigate between options
+- Space selects the focused option
+- Only one item can be selected
+- Proper ARIA roles and states
+
+## Radio Group vs Select
+
+| Feature | Radio Group | Select |
+|---------|-------------|--------|
+| Options visible | Always | On click |
+| Best for | 2-5 options | Many options |
+| Selection method | Click/keyboard | Dropdown |
+
+## Tips
+
+- Always set unique `value` properties on each item
+- Use clear, concise labels
+- Consider using Select for more than 5 options
+- Pre-select a default option when appropriate
+
