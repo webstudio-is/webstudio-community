@@ -87,6 +87,7 @@
   * [▶️ How to create fluid video backgrounds with Vimeo](university/how-tos/how-to-create-fluid-video-backgrounds-with-vimeo.md)
   * [▶️ How to crop an image with out cropping the original image](university/how-tos/how-to-crop-an-image-with-out-cropping-the-original-image.md)
   * [🍀 How to add a GSAP animation](university/how-tos/how-to-add-a-gsap-animation.md)
+  * [▶️ How to make a custom 404 page](university/how-tos/how-to-make-a-custom-404-page.md)
   * [▶️ Build Your Own Directory Website with Airtable](university/how-tos/build-your-own-directory-website-with-airtable.md)
   * [▶️ Using filters to dynamically display content (Airtable example)](university/how-tos/using-filters-to-dynamically-display-content.md)
 * [🔗 Integrations](university/integrations/README.md)
