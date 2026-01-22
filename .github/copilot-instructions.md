@@ -70,7 +70,7 @@ done
 ### Voice and Tone
 
 - **Direct and instructional**: Use imperative mood ("Add a component" not "You should add a component")
-- **Concise**: Get to the point quickly
+- **Concise**: Get to the point quickly. Avoid filler words, redundant explanations, and unnecessary context. Shorter is better.
 - **Friendly but professional**: Helpful without being overly casual
 - **Present tense**: "The component renders" not "The component will render"
 - **Purposeful**: Every sentence must benefit the user. Before adding any content, ask: "Why does the reader need this?" If you can't answer clearly, don't include it.
