@@ -80,6 +80,42 @@ Components are grouped into sections like General, Text, Media, Forms, and [Radi
 
 The Assets Panel is the second panel to the left of your canvas, and this is where all the static files are stored. You can upload, organize, and manage project assets inside this panel before using them on the canvas.
 
+### Asset Types
+
+The Assets Panel supports various file types organized by category:
+
+* **Images** – JPEG, PNG, GIF, WebP, SVG, ICO
+* **Fonts** – WOFF, WOFF2, TTF, OTF
+* **Documents** – PDF, JSON, XML
+* **Other** – Various additional file formats
+
+### Filtering and Sorting
+
+Use the filter dropdown to show only specific asset categories (Images, Fonts, Documents, or All). Assets can be sorted by:
+
+* **Name** – Alphabetically A-Z or Z-A
+* **Date** – Newest or oldest first
+* **Size** – Largest or smallest first
+
+### Asset Details
+
+Click on any asset to view its details panel, which shows:
+
+* **Name** – Click to rename the asset
+* **Description** – Add optional description text for organization
+* **Dimensions** – Width and height for images
+* **File size** – Size of the asset file
+* **Uses** – Number of places the asset is used in your project
+
+### Asset Actions
+
+* **Download** – Download the original asset file to your computer (Pro plan required)
+* **Review & Delete** – When an asset is in use, shows where it's used before confirming deletion. Unused assets can be deleted directly.
+
+{% hint style="info" %}
+Assets that are currently used in your project will show a settings gear icon. Attempting to delete them will display a list of all usages so you can review before confirming.
+{% endhint %}
+
 ***
 
 ## Pages Panel

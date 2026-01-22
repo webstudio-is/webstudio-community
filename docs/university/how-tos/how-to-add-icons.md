@@ -4,9 +4,9 @@
 
 This guide shows you how to easily add icons to your Webstudio website.
 
-## Method 1: Pasting SVG Directly into the Builder
+## Method 1: Pasting SVG Directly into the Builder (Recommended)
 
-The easiest approach is to copy SVG code and paste it directly into Webstudio.
+The easiest and most powerful approach is to copy SVG code and paste it directly into Webstudio. This creates native SVG components that you can fully style and manipulate.
 
 ### Step-by-Step
 
@@ -16,6 +16,33 @@ The easiest approach is to copy SVG code and paste it directly into Webstudio.
 4. Paste (Cmd+V / Ctrl+V) — Webstudio will automatically create the SVG structure with proper components
 
 Webstudio converts the SVG into native components, giving you full control over styling each part directly in the Style panel.
+
+### SVG Properties in Style Panel
+
+When you select an SVG element, the Style Panel shows SVG-specific CSS properties:
+
+* **fill** – The fill color of the shape
+* **stroke** – The stroke (outline) color
+* **stroke-width** – The thickness of the stroke
+* **fill-opacity** – Transparency of the fill
+* **stroke-opacity** – Transparency of the stroke
+* **stroke-linecap** – Shape at the end of lines (butt, round, square)
+* **stroke-linejoin** – Shape at corners (miter, round, bevel)
+* **stroke-dasharray** – Create dashed lines
+* **stroke-dashoffset** – Offset for dash pattern
+
+### SVG Attribute Autocompletion
+
+In the Settings Panel, when you add custom attributes to SVG elements, Webstudio provides autocompletion for all valid SVG attributes. This helps you set properties like:
+
+* `viewBox` – Define the coordinate system
+* `preserveAspectRatio` – Control scaling behavior
+* `transform` – Apply transformations
+* Path-specific attributes like `d`, `points`, `cx`, `cy`, `r`, etc.
+
+{% hint style="success" %}
+Pasting SVG creates native components that can be styled with CSS Variables, allowing you to create icons that change color based on themes or states.
+{% endhint %}
 
 ## Method 2: Using HTML Embed with SVG
 

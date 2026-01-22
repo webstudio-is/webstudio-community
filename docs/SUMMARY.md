@@ -12,6 +12,7 @@
 ## university
 
 - [⚛️ Foundations](university/foundations/README.md)
+  - [🏠 Dashboard](university/foundations/dashboard.md)
   - [🛠️ Anatomy of the Webstudio Builder](university/foundations/anatomy-of-the-webstudio-builder.md)
   - [🧱 CSS Variables](university/foundations/css-variables.md)
   - [🖌️ Design Tokens](university/foundations/design-tokens.md)
