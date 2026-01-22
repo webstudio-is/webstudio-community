@@ -1,5 +1,7 @@
 # Heading
 
+> See [MDN: Heading elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
+
 The **Heading** component renders HTML heading elements (h1-h6) for creating a hierarchical structure of titles and subtitles on your page.
 
 ## Overview

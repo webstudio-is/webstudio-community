@@ -113,3 +113,10 @@ Transforms are GPU-accelerated, making them ideal for animations:
 - Prefer `transform: translate()` over `top/left` for movement
 - Prefer `transform: scale()` over `width/height` for resizing
 - These properties don't trigger layout recalculation, resulting in smoother 60fps animations
+
+## Related
+
+- [Animations](animations.md) – Create scroll-driven and interactive animations
+- [CSS Variables](css-variables.md) – Define reusable style values
+- [Animation Group](../core-components/animation-group.md) – Container for scroll-driven animations
+- [Anatomy of the Webstudio Builder](anatomy-of-the-webstudio-builder.md) – Learn about the Style Panel

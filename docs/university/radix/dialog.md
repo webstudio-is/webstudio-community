@@ -49,3 +49,10 @@ Some common states you can style using the States selector (you can also create 
 
 - **Open** - When the dialog is visible
 - **Closed** - When the dialog is hidden
+
+## Related
+
+- [Sheet](./sheet.md) – Sliding panel variant of dialog
+- [Popover](./popover.md) – Floating panel for contextual content
+- [Tooltip](./tooltip.md) – Non-interactive hints on hover
+- [Collapsible](./collapsible.md) – Expandable content without overlay

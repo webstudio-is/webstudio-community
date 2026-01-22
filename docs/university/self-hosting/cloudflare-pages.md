@@ -30,3 +30,10 @@ Export your project using one of the [export methods](./#exporting).
 * Name your project and deploy it
 
 See [Cloudflare’s getting started docs](https://developers.cloudflare.com/pages/get-started/) for a comprehensive tutorial.
+## Related
+
+- [Download](./download.md) – Export a static site directly from the Builder
+- [CLI](./cli.md) – Export and build your project using the command line
+- [GitHub Pages](./github-pages.md) – Another platform for static site hosting
+- [Netlify](./netlify.md) – Deploy static sites or JavaScript apps to Netlify
+- [Publishing and Custom Domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site

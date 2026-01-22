@@ -34,3 +34,11 @@ Once you're satisfied with your creation, use the 'Preview' button at the top ri
 ### 💬 Join the Community
 
 Learning a new tool takes time, so don't be discouraged by initial challenges. Keep exploring, experimenting, and [join the Webstudio community](https://wstd.us/community) for support and inspiration.
+
+## Related
+
+- [Courses](courses.md) – In-depth community-made courses
+- [Intro](intro.md) – Overview of Webstudio for designers and developers
+- [Anatomy of the Webstudio Builder](../university/foundations/anatomy-of-the-webstudio-builder.md) – Deep dive into the builder interface
+- [Core Components](../university/core-components/README.md) – Learn about all available components
+- [Craft](../university/craft.md) – The standard for building with Webstudio

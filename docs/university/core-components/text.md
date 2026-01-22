@@ -1,5 +1,7 @@
 # Text
 
+> See [MDN: \<span\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)
+
 The **Text** component is used to display text content in your Webstudio projects. It provides a flexible container for adding and styling text.
 
 ## Overview

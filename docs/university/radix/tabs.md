@@ -56,3 +56,10 @@ Some common states (you can also create custom states):
 
 - **Active** (`[data-state=active]`) - The currently selected tab trigger
 - **Inactive** (`[data-state=inactive]`) - Unselected tab triggers
+
+## Related
+
+- [Accordion](./accordion.md) – Vertically stacked expandable sections
+- [Collapsible](./collapsible.md) – Single expandable panel
+- [Collection](../core-components/collection.md) – Generate tabs dynamically from data
+- [Navigation Menu](./navigation-menu.md) – Navigation with dropdowns and links

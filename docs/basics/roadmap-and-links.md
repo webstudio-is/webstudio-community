@@ -26,3 +26,10 @@ Here you will find real-time updates and can see exactly what our team is workin
 * **YouTube:** [Subscribe on YouTube](https://www.youtube.com/@getwebstudio?sub\_confirmation=1)
 * **Twitter:** [Follow us on Twitter](https://twitter.com/getwebstudio)
 * **LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/company/webstudio-inc/)
+
+## Related
+
+- [Intro](intro.md) – Learn what Webstudio is and who it's for
+- [FAQs](FAQ.md) – Common questions and answers about Webstudio
+- [Contributing for Designers](../contributing/contributing-for-designers.md) – Ways designers can contribute to Webstudio
+- [Contributing for Developers](../contributing/contributing-for-developers.md) – How to contribute code to Webstudio

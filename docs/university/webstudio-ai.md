@@ -42,3 +42,10 @@ The upcoming version will:
 * include at least one **free or very low-cost option**
 * offer access to advanced models like **Claude** when needed
 * introduce a **chat interface** directly in the builder, enabling visual actions and more
+
+## Related
+
+- [Expression Editor](foundations/expression-editor.md) – Write expressions and logic in Webstudio
+- [Data Variables](foundations/variables.md) – Work with dynamic data and resources
+- [CMS](foundations/cms.md) – Manage content with Webstudio's built-in CMS
+- [Roadmap & Links](../basics/roadmap-and-links.md) – See what features are coming next

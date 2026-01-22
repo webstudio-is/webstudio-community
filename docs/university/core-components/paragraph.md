@@ -1,5 +1,7 @@
 # Paragraph
 
+> See [MDN: \<p\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
+
 The **Paragraph** component renders an HTML `<p>` element, used for blocks of body text content.
 
 ## Overview

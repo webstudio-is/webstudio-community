@@ -48,3 +48,10 @@ Webstudio supports templates, component libraries, and projects from the Webflow
 You can contribute free or paid templates by creating a project and submitting it for review.
 
 Learn about about [contributing to the Marketplace](../contributing/marketplace.md).
+
+## Related
+
+- [Contributing to the Marketplace](../contributing/marketplace.md) – Submit your own templates
+- [Craft](craft.md) – The standard for building marketplace templates
+- [Copy-Paste from Webflow](foundations/copy-paste/webflow.md) – Import templates from Webflow
+- [Dashboard](foundations/dashboard.md) – Manage your projects and access templates

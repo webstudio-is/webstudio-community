@@ -103,3 +103,11 @@ The contents of `edges.node` in the second query are exactly the same as the con
 The rest of the second query provides context about whether there are previous or next pages and introduces filters to offset/skip results based on the current page.
 
 If you already setup a page using `posts`, you will need to rebind the values on your page because the Resource response will be different. For example, `Post Item.node.title` instead of `Post Item.title`.
+
+## Related
+
+- [CMS](../foundations/cms.md) – Learn about dynamic pages and Resources in Webstudio
+- [Variables](../foundations/variables.md) – Understand GraphQL Resource variables
+- [Collection](../core-components/collection.md) – Display multiple records from Hygraph
+- [Flotiq Integration](./flotiq.md) – Another GraphQL-based headless CMS option
+- [WordPress Integration](./wordpress.md) – Build a frontend for headless WordPress

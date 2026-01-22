@@ -97,3 +97,11 @@ Redirects old URLs to new ones so that you don’t lose any traffic or search en
 You can contribute free or paid templates by creating a Project and submitting it for review. Approved templates will appear in the [Marketplace](../marketplace.md).
 
 For more information, see [Contributing to the Marketplace](../../contributing/marketplace.md).
+
+## Related
+
+- [SEO Settings](seo-settings.md) – Configure meta tags and social sharing
+- [Publishing & Custom Domains](publishing-and-custom-domains.md) – Deploy your site and manage domains
+- [Design Tokens](design-tokens.md) – Understand atomic CSS output options
+- [Head Slot](../core-components/head-slot.md) – Add custom code per page
+- [HTML Embed](../core-components/html-embed.md) – Embed analytics and custom scripts

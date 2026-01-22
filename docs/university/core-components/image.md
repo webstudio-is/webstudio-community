@@ -6,6 +6,8 @@ description: >-
 
 # 🖼️ Image
 
+> See [MDN: \<img\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+
 {% embed url="https://www.youtube.com/watch?v=o2tEwZ_zeUI" %}
 
 ---

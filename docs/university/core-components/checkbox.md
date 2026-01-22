@@ -1,5 +1,7 @@
 # Checkbox
 
+> See [MDN: \<input type="checkbox"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
+
 The **Checkbox** component creates an HTML checkbox input for boolean selections.
 
 ## Overview

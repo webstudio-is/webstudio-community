@@ -92,3 +92,11 @@ When you are ready to publish your latest changes again, follow these steps:
 ***
 
 Now, you should have a website built on Webstudio that is hosted on Digital Ocean using Coolify, giving you full control over your infrastructure.
+
+## Related
+
+- [CLI](./cli.md) – Export and build your project using the command line
+- [Hetzner with Coolify](./hetzner-coolify.md) – Similar deployment using Hetzner
+- [VPS with Docker](./vps-with-docker.md) – Manual Docker deployment on any VPS
+- [AWS with Flightcontrol](./flightcontrol.md) – Deploy to AWS using Flightcontrol
+- [Publishing and Custom Domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site

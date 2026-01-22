@@ -1,5 +1,7 @@
 # Textarea
 
+> See [MDN: \<textarea\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+
 The **Textarea** component creates a multi-line text input field for collecting longer text content.
 
 ## Overview

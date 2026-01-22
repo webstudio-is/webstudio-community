@@ -125,3 +125,11 @@ webstudio build --template ssg
 Please review [the limitations](./#ssg-limitations) of using the static site export instead of dynamic (i.e., all the other options in templates).
 
 See [static site hosting platforms](./#platforms-for-static-sites) we have documented.
+
+## Related
+
+- [Download](./download.md) – Export a static site directly from the Builder
+- [Netlify](./netlify.md) – Deploy your project to Netlify
+- [Vercel](./vercel.md) – Deploy your project to Vercel
+- [VPS with Docker](./vps-with-docker.md) – Deploy to your own server using Docker
+- [Publishing and Custom Domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site

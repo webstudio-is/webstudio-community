@@ -133,3 +133,11 @@ Available system resources:
 
 - **Sitemap** – Contains data about the static pages on the website, commonly used to build a custom sitemap that combines dynamic data with static data. Refer to the [XML Node component](../core-components/xml-node.md#including-the-static-sitemap) for more info.
 - **Current Date** – Returns the current date/time, useful for displaying "today's date" or calculating relative times. Can be formatted using the [Time component](../core-components/time.md).
+
+## Related
+
+- [Expression Editor](expression-editor.md) – Bind variables to components and create expressions
+- [CMS](cms.md) – Use Resources to fetch content from external systems
+- [Collection](../core-components/collection.md) – Iterate over JSON or Resource data
+- [CSS Variables](css-variables.md) – Define reusable style values (different from Data Variables)
+- [Slot](../core-components/slot.md) – Access global variables in reusable components

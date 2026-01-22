@@ -1,5 +1,7 @@
 # Video
 
+> See [MDN: \<video\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
+
 The **Video** component embeds an HTML5 `<video>` element for playing self-hosted video files.
 
 ## Overview

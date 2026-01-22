@@ -159,3 +159,11 @@ Add components to the collection item (e.g., cards with titles, excerpts, and im
 ## Conclusion
 
 Now you should have your content from Flotiq displayed on Webstudio on both a listing page and a dynamic page that changes depending on the slug viewed.
+
+## Related
+
+- [CMS](../foundations/cms.md) – Learn about dynamic pages and Resources in Webstudio
+- [Variables](../foundations/variables.md) – Understand GraphQL Resource variables
+- [Collection](../core-components/collection.md) – Display multiple records from your CMS
+- [Hygraph Integration](./hygraph.md) – Another GraphQL-based headless CMS
+- [WordPress Integration](./wordpress.md) – Build a frontend for headless WordPress

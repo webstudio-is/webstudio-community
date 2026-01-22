@@ -81,3 +81,10 @@ Social platforms cache sharing previews. To clear caches and test your changes:
 {% hint style="info" %}
 When you publish to a custom domain, staging and webstudio domains are automatically de-indexed from search engines.
 {% endhint %}
+
+## Related
+
+- [Project Settings](project-settings.md) – Configure site name, favicon, and global settings
+- [Head Slot](../core-components/head-slot.md) – Add custom meta tags and scripts per page
+- [Publishing & Custom Domains](publishing-and-custom-domains.md) – Deploy your site with custom domains
+- [CMS](cms.md) – Create dynamic pages with SEO-optimized content

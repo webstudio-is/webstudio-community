@@ -51,3 +51,10 @@ Some commonly used properties (see the Settings panel for all available options)
 | **sideOffset**  | Distance in pixels from the trigger                 |
 | **align**       | Alignment: `start`, `center`, or `end`              |
 | **alignOffset** | Offset from the alignment position                  |
+
+## Related
+
+- [Tooltip](./tooltip.md) – Non-interactive hints that appear on hover
+- [Dialog](./dialog.md) – Modal window for focused content
+- [Sheet](./sheet.md) – Sliding panel from screen edge
+- [Select](./select.md) – Dropdown selection component

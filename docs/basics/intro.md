@@ -11,3 +11,10 @@ Webstudio offers a powerful platform for designers to bring their creative visio
 ### 🧑‍💻 For Developers
 
 Developers will appreciate Webstudio's flexibility and extensibility. It simplifies web development with its visual interface, yet provides full access to the underlying code. Developers can create custom components with complex logic or specific integrations, harnessing the power of coding while benefiting from Webstudio's streamlined visual workflows. As an open-source tool, Webstudio offers the freedom to extend functionality as needed and contribute to the enhancement of its features.
+
+## Related
+
+- [Building your first site](building-your-first-site.md) – Step-by-step guide to create your first website
+- [Courses](courses.md) – Community-made courses for learning Webstudio
+- [Anatomy of the Webstudio Builder](../university/foundations/anatomy-of-the-webstudio-builder.md) – Understand the builder interface
+- [FAQs](FAQ.md) – Common questions and answers about Webstudio

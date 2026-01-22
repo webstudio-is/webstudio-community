@@ -51,3 +51,9 @@ Some commonly used properties (see the Settings panel for all available options)
 | **sideOffset**  | Distance in pixels from the trigger (default: 4px)  |
 | **align**       | Alignment: `start`, `center`, or `end`              |
 | **alignOffset** | Offset from the alignment position                  |
+
+## Related
+
+- [Popover](./popover.md) – Interactive floating content panel
+- [Dialog](./dialog.md) – Modal window for focused content
+- [Label](./label.md) – Accessible labels for form controls

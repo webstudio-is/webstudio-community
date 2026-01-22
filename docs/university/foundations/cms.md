@@ -125,3 +125,11 @@ While most CMS field types seamlessly map to Webstudio components (e.g., Plain T
 In the meantime, advanced users can set up a proxy on Cloudflare Workers to convert rich text to HTML. However, this is outside the scope of Webstudio's support.
 
 Rich text in the form of HTML can be bound to the [Content Embed Component](../core-components/content-embed.md), and Markdown can be bound to the [Markdown Embed Component](../core-components/markdown-embed.md).
+
+## Related
+
+- [Data Variables](variables.md) – Define Resources to fetch CMS data
+- [Expression Editor](expression-editor.md) – Bind CMS data to components
+- [Collection](../core-components/collection.md) – Iterate over CMS data to create lists
+- [Content Embed](../core-components/content-embed.md) – Display rich text HTML from your CMS
+- [Markdown Embed](../core-components/markdown-embed.md) – Display Markdown content from your CMS

@@ -96,3 +96,10 @@ GH_CLIENT_ID=
 ```
 
 You are done! 🎉
+
+## Related
+
+- [Contributing for Designers](contributing-for-designers.md) – Ways designers can contribute to Webstudio
+- [Contributing to the Marketplace](marketplace.md) – Submit templates and sections
+- [FAQs](../basics/FAQ.md) – Common questions including licensing information
+- [Roadmap & Links](../basics/roadmap-and-links.md) – See what the team is working on

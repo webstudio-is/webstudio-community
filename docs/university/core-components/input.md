@@ -1,5 +1,7 @@
 # Input
 
+> See [MDN: \<input\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+
 The **Input** component creates an HTML `<input>` element for collecting user data in forms.
 
 ## Overview

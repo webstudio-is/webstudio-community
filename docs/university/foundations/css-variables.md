@@ -173,3 +173,10 @@ Webstudio supports CSS pseudo elements like `::before` and `::after`, allowing y
 2. Add a `::before` state
 3. Set `content` to the desired text or leave empty for icon backgrounds
 4. Style the pseudo element (width, height, background, etc.)
+
+## Related
+
+- [Design Tokens](design-tokens.md) – Package multiple styles for reuse
+- [Modes](modes.md) – Create breakpoints for dark mode and other conditions
+- [Animations](animations.md) – Use CSS variables for hover animations
+- [Anatomy of the Webstudio Builder](anatomy-of-the-webstudio-builder.md) – Learn about Global Root and the Style Panel

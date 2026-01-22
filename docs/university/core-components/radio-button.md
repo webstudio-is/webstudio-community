@@ -1,5 +1,7 @@
 # Radio Button
 
+> See [MDN: \<input type="radio"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
+
 The **Radio Button** component creates an HTML radio input for selecting one option from a group.
 
 ## Overview

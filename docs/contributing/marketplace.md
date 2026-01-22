@@ -38,3 +38,10 @@ Once it’s submitted, Page Settings will now have the following options you can
 To sell templates, follow the same submission process but include a page with purchasing instructions and a checkout link. Ensure purchases provide immediate access to the template via a Share link so they can clone it. You can redirect your buyers to the Project or send an automated email. Please include “(Paid)” at the end of the template name.
 
 Learn more about the [Marketplace](../university/marketplace.md).
+
+## Related
+
+- [Marketplace](../university/marketplace.md) – Browse and use marketplace templates
+- [Craft](../university/craft.md) – The recommended standard for building templates
+- [Contributing for Designers](contributing-for-designers.md) – Other ways designers can contribute
+- [Design Tokens](../university/foundations/design-tokens.md) – Create consistent, reusable styles

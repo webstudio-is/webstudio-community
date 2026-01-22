@@ -331,3 +331,11 @@ The contents of `posts.edges.node` in the second query are exactly the same as t
 The rest of the second query provides context about whether there are previous or next pages and introduces filters to fetch the next batch of content.
 
 If you already setup a page using `posts.nodes`, you will need to rebind the values on your page because the Resource response will be different. For example, `Post Item.node.title` instead of `Post Item.title`.
+
+## Related
+
+- [CMS](../foundations/cms.md) – Learn about dynamic pages and Resources in Webstudio
+- [Variables](../foundations/variables.md) – Understand GraphQL Resource variables
+- [Collection](../core-components/collection.md) – Display multiple posts from WordPress
+- [Hygraph Integration](./hygraph.md) – Another GraphQL-based CMS option
+- [Flotiq Integration](./flotiq.md) – Headless CMS with GraphQL API support

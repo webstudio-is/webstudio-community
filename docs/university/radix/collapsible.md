@@ -40,3 +40,10 @@ The Collapsible component is useful for various UI patterns:
 * Mobile navigation menus
 * Detail views that can be expanded/collapsed
 
+## Related
+
+- [Accordion](./accordion.md) – Multiple collapsible sections in a group
+- [Tabs](./tabs.md) – Organize content into switchable panels
+- [Dialog](./dialog.md) – Modal window for focused content
+- [Sheet](./sheet.md) – Sliding panel from screen edge
+

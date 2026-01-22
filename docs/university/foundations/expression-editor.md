@@ -117,3 +117,10 @@ This example looks for the ID of a record. If it’s there, output `200` (we fou
 {% hint style="info" %}
 The exact key to look for will depend on your CMS, but think of something that will always be there if the post/record is found (slug, ID, title).
 {% endhint %}
+
+## Related
+
+- [Data Variables](variables.md) – Define and use data throughout your pages
+- [CMS](cms.md) – Connect to external content management systems
+- [Collection](../core-components/collection.md) – Iterate over data to create dynamic lists
+- [HTML Embed](../core-components/html-embed.md) – Embed custom HTML and scripts

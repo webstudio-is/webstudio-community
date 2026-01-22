@@ -24,3 +24,9 @@ Export your project using one of the [export methods](./#exporting).
 * Upload/commit your project to a GitHub repository
 
 See [GitHub’s installation instructions](https://pages.github.com/) for a comprehensive tutorial.
+## Related
+
+- [Download](./download.md) – Export a static site directly from the Builder
+- [CLI](./cli.md) – Export and build your project using the command line
+- [Cloudflare Pages](./cloudflare-pages.md) – Another platform for static site hosting
+- [Publishing and Custom Domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site

@@ -4,6 +4,8 @@ description: Forms are used for searches, filters, and custom functionality.
 
 # ✍️ Form
 
+> See [MDN: \<form\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+
 {% hint style="warning" %}
 If you need the form submissions to be emailed to you/someone else or sent to a webhook, use [Webhook Form](webhook-form.md).
 {% endhint %}

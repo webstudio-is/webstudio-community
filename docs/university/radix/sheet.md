@@ -96,3 +96,10 @@ A common pattern for responsive navigation:
 2. Show the trigger only on mobile breakpoints
 3. Add your navigation links inside the sheet
 4. Hide the regular navigation on mobile
+
+## Related
+
+- [Dialog](./dialog.md) – Modal window that overlays the page
+- [Popover](./popover.md) – Floating panel for interactive content
+- [Collapsible](./collapsible.md) – Expandable content panel
+- [Navigation Menu](./navigation-menu.md) – Accessible navigation component

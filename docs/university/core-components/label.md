@@ -1,5 +1,7 @@
 # Label
 
+> See [MDN: \<label\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
+
 The **Label** component creates an HTML `<label>` element that provides an accessible name for form controls.
 
 ## Overview

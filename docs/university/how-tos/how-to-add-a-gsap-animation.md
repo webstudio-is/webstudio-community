@@ -44,3 +44,10 @@ Learn more about script scope [here](../core-components/html-embed.md#avoid-crea
 
 [Preview Link](https://simple-gsap-demo.wstd.io/)\
 [Builder Link](https://apps.webstudio.is/builder/623cdb40-24bb-4809-a610-145b6eefcf21?authToken=d0544921-f4bb-4697-a0d8-2efd2a0c4a11\&mode=preview)
+
+## Related
+
+- [Animations](../foundations/animations.md) – Built-in animation capabilities in Webstudio
+- [HTML Embed](../core-components/html-embed.md) – Add custom scripts and code to your pages
+- [Project Settings](../foundations/project-settings.md) – Add global scripts in the custom code section
+- [Variables](../foundations/variables.md) – Use variables for dynamic animation values

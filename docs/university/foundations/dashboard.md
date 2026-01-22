@@ -147,3 +147,10 @@ The Templates section of the Dashboard provides access to pre-built project temp
 4. Clone it to create your own project based on that template
 
 Templates are searchable using the same unified search feature.
+
+## Related
+
+- [Project Settings](project-settings.md) – Configure project-wide settings
+- [Publishing & Custom Domains](publishing-and-custom-domains.md) – Deploy your site and manage domains
+- [Share Links](share-links.md) – Share projects and transfer ownership
+- [Anatomy of the Webstudio Builder](anatomy-of-the-webstudio-builder.md) – Learn the Builder interface

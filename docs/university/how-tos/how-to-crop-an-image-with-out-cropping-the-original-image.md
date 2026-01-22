@@ -68,3 +68,9 @@ For responsive cropping that maintains proportions:
 - Always use `object-fit: cover` when setting fixed dimensions on images
 - Use the **Design** tab to preview how your "crop" looks at different viewport sizes
 - Consider creating multiple crops in your image editor only if you need significantly different compositions for mobile vs desktop
+
+## Related
+
+- [Image](../core-components/image.md) – Learn about the Image component and its properties
+- [Design Tokens](../foundations/design-tokens.md) – Create reusable styles for consistent image sizing
+- [Collection](../core-components/collection.md) – Display cropped images in dynamic lists

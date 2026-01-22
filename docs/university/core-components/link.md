@@ -6,6 +6,8 @@ description: >-
 
 # 🔗 Link
 
+> See [MDN: \<a\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+
 {% embed url="https://www.youtube.com/watch?v=XPzFZ67zRrU" %}
 
 ---

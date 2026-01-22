@@ -107,3 +107,10 @@ Create variations from existing tokens:
 4. Rename and modify the duplicate
 
 This is faster than creating tokens from scratch when building design systems.
+
+## Related
+
+- [CSS Variables](css-variables.md) – Define reusable style values to use within Tokens
+- [Anatomy of the Webstudio Builder](anatomy-of-the-webstudio-builder.md) – Learn about the Style Panel and Style Sources
+- [Project Settings](project-settings.md) – Configure atomic CSS output
+- [Commands & Search](commands-and-search.md) – Quickly manage and search Tokens

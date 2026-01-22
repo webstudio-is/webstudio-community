@@ -17,3 +17,10 @@ Webstudio is not just a tool, but also a community. As an open-source platform, 
 5.  #### Contributing to the Webstudio Brand
 
     If you want to contribute to our brand design or use our brand assets, you can refer to our [Brand Guidelines](https://www.figma.com/community/file/1253220655531199360).
+
+## Related
+
+- [Contributing for Developers](contributing-for-developers.md) – Technical contribution guide
+- [Contributing to the Marketplace](marketplace.md) – Submit templates and sections
+- [Marketplace](../university/marketplace.md) – Browse community-contributed templates
+- [Craft](../university/craft.md) – The standard for building with Webstudio

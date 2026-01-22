@@ -2,6 +2,10 @@
 
 This file contains guidelines and learnings for AI assistants working on the Webstudio documentation repository.
 
+## Git Workflow
+
+**Never push to the repository without the user explicitly asking.** Commit changes but wait for confirmation before pushing.
+
 ## GitBook Structure
 
 ### SUMMARY.md is Critical

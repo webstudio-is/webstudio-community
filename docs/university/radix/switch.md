@@ -51,3 +51,10 @@ Some common states (you can also create custom states):
 - **Unchecked** (`[data-state=unchecked]`) - Switch is off
 - **Disabled** (`:disabled`) - Switch cannot be interacted with
 - **Focus** (`:focus-visible`) - Switch has keyboard focus
+
+## Related
+
+- [Radio Group](./radio-group.md) – Selection from multiple options
+- [Select](./select.md) – Dropdown selection component
+- [Label](./label.md) – Accessible labels for form controls
+- [Form](../core-components/form.md) – Container for form elements and submission handling

@@ -99,3 +99,11 @@ Coolify will automatically detect the changes and trigger a new deployment.
 ---
 
 Now, you should have a website built on Webstudio that is hosted on Hetzner using Coolify, giving you full control over your infrastructure.
+
+## Related
+
+- [CLI](./cli.md) – Export and build your project using the command line
+- [Digital Ocean with Coolify](./digital-ocean-coolify.md) – Similar deployment using Digital Ocean
+- [VPS with Docker](./vps-with-docker.md) – Manual Docker deployment on any VPS
+- [AWS with Flightcontrol](./flightcontrol.md) – Deploy to AWS using Flightcontrol
+- [Publishing and Custom Domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site

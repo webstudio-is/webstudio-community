@@ -81,3 +81,10 @@ For simple icons that don't need color changes:
 2. Upload to Webstudio Assets
 3. Add an Image component and select the uploaded icon
 4. Set appropriate width/height
+
+## Related
+
+- [Image](../core-components/image.md) – Use images for simple icon needs
+- [HTML Embed](../core-components/html-embed.md) – Embed custom SVG code and icon fonts
+- [Design Tokens](../foundations/design-tokens.md) – Create reusable color tokens for icon styling
+- [Variables](../foundations/variables.md) – Use CSS variables to dynamically change icon colors

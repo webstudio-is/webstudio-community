@@ -81,3 +81,11 @@ Some common states (you can also create custom states):
 - **Unchecked** (`[data-state=unchecked]`) - Item is not selected
 - **Disabled** (`:disabled`) - Item cannot be selected
 - **Focus** (`:focus-visible`) - Item has keyboard focus
+
+## Related
+
+- [Select](./select.md) – Dropdown selection for choosing from a list of options
+- [Switch](./switch.md) – Toggle control for binary on/off choices
+- [Label](./label.md) – Accessible labels for form controls
+- [Form](../core-components/form.md) – Container for form elements and submission handling
+- [Collection](../core-components/collection.md) – Generate radio options dynamically from data

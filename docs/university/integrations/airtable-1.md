@@ -66,3 +66,11 @@ To learn more about how to use Airtable's powerful automation tool, refer to the
 ### Conclusion
 
 Airtable's native [automation](https://support.airtable.com/docs/getting-started-with-airtable-automations) features empower users to streamline data entry and enhance data organization. By setting up a webhook action from your Webstudio form to receive external data and automating the mapping process, you eliminate the need for manual data entry, reduce the risk of errors and gain access to all of Airtable's data management features.
+
+## Related
+
+- [Webhook Form](../core-components/webhook-form.md) – The form component used to send data to Airtable
+- [Airtable Frontend](./airtable.md) – Build a complete frontend for Airtable data
+- [Zapier Integration](./zapier.md) – Alternative workflow automation for forms
+- [Pabbly Integration](./pabbly.md) – Another automation option with flat-rate pricing
+- [n8n Integration](./n8n.md) – Open-source automation with visual workflow editor

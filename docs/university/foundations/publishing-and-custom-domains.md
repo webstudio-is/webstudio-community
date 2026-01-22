@@ -267,3 +267,10 @@ Here are the provided records and correct records when adding `example.co.uk`:
 | ----------- | ----------------------- | --------------- |
 | `CNAME`     | `example`               | `@`             |
 | `TXT`       | `_webstudio_is.example` | `_webstudio_is` |
+
+## Related
+
+- [Project Settings](project-settings.md) – Configure redirects and site settings
+- [Share Links](share-links.md) – Share projects and manage permissions
+- [SEO Settings](seo-settings.md) – Optimize your site for search engines
+- [Self-Hosting](../self-hosting/) – Export and host your project independently

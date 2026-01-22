@@ -101,3 +101,11 @@ Currently, Webstudio excels in building super fast, responsive, dynamic websites
 Please [read this article](../misc/webstudio-support-process.md) on where and how to get support.
 
 </details>
+
+## Related
+
+- [Intro](intro.md) – Learn what Webstudio is and who it's for
+- [Courses](courses.md) – Community-made courses for learning Webstudio
+- [Roadmap & Links](roadmap-and-links.md) – Official links and what the team is working on
+- [Webstudio Support Process](../misc/webstudio-support-process.md) – How to get help with your account
+- [Account Limits](../misc/account-limits.md) – View limits for different plan types

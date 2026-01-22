@@ -72,3 +72,10 @@ icon: command
 - Switch between current mode and Preview: `⌘ + shift + c|d`
   - For example, if you are in Design mode, you can press `⌘ + shift + d` and it’ll toggle Preview. You can use the same shortcut to exit Preview.
 - Switch breakpoints: `numbers` (e.g., `1` switches to the first one)
+
+## Related
+
+- [Commands & Search](commands-and-search.md) – Navigate and perform actions with the command palette
+- [Anatomy of the Webstudio Builder](anatomy-of-the-webstudio-builder.md) – Overview of the Builder interface
+- [Modes](modes.md) – Switch between Design, Content, and Preview modes
+- [Design Tokens](design-tokens.md) – Create and manage reusable styles

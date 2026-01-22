@@ -69,3 +69,11 @@ Some commonly used properties (see the Settings panel for all available options)
 | Property        | Description                         |
 | --------------- | ----------------------------------- |
 | **placeholder** | Text shown when nothing is selected |
+
+## Related
+
+- [Radio Group](./radio-group.md) – Selection from visible options
+- [Switch](./switch.md) – Toggle control for binary choices
+- [Form](../core-components/form.md) – Container for form elements and submission handling
+- [Collection](../core-components/collection.md) – Generate select options dynamically from data
+- [Label](./label.md) – Accessible labels for form controls

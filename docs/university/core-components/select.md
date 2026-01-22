@@ -1,5 +1,7 @@
 # Select (Native)
 
+> See [MDN: \<select\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+
 The native **Select** component creates an HTML `<select>` dropdown for choosing one option from a list.
 
 ## Overview

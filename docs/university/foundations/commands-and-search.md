@@ -48,3 +48,11 @@ If you forget a shortcut like renaming an instance, search for the action (e.g.,
 ### Group Counters
 
 Each category in the Commands Panel shows a counter indicating how many items it contains, helping you quickly understand the scope of your project.
+
+## Related
+
+- [Shortcuts](shortcuts.md) – Complete list of keyboard shortcuts
+- [Anatomy of the Webstudio Builder](anatomy-of-the-webstudio-builder.md) – Overview of the Builder interface
+- [Design Tokens](design-tokens.md) – Manage reusable style packages
+- [CSS Variables](css-variables.md) – Manage CSS custom properties
+- [Data Variables](variables.md) – Manage data variables in your project

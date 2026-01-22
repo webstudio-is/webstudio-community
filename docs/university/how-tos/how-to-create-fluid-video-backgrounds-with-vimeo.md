@@ -74,7 +74,9 @@ The video background automatically scales because the container grows with the c
 - **Accessibility**: Don't rely on video content to convey critical information
 - **Fallback**: Add a poster image or background color for loading states
 
-## See Also
+## Related
 
-- [Vimeo Background Video Component](../core-components/vimeo-background-video.md)
-- [Vimeo Component](../core-components/vimeo.md)
+- [Vimeo Background Video](../core-components/vimeo-background-video.md) – Simplified component for video backgrounds
+- [Vimeo](../core-components/vimeo.md) – Embed Vimeo videos with full controls
+- [Image](../core-components/image.md) – Use images as fallback backgrounds
+- [Animations](../foundations/animations.md) – Add motion to your video sections

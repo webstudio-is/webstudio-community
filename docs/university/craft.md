@@ -193,3 +193,11 @@ The library speeds up development while keeping your project clean and fully cus
 This post demonstrates Craft Library getting inserted on two completely different sites:
 
 {% embed url="https://x.com/getwebstudio/status/1895213059251011768" %}
+
+## Related
+
+- [Design Tokens](foundations/design-tokens.md) – Create and manage reusable style tokens
+- [CSS Variables](foundations/css-variables.md) – Use CSS custom properties in Webstudio
+- [Anatomy of the Webstudio Builder](foundations/anatomy-of-the-webstudio-builder.md) – Understand the builder interface
+- [Marketplace](marketplace.md) – Access Craft Library and other templates
+- [Contributing to the Marketplace](../contributing/marketplace.md) – Submit templates built with Craft

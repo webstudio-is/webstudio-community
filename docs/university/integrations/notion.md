@@ -242,3 +242,11 @@ Refer to [this video chapter](https://www.youtube.com/watch?v=j6JcJ32mxLQ?t=1140
 With [Webstudio](https://apps.webstudio.is/dashboard), you can build a Notion site, including a record overview page, a dynamic page displaying each record, and a sitemap – all without writing code!
 
 The flexibility of Resources enables you to fetch exactly what you need from one or more Notion Databases and even multiple systems together (e.g., Airtable for team members, Hygraph for blog posts, and Notion for events).
+
+## Related
+
+- [CMS](../foundations/cms.md) – Learn about dynamic pages and Resources in Webstudio
+- [Variables](../foundations/variables.md) – Understand how to create and use Resource variables
+- [Collection](../core-components/collection.md) – Display multiple records from your data source
+- [Airtable Integration](./airtable.md) – Another popular CMS option for Webstudio
+- [Hygraph Integration](./hygraph.md) – Build a frontend for Hygraph using Webstudio

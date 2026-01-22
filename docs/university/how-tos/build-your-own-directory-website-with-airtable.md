@@ -76,3 +76,11 @@ For newsletter/email collection.
 6. Enable the automation
 
 Test by publishing and submitting the form.
+
+## Related
+
+- [Airtable Integration](../integrations/airtable.md) – Detailed guide on connecting Airtable to Webstudio
+- [CMS](../foundations/cms.md) – Create dynamic content-driven pages
+- [Collection](../core-components/collection.md) – Display and loop through data records
+- [Form](../core-components/form.md) – Capture user submissions
+- [Using Filters to Dynamically Display Content](using-filters-to-dynamically-display-content.md) – Add search and filtering to your directory

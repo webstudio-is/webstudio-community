@@ -7,6 +7,8 @@ description: >-
 
 # 📃 List
 
+> See [MDN: \<ul\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul), [MDN: \<ol\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
+
 {% embed url="https://www.youtube.com/watch?v=oKmMCOVGQOM&t=20s" %}
 
 ### How to use the List Component

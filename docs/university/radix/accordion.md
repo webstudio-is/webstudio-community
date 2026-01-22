@@ -35,3 +35,10 @@ To change the content of an Accordion that isn't currently displayed in the canv
 To create an accordion with a [Collection](/broken/pages/pauhKZIgEF1NC1u9qwLe) that iterates over data and outputs an accordion item for each entry, ensure each item has a unique value set, like this:
 
 <figure><img src="../../.gitbook/assets/accordion-collection.png" alt="accordion collection unique item"><figcaption></figcaption></figure>
+
+## Related
+
+- [Collapsible](./collapsible.md) – Single expandable/collapsible panel
+- [Tabs](./tabs.md) – Organize content into switchable panels
+- [Dialog](./dialog.md) – Modal window for focused content
+- [Collection](../core-components/collection.md) – Generate accordion items dynamically from data

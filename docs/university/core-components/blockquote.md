@@ -1,5 +1,7 @@
 # 💬 Blockquote
 
+> See [MDN: \<blockquote\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
+
 {% embed url="https://www.youtube.com/watch?v=reVman0DMWM" %}
 
 The Blockquote Component is used to highlight quoted content on a webpage, enhancing its impact and readability. You can use it in your Webstudio project to emphasize text that has been taken directly from another source, such as quotes, excerpts, or references.

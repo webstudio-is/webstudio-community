@@ -56,3 +56,10 @@ Pabbly Connect is a workflow automation platform similar to Zapier. It allows yo
 - Mailchimp – Add to email lists
 - Slack/Discord – Get notifications
 - CRM systems – Create contacts
+
+## Related
+
+- [Webhook Form](../core-components/webhook-form.md) – The form component used to send data to Pabbly
+- [Zapier Integration](./zapier.md) – Alternative workflow automation platform
+- [n8n Integration](./n8n.md) – Open-source automation tool with visual editor
+- [Airtable Form Integration](./airtable-1.md) – Send form submissions directly to Airtable

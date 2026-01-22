@@ -37,3 +37,10 @@ No longer available for purchase.
 | AppSumo T2 | 25           | 500k           |
 | AppSumo T3 | 50           | 1M             |
 | AppSumo T4 | unlimited    | 2M             |
+
+## Related
+
+- [Webstudio Support Process](webstudio-support-process.md) – Get help with account upgrades and issues
+- [Publishing & Custom Domains](../university/foundations/publishing-and-custom-domains.md) – Connect domains to your projects
+- [Dashboard](../university/foundations/dashboard.md) – Manage your projects and account
+- [FAQs](../basics/FAQ.md) – Common questions about Webstudio
