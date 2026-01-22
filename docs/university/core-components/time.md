@@ -82,3 +82,9 @@ Time renders as a `<time>` element with a `datetime` attribute:
 ```
 
 This helps search engines and assistive technologies understand the date.
+
+## Related
+
+- [XML Time](xml-time.md) – ISO format for RSS/XML feeds
+- [Collection](collection.md) – Display dates from CMS data
+- [Variables](../foundations/variables.md) – Bind dynamic date values

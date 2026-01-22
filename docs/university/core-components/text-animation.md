@@ -49,3 +49,10 @@ in a Text Component and split the text by spaces, it will appear as:
 ```
 
 Now the parent Animation Group can effectively target each word individually.
+
+## Related
+
+- [Animation Group](animation-group.md) – Required parent for animations
+- [Stagger Animation](stagger-animation.md) – Stagger child animations
+- [Heading](heading.md) – Headings to animate
+- [Paragraph](paragraph.md) – Text to animate

@@ -108,3 +108,9 @@ You can’t delete the template itself, so you can always add it back.
 {% endhint %}
 
 Beyond adding new content, you can edit any of the existing content. See [Content mode](../foundations/modes.md#content) for more information.
+
+## Related
+
+- [Slot](slot.md) – Reusable component slots
+- [Modes](../foundations/modes.md) – Builder modes including Content mode
+- [Collection](collection.md) – Iterate over dynamic data

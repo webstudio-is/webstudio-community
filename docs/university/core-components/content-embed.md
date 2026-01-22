@@ -59,3 +59,9 @@ If there is no need to apply styles to the contained HTML, then use the [HTML Em
 {% content-ref url="markdown-embed.md" %}
 [markdown-embed.md](markdown-embed.md)
 {% endcontent-ref %}
+
+## Related
+
+- [Markdown Embed](markdown-embed.md) – Render markdown content
+- [Collection](collection.md) – Loop through CMS data
+- [HTML Embed](html-embed.md) – Embed custom HTML

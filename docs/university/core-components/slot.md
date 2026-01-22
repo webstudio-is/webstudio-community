@@ -50,3 +50,9 @@ If you need a new unique Slot instance, simply add a new Slot from the Add panel
 ### Conclusion
 
 With Slots you can re-use content across your site and sync the changes you make to them.
+
+## Related
+
+- [Content Block](content-block.md) – Editable content areas
+- [Element](element.md) – HTML element containers
+- [Collection](collection.md) – Dynamic content iteration

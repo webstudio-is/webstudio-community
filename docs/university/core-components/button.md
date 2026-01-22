@@ -58,3 +58,9 @@ Some common states (you can also create custom states):
 - **Focus** (`:focus-visible`) - Keyboard focused
 - **Active** (`:active`) - Being pressed
 - **Disabled** (`:disabled`) - Cannot be clicked
+
+## Related
+
+- [Form](form.md) – Form containers for submissions
+- [Link](link.md) – Navigation links
+- [Input](input.md) – Text input fields

@@ -107,3 +107,11 @@ To apply state-specific styles, select the input element, open the state dropdow
 ## Bot Protection
 
 Webstudio forms include built-in bot protection to prevent spam submissions. This protection works automatically without requiring any additional configuration – no CAPTCHAs needed. The system analyzes submission patterns to distinguish between legitimate users and automated bots.
+
+## Related
+
+- [Form](form.md) – Standard HTML forms
+- [Input](input.md) – Text input fields
+- [Button](button.md) – Submit buttons
+- [n8n Integration](../integrations/n8n.md) – Automate form workflows
+- [Zapier Integration](../integrations/zapier.md) – Connect to other apps

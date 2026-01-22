@@ -16,3 +16,9 @@ Video Animation is one component of the animation engine. See [Animations](../fo
 Just remember that you'll need to wrap the Video Animation component in an Animation Group to define and control the actual animation behavior. The Animation Group must be the **direct** **parent** of the Video Animation.
 {% endhint %}
 
+## Related
+
+- [Animation Group](animation-group.md) – Required parent for video animation
+- [Vimeo](vimeo.md) – Embed Vimeo videos
+- [YouTube](youtube.md) – Embed YouTube videos
+

@@ -185,3 +185,9 @@ It works for both simple and complex animations, but maintainability can suffer 
 In this pattern, the Animation Group animates custom properties ([CSS variables](../foundations/css-variables.md)), such as `--child-rotate: 50deg`. These properties are both defined and applied in the Style Panel, unlocking features like UI controls and [Tokens](../foundations/design-tokens.md) for reusability.
 
 Beyond accessing Style Panel capabilities, this pattern offers another major advantage: only a single Animation Group is needed for the entire composition. The Animation Group controls the _values_ of the CSS variables, not _where_ they’re applied. In contrast, the direct style pattern manages both values and their application (the group’s direct children).
+## Related
+
+- [Stagger Animation](stagger-animation.md) – Stagger animations across multiple children
+- [Text Animation](text-animation.md) – Split text for character/word animations
+- [Video Animation](video-animation.md) – Control video playback with scroll
+- [Animations](../foundations/animations.md) – Animation concepts and workflows

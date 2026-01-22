@@ -68,3 +68,9 @@ Here is a list of relevant docs:
 * [Title (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 * [Rel (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel)
 * [Pagination (Google)](https://developers.google.com/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading)
+
+## Related
+
+- [SEO Settings](../foundations/seo-settings.md) – Page-level SEO configuration
+- [Project Settings](../foundations/project-settings.md) – Global project configuration
+- [HTML Embed](html-embed.md) – Custom HTML in body

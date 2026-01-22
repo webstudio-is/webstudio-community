@@ -24,3 +24,8 @@ And done! Now you have a background video on this section of your site.
    ![Vimeo background image optimization step 1](../../.gitbook/assets/university/BG\_video\_step\_6.avif)
 2. You can also hide or remove the Spinner on your output video for a more polished result. To hide it, select the Spinner instance from your Vimeo instance, head over to the Settings section and toggle off the “Show” option: \
    ![Vimeo background image optimization step 2](../../.gitbook/assets/university/BG\_video\_step\_7.avif)
+## Related
+
+- [Vimeo](vimeo.md) – Standard Vimeo embeds
+- [YouTube](youtube.md) – YouTube video embeds
+- [Image](image.md) – Static background images

@@ -36,4 +36,10 @@ To include the static sitemap data in your custom sitemap, follow these steps:
 4.  Fetch the static data by clicking Create Variable > System Resource (Type) > Sitemap (Resource)&#x20;
 
     <figure><img src="../../.gitbook/assets/static-sitemap-data.png" alt=""><figcaption></figcaption></figure>
-5. Use a [Collection](/broken/pages/pauhKZIgEF1NC1u9qwLe) to iterate over the static sitemap data
+5. Use a [Collection](collection.md) to iterate over the static sitemap data
+
+## Related
+
+- [XML Time](xml-time.md) – ISO date formatting for feeds
+- [Collection](collection.md) – Iterate over feed items
+- [Head Slot](head-slot.md) – Add meta tags

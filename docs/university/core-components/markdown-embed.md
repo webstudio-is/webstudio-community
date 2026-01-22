@@ -49,3 +49,9 @@ The difference is in markup, we are not mapping every element to a Webstudio Com
 {% content-ref url="content-embed.md" %}
 [content-embed.md](content-embed.md)
 {% endcontent-ref %}
+
+## Related
+
+- [Content Embed](content-embed.md) – Render rich text/HTML
+- [HTML Embed](html-embed.md) – Custom HTML code
+- [Collection](collection.md) – Loop through CMS data

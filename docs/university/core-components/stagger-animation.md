@@ -21,3 +21,9 @@ Controls how many child elements animate concurrently during the stagger effect.
 * **`0`**: Disables the transition animation for each element. Elements **appear instantly** one after the other in sequence.
 * **`1`**: Classic stagger effect. Only **one** element animates (with its transition, e.g., fade-in) at any given time.
 * **`> 1`**: Overlapping stagger effect. **Multiple** elements animate concurrently. The number specifies the maximum elements animating simultaneously (e.g., `3` means up to three animate at once), creating a smoother, wave-like reveal.
+
+## Related
+
+- [Animation Group](animation-group.md) – Parent container for animations
+- [Text Animation](text-animation.md) – Animate text by character/word
+- [Collection](collection.md) – Dynamic lists to animate

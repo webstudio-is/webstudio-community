@@ -73,3 +73,9 @@ Here's a helpful tip: If you have an image in the initial viewport, always set i
 #### Optimize
 
 The "optimize" property lets you control if the image will go through the image transformation process including resizing, converting, and compressing it. This setting works on first and third-party images (e.g., images that come from a headless CMS). In rare scenarios, the user may want to turn this off.
+
+## Related
+
+- [Vimeo](vimeo.md) – Embed Vimeo videos
+- [YouTube](youtube.md) – Embed YouTube videos
+- [Link](link.md) – Make images clickable

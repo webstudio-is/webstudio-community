@@ -90,3 +90,9 @@ For background videos or custom player designs, you may want to hide default ele
 3. Repeat for the **Play Button** if desired
 
 This creates a clean video background without visible controls.
+
+## Related
+
+- [Vimeo Background Video](vimeo-background-video.md) – Full background video setup
+- [YouTube](youtube.md) – YouTube video embeds
+- [Video Animation](video-animation.md) – Scroll-controlled video

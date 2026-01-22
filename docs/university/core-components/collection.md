@@ -105,3 +105,10 @@ Tab Triggers and Tab Contents maintain their relationship by having the same val
 </div>
 
 Also, you can change the default value on the Tabs instance by binding the first value in the collection to it.
+
+## Related
+
+- [Content Embed](content-embed.md) – Render rich text from CMS
+- [Markdown Embed](markdown-embed.md) – Render markdown content
+- [Variables](../foundations/variables.md) – Dynamic data binding
+- [CMS](../foundations/cms.md) – Content management integration

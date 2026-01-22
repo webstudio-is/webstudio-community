@@ -54,3 +54,9 @@ If you want to include a Name/Title as a citation alongside your Blockquote:
 3. Double-click the "Cite" instance on your canvas to edit it and add your citation.
 
 Please note that this value will appear as italicized text to the end-user.
+
+## Related
+
+- [Paragraph](paragraph.md) – Standard text paragraphs
+- [Text](text.md) – Inline text styling
+- [Heading](heading.md) – Section headings

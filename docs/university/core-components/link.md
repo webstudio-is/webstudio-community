@@ -71,3 +71,9 @@ You can add any Webstudio component inside a Link element to make it clickable �
 When using links for navigation and wanting to highlight the current page, the link component has a "Local Link" state in every style source.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 11.36.02.png" alt=""><figcaption></figcaption></figure>
+
+## Related
+
+- [Button](button.md) – Clickable action buttons
+- [Element](element.md) – Generic HTML elements
+- [Navigation Menu](../radix/navigation-menu.md) – Navigation with dropdowns

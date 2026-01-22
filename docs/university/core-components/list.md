@@ -58,3 +58,8 @@ To use the Start property on your list, enable the ‘Ordered’ property first 
 The Reversed property reverses the order in which list items are numbered. This is effective for countdowns, rankings, or any content that benefits from a reverse order.
 
 To use the Reversed property on your list, enable the ‘Ordered’ property first if your list items are in bullet points.
+## Related
+
+- [Collection](collection.md) – Dynamic lists from data
+- [Paragraph](paragraph.md) – Text paragraphs
+- [Separator](separator.md) – Divide content sections

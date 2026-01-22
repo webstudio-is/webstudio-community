@@ -125,3 +125,9 @@ The Element component provides more flexibility than the Box component:
 {% hint style="success" %}
 For building semantic, accessible websites, prefer Element over Box when you need specific HTML tags.
 {% endhint %}
+
+## Related
+
+- [Slot](slot.md) – Create reusable component slots
+- [Link](link.md) – Navigation and anchor elements
+- [HTML Embed](html-embed.md) – Custom HTML code
