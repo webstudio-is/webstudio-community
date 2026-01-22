@@ -98,7 +98,7 @@ To share your staging site:
 
 1. Open the publish dialog
 2. Copy the staging link — it already contains the login credentials embedded in the URL
-3. Share this link with your team or client
+3. Share this link with your team or client — they'll be automatically authenticated without needing to enter credentials
 
 {% hint style="info" %}
 Click on the staging domain section in the publish dialog to view the username and password separately if needed.
