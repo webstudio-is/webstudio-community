@@ -6,8 +6,6 @@ icon: mobile-screen
 
 # Responsive Design
 
-{% embed url="https://www.youtube.com/watch?v=gxCAfWdULzw" %}
-
 Webstudio uses a mobile-first approach with customizable breakpoints to create responsive designs. Styles cascade from larger to smaller breakpoints, allowing you to progressively enhance designs for bigger screens.
 
 ## Understanding Breakpoints
@@ -110,3 +108,7 @@ Use these CSS properties for flexible layouts:
 {% hint style="warning" %}
 When you select a breakpoint and make style changes, those changes affect the current breakpoint AND all smaller breakpoints (unless overridden).
 {% endhint %}
+
+## Related Videos
+
+{% embed url="https://www.youtube.com/watch?v=gxCAfWdULzw" %}

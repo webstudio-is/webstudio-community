@@ -2,8 +2,6 @@
 
 > See [MDN: \<time\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)
 
-{% embed url="https://www.youtube.com/watch?v=EznQsyS5M5A" %}
-
 The Time component displays formatted dates and times with support for localization. It renders a semantic `<time>` HTML element and allows you to format dates according to different languages, countries, and formats.
 
 ## When to Use
@@ -90,3 +88,7 @@ This helps search engines and assistive technologies understand the date.
 - [XML Time](xml-time.md) – ISO format for RSS/XML feeds
 - [Collection](collection.md) – Display dates from CMS data
 - [Variables](../foundations/variables.md) – Bind dynamic date values
+
+## Related Videos
+
+{% embed url="https://www.youtube.com/watch?v=EznQsyS5M5A" %}

@@ -2,8 +2,6 @@
 
 > Based on [Radix Navigation Menu](https://www.radix-ui.com/primitives/docs/components/navigation-menu)
 
-{% embed url="https://www.youtube.com/watch?v=1xSrvEkXWws" %}
-
 The Navigation Menu component creates accessible, multi-level navigation with dropdown menus. It's ideal for website headers with organized sections of links.
 
 ## When to Use
@@ -82,3 +80,7 @@ For large navigation with multiple columns:
 2. Add multiple columns with Link groups
 3. Optionally add featured content or images
 4. Use the Viewport to control the dropdown container
+
+## Related Videos
+
+{% embed url="https://www.youtube.com/watch?v=1xSrvEkXWws" %}

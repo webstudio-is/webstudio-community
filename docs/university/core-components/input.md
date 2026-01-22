@@ -1,7 +1,5 @@
 # Input
 
-{% embed url="https://www.youtube.com/watch?v=SOd7V8A9SOw" %}
-
 The **Input** component creates an HTML `<input>` element for collecting user data in forms.
 
 ## Overview
@@ -137,3 +135,7 @@ Common `autocomplete` values:
 - [Label](label.md) - Input labels
 - [Textarea](textarea.md) - Multi-line text input
 - [Select](select.md) - Dropdown selection
+
+## Related Videos
+
+{% embed url="https://www.youtube.com/watch?v=SOd7V8A9SOw" %}
