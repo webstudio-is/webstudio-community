@@ -92,7 +92,7 @@ When publishing the site, optionally select the domain(s) you want to publish to
 
 ### Staging Password Protection
 
-All staging sites are protected by password by default. This protection cannot be removed — it's a platform security measure to prevent phishing attacks that could impersonate Webstudio-built sites.
+All staging sites are protected by password by default. This protection cannot be removed — it's a platform security measure to prevent bad actors from using Webstudio staging domains for phishing attacks impersonating other brands, which is illegal and can result in Webstudio domains being blocked.
 
 To access your staging site:
 
