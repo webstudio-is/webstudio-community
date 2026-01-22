@@ -47,7 +47,20 @@ Here’s what you need to know:
 * Users on the Pro tier can create a [Share Link](share-links.md) with “Content” permission
 * Editors can perform [these actions](modes.md#allowed-actions)
 * You can create templates that editors can insert with [Content Blocks](../core-components/content-block.md)
+#### Creating a Content mode share link
 
+1. Go to **Share** in the top bar
+2. Create a new share link
+3. Check "Content mode" option
+4. Optionally enable/disable publish permission for the client
+
+#### Testing Content mode
+
+You can quickly switch to Content mode using the mode dropdown arrow next to Design in the top bar — useful for testing what clients will see before sharing the link.
+
+#### Templates
+
+Templates cannot be deleted by editors. Even if all instances of a template are removed, the template itself remains available for editors to add again. Make sure templates include complete styling since editors don't have access to the Style panel.
 ### For editors
 
 With Content mode, you can dive right in and edit the website without feeling overwhelmed or risking any changes to the site that could cause issues.

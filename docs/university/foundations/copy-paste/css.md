@@ -46,6 +46,6 @@ You can paste HTML with Tailwind CSS classes, and Webstudio will automatically c
 
 This is especially useful when:
 
-* Using AI tools that generate Tailwind-based HTML
-* Migrating from Tailwind projects
-* Using Tailwind component libraries as a starting point
+- Using AI tools that generate Tailwind-based HTML
+- Migrating from Tailwind projects
+- Using Tailwind component libraries as a starting point

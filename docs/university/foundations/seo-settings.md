@@ -61,3 +61,23 @@ The social image you add to your homepage will be used as the cover image for th
 
 * **Custom Meta Tags**: Add additional Meta Tags your page for further search and social customization.
 * **Custom Head**: Visually customize the head on a per-page basis with [Head Slot](../core-components/head-slot.md).
+
+## 🐦 Twitter Card Customization
+
+To customize how your content appears when shared on Twitter/X:
+
+1. Go to **Page Settings → Custom Meta Tags**
+2. Add a meta tag with:
+   * Property: `twitter:card`
+   * Content: `summary_large_image` (for large image cards)
+
+## 🔧 Debugging Social Sharing
+
+Social platforms cache sharing previews. To clear caches and test your changes:
+
+* **Facebook**: [Sharing Debugger](https://developers.facebook.com/tools/debug/)
+* **Twitter/X**: [Card Validator](https://cards-dev.twitter.com/validator)
+
+{% hint style="info" %}
+When you publish to a custom domain, staging and webstudio domains are automatically de-indexed from search engines.
+{% endhint %}

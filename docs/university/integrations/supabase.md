@@ -15,25 +15,49 @@ To create pages featuring dynamic content in Webstudio by integrating Supabase a
 1. Sign up for a free Supabase account.
 2. Create a new project. (You'll need to set a strong password for your project to proceed).
 3. Once your project is initialized, navigate to the table editor to create a new table
-4. Define your fields
+4. Define your fields (e.g., text fields for name, testimonial content, and an image URL field)
 
 ***
 
 ### Uploading Images to Supabase Storage
 
-* Create a new bucket - set it as public, and upload your images.
-* Each image will have a URL
+1. Go to **Storage** in your Supabase dashboard
+2. Create a new bucket and set it as **public**
+3. Upload your images
+4. Each image will have a URL you can copy and store in your table
+
+***
+
+### Configuring Row Level Security (RLS)
+
+1. Navigate to your table → "No active RLS policies"
+2. Create a new policy
+3. Enable **read access** for everyone (anonymous users)
+4. Save the policy
 
 ***
 
 ### Integrating Supabase with Webstudio
 
-To connect Supabase to Webstudio, you'll need to set up Row Level Security (RLS) policies for your table and obtain your API URL from Supabase's API docs.
+#### Getting the API URL
 
-1. **Creating RLS Policies**: Navigate to the RLS policies section in Supabase and create a new policy that allows read access for everyone.
-2. **Retrieving the API URL**: Find your table in the API docs, switch the example code to bash, and copy the URL provided.
+1. Go to **Table Editor** → select your table
+2. Click **API** (at the top right of the table view)
+3. Switch the example code to **bash**
+4. Copy the URL provided
 
-In Webstudio, select your container and add a new collection component. Configure a collection variable with the Supabase API URL, ensuring the request is authenticated with your Supabase API key.
+#### Adding the Resource Variable
+
+1. In Webstudio, select your Collection's parent element
+2. Go to **Settings → Add Variable → Type: Resource**
+3. Paste the API URL
+4. Add a Header:
+   * Name: `apikey`
+   * Value: Your public API key from **Project Settings → API**
+
+{% hint style="info" %}
+The API key stays between you and the builder and is not exposed on the frontend.
+{% endhint %}
 
 ***
 
@@ -44,6 +68,8 @@ Map the data from Supabase to your Webstudio project. This involves setting up t
 * Delete any automatically generated preview box within the collection.
 * Drag in your pre-created and pre-styled components, which will be repeated for each fetched item from Supabase.
 * For each component (e.g., paragraph, field, and image), bind the corresponding data from your Supabase collection.
+* Use `.data` to access the actual content (e.g., `resource.data`)
+* When binding inside a Collection, use `collectionItem` instead of the resource name
 * Once everything is connected and data is properly mapped, your page will dynamically display the testimonials stored in Supabase.
 
 Make sure to check the responsiveness and appearance on mobile devices before publishing.

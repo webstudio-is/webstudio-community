@@ -2,7 +2,7 @@
 
 The Element component is a versatile component that can represent any HTML element. It provides the flexibility to create semantic HTML structures with any tag type while maintaining full styling capabilities.
 
-***
+---
 
 ## How to Use the Element Component
 
@@ -10,13 +10,14 @@ The Element component can be found in **Components > General**, and you can plac
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt="" width="278"><figcaption><p>Components panel</p></figcaption></figure>
 
-***
+---
 
 ## Available Tags
 
 The Element component can be rendered as many HTML tags, including but not limited to:
 
 ### Container Elements
+
 - `div` (default) – Generic container
 - `section` – Document section
 - `article` – Self-contained content
@@ -27,18 +28,22 @@ The Element component can be rendered as many HTML tags, including but not limit
 - `nav` – Navigation section
 
 ### Text Elements
+
 - `span` – Inline container
 - `p` – Paragraph (rendered as block)
 
 ### List Elements
+
 - `ul` – Unordered list
 - `ol` – Ordered list
 - `li` – List item
 
 ### Link Element
+
 - `a` – Anchor/link (shows href and target properties)
 
 ### Table Elements
+
 - `table` – Table container
 - `thead` – Table header group
 - `tbody` – Table body group
@@ -48,6 +53,7 @@ The Element component can be rendered as many HTML tags, including but not limit
 - `td` – Table data cell
 
 ### Other Elements
+
 - `address` – Contact information
 - `figure` – Figure with optional caption
 - `figcaption` – Figure caption
@@ -56,7 +62,7 @@ The Element component can be rendered as many HTML tags, including but not limit
 - `dt` – Description term
 - `dd` – Description details
 
-***
+---
 
 ## Changing the Tag
 
@@ -66,7 +72,7 @@ You can change the HTML tag of the Element by opening the **Settings Panel** loc
 
 The tag dropdown shows all available HTML elements you can use. When you change the tag, the component's properties automatically update to show relevant attributes for that element type.
 
-***
+---
 
 ## Tag Labels in Navigator
 
@@ -76,12 +82,14 @@ When viewing Elements in the Navigator, the component label displays the HTML ta
 You can rename Elements in the Navigator by double-clicking to give them more descriptive names like "Hero Section" or "Main Navigation" while still maintaining the correct HTML tag.
 {% endhint %}
 
-***
+---
 
 ## Use Cases
 
 ### Semantic HTML Structure
+
 Use Element to create proper HTML5 semantic markup:
+
 - `header` for site headers
 - `nav` for navigation menus
 - `main` for primary content
@@ -90,26 +98,29 @@ Use Element to create proper HTML5 semantic markup:
 - `footer` for footers
 
 ### Custom Tables
+
 Build accessible data tables using Element with table-related tags (`table`, `thead`, `tbody`, `tr`, `th`, `td`).
 
 ### Description Lists
+
 Create glossaries or key-value displays with `dl`, `dt`, and `dd` tags.
 
 ### Links with Full Control
+
 Use the `a` tag to create links with full styling control and access to the href and target properties.
 
-***
+---
 
 ## Element vs Box
 
 The Element component provides more flexibility than the Box component:
 
-| Feature | Element | Box |
-|---------|---------|-----|
-| Tag options | Any HTML tag | div only |
-| Semantic HTML | ✅ Full support | ❌ Limited |
-| Navigator label | Shows HTML tag | Shows "Box" |
-| Use case | Semantic structure | Quick containers |
+| Feature         | Element            | Box              |
+| --------------- | ------------------ | ---------------- |
+| Tag options     | Any HTML tag       | div only         |
+| Semantic HTML   | ✅ Full support    | ❌ Limited       |
+| Navigator label | Shows HTML tag     | Shows "Box"      |
+| Use case        | Semantic structure | Quick containers |
 
 {% hint style="success" %}
 For building semantic, accessible websites, prefer Element over Box when you need specific HTML tags.

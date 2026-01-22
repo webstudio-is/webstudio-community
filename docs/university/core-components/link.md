@@ -52,6 +52,20 @@ You can use the "Target" property to modify a link instance's behavior and defin
    \
    On the other hand, selecting "Top" will open the link instance in the top-level window, replacing all frames if there are any. This is useful when you want to break out of any frames and provide a full-page experience.
 
+### Prefetch
+
+The "Prefetch" property enables near-instant page transitions by preloading linked pages before the user clicks. This dramatically improves perceived navigation speed.
+
+1. **Intent**: The browser loads the destination page when the user hovers over the link. This is ideal for most links as it balances performance with resource usage.
+2. **Render**: The browser loads all destination pages as soon as the current page renders. Best for simple pages or funnels with very few links.
+3. **Viewport**: The browser loads the destination page when the link enters the user's viewport. Good for links that appear below the fold.
+
+For most websites, use "Intent" or "Viewport" to provide fast navigation without overloading the browser with pages to preload.
+
+## Wrapping Components in Links
+
+You can add any Webstudio component inside a Link element to make it clickable — images, videos, text, buttons, or even custom HTML embeds. Simply drag the component into the Link or wrap existing content by selecting it and using the Link component.
+
 ## How to style the current page state
 
 When using links for navigation and wanting to highlight the current page, the link component has a "Local Link" state in every style source.

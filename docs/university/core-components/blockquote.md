@@ -14,6 +14,15 @@ Once the component is placed on your canvas, you can customize its appearance us
 
 For more on Design Tokens in Webstudio, refer to [this guide](../foundations/design-tokens.md).
 
+### Styling a Blockquote
+
+By default, Blockquote components include padding on the left and right, along with a left border. You can customize these in the Style panel:
+
+* **Border**: Adjust the border width and color under Border settings to match your brand
+* **Padding**: Modify the default padding to adjust spacing around your quote text
+
+When using a Cite tag inside your blockquote, you may want to change its display property from "inline" to "block" to position the citation on its own line below the quote.
+
 ***
 
 ### How to attribute a Blockquote

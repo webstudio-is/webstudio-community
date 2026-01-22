@@ -53,9 +53,27 @@ Here’s how you can use the following properties:&#x20;
   If you enable the “AutoPlay” property, your video will start playing automatically when the player loads.
 * **Background Mode**\
   When enabled, the “Background Mode” property will hide the Vimeo Player’s controls, loop the embedded video and play it automatically.
+* **Loop**\
+  When enabled, the video will automatically restart when it reaches the end.
+* **Muted**\
+  Start the video with audio muted. Required for autoplay to work in most browsers.
+* **Quality**\
+  Set to "Auto" to let the player adapt video quality based on the viewer's bandwidth, or choose a fixed quality like 720p or 1080p.
 * **Do Not Track**\
-  If you enable the “Do Not Track” property, the Vimeo Player will not be able to track session data, such as cookies. It is important to note that video statistics, such as the number of views, would also no longer be recorded.
+  If you enable the "Do Not Track" property, the Vimeo Player will not be able to track session data, such as cookies. It is important to note that video statistics, such as the number of views, would also no longer be recorded.
 * **Controls Color**\
-  With the “Controls Color” property, you can customize the colors of the Vimeo Player’s controls on your site to match your brand identity.
+  With the "Controls Color" property, you can customize the colors of the Vimeo Player's controls on your site to match your brand identity. This affects the pause button, progress bar, and other player controls.
 * **Other Properties**\
-  You can customize your Vimeo component further by adding [other properties](https://developer.vimeo.com/player/sdk/embed) that are not listed in the “Properties” section by default.
+  You can customize your Vimeo component further by adding [other properties](https://developer.vimeo.com/player/sdk/embed) that are not listed in the "Properties" section by default.
+
+### Customizing the Play Button and Spinner
+
+The Vimeo component includes customizable child instances:
+
+1. **Preview Image**: Replace Vimeo's default preview with your own image
+2. **Spinner**: Style or hide the loading spinner
+3. **Play Button**: Contains a Box and Play Icon
+   * Style the Box (background color, border-radius, etc.)
+   * Replace the Play Icon's SVG code in the HTML Embed
+   * Set icon width/height to 100% for flexible sizing
+   * Change the Play Icon's color via typography color on its parent

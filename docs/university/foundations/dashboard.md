@@ -8,7 +8,7 @@ description: >-
 
 The Dashboard is the first screen you see after logging into Webstudio. It provides an overview of all your projects and templates, with powerful features for organization and quick access.
 
-***
+---
 
 ## Search
 
@@ -27,7 +27,7 @@ The search works across both your projects and starter templates, displaying res
 Search is performed client-side for instant results, making it snappy even with many projects.
 {% endhint %}
 
-***
+---
 
 ## Project Tags
 
@@ -42,15 +42,15 @@ Tags help you organize and categorize your projects for easier management. This 
 
 ### Tag Features
 
-* **Color-coded tags** – Each tag can have a distinct color for visual organization
-* **Multiple tags per project** – Assign as many tags as needed to a single project
-* **Filter by tags** – Click a tag in the sidebar to filter projects by that tag
-* **Edit tags** – Rename or change the color of existing tags
-* **Delete tags** – Remove tags you no longer need
+- **Color-coded tags** – Each tag can have a distinct color for visual organization
+- **Multiple tags per project** – Assign as many tags as needed to a single project
+- **Filter by tags** – Click a tag in the sidebar to filter projects by that tag
+- **Edit tags** – Rename or change the color of existing tags
+- **Delete tags** – Remove tags you no longer need
 
 Tags appear on project cards, making it easy to see project categories at a glance.
 
-***
+---
 
 ## View Options
 
@@ -59,49 +59,52 @@ The Dashboard supports two different view layouts to suit your preference:
 ### Grid View (Card View)
 
 The default view displays projects as visual cards with:
-* Project thumbnail/preview
-* Project name
-* Custom domain (if configured)
-* Assigned tags
-* Quick action buttons
+
+- Project thumbnail/preview
+- Project name
+- Custom domain (if configured)
+- Assigned tags
+- Quick action buttons
 
 ### List View
 
 A compact view that displays projects in rows with:
-* Project thumbnail (smaller)
-* Project name
-* Domain information
-* Tags
-* Last published date
-* Created date
+
+- Project thumbnail (smaller)
+- Project name
+- Domain information
+- Tags
+- Last published date
+- Created date
 
 Switch between views using the view toggle buttons in the toolbar.
 
-***
+---
 
 ## Sorting Projects
 
 Projects can be sorted in multiple ways to help you find what you need:
 
-* **Last published** – Projects sorted by most recent publication date
-* **Last edited** – Projects sorted by most recent changes (default)
-* **Name (A-Z)** – Alphabetically ascending
-* **Name (Z-A)** – Alphabetically descending
-* **Date created** – Projects sorted by creation date
+- **Last published** – Projects sorted by most recent publication date
+- **Last edited** – Projects sorted by most recent changes (default)
+- **Name (A-Z)** – Alphabetically ascending
+- **Name (Z-A)** – Alphabetically descending
+- **Date created** – Projects sorted by creation date
 
 Click the sort dropdown in the toolbar to change the sorting order. Your preference is remembered across sessions.
 
-***
+---
 
 ## Custom Domain Display
 
 When a project has a custom domain configured, the domain is displayed on the project card. This makes it easy to identify which projects are live and what their public URLs are without opening each project.
 
 The domain display shows:
-* Custom domain (e.g., `example.com`) if configured
-* Default Webstudio subdomain otherwise
 
-***
+- Custom domain (e.g., `example.com`) if configured
+- Default Webstudio subdomain otherwise
+
+---
 
 ## Project Settings from Dashboard
 
@@ -113,24 +116,26 @@ You can access project settings directly from the Dashboard without opening the 
 
 This allows you to quickly update project metadata, configure redirects, manage custom code, and adjust other settings without loading the full Builder interface.
 
-***
+---
 
 ## Project Actions
 
 From the Dashboard, you can perform several actions on your projects:
 
 ### Quick Actions (hover over card)
-* **Open** – Open the project in the Builder
-* **Tags** – Manage project tags
-* **Menu** – Access more options
+
+- **Open** – Open the project in the Builder
+- **Tags** – Manage project tags
+- **Menu** – Access more options
 
 ### Menu Actions
-* **Settings** – Open project settings dialog
-* **Duplicate** – Create a copy of the project
-* **Share** – Create a share link
-* **Delete** – Remove the project (with confirmation)
 
-***
+- **Settings** – Open project settings dialog
+- **Duplicate** – Create a copy of the project
+- **Share** – Create a share link
+- **Delete** – Remove the project (with confirmation)
+
+---
 
 ## Starter Templates
 

@@ -19,6 +19,33 @@ While Craft is not mandatory, it’s the recommended way to build in Webstudio.
 
 Here are the standards and guidelines of Craft.
 
+## Getting Started with Craft
+
+1. Go to **Marketplace → Pages → Craft**
+2. Insert the Style Guide page
+3. Customize your color palette variables on Global Root
+4. Map semantic variables (`--foreground-primary`, `--background-primary`, etc.) to your brand colors
+5. Start building pages using the predefined variables
+
+## Switching Between Light and Dark Themes
+
+Because Craft uses semantic variables like `--foreground-primary` and `--background-primary`, you can switch an entire site from light to dark mode by changing just \~6 variable values.
+
+**Example:** Swap `--foreground-primary` from a dark color to light, and `--background-primary` from light to dark.
+
+{% hint style="info" %}
+Webstudio supports pasting CSS, so you can prepare your theme variables in a text editor and paste them into Global Root.
+{% endhint %}
+
+## Page Template Workflow
+
+The Craft style guide includes a page template at the bottom (Nav, Main with Section/Container, Footer structure):
+
+1. When creating a new page, copy this template structure
+2. When building sections, duplicate the template section, rename it (e.g., "Hero", "Logos"), design it
+3. Duplicate again for the next section
+4. This keeps a clean template always available at the bottom
+
 ## CSS Variables
 
 Craft uses [Open Props](https://open-props.style/), an MIT-licensed library of CSS variables that helps accelerate adaptive and consistent design.

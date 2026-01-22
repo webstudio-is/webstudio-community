@@ -6,13 +6,13 @@ description: >-
 
 # 🛠️ Anatomy of the Webstudio Builder
 
-***
+---
 
 {% embed url="https://www.youtube.com/playlist?list=PL4vVqpngzeT4Bfs_D25xNi_qNMY99R928" %}
 Webstudio 101 Playlist
 {% endembed %}
 
-***
+---
 
 ## Canvas
 
@@ -20,11 +20,12 @@ The canvas provides a visual representation of the website you are creating. Aft
 
 <figure><img src="../../.gitbook/assets/canvas.png" alt="Canvas"><figcaption></figcaption></figure>
 
-***
+---
 
 ## Navigator
 
 The Navigator Panel is a hierarchical overview of all instances on your page. It displays the website’s structure, showing the nesting and relationships between different instances. You can select the instance of any component inside your Project by clicking it on the canvas or inside the navigator.
+
 ### Renaming Instances
 
 Double-click any instance in the Navigator to rename it. Use semantic names like "Hero Section" or "Contact Form" to make your project structure easier to understand and maintain.
@@ -42,7 +43,7 @@ Global Root uses the`:root` [CSS selector](https://developer.mozilla.org/en-US/d
 
 <figure><img src="../../.gitbook/assets/global-root.png" alt="Global Root"><figcaption><p>Global Root</p></figcaption></figure>
 
-***
+---
 
 ## Breakpoints
 
@@ -64,7 +65,7 @@ By defining how components should behave at different screen sizes, you can ensu
 When you select a breakpoint, such as 991, you’ll notice that the canvas is sized to 768. This is intentional. The goal is to style for the minimum (or maximum, if using min-width) to ensure all design issues are addressed at the "extreme" end of that breakpoint. When the viewport changes to 767, the next breakpoint is triggered.
 {% endhint %}
 
-***
+---
 
 ## Components Panel
 
@@ -74,7 +75,7 @@ Components are grouped into sections like General, Text, Media, Forms, and [Radi
 
 <figure><img src="../../.gitbook/assets/components.png" alt="Add components" width="279"><figcaption></figcaption></figure>
 
-***
+---
 
 ## Assets Panel
 
@@ -84,10 +85,10 @@ The Assets Panel is the second panel to the left of your canvas, and this is whe
 
 The Assets Panel supports various file types organized by category:
 
-* **Images** – JPEG, PNG, GIF, WebP, SVG, ICO, and more
-* **Fonts** – WOFF, WOFF2, TTF, OTF, and more
-* **Documents** – PDF, JSON, XML, and more
-* **Other** – Various additional file formats
+- **Images** – JPEG, PNG, GIF, WebP, SVG, ICO, and more
+- **Fonts** – WOFF, WOFF2, TTF, OTF, and more
+- **Documents** – PDF, JSON, XML, and more
+- **Other** – Various additional file formats
 
 This list is not exhaustive – Webstudio supports many additional file formats.
 
@@ -95,40 +96,42 @@ This list is not exhaustive – Webstudio supports many additional file formats.
 
 Use the filter dropdown to show only specific asset categories (Images, Fonts, Documents, or All). Assets can be sorted by:
 
-* **Name** – Alphabetically A-Z or Z-A
-* **Date** – Newest or oldest first
-* **Size** – Largest or smallest first
+- **Name** – Alphabetically A-Z or Z-A
+- **Date** – Newest or oldest first
+- **Size** – Largest or smallest first
 
 ### Asset Details
 
 Click on any asset to view its details panel, which shows:
 
-* **Name** – Click to rename the asset
-* **Description** – Add optional description text for organization
-* **Dimensions** – Width and height for images
-* **File size** – Size of the asset file
-* **Uses** – Number of places the asset is used in your project
+- **Name** – Click to rename the asset
+- **Description** – Add optional description text for organization
+- **Dimensions** – Width and height for images
+- **File size** – Size of the asset file
+- **Uses** – Number of places the asset is used in your project
 
 ### Asset Actions
 
-* **Download** – Download the original asset file to your computer (Pro plan required)
-* **Review & Delete** – When an asset is in use, shows where it's used before confirming deletion. Unused assets can be deleted directly.
+- **Download** – Download the original asset file to your computer (Pro plan required)
+- **Review & Delete** – When an asset is in use, shows where it's used before confirming deletion. Unused assets can be deleted directly.
 
 {% hint style="info" %}
 Assets that are currently used in your project will show a settings gear icon. Attempting to delete them will display a list of all usages so you can review before confirming.
 {% endhint %}
 
-***
+---
 
 ## Pages Panel
 
 The Pages Panel offers an overview of the website’s page structure and hierarchy, and it is the last panel on the left side of your canvas, under the Components and Assets Panels.
 
 You can use this panel to add new pages to your Webstudio site, set the homepage, rename existing ones, and configure fields for social sharing and search engines.
+
 ### Page Folders
 
 Organize your pages into collapsible folders for better project management. Right-click in the Pages Panel to create a new folder, then drag pages into it. Folders help keep large projects organized and make navigation easier.
-***
+
+---
 
 ## Style Panel
 
@@ -141,31 +144,32 @@ There are three methods for adding styles:
 1.  Local - By default, the Local icon is active, meaning any styles you apply to that instance are for that instance only. The dot in the middle of the Local icon indicates that it has styles, whereas no dot indicates that there are no styles applied, making it easy to identify which ones have styles applied.
 
     <img src="../../.gitbook/assets/local.png" alt="Local style source" data-size="original">
-2. [CSS Variables](css-variables.md) - Instead of pasting in your colors, sizes, and other styles, you can create a variable for each style and access the variables in each input field. For example, you can define a variable called "color-primary," and in your border color field, you can enter the variable name instead of the color itself.
-3. [Tokens](design-tokens.md) - These enable reusing groupings of styles across your site. You can either create a new Token and apply styles to it or start with Local and convert it to a Token. Tokens are typically comprised of CSS variables and one-off styles.
+
+2.  [CSS Variables](css-variables.md) - Instead of pasting in your colors, sizes, and other styles, you can create a variable for each style and access the variables in each input field. For example, you can define a variable called "color-primary," and in your border color field, you can enter the variable name instead of the color itself.
+3.  [Tokens](design-tokens.md) - These enable reusing groupings of styles across your site. You can either create a new Token and apply styles to it or start with Local and convert it to a Token. Tokens are typically comprised of CSS variables and one-off styles.
 
 ### Label colors
 
 The style input labels change colors indicating there is a style present.
 
-| Label color                                                            | What it means                                                                                                                                                                                                       |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <mark style="background-color:blue;">**Blue**</mark>                   | This style is on the current Token.                                                                                                                                                                                 |
-| <mark style="color:orange;background-color:orange;">**Orange**</mark>  | This style is coming from another source: a Token that is not selected, a state not selected (e.g., you're on hover but the style is local), inherited from a parent instance, or cascaded from another breakpoint. |
-| <mark style="background-color:yellow;">**Gray**</mark>                 | This is a Webstudio or browser default style (like font-family: arial).                                                                                                                                             |
-| <mark style="color:red;background-color:red;">**Red**</mark>           | This style is on the current Style Source, but it’s being overwritten by something else in the Style Source input, such as Local or another Token.                                                                  |
+| Label color                                                           | What it means                                                                                                                                                                                                       |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <mark style="background-color:blue;">**Blue**</mark>                  | This style is on the current Token.                                                                                                                                                                                 |
+| <mark style="color:orange;background-color:orange;">**Orange**</mark> | This style is coming from another source: a Token that is not selected, a state not selected (e.g., you're on hover but the style is local), inherited from a parent instance, or cascaded from another breakpoint. |
+| <mark style="background-color:yellow;">**Gray**</mark>                | This is a Webstudio or browser default style (like font-family: arial).                                                                                                                                             |
+| <mark style="color:red;background-color:red;">**Red**</mark>          | This style is on the current Style Source, but it’s being overwritten by something else in the Style Source input, such as Local or another Token.                                                                  |
 
 {% hint style="info" %}
 The order of tokens in the Style Source Input matters. When multiple Tokens have a value for the same property, Tokens toward the end of the list will overwrite Tokens toward the beginning of the list.
 {% endhint %}
 
-***
+---
 
 ## Settings Panel
 
 The Settings Panel is on the right side of your canvas. You can use this panel to access and edit component-specific properties (such as ID or class) and [Data Variables](variables.md) for a selected instance, enabling you to store reusable content and fetch APIs — a building block of [CMS](cms.md).
 
-***
+---
 
 ## Modes
 
@@ -173,13 +177,13 @@ The Settings Panel is on the right side of your canvas. You can use this panel t
 
 <figure><img src="../../.gitbook/assets/modes.png" alt="mode switcher"><figcaption></figcaption></figure>
 
-***
+---
 
 ## Share Dialog
 
 The [Share Dialog](share-links.md) allows you to create shareable personal links to your Project with varying permissions.
 
-***
+---
 
 ## Publish Dialog
 

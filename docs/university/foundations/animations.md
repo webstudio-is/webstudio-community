@@ -11,10 +11,10 @@ If you want to learn the lower-level technical foundation behind Scroll-Driven a
 
 ## Core Features
 
-* **Extreme Performance** – Optimized for smooth playback, even with complex animations and large-scale projects.
-* **Scalability** – Seamlessly handles everything from single-element transitions to nested, multi-group sequences.
-* **Full Customization** – Animate any CSS property and stack unlimited Animation Groups for intricate effects.
-* **Cross-Browser Support** – Built on the Web Animations API with polyfills to ensure consistent behavior across browsers.
+- **Extreme Performance** – Optimized for smooth playback, even with complex animations and large-scale projects.
+- **Scalability** – Seamlessly handles everything from single-element transitions to nested, multi-group sequences.
+- **Full Customization** – Animate any CSS property and stack unlimited Animation Groups for intricate effects.
+- **Cross-Browser Support** – Built on the Web Animations API with polyfills to ensure consistent behavior across browsers.
 
 ## Key Components
 
@@ -40,6 +40,7 @@ For simple state-based animations (hover effects, button interactions), use CSS 
 5. The browser will animate smoothly between states
 
 CSS Transitions work best for:
+
 - Button hover effects
 - Link underlines
 - Color changes
@@ -47,6 +48,6 @@ CSS Transitions work best for:
 
 For complex, multi-step animations or scroll-driven effects, use the Animation Group component instead.
 
-***
+---
 
 The Webstudio Animation Engine is designed to make animations accessible yet powerful, bridging the gap between simplicity and sophistication. Whether you’re building subtle scroll-driven effects or elaborate interactive sequences, it delivers the performance and versatility to match your ambition.

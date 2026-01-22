@@ -14,10 +14,10 @@ description: >-
 
 Why Use CSS variables?
 
-* **Consistency** – Define a value once, like a color, and access that variable in every style input field.
-* **Speed** – Design quickly by selecting predefined variables from autocomplete.
-* **Experimentation** – Arrow through autocomplete and get real-time rendering of that variable to see which value looks best in your design.
-* **Parent-child interactions** – Have full control over the styles of all child instances when interacting with the parent.
+- **Consistency** – Define a value once, like a color, and access that variable in every style input field.
+- **Speed** – Design quickly by selecting predefined variables from autocomplete.
+- **Experimentation** – Arrow through autocomplete and get real-time rendering of that variable to see which value looks best in your design.
+- **Parent-child interactions** – Have full control over the styles of all child instances when interacting with the parent.
 
 ## CSS variables vs. Tokens
 
@@ -75,9 +75,9 @@ The variables are available in the autocomplete, so you can access variables by 
 
 The autocomplete search algorithm is very flexible, letting you search by any of the following:
 
-* `--`
-* `var`
-* `gray` (variable name)
+- `--`
+- `var`
+- `gray` (variable name)
 
 You can search any part of your variable, and autocomplete will show you the proper results.
 
@@ -101,9 +101,9 @@ Some variables are only needed on a specific section or page. You can define the
 
 Here are some use cases for local variables:
 
-* Changing a child's design when interacting with the parent (see [Parent-child interactions](css-variables.md#parent-child-interactions) for more info).
-* Doing an A/B test without modifying the entire design system
-* Running a seasonal promotion and modifying colors for a section
+- Changing a child's design when interacting with the parent (see [Parent-child interactions](css-variables.md#parent-child-interactions) for more info).
+- Doing an A/B test without modifying the entire design system
+- Running a seasonal promotion and modifying colors for a section
 
 ## Parent-child interactions
 
@@ -128,6 +128,22 @@ Here are the high-level steps to accomplish this pattern:
 For step 2, it's possible to define variables and assign values all at once, but it's better to add the variables to the children first. If the variables aren't added to the children, the assigned values won't render anywhere, which makes it difficult to determine things like which color to use.
 {% endhint %}
 
+### Example Variable Names
+
+For a navigation hover effect:
+
+* `--nav-icon-bg` – Icon background color
+* `--nav-icon-color` – Icon fill color
+* `--nav-arrow-opacity` – Arrow visibility
+* `--nav-arrow-translate` – Arrow position
+
+### Adding Transitions
+
+Add transitions on the **child instances** (not the parent) to smooth out the changes:
+
+* On the icon: add transitions for `background-color` and `color` (\~200ms duration)
+* On the arrow: add transitions for `opacity` and `translate` (\~200ms duration)
+
 You can define as many variables as you want and use them on any children where they are defined to create more complex interactions.
 
 ## Pseudo Elements
@@ -144,12 +160,12 @@ Webstudio supports CSS pseudo elements like `::before` and `::after`, allowing y
 
 ### Common Pseudo Elements
 
-* `::before` – Insert content before the element's content
-* `::after` – Insert content after the element's content
-* `::placeholder` – Style placeholder text in inputs
-* `::selection` – Style selected/highlighted text
-* `::first-letter` – Style the first letter of text
-* `::first-line` – Style the first line of text
+- `::before` – Insert content before the element's content
+- `::after` – Insert content after the element's content
+- `::placeholder` – Style placeholder text in inputs
+- `::selection` – Style selected/highlighted text
+- `::first-letter` – Style the first letter of text
+- `::first-line` – Style the first line of text
 
 ### Example: Adding an Icon with ::before
 

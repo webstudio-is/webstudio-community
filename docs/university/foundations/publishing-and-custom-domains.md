@@ -69,7 +69,7 @@ Publishing currently takes around 45 seconds. During publishing, your Project is
 
 Once your site is live, you can visit it by clicking the open icon next to the green checkmark.
 
-***
+---
 
 ## Publish to Staging
 
@@ -106,7 +106,7 @@ Click on the staging domain section in the publish dialog to view the username a
 
 For public access without password protection, publish to a custom domain instead.
 
-***
+---
 
 ## Standardizing on root or `www` using Cloudflare
 
@@ -147,7 +147,7 @@ Follow [Cloudflare's guide](https://developers.cloudflare.com/rules/url-forwardi
 
 Although `www` is just a subdomain like `xyz.example.com`, many users still reference it out of habit. To ensure they reach your site, it’s best practice to redirect `www` to your root domain. To do this, make sure you’ve create the A record with `192.0.2.1` as described above, then follow [Cloudflare’s guide](https://developers.cloudflare.com/rules/url-forwarding/examples/redirect-www-to-root/) to set up a _Rule_ in the Cloudflare dashboard.
 
-***
+---
 
 ## Exporting Projects
 
@@ -155,17 +155,17 @@ Webstudio can be self-hosted, putting you in control of your hosting, pricing, s
 
 For more information about exporting and self-hosting, view [Self-Hosting](../self-hosting/).
 
-***
+---
 
 ## Removing a domain
 
 To remove a domain from Webstudio:
 
-1. Click “Publish”  in the top bar.
+1. Click “Publish” in the top bar.
 2. Click your domain.
 3. Click “Remove domain”.
 
-***
+---
 
 ## Domain issues
 
@@ -181,13 +181,13 @@ While modern DNS providers like [Cloudflare](https://www.cloudflare.com/) suppor
 This list is _not_ comprehensive.
 {% endhint %}
 
-* GoDaddy
-* Hostinger
-* Squarespace
-* DigitalOcean
-* Namecheap
-* IONOS
-* Hover
+- GoDaddy
+- Hostinger
+- Squarespace
+- DigitalOcean
+- Namecheap
+- IONOS
+- Hover
 
 #### Option 1: Switch your DNS provider (without changing your domain registrar)
 
@@ -195,6 +195,30 @@ The easiest way to work around the CNAME limitation is to switch your DNS contro
 
 {% hint style="info" %}
 You can move the DNS (where the DNS records are managed) _without_ needing to move the registration (i.e. where the domain was purchased), though it may make sense to move both.
+{% endhint %}
+
+##### Why use Cloudflare
+
+Especially useful for agencies managing multiple client domains:
+
+* Free plan is sufficient for most needs
+* Additional CDN features and enhanced security
+* Script injection capabilities (Facebook Pixel, Google Analytics)
+* Faster DNS and better performance
+* Easier management of multiple domains in one dashboard
+
+##### Steps to migrate to Cloudflare
+
+1. Sign up for [Cloudflare](https://www.cloudflare.com/) (free tier is sufficient)
+2. Add your site/domain
+3. Select the free plan
+4. Cloudflare will scan and import existing DNS records automatically (email MX records, etc.)
+5. Change nameservers at your registrar to the ones Cloudflare provides
+6. Wait 15-20 minutes for propagation
+7. Once verified, add Webstudio CNAME and TXT records in Cloudflare
+
+{% hint style="info" %}
+DNS propagation typically takes 10-15 minutes, but can take up to 72 hours in rare cases depending on registrar and location.
 {% endhint %}
 
 #### Option 2: Publish your website on a `www` subdomain
@@ -206,6 +230,20 @@ Go back to [Step 1](publishing-and-custom-domains.md#id-1.-add-a-new-domain-to-y
 The above options are shown in the following video.
 
 {% embed url="https://www.youtube.com/watch?t=5s&v=4PaXK0e49ks" %}
+
+---
+
+## Publishing to a Subdomain
+
+Subdomains are useful for marketing teams who want autonomy over landing pages (e.g., `go.example.com`) while keeping the main site separate.
+
+To publish to a subdomain:
+
+1. Follow the same process as adding a custom domain
+2. Use the subdomain (e.g., `go`) as the CNAME name instead of `@` or `www`
+3. Add the corresponding TXT record
+
+---
 
 ### Worker not found
 

@@ -28,8 +28,8 @@ An array is a list of data. In the case of blog posts, this might look like:
 [
   { title: "Hello world" },
   { title: "Lorem ipsum" },
-  { title: "Webstudio rocks!" }
-]
+  { title: "Webstudio rocks!" },
+];
 ```
 
 When iterating over an array, the Collection Item contains the current item's data.

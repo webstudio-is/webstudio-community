@@ -21,15 +21,15 @@ Webstudio converts the SVG into native components, giving you full control over 
 
 When you select an SVG element, the Style Panel shows SVG-specific CSS properties, including:
 
-* **fill** – The fill color of the shape
-* **stroke** – The stroke (outline) color
-* **stroke-width** – The thickness of the stroke
-* **fill-opacity** – Transparency of the fill
-* **stroke-opacity** – Transparency of the stroke
-* **stroke-linecap** – Shape at the end of lines (butt, round, square)
-* **stroke-linejoin** – Shape at corners (miter, round, bevel)
-* **stroke-dasharray** – Create dashed lines
-* **stroke-dashoffset** – Offset for dash pattern
+- **fill** – The fill color of the shape
+- **stroke** – The stroke (outline) color
+- **stroke-width** – The thickness of the stroke
+- **fill-opacity** – Transparency of the fill
+- **stroke-opacity** – Transparency of the stroke
+- **stroke-linecap** – Shape at the end of lines (butt, round, square)
+- **stroke-linejoin** – Shape at corners (miter, round, bevel)
+- **stroke-dasharray** – Create dashed lines
+- **stroke-dashoffset** – Offset for dash pattern
 
 And many more SVG-specific properties.
 
@@ -37,10 +37,10 @@ And many more SVG-specific properties.
 
 In the Settings Panel, when you add custom attributes to SVG elements, Webstudio provides autocompletion for all valid SVG attributes. This helps you set properties like:
 
-* `viewBox` – Define the coordinate system
-* `preserveAspectRatio` – Control scaling behavior
-* `transform` – Apply transformations
-* Path-specific attributes like `d`, `points`, `cx`, `cy`, `r`, etc.
+- `viewBox` – Define the coordinate system
+- `preserveAspectRatio` – Control scaling behavior
+- `transform` – Apply transformations
+- Path-specific attributes like `d`, `points`, `cx`, `cy`, `r`, etc.
 
 {% hint style="success" %}
 Pasting SVG creates native components that can be styled with CSS Variables, allowing you to create icons that change color based on themes or states.

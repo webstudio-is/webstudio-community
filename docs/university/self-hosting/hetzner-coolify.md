@@ -38,11 +38,15 @@ You do not need to install dependencies.
 
 ## 4. Setup Hetzner Server
 
+{% hint style="info" %}
+Hetzner is cost-effective — a shared CPU server with 4GB RAM costs around €4-5/month. Traffic scales well without exponential cost increases.
+{% endhint %}
+
 1. Create a new server.
 2. Select your preferred region.
 3. Select the Ubuntu image with a [version that is supported by Docker](https://docs.docker.com/engine/install/ubuntu/#os-requirements).
-4. Select the type; a shared CPU is sufficient and the minimum recommended RAM is 2 GB.
-5. Add an IPv4.
+4. Select the type; a shared CPU is sufficient and the minimum recommended RAM is 4GB (2GB minimum).
+5. Add an IPv4 (makes networking easier).
 6. All other defaults suffice, though you can optionally modify them.
 7. Click "Create and Buy Now". Wait as your server is provisioned then copy the IPv4 address.
 

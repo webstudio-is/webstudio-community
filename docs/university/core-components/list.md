@@ -14,7 +14,17 @@ description: >-
 The “List” component can be found in **Components > General**, and you can place it on your canvas by dragging and dropping it or clicking it in the Components panel. Every List component comes with three “List Item” instances as bullet points by default.
 
 To add more list items, place a “List Item” component in your list from **Components > General**.
+#### Duplicating List Items
 
+You can quickly duplicate list items by selecting an item and pressing **Cmd+D** (Mac) or **Ctrl+D** (Windows).
+
+#### Customizing Individual List Items
+
+You can style individual list items differently from others by selecting a specific list item and applying styles or a design token to just that item. This is useful for highlighting specific items in your list.
+
+#### Adding Content to List Items
+
+List items can contain more than just text. You can drag other components like images, links, or buttons inside a list item to create rich, interactive lists.
 Once the List Component is on your canvas, you can customize its appearance in the Style panel. For instance, you can change bullet point styles, numbering formats, spacing, and text properties.
 
 #### List Style Type
