@@ -73,6 +73,7 @@ done
 - **Concise**: Get to the point quickly
 - **Friendly but professional**: Helpful without being overly casual
 - **Present tense**: "The component renders" not "The component will render"
+- **Purposeful**: Every sentence must benefit the user. Before adding any content, ask: "Why does the reader need this?" If you can't answer clearly, don't include it.
 
 ### Document Structure
 
