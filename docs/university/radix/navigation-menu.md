@@ -64,7 +64,7 @@ Some commonly used properties (see the Settings panel for all available options)
 
 ## Styling States
 
-Style menu items based on state:
+Some common states (you can also create custom states):
 
 - **Open** (`[data-state=open]`) - Dropdown is visible
 - **Closed** (`[data-state=closed]`) - Dropdown is hidden

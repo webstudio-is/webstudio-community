@@ -21,7 +21,7 @@ Buttons are for actions, not navigation. For navigation links, use the [Link](li
 1. Drag a **Button** component from Components > Forms onto your canvas
 2. Edit the button text
 3. Style using the Style Panel
-4. Add interactions or connect to form functionality
+4. Place inside a Form for submissions, or use HTML Embed scripts for custom interactivity
 
 ## Properties
 
@@ -47,7 +47,7 @@ General purpose button for non-form actions. Use with component interactions lik
 
 ## Styling States
 
-Style buttons for different states:
+Some common states (you can also create custom states):
 
 - **Default** - Normal appearance
 - **Hover** (`:hover`) - Mouse is over the button

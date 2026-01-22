@@ -74,7 +74,7 @@ Some commonly used properties (see the Settings panel for all available options)
 
 ## Styling States
 
-Style radio items based on state:
+Some common states (you can also create custom states):
 
 - **Checked** (`[data-state=checked]`) - Item is selected
 - **Unchecked** (`[data-state=unchecked]`) - Item is not selected

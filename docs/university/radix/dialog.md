@@ -44,7 +44,8 @@ Some commonly used properties (see the Settings panel for all available options)
 
 ## Styling States
 
-You can style the dialog based on its state using the States selector:
+Some common states you can style using the States selector (you can also create custom states):
+
 - **Open** - When the dialog is visible
 - **Closed** - When the dialog is hidden
 

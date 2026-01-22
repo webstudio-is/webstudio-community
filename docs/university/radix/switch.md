@@ -44,7 +44,7 @@ Some commonly used properties (see the Settings panel for all available options)
 
 ## Styling States
 
-Use the States selector to style different states:
+Some common states (you can also create custom states):
 
 - **Checked** (`[data-state=checked]`) - Switch is on
 - **Unchecked** (`[data-state=unchecked]`) - Switch is off

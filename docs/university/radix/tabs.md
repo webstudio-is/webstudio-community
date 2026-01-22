@@ -51,7 +51,8 @@ Some commonly used properties (see the Settings panel for all available options)
 
 ## Styling States
 
-Style tabs based on their state:
+Some common states (you can also create custom states):
+
 - **Active** (`[data-state=active]`) - The currently selected tab trigger
 - **Inactive** (`[data-state=inactive]`) - Unselected tab triggers
 
