@@ -1,5 +1,7 @@
 # 🔘 Button
 
+> See [MDN: \<button\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
+
 The Button component creates clickable buttons for user interactions. Buttons trigger actions like submitting forms, opening dialogs, or navigating when combined with other components.
 
 ## When to Use
@@ -22,6 +24,8 @@ Buttons are for actions, not navigation. For navigation links, use the [Link](li
 4. Add interactions or connect to form functionality
 
 ## Properties
+
+Some commonly used properties (see the Settings panel for all available options):
 
 | Property | Description |
 |----------|-------------|
@@ -50,41 +54,4 @@ Style buttons for different states:
 - **Focus** (`:focus-visible`) - Keyboard focused
 - **Active** (`:active`) - Being pressed
 - **Disabled** (`:disabled`) - Cannot be clicked
-
-## Common Button Styles
-
-### Primary Button
-```
-Background: Primary color
-Text: White
-Border: None
-```
-
-### Secondary/Outline Button
-```
-Background: Transparent
-Text: Primary color
-Border: 1px solid primary
-```
-
-### Ghost Button
-```
-Background: Transparent
-Text: Primary color
-Border: None
-```
-
-## Accessibility
-
-- Buttons are automatically keyboard accessible
-- Use clear, action-oriented text ("Submit", "Sign Up", not "Click Here")
-- Ensure sufficient color contrast
-- Disabled buttons should have visual indication
-
-## Tips
-
-- Keep button text concise and action-oriented
-- Use consistent button styles throughout your site
-- Provide visual feedback on hover and focus
-- Don't use buttons as links (use styled Links instead)
 

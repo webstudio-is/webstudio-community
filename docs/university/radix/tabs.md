@@ -1,5 +1,7 @@
 # Tabs
 
+> Based on [Radix Tabs](https://www.radix-ui.com/primitives/docs/components/tabs)
+
 The Tabs component displays a set of panels with content that are shown one at a time. Users can switch between panels by clicking on tab triggers.
 
 ## When to Use
@@ -39,15 +41,9 @@ When generating tabs dynamically with a [Collection](../core-components/collecti
 2. Add the same `value` property to the corresponding Tab Content
 3. Bind a unique identifier (like an ID or slug) from your data to both
 
-## Accessibility
-
-Tabs follow the [WAI-ARIA Tabs pattern](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/):
-
-- Arrow keys navigate between tabs
-- `Tab` key moves focus to the active panel
-- Each tab is properly labeled for screen readers
-
 ## Properties
+
+Some commonly used properties (see the Settings panel for all available options):
 
 | Property | Description |
 |----------|-------------|
@@ -58,10 +54,4 @@ Tabs follow the [WAI-ARIA Tabs pattern](https://www.w3.org/WAI/ARIA/apg/patterns
 Style tabs based on their state:
 - **Active** (`[data-state=active]`) - The currently selected tab trigger
 - **Inactive** (`[data-state=inactive]`) - Unselected tab triggers
-
-## Tips
-
-- Keep tab labels short and descriptive
-- Don't use too many tabs (consider a different pattern for 6+ items)
-- Ensure tab content areas have consistent heights to avoid layout shifts
 

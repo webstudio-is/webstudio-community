@@ -1,5 +1,7 @@
 # 🕐 Time
 
+> See [MDN: \<time\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)
+
 The Time component displays formatted dates and times with support for localization. It renders a semantic `<time>` HTML element and allows you to format dates according to different languages, countries, and formats.
 
 ## When to Use
@@ -18,6 +20,8 @@ Use Time for:
 4. Optionally bind dynamic dates from your CMS
 
 ## Properties
+
+Some commonly used properties (see the Settings panel for all available options):
 
 ### Core Properties
 
@@ -77,11 +81,4 @@ Time renders as a `<time>` element with a `datetime` attribute:
 ```
 
 This helps search engines and assistive technologies understand the date.
-
-## Tips
-
-- Always provide the `datetime` in ISO 8601 format for consistency
-- Use `dateStyle` and `timeStyle` together or separately as needed
-- For blog posts, `medium` or `long` date styles work well
-- Test formatting across different locales if building multilingual sites
 

@@ -1,5 +1,7 @@
 # Radio Group
 
+> Based on [Radix Radio Group](https://www.radix-ui.com/primitives/docs/components/radio-group)
+
 The Radio Group component allows users to select a single option from a list of choices. Unlike checkboxes, only one radio button in a group can be selected at a time.
 
 ## When to Use
@@ -53,6 +55,8 @@ To generate radio options dynamically:
 
 ## Properties
 
+Some commonly used properties (see the Settings panel for all available options):
+
 ### Radio Group
 
 | Property | Description |
@@ -76,28 +80,4 @@ Style radio items based on state:
 - **Unchecked** (`[data-state=unchecked]`) - Item is not selected
 - **Disabled** (`:disabled`) - Item cannot be selected
 - **Focus** (`:focus-visible`) - Item has keyboard focus
-
-## Accessibility
-
-Radio Group follows the [WAI-ARIA Radio Group pattern](https://www.w3.org/WAI/ARIA/apg/patterns/radio/):
-
-- Arrow keys navigate between options
-- Space selects the focused option
-- Only one item can be selected
-- Proper ARIA roles and states
-
-## Radio Group vs Select
-
-| Feature | Radio Group | Select |
-|---------|-------------|--------|
-| Options visible | Always | On click |
-| Best for | 2-5 options | Many options |
-| Selection method | Click/keyboard | Dropdown |
-
-## Tips
-
-- Always set unique `value` properties on each item
-- Use clear, concise labels
-- Consider using Select for more than 5 options
-- Pre-select a default option when appropriate
 

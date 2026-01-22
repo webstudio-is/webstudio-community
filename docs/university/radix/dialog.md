@@ -1,5 +1,7 @@
 # Dialog
 
+> Based on [Radix Dialog](https://www.radix-ui.com/primitives/docs/components/dialog)
+
 The Dialog component displays content in a modal window that overlays the page. When open, it renders content on top of an overlay that covers the entire window, making the content underneath inert.
 
 ## When to Use
@@ -32,16 +34,9 @@ The Dialog component consists of several parts:
 4. Edit the Dialog Title and add your content inside Dialog Content
 5. Style the overlay and content using the Style Panel
 
-## Accessibility
-
-Dialog follows the [WAI-ARIA Dialog pattern](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/):
-
-- Focus is automatically trapped within the dialog when open
-- Pressing `Escape` closes the dialog
-- Focus returns to the trigger when closed
-- The Dialog Title is required for screen readers
-
 ## Properties
+
+Some commonly used properties (see the Settings panel for all available options):
 
 | Property | Description |
 |----------|-------------|
@@ -52,10 +47,4 @@ Dialog follows the [WAI-ARIA Dialog pattern](https://www.w3.org/WAI/ARIA/apg/pat
 You can style the dialog based on its state using the States selector:
 - **Open** - When the dialog is visible
 - **Closed** - When the dialog is hidden
-
-## Tips
-
-- Always include a Dialog Title for accessibility, even if visually hidden
-- Use the Dialog Close button or clicking the overlay to close the dialog
-- For side panels, consider using [Sheet](sheet.md) instead
 

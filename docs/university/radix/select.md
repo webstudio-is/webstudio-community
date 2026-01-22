@@ -1,5 +1,7 @@
 # Select
 
+> Based on [Radix Select](https://www.radix-ui.com/primitives/docs/components/select)
+
 The Select component displays a dropdown list of options for users to choose from. It's a styled alternative to the native HTML `<select>` element with full keyboard navigation and accessibility support.
 
 ## When to Use
@@ -44,6 +46,8 @@ To populate Select options dynamically from data:
 
 ## Properties
 
+Some commonly used properties (see the Settings panel for all available options):
+
 ### Select
 
 | Property | Description |
@@ -64,20 +68,4 @@ To populate Select options dynamically from data:
 | Property | Description |
 |----------|-------------|
 | **placeholder** | Text shown when nothing is selected |
-
-## Accessibility
-
-Select follows accessibility best practices:
-
-- Full keyboard navigation (Arrow keys, Enter, Escape)
-- Type-ahead to jump to items
-- Screen reader announcements
-- Focus management
-
-## Tips
-
-- Always set unique `value` properties on each Select Item
-- Use a clear placeholder like "Select an option"
-- For long lists, consider grouping options or using a searchable combobox
-- The selected value is available in form submissions using the `name` property
 

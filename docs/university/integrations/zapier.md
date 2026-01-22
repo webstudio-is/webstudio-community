@@ -52,10 +52,3 @@ Zapier allows you to connect Webstudio forms to thousands of apps, automating wo
 | Gmail | Send custom confirmation emails |
 | Notion | Create database entries |
 
-## Tips
-
-- Test your Zap thoroughly before going live
-- Use Zapier's filtering to handle conditional logic
-- Set up error notifications to catch failed submissions
-- Consider Zapier's multi-step Zaps for complex workflows
-

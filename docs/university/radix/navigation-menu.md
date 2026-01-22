@@ -1,5 +1,7 @@
 # Navigation Menu
 
+> Based on [Radix Navigation Menu](https://www.radix-ui.com/primitives/docs/components/navigation-menu)
+
 The Navigation Menu component creates accessible, multi-level navigation with dropdown menus. It's ideal for website headers with organized sections of links.
 
 ## When to Use
@@ -46,6 +48,8 @@ For a dropdown:
 
 ## Properties
 
+Some commonly used properties (see the Settings panel for all available options):
+
 ### Navigation Menu Link
 
 | Property | Description |
@@ -66,16 +70,6 @@ Style menu items based on state:
 - **Closed** (`[data-state=closed]`) - Dropdown is hidden
 - **Active** - Current page indicator
 
-## Accessibility
-
-Navigation Menu follows [WAI-ARIA Navigation pattern](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/):
-
-- Full keyboard navigation
-- Arrow keys move between items
-- Enter/Space opens dropdowns
-- Escape closes dropdowns
-- Screen reader announcements
-
 ## Building a Mega Menu
 
 For large navigation with multiple columns:
@@ -84,12 +78,4 @@ For large navigation with multiple columns:
 2. Add multiple columns with Link groups
 3. Optionally add featured content or images
 4. Use the Viewport to control the dropdown container
-
-## Tips
-
-- Keep top-level items to 5-7 maximum
-- Organize dropdown content logically
-- Ensure dropdowns don't extend beyond viewport
-- Test keyboard navigation thoroughly
-- Consider mobile navigation separately (perhaps using [Sheet](sheet.md))
 

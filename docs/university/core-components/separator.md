@@ -1,5 +1,7 @@
 # ➖ Separator
 
+> See [MDN: \<hr\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
+
 The Separator component creates a visual divider between content sections. It renders as a semantic `<hr>` (horizontal rule) element or can be styled as a vertical divider.
 
 ## When to Use
@@ -53,30 +55,10 @@ margin: 32px auto;
 
 ## Properties
 
+Some commonly used properties (see the Settings panel for all available options):
+
 | Property | Description |
 |----------|-------------|
 | **orientation** | `horizontal` (default) or `vertical` |
 | **decorative** | If true, removes from accessibility tree |
-
-## Accessibility
-
-- By default, separators are announced by screen readers
-- Set `decorative` to `true` if the separator is purely visual
-- Use appropriate contrast for visibility
-
-## Separator vs Border
-
-| Use Case | Separator | Border |
-|----------|-----------|--------|
-| Between sections | ✅ | Maybe |
-| Around elements | ❌ | ✅ |
-| Semantic meaning | ✅ | ❌ |
-| Flexibility | Standalone | Attached |
-
-## Tips
-
-- Use consistent separator styling throughout your site
-- Don't overuse separators – whitespace can often serve the same purpose
-- Consider whether you need a semantic separator or just visual spacing
-- For navigation items, separators can help define clickable areas
 

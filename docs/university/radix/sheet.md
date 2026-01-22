@@ -1,5 +1,7 @@
 # Sheet
 
+> Based on [Radix Dialog](https://www.radix-ui.com/primitives/docs/components/dialog)
+
 The Sheet component displays content in a panel that slides in from the edge of the screen. It's an extension of the Dialog component, commonly used for mobile navigation menus, sidebars, and slide-out panels.
 
 ## When to Use
@@ -75,18 +77,11 @@ height: auto;
 
 ## Properties
 
+Some commonly used properties (see the Settings panel for all available options):
+
 | Property | Description |
 |----------|-------------|
 | **open** | Controls whether the sheet is visible |
-
-## Accessibility
-
-Sheet follows Dialog accessibility patterns:
-
-- Focus is trapped within the sheet
-- Pressing `Escape` closes the sheet
-- Clicking the overlay closes the sheet
-- Focus returns to trigger when closed
 
 ## Mobile Navigation Pattern
 
@@ -96,11 +91,4 @@ A common pattern for responsive navigation:
 2. Show the trigger only on mobile breakpoints
 3. Add your navigation links inside the sheet
 4. Hide the regular navigation on mobile
-
-## Tips
-
-- Add smooth slide animations using CSS transitions or Webstudio animations
-- Include a visible close button for touch users
-- Keep sheet width appropriate for content
-- Test on actual mobile devices
 

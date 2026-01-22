@@ -1,5 +1,7 @@
 # Switch
 
+> Based on [Radix Switch](https://www.radix-ui.com/primitives/docs/components/switch)
+
 The Switch component is a toggle control that allows users to turn an option on or off. It's similar to a checkbox but provides a more visual representation of the binary state.
 
 ## When to Use
@@ -30,6 +32,8 @@ The Switch component consists of:
 
 ## Properties
 
+Some commonly used properties (see the Settings panel for all available options):
+
 | Property | Description |
 |----------|-------------|
 | **id** | Unique identifier, useful for connecting to labels |
@@ -46,49 +50,4 @@ Use the States selector to style different states:
 - **Unchecked** (`[data-state=unchecked]`) - Switch is off
 - **Disabled** (`:disabled`) - Switch cannot be interacted with
 - **Focus** (`:focus-visible`) - Switch has keyboard focus
-
-### Common Styling Pattern
-
-For the **Switch** (track):
-```
-Unchecked: gray background
-Checked: primary color background
-```
-
-For the **Switch Thumb**:
-```
-Unchecked: positioned left
-Checked: positioned right (use translateX)
-```
-
-## Accessibility
-
-Switch follows accessibility best practices:
-
-- Keyboard operable (Space to toggle)
-- Proper ARIA role and state
-- Works with form labels
-
-## Connecting to a Label
-
-For better accessibility and UX, connect the switch to a [Label](label.md):
-
-1. Set an `id` on the Switch (e.g., "dark-mode")
-2. Add a Label component
-3. Set the Label's `htmlFor` to match the Switch's `id`
-
-## Switch vs Checkbox
-
-| Feature | Switch | Checkbox |
-|---------|--------|----------|
-| Visual style | Toggle slider | Box with checkmark |
-| Best for | Settings, preferences | Multiple selections, forms |
-| Takes effect | Immediately | Often on submit |
-
-## Tips
-
-- Use switches for settings that apply immediately
-- Always provide a visible label
-- Ensure sufficient color contrast between states
-- Consider adding a transition for smooth animations
 
