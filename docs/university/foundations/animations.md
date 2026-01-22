@@ -29,6 +29,24 @@ The engine’s user interface is composed of three main components, each designe
 
 For interactive effects like hover animations, Webstudio leverages [CSS variables](css-variables.md) with a "parent interaction modifies children" approach. Define hover states on a parent element, then use CSS variables to adjust child element properties dynamically. For more information, see [CSS Variables – Parent-Child Interactions](css-variables.md#parent-child-interactions).
 
+## CSS Transitions
+
+For simple state-based animations (hover effects, button interactions), use CSS Transitions in the Style Panel's Advanced section.
+
+1. Select an instance
+2. Open the **Advanced** section in the Style Panel
+3. Add a `transition` property with values like `all 0.3s ease` or target specific properties like `background-color 0.2s, transform 0.3s`
+4. Define the hover/focus states with changed values
+5. The browser will animate smoothly between states
+
+CSS Transitions work best for:
+- Button hover effects
+- Link underlines
+- Color changes
+- Simple transforms (scale, rotate)
+
+For complex, multi-step animations or scroll-driven effects, use the Animation Group component instead.
+
 ***
 
 The Webstudio Animation Engine is designed to make animations accessible yet powerful, bridging the gap between simplicity and sophistication. Whether you’re building subtle scroll-driven effects or elaborate interactive sequences, it delivers the performance and versatility to match your ambition.

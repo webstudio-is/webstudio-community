@@ -58,7 +58,11 @@ A Resource variable gets its value from a fetch request, allowing data from a re
 There are several fields available to configure the fetch request.
 
 {% hint style="info" %}
-Shortcut: The URL field supports pasting in a cURL command. Doing so will automatically populate the various fields within the Resource. Many API docs will provide you with a cURL command, so look out for it to save time.
+**Shortcut:** The URL field supports pasting in a cURL command. Doing so will automatically populate the various fields within the Resource. Many API docs will provide you with a cURL command, so look out for it to save time.
+{% endhint %}
+
+{% hint style="info" %}
+**Copy & Paste:** Resources can be copied and pasted between projects. Select an instance with a Resource variable defined, copy it, and paste into another project – the Resource configuration will be included.
 {% endhint %}
 
 - URL – Where the resource is located.

@@ -83,3 +83,7 @@ Ensure every form input has a value for the `name` field to be included in submi
 <figure><img src="../../.gitbook/assets/form-name.png" alt="Form input name"><figcaption></figcaption></figure>
 
 For a full list of input types, including checkboxes and radio buttons, refer to [Form Inputs](form.md#form-inputs).
+
+## Bot Protection
+
+Webstudio forms include built-in bot protection to prevent spam submissions. This protection works automatically without requiring any additional configuration – no CAPTCHAs needed. The system analyzes submission patterns to distinguish between legitimate users and automated bots.

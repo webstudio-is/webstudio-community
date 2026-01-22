@@ -25,7 +25,9 @@ The canvas provides a visual representation of the website you are creating. Aft
 ## Navigator
 
 The Navigator Panel is a hierarchical overview of all instances on your page. It displays the website’s structure, showing the nesting and relationships between different instances. You can select the instance of any component inside your Project by clicking it on the canvas or inside the navigator.
+### Renaming Instances
 
+Double-click any instance in the Navigator to rename it. Use semantic names like "Hero Section" or "Contact Form" to make your project structure easier to understand and maintain.
 In the bottom half of the navigator, you will find the CSS Preview section, which is a real-time preview of the CSS styles applied to your selected instance.
 
 <figure><img src="../../.gitbook/assets/navigator.png" alt="" width="373"><figcaption></figcaption></figure>
@@ -85,7 +87,9 @@ The Assets Panel is the second panel to the left of your canvas, and this is whe
 The Pages Panel offers an overview of the website’s page structure and hierarchy, and it is the last panel on the left side of your canvas, under the Components and Assets Panels.
 
 You can use this panel to add new pages to your Webstudio site, set the homepage, rename existing ones, and configure fields for social sharing and search engines.
+### Page Folders
 
+Organize your pages into collapsible folders for better project management. Right-click in the Pages Panel to create a new folder, then drag pages into it. Folders help keep large projects organized and make navigation easier.
 ***
 
 ## Style Panel
