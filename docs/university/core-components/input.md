@@ -1,5 +1,7 @@
 # Input
 
+{% embed url="https://www.youtube.com/watch?v=SOd7V8A9SOw" %}
+
 The **Input** component creates an HTML `<input>` element for collecting user data in forms.
 
 ## Overview

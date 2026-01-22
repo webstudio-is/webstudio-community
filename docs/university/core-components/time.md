@@ -2,6 +2,8 @@
 
 > See [MDN: \<time\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)
 
+{% embed url="https://www.youtube.com/watch?v=EznQsyS5M5A" %}
+
 The Time component displays formatted dates and times with support for localization. It renders a semantic `<time>` HTML element and allows you to format dates according to different languages, countries, and formats.
 
 ## When to Use
