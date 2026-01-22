@@ -28,5 +28,8 @@ Radix enables you to create complex interactive elements without writing code:
 * **Tabs** – Tabbed content interfaces
 * **Select** – Customizable dropdown selects
 * **Switch** – Toggle switches
+* **Checkbox** – Fully customizable checkboxes
+* **Radio Group** – Styled radio button groups
+* **Label** – Accessible form labels
 
 Each component can be fully styled using Webstudio's Style Panel while maintaining all accessibility features.
