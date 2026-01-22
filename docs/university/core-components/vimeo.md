@@ -63,6 +63,8 @@ Here’s how you can use the following properties:&#x20;
   If you enable the "Do Not Track" property, the Vimeo Player will not be able to track session data, such as cookies. It is important to note that video statistics, such as the number of views, would also no longer be recorded.
 * **Controls Color**\
   With the "Controls Color" property, you can customize the colors of the Vimeo Player's controls on your site to match your brand identity. This affects the pause button, progress bar, and other player controls.
+* **Lazy Load**\
+  When enabled, the video player loads only when it enters the viewport. This improves initial page load performance, especially on pages with multiple videos or when the video is below the fold.
 * **Other Properties**\
   You can customize your Vimeo component further by adding [other properties](https://developer.vimeo.com/player/sdk/embed) that are not listed in the "Properties" section by default.
 
@@ -71,9 +73,20 @@ Here’s how you can use the following properties:&#x20;
 The Vimeo component includes customizable child instances:
 
 1. **Preview Image**: Replace Vimeo's default preview with your own image
-2. **Spinner**: Style or hide the loading spinner
+2. **Spinner**: Style or hide the loading spinner using the "Show" toggle in Settings
 3. **Play Button**: Contains a Box and Play Icon
    * Style the Box (background color, border-radius, etc.)
    * Replace the Play Icon's SVG code in the HTML Embed
    * Set icon width/height to 100% for flexible sizing
    * Change the Play Icon's color via typography color on its parent
+   * Hide the Play Button using the "Show" toggle for background video use
+
+### Hiding Player Elements
+
+For background videos or custom player designs, you may want to hide default elements:
+
+1. Select the **Spinner** in the Navigator
+2. In Settings, toggle **Show** to off
+3. Repeat for the **Play Button** if desired
+
+This creates a clean video background without visible controls.

@@ -13,6 +13,20 @@ icon: clone
 * Cloning the Project to another Webstudio account
 * Sharing your Project to get support
 * [Selling templates](../../contributing/marketplace.md#selling-templates) (i.e., using Share Links to deliver the template upon payment)
+* Creating your own marketplace of templates
+
+## Cloning Projects
+
+When you share a project with **View** permission (or higher), recipients can clone the project to their own Webstudio account:
+
+1. Create a Share Link with at least **View** permission
+2. Send the link to the recipient
+3. They open the link and click the **Clone** button in the Builder
+4. The project is copied to their account
+
+{% hint style="info" %}
+**Pro tip:** Use this feature to build a template marketplace. Create templates, share View links, and let users clone them into their accounts.
+{% endhint %}
 
 ## Adding Share Links
 

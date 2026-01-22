@@ -22,6 +22,30 @@ If you define a variable on the Global Root, it will be available on all pages a
 To access variables in the Page Settings, the variable must be defined on the Body of the page.
 {% endhint %}
 
+## Global Data Variables
+
+Variables defined on the **Global Root** are accessible across all pages in your project. This is powerful for:
+
+- **Reusable contact information** – Define your email, phone, or address once and use it everywhere
+- **Site-wide settings** – Store company name, social links, or other global data
+- **CMS configuration** – Set up API endpoints that all pages can access
+- **Slot compatibility** – Global variables work within Slots, enabling dynamic content in reusable components
+
+### Setting Up Global Variables
+
+1. In the Navigator, select **Global Root** (above Body)
+2. In the Settings panel, add a new variable
+3. Choose the variable type (String, JSON, Resource, etc.)
+4. The variable is now accessible on any page
+
+### Use Cases
+
+{% embed url="https://www.youtube.com/watch?v=jRzMROoKwsQ" %}
+
+- **Contact email**: Define once, bind to all contact forms and footers
+- **Simple CMS**: Use JSON variables on Global Root for site-wide data that displays in Slots
+- **API keys**: Store Resource configurations globally for consistent data fetching
+
 ## Variables
 
 ### System

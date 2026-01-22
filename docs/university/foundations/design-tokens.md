@@ -44,3 +44,67 @@ By default, Tokens are converted to atomic styles, significantly reducing the am
 While the majority of users aren't concerned with how the classes are output and should use atomic styles, they can be optionally disabled.
 
 See [Atomic CSS](project-settings.md#atomic-css) for more info.
+
+## Advanced Token Techniques
+
+### Token Composition
+
+Combine multiple tokens to create flexible, modular designs:
+
+1. **Base token**: Contains core styles (e.g., "card" with padding, background, border-radius)
+2. **Modifier tokens**: Contains variations (e.g., "small" for smaller padding, "featured" for highlight border)
+
+Apply both to an instance: The styles merge, with later tokens overriding earlier ones for conflicting properties.
+
+**Example:** A card system
+
+- "card" token: padding, background, border-radius
+- "card-small" token: smaller padding
+- "card-featured" token: accent border color
+
+Apply "card" + "card-featured" for a featured card variant.
+
+### Token Priority (Cascading)
+
+When multiple tokens define the same property, **the rightmost token wins**:
+
+```
+[card] [small] [featured]
+       ↑        ↑
+       │        └── Takes priority for any shared properties
+       └── Overrides card for any shared properties
+```
+
+This allows you to build up styles modularly while maintaining precise control.
+
+### Local Overrides
+
+To override token styles for a specific instance:
+
+1. Apply your tokens
+2. Drag **Local** to the end (rightmost position)
+3. Add your override styles on Local
+
+Since Local is rightmost, its styles take priority over the tokens.
+
+### Resetting Values
+
+To remove a style from a specific token or Local:
+
+1. Select the token in Style Sources
+2. Hover over the property label
+3. Click the reset icon (or use Option+click on Mac)
+
+This removes the property from that specific token, allowing inherited values to show through.
+
+### Duplicating Tokens
+
+Create variations from existing tokens:
+
+1. Select the token in Style Sources
+2. Open the token menu (three dots)
+3. Choose **Duplicate**
+4. Rename and modify the duplicate
+
+This is faster than creating tokens from scratch when building design systems.
+

@@ -36,6 +36,50 @@ You can manually change it using the `build` command. For serverless functions:
 webstudio build --template netlify
 ```
 
+### Complete CLI Workflow
+
+Here's the full step-by-step process for deploying to Netlify:
+
+```bash
+# 1. Create a Webstudio project folder
+npx webstudio
+
+# Follow prompts: enter folder name, paste your Share Link
+
+# 2. Navigate to your project
+cd your-project-folder
+
+# 3. Install dependencies
+npm install
+
+# 4. Login to Netlify
+npx netlify-cli login
+
+# 5. Create a new Netlify site
+npx netlify-cli sites:create
+
+# 6. Build your project
+npm run build
+
+# 7. Deploy to preview URL (for testing)
+npx netlify-cli deploy
+
+# 8. Deploy to production (when ready)
+npx netlify-cli deploy --prod
+```
+
+### Redeploying Changes
+
+When you make changes in Webstudio:
+
+1. Publish changes in Webstudio
+2. In your project folder, run:
+   ```bash
+   npx webstudio sync
+   npm run build
+   npx netlify-cli deploy --prod
+   ```
+
 ## Static site
 
 Learn how to upload your static site to Netlify.
