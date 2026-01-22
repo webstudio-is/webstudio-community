@@ -20,7 +20,7 @@ Learn how to deploy your dynamic JavaScript application to Netlify.
 
 ### Prerequisites
 
-* Install the [Webstudio CLI](cli.md)
+- Install the [Webstudio CLI](cli.md)
 
 Use the [Netlify CLI](https://docs.netlify.com/cli/get-started/) to deploy your app directly to [Netlify](https://netlify.com/):
 
@@ -88,18 +88,17 @@ Learn how to upload your static site to Netlify.
 
 ### Prerequisites
 
-* Export your project using one of the [export methods](./#exporting).
+- Export your project using one of the [export methods](./#exporting).
 
 **How to upload your project to Netlify:**
 
-* Go to Sites
-*   Add a new site
+- Go to Sites
+- Add a new site
+  - **Manually** – upload the export zip from Webstudio
 
-    * **Manually** – upload the export zip from Webstudio
+  ![Drag and drop upload static site to netlify](../../.gitbook/assets/netlify-drag-drop.png)
+  - **Git** – Unzip the export and add it to a repository such as GitHub
 
-    ![Drag and drop upload static site to netlify](../../.gitbook/assets/netlify-drag-drop.png)
-
-    * **Git** – Unzip the export and add it to a repository such as GitHub
-* Click “Open production deploy”
+- Click “Open production deploy”
 
 \

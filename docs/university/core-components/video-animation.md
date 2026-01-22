@@ -21,4 +21,3 @@ Just remember that you'll need to wrap the Video Animation component in an Anima
 - [Animation Group](animation-group.md) – Required parent for video animation
 - [Vimeo](vimeo.md) – Embed Vimeo videos
 - [YouTube](youtube.md) – Embed YouTube videos
-

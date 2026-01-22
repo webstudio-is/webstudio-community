@@ -18,18 +18,18 @@ Radix was chosen because it prioritizes accessibility while giving full CSS cont
 
 Radix enables you to create complex interactive elements without writing code:
 
-* **Navigation Menu** – Horizontal navigation with dropdown support (mega menus)
-* **Sheet** – Slide-out panels, perfect for mobile navigation
-* **Dialog** – Modal windows and popups
-* **Tooltip** – Hover hints and contextual information
-* **Popover** – Click-triggered floating content
-* **Accordion** – Expandable/collapsible content sections
-* **Collapsible** – Simple show/hide functionality
-* **Tabs** – Tabbed content interfaces
-* **Select** – Customizable dropdown selects
-* **Switch** – Toggle switches
-* **Checkbox** – Fully customizable checkboxes
-* **Radio Group** – Styled radio button groups
-* **Label** – Accessible form labels
+- **Navigation Menu** – Horizontal navigation with dropdown support (mega menus)
+- **Sheet** – Slide-out panels, perfect for mobile navigation
+- **Dialog** – Modal windows and popups
+- **Tooltip** – Hover hints and contextual information
+- **Popover** – Click-triggered floating content
+- **Accordion** – Expandable/collapsible content sections
+- **Collapsible** – Simple show/hide functionality
+- **Tabs** – Tabbed content interfaces
+- **Select** – Customizable dropdown selects
+- **Switch** – Toggle switches
+- **Checkbox** – Fully customizable checkboxes
+- **Radio Group** – Styled radio button groups
+- **Label** – Accessible form labels
 
 Each component can be fully styled using Webstudio's Style Panel while maintaining all accessibility features.

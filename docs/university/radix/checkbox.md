@@ -7,6 +7,7 @@ The Radix Checkbox component provides a fully customizable checkbox with complet
 ## When to Use Radix Checkbox
 
 Use Radix Checkbox when you need:
+
 - Custom checkbox styling beyond native browser limits
 - Animated check indicators
 - Complex checkbox designs (custom icons, sizes, colors)
@@ -16,9 +17,9 @@ For simple forms where native styling is acceptable, the [native Checkbox](../co
 
 ## Structure
 
-| Component | Description |
-|-----------|-------------|
-| **Checkbox** | The main checkbox container |
+| Component              | Description                     |
+| ---------------------- | ------------------------------- |
+| **Checkbox**           | The main checkbox container     |
 | **Checkbox Indicator** | Contains the check mark or icon |
 
 ## How to Use
@@ -32,19 +33,19 @@ For simple forms where native styling is acceptable, the [native Checkbox](../co
 
 ### Checkbox
 
-| Property | Description |
-|----------|-------------|
-| `id` | Unique identifier for label association |
-| `name` | Form field name for submission |
-| `value` | Value sent when checked |
-| `checked` | Control checked state |
-| `required` | Whether checking is required |
-| `disabled` | Disable the checkbox |
+| Property   | Description                             |
+| ---------- | --------------------------------------- |
+| `id`       | Unique identifier for label association |
+| `name`     | Form field name for submission          |
+| `value`    | Value sent when checked                 |
+| `checked`  | Control checked state                   |
+| `required` | Whether checking is required            |
+| `disabled` | Disable the checkbox                    |
 
 ### Checkbox Indicator
 
-| Property | Description |
-|----------|-------------|
+| Property     | Description                          |
+| ------------ | ------------------------------------ |
 | `forceMount` | Keep indicator in DOM when unchecked |
 
 ## Basic Setup
@@ -61,21 +62,23 @@ Label (display: flex, align-items: center, gap: 8px)
 
 ### Data Attributes
 
-| State | Selector | Description |
-|-------|----------|-------------|
-| Unchecked | `[data-state=unchecked]` | Default state |
-| Checked | `[data-state=checked]` | Selected state |
+| State         | Selector                     | Description       |
+| ------------- | ---------------------------- | ----------------- |
+| Unchecked     | `[data-state=unchecked]`     | Default state     |
+| Checked       | `[data-state=checked]`       | Selected state    |
 | Indeterminate | `[data-state=indeterminate]` | Partial selection |
-| Disabled | `[data-disabled]` | Cannot interact |
+| Disabled      | `[data-disabled]`            | Cannot interact   |
 
 ### Example Styles
 
 **Checkbox container:**
+
 - Default: border, background, size
 - Checked: different background/border
 - Focus: visible ring for accessibility
 
 **Indicator:**
+
 - Hidden when unchecked (opacity: 0 or display: none)
 - Visible when checked (opacity: 1)
 - Animate with transitions
@@ -107,15 +110,17 @@ Add smooth check animations:
 ```css
 /* Indicator transition */
 Checkbox Indicator {
-  transition: opacity 200ms, transform 200ms;
+  transition:
+    opacity 200ms,
+    transform 200ms;
 }
 
 /* Scale animation on check */
-[data-state=checked] Checkbox Indicator {
+[data-state="checked"] Checkbox Indicator {
   transform: scale(1);
 }
 
-[data-state=unchecked] Checkbox Indicator {
+[data-state="unchecked"] Checkbox Indicator {
   transform: scale(0);
   opacity: 0;
 }
@@ -124,12 +129,14 @@ Checkbox Indicator {
 ## Accessibility
 
 Radix Checkbox provides:
+
 - Full keyboard support (Space to toggle)
 - ARIA attributes automatically applied
 - Focus management
 - Screen reader announcements
 
 Ensure you:
+
 - Always provide a visible label
 - Maintain sufficient color contrast
 - Include focus indicators
@@ -151,14 +158,14 @@ The checkbox value is submitted with the form when checked.
 
 ## Comparison
 
-| Feature | Native Checkbox | Radix Checkbox |
-|---------|-----------------|----------------|
-| Styling | Limited | Full control |
-| Custom icons | No | Yes |
-| Animations | No | Yes |
-| Indeterminate | JavaScript only | Built-in |
-| Accessibility | Browser default | WAI-ARIA |
-| Size | 13-16px typically | Any size |
+| Feature       | Native Checkbox   | Radix Checkbox |
+| ------------- | ----------------- | -------------- |
+| Styling       | Limited           | Full control   |
+| Custom icons  | No                | Yes            |
+| Animations    | No                | Yes            |
+| Indeterminate | JavaScript only   | Built-in       |
+| Accessibility | Browser default   | WAI-ARIA       |
+| Size          | 13-16px typically | Any size       |
 
 ## Related Components
 

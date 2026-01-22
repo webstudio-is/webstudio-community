@@ -8,22 +8,24 @@ Paragraphs are the primary component for body text and article content. They aut
 
 ## Properties
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `id` | string | Unique identifier |
-| `class` | string | CSS class names |
+| Property | Type   | Description       |
+| -------- | ------ | ----------------- |
+| `id`     | string | Unique identifier |
+| `class`  | string | CSS class names   |
 
 ## When to Use Paragraph
 
 Use Paragraph for:
+
 - Article body content
 - Descriptions and explanations
 - Any block of running text
 
 Use other components for:
+
 - Titles → [Heading](heading.md)
 - Labels or short text → [Text](text.md)
-- Inline styled text → [Span](span.md)
+- Inline styled text → [Inline Text](inline-text.md)
 
 ## Styling Paragraphs
 
@@ -46,7 +48,7 @@ Use other components for:
 When editing a Paragraph, you can apply inline formatting:
 
 - **Bold** text for emphasis
-- *Italic* text for titles or foreign words
+- _Italic_ text for titles or foreign words
 - [Links](link.md) for navigation
 - <sup>Superscript</sup> for footnotes
 - <sub>Subscript</sub> for chemical formulas
@@ -61,6 +63,7 @@ Collection
 ```
 
 For long-form CMS content, consider using:
+
 - [Content Embed](content-embed.md) for rich text
 - [Markdown Embed](markdown-embed.md) for markdown
 

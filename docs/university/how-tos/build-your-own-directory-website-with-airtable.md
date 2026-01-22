@@ -60,9 +60,9 @@ For newsletter/email collection.
 
 ### 4. Bind Collection Data
 
-* Collection data path: `airtable.data.records`
-* Field bindings use: `collectionItem.fields.fieldname`
-* For images: `collectionItem.fields.featured_image[0].url`
+- Collection data path: `airtable.data.records`
+- Field bindings use: `collectionItem.fields.fieldname`
+- For images: `collectionItem.fields.featured_image[0].url`
 
 ## Form Automation
 
@@ -76,4 +76,3 @@ For newsletter/email collection.
 6. Enable the automation
 
 Test by publishing and submitting the form.
-

@@ -9,10 +9,10 @@ description: >-
 
 By the end of this tutorial, you will have:
 
-* **An overview page** – Displaying all records from Baserow with links to detail pages
-* **A details page** – A dynamic page showing individual record data
-* **Filters** – Search and filter functionality
-* **A sitemap** – Dynamic sitemap containing your Baserow records
+- **An overview page** – Displaying all records from Baserow with links to detail pages
+- **A details page** – A dynamic page showing individual record data
+- **Filters** – Search and filter functionality
+- **A sitemap** – Dynamic sitemap containing your Baserow records
 
 ## Why Baserow?
 
@@ -54,6 +54,7 @@ By the end of this tutorial, you will have:
 ```
 
 Replace:
+
 - `YOUR_TABLE_ID` with your Baserow table ID
 - `slug` with your actual field name
 

@@ -5,28 +5,29 @@ The **Heading** component renders HTML heading elements (h1-h6) for creating a h
 ## Overview
 
 Headings establish the document outline and help users and search engines understand your content structure. They're crucial for:
+
 - **Accessibility**: Screen readers use headings for navigation
 - **SEO**: Search engines use headings to understand page content
 - **Visual hierarchy**: Guide users through your content
 
 ## Tag Options
 
-| Tag | Typical Use |
-|-----|-------------|
+| Tag  | Typical Use                         |
+| ---- | ----------------------------------- |
 | `h1` | Page title (use only once per page) |
-| `h2` | Major section titles |
-| `h3` | Subsection titles |
-| `h4` | Sub-subsection titles |
-| `h5` | Minor headings |
-| `h6` | Smallest headings |
+| `h2` | Major section titles                |
+| `h3` | Subsection titles                   |
+| `h4` | Sub-subsection titles               |
+| `h5` | Minor headings                      |
+| `h6` | Smallest headings                   |
 
 ## Properties
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `tag` | string | Heading level: h1, h2, h3, h4, h5, or h6 |
-| `id` | string | Unique identifier (useful for anchor links) |
-| `class` | string | CSS class names |
+| Property | Type   | Description                                 |
+| -------- | ------ | ------------------------------------------- |
+| `tag`    | string | Heading level: h1, h2, h3, h4, h5, or h6    |
+| `id`     | string | Unique identifier (useful for anchor links) |
+| `class`  | string | CSS class names                             |
 
 ## Heading Hierarchy
 
@@ -48,7 +49,7 @@ h1: Page Title
 
 ❌ **Don't skip levels**: Going from h2 directly to h4  
 ❌ **Don't choose heading level for style**: Use CSS instead  
-❌ **Don't use multiple h1 tags**: One per page is the standard  
+❌ **Don't use multiple h1 tags**: One per page is the standard
 
 ## Styling Headings
 
@@ -67,22 +68,24 @@ Webstudio applies browser-normalized styles to headings. You can customize:
 A common typographic scale for headings:
 
 | Level | Size (desktop) | Size (mobile) |
-|-------|----------------|---------------|
-| h1 | 48-64px | 32-40px |
-| h2 | 36-48px | 28-32px |
-| h3 | 28-32px | 24-28px |
-| h4 | 24-28px | 20-24px |
-| h5 | 20-24px | 18-20px |
-| h6 | 16-18px | 16-18px |
+| ----- | -------------- | ------------- |
+| h1    | 48-64px        | 32-40px       |
+| h2    | 36-48px        | 28-32px       |
+| h3    | 28-32px        | 24-28px       |
+| h4    | 24-28px        | 20-24px       |
+| h5    | 20-24px        | 18-20px       |
+| h6    | 16-18px        | 16-18px       |
 
 ## Dynamic Headings
 
 Headings can display dynamic content from:
+
 - CMS collections
 - Page variables
 - URL parameters
 
 To bind dynamic content:
+
 1. Select the Heading
 2. Click the binding icon in Settings
 3. Choose your data source

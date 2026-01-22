@@ -8,15 +8,15 @@ Radio buttons are used when users must select exactly one option from a predefin
 
 ## Properties
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `name` | string | Group name (same for all options) |
-| `value` | string | Value submitted when selected |
-| `checked` | boolean | Whether this option is selected |
-| `required` | boolean | Whether a selection is required |
-| `disabled` | boolean | Whether input is disabled |
-| `id` | string | Unique identifier |
-| `class` | string | CSS class names |
+| Property   | Type    | Description                       |
+| ---------- | ------- | --------------------------------- |
+| `name`     | string  | Group name (same for all options) |
+| `value`    | string  | Value submitted when selected     |
+| `checked`  | boolean | Whether this option is selected   |
+| `required` | boolean | Whether a selection is required   |
+| `disabled` | boolean | Whether input is disabled         |
+| `id`       | string  | Unique identifier                 |
+| `class`    | string  | CSS class names                   |
 
 ## Basic Usage
 
@@ -50,6 +50,7 @@ Only one option can be selected at a time.
 ### Native Styling
 
 Basic styling options:
+
 - `accent-color`: Change the selected color
 - `width`/`height`: Adjust size
 - `cursor: pointer`: Show clickable cursor
@@ -61,6 +62,7 @@ For fully custom styling, consider using the [Radix Radio Group](../radix/radio-
 ## Form Submission
 
 When the form is submitted, the selected option's value is sent:
+
 ```
 plan=pro
 ```
@@ -93,6 +95,7 @@ Box (role: radiogroup, aria-label: "Subscription Plan")
 ### Keyboard Navigation
 
 Radio groups support keyboard navigation:
+
 - **Arrow keys**: Move between options
 - **Space**: Select focused option
 - **Tab**: Move to/from the group
@@ -133,12 +136,12 @@ Label (padding: 16px, border: 1px solid, border-radius: 8px)
 
 ## States
 
-| State | Description |
-|-------|-------------|
-| Unchecked | Default unselected state |
-| Checked | Selected state |
-| Disabled | Cannot be interacted with |
-| Focus | Keyboard focus visible |
+| State     | Description               |
+| --------- | ------------------------- |
+| Unchecked | Default unselected state  |
+| Checked   | Selected state            |
+| Disabled  | Cannot be interacted with |
+| Focus     | Keyboard focus visible    |
 
 ## Best Practices
 
@@ -151,11 +154,11 @@ Label (padding: 16px, border: 1px solid, border-radius: 8px)
 
 ## When to Use
 
-| Use Radio Buttons | Use Checkbox | Use Select |
-|-------------------|--------------|------------|
+| Use Radio Buttons              | Use Checkbox                | Use Select        |
+| ------------------------------ | --------------------------- | ----------------- |
 | 2-7 mutually exclusive options | Multiple selections allowed | Many options (8+) |
-| All options visible | Toggle single option | Space constrained |
-| User needs to compare | Independent choices | Long option text |
+| All options visible            | Toggle single option        | Space constrained |
+| User needs to compare          | Independent choices         | Long option text  |
 
 ## Related Components
 

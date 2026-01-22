@@ -13,6 +13,7 @@ Inline formatting components allow you to style specific portions of text withou
 The `<span>` element is a generic inline container for styling text.
 
 **Use cases:**
+
 - Apply custom colors to specific words
 - Add backgrounds to highlighted text
 - Apply multiple styles to a text portion
@@ -28,6 +29,7 @@ The `<span>` element is a generic inline container for styling text.
 The `<strong>` element indicates text with strong importance.
 
 **Use cases:**
+
 - Important warnings or key terms
 - Emphasize critical information
 - Highlight product names or features
@@ -45,6 +47,7 @@ The `<strong>` element indicates text with strong importance.
 The `<em>` element indicates emphasized text.
 
 **Use cases:**
+
 - Technical terms on first use
 - Titles of works (books, movies)
 - Foreign words or phrases
@@ -61,6 +64,7 @@ The `<em>` element indicates emphasized text.
 The `<sup>` element displays text slightly above the normal line.
 
 **Use cases:**
+
 - Footnote references¹
 - Mathematical exponents (x²)
 - Trademark symbols (™)
@@ -77,6 +81,7 @@ The `<sup>` element displays text slightly above the normal line.
 The `<sub>` element displays text slightly below the normal line.
 
 **Use cases:**
+
 - Chemical formulas (H₂O)
 - Mathematical subscripts
 - Footnotes (in some styles)
@@ -95,9 +100,9 @@ The easiest way to apply inline formatting is through rich text editing:
 2. Select the text you want to format
 3. Use the formatting toolbar:
    - **B** for Bold
-   - *I* for Italic
+   - _I_ for Italic
    - Link icon for hyperlinks
-   
+
 For Superscript and Subscript, you'll need to add the component manually and position it within your text.
 
 ## Styling Tips
@@ -113,6 +118,7 @@ Paragraph
 ### Gradient Text
 
 Apply a gradient to text using Span:
+
 1. Add Span around text
 2. Set background to gradient
 3. Add `-webkit-background-clip: text`

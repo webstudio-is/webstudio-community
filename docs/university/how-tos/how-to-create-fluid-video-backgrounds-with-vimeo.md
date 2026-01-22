@@ -52,8 +52,8 @@ Hero (Box)
 3. Remove the default width and aspect ratio
 4. Set **Position**: Absolute with all sides at 0
 5. Configure settings:
-   * **Enable**: Show Preview, Autoplay, Background Mode, Loop, Muted, Do Not Track
-   * **Disable**: Portrait (avatar), Controls
+   - **Enable**: Show Preview, Autoplay, Background Mode, Loop, Muted, Do Not Track
+   - **Disable**: Portrait (avatar), Controls
 6. Hide the **Spinner** and **Play Button** instances (they're not needed for background video)
 
 ### 5. Add the Content Box
@@ -69,12 +69,12 @@ The video background automatically scales because the container grows with the c
 
 ## Tips
 
-* **Performance**: Compress videos and keep them short for faster loading
-* **Mobile**: Consider hiding video backgrounds on mobile and using a static image instead
-* **Accessibility**: Don't rely on video content to convey critical information
-* **Fallback**: Add a poster image or background color for loading states
+- **Performance**: Compress videos and keep them short for faster loading
+- **Mobile**: Consider hiding video backgrounds on mobile and using a static image instead
+- **Accessibility**: Don't rely on video content to convey critical information
+- **Fallback**: Add a poster image or background color for loading states
 
 ## See Also
 
-* [Vimeo Background Video Component](../core-components/vimeo-background-video.md)
-* [Vimeo Component](../core-components/vimeo.md)
+- [Vimeo Background Video Component](../core-components/vimeo-background-video.md)
+- [Vimeo Component](../core-components/vimeo.md)

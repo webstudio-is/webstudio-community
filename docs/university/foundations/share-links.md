@@ -9,11 +9,11 @@ icon: clone
 
 **Use cases:**
 
-* Providing team members or clients the ability to modify a site
-* Cloning the Project to another Webstudio account
-* Sharing your Project to get support
-* [Selling templates](../../contributing/marketplace.md#selling-templates) (i.e., using Share Links to deliver the template upon payment)
-* Creating your own marketplace of templates
+- Providing team members or clients the ability to modify a site
+- Cloning the Project to another Webstudio account
+- Sharing your Project to get support
+- [Selling templates](../../contributing/marketplace.md#selling-templates) (i.e., using Share Links to deliver the template upon payment)
+- Creating your own marketplace of templates
 
 ## Cloning Projects
 

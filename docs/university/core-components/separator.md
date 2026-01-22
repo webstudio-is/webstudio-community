@@ -62,6 +62,7 @@ Some commonly used properties (see the Settings panel for all available options)
 | --------------- | ---------------------------------------- |
 | **orientation** | `horizontal` (default) or `vertical`     |
 | **decorative**  | If true, removes from accessibility tree |
+
 ## Related
 
 - [Element](element.md) – Generic HTML containers

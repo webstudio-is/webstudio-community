@@ -12,26 +12,26 @@ The native Select component uses the browser's built-in dropdown functionality. 
 
 The dropdown container.
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `name` | string | Form field name |
-| `value` | string | Currently selected value |
+| Property   | Type    | Description                   |
+| ---------- | ------- | ----------------------------- |
+| `name`     | string  | Form field name               |
+| `value`    | string  | Currently selected value      |
 | `required` | boolean | Whether selection is required |
-| `disabled` | boolean | Whether select is disabled |
-| `multiple` | boolean | Allow multiple selections |
-| `id` | string | Unique identifier |
-| `class` | string | CSS class names |
+| `disabled` | boolean | Whether select is disabled    |
+| `multiple` | boolean | Allow multiple selections     |
+| `id`       | string  | Unique identifier             |
+| `class`    | string  | CSS class names               |
 
 ### Option
 
 Individual options within the select.
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `value` | string | Value submitted when selected |
-| `selected` | boolean | Whether this option is selected |
-| `disabled` | boolean | Whether option is disabled |
-| `label` | string | Display text (alternative to content) |
+| Property   | Type    | Description                           |
+| ---------- | ------- | ------------------------------------- |
+| `value`    | string  | Value submitted when selected         |
+| `selected` | boolean | Whether this option is selected       |
+| `disabled` | boolean | Whether option is disabled            |
+| `label`    | string  | Display text (alternative to content) |
 
 ## Basic Usage
 
@@ -60,6 +60,7 @@ This shows hint text but can't be submitted.
 ## Form Submission
 
 When submitted, the selected option's `value` is sent:
+
 ```
 country=us
 ```
@@ -67,6 +68,7 @@ country=us
 ## Styling Limitations
 
 Native select elements have limited styling options:
+
 - **Can style**: border, background, padding, font
 - **Cannot style**: dropdown arrow, option appearance (varies by browser/OS)
 
@@ -116,13 +118,13 @@ Users can Ctrl/Cmd+click to select multiple options.
 
 ## When to Use Native vs Radix Select
 
-| Native Select | Radix Select |
-|---------------|--------------|
-| Simple forms | Custom styling needed |
-| Mobile-friendly | Desktop-focused |
-| Quick implementation | Searchable options |
-| Standard browser behavior | Complex interactions |
-| Works everywhere | Advanced features |
+| Native Select             | Radix Select          |
+| ------------------------- | --------------------- |
+| Simple forms              | Custom styling needed |
+| Mobile-friendly           | Desktop-focused       |
+| Quick implementation      | Searchable options    |
+| Standard browser behavior | Complex interactions  |
+| Works everywhere          | Advanced features     |
 
 ## Dynamic Options
 

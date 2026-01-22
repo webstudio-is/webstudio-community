@@ -8,20 +8,20 @@ Use the Video component when you have your own video files to host, rather than 
 
 ## Properties
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `src` | string | URL to the video file |
-| `poster` | string | Image shown before video plays |
-| `autoplay` | boolean | Start playing automatically |
-| `controls` | boolean | Show video controls |
-| `loop` | boolean | Loop video continuously |
-| `muted` | boolean | Mute audio by default |
-| `playsinline` | boolean | Play inline on mobile (vs fullscreen) |
-| `preload` | string | Preload behavior: none, metadata, auto |
-| `width` | string | Video width |
-| `height` | string | Video height |
-| `id` | string | Unique identifier |
-| `class` | string | CSS class names |
+| Property      | Type    | Description                            |
+| ------------- | ------- | -------------------------------------- |
+| `src`         | string  | URL to the video file                  |
+| `poster`      | string  | Image shown before video plays         |
+| `autoplay`    | boolean | Start playing automatically            |
+| `controls`    | boolean | Show video controls                    |
+| `loop`        | boolean | Loop video continuously                |
+| `muted`       | boolean | Mute audio by default                  |
+| `playsinline` | boolean | Play inline on mobile (vs fullscreen)  |
+| `preload`     | string  | Preload behavior: none, metadata, auto |
+| `width`       | string  | Video width                            |
+| `height`      | string  | Video height                           |
+| `id`          | string  | Unique identifier                      |
+| `class`       | string  | CSS class names                        |
 
 ## Basic Usage
 
@@ -36,11 +36,11 @@ Video
 
 For best browser compatibility, provide multiple formats:
 
-| Format | MIME Type | Support |
-|--------|-----------|---------|
-| MP4 (H.264) | video/mp4 | Best compatibility |
-| WebM | video/webm | Modern browsers |
-| OGG | video/ogg | Older Firefox |
+| Format      | MIME Type  | Support            |
+| ----------- | ---------- | ------------------ |
+| MP4 (H.264) | video/mp4  | Best compatibility |
+| WebM        | video/webm | Modern browsers    |
+| OGG         | video/ogg  | Older Firefox      |
 
 MP4 is recommended as the primary format.
 
@@ -49,10 +49,12 @@ MP4 is recommended as the primary format.
 Browsers restrict autoplay to prevent unwanted media:
 
 ### Autoplay with Sound
+
 - Requires user interaction first
 - Won't work on page load
 
 ### Autoplay Muted ✓
+
 - Works on page load
 - Must include `muted: true`
 
@@ -92,11 +94,11 @@ Box (position: relative, overflow: hidden)
 
 ## Preload Options
 
-| Value | Description |
-|-------|-------------|
-| `none` | Don't preload anything |
+| Value      | Description                       |
+| ---------- | --------------------------------- |
+| `none`     | Don't preload anything            |
 | `metadata` | Load dimensions and duration only |
-| `auto` | Browser decides what to preload |
+| `auto`     | Browser decides what to preload   |
 
 Use `metadata` for most cases to balance performance and user experience.
 
@@ -116,6 +118,7 @@ For different video qualities at different screen sizes, you may need custom HTM
 ## Poster Image
 
 The `poster` attribute shows an image before the video plays:
+
 - Use a relevant frame from the video
 - Optimize the image for quick loading
 - Match the video's aspect ratio
@@ -137,13 +140,13 @@ The `poster` attribute shows an image before the video plays:
 
 ## When to Use
 
-| Use Video | Use YouTube/Vimeo |
-|-----------|-------------------|
-| Self-hosted files | Platform content |
-| Background videos | SEO benefits |
-| Full control needed | Free hosting |
-| Privacy requirements | Analytics needed |
-| Custom player UI | Social features |
+| Use Video            | Use YouTube/Vimeo |
+| -------------------- | ----------------- |
+| Self-hosted files    | Platform content  |
+| Background videos    | SEO benefits      |
+| Full control needed  | Free hosting      |
+| Privacy requirements | Analytics needed  |
+| Custom player UI     | Social features   |
 
 ## Related Components
 

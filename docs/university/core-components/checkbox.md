@@ -8,15 +8,15 @@ Checkboxes allow users to select one or more options from a set, or toggle a sin
 
 ## Properties
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `name` | string | Form field name |
-| `value` | string | Value submitted when checked |
-| `checked` | boolean | Whether the checkbox is checked |
-| `required` | boolean | Whether selection is required |
-| `disabled` | boolean | Whether input is disabled |
-| `id` | string | Unique identifier |
-| `class` | string | CSS class names |
+| Property   | Type    | Description                     |
+| ---------- | ------- | ------------------------------- |
+| `name`     | string  | Form field name                 |
+| `value`    | string  | Value submitted when checked    |
+| `checked`  | boolean | Whether the checkbox is checked |
+| `required` | boolean | Whether selection is required   |
+| `disabled` | boolean | Whether input is disabled       |
+| `id`       | string  | Unique identifier               |
+| `class`    | string  | CSS class names                 |
 
 ## Basic Usage
 
@@ -54,6 +54,7 @@ When submitted, all checked values are sent with the same `name`.
 ### Native Styling
 
 Browser checkboxes can be styled with:
+
 - `accent-color`: Change the checked color
 - `width`/`height`: Adjust size
 - `cursor: pointer`: Show clickable cursor
@@ -65,10 +66,12 @@ For fully custom checkboxes, consider using the [Radix Checkbox](../radix/checkb
 ## Form Submission
 
 ### Single Checkbox
+
 If checked, sends: `name=value`
 If unchecked, nothing is sent
 
 ### Multiple Checkboxes (same name)
+
 Sends all checked values: `interests=design&interests=development`
 
 ## Validation
@@ -109,12 +112,12 @@ Box (role: group)
 
 Style different checkbox states:
 
-| State | Description |
-|-------|-------------|
-| Unchecked | Default empty state |
-| Checked | Selected state |
-| Disabled | Cannot be interacted with |
-| Focus | Keyboard focus visible |
+| State         | Description                         |
+| ------------- | ----------------------------------- |
+| Unchecked     | Default empty state                 |
+| Checked       | Selected state                      |
+| Disabled      | Cannot be interacted with           |
+| Focus         | Keyboard focus visible              |
 | Indeterminate | Partial selection (JavaScript only) |
 
 ## Best Practices
@@ -127,11 +130,11 @@ Style different checkbox states:
 
 ## When to Use
 
-| Use Checkbox | Use Radio | Use Toggle |
-|--------------|-----------|------------|
-| Multiple selections | Single selection from many | On/off setting |
-| Optional agreements | Required choice | Immediate effect |
-| Filter options | Exclusive options | Settings |
+| Use Checkbox        | Use Radio                  | Use Toggle       |
+| ------------------- | -------------------------- | ---------------- |
+| Multiple selections | Single selection from many | On/off setting   |
+| Optional agreements | Required choice            | Immediate effect |
+| Filter options      | Exclusive options          | Settings         |
 
 ## Related Components
 

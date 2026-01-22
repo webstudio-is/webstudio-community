@@ -29,17 +29,17 @@ The engine’s user interface is composed of three main components, each designe
 
 Learn the fundamentals and advanced techniques:
 
-| Tutorial | Description |
-|----------|-------------|
-| [Scroll Animations 101](https://www.youtube.com/watch?v=vleipSDU_Xo) | Introduction to scroll-driven animations |
-| [Parallax Animation 101](https://www.youtube.com/watch?v=Hzdnlz67nvQ) | Create depth with parallax scrolling effects |
-| [Fade in Animation 101](https://www.youtube.com/watch?v=ZDxwKJ_yh0A) | Basic fade-in effects on scroll |
-| [Hero Page Load Animation](https://www.youtube.com/watch?v=RDQLbUqarUM) | Animate hero sections on page load |
-| [Stagger Animations](https://www.youtube.com/watch?v=8y2n8qEkv94) | Create cascading animation sequences |
-| [Animation Subject Options](https://www.youtube.com/watch?v=QQLNIeUQxPI) | Understanding animation subjects and options |
-| [Advanced Scroll Animation](https://www.youtube.com/watch?v=h8dhdb6bmWw) | Complex scroll-driven animation techniques |
-| [Scroll-Driven Text Animations](https://www.youtube.com/watch?v=UM8WNeqWWqM) | Animate text as users scroll |
-| [Perfecting Animation Ranges](https://www.youtube.com/watch?v=c_ObDvsYOnk) | Fine-tune start/end points |
+| Tutorial                                                                     | Description                                  |
+| ---------------------------------------------------------------------------- | -------------------------------------------- |
+| [Scroll Animations 101](https://www.youtube.com/watch?v=vleipSDU_Xo)         | Introduction to scroll-driven animations     |
+| [Parallax Animation 101](https://www.youtube.com/watch?v=Hzdnlz67nvQ)        | Create depth with parallax scrolling effects |
+| [Fade in Animation 101](https://www.youtube.com/watch?v=ZDxwKJ_yh0A)         | Basic fade-in effects on scroll              |
+| [Hero Page Load Animation](https://www.youtube.com/watch?v=RDQLbUqarUM)      | Animate hero sections on page load           |
+| [Stagger Animations](https://www.youtube.com/watch?v=8y2n8qEkv94)            | Create cascading animation sequences         |
+| [Animation Subject Options](https://www.youtube.com/watch?v=QQLNIeUQxPI)     | Understanding animation subjects and options |
+| [Advanced Scroll Animation](https://www.youtube.com/watch?v=h8dhdb6bmWw)     | Complex scroll-driven animation techniques   |
+| [Scroll-Driven Text Animations](https://www.youtube.com/watch?v=UM8WNeqWWqM) | Animate text as users scroll                 |
+| [Perfecting Animation Ranges](https://www.youtube.com/watch?v=c_ObDvsYOnk)   | Fine-tune start/end points                   |
 
 ## Hover Animations
 

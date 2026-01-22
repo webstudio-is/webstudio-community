@@ -5,6 +5,7 @@ Webstudio provides components for adding elements to the document `<head>`, allo
 ## Overview
 
 The Head Slot and its children let you add custom elements to your page's `<head>` section. This is essential for:
+
 - SEO meta tags
 - Social sharing metadata
 - External stylesheets
@@ -21,11 +22,12 @@ The container component that accepts head-related children. See [Head Slot](head
 
 Sets or overrides the document title.
 
-| Property | Type | Description |
-|----------|------|-------------|
-| Content | text | The page title text |
+| Property | Type | Description         |
+| -------- | ---- | ------------------- |
+| Content  | text | The page title text |
 
 **Usage:**
+
 ```
 Head Slot
 └── Head Title
@@ -33,6 +35,7 @@ Head Slot
 ```
 
 The title appears in:
+
 - Browser tab
 - Search results
 - Bookmarks
@@ -42,11 +45,11 @@ The title appears in:
 
 Adds custom `<meta>` tags to the document head.
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `name` | string | Meta name (e.g., description, viewport) |
+| Property   | Type   | Description                              |
+| ---------- | ------ | ---------------------------------------- |
+| `name`     | string | Meta name (e.g., description, viewport)  |
 | `property` | string | Meta property (e.g., og:title, og:image) |
-| `content` | string | Meta content value |
+| `content`  | string | Meta content value                       |
 
 **Common meta tags:**
 
@@ -70,17 +73,18 @@ Head Slot
 
 Adds `<link>` elements for external resources.
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `href` | string | URL of the resource |
-| `rel` | string | Relationship type |
-| `type` | string | MIME type |
-| `as` | string | Resource type for preloading |
-| `crossorigin` | string | CORS setting |
+| Property      | Type   | Description                  |
+| ------------- | ------ | ---------------------------- |
+| `href`        | string | URL of the resource          |
+| `rel`         | string | Relationship type            |
+| `type`        | string | MIME type                    |
+| `as`          | string | Resource type for preloading |
+| `crossorigin` | string | CORS setting                 |
 
 **Common uses:**
 
 **External stylesheet:**
+
 ```
 Head Link
   rel: stylesheet
@@ -88,6 +92,7 @@ Head Link
 ```
 
 **Preload font:**
+
 ```
 Head Link
   rel: preload
@@ -98,6 +103,7 @@ Head Link
 ```
 
 **Favicon:**
+
 ```
 Head Link
   rel: icon
@@ -106,6 +112,7 @@ Head Link
 ```
 
 **Canonical URL:**
+
 ```
 Head Link
   rel: canonical
@@ -169,12 +176,12 @@ Head Slot
 
 Webstudio provides both Page Settings and Head components:
 
-| Page Settings | Head Components |
-|---------------|-----------------|
-| Basic SEO fields | Custom meta tags |
-| Quick setup | Full control |
-| Standard tags | Any valid head element |
-| Per-page UI | Visual component placement |
+| Page Settings    | Head Components            |
+| ---------------- | -------------------------- |
+| Basic SEO fields | Custom meta tags           |
+| Quick setup      | Full control               |
+| Standard tags    | Any valid head element     |
+| Per-page UI      | Visual component placement |
 
 Use Page Settings for standard SEO, Head components for advanced needs.
 

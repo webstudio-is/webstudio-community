@@ -2,10 +2,6 @@
 
 ## Layout
 
-{% content-ref url="box.md" %}
-[box.md](box.md)
-{% endcontent-ref %}
-
 {% content-ref url="element.md" %}
 [element.md](element.md)
 {% endcontent-ref %}

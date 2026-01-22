@@ -22,10 +22,10 @@ Just remember that you'll need to wrap the Text Animation component in an [Anima
 
 You can split text by:
 
-* Spaces (enabling you to animate each word)
-* Characters (enabling you to animate each letter)
-* `#`
-* `~`
+- Spaces (enabling you to animate each word)
+- Characters (enabling you to animate each letter)
+- `#`
+- `~`
 
 ## Under the hood
 

@@ -8,7 +8,7 @@ In Webstudio, a "Collection" is a powerful feature designed to manage and displa
 
 To create pages featuring dynamic content in Webstudio by integrating Supabase as your data source.
 
-***
+---
 
 ### Setting Up Your Supabase Project
 
@@ -17,7 +17,7 @@ To create pages featuring dynamic content in Webstudio by integrating Supabase a
 3. Once your project is initialized, navigate to the table editor to create a new table
 4. Define your fields (e.g., text fields for name, testimonial content, and an image URL field)
 
-***
+---
 
 ### Uploading Images to Supabase Storage
 
@@ -26,7 +26,7 @@ To create pages featuring dynamic content in Webstudio by integrating Supabase a
 3. Upload your images
 4. Each image will have a URL you can copy and store in your table
 
-***
+---
 
 ### Configuring Row Level Security (RLS)
 
@@ -35,7 +35,7 @@ To create pages featuring dynamic content in Webstudio by integrating Supabase a
 3. Enable **read access** for everyone (anonymous users)
 4. Save the policy
 
-***
+---
 
 ### Integrating Supabase with Webstudio
 
@@ -52,26 +52,26 @@ To create pages featuring dynamic content in Webstudio by integrating Supabase a
 2. Go to **Settings → Add Variable → Type: Resource**
 3. Paste the API URL
 4. Add a Header:
-   * Name: `apikey`
-   * Value: Your public API key from **Project Settings → API**
+   - Name: `apikey`
+   - Value: Your public API key from **Project Settings → API**
 
 {% hint style="info" %}
 The API key stays between you and the builder and is not exposed on the frontend.
 {% endhint %}
 
-***
+---
 
 ### Mapping Data and Finalizing Your Page
 
 Map the data from Supabase to your Webstudio project. This involves setting up the data within your collection to inform Webstudio about the available data for use.
 
-* Delete any automatically generated preview box within the collection.
-* Drag in your pre-created and pre-styled components, which will be repeated for each fetched item from Supabase.
-* For each component (e.g., paragraph, field, and image), bind the corresponding data from your Supabase collection.
-* Use `.data` to access the actual content (e.g., `resource.data`)
-* When binding inside a Collection, use `collectionItem` instead of the resource name
-* Once everything is connected and data is properly mapped, your page will dynamically display the testimonials stored in Supabase.
+- Delete any automatically generated preview box within the collection.
+- Drag in your pre-created and pre-styled components, which will be repeated for each fetched item from Supabase.
+- For each component (e.g., paragraph, field, and image), bind the corresponding data from your Supabase collection.
+- Use `.data` to access the actual content (e.g., `resource.data`)
+- When binding inside a Collection, use `collectionItem` instead of the resource name
+- Once everything is connected and data is properly mapped, your page will dynamically display the testimonials stored in Supabase.
 
 Make sure to check the responsiveness and appearance on mobile devices before publishing.
 
-***
+---

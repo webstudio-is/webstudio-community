@@ -8,11 +8,11 @@ Labels are essential for form accessibility. They tell users what information to
 
 ## Properties
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `for` | string | ID of the associated form control |
-| `id` | string | Unique identifier |
-| `class` | string | CSS class names |
+| Property | Type   | Description                       |
+| -------- | ------ | --------------------------------- |
+| `for`    | string | ID of the associated form control |
+| `id`     | string | Unique identifier                 |
+| `class`  | string | CSS class names                   |
 
 ## Associating Labels with Inputs
 
@@ -45,11 +45,13 @@ Label
 ## Styling Labels
 
 ### Typography
+
 - **Font Weight**: Slightly bolder than body text
 - **Font Size**: Same or slightly smaller than inputs
 - **Color**: High contrast for readability
 
 ### Layout
+
 - **Position**: Above input (most common) or beside it
 - **Spacing**: Add margin between label and input
 - **Alignment**: Align with input edges
@@ -89,6 +91,7 @@ Box (display: flex, align-items: center)
 ### Floating Labels
 
 Create floating label effect with CSS positioning:
+
 1. Position label absolutely over input
 2. On input focus/filled, translate label up
 3. Reduce font size when floating

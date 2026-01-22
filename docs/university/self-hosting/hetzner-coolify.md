@@ -14,9 +14,9 @@ Coolify is a PaaS that makes it easy to deploy and manage applications on your o
 
 ## Prerequisites
 
-* [GitHub account](https://github.com)
-* [Hetzner account](https://www.hetzner.com)
-* [Webstudio CLI](cli.md)
+- [GitHub account](https://github.com)
+- [Hetzner account](https://www.hetzner.com)
+- [Webstudio CLI](cli.md)
 
 ## 1. Create a GitHub repository
 
@@ -55,30 +55,33 @@ Hetzner is cost-effective — a shared CPU server with 4GB RAM costs around €4
 1. Create a Coolify account or log in to your existing account.
 2. Navigate to the "Servers" tab.
 3. Add a new server and provide your server’s IP address then click “Continue”.
-4.  Click “Validate Server & Install Docker Engine“ and Coolify will install all necessary components on your server automatically. Once completed, you should see a green “Proxy Running” status.
+4. Click “Validate Server & Install Docker Engine“ and Coolify will install all necessary components on your server automatically. Once completed, you should see a green “Proxy Running” status.
 
-    ![proxy is running](../../.gitbook/assets/webstudio-digital-ocean-coolify-4.png)
+   ![proxy is running](../../.gitbook/assets/webstudio-digital-ocean-coolify-4.png)
 
 ## 6. Setup a Project on Coolify
 
 1. Go to Projects and create a new one.
 2. Add a Resource to the project.
-3.  Select the source of your code, likely a private repository.
+3. Select the source of your code, likely a private repository.
 
-    ![GitHub resource](../../.gitbook/assets/webstudio-digital-ocean-coolify-5.png)
+   ![GitHub resource](../../.gitbook/assets/webstudio-digital-ocean-coolify-5.png)
+
 4. Add a GitHub app and provide it access to your repository with the site.
-5.  Change the Build Pack to Dockerfile.
+5. Change the Build Pack to Dockerfile.
 
-    ![build pack using Dockerfile](../../.gitbook/assets/webstudio-digital-ocean-coolify-6.png)
-6.  Click Deploy and wait several minutes while it deploys. You can click “Show debug logs” to see more details.
+   ![build pack using Dockerfile](../../.gitbook/assets/webstudio-digital-ocean-coolify-6.png)
 
-    ![deploy in progress](../../.gitbook/assets/webstudio-digital-ocean-coolify-8.png)
+6. Click Deploy and wait several minutes while it deploys. You can click “Show debug logs” to see more details.
+
+   ![deploy in progress](../../.gitbook/assets/webstudio-digital-ocean-coolify-8.png)
+
 7. If all goes well, you should see “Deployment is Finished.”
    1. If the deployment fails, one possibility is that the server does not have enough resources.
 8. (Optional) If you are loading images from third-party domains, add them to your environment variables with the key `DOMAINS` and a comma-separated list of the third-party domains.
-9.  At the top, there is a "links" button which will take you to the live site.
+9. At the top, there is a "links" button which will take you to the live site.
 
-    ![link for live site](../../.gitbook/assets/webstudio-digital-ocean-coolify-9.png)
+   ![link for live site](../../.gitbook/assets/webstudio-digital-ocean-coolify-9.png)
 
 ## 7. Sync, build, and push new changes
 
@@ -93,6 +96,6 @@ Coolify will automatically detect the changes and trigger a new deployment.
 
 <figure><img src="../../.gitbook/assets/webstudio-sync.png" alt="webstudio sync command"><figcaption></figcaption></figure>
 
-***
+---
 
 Now, you should have a website built on Webstudio that is hosted on Hetzner using Coolify, giving you full control over your infrastructure.

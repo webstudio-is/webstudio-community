@@ -20,7 +20,7 @@ Slots are most commonly used to create reusable navigations and footers, though 
 Data Variables defined on the Global Root are accessible within Slots, while those defined on other instances outside the Slot are not.
 {% endhint %}
 
-***
+---
 
 ### How to use Slot Component
 
@@ -45,7 +45,7 @@ And that’s it! Now updates that you make to any Slot will update all other ins
 
 If you need a new unique Slot instance, simply add a new Slot from the Add panel and it will not interfere with your existing Slots.
 
-***
+---
 
 ### Conclusion
 

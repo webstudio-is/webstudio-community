@@ -16,14 +16,14 @@ Style Panel Overview & Flexbox Basics
 
 The **Display** property in the Layout section controls how an element and its children are positioned. The main display modes are:
 
-| Display | Description |
-|---------|-------------|
-| **Block** | Default for boxes. Elements stack vertically, taking full width |
-| **Flex** | Enables flexible layouts with horizontal/vertical axis control |
-| **Grid** | Two-dimensional layout system (rows and columns) |
-| **Inline** | Elements flow inline like text |
-| **Inline Block** | Inline flow but respects width/height |
-| **None** | Hides the element completely |
+| Display          | Description                                                     |
+| ---------------- | --------------------------------------------------------------- |
+| **Block**        | Default for boxes. Elements stack vertically, taking full width |
+| **Flex**         | Enables flexible layouts with horizontal/vertical axis control  |
+| **Grid**         | Two-dimensional layout system (rows and columns)                |
+| **Inline**       | Elements flow inline like text                                  |
+| **Inline Block** | Inline flow but respects width/height                           |
+| **None**         | Hides the element completely                                    |
 
 ---
 
@@ -50,12 +50,13 @@ Control whether children are arranged horizontally or vertically:
 
 Flexbox provides two axes for alignment:
 
-| Property | Description |
-|----------|-------------|
+| Property            | Description                                                                |
+| ------------------- | -------------------------------------------------------------------------- |
 | **Justify Content** | Aligns items along the main axis (horizontal for row, vertical for column) |
-| **Align Items** | Aligns items along the cross axis |
+| **Align Items**     | Aligns items along the cross axis                                          |
 
 Common alignment values:
+
 - **Start**: Items at the beginning
 - **Center**: Items centered
 - **End**: Items at the end
@@ -90,6 +91,7 @@ Building Your First Section
 {% endembed %}
 
 Structure:
+
 ```
 Section (semantic tag)
 └── Container (max-width, centered)
@@ -100,6 +102,7 @@ Section (semantic tag)
 ```
 
 Steps:
+
 1. Create a **Box** and change tag to `section`
 2. Add a **Box** inside as a container (for max-width)
 3. Add another **Box** for the cards wrapper
@@ -130,25 +133,25 @@ For a typical header with logo and nav items:
 
 ### Width & Height
 
-| Property | Description |
-|----------|-------------|
-| **Width** | Fixed width of element |
-| **Min Width** | Minimum width (won't shrink below) |
-| **Max Width** | Maximum width (won't grow beyond) |
-| **Height** | Fixed height of element |
-| **Min Height** | Minimum height |
-| **Max Height** | Maximum height |
+| Property       | Description                        |
+| -------------- | ---------------------------------- |
+| **Width**      | Fixed width of element             |
+| **Min Width**  | Minimum width (won't shrink below) |
+| **Max Width**  | Maximum width (won't grow beyond)  |
+| **Height**     | Fixed height of element            |
+| **Min Height** | Minimum height                     |
+| **Max Height** | Maximum height                     |
 
 ### Flex Child Properties
 
 When an element is inside a flex container, additional properties become available:
 
-| Property | Description |
-|----------|-------------|
-| **Flex Grow** | How much the item should grow relative to siblings |
-| **Flex Shrink** | How much the item should shrink relative to siblings |
-| **Flex Basis** | Initial size before growing/shrinking |
-| **Align Self** | Override the parent's align-items for this specific item |
+| Property        | Description                                              |
+| --------------- | -------------------------------------------------------- |
+| **Flex Grow**   | How much the item should grow relative to siblings       |
+| **Flex Shrink** | How much the item should shrink relative to siblings     |
+| **Flex Basis**  | Initial size before growing/shrinking                    |
+| **Align Self**  | Override the parent's align-items for this specific item |
 
 ---
 
@@ -196,11 +199,11 @@ Creating layouts is primarily done through styling, not components. You won't fi
 
 The Style Panel uses colors to indicate property states:
 
-| Color | Meaning |
-|-------|---------|
-| **Blue** | Property is set on the current element/token |
-| **Orange** | Property is inherited from a parent or cascading from a larger breakpoint |
-| **No color** | Property is using browser default |
+| Color        | Meaning                                                                   |
+| ------------ | ------------------------------------------------------------------------- |
+| **Blue**     | Property is set on the current element/token                              |
+| **Orange**   | Property is inherited from a parent or cascading from a larger breakpoint |
+| **No color** | Property is using browser default                                         |
 
 ---
 

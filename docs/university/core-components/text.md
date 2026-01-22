@@ -10,29 +10,29 @@ Text is the primary component for adding readable content to your pages. Unlike 
 
 Text can render different HTML elements:
 
-| Tag | Use Case |
-|-----|----------|
-| `div` | Block-level text container (default) |
-| `span` | Inline text container |
-| `cite` | Citation or reference to creative work |
-| `figcaption` | Caption for a figure element |
+| Tag          | Use Case                               |
+| ------------ | -------------------------------------- |
+| `div`        | Block-level text container (default)   |
+| `span`       | Inline text container                  |
+| `cite`       | Citation or reference to creative work |
+| `figcaption` | Caption for a figure element           |
 
 ## Properties
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `tag` | string | HTML element to render (default: `div`) |
-| `id` | string | Unique identifier for the element |
-| `class` | string | CSS class names |
+| Property | Type   | Description                             |
+| -------- | ------ | --------------------------------------- |
+| `tag`    | string | HTML element to render (default: `div`) |
+| `id`     | string | Unique identifier for the element       |
+| `class`  | string | CSS class names                         |
 
 ## When to Use Text vs Other Components
 
-| Component | Use Case |
-|-----------|----------|
-| **Text** | General text content, captions, labels |
-| **Heading** | Section titles (h1-h6) |
-| **Paragraph** | Body text, article content |
-| **Span** | Inline text styling within other text |
+| Component     | Use Case                               |
+| ------------- | -------------------------------------- |
+| **Text**      | General text content, captions, labels |
+| **Heading**   | Section titles (h1-h6)                 |
+| **Paragraph** | Body text, article content             |
+| **Span**      | Inline text styling within other text  |
 
 ## Styling Text
 
@@ -58,7 +58,7 @@ Text can render different HTML elements:
 When you double-click on a Text component in the canvas, you enter rich text editing mode where you can:
 
 - Apply **Bold** formatting
-- Apply *Italic* formatting
+- Apply _Italic_ formatting
 - Add [Links](link.md)
 - Use inline formatting like Superscript and Subscript
 
@@ -71,6 +71,7 @@ Text components can display dynamic content using variables:
 3. Choose a variable or expression
 
 Example use cases:
+
 - Display CMS content
 - Show user data
 - Render computed values
@@ -91,5 +92,5 @@ Example use cases:
 
 - [Heading](heading.md) - For section titles
 - [Paragraph](paragraph.md) - For body text
-- [Span](span.md) - For inline text styling
+- [Inline Text](inline-text.md) - For inline text styling
 - [Link](link.md) - For clickable text

@@ -103,13 +103,13 @@ CSS Props doesn't impose style opinions on your site. This library contains vari
 
 **Use** [**Tokens**](craft.md#tokens) **for the following scenarios:**
 
-* There are multiple styles and at least one of which has many options for the value (e.g., size and colors) as opposed to something like text alignment.
-* When there is a common use case that takes more time to select Local and apply manually than using a Token, such as setting the margin left and right to auto.
+- There are multiple styles and at least one of which has many options for the value (e.g., size and colors) as opposed to something like text alignment.
+- When there is a common use case that takes more time to select Local and apply manually than using a Token, such as setting the margin left and right to auto.
 
 **Don't use Tokens for the following scenarios:**
 
-* When you can click an item in the Style Panel, such as text alignment or display flex.
-* When there is only one style (use [CSS variables](craft.md#css-variables)).
+- When you can click an item in the Style Panel, such as text alignment or display flex.
+- When there is only one style (use [CSS variables](craft.md#css-variables)).
 
 **More info:**
 
@@ -132,26 +132,26 @@ The page on the site is used to display and design the various HTML elements lik
 
 ## Navigator
 
-* **Casing**: Title
+- **Casing**: Title
 
-| Item                                  | Rule                                                                                                                                                                             | Examples                                                                    | Why                                                                                                        |
-| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Labels                                | If using a custom name, use semantic names.                                                                                                                                      | `Page Wrapper` `Cards` `Team Member`                                        | Default components are title case and the navigator is for humans to understand the structure and purpose. |
-| Box, Slot, HTML Embed, and Collection | <ul><li>Always create a custom name.</li><li>For Boxes, avoid layout-oriented naming such as 1/2 or left. Instead, use a name based on the content like Image Wrapper.</li></ul> | `Wrapper` `Card` `Animation Script`                                         | The purpose of these components are not clear without a custom name.                                       |
-| Parent > Child                        | Use plural for parent and singular for children when they are related.                                                                                                           | <p><code>Cards</code><br>    <code>Card</code><br>    <code>Card</code></p> | Helps indicate the relationship of instances.                                                              |
-| Sections                              | Prefix Boxes that have the section tag with "Section ".                                                                                                                          | `Section Hero`                                                              | Indicatees where the section is at without digging into settings.                                          |
+| Item                                  | Rule                                                                                                                                                                             | Examples                                                              | Why                                                                                                        |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Labels                                | If using a custom name, use semantic names.                                                                                                                                      | `Page Wrapper` `Cards` `Team Member`                                  | Default components are title case and the navigator is for humans to understand the structure and purpose. |
+| Box, Slot, HTML Embed, and Collection | <ul><li>Always create a custom name.</li><li>For Boxes, avoid layout-oriented naming such as 1/2 or left. Instead, use a name based on the content like Image Wrapper.</li></ul> | `Wrapper` `Card` `Animation Script`                                   | The purpose of these components are not clear without a custom name.                                       |
+| Parent > Child                        | Use plural for parent and singular for children when they are related.                                                                                                           | <p><code>Cards</code><br> <code>Card</code><br> <code>Card</code></p> | Helps indicate the relationship of instances.                                                              |
+| Sections                              | Prefix Boxes that have the section tag with "Section ".                                                                                                                          | `Section Hero`                                                        | Indicatees where the section is at without digging into settings.                                          |
 
 ### Structure
 
-* Page Wrapper
-  * Slot
-    * Global Styles
-    * Nav
-  * Main
-    * Section (generally, but not always)
-      * Container
-  * Slot
-    * Footer
+- Page Wrapper
+  - Slot
+    - Global Styles
+    - Nav
+  - Main
+    - Section (generally, but not always)
+      - Container
+  - Slot
+    - Footer
 
 ## Misc
 
@@ -161,24 +161,24 @@ Avoid abbreviations unless otherwise noted. Universal clarity is a priority, and
 
 ### HTML Embed
 
-* 1 instance = 1 purpose
-* Start the code with a comment about its purpose
+- 1 instance = 1 purpose
+- Start the code with a comment about its purpose
 
 ## Changelog
 
 ### 1.2
 
-*   Changed `container` token to use flex for proper compatibility with Craft Library. To adopt this change, go to any container token and set display flex, flex-direction column, and gap to `var(--gap-m)` . Any containers that need a horizontal layout will need to be manually set on Local, such as the style guide navigation.
+- Changed `container` token to use flex for proper compatibility with Craft Library. To adopt this change, go to any container token and set display flex, flex-direction column, and gap to `var(--gap-m)` . Any containers that need a horizontal layout will need to be manually set on Local, such as the style guide navigation.
 
-    ![container flex styles](../.gitbook/assets/1.2.png)
+  ![container flex styles](../.gitbook/assets/1.2.png)
 
 ### 1.1
 
-* Added `—spacing-default`. Common use cases include left/right padding on containers and card padding. Improves consistency within the site and enables marketplace sections to adapt to our default spacing rather than introducing random spacing that deviates from the preferred.
+- Added `—spacing-default`. Common use cases include left/right padding on containers and card padding. Improves consistency within the site and enables marketplace sections to adapt to our default spacing rather than introducing random spacing that deviates from the preferred.
 
 ### 1.0
 
-* Release
+- Release
 
 ## Craft Library
 

@@ -7,6 +7,7 @@ The Radix Label component provides an accessible label for form controls with bu
 ## Overview
 
 While the native HTML `<label>` element works for most cases, the Radix Label provides:
+
 - Automatic ID generation and association
 - Better focus behavior
 - Consistent cross-browser behavior
@@ -15,6 +16,7 @@ While the native HTML `<label>` element works for most cases, the Radix Label pr
 ## When to Use
 
 Use Radix Label when:
+
 - Working with other Radix form components (Checkbox, Switch, Radio Group)
 - You need consistent styling across all form labels
 - Building custom form controls
@@ -23,10 +25,10 @@ For native HTML form elements, the [native Label](../core-components/label.md) c
 
 ## Properties
 
-| Property | Description |
-|----------|-------------|
-| `for` | ID of the associated form control |
-| `id` | Unique identifier |
+| Property | Description                       |
+| -------- | --------------------------------- |
+| `for`    | ID of the associated form control |
+| `id`     | Unique identifier                 |
 
 ## Basic Usage
 
@@ -52,6 +54,7 @@ Input (id: email-input)
 ## Styling
 
 Style the Label like any text element:
+
 - Font size and weight
 - Color and spacing
 - Cursor (pointer for clickable areas)

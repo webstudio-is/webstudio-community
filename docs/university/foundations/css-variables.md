@@ -132,17 +132,17 @@ For step 2, it's possible to define variables and assign values all at once, but
 
 For a navigation hover effect:
 
-* `--nav-icon-bg` – Icon background color
-* `--nav-icon-color` – Icon fill color
-* `--nav-arrow-opacity` – Arrow visibility
-* `--nav-arrow-translate` – Arrow position
+- `--nav-icon-bg` – Icon background color
+- `--nav-icon-color` – Icon fill color
+- `--nav-arrow-opacity` – Arrow visibility
+- `--nav-arrow-translate` – Arrow position
 
 ### Adding Transitions
 
 Add transitions on the **child instances** (not the parent) to smooth out the changes:
 
-* On the icon: add transitions for `background-color` and `color` (\~200ms duration)
-* On the arrow: add transitions for `opacity` and `translate` (\~200ms duration)
+- On the icon: add transitions for `background-color` and `color` (\~200ms duration)
+- On the arrow: add transitions for `opacity` and `translate` (\~200ms duration)
 
 You can define as many variables as you want and use them on any children where they are defined to create more complex interactions.
 

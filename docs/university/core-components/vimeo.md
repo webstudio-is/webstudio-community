@@ -4,7 +4,7 @@
 
 The Vimeo component for Webstudio allows you to embed Vimeo videos into your site, whether as a video player or a background video. This component comes with several different customizable properties, including the ability to edit the preview image, set your video to “Do Not Track” mode, or customize the colors of the Vimeo Player controls to match your brand.
 
-***
+---
 
 ### Benefits of Vimeo
 
@@ -16,7 +16,7 @@ We have picked Vimeo to be Webstudio’s first video component for the following
 4. **GDPR Compliance**: With complete control over your personal data, you get to choose how your data is tracked and recorded.
 5. **An Adless Platform**: Vimeo operates as an adless platform, which means that they don’t allow advertisements on videos or sell ad space.
 
-***
+---
 
 ### How to use the Vimeo component in Webstudio
 
@@ -37,7 +37,7 @@ You can find the Vimeo Component in the Components Panel in the Media Section. H
 1. Inside the Vimeo Component, you will find three instances- the Preview Image, Spinner and Play Button. These instances define the primary look of the embedded video player.
 2. You can add a preview image to your video by selecting the “Preview Image” instance and choosing an image source in the “Properties” section.
 
-***
+---
 
 ### How to customize the Vimeo instance's properties
 
@@ -47,25 +47,25 @@ Here’s how you can use the following properties:&#x20;
 
 ![Vimeo background properties](../../.gitbook/assets/university/Vimeo_instance_properties-2.avif)
 
-* **Show Preview**\
+- **Show Preview**\
   Toggle this property on to render the preview image from Vimeo rather than the static image in Webstudio. This property is turned off by default because rendering the Vimeo preview requires making an API call which can slow down the speed of your page.
-* **AutoPlay**\
+- **AutoPlay**\
   If you enable the “AutoPlay” property, your video will start playing automatically when the player loads.
-* **Background Mode**\
+- **Background Mode**\
   When enabled, the “Background Mode” property will hide the Vimeo Player’s controls, loop the embedded video and play it automatically.
-* **Loop**\
+- **Loop**\
   When enabled, the video will automatically restart when it reaches the end.
-* **Muted**\
+- **Muted**\
   Start the video with audio muted. Required for autoplay to work in most browsers.
-* **Quality**\
+- **Quality**\
   Set to "Auto" to let the player adapt video quality based on the viewer's bandwidth, or choose a fixed quality like 720p or 1080p.
-* **Do Not Track**\
+- **Do Not Track**\
   If you enable the "Do Not Track" property, the Vimeo Player will not be able to track session data, such as cookies. It is important to note that video statistics, such as the number of views, would also no longer be recorded.
-* **Controls Color**\
+- **Controls Color**\
   With the "Controls Color" property, you can customize the colors of the Vimeo Player's controls on your site to match your brand identity. This affects the pause button, progress bar, and other player controls.
-* **Lazy Load**\
+- **Lazy Load**\
   When enabled, the video player loads only when it enters the viewport. This improves initial page load performance, especially on pages with multiple videos or when the video is below the fold.
-* **Other Properties**\
+- **Other Properties**\
   You can customize your Vimeo component further by adding [other properties](https://developer.vimeo.com/player/sdk/embed) that are not listed in the "Properties" section by default.
 
 ### Customizing the Play Button and Spinner
@@ -75,11 +75,11 @@ The Vimeo component includes customizable child instances:
 1. **Preview Image**: Replace Vimeo's default preview with your own image
 2. **Spinner**: Style or hide the loading spinner using the "Show" toggle in Settings
 3. **Play Button**: Contains a Box and Play Icon
-   * Style the Box (background color, border-radius, etc.)
-   * Replace the Play Icon's SVG code in the HTML Embed
-   * Set icon width/height to 100% for flexible sizing
-   * Change the Play Icon's color via typography color on its parent
-   * Hide the Play Button using the "Show" toggle for background video use
+   - Style the Box (background color, border-radius, etc.)
+   - Replace the Play Icon's SVG code in the HTML Embed
+   - Set icon width/height to 100% for flexible sizing
+   - Change the Play Icon's color via typography color on its parent
+   - Hide the Play Button using the "Show" toggle for background video use
 
 ### Hiding Player Elements
 

@@ -21,10 +21,10 @@ Use XML Time for:
 
 ## Properties
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `datetime` | Date/String | The date value to convert. Accepts a JavaScript Date object, ISO string, or timestamp. |
-| `dateStyle` | String | Controls the output format style for the date. |
+| Property    | Type        | Description                                                                            |
+| ----------- | ----------- | -------------------------------------------------------------------------------------- |
+| `datetime`  | Date/String | The date value to convert. Accepts a JavaScript Date object, ISO string, or timestamp. |
+| `dateStyle` | String      | Controls the output format style for the date.                                         |
 
 ## Example Usage
 
@@ -65,9 +65,9 @@ To display dynamic dates from your CMS:
 
 ## Difference from Time Component
 
-| Component | Output | Use Case |
-|-----------|--------|----------|
-| **Time** | Human-readable dates (e.g., "January 15, 2024") | Displaying dates to users |
+| Component    | Output                                             | Use Case                       |
+| ------------ | -------------------------------------------------- | ------------------------------ |
+| **Time**     | Human-readable dates (e.g., "January 15, 2024")    | Displaying dates to users      |
 | **XML Time** | ISO 8601 format (e.g., "2024-01-15T10:30:00.000Z") | Machine-readable XML/RSS feeds |
 
 ## Technical Notes

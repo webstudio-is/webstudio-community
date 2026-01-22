@@ -4,7 +4,7 @@
 
 The Blockquote Component is used to highlight quoted content on a webpage, enhancing its impact and readability. You can use it in your Webstudio project to emphasize text that has been taken directly from another source, such as quotes, excerpts, or references.
 
-***
+---
 
 ### How to use the Blockquote Component
 
@@ -18,12 +18,12 @@ For more on Design Tokens in Webstudio, refer to [this guide](../foundations/des
 
 By default, Blockquote components include padding on the left and right, along with a left border. You can customize these in the Style panel:
 
-* **Border**: Adjust the border width and color under Border settings to match your brand
-* **Padding**: Modify the default padding to adjust spacing around your quote text
+- **Border**: Adjust the border width and color under Border settings to match your brand
+- **Padding**: Modify the default padding to adjust spacing around your quote text
 
 When using a Cite tag inside your blockquote, you may want to change its display property from "inline" to "block" to position the citation on its own line below the quote.
 
-***
+---
 
 ### How to attribute a Blockquote
 

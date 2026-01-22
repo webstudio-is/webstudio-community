@@ -43,6 +43,7 @@ Modern Font Stacks solve this by using fonts that are **pre-installed on differe
 ### How They Work
 
 Each font stack contains fonts for:
+
 - macOS/iOS (San Francisco, New York, etc.)
 - Windows (Segoe UI, Cambria, etc.)
 - Linux (various system fonts)

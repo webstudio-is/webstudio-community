@@ -15,14 +15,15 @@ Webstudio automatically generates a sitemap for static pages such as Home and Ab
 1.  Go to Page Settings > Document Type and select XML from the dropdown&#x20;
 
     <figure><img src="../../.gitbook/assets/page-settings-xml-doc-type.png" alt="Page Settings Document Type to XML"><figcaption></figcaption></figure>
-2. Go to Components > XML and add XML Node (this component won’t show until Step 1 is completed)
-3. Set the tag and text content (e.g., “loc” and “https://example.com)
+
+2.  Go to Components > XML and add XML Node (this component won’t show until Step 1 is completed)
+3.  Set the tag and text content (e.g., “loc” and “https://example.com)
 
 ### Tips
 
-* XML Nodes can be nested within each other
-* Use [Collection](/broken/pages/pauhKZIgEF1NC1u9qwLe) to iterate over a list of data
-* A sitemap skeleton is available in the Marketplace
+- XML Nodes can be nested within each other
+- Use [Collection](/broken/pages/pauhKZIgEF1NC1u9qwLe) to iterate over a list of data
+- A sitemap skeleton is available in the Marketplace
 
 ### Including the static sitemap
 
@@ -33,9 +34,10 @@ To include the static sitemap data in your custom sitemap, follow these steps:
 1. Create a page
 2. In the page settings, set the Document Type to XML&#x20;
 3. Set the page path to /sitemap.xml. This will override the default sitemap.
-4.  Fetch the static data by clicking Create Variable > System Resource (Type) > Sitemap (Resource)&#x20;
+4. Fetch the static data by clicking Create Variable > System Resource (Type) > Sitemap (Resource)&#x20;
 
-    <figure><img src="../../.gitbook/assets/static-sitemap-data.png" alt=""><figcaption></figcaption></figure>
+   <figure><img src="../../.gitbook/assets/static-sitemap-data.png" alt=""><figcaption></figcaption></figure>
+
 5. Use a [Collection](collection.md) to iterate over the static sitemap data
 
 ## Related

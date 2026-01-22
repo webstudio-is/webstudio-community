@@ -8,35 +8,35 @@ Input is a fundamental form control used to collect various types of user data i
 
 ## Properties
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `type` | string | Input type (text, email, password, number, etc.) |
-| `name` | string | Form field name (used in form submission) |
-| `placeholder` | string | Hint text shown when empty |
-| `value` | string | Current input value |
-| `required` | boolean | Whether the field is required |
-| `disabled` | boolean | Whether the input is disabled |
-| `readonly` | boolean | Whether the input is read-only |
-| `autocomplete` | string | Browser autocomplete behavior |
-| `id` | string | Unique identifier |
-| `class` | string | CSS class names |
+| Property       | Type    | Description                                      |
+| -------------- | ------- | ------------------------------------------------ |
+| `type`         | string  | Input type (text, email, password, number, etc.) |
+| `name`         | string  | Form field name (used in form submission)        |
+| `placeholder`  | string  | Hint text shown when empty                       |
+| `value`        | string  | Current input value                              |
+| `required`     | boolean | Whether the field is required                    |
+| `disabled`     | boolean | Whether the input is disabled                    |
+| `readonly`     | boolean | Whether the input is read-only                   |
+| `autocomplete` | string  | Browser autocomplete behavior                    |
+| `id`           | string  | Unique identifier                                |
+| `class`        | string  | CSS class names                                  |
 
 ## Input Types
 
-| Type | Use Case |
-|------|----------|
-| `text` | General text input (default) |
-| `email` | Email addresses (with validation) |
-| `password` | Hidden text entry |
-| `number` | Numeric values |
-| `tel` | Phone numbers |
-| `url` | Website URLs |
-| `search` | Search queries |
-| `date` | Date picker |
-| `time` | Time picker |
-| `datetime-local` | Date and time |
-| `file` | File uploads |
-| `hidden` | Hidden form data |
+| Type             | Use Case                          |
+| ---------------- | --------------------------------- |
+| `text`           | General text input (default)      |
+| `email`          | Email addresses (with validation) |
+| `password`       | Hidden text entry                 |
+| `number`         | Numeric values                    |
+| `tel`            | Phone numbers                     |
+| `url`            | Website URLs                      |
+| `search`         | Search queries                    |
+| `date`           | Date picker                       |
+| `time`           | Time picker                       |
+| `datetime-local` | Date and time                     |
+| `file`           | File uploads                      |
+| `hidden`         | Hidden form data                  |
 
 ## Form Usage
 
@@ -56,10 +56,12 @@ Form
 Always associate inputs with labels for accessibility:
 
 ### Method 1: Matching IDs
+
 1. Set `id` on the Input (e.g., "email")
 2. Set `for` on the Label (e.g., "email")
 
 ### Method 2: Wrapping
+
 Place the Input inside a Label component.
 
 ## Validation
@@ -84,15 +86,15 @@ Use the `pattern` attribute for custom validation with regex.
 
 Style different input states:
 
-| State | Selector | Use |
-|-------|----------|-----|
-| Default | - | Normal state |
-| Focus | `:focus` | When input is selected |
-| Hover | `:hover` | Mouse over |
-| Disabled | `:disabled` | When disabled |
-| Invalid | `:invalid` | Validation failed |
-| Valid | `:valid` | Validation passed |
-| Placeholder | `::placeholder` | Placeholder text |
+| State       | Selector        | Use                    |
+| ----------- | --------------- | ---------------------- |
+| Default     | -               | Normal state           |
+| Focus       | `:focus`        | When input is selected |
+| Hover       | `:hover`        | Mouse over             |
+| Disabled    | `:disabled`     | When disabled          |
+| Invalid     | `:invalid`      | Validation failed      |
+| Valid       | `:valid`        | Validation passed      |
+| Placeholder | `::placeholder` | Placeholder text       |
 
 ### Example Styles
 
@@ -114,17 +116,17 @@ Style different input states:
 
 Common `autocomplete` values:
 
-| Value | Use |
-|-------|-----|
-| `name` | Full name |
-| `email` | Email address |
-| `tel` | Phone number |
-| `street-address` | Street address |
-| `postal-code` | ZIP/postal code |
-| `country` | Country |
-| `cc-number` | Credit card number |
-| `current-password` | Current password |
-| `new-password` | New password |
+| Value              | Use                |
+| ------------------ | ------------------ |
+| `name`             | Full name          |
+| `email`            | Email address      |
+| `tel`              | Phone number       |
+| `street-address`   | Street address     |
+| `postal-code`      | ZIP/postal code    |
+| `country`          | Country            |
+| `cc-number`        | Credit card number |
+| `current-password` | Current password   |
+| `new-password`     | New password       |
 
 ## Related Components
 

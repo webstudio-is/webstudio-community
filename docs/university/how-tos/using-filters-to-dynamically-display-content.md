@@ -45,22 +45,22 @@ Use the Expression Editor to build a dynamic URL with Airtable's `filterByFormul
 ### Basic Filter (always applied)
 
 ```javascript
-`https://api.airtable.com/v0/BASE_ID/TABLE?filterByFormula=SEARCH("${system.search.name}",{name})`
+`https://api.airtable.com/v0/BASE_ID/TABLE?filterByFormula=SEARCH("${system.search.name}",{name})`;
 ```
 
 ### Conditional Filter (only when search param exists)
 
 ```javascript
-`https://api.airtable.com/v0/BASE_ID/TABLE${system.search.name ? `?filterByFormula=SEARCH("${system.search.name}",{name})` : ''}`
+`https://api.airtable.com/v0/BASE_ID/TABLE${system.search.name ? `?filterByFormula=SEARCH("${system.search.name}",{name})` : ""}`;
 ```
 
 **Key concepts:**
 
-* Backticks (`) create template literals for mixing static and dynamic content
-* `${...}` inserts dynamic values
-* `system.search.paramName` accesses URL query parameters
-* Ternary operator `condition ? ifTrue : ifFalse` for conditional logic
-* Airtable requires values in quotes: `SEARCH("value",{column})`
+- Backticks (`) create template literals for mixing static and dynamic content
+- `${...}` inserts dynamic values
+- `system.search.paramName` accesses URL query parameters
+- Ternary operator `condition ? ifTrue : ifFalse` for conditional logic
+- Airtable requires values in quotes: `SEARCH("value",{column})`
 
 ## Step 5: Bind Collection Data
 
@@ -69,9 +69,9 @@ Use the Expression Editor to build a dynamic URL with Airtable's `filterByFormul
 
 ## Debugging
 
-* Inspect the resource variable to see the JSON response
-* Status 200 = success; 4xx/5xx = error
-* Check for "undefined" in your query — means the parameter wasn't found
+- Inspect the resource variable to see the JSON response
+- Status 200 = success; 4xx/5xx = error
+- Check for "undefined" in your query — means the parameter wasn't found
 
 {% hint style="info" %}
 You can add multiple filters by extending the filterByFormula with AND/OR logic. Consider building complex expressions in an external code editor, then adapt for Webstudio's variable system.

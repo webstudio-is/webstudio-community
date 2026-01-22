@@ -88,19 +88,19 @@ For a full list of input types, including checkboxes and radio buttons, refer to
 
 Each input field has several configurable properties in Settings:
 
-* **Name**: The field identifier used in submissions (required for data to appear)
-* **Type**: Define the input type (text, email, tel, etc.). Setting type to "email" enforces email format validation.
-* **Placeholder**: Hint text shown inside the input before user enters data (e.g., "john@doe.com")
-* **Required**: When enabled, the form cannot be submitted without this field
-* **Autofocus**: When enabled, this field is automatically focused when the page loads
+- **Name**: The field identifier used in submissions (required for data to appear)
+- **Type**: Define the input type (text, email, tel, etc.). Setting type to "email" enforces email format validation.
+- **Placeholder**: Hint text shown inside the input before user enters data (e.g., "john@doe.com")
+- **Required**: When enabled, the form cannot be submitted without this field
+- **Autofocus**: When enabled, this field is automatically focused when the page loads
 
 ### Styling Form States
 
 You can create interactive form styling using states in the Style panel:
 
-* **Hover**: Apply styles when users hover over an input (e.g., wider border, box shadow)
-* **Focus**: Apply styles when an input is active/selected (e.g., colored border, glow effect)
-* **Placeholder**: Style the placeholder text appearance
+- **Hover**: Apply styles when users hover over an input (e.g., wider border, box shadow)
+- **Focus**: Apply styles when an input is active/selected (e.g., colored border, glow effect)
+- **Placeholder**: Style the placeholder text appearance
 
 To apply state-specific styles, select the input element, open the state dropdown in the Style panel, and choose the state you want to customize.
 

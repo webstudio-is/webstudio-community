@@ -36,9 +36,9 @@ Styles cascade **down** to smaller breakpoints:
 
 The Style Panel uses colors to show where values come from:
 
-| Color | Meaning |
-|-------|---------|
-| **Blue** | Set on the current breakpoint |
+| Color      | Meaning                            |
+| ---------- | ---------------------------------- |
+| **Blue**   | Set on the current breakpoint      |
 | **Orange** | Inherited from a larger breakpoint |
 
 Hover over any property label to see exactly where the value comes from, including the breakpoint, token, and instance.
@@ -61,6 +61,7 @@ Display different elements on different screen sizes:
 3. Set `display: none`
 
 To show something only on mobile:
+
 1. On Base: `display: none`
 2. On mobile: `display: flex` (or `block`)
 

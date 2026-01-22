@@ -4,13 +4,13 @@
 
 The HTML Embed component enables the direct integration of custom HTML, CSS, and JavaScript code into your Webstudio project. With this component, you can extend the capabilities of your website, create interactive widgets, integrate external APIs, and implement personalized interactions.
 
-***
+---
 
 ### How to use the HTML Embed component
 
 The "HTML Embed" component can be found in Components > General, and you can place it on your canvas by dragging and dropping it or clicking it in the Components panel.
 
-***
+---
 
 ### How to add custom code to an HTML Embed instance
 
@@ -34,7 +34,7 @@ For embeds with scripts that change HTML, like GSAP animations or sliders, activ
 
 Check out how to embed [GSAP animations](../how-tos/how-to-add-a-gsap-animation.md).
 
-***
+---
 
 ### How to reuse your custom code across multiple web pages
 
@@ -54,7 +54,7 @@ Example (bad):
 
 ```html
 <script>
-    const a = 1;
+  const a = 1;
 </script>
 ```
 
@@ -71,7 +71,7 @@ When using the module type, the script has its own scope, and the variables don'
 
 ```html
 <script type="module">
-    const a = 1;
+  const a = 1;
 </script>
 ```
 
@@ -81,9 +81,9 @@ Use an Immediately Invoked Function Expression (IIFE) to create a function scope
 
 ```html
 <script>
-(() => {
+  (() => {
     const a = 1;
-})();
+  })();
 </script>
 ```
 

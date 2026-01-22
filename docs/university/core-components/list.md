@@ -14,6 +14,7 @@ description: >-
 The “List” component can be found in **Components > General**, and you can place it on your canvas by dragging and dropping it or clicking it in the Components panel. Every List component comes with three “List Item” instances as bullet points by default.
 
 To add more list items, place a “List Item” component in your list from **Components > General**.
+
 #### Duplicating List Items
 
 You can quickly duplicate list items by selecting an item and pressing **Cmd+D** (Mac) or **Ctrl+D** (Windows).
@@ -58,6 +59,7 @@ To use the Start property on your list, enable the ‘Ordered’ property first 
 The Reversed property reverses the order in which list items are numbered. This is effective for countdowns, rankings, or any content that benefits from a reverse order.
 
 To use the Reversed property on your list, enable the ‘Ordered’ property first if your list items are in bullet points.
+
 ## Related
 
 - [Collection](collection.md) – Dynamic lists from data

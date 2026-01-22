@@ -13,11 +13,11 @@ While YouTube offers embed codes, the YouTube component enables a much better ex
 
 **Benefits:**
 
-* Paste a URL instead of code
-* Responsive by default
-* Faster loading with customizable preview images and lazy loading
-* UI inputs for all the settings instead of code
-* Customizable play icon and loading icon
+- Paste a URL instead of code
+- Responsive by default
+- Faster loading with customizable preview images and lazy loading
+- UI inputs for all the settings instead of code
+- Customizable play icon and loading icon
 
 ## Related
 

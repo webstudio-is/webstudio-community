@@ -97,11 +97,9 @@ Click into it to make changes. See more about editing content in [Content mode](
 You can delete any instances within the Content Block in one of two ways:
 
 1. The blue + button will turn into a red delete button if you hold the option/alt key on your keyboard.
-2.  Select the instance in the navigator, and press delete/backspace on your keyboard.
+2. Select the instance in the navigator, and press delete/backspace on your keyboard.
 
-
-
-    <figure><img src="../../.gitbook/assets/delete-instance-content-mode.gif" alt="plus button changing to delete when holding option/alt"><figcaption><p>Hold option/alt</p></figcaption></figure>
+   <figure><img src="../../.gitbook/assets/delete-instance-content-mode.gif" alt="plus button changing to delete when holding option/alt"><figcaption><p>Hold option/alt</p></figcaption></figure>
 
 {% hint style="success" %}
 You can’t delete the template itself, so you can always add it back.

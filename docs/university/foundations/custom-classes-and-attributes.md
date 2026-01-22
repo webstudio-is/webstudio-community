@@ -12,12 +12,12 @@ While [Design Tokens](design-tokens.md) handle styling in Webstudio, custom clas
 
 ## When to Use What
 
-| Feature | Purpose | Output in HTML |
-|---------|---------|----------------|
-| **Design Tokens** | Apply and manage styles | Converted to optimized classes (atomic CSS) |
-| **Custom Classes** | Target elements with custom code | Yes, exactly as specified |
-| **Custom IDs** | Unique element targeting, anchor links | Yes, exactly as specified |
-| **Data Attributes** | Pass data to JavaScript, custom functionality | Yes, exactly as specified |
+| Feature             | Purpose                                       | Output in HTML                              |
+| ------------------- | --------------------------------------------- | ------------------------------------------- |
+| **Design Tokens**   | Apply and manage styles                       | Converted to optimized classes (atomic CSS) |
+| **Custom Classes**  | Target elements with custom code              | Yes, exactly as specified                   |
+| **Custom IDs**      | Unique element targeting, anchor links        | Yes, exactly as specified                   |
+| **Data Attributes** | Pass data to JavaScript, custom functionality | Yes, exactly as specified                   |
 
 {% hint style="info" %}
 **Important:** Design Tokens do NOT output their names as classes in HTML. The token name is an internal reference – the actual CSS output is optimized for performance. Use custom classes when you need a specific class name in the HTML.
@@ -95,11 +95,11 @@ To animate elements with GSAP:
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script>
-  gsap.from('.gsap-fade-in', {
+  gsap.from(".gsap-fade-in", {
     opacity: 0,
     y: 50,
     duration: 1,
-    stagger: 0.2
+    stagger: 0.2,
   });
 </script>
 ```

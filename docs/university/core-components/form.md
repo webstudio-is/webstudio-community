@@ -32,7 +32,7 @@ The goal is simple: only blogs containing the search term will be shown when a v
 2. The Resource will be modified to include the input value (just one in this case, but you can add as many as you need) like this:
 
 ```javascript
-`/api/blogs${system.search.searchBlog ? `?search=${system.search.searchBlog}` : ''}`
+`/api/blogs${system.search.searchBlog ? `?search=${system.search.searchBlog}` : ""}`;
 ```
 
 This [expression](../foundations/expression-editor.md#expressions) contains the JavaScript Ternary Operator and Template Literals. It says, "Get the blogs, and if the `searchBlog` value is present, add the search filter to the API call; otherwise, don't."
@@ -57,17 +57,18 @@ They can be found in Add Components > Forms:
 
 #### Input types
 
-* **Button** – To submit the form, reset it, or for interactions like opening something. [Buttons are _not_ links](/broken/pages/3eZsbLZWmonl2Bv3CJyC). There are three types in Settings:
-  * **Button**: Makes it a general element with no specific default action. Mainly used for interactions like opening something.
-  * **Submit**: Will submit the form.
-  * **Reset**: Will remove any data the user has put into a form.
-*   **Text Input** – By default, it's a simple text field, but it can be changed by going to Settings > Type and selecting one of the following types: number, search, time, hidden, color, date, datetime-local, email, month, password, range, tel, url, or week.
+- **Button** – To submit the form, reset it, or for interactions like opening something. [Buttons are _not_ links](/broken/pages/3eZsbLZWmonl2Bv3CJyC). There are three types in Settings:
+  - **Button**: Makes it a general element with no specific default action. Mainly used for interactions like opening something.
+  - **Submit**: Will submit the form.
+  - **Reset**: Will remove any data the user has put into a form.
+- **Text Input** – By default, it's a simple text field, but it can be changed by going to Settings > Type and selecting one of the following types: number, search, time, hidden, color, date, datetime-local, email, month, password, range, tel, url, or week.
 
-    ![text input that can be changed](../../.gitbook/assets/text-input.png)
-* **Select** – Provides a dropdown visitors can select one or more options.
-* **Text Area** – Allows visitors to add multi-line data as part of their answers. It is similar to the “Text Input” component and the two share the same list of properties.
-* **Checkbox** – Provides multiple options that the visitor can check or leave unchecked as part of their input.
-* **Radio** – Gives the visitor a list of options and they have to select one.
+  ![text input that can be changed](../../.gitbook/assets/text-input.png)
+
+- **Select** – Provides a dropdown visitors can select one or more options.
+- **Text Area** – Allows visitors to add multi-line data as part of their answers. It is similar to the “Text Input” component and the two share the same list of properties.
+- **Checkbox** – Provides multiple options that the visitor can check or leave unchecked as part of their input.
+- **Radio** – Gives the visitor a list of options and they have to select one.
 
 ### **Radix Form Components**
 

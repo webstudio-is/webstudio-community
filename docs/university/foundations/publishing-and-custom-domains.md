@@ -201,11 +201,11 @@ You can move the DNS (where the DNS records are managed) _without_ needing to mo
 
 Especially useful for agencies managing multiple client domains:
 
-* Free plan is sufficient for most needs
-* Additional CDN features and enhanced security
-* Script injection capabilities (Facebook Pixel, Google Analytics)
-* Faster DNS and better performance
-* Easier management of multiple domains in one dashboard
+- Free plan is sufficient for most needs
+- Additional CDN features and enhanced security
+- Script injection capabilities (Facebook Pixel, Google Analytics)
+- Faster DNS and better performance
+- Easier management of multiple domains in one dashboard
 
 ##### Steps to migrate to Cloudflare
 

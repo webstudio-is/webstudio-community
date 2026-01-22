@@ -76,7 +76,7 @@ Add the Collection component to the canvas and either manually enter data (less 
 
 Optionally, rename the default Collection Item variable to something more semantic. If you are iterating over blog posts, name it "Blog Post."
 
-Now, you can add components to the Collection, and the Collection will automatically duplicate it for the number of items in the array. If you have multiple components, wrap everything in a [Box](box.md) component.
+Now, you can add components to the Collection, and the Collection will automatically duplicate it for the number of items in the array. If you have multiple components, wrap everything in an [Element](element.md) component.
 
 Next, [bind](../foundations/expression-editor.md#binding) the Collection Item (or whatever you named it) to the various components. You will see it output a different value depending on the iteration.
 
