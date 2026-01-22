@@ -84,10 +84,12 @@ The Assets Panel is the second panel to the left of your canvas, and this is whe
 
 The Assets Panel supports various file types organized by category:
 
-* **Images** – JPEG, PNG, GIF, WebP, SVG, ICO
-* **Fonts** – WOFF, WOFF2, TTF, OTF
-* **Documents** – PDF, JSON, XML
+* **Images** – JPEG, PNG, GIF, WebP, SVG, ICO, and more
+* **Fonts** – WOFF, WOFF2, TTF, OTF, and more
+* **Documents** – PDF, JSON, XML, and more
 * **Other** – Various additional file formats
+
+This list is not exhaustive – Webstudio supports many additional file formats.
 
 ### Filtering and Sorting
 

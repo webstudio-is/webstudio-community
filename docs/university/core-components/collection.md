@@ -52,8 +52,6 @@ When iterating over an object, the Collection Item contains both the **key** (e.
 When binding data to a Collection, **you must bind the array or object**, i.e., the data you want to iterate over. If you bind something else, you'll receive an error.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/collection-error.png" alt="Error when binding a value other than an array"><figcaption><p>Error when binding a value other than an array</p></figcaption></figure>
-
 If you are binding external data, the array is nested somewhere within.
 
 <figure><img src="../../.gitbook/assets/right-and-wrong-way-collections.png" alt="Right and wrong ways to bind data to a collection"><figcaption><p>Example of where the array is at for an external service (will vary for each service)</p></figcaption></figure>

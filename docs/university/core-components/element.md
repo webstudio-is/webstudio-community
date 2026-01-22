@@ -1,6 +1,6 @@
 # 📦 Element
 
-The Element component is a versatile building block that can represent any HTML element. It provides the flexibility to create semantic HTML structures with any tag type while maintaining full styling capabilities.
+The Element component is a versatile component that can represent any HTML element. It provides the flexibility to create semantic HTML structures with any tag type while maintaining full styling capabilities.
 
 ***
 
@@ -14,7 +14,7 @@ The Element component can be found in **Components > General**, and you can plac
 
 ## Available Tags
 
-The Element component can be rendered as any of these HTML tags:
+The Element component can be rendered as many HTML tags, including but not limited to:
 
 ### Container Elements
 - `div` (default) – Generic container

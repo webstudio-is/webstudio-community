@@ -19,7 +19,7 @@ Webstudio converts the SVG into native components, giving you full control over 
 
 ### SVG Properties in Style Panel
 
-When you select an SVG element, the Style Panel shows SVG-specific CSS properties:
+When you select an SVG element, the Style Panel shows SVG-specific CSS properties, including:
 
 * **fill** – The fill color of the shape
 * **stroke** – The stroke (outline) color
@@ -30,6 +30,8 @@ When you select an SVG element, the Style Panel shows SVG-specific CSS propertie
 * **stroke-linejoin** – Shape at corners (miter, round, bevel)
 * **stroke-dasharray** – Create dashed lines
 * **stroke-dashoffset** – Offset for dash pattern
+
+And many more SVG-specific properties.
 
 ### SVG Attribute Autocompletion
 
