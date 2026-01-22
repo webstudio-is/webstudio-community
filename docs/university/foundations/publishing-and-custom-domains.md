@@ -94,13 +94,17 @@ When publishing the site, optionally select the domain(s) you want to publish to
 
 All staging sites are protected by password by default. This protection cannot be removed — it's a platform security measure to prevent bad actors from using Webstudio staging domains for phishing attacks impersonating other brands, which is illegal and can result in Webstudio domains being blocked.
 
-To access your staging site:
+To share your staging site:
 
 1. Open the publish dialog
-2. Find your staging domain credentials (username and password)
-3. Share these credentials with your team or client as needed
+2. Copy the staging link — it already contains the login credentials embedded in the URL
+3. Share this link with your team or client
 
-When visitors access the staging URL, they'll be prompted to enter the credentials before viewing the site. For public access, publish to a custom domain instead.
+{% hint style="info" %}
+Click on the staging domain section in the publish dialog to view the username and password separately if needed.
+{% endhint %}
+
+For public access without password protection, publish to a custom domain instead.
 
 ***
 
