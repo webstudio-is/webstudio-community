@@ -17,11 +17,15 @@ Commands & Search speeds up the building process and introduces new shortcuts.
 ### Actions
 
 * Add components
+* Search instances by name – find any instance in your project
 * Switch breakpoints
 * Switch pages
   * Open page settings
+* Manage tokens – create, edit, and delete style tokens
 * Execute commands
   * Unwrap – Move the children out of the current instance and remove the current instance.
-  * Wrap In Box – Wrap the current instance in a [Box](/broken/pages/J1vuJ2d8twUqPm14bKDs).
+  * Wrap In Box – Wrap the current instance in a Box.
   * Wrap In Link – Wrap the current instance in a [Link](../core-components/link.md).
+  * Wrap In (any component) – Wrap the current instance in any component you choose.
+  * Convert To – Convert the current instance to a different component type while preserving children and styles.
   * All other [keyboard shortcuts](shortcuts.md)

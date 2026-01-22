@@ -58,6 +58,10 @@ icon: command
 
 * Open Settings Panel: `d`
 
+## **Help**
+
+* Open Shortcuts Help Dialog: `⌘ + /` – View all available keyboard shortcuts in a searchable dialog
+
 ## **Top Bar**
 
 * Open the current page's settings: `alt + click page`

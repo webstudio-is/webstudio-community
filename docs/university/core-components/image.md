@@ -8,7 +8,7 @@ description: >-
 
 {% embed url="https://www.youtube.com/watch?v=o2tEwZ_zeUI" %}
 
-***
+---
 
 ### How to use the Image component
 
@@ -40,7 +40,7 @@ If a browser can't calculate an image's size, it continues rendering the page, b
 
 In Webstudio, every image has its aspect ratio set automatically. To prevent any layout shifts on your site, it's best to set the "width" property for each image you add. This ensures that the images fit smoothly into the overall design without causing any unexpected changes in layout.
 
-***
+---
 
 ### How to customize an Image instance's properties
 

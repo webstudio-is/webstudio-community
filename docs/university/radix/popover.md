@@ -7,6 +7,7 @@ The Popover component displays rich content in a floating panel that appears nex
 ## When to Use
 
 Use Popover for:
+
 - User profile dropdowns
 - Quick edit forms
 - Additional options or settings
@@ -17,12 +18,12 @@ Use Popover for:
 
 The Popover component consists of several parts:
 
-| Component | Description |
-|-----------|-------------|
-| **Popover** | The root component that manages open/close state |
-| **Popover Trigger** | The element that opens the popover when clicked |
-| **Popover Content** | The floating panel containing your content |
-| **Popover Close** | Optional button to close the popover |
+| Component           | Description                                      |
+| ------------------- | ------------------------------------------------ |
+| **Popover**         | The root component that manages open/close state |
+| **Popover Trigger** | The element that opens the popover when clicked  |
+| **Popover Content** | The floating panel containing your content       |
+| **Popover Close**   | Optional button to close the popover             |
 
 ## How to Use
 
@@ -38,16 +39,15 @@ Some commonly used properties (see the Settings panel for all available options)
 
 ### Popover
 
-| Property | Description |
-|----------|-------------|
+| Property | Description                                                            |
+| -------- | ---------------------------------------------------------------------- |
 | **open** | Controls whether the popover is visible. Use for styling on the canvas |
 
 ### Popover Content
 
-| Property | Description |
-|----------|-------------|
-| **side** | Preferred side: `top`, `right`, `bottom`, or `left` |
-| **sideOffset** | Distance in pixels from the trigger |
-| **align** | Alignment: `start`, `center`, or `end` |
-| **alignOffset** | Offset from the alignment position |
-
+| Property        | Description                                         |
+| --------------- | --------------------------------------------------- |
+| **side**        | Preferred side: `top`, `right`, `bottom`, or `left` |
+| **sideOffset**  | Distance in pixels from the trigger                 |
+| **align**       | Alignment: `start`, `center`, or `end`              |
+| **alignOffset** | Offset from the alignment position                  |

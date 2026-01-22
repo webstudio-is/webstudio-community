@@ -90,6 +90,18 @@ When publishing the site, optionally select the domain(s) you want to publish to
 5. Upon approval, reopen the publish dialog and check your live/production domain.
 6. Publish
 
+### Staging Password Protection
+
+You can protect your staging site with a password to prevent unauthorized access during development or client review.
+
+1. Open the publish dialog
+2. Click on your staging domain settings
+3. Enable password protection
+4. Set a username and password
+5. Share credentials with your team/client
+
+When visitors access the staging URL, they'll be prompted to enter the credentials before viewing the site.
+
 ***
 
 ## Standardizing on root or `www` using Cloudflare

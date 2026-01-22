@@ -23,7 +23,7 @@ You can customize the “List Style” for your List instance by going to “Lis
 
 Setting the List Style Type allows you to define the appearance of the bullet points or numbering for list items, depending on the content’s context and your design choices. For example, you might choose “Decimal” for an ordered list of steps, but for a more decorative list, you could pick Disc or Circle.
 
-***
+---
 
 ### How to customize a List instance's properties in Webstudio
 

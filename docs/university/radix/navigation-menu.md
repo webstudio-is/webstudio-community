@@ -7,6 +7,7 @@ The Navigation Menu component creates accessible, multi-level navigation with dr
 ## When to Use
 
 Use Navigation Menu for:
+
 - Main website navigation in headers
 - Complex navigation with multiple categories
 - Mega menus with organized link groups
@@ -16,15 +17,15 @@ Use Navigation Menu for:
 
 The Navigation Menu component consists of:
 
-| Component | Description |
-|-----------|-------------|
-| **Navigation Menu** | The root container |
-| **Navigation Menu List** | Container for menu items |
-| **Navigation Menu Item** | Wrapper for each top-level item |
-| **Navigation Menu Trigger** | Button that opens a dropdown |
-| **Navigation Menu Content** | The dropdown panel |
-| **Navigation Menu Link** | A navigation link |
-| **Navigation Menu Viewport** | Where dropdown content renders |
+| Component                    | Description                     |
+| ---------------------------- | ------------------------------- |
+| **Navigation Menu**          | The root container              |
+| **Navigation Menu List**     | Container for menu items        |
+| **Navigation Menu Item**     | Wrapper for each top-level item |
+| **Navigation Menu Trigger**  | Button that opens a dropdown    |
+| **Navigation Menu Content**  | The dropdown panel              |
+| **Navigation Menu Link**     | A navigation link               |
+| **Navigation Menu Viewport** | Where dropdown content renders  |
 
 ## How to Use
 
@@ -42,6 +43,7 @@ For a link without a dropdown, use just a Navigation Menu Link inside the Naviga
 ### Dropdown Menu
 
 For a dropdown:
+
 1. Add a Navigation Menu Trigger (the clickable text)
 2. Add Navigation Menu Content (the dropdown panel)
 3. Add your links and content inside Content
@@ -52,14 +54,14 @@ Some commonly used properties (see the Settings panel for all available options)
 
 ### Navigation Menu Link
 
-| Property | Description |
-|----------|-------------|
+| Property | Description                |
+| -------- | -------------------------- |
 | **href** | The URL the link points to |
 
 ### Navigation Menu Content
 
-| Property | Description |
-|----------|-------------|
+| Property      | Description                                       |
+| ------------- | ------------------------------------------------- |
 | (Positioning) | Content automatically positions below the trigger |
 
 ## Styling States
@@ -78,4 +80,3 @@ For large navigation with multiple columns:
 2. Add multiple columns with Link groups
 3. Optionally add featured content or images
 4. Use the Viewport to control the dropdown container
-

@@ -7,6 +7,7 @@ The Dialog component displays content in a modal window that overlays the page. 
 ## When to Use
 
 Use Dialog for:
+
 - Confirmation prompts ("Are you sure you want to delete?")
 - Forms that require focused attention
 - Important information that requires acknowledgment
@@ -16,15 +17,15 @@ Use Dialog for:
 
 The Dialog component consists of several parts:
 
-| Component | Description |
-|-----------|-------------|
-| **Dialog** | The root component that manages open/close state |
-| **Dialog Trigger** | The button that opens the dialog |
-| **Dialog Overlay** | The semi-transparent backdrop behind the dialog |
-| **Dialog Content** | The container for the dialog's content |
-| **Dialog Title** | The heading of the dialog (required for accessibility) |
-| **Dialog Description** | Optional description text |
-| **Dialog Close** | Button to close the dialog |
+| Component              | Description                                            |
+| ---------------------- | ------------------------------------------------------ |
+| **Dialog**             | The root component that manages open/close state       |
+| **Dialog Trigger**     | The button that opens the dialog                       |
+| **Dialog Overlay**     | The semi-transparent backdrop behind the dialog        |
+| **Dialog Content**     | The container for the dialog's content                 |
+| **Dialog Title**       | The heading of the dialog (required for accessibility) |
+| **Dialog Description** | Optional description text                              |
+| **Dialog Close**       | Button to close the dialog                             |
 
 ## How to Use
 
@@ -38,8 +39,8 @@ The Dialog component consists of several parts:
 
 Some commonly used properties (see the Settings panel for all available options):
 
-| Property | Description |
-|----------|-------------|
+| Property | Description                                                                                              |
+| -------- | -------------------------------------------------------------------------------------------------------- |
 | **open** | Controls whether the dialog is open. Use this to show/hide the dialog on the canvas for styling purposes |
 
 ## Styling States
@@ -48,4 +49,3 @@ Some common states you can style using the States selector (you can also create 
 
 - **Open** - When the dialog is visible
 - **Closed** - When the dialog is hidden
-

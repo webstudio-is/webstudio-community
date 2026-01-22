@@ -7,6 +7,7 @@ The Switch component is a toggle control that allows users to turn an option on 
 ## When to Use
 
 Use Switch for:
+
 - Settings that take effect immediately
 - Enabling/disabling features
 - Dark mode toggles
@@ -17,9 +18,9 @@ Use Switch for:
 
 The Switch component consists of:
 
-| Component | Description |
-|-----------|-------------|
-| **Switch** | The track/background element |
+| Component        | Description                       |
+| ---------------- | --------------------------------- |
+| **Switch**       | The track/background element      |
 | **Switch Thumb** | The circular indicator that moves |
 
 ## How to Use
@@ -34,13 +35,13 @@ The Switch component consists of:
 
 Some commonly used properties (see the Settings panel for all available options):
 
-| Property | Description |
-|----------|-------------|
-| **id** | Unique identifier, useful for connecting to labels |
-| **name** | Form field name for submission |
-| **value** | The value submitted with forms when checked |
-| **checked** | Whether the switch is on |
-| **required** | Whether toggling on is required |
+| Property     | Description                                        |
+| ------------ | -------------------------------------------------- |
+| **id**       | Unique identifier, useful for connecting to labels |
+| **name**     | Form field name for submission                     |
+| **value**    | The value submitted with forms when checked        |
+| **checked**  | Whether the switch is on                           |
+| **required** | Whether toggling on is required                    |
 
 ## Styling States
 
@@ -50,4 +51,3 @@ Some common states (you can also create custom states):
 - **Unchecked** (`[data-state=unchecked]`) - Switch is off
 - **Disabled** (`:disabled`) - Switch cannot be interacted with
 - **Focus** (`:focus-visible`) - Switch has keyboard focus
-

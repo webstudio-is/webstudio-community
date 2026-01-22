@@ -17,3 +17,10 @@ description: Webstudio supports copy-pasting within the platform and from extern
 {% content-ref url="webflow.md" %}
 [webflow.md](webflow.md)
 {% endcontent-ref %}
+
+## Additional Paste Support
+
+* **SVG** – Paste SVG code directly onto the canvas to create native SVG components
+* **HTML with Tailwind** – Paste HTML containing Tailwind CSS classes; styles are automatically converted
+* **Images** – Paste images from clipboard; they are automatically uploaded to Assets
+* **GitHub Markdown** – Paste markdown from GitHub; formatting is preserved

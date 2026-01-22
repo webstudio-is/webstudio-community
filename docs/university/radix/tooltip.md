@@ -7,6 +7,7 @@ The Tooltip component displays informational text when a user hovers over or foc
 ## When to Use
 
 Use Tooltip for:
+
 - Explaining icon-only buttons
 - Providing additional context for form fields
 - Showing keyboard shortcuts
@@ -17,11 +18,11 @@ Use Tooltip for:
 
 The Tooltip component consists of:
 
-| Component | Description |
-|-----------|-------------|
-| **Tooltip** | The root component that manages show/hide state |
+| Component           | Description                                       |
+| ------------------- | ------------------------------------------------- |
+| **Tooltip**         | The root component that manages show/hide state   |
 | **Tooltip Trigger** | The element that shows the tooltip on hover/focus |
-| **Tooltip Content** | The floating text that appears |
+| **Tooltip Content** | The floating text that appears                    |
 
 ## How to Use
 
@@ -36,18 +37,17 @@ Some commonly used properties (see the Settings panel for all available options)
 
 ### Tooltip
 
-| Property | Description |
-|----------|-------------|
-| **open** | Force the tooltip open for styling on the canvas |
-| **delayDuration** | Delay in milliseconds before showing (default: 700ms) |
+| Property                    | Description                                                  |
+| --------------------------- | ------------------------------------------------------------ |
+| **open**                    | Force the tooltip open for styling on the canvas             |
+| **delayDuration**           | Delay in milliseconds before showing (default: 700ms)        |
 | **disableHoverableContent** | Prevents tooltip from staying open when hovering its content |
 
 ### Tooltip Content
 
-| Property | Description |
-|----------|-------------|
-| **side** | Preferred side: `top`, `right`, `bottom`, or `left` |
-| **sideOffset** | Distance in pixels from the trigger (default: 4px) |
-| **align** | Alignment: `start`, `center`, or `end` |
-| **alignOffset** | Offset from the alignment position |
-
+| Property        | Description                                         |
+| --------------- | --------------------------------------------------- |
+| **side**        | Preferred side: `top`, `right`, `bottom`, or `left` |
+| **sideOffset**  | Distance in pixels from the trigger (default: 4px)  |
+| **align**       | Alignment: `start`, `center`, or `end`              |
+| **alignOffset** | Offset from the alignment position                  |

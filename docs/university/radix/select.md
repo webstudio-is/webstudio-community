@@ -7,6 +7,7 @@ The Select component displays a dropdown list of options for users to choose fro
 ## When to Use
 
 Use Select for:
+
 - Choosing from a predefined list of options
 - Form fields where users must pick one value
 - Settings and preferences
@@ -16,16 +17,16 @@ Use Select for:
 
 The Select component consists of several parts:
 
-| Component | Description |
-|-----------|-------------|
-| **Select** | The root component managing state |
-| **Select Trigger** | The button showing the current value |
-| **Select Value** | Displays the selected option's text |
-| **Select Content** | The dropdown panel |
-| **Select Viewport** | Scrollable container for items |
-| **Select Item** | Individual selectable option |
-| **Select Item Text** | The text label for an item |
-| **Select Item Indicator** | Checkmark shown on selected item |
+| Component                 | Description                          |
+| ------------------------- | ------------------------------------ |
+| **Select**                | The root component managing state    |
+| **Select Trigger**        | The button showing the current value |
+| **Select Value**          | Displays the selected option's text  |
+| **Select Content**        | The dropdown panel                   |
+| **Select Viewport**       | Scrollable container for items       |
+| **Select Item**           | Individual selectable option         |
+| **Select Item Text**      | The text label for an item           |
+| **Select Item Indicator** | Checkmark shown on selected item     |
 
 ## How to Use
 
@@ -50,22 +51,21 @@ Some commonly used properties (see the Settings panel for all available options)
 
 ### Select
 
-| Property | Description |
-|----------|-------------|
-| **name** | Form field name for submission |
-| **value** | The currently selected value |
-| **open** | Controls dropdown visibility (for styling) |
-| **required** | Whether a selection is required |
+| Property     | Description                                |
+| ------------ | ------------------------------------------ |
+| **name**     | Form field name for submission             |
+| **value**    | The currently selected value               |
+| **open**     | Controls dropdown visibility (for styling) |
+| **required** | Whether a selection is required            |
 
 ### Select Item
 
-| Property | Description |
-|----------|-------------|
+| Property  | Description                                  |
+| --------- | -------------------------------------------- |
 | **value** | Unique identifier for this option (required) |
 
 ### Select Value
 
-| Property | Description |
-|----------|-------------|
+| Property        | Description                         |
+| --------------- | ----------------------------------- |
 | **placeholder** | Text shown when nothing is selected |
-

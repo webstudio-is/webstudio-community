@@ -7,6 +7,7 @@ The Tabs component displays a set of panels with content that are shown one at a
 ## When to Use
 
 Use Tabs for:
+
 - Organizing related content into sections
 - Settings pages with multiple categories
 - Product pages with details, reviews, and specifications
@@ -16,12 +17,12 @@ Use Tabs for:
 
 The Tabs component consists of several parts:
 
-| Component | Description |
-|-----------|-------------|
-| **Tabs** | The root component that manages which tab is active |
-| **Tabs List** | Container for all the tab triggers |
-| **Tab Trigger** | The clickable tab button |
-| **Tab Content** | The panel content shown when a tab is active |
+| Component       | Description                                         |
+| --------------- | --------------------------------------------------- |
+| **Tabs**        | The root component that manages which tab is active |
+| **Tabs List**   | Container for all the tab triggers                  |
+| **Tab Trigger** | The clickable tab button                            |
+| **Tab Content** | The panel content shown when a tab is active        |
 
 ## How to Use
 
@@ -45,8 +46,8 @@ When generating tabs dynamically with a [Collection](../core-components/collecti
 
 Some commonly used properties (see the Settings panel for all available options):
 
-| Property | Description |
-|----------|-------------|
+| Property  | Description                                                                    |
+| --------- | ------------------------------------------------------------------------------ |
 | **value** | The currently active tab. Use this to control which tab is shown on the canvas |
 
 ## Styling States
@@ -55,4 +56,3 @@ Some common states (you can also create custom states):
 
 - **Active** (`[data-state=active]`) - The currently selected tab trigger
 - **Inactive** (`[data-state=inactive]`) - Unselected tab triggers
-

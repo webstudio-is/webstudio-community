@@ -7,6 +7,7 @@ The Time component displays formatted dates and times with support for localizat
 ## When to Use
 
 Use Time for:
+
 - Blog post publication dates
 - Event dates and times
 - Last updated timestamps
@@ -25,29 +26,29 @@ Some commonly used properties (see the Settings panel for all available options)
 
 ### Core Properties
 
-| Property | Description |
-|----------|-------------|
+| Property     | Description                                       |
+| ------------ | ------------------------------------------------- |
 | **datetime** | The date/time value (ISO 8601 format recommended) |
 
 ### Formatting Properties
 
-| Property | Description | Example Values |
-|----------|-------------|----------------|
-| **language** | Language code for localization | `en`, `es`, `fr`, `de`, `ja` |
-| **country** | Country code for regional formatting | `US`, `GB`, `DE`, `JP` |
-| **dateStyle** | How to display the date | `full`, `long`, `medium`, `short` |
-| **timeStyle** | How to display the time | `full`, `long`, `medium`, `short` |
+| Property      | Description                          | Example Values                    |
+| ------------- | ------------------------------------ | --------------------------------- |
+| **language**  | Language code for localization       | `en`, `es`, `fr`, `de`, `ja`      |
+| **country**   | Country code for regional formatting | `US`, `GB`, `DE`, `JP`            |
+| **dateStyle** | How to display the date              | `full`, `long`, `medium`, `short` |
+| **timeStyle** | How to display the time              | `full`, `long`, `medium`, `short` |
 
 ## Date Style Examples
 
 For the date `2025-01-20`:
 
-| Style | en-US | de-DE |
-|-------|-------|-------|
-| **full** | Monday, January 20, 2025 | Montag, 20. Januar 2025 |
-| **long** | January 20, 2025 | 20. Januar 2025 |
-| **medium** | Jan 20, 2025 | 20.01.2025 |
-| **short** | 1/20/25 | 20.01.25 |
+| Style      | en-US                    | de-DE                   |
+| ---------- | ------------------------ | ----------------------- |
+| **full**   | Monday, January 20, 2025 | Montag, 20. Januar 2025 |
+| **long**   | January 20, 2025         | 20. Januar 2025         |
+| **medium** | Jan 20, 2025             | 20.01.2025              |
+| **short**  | 1/20/25                  | 20.01.25                |
 
 ## Using with Dynamic Data
 
@@ -61,7 +62,7 @@ When binding dates from a CMS or API:
 
 ```javascript
 // If your CMS returns an ISO date string
-myResource.publishedAt
+myResource.publishedAt;
 ```
 
 ## Localization
@@ -81,4 +82,3 @@ Time renders as a `<time>` element with a `datetime` attribute:
 ```
 
 This helps search engines and assistive technologies understand the date.
-

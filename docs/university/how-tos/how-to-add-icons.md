@@ -30,13 +30,7 @@ For more complex SVGs or when you need the raw SVG code:
 To control icon color and size, modify the SVG:
 
 ```html
-<svg 
-  width="24" 
-  height="24" 
-  fill="none" 
-  stroke="currentColor" 
-  stroke-width="2"
->
+<svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
   <!-- icon path here -->
 </svg>
 ```
@@ -58,4 +52,3 @@ For simple icons that don't need color changes:
 2. Upload to Webstudio Assets
 3. Add an Image component and select the uploaded icon
 4. Set appropriate width/height
-

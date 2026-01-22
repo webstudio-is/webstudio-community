@@ -7,6 +7,7 @@ The Radio Group component allows users to select a single option from a list of 
 ## When to Use
 
 Use Radio Group for:
+
 - Selecting one option from a small set (2-5 options)
 - Payment method selection
 - Shipping options
@@ -16,10 +17,10 @@ Use Radio Group for:
 
 The Radio Group component consists of:
 
-| Component | Description |
-|-----------|-------------|
-| **Radio Group** | The container managing selection state |
-| **Radio Group Item** | An individual radio button |
+| Component                 | Description                              |
+| ------------------------- | ---------------------------------------- |
+| **Radio Group**           | The container managing selection state   |
+| **Radio Group Item**      | An individual radio button               |
 | **Radio Group Indicator** | The visual indicator (dot) when selected |
 
 ## How to Use
@@ -59,17 +60,17 @@ Some commonly used properties (see the Settings panel for all available options)
 
 ### Radio Group
 
-| Property | Description |
-|----------|-------------|
-| **id** | Unique identifier |
-| **name** | Form field name for submission |
-| **value** | The currently selected value |
-| **required** | Whether selection is required |
+| Property     | Description                    |
+| ------------ | ------------------------------ |
+| **id**       | Unique identifier              |
+| **name**     | Form field name for submission |
+| **value**    | The currently selected value   |
+| **required** | Whether selection is required  |
 
 ### Radio Group Item
 
-| Property | Description |
-|----------|-------------|
+| Property  | Description                                  |
+| --------- | -------------------------------------------- |
 | **value** | Unique identifier for this option (required) |
 
 ## Styling States
@@ -80,4 +81,3 @@ Some common states (you can also create custom states):
 - **Unchecked** (`[data-state=unchecked]`) - Item is not selected
 - **Disabled** (`:disabled`) - Item cannot be selected
 - **Focus** (`:focus-visible`) - Item has keyboard focus
-

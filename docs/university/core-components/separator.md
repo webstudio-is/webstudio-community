@@ -7,6 +7,7 @@ The Separator component creates a visual divider between content sections. It re
 ## When to Use
 
 Use Separator for:
+
 - Dividing sections of content
 - Separating items in a list or menu
 - Creating visual breaks in long content
@@ -57,8 +58,7 @@ margin: 32px auto;
 
 Some commonly used properties (see the Settings panel for all available options):
 
-| Property | Description |
-|----------|-------------|
-| **orientation** | `horizontal` (default) or `vertical` |
-| **decorative** | If true, removes from accessibility tree |
-
+| Property        | Description                              |
+| --------------- | ---------------------------------------- |
+| **orientation** | `horizontal` (default) or `vertical`     |
+| **decorative**  | If true, removes from accessibility tree |

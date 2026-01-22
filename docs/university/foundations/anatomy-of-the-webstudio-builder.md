@@ -47,7 +47,7 @@ Global Root uses the`:root` [CSS selector](https://developer.mozilla.org/en-US/d
 Breakpoints are crucial for creating responsive websites that adapt to different screen sizes and devices. _Style_ changes you make on one breakpoint cascade, or affect, that breakpoint and all the smaller ones.
 
 {% hint style="success" %}
-You can create custom breakpoints and change `max-width` queries to `min-width` so styles cascade up.
+You can create custom breakpoints with any media query condition – not just width-based. This includes `prefers-color-scheme` for dark mode, `prefers-reduced-motion` for accessibility, `orientation`, and more.
 {% endhint %}
 
 {% hint style="warning" %}

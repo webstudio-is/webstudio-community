@@ -43,12 +43,11 @@ Zapier allows you to connect Webstudio forms to thousands of apps, automating wo
 
 ## Common Use Cases
 
-| Destination | Use Case |
-|-------------|----------|
-| Google Sheets | Log all form submissions |
-| Mailchimp | Add subscribers to email lists |
-| Slack | Get notified of new submissions |
-| HubSpot/Salesforce | Create CRM contacts |
-| Gmail | Send custom confirmation emails |
-| Notion | Create database entries |
-
+| Destination        | Use Case                        |
+| ------------------ | ------------------------------- |
+| Google Sheets      | Log all form submissions        |
+| Mailchimp          | Add subscribers to email lists  |
+| Slack              | Get notified of new submissions |
+| HubSpot/Salesforce | Create CRM contacts             |
+| Gmail              | Send custom confirmation emails |
+| Notion             | Create database entries         |

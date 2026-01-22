@@ -30,9 +30,10 @@ System variable is a unique variable in that it exists by default, while all oth
 
 System variable contains the following:
 
-* **Params** – Key/value pairs that are defined in Dynamic Page URLs.
-* **Search** – Key/value pairs of query parameters that may exist in the URL.
-* **Origin** – The URL of the current site. It will display whatever the actual URL is, so in the builder, it will be the internal wstd.io domain, but on the published site, it will be the current origin, likely a custom domain.
+- **Params** – Key/value pairs that are defined in Dynamic Page URLs.
+- **Search** – Key/value pairs of query parameters that may exist in the URL.
+- **Origin** – The URL of the current site. It will display whatever the actual URL is, so in the builder, it will be the internal wstd.io domain, but on the published site, it will be the current origin, likely a custom domain.
+- **Pathname** – The current page's path (e.g., `/blog/my-post`). Useful for conditional logic based on the current URL.
 
 ### String
 
@@ -60,11 +61,11 @@ There are several fields available to configure the fetch request.
 Shortcut: The URL field supports pasting in a cURL command. Doing so will automatically populate the various fields within the Resource. Many API docs will provide you with a cURL command, so look out for it to save time.
 {% endhint %}
 
-* URL – Where the resource is located.
-* Method – A [request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods). Refer to the third-party API docs to find the suitable method.
-* Search Params - Key/value pairs used for providing additional parameters as part of the URL. Values can be bound to other variables.
-* Cache Max Age  allows you to define your own cache lifetime.
-* Headers – Key/value pairs such `Content-Type application/json`. Refer to [Request Headers](https://developer.mozilla.org/en-US/docs/Glossary/Request_header) for more info.
+- URL – Where the resource is located.
+- Method – A [request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods). Refer to the third-party API docs to find the suitable method.
+- Search Params - Key/value pairs used for providing additional parameters as part of the URL. Values can be bound to other variables.
+- Cache Max Age allows you to define your own cache lifetime.
+- Headers – Key/value pairs such `Content-Type application/json`. Refer to [Request Headers](https://developer.mozilla.org/en-US/docs/Glossary/Request_header) for more info.
 
 {% include "../../.gitbook/includes/the-requests-including-any....md" %}
 
@@ -84,17 +85,15 @@ If you set a custom **Cache Max Age** value, it will define your cache lifetime 
 
 Webstudio sees approximately 45% of sub-requests (i.e., fetches from Cloudflare Workers) served from the cache. This means that, on average, roughly half of the time someone visits a page that uses Resources, such as a blog post, the request will go through to the origin/CMS.
 
-
-
 ### GraphQL
 
 A GraphQL Resource variable gets its value from a GraphQL API, allowing data from a remote system to be used within Webstudio. While similar to [Resource](variables.md#resource), it’s unique in that the available fields are specifically designed for interacting with GraphQL APIs.
 
 There are several fields available to configure the fetch request.
 
-* **URL** – Where the resource is located.
-* **Query** – A GraphQL query.
-* **Variables** – A JavaScript object containing variables that will be passed into the request. This is commonly used to pass in parameters in a URL within a Dynamic Page. For example `{ slug: system.params.slug }` See [System Variable](variables.md#system) for more info.
+- **URL** – Where the resource is located.
+- **Query** – A GraphQL query.
+- **Variables** – A JavaScript object containing variables that will be passed into the request. This is commonly used to pass in parameters in a URL within a Dynamic Page. For example `{ slug: system.params.slug }` See [System Variable](variables.md#system) for more info.
 
 {% include "../../.gitbook/includes/the-requests-including-any....md" %}
 
@@ -102,4 +101,7 @@ There are several fields available to configure the fetch request.
 
 A System Resource variable gets its value from internal data.
 
-For example, there is a Sitemap inside the System Resource. It contains the data about the static pages on the website, which is commonly used to build a custom sitemap that combines dynamic data with static data. Refer to the [XML Node component](../core-components/xml-node.md#including-the-static-sitemap) for more info.
+Available system resources:
+
+- **Sitemap** – Contains data about the static pages on the website, commonly used to build a custom sitemap that combines dynamic data with static data. Refer to the [XML Node component](../core-components/xml-node.md#including-the-static-sitemap) for more info.
+- **Current Date** – Returns the current date/time, useful for displaying "today's date" or calculating relative times. Can be formatted using the [Time component](../core-components/time.md).

@@ -16,22 +16,40 @@ You have 50 blog posts. Does this mean you need to duplicate your design 50 time
 
 Collections let you design something once, and it will repeat it for every item in the array and contain the data for the current iteration (e.g., the blog post title).
 
-## What's an array?
+## What's an array or object?
 
-An array is a programming term that generally translates to **a list of data**.&#x20;
+Collection can iterate over both **arrays** (lists) and **objects** (key-value pairs).
 
-In the case of blog posts, this might look like the following:
+### Arrays
+
+An array is a list of data. In the case of blog posts, this might look like:
 
 ```javascript
-0 { title: "Hello world"},
-1 { title: "Lorem ipsum"},
-2 { title: "Webstudio rocks!" }
+[
+  { title: "Hello world" },
+  { title: "Lorem ipsum" },
+  { title: "Webstudio rocks!" }
+]
 ```
 
+When iterating over an array, the Collection Item contains the current item's data.
+
+### Objects
+
+An object is a set of key-value pairs. For example:
+
+```javascript
+{
+  home: { label: "Home", url: "/" },
+  about: { label: "About", url: "/about" },
+  contact: { label: "Contact", url: "/contact" }
+}
+```
+
+When iterating over an object, the Collection Item contains both the **key** (e.g., "home") and the **value** (e.g., `{ label: "Home", url: "/" }`). You can access them via `Collection Item.key` and `Collection Item.value`.
+
 {% hint style="warning" %}
-It's important that when binding data to a Collection, **you must bind the array**, i.e., the data you want to iterate over. If you don't bind the array, you'll receive an error:\
-\
-"The Collection component requires an array in the data property. When binding external data, it is likely that the array is nested somewhere within, and you need to provide the correct path in the binding."
+When binding data to a Collection, **you must bind the array or object**, i.e., the data you want to iterate over. If you bind something else, you'll receive an error.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/collection-error.png" alt="Error when binding a value other than an array"><figcaption><p>Error when binding a value other than an array</p></figcaption></figure>
@@ -83,8 +101,6 @@ Tab Triggers and Tab Contents maintain their relationship by having the same val
 <div>
 
 <figure><img src="../../.gitbook/assets/tab-trigger (1).png" alt=""><figcaption><p>Tab Trigger with custom value</p></figcaption></figure>
-
- 
 
 <figure><img src="../../.gitbook/assets/tab-content (1).png" alt=""><figcaption><p>Tab Content with custom value</p></figcaption></figure>
 

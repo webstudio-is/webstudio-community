@@ -43,11 +43,11 @@ Pabbly Connect is a workflow automation platform similar to Zapier. It allows yo
 
 ## Why Choose Pabbly?
 
-| Feature | Pabbly | Zapier |
-|---------|--------|--------|
-| Pricing | Flat rate, unlimited tasks | Per-task pricing |
-| Multi-step workflows | Included | Premium feature |
-| Best for | High volume forms | Occasional use |
+| Feature              | Pabbly                     | Zapier           |
+| -------------------- | -------------------------- | ---------------- |
+| Pricing              | Flat rate, unlimited tasks | Per-task pricing |
+| Multi-step workflows | Included                   | Premium feature  |
+| Best for             | High volume forms          | Occasional use   |
 
 ## Common Integrations
 

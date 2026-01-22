@@ -33,3 +33,19 @@ The styles are parsed and displayed in their respective fields (they will also b
 Webstudio liberates website creators from CSS selectors so they don't have to worry about specificity, combo classes, and having an HTML structure tightly coupled with CSS.
 
 Therefore, Webstudio supports pasting CSS declarations, _not_ selectors.
+
+## Tailwind CSS Support
+
+You can paste HTML with Tailwind CSS classes, and Webstudio will automatically convert the Tailwind utility classes into native Webstudio styles.
+
+### How it works
+
+1. Copy HTML containing Tailwind classes (e.g., `<div class="flex items-center gap-4 p-6 bg-white rounded-lg">`)
+2. Paste into Webstudio
+3. Webstudio creates the component structure and applies the equivalent styles
+
+This is especially useful when:
+
+* Using AI tools that generate Tailwind-based HTML
+* Migrating from Tailwind projects
+* Using Tailwind component libraries as a starting point

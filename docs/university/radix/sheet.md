@@ -7,6 +7,7 @@ The Sheet component displays content in a panel that slides in from the edge of 
 ## When to Use
 
 Use Sheet for:
+
 - Mobile navigation menus
 - Settings panels
 - Shopping carts
@@ -17,15 +18,15 @@ Use Sheet for:
 
 Sheet uses the same structure as [Dialog](dialog.md):
 
-| Component | Description |
-|-----------|-------------|
-| **Dialog** | The root component (Sheet is a styled Dialog) |
-| **Dialog Trigger** | The button that opens the sheet |
-| **Dialog Overlay** | The backdrop behind the sheet |
-| **Dialog Content** | The sliding panel |
-| **Dialog Title** | Heading (required for accessibility) |
-| **Dialog Description** | Optional description |
-| **Dialog Close** | Button to close the sheet |
+| Component              | Description                                   |
+| ---------------------- | --------------------------------------------- |
+| **Dialog**             | The root component (Sheet is a styled Dialog) |
+| **Dialog Trigger**     | The button that opens the sheet               |
+| **Dialog Overlay**     | The backdrop behind the sheet                 |
+| **Dialog Content**     | The sliding panel                             |
+| **Dialog Title**       | Heading (required for accessibility)          |
+| **Dialog Description** | Optional description                          |
+| **Dialog Close**       | Button to close the sheet                     |
 
 ## How to Use
 
@@ -40,6 +41,7 @@ Sheet uses the same structure as [Dialog](dialog.md):
 Sheet can slide from any edge. Style the Dialog Content:
 
 ### Right (Default)
+
 ```css
 position: fixed;
 right: 0;
@@ -49,6 +51,7 @@ width: 300px;
 ```
 
 ### Left
+
 ```css
 position: fixed;
 left: 0;
@@ -58,6 +61,7 @@ width: 300px;
 ```
 
 ### Bottom
+
 ```css
 position: fixed;
 bottom: 0;
@@ -67,6 +71,7 @@ height: auto;
 ```
 
 ### Top
+
 ```css
 position: fixed;
 top: 0;
@@ -79,8 +84,8 @@ height: auto;
 
 Some commonly used properties (see the Settings panel for all available options):
 
-| Property | Description |
-|----------|-------------|
+| Property | Description                           |
+| -------- | ------------------------------------- |
 | **open** | Controls whether the sheet is visible |
 
 ## Mobile Navigation Pattern
@@ -91,4 +96,3 @@ A common pattern for responsive navigation:
 2. Show the trigger only on mobile breakpoints
 3. Add your navigation links inside the sheet
 4. Hide the regular navigation on mobile
-

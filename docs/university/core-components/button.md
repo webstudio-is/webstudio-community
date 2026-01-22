@@ -7,6 +7,7 @@ The Button component creates clickable buttons for user interactions. Buttons tr
 ## When to Use
 
 Use Button for:
+
 - Form submissions
 - Triggering actions (open dialog, toggle, etc.)
 - Call-to-action elements
@@ -27,22 +28,25 @@ Buttons are for actions, not navigation. For navigation links, use the [Link](li
 
 Some commonly used properties (see the Settings panel for all available options):
 
-| Property | Description |
-|----------|-------------|
-| **type** | `submit` (form submission), `reset` (clear form), or `button` (general use) |
-| **disabled** | Prevents interaction when true |
-| **name** | Name for form submission |
-| **value** | Value for form submission |
+| Property     | Description                                                                 |
+| ------------ | --------------------------------------------------------------------------- |
+| **type**     | `submit` (form submission), `reset` (clear form), or `button` (general use) |
+| **disabled** | Prevents interaction when true                                              |
+| **name**     | Name for form submission                                                    |
+| **value**    | Value for form submission                                                   |
 
 ## Button Types
 
 ### Submit Button
+
 Submits the parent form when clicked. Use inside [Form](form.md) or [Webhook Form](webhook-form.md).
 
 ### Reset Button
+
 Clears all form fields to their default values.
 
 ### Button (Default)
+
 General purpose button for non-form actions. Use with component interactions like opening dialogs.
 
 ## Styling States
@@ -54,4 +58,3 @@ Some common states (you can also create custom states):
 - **Focus** (`:focus-visible`) - Keyboard focused
 - **Active** (`:active`) - Being pressed
 - **Disabled** (`:disabled`) - Cannot be clicked
-
