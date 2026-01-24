@@ -1,3 +1,7 @@
+---
+description: Add radio button inputs for single-choice selections in Webstudio forms.
+---
+
 # Radio Button
 
 > See [MDN: \<input type="radio"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)

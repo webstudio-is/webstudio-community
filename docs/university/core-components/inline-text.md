@@ -1,3 +1,7 @@
+---
+description: Style inline text spans within paragraphs in Webstudio.
+---
+
 # Inline Text Formatting
 
 > See [MDN: \<span\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)

@@ -1,3 +1,7 @@
+---
+description: Add multi-line text input fields to forms in Webstudio.
+---
+
 # Textarea
 
 > See [MDN: \<textarea\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)

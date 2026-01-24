@@ -1,3 +1,7 @@
+---
+description: Add and style text content in Webstudio with the Text component.
+---
+
 # Text
 
 > See [MDN: \<span\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)

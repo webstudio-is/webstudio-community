@@ -1,3 +1,7 @@
+---
+description: Add text input fields to forms in Webstudio.
+---
+
 # Input
 
 > See [MDN: \<input\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)

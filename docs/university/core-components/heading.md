@@ -1,3 +1,7 @@
+---
+description: Add headings (H1-H6) to structure content in Webstudio.
+---
+
 # Heading
 
 > See [MDN: Heading elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)

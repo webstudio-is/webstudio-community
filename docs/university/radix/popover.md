@@ -1,3 +1,7 @@
+---
+description: Create floating popover elements with Radix UI in Webstudio.
+---
+
 # Popover
 
 > Based on [Radix Popover](https://www.radix-ui.com/primitives/docs/components/popover)

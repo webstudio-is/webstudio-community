@@ -1,3 +1,7 @@
+---
+description: Add informational tooltips with Radix UI in Webstudio.
+---
+
 # Tooltip
 
 > Based on [Radix Tooltip](https://www.radix-ui.com/primitives/docs/components/tooltip)

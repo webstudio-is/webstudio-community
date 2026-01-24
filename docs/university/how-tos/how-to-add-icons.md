@@ -1,3 +1,7 @@
+---
+description: Add icons to your Webstudio site using SVGs and icon libraries.
+---
+
 # ▶ How to add icons
 
 {% embed url="https://youtu.be/IqoNtd6g57E?si=EVapmuGdHLY0WMFh" %}

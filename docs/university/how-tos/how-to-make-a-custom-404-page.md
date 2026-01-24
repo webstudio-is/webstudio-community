@@ -1,3 +1,7 @@
+---
+description: Create a custom 404 error page in Webstudio.
+---
+
 # How to Make a Custom 404 Page
 
 When you visit a URL that doesn't exist or couldn't be found on the server because the webpage was moved or deleted, the broken link redirects to a 404 error page where a message indicating this error is shown.

@@ -1,3 +1,7 @@
+---
+description: Build slide-out panels and drawers with Radix UI in Webstudio.
+---
+
 # Sheet
 
 > Based on [Radix Dialog](https://www.radix-ui.com/primitives/docs/components/dialog)

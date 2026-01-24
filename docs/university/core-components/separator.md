@@ -1,3 +1,7 @@
+---
+description: Add visual dividers between content sections in Webstudio.
+---
+
 # ➖ Separator
 
 > See [MDN: \<hr\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)

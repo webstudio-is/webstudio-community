@@ -1,3 +1,7 @@
+---
+description: Create tabbed interfaces with Radix UI in Webstudio.
+---
+
 # Tabs
 
 > Based on [Radix Tabs](https://www.radix-ui.com/primitives/docs/components/tabs)

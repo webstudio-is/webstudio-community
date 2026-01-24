@@ -1,3 +1,7 @@
+---
+description: Add toggle switches with Radix UI in Webstudio.
+---
+
 # Switch
 
 > Based on [Radix Switch](https://www.radix-ui.com/primitives/docs/components/switch)

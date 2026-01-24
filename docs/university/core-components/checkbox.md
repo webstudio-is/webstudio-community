@@ -1,3 +1,7 @@
+---
+description: Add checkbox inputs to forms in Webstudio.
+---
+
 # Checkbox
 
 > See [MDN: \<input type="checkbox"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)

@@ -1,3 +1,7 @@
+---
+description: Embed custom HTML, CSS, and JavaScript in Webstudio pages.
+---
+
 # ⌨️ HTML Embed
 
 {% embed url="https://www.youtube.com/watch?v=ay0_plImm6w" %}

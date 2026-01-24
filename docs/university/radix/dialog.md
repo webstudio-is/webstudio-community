@@ -1,3 +1,7 @@
+---
+description: Create modal dialogs and popups with Radix UI in Webstudio.
+---
+
 # Dialog
 
 > Based on [Radix Dialog](https://www.radix-ui.com/primitives/docs/components/dialog)

@@ -1,3 +1,7 @@
+---
+description: Add clickable buttons to your Webstudio site with the Button component.
+---
+
 # 🔘 Button
 
 > See [MDN: \<button\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)

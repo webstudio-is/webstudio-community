@@ -1,3 +1,7 @@
+---
+description: Add accessible form labels with Radix UI in Webstudio.
+---
+
 # Label (Radix)
 
 > Based on [Radix Label](https://www.radix-ui.com/primitives/docs/components/label)

@@ -1,3 +1,7 @@
+---
+description: Add custom fonts to your Webstudio site.
+---
+
 # Using Custom Fonts in Webstudio
 
 Webstudio lets you use custom fonts without relying on third-party services like Google Fonts. You can either choose from built-in font stacks or upload your own font files.

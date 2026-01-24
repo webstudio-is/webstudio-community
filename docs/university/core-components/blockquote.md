@@ -1,3 +1,7 @@
+---
+description: Display quotations with the Blockquote component in Webstudio.
+---
+
 # 💬 Blockquote
 
 > See [MDN: \<blockquote\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)

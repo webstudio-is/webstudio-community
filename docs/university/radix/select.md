@@ -1,3 +1,7 @@
+---
+description: Create accessible dropdown selects with Radix UI in Webstudio.
+---
+
 # Select
 
 > Based on [Radix Select](https://www.radix-ui.com/primitives/docs/components/select)

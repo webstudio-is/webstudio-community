@@ -1,3 +1,6 @@
+---
+description: Embed Vimeo videos in your Webstudio pages.
+---
 # ⏯️ Vimeo
 
 {% embed url="https://www.youtube.com/watch?v=YzyyZ10fcu4" %}

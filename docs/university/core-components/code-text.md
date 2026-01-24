@@ -1,3 +1,7 @@
+---
+description: Display inline code snippets with the Code Text component in Webstudio.
+---
+
 # 📄 Code Text Component
 
 > See [MDN: \<code\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)

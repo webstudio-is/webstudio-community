@@ -1,3 +1,7 @@
+---
+description: Add meta tags, scripts, and other head elements to your Webstudio pages.
+---
+
 # Head Components
 
 Webstudio provides components for adding elements to the document `<head>`, allowing you to control meta tags, external resources, and the page title.

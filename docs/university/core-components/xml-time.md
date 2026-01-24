@@ -1,3 +1,7 @@
+---
+description: Format dates in XML sitemaps and RSS feeds using the XML Time component.
+---
+
 # 🕐 XML Time
 
 > See [MDN: Date.toISOString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString)

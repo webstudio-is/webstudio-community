@@ -1,3 +1,7 @@
+---
+description: Add paragraph text blocks to your Webstudio pages.
+---
+
 # Paragraph
 
 > See [MDN: \<p\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)

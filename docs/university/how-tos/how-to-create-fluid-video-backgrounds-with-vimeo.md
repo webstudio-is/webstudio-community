@@ -1,3 +1,7 @@
+---
+description: Create fluid video backgrounds in Webstudio using Vimeo.
+---
+
 # ▶ How to create fluid video backgrounds with Vimeo
 
 {% embed url="https://youtu.be/XO3AntguPZE?si=gGQ_93CXQWLnoLwP" %}

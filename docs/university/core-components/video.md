@@ -1,3 +1,7 @@
+---
+description: Embed self-hosted videos in Webstudio pages.
+---
+
 # Video
 
 > See [MDN: \<video\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)

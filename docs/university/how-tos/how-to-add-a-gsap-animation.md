@@ -1,3 +1,7 @@
+---
+description: Add GSAP animations to your Webstudio site with custom code.
+---
+
 # 🍀 How to add a GSAP animation
 
 <figure><img src="../../.gitbook/assets/gsap.png" alt=""><figcaption></figcaption></figure>

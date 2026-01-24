@@ -1,3 +1,7 @@
+---
+description: Build a directory website in Webstudio using Airtable as a CMS.
+---
+
 # ▶️ Build Your Own Directory Website with Airtable
 
 {% embed url="https://youtu.be/21y1_CiBqnM" %}

@@ -1,3 +1,7 @@
+---
+description: Connect Webstudio forms to Pabbly Connect for automation.
+---
+
 # How to integrate Webhook Form with Pabbly
 
 {% embed url="https://youtu.be/gKNsyYKxuDA" %}

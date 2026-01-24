@@ -1,3 +1,7 @@
+---
+description: Add accessible checkbox controls with Radix UI in Webstudio.
+---
+
 # Checkbox (Radix)
 
 > Based on [Radix Checkbox](https://www.radix-ui.com/primitives/docs/components/checkbox)

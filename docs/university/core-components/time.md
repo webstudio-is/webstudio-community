@@ -1,3 +1,7 @@
+---
+description: Display dates and times with semantic markup using the Time component in Webstudio.
+---
+
 # 🕐 Time
 
 > See [MDN: \<time\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)

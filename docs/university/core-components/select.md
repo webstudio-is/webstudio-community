@@ -1,3 +1,7 @@
+---
+description: Add dropdown select inputs to forms in Webstudio.
+---
+
 # Select (Native)
 
 > See [MDN: \<select\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)

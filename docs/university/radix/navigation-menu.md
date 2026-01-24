@@ -1,3 +1,7 @@
+---
+description: Build accessible navigation menus with Radix UI in Webstudio.
+---
+
 # Navigation Menu
 
 > Based on [Radix Navigation Menu](https://www.radix-ui.com/primitives/docs/components/navigation-menu)

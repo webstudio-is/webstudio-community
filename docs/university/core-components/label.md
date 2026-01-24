@@ -1,3 +1,7 @@
+---
+description: Add accessible labels to form inputs in Webstudio.
+---
+
 # Label
 
 > See [MDN: \<label\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)

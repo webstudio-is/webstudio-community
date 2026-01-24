@@ -1,3 +1,7 @@
+---
+description: The Element component is a flexible container for building layouts in Webstudio.
+---
+
 # 📦 Element
 
 The Element component is a versatile component that can represent any HTML element. It provides the flexibility to create semantic HTML structures with any tag type while maintaining full styling capabilities.
