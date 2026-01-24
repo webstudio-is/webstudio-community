@@ -36,6 +36,10 @@ To create an accordion with a [Collection](/broken/pages/pauhKZIgEF1NC1u9qwLe) t
 
 <figure><img src="../../.gitbook/assets/accordion-collection.png" alt="accordion collection unique item"><figcaption></figcaption></figure>
 
+## Related Videos
+
+{% embed url="https://www.youtube.com/watch?v=PhCRSML1-G8" %}
+
 ## Related
 
 - [Collapsible](./collapsible.md) – Single expandable/collapsible panel

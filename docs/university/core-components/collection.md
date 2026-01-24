@@ -106,6 +106,10 @@ Tab Triggers and Tab Contents maintain their relationship by having the same val
 
 Also, you can change the default value on the Tabs instance by binding the first value in the collection to it.
 
+## Related Videos
+
+{% embed url="https://www.youtube.com/watch?v=oAaGTsHt-aE" %}
+
 ## Related
 
 - [Content Embed](content-embed.md) – Render rich text from CMS

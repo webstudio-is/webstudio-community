@@ -8,6 +8,8 @@ description: >-
 
 {% embed url="https://vimeo.com/842097297" %}
 
+{% embed url="https://www.youtube.com/watch?v=MWTpgOmv6N0" %}
+
 Slots enable you to create reusable sections on your site. Changes made to one instance of the Slot will automatically change all other instances.
 
 {% hint style="info" %}
