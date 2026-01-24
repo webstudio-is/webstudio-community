@@ -93,6 +93,7 @@ Pasting a class/Token that already exists will not cause duplication or override
 
 ## Related
 
+- [Copy & Paste](https://webstudio.is/copy-paste) – Learn more about copying from Webflow to Webstudio
 - [CSS](./css.md) – Paste CSS to populate the Style Panel
 - [Markdown](./markdown.md) – Paste Markdown to create components automatically
 - [Shortcuts](../shortcuts.md) – Keyboard shortcuts for faster workflows

@@ -104,6 +104,8 @@ Please [read this article](../misc/webstudio-support-process.md) on where and ho
 
 ## Related
 
+- [Webstudio FAQ](https://webstudio.is/faq) – More frequently asked questions
+- [Webstudio Experts](https://webstudio.is/experts) – Find certified Webstudio experts for your project
 - [Intro](intro.md) – Learn what Webstudio is and who it's for
 - [Courses](courses.md) – Community-made courses for learning Webstudio
 - [Roadmap & Links](roadmap-and-links.md) – Official links and what the team is working on

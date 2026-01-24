@@ -128,6 +128,8 @@ Rich text in the form of HTML can be bound to the [Content Embed Component](../c
 
 ## Related
 
+- [Webstudio CMS](https://webstudio.is/cms) – Learn more about CMS capabilities in Webstudio
+- [Headless CMS Finder](https://webstudio.is/tools/headless-cms-finder) – Compare and find the right headless CMS
 - [Data Variables](variables.md) – Define Resources to fetch CMS data
 - [Expression Editor](expression-editor.md) – Bind CMS data to components
 - [Collection](../core-components/collection.md) – Iterate over CMS data to create lists

@@ -27,6 +27,7 @@ See [static site hosting platforms](./#platforms-for-static-sites) we have docum
 
 ## Related
 
+- [Static Export](https://webstudio.is/static) – Learn more about static site export in Webstudio
 - [CLI](./cli.md) – Export and build your project using the command line
 - [Cloudflare Pages](./cloudflare-pages.md) – Deploy static sites to Cloudflare's network
 - [GitHub Pages](./github-pages.md) – Free static site hosting from GitHub

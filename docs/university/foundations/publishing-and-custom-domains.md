@@ -270,6 +270,7 @@ Here are the provided records and correct records when adding `example.co.uk`:
 
 ## Related
 
+- [Cloudflare Website Builder](https://webstudio.is/cloudflare-website-builder) – Learn about Webstudio's Cloudflare integration
 - [Project Settings](project-settings.md) – Configure redirects and site settings
 - [Share Links](share-links.md) – Share projects and manage permissions
 - [SEO Settings](seo-settings.md) – Optimize your site for search engines

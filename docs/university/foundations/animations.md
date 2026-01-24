@@ -69,6 +69,7 @@ For complex, multi-step animations or scroll-driven effects, use the Animation G
 The Webstudio Animation Engine is designed to make animations accessible yet powerful, bridging the gap between simplicity and sophistication. Whether you’re building subtle scroll-driven effects or elaborate interactive sequences, it delivers the performance and versatility to match your ambition.
 ## Related
 
+- [Scroll-Driven Animations](https://webstudio.is/scroll-driven-animations) – Learn more about scroll-driven animations in Webstudio
 - [Animation Group](../core-components/animation-group.md) – Container for scroll-driven animations
 - [Text Animation](../core-components/text-animation.md) – Animate text by words or characters
 - [Stagger Animation](../core-components/stagger-animation.md) – Create cascading animation effects

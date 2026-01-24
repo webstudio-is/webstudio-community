@@ -1,5 +1,7 @@
 # ▫️ Radix
 
+> See [Radix in Webstudio](https://webstudio.is/radix) for an overview of how Radix components work in Webstudio.
+
 An open source component library optimized for fast development, easy maintenance, and accessibility built directly into Webstudio.
 
 [Radix Documentation](https://www.radix-ui.com/primitives/docs/overview/introduction)

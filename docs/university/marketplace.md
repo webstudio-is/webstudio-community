@@ -51,6 +51,7 @@ Learn about about [contributing to the Marketplace](../contributing/marketplace.
 
 ## Related
 
+- [Webstudio Templates](https://webstudio.is/marketplace/templates) – Browse all available templates
 - [Contributing to the Marketplace](../contributing/marketplace.md) – Submit your own templates
 - [Craft](craft.md) – The standard for building marketplace templates
 - [Copy-Paste from Webflow](foundations/copy-paste/webflow.md) – Import templates from Webflow
