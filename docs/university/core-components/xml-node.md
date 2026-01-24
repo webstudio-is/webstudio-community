@@ -22,7 +22,7 @@ Webstudio automatically generates a sitemap for static pages such as Home and Ab
 ### Tips
 
 - XML Nodes can be nested within each other
-- Use [Collection](/broken/pages/pauhKZIgEF1NC1u9qwLe) to iterate over a list of data
+- Use [Collection](collection.md) to iterate over a list of data
 - A sitemap skeleton is available in the Marketplace
 
 ### Including the static sitemap

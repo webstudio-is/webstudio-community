@@ -219,7 +219,7 @@ Test the query and ensure you receive a list of Posts within the inspect tool.
 
 **Setup a Collection**
 
-Add the [**Collection**](/broken/pages/pauhKZIgEF1NC1u9qwLe) component, which will iterate over a list of the Posts. Once you design what a Post should look like, it will be replicated for each Post. You need to bind the list of records to the Collection. Here's what that looks like:
+Add the [**Collection**](../core-components/collection.md) component, which will iterate over a list of the Posts. Once you design what a Post should look like, it will be replicated for each Post. You need to bind the list of records to the Collection. Here's what that looks like:
 
 <figure><img src="https://images.surferseo.art/f5449704-e78c-4a4a-adb2-212fa59162ad.png" alt="Collection for WordPress Posts"><figcaption><p>Collection for WordPress Posts</p></figcaption></figure>
 
@@ -239,7 +239,7 @@ This page is great for letting users browse your Posts, but you need to create a
 
 ### **6 Create a sitemap**
 
-Webstudio enables you to visually build a dynamic sitemap using [**Collections**](/broken/pages/pauhKZIgEF1NC1u9qwLe) and [**XML Nodes**](../core-components/xml-node.md).
+Webstudio enables you to visually build a dynamic sitemap using [**Collections**](../core-components/collection.md) and [**XML Nodes**](../core-components/xml-node.md).
 
 Here's how to do it:
 

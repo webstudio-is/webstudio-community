@@ -59,7 +59,7 @@ They can be found in Add Components > Forms:
 
 #### Input types
 
-- **Button** – To submit the form, reset it, or for interactions like opening something. [Buttons are _not_ links](/broken/pages/3eZsbLZWmonl2Bv3CJyC). There are three types in Settings:
+- **Button** – To submit the form, reset it, or for interactions like opening something. [Buttons are _not_ links](button.md). There are three types in Settings:
   - **Button**: Makes it a general element with no specific default action. Mainly used for interactions like opening something.
   - **Submit**: Will submit the form.
   - **Reset**: Will remove any data the user has put into a form.
