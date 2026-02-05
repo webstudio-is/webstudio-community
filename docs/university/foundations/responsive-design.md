@@ -143,6 +143,20 @@ Webstudio supports full media query conditions beyond just screen width, enablin
 2. Disable or simplify animations for users who prefer less motion
 3. Improves accessibility for users with vestibular disorders
 
+### Live Preview in the Canvas
+
+When you select a condition-based breakpoint, Webstudio **automatically simulates** that condition in the canvas. For example:
+
+- Select a **Dark Mode** breakpoint → the canvas immediately shows your dark styles
+- Select a **Portrait** breakpoint → orientation-specific styles apply
+- Select a **Reduced Motion** breakpoint → animation changes are visible
+
+No extra toggles or settings are needed — selecting the breakpoint is enough. When you switch back to a width-based breakpoint, the canvas returns to normal.
+
+{% hint style="info" %}
+The simulation only affects the builder canvas preview. It does not change your browser or device settings.
+{% endhint %}
+
 {% hint style="info" %}
 Media conditions can be combined. For example, you could create a breakpoint that applies only to small screens in landscape orientation.
 {% endhint %}
