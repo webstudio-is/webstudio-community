@@ -6,6 +6,19 @@ description: Achieve perfect Lighthouse scores with Webstudio's built-in optimiz
 
 Webstudio sites are fast by default. This guide covers what's automatic and what you control.
 
+## Measuring Performance: Core Web Vitals vs PageSpeed
+
+[PageSpeed Insights](https://pagespeed.web.dev/) runs a single Lighthouse test from one server location. It's useful for spotting issues, but a single synthetic test doesn't reflect real-world performance.
+
+**Core Web Vitals** (LCP, CLS, INP) are what actually matter—they measure real user experiences across all devices, networks, and locations. A site can score 100 on PageSpeed but still have poor Core Web Vitals if real users experience slow loads.
+
+Check your Core Web Vitals in:
+
+- [Google Search Console](https://search.google.com/search-console) – Real field data from Chrome users
+- [PageSpeed Insights](https://pagespeed.web.dev/) – The "Field Data" section at the top (if available)
+
+Focus on passing Core Web Vitals thresholds, not chasing a perfect Lighthouse score.
+
 ## What Webstudio Does Automatically
 
 ### Image Optimization
