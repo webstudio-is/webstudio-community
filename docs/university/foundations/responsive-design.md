@@ -121,27 +121,46 @@ Webstudio supports full media query conditions beyond just screen width, enablin
 
 ### Available Media Conditions
 
-| Condition                              | Use Case                           |
-| -------------------------------------- | ---------------------------------- |
-| `min-width` / `max-width`              | Standard responsive widths         |
-| `min-height` / `max-height`            | Height-based layouts               |
-| `orientation: portrait` / `landscape`  | Device orientation                 |
-| `prefers-color-scheme: dark` / `light` | System dark mode                   |
-| `prefers-reduced-motion`               | Accessibility - reduced animations |
-| `hover: hover` / `none`                | Touch vs pointer devices           |
-| `pointer: fine` / `coarse`             | Precision input devices            |
+Select from predefined conditions or type a custom one:
+
+| Category             | Values                                             |
+| -------------------- | -------------------------------------------------- |
+| **Orientation**      | `portrait`, `landscape`                            |
+| **Color Scheme**     | `dark`, `light`                                    |
+| **Reduced Motion**   | `reduce`, `no-preference`                          |
+| **Contrast**         | `more`, `less`, `no-preference`                    |
+| **Hover**            | `hover`, `none`                                    |
+| **Any Hover**        | `hover`, `none`                                    |
+| **Pointer**          | `coarse`, `fine`, `none`                           |
+| **Any Pointer**      | `coarse`, `fine`, `none`                           |
+| **Display Mode**     | `fullscreen`, `standalone`, `minimal-ui`, `browser` |
+| **Width / Height**   | `min-width`, `max-width`, `min-height`, `max-height` (set via the width input) |
 
 ### Example: Dark Mode Support
 
-1. Create a new breakpoint with condition: `prefers-color-scheme: dark`
-2. Apply dark background and light text colors on this breakpoint
-3. Your site automatically adapts to the user's system preference
+1. Click on any breakpoint in the Style Panel, then click **+**
+2. Select **Color Scheme: Dark** from the condition dropdown
+3. Give it a label like "Dark"
+4. Select this breakpoint and style your dark theme — the canvas immediately previews it
+5. Your published site automatically adapts to the user's system preference
+
+### Example: Touch Device Styles
+
+1. Create a breakpoint with condition **Pointer: Coarse**
+2. Increase tap target sizes (minimum 44×44px)
+3. Adjust hover-dependent interactions for touch
 
 ### Example: Reduced Motion
 
-1. Create a breakpoint with: `prefers-reduced-motion: reduce`
+1. Create a breakpoint with condition **Reduced Motion: Reduce**
 2. Disable or simplify animations for users who prefer less motion
 3. Improves accessibility for users with vestibular disorders
+
+### Example: PWA Standalone Mode
+
+1. Create a breakpoint with condition **Display Mode: Standalone**
+2. Hide browser-specific navigation elements
+3. Adjust layout for the standalone app experience
 
 ### Live Preview in the Canvas
 
