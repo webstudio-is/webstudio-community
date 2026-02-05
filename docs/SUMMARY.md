@@ -30,6 +30,7 @@
     - [↔️ Webflow](university/foundations/copy-paste/webflow.md)
   - [🔍 Commands & Search](university/foundations/commands-and-search.md)
   - [🎯 SEO Settings](university/foundations/seo-settings.md)
+  - [⚡ Performance](university/foundations/performance.md)
   - [⌨️ Shortcuts](university/foundations/shortcuts.md)
   - [⚙️ Project Settings](university/foundations/project-settings.md)
   - [🎭 Modes](university/foundations/modes.md)
