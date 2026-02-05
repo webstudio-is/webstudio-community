@@ -109,6 +109,44 @@ Use these CSS properties for flexible layouts:
 When you select a breakpoint and make style changes, those changes affect the current breakpoint AND all smaller breakpoints (unless overridden).
 {% endhint %}
 
+## Advanced: Media Conditions
+
+Webstudio supports full media query conditions beyond just screen width, enabling designs that respond to device capabilities and user preferences.
+
+### Creating Custom Breakpoints
+
+1. Click on any breakpoint in the Style Panel
+2. Click the **+** button to add a new breakpoint
+3. Choose from predefined conditions or create custom ones
+
+### Available Media Conditions
+
+| Condition | Use Case |
+| --------- | -------- |
+| `min-width` / `max-width` | Standard responsive widths |
+| `min-height` / `max-height` | Height-based layouts |
+| `orientation: portrait` / `landscape` | Device orientation |
+| `prefers-color-scheme: dark` / `light` | System dark mode |
+| `prefers-reduced-motion` | Accessibility - reduced animations |
+| `hover: hover` / `none` | Touch vs pointer devices |
+| `pointer: fine` / `coarse` | Precision input devices |
+
+### Example: Dark Mode Support
+
+1. Create a new breakpoint with condition: `prefers-color-scheme: dark`
+2. Apply dark background and light text colors on this breakpoint
+3. Your site automatically adapts to the user's system preference
+
+### Example: Reduced Motion
+
+1. Create a breakpoint with: `prefers-reduced-motion: reduce`
+2. Disable or simplify animations for users who prefer less motion
+3. Improves accessibility for users with vestibular disorders
+
+{% hint style="info" %}
+Media conditions can be combined. For example, you could create a breakpoint that applies only to small screens in landscape orientation.
+{% endhint %}
+
 ## Related Videos
 
 {% embed url="https://www.youtube.com/watch?v=gxCAfWdULzw" %}
