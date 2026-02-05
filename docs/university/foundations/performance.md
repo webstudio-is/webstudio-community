@@ -10,7 +10,7 @@ Webstudio sites are fast by default. This guide covers what's automatic and what
 
 ### Image Optimization
 
-Webstudio automatically:
+The [Image component](../core-components/image.md) automatically:
 
 - **Converts images to WebP/AVIF** – Modern formats with better compression
 - **Compresses images** – Reduces file size without visible quality loss
@@ -18,6 +18,10 @@ Webstudio automatically:
 - **Sets width and height attributes** – Prevents Cumulative Layout Shift (CLS)
 
 You upload a high-quality image once, and visitors receive an optimized version.
+
+{% hint style="info" %}
+These optimizations only apply to the **Image component**. Images added via HTML Embed, Content Embed, or other methods won't receive automatic optimization.
+{% endhint %}
 
 ### Cloudflare Edge Deployment
 

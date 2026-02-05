@@ -41,12 +41,14 @@ To get started with the Webstudio CLI:
     ```bash
     npm install -g webstudio
     ```
+
 2.  Confirm the installation by checking the CLI version:
 
     ```bash
     webstudio --version
     ```
-3. To keep your CLI updated, use the same command used for installation whenever a new release is available.
+
+3.  To keep your CLI updated, use the same command used for installation whenever a new release is available.
 
 ## Initiating a Webstudio Project
 
@@ -62,11 +64,11 @@ This will initiate the flow to connect your Webstudio Cloud project and build it
 
 Here is the list of independent commands:
 
-* version
-* help
-* link
-* sync
-* build
+- version
+- help
+- link
+- sync
+- build
 
 #### link
 

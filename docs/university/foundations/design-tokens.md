@@ -113,10 +113,12 @@ This is faster than creating tokens from scratch when building design systems.
 When pasting content from another project or copying between pages, Webstudio intelligently handles token conflicts:
 
 **Automatic Resolution**
+
 - If a pasted token has the same name AND same styles as an existing token, they're automatically merged
 - This prevents duplicate tokens when copying similar components
 
 **Numeric Suffix**
+
 - If a pasted token has the same name but different styles, a numeric suffix is added (e.g., "Button" becomes "Button-1")
 - This preserves both your existing styles and the pasted styles
 

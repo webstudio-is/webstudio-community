@@ -121,15 +121,15 @@ Webstudio supports full media query conditions beyond just screen width, enablin
 
 ### Available Media Conditions
 
-| Condition | Use Case |
-| --------- | -------- |
-| `min-width` / `max-width` | Standard responsive widths |
-| `min-height` / `max-height` | Height-based layouts |
-| `orientation: portrait` / `landscape` | Device orientation |
-| `prefers-color-scheme: dark` / `light` | System dark mode |
-| `prefers-reduced-motion` | Accessibility - reduced animations |
-| `hover: hover` / `none` | Touch vs pointer devices |
-| `pointer: fine` / `coarse` | Precision input devices |
+| Condition                              | Use Case                           |
+| -------------------------------------- | ---------------------------------- |
+| `min-width` / `max-width`              | Standard responsive widths         |
+| `min-height` / `max-height`            | Height-based layouts               |
+| `orientation: portrait` / `landscape`  | Device orientation                 |
+| `prefers-color-scheme: dark` / `light` | System dark mode                   |
+| `prefers-reduced-motion`               | Accessibility - reduced animations |
+| `hover: hover` / `none`                | Touch vs pointer devices           |
+| `pointer: fine` / `coarse`             | Precision input devices            |
 
 ### Example: Dark Mode Support
 
