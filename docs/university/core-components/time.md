@@ -42,6 +42,69 @@ Some commonly used properties (see the Settings panel for all available options)
 | **country**   | Country code for regional formatting | `US`, `GB`, `DE`, `JP`            |
 | **dateStyle** | How to display the date              | `full`, `long`, `medium`, `short` |
 | **timeStyle** | How to display the time              | `full`, `long`, `medium`, `short` |
+| **format**    | Custom format using tokens           | `DDDD, MMMM DD, YYYY`             |
+
+## Custom Date Formatting
+
+For more control over date display, use the `format` property with these tokens:
+
+### Date Tokens
+
+| Token    | Description             | Example            |
+| -------- | ----------------------- | ------------------ |
+| **YYYY** | 4-digit year            | 2025               |
+| **YY**   | 2-digit year            | 25                 |
+| **MMMM** | Full month name         | January            |
+| **MMM**  | Short month name        | Jan                |
+| **MM**   | 2-digit month           | 01                 |
+| **M**    | Month number            | 1                  |
+| **DDDD** | Full day name           | Monday             |
+| **DDD**  | Short day name          | Mon                |
+| **DD**   | 2-digit day             | 05                 |
+| **D**    | Day number              | 5                  |
+
+### Time Tokens
+
+| Token  | Description       | Example |
+| ------ | ----------------- | ------- |
+| **HH** | 24-hour format    | 14      |
+| **H**  | Hour (24-hour)    | 14      |
+| **hh** | 12-hour format    | 02      |
+| **h**  | Hour (12-hour)    | 2       |
+| **mm** | Minutes           | 30      |
+| **m**  | Minutes (no zero) | 30      |
+| **ss** | Seconds           | 45      |
+| **s**  | Seconds (no zero) | 45      |
+| **a**  | am/pm             | pm      |
+| **A**  | AM/PM             | PM      |
+
+### Format Examples
+
+For the date `2025-01-20T14:30:00`:
+
+| Format                | Result                      |
+| --------------------- | --------------------------- |
+| `DDDD, MMMM DD, YYYY` | Monday, January 20, 2025    |
+| `MMM DD, YYYY`        | Jan 20, 2025                |
+| `DD/MM/YYYY`          | 20/01/2025                  |
+| `YYYY-MM-DD`          | 2025-01-20                  |
+| `DDD, MMM D`          | Mon, Jan 20                 |
+| `HH:mm:ss`            | 14:30:00                    |
+| `h:mm A`              | 2:30 PM                     |
+
+### Localized Names
+
+Month and day names adapt to the `language` property:
+
+- **en**: Monday, January
+- **es**: lunes, enero
+- **fr**: lundi, janvier
+- **de**: Montag, Januar
+- **ja**: 月曜日, 1月
+
+{% hint style="info" %}
+When using custom format tokens, month and day names are automatically localized based on the `language` property, making it easy to create multilingual sites.
+{% endhint %}
 
 ## Date Style Examples
 

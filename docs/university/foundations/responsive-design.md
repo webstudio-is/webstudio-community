@@ -172,8 +172,19 @@ When you select a condition-based breakpoint, Webstudio **automatically simulate
 
 No extra toggles or settings are needed — selecting the breakpoint is enough. When you switch back to a width-based breakpoint, the canvas returns to normal.
 
+### How the Simulator Works
+
+The breakpoint simulator dynamically modifies CSS media queries in real-time to preview condition-based styles:
+
+- When you select a condition breakpoint, matching media rules are replaced with always-true queries
+- Non-matching rules are made always-false
+- This allows you to preview dark mode, reduced motion, and other conditions without changing system settings
+- Original media queries are automatically restored when you switch to a different breakpoint
+
+The simulation affects **only** the builder canvas and does not change your browser, device, or system settings.
+
 {% hint style="info" %}
-The simulation only affects the builder canvas preview. It does not change your browser or device settings.
+The simulation only affects the builder canvas preview. Published sites use the actual media queries and respond to real user preferences and device capabilities.
 {% endhint %}
 
 {% hint style="info" %}
