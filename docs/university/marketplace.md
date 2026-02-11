@@ -49,6 +49,22 @@ You can contribute free or paid templates by creating a project and submitting i
 
 Learn about about [contributing to the Marketplace](../contributing/marketplace.md).
 
+## Token Conflict Resolution
+
+When inserting marketplace templates that use design tokens, Webstudio automatically detects if any token names conflict with tokens already used in your project. 
+
+For example, if a template defines a token called `--primary-color` with value `#FF0000`, but your project already has a `--primary-color` token with value `#0000FF`, Webstudio will display a conflict resolution dialog.
+
+### Resolving Conflicts
+
+When conflicts are detected, you can choose how to handle them:
+
+- **Rename template tokens** - Template tokens are automatically renamed (e.g., `--primary-color-2`) to avoid conflicts
+- **Overwrite existing tokens** - Replace your existing tokens with the template's values (use with caution)
+- **Keep existing tokens** - The template will use your existing token values instead
+
+This ensures marketplace templates integrate smoothly into your projects without breaking existing designs.
+
 ## Related
 
 - [Webstudio Templates](https://webstudio.is/marketplace/templates) – Browse all available templates

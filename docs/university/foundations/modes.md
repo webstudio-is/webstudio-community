@@ -15,6 +15,8 @@ There are three modes:
 
 You can change modes in the Top Bar or via [keyboard shortcuts](shortcuts.md) if you have sufficient [permissions](share-links.md#types-of-share-links).
 
+Additionally, you can open any project in [Safe Mode](modes.md#safe-mode), which disables script execution for security and troubleshooting purposes.
+
 <figure><img src="../../.gitbook/assets/modes (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Design
@@ -88,6 +90,41 @@ Here’s what you need to know:
 ## Preview
 
 Preview mode hides editing capabilities so you can browse your website. Be sure to test your website on every breakpoint!
+
+## Safe Mode
+
+Safe mode is a security and troubleshooting feature that prevents all scripts from executing in your project. This is useful when:
+
+- You suspect a script is causing issues or slowing down the builder
+- You need to troubleshoot problems that might be caused by custom JavaScript
+- You want to safely inspect a project before running potentially harmful code
+- You're reviewing a marketplace template or imported project
+
+### How to Enable Safe Mode
+
+From the dashboard:
+
+1. Right-click (or long press on mobile) on a project
+2. Select **Open in safe mode** from the menu
+
+When safe mode is active, you'll see a shield icon in the top bar indicating that script execution is disabled.
+
+### What Safe Mode Disables
+
+- All JavaScript in HTML Embed components
+- Custom scripts added to the project
+- Third-party scripts (analytics, widgets, etc.)
+
+### What Still Works
+
+- All styling and layout features
+- Component rendering
+- Text and image editing
+- Building and publishing
+
+{% hint style="info" %}
+Safe mode only affects the builder preview. Published sites always run scripts normally, regardless of whether you edited the project in safe mode.
+{% endhint %}
 
 ## Related
 
