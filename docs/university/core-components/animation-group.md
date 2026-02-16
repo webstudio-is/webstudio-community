@@ -55,6 +55,24 @@ Positive values delay the animation, while negative values trigger it earlier.
 For an alternative workflow, the Style Panel accepts `view-timeline-inset` in Advanced on the child instances of the Animation Group. The usage of this property is automatically polyfilled for cross-browser support. If you opt to use the Style Panel, be sure to explicitly set the Top and Bottom Inset values to `auto` in the Animation Group.
 {% endhint %}
 
+### Animations (breakpoint control)
+
+Each animation in the Animation Group can be enabled or disabled per breakpoint. This is useful for:
+
+- Disabling complex animations on mobile for performance
+- Creating different animation experiences across screen sizes
+- Showing simpler animations on smaller screens while keeping rich effects on desktop
+
+To control animation visibility at a breakpoint:
+
+1. Select a breakpoint in the canvas
+2. Hover over an animation in the list
+3. Click the eye icon to toggle visibility
+
+When disabled at a breakpoint, the animation won't run, but the element still displays in its final "in" state (as designed on the canvas).
+
+<figure><img src="../../.gitbook/assets/animation-group-disable-breakpoint.png" alt="Disable animation at breakpoint"><figcaption><p>Hover over an animation to reveal the visibility toggle for the current breakpoint</p></figcaption></figure>
+
 ### Debug mode
 
 {% hint style="warning" %}

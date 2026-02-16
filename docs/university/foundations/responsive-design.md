@@ -123,18 +123,18 @@ Webstudio supports full media query conditions beyond just screen width, enablin
 
 Select from predefined conditions or type a custom one:
 
-| Category             | Values                                             |
-| -------------------- | -------------------------------------------------- |
-| **Orientation**      | `portrait`, `landscape`                            |
-| **Color Scheme**     | `dark`, `light`                                    |
-| **Reduced Motion**   | `reduce`, `no-preference`                          |
-| **Contrast**         | `more`, `less`, `no-preference`                    |
-| **Hover**            | `hover`, `none`                                    |
-| **Any Hover**        | `hover`, `none`                                    |
-| **Pointer**          | `coarse`, `fine`, `none`                           |
-| **Any Pointer**      | `coarse`, `fine`, `none`                           |
-| **Display Mode**     | `fullscreen`, `standalone`, `minimal-ui`, `browser` |
-| **Width / Height**   | `min-width`, `max-width`, `min-height`, `max-height` (set via the width input) |
+| Category           | Values                                                                         |
+| ------------------ | ------------------------------------------------------------------------------ |
+| **Orientation**    | `portrait`, `landscape`                                                        |
+| **Color Scheme**   | `dark`, `light`                                                                |
+| **Reduced Motion** | `reduce`, `no-preference`                                                      |
+| **Contrast**       | `more`, `less`, `no-preference`                                                |
+| **Hover**          | `hover`, `none`                                                                |
+| **Any Hover**      | `hover`, `none`                                                                |
+| **Pointer**        | `coarse`, `fine`, `none`                                                       |
+| **Any Pointer**    | `coarse`, `fine`, `none`                                                       |
+| **Display Mode**   | `fullscreen`, `standalone`, `minimal-ui`, `browser`                            |
+| **Width / Height** | `min-width`, `max-width`, `min-height`, `max-height` (set via the width input) |
 
 ### Example: Dark Mode Support
 
