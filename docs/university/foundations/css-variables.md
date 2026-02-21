@@ -77,7 +77,11 @@ Because style inputs in Webstudio are not regular DOM nodes, you can't directly 
 The general pattern looks like this:
 
 1. Create the CSS variables you intend to use (you can do that on Global Root or another ancestor), leaving their values blank or with a fallback.
+
+   <figure><img src="../../.gitbook/assets/create-data-variables.png" alt="Define CSS variables" width="400"><figcaption>Step 1: define your variables in the Style panel.</figcaption></figure>
 2. Add an HTML Embed component somewhere on the page (head section is a good place but body works too).
+
+   <figure><img src="../../.gitbook/assets/create-style-tag.png" alt="Insert HTML Embed" width="400"><figcaption>Step 2: drop an HTML Embed onto the canvas.</figcaption></figure>
 3. Open the Expression Editor on the Embed's **HTML** field and write a template literal that produces a `<style>` block. Within the style block, define your variables using data from a Data Variable/Resource/GraphQL response, e.g.:  
    ````js
    `<style>
@@ -90,6 +94,8 @@ The general pattern looks like this:
    The `${}` expressions can reference any value accessible in the Expression Editor, including nested properties and ternary logic.
 4. Since the HTML Embed evaluates whenever its dependencies change, the resulting `<style>` tag will update with new values. The variables it defines are now available everywhere on the page (scope follows normal CSS rules).
 5. In any Advanced style field or other style inputs, refer to the variables with `var(--brand-color)` or simply `--brand-color` in Webstudio's UI.
+
+   <figure><img src="../../.gitbook/assets/use-variable.png" alt="Use CSS variable in style input" width="400"><figcaption>Step 5: reference the variable in an advanced style input.</figcaption></figure>
 
 {% hint style="info" %}
 Because the binding happens inside an HTML Embed, this approach works in both the builder and published site; it does not work in exported static HTML/CSS because the expression processor isn't present. Exported packages will contain the last generated `<style>` markup.
