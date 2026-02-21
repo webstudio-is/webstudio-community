@@ -9,9 +9,6 @@ description: >-
 {% hint style="info" %}
 **Hint:** [Data Variables](variables.md) are different than CSS Variables. They enable the reuse of data in the Settings tab.
 {% endhint %}
-{% hint style="info" %}
-All tutorial videos have text transcripts stored in the project under the `transcripts/` folder for easy reference.
-{% endhint %}
 {% embed url="https://www.youtube.com/watch?v=NrU_9BZytQY" %}
 
 Why Use CSS variables?
