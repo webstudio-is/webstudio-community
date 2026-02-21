@@ -82,17 +82,28 @@ The general pattern looks like this:
 2. Add an HTML Embed component somewhere on the page (head section is a good place but body works too).
 
    <figure><img src="../../.gitbook/assets/create-style-tag.png" alt="Insert HTML Embed" width="400"><figcaption>Step 2: drop an HTML Embed onto the canvas.</figcaption></figure>
-3. Open the Expression Editor on the Embed's **HTML** field and write a template literal that produces a `<style>` block. Within the style block, define your variables using data from a Data Variable/Resource/GraphQL response, e.g.:  
-   ````js
+3. Open the Expression Editor on the Embed's **HTML** field and write a template literal that produces a `<style>` block. Within the style block, interpolate whatever data you want. A couple of common patterns are shown below:
+
+   ```js
+   // key‑value style
    `<style>
      :root {
        --brand-color: ${SiteData.data.themeColor};
        --feature-width: ${MyAPI.data[0].width}px;
      }
    </style>`
-   ````
-   The `${}` expressions can reference any value accessible in the Expression Editor, including nested properties and ternary logic.
-4. Since the HTML Embed evaluates whenever its dependencies change, the resulting `<style>` tag will update with new values. The variables it defines are now available everywhere on the page (scope follows normal CSS rules).
+   ```
+
+   ```js
+   // entire CSS string from a JSON field
+   `<style>
+     :root {
+        ${variables$32$data.variables}
+     }
+   </style>`
+   ```
+
+   The `${}` expressions can reference any value accessible in the Expression Editor, including nested properties and ternary logic. The second form is useful when an API returns a single string containing multiple declarations (the `$32$` escapes the space in the binding path).4. Since the HTML Embed evaluates whenever its dependencies change, the resulting `<style>` tag will update with new values. The variables it defines are now available everywhere on the page (scope follows normal CSS rules).
 
    {% hint style="warning" %}
    Variables created via an HTML Embed are not picked up by the style‑panel autocomplete. You must type the variable name manually (or copy/paste it) when referencing it later.
