@@ -98,12 +98,14 @@ The general pattern looks like this:
    // entire CSS string from a JSON field
    `<style>
      :root {
-        ${variables$32$data.variables}
+        ${data variables.variables}
      }
    </style>`
    ```
 
-   The `${}` expressions can reference any value accessible in the Expression Editor, including nested properties and ternary logic. The second form is useful when an API returns a single string containing multiple declarations (the `$32$` escapes the space in the binding path).4. Since the HTML Embed evaluates whenever its dependencies change, the resulting `<style>` tag will update with new values. The variables it defines are now available everywhere on the page (scope follows normal CSS rules).
+   The `${}` expressions can reference any value accessible in the Expression Editor, including nested properties and ternary logic. The second form is useful when an API returns a single string containing multiple declarations.
+
+   > _Note:_ you don’t need any special escaping; `data variables.variables` is the way the editor refers to the nested field.4. Since the HTML Embed evaluates whenever its dependencies change, the resulting `<style>` tag will update with new values. The variables it defines are now available everywhere on the page (scope follows normal CSS rules).
 
    {% hint style="warning" %}
    Variables created via an HTML Embed are not picked up by the style‑panel autocomplete. You must type the variable name manually (or copy/paste it) when referencing it later.
