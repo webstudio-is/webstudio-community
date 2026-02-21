@@ -93,6 +93,10 @@ The general pattern looks like this:
    ````
    The `${}` expressions can reference any value accessible in the Expression Editor, including nested properties and ternary logic.
 4. Since the HTML Embed evaluates whenever its dependencies change, the resulting `<style>` tag will update with new values. The variables it defines are now available everywhere on the page (scope follows normal CSS rules).
+
+   {% hint style="warning" %}
+   Variables created via an HTML Embed are not picked up by the style‑panel autocomplete. You must type the variable name manually (or copy/paste it) when referencing it later.
+   {% endhint %}
 5. In any Advanced style field or other style inputs, refer to the variables with `var(--brand-color)` or simply `--brand-color` in Webstudio's UI.
 
    <figure><img src="../../.gitbook/assets/use-variable.png" alt="Use CSS variable in style input" width="400"><figcaption>Step 5: reference the variable in an advanced style input.</figcaption></figure>
