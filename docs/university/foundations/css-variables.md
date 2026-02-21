@@ -136,11 +136,11 @@ This technique is powerful for theming, A/B testing, or applying dynamic values 
 > ````js
 > `<style>
 >   :root {
->      ${variables$32$data.variables}  
+>      ${data variables.variables}  
 >   }
 > </style>`
 > ````
-> (the `$32$` notation is how the Expression Editor escapes a space when binding a nested property). This produces a `:root` rule containing whatever CSS string the API returned.
+> This produces a `:root` rule containing whatever CSS string the API returned. You don’t need any special escaping – `data variables.variables` is the syntax the Expression Editor uses for the nested field.
 
 You can also generate entire sets of variables or include conditional logic inside the template literal, e.g.:
 ````js
