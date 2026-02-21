@@ -9,7 +9,9 @@ description: >-
 {% hint style="info" %}
 **Hint:** [Data Variables](variables.md) are different than CSS Variables. They enable the reuse of data in the Settings tab.
 {% endhint %}
-
+{% hint style="info" %}
+All tutorial videos have text transcripts stored in the project under the `transcripts/` folder for easy reference.
+{% endhint %}
 {% embed url="https://www.youtube.com/watch?v=NrU_9BZytQY" %}
 
 Why Use CSS variables?
@@ -70,6 +72,23 @@ Then, the variable's value can be anything such as a color, gradient, duration, 
 Once the variable is defined, you can use it on the instance it was defined on and any of its children.
 
 The variables are available in the autocomplete, so you can access variables by typing them in.
+
+### Dynamic values from data
+
+CSS variables can also receive their value from a Data Variable, Resource, GraphQL query, or any other API response. This lets your styles react to external data without writing custom code.
+
+1. Define the custom property as normal in the Style panel (e.g. `--brand-color`).
+2. Click the **+** button next to the value field to open the Expression Editor.
+3. In the editor bind the field to a Data Variable or a value from a Resource/GraphQL response (for example, `SiteData.data.themeColor` or `MyAPI.data[0].color`).
+4. Optionally reference the same CSS variable elsewhere using `var(--brand-color)` so every style using it updates automatically.
+
+The variable will update whenever the bound data changes or the resource is refetched. You can also mix static values and expressions using template literals (e.g. `` `calc(${MyAPI.data.size}px + 10px)` ``).
+
+You are not limited to custom properties – any style input supports the Expression Editor, so you could bind `width`, `font-size`, `color`, etc. directly if you don’t need the intermediate variable.
+
+{% hint style="info" %}
+Data bindings work both in the builder and on the published site. They are not available in exported HTML/CSS packages. The binding expression is evaluated on the client at runtime.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/css-var-usage.png" alt="Using a CSS variable" width="318"><figcaption></figcaption></figure>
 
