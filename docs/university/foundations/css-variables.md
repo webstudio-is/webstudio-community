@@ -70,22 +70,88 @@ Once the variable is defined, you can use it on the instance it was defined on a
 
 The variables are available in the autocomplete, so you can access variables by typing them in.
 
-### Dynamic values from data
+### Using data to set CSS variables
 
-CSS variables can also receive their value from a Data Variable, Resource, GraphQL query, or any other API response. This lets your styles react to external data without writing custom code.
+Because style inputs in Webstudio are not regular DOM nodes, you can't directly bind a `--custom-property` value to a Data Variable or Resource the way you would bind the `src` of an Image or the `text` of a Heading. Instead, the common workaround is to generate a `<style>` tag via an [HTML Embed](../core-components/html-embed.md) expression, populate that tag with CSS variable definitions, and then consume those variables in the Advanced section or any style field.
 
-1. Define the custom property as normal in the Style panel (e.g. `--brand-color`).
-2. Click the **+** button next to the value field to open the Expression Editor.
-3. In the editor bind the field to a Data Variable or a value from a Resource/GraphQL response (for example, `SiteData.data.themeColor` or `MyAPI.data[0].color`).
-4. Optionally reference the same CSS variable elsewhere using `var(--brand-color)` so every style using it updates automatically.
+The general pattern looks like this:
 
-The variable will update whenever the bound data changes or the resource is refetched. You can also mix static values and expressions using template literals (e.g. `` `calc(${MyAPI.data.size}px + 10px)` ``).
+1. Create the CSS variables you intend to use (you can do that on Global Root or another ancestor), leaving their values blank or with a fallback.
 
-You are not limited to custom properties – any style input supports the Expression Editor, so you could bind `width`, `font-size`, `color`, etc. directly if you don’t need the intermediate variable.
+   <figure><img src="../../.gitbook/assets/create-data-variables.png" alt="Define CSS variables" width="400"><figcaption>Step 1: define your variables in the Style panel.</figcaption></figure>
+2. Add an HTML Embed component somewhere on the page (head section is a good place but body works too).
+
+   <figure><img src="../../.gitbook/assets/create-style-tag.png" alt="Insert HTML Embed" width="400"><figcaption>Step 2: drop an HTML Embed onto the canvas.</figcaption></figure>
+3. Open the Expression Editor on the Embed's **HTML** field and write a template literal that produces a `<style>` block. Within the style block, interpolate whatever data you want. A couple of common patterns are shown below:
+
+   ```js
+   // key‑value style
+   `<style>
+     :root {
+       --brand-color: ${SiteData.data.themeColor};
+       --feature-width: ${MyAPI.data[0].width}px;
+     }
+   </style>`
+   ```
+
+   ```js
+   // entire CSS string from a JSON field
+   `<style>
+     :root {
+        ${data variables.variables}
+     }
+   </style>`
+   ```
+
+   The `${}` expressions can reference any value accessible in the Expression Editor, including nested properties and ternary logic. The second form is useful when an API returns a single string containing multiple declarations.
+
+   > _Note:_ you don’t need any special escaping; `data variables.variables` is the way the editor refers to the nested field.4. Since the HTML Embed evaluates whenever its dependencies change, the resulting `<style>` tag will update with new values. The variables it defines are now available everywhere on the page (scope follows normal CSS rules).
+
+   {% hint style="warning" %}
+   Variables created via an HTML Embed are not picked up by the style‑panel autocomplete. You must type the variable name manually (or copy/paste it) when referencing it later.
+   {% endhint %}
+5. In any Advanced style field or other style inputs, refer to the variables with `var(--brand-color)` or simply `--brand-color` in Webstudio's UI.
+
+   <figure><img src="../../.gitbook/assets/use-variable.png" alt="Use CSS variable in style input" width="400"><figcaption>Step 5: reference the variable in an advanced style input.</figcaption></figure>
 
 {% hint style="info" %}
-Data bindings work both in the builder and on the published site. They are not available in exported HTML/CSS packages. The binding expression is evaluated on the client at runtime.
+Because the binding happens inside an HTML Embed, this approach works in both the builder and published site; it does not work in exported static HTML/CSS because the expression processor isn't present. Exported packages will contain the last generated `<style>` markup.
 {% endhint %}
+
+This technique is powerful for theming, A/B testing, or applying dynamic values such as colors or dimensions fetched from an API without writing external CSS files.
+
+> **Example use case:** You have a Resource variable `BrandData` that returns `{ primary: "#137" }`. Add an Embed with:
+> ````js
+> `<style>:root { --primary: ${BrandData.data.primary}; }</style>`
+> ````
+> Then set a button's background color to `var(--primary)` in the Advanced tab; changing the resource updates the button color.
+>
+> **JSON payload example:** if your Data Variable contains a string field named `variables` with CSS definitions, such as:
+> ```json
+> {
+>   "variables": "--test: 10px;"
+> }
+> ```
+> you can interpolate it directly into the `<style>` tag as well:
+> ````js
+> `<style>
+>   :root {
+>      ${variables$32$data.variables}  
+>   }
+> </style>`
+> ````
+> (the `$32$` notation is how the Expression Editor escapes a space when binding a nested property). This produces a `:root` rule containing whatever CSS string the API returned.
+
+You can also generate entire sets of variables or include conditional logic inside the template literal, e.g.:
+````js
+`<style>
+  :root {
+    --mode-bg: ${SiteSettings.darkMode ? "#000" : "#fff"};
+  }
+</style>`
+````
+
+Finally, remember that any style property accepts an expression, so for one‑off cases you might choose to bind `width` or `color` directly instead of using a CSS variable at all.
 
 <figure><img src="../../.gitbook/assets/css-var-usage.png" alt="Using a CSS variable" width="318"><figcaption></figcaption></figure>
 
