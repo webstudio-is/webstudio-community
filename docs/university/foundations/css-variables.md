@@ -108,6 +108,22 @@ This technique is powerful for theming, A/B testing, or applying dynamic values 
 > `<style>:root { --primary: ${BrandData.data.primary}; }</style>`
 > ````
 > Then set a button's background color to `var(--primary)` in the Advanced tab; changing the resource updates the button color.
+>
+> **JSON payload example:** if your Data Variable contains a string field named `variables` with CSS definitions, such as:
+> ```json
+> {
+>   "variables": "--test: 10px;"
+> }
+> ```
+> you can interpolate it directly into the `<style>` tag as well:
+> ````js
+> `<style>
+>   :root {
+>      ${variables$32$data.variables}  
+>   }
+> </style>`
+> ````
+> (the `$32$` notation is how the Expression Editor escapes a space when binding a nested property). This produces a `:root` rule containing whatever CSS string the API returned.
 
 You can also generate entire sets of variables or include conditional logic inside the template literal, e.g.:
 ````js
