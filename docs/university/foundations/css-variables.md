@@ -92,9 +92,9 @@ The general pattern looks like this:
 
 1. Create the data variable with CSS variables you intend to use (you can do that on HTML Embed instance or any parent). You can use a JSON type or Resource type depending on where your data is coming from.
 
-   <figure><img src="../../.gitbook/assets/create-data-variables.png" alt="Define CSS variables" width="400"><figcaption>Step 1: define your variables in the Style panel.</figcaption></figure>
+   <figure><img src="../../.gitbook/assets/create-data-variables.png" alt="Define CSS variables" width="400"><figcaption>Step 1: define your variables in the Settings panel.</figcaption></figure>
 
-2. Add an HTML Embed component somewhere on the page, ideally at the top (head section is a good place but body works too)and create a binding on the code property.
+2. Add an HTML Embed component somewhere on the page, ideally at the top (head section is a good place but body works too) and create a binding on the code property.
 
    <figure><img src="../../.gitbook/assets/create-style-tag.png" alt="Insert HTML Embed" width="400"><figcaption>Step 2: drop an HTML Embed onto the canvas and bind the code property.</figcaption></figure>
 
@@ -104,8 +104,8 @@ The general pattern looks like this:
    // key‑value style
    `<style>
      :root {
-       --brand-color: ${SiteData.data.themeColor};
-       --feature-width: ${MyAPI.data[0].width}px;
+       --brand-color: ${dataVariables.themeColor};
+       --feature-width: ${dataVariables.featureWidth}px;
      }
    </style>`;
    ```
@@ -114,14 +114,14 @@ The general pattern looks like this:
    // entire CSS string from a JSON field
    `<style>
      :root {
-        ${data variables.variables}
+        ${dataVariables.variables}
      }
-   </style>`
+   </style>`;
    ```
 
    The `${}` expressions can reference any value accessible in the Expression Editor, including nested properties and ternary logic. The second form is useful when an API returns a single string containing multiple declarations.
 
-   > _Note:_ you don’t need any special escaping; `data variables.variables` is the way the editor refers to the nested field. Since the HTML Embed evaluates whenever its dependencies change, the resulting `<style>` tag will update with new values. The variables it defines are now available everywhere on the page.
+   > _Note:_ you don’t need any special escaping; `dataVariables.variables` uses the standard JavaScript syntax to refer to a nested field. Since the HTML Embed evaluates whenever its dependencies change, the resulting `<style>` tag will update with new values. The variables it defines are now available everywhere on the page.
 
    {% hint style="warning" %}
    Variables created via an HTML Embed are not picked up by the style‑panel autocomplete. You must type the variable name manually (or copy/paste it) when referencing it later.
@@ -129,7 +129,7 @@ The general pattern looks like this:
 
 4. In Advanced section or any style inputs, refer to the variables with `var(--brand-color)`.
 
-   <figure><img src="../../.gitbook/assets/use-variable.png" alt="Use CSS variable in style input" width="400"><figcaption>Step 5: reference the variable in an advanced style input.</figcaption></figure>
+   <figure><img src="../../.gitbook/assets/use-variable.png" alt="Use CSS variable in style input" width="400"><figcaption>Step 5: reference the variable in any style value input.</figcaption></figure>
 
 This technique is powerful for theming, A/B testing, or applying dynamic values such as colors or dimensions fetched from an API and managed by an external CMS.
 
