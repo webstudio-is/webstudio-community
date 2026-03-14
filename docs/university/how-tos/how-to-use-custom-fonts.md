@@ -80,6 +80,6 @@ When uploading custom fonts, these formats are supported:
 
 ## Related
 
-- [Design Tokens](../foundations/design-tokens.md) – Create reusable styles including typography tokens
-- [Project Settings](../foundations/project-settings.md) – Configure project-wide settings and custom code
+- [Design tokens](../foundations/design-tokens.md) – Create reusable styles including typography tokens
+- [Project settings](../foundations/project-settings.md) – Configure project-wide settings and custom code
 - [Variables](../foundations/variables.md) – Use variables for dynamic styling

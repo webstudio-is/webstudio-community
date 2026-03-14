@@ -20,8 +20,8 @@ icon: command
 - Undo: `⌘ + z`
 - Redo: `⌘ + shift + z`
 - Deselect/abort: `esc`
-- Open Commands & Search: `⌘ + k`
-  - See [Commands & Search](commands-and-search.md) to perform the following actions:
+- Open Commands & search: `⌘ + k`
+  - See [Commands & search](commands-and-search.md) to perform the following actions:
     - Unwrap
     - Wrap In Box
     - Wrap In Link
@@ -75,7 +75,7 @@ icon: command
 
 ## Related
 
-- [Commands & Search](commands-and-search.md) – Navigate and perform actions with the command palette
-- [Anatomy of the Webstudio Builder](anatomy-of-the-webstudio-builder.md) – Overview of the Builder interface
+- [Commands & search](commands-and-search.md) – Navigate and perform actions with the command palette
+- [Anatomy of the Webstudio builder](anatomy-of-the-webstudio-builder.md) – Overview of the Builder interface
 - [Modes](modes.md) – Switch between Design, Content, and Preview modes
-- [Design Tokens](design-tokens.md) – Create and manage reusable styles
+- [Design tokens](design-tokens.md) – Create and manage reusable styles

@@ -25,6 +25,6 @@ If you do not want to show a 404 page error but always redirect to the homepage,
 
 ## Related
 
-- [Project Settings](../foundations/project-settings.md) – Configure redirects, custom code, and other project-level settings
+- [Project settings](../foundations/project-settings.md) – Configure redirects, custom code, and other project-level settings
 - [CMS](../foundations/cms.md) – Create dynamic pages that won't trigger 404 errors
 - [Variables](../foundations/variables.md) – Use system variables to customize page behavior

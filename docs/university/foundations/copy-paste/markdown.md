@@ -25,5 +25,5 @@ Want to embed Markdown? See [Markdown Embed](../../core-components/markdown-embe
 - [CSS](./css.md) – Paste CSS to populate the Style Panel
 - [Webflow](./webflow.md) – Copy Webflow components into Webstudio
 - [Shortcuts](../shortcuts.md) – Keyboard shortcuts for faster workflows
-- [Commands and Search](../commands-and-search.md) – Quick access to commands and settings
-- [Anatomy of the Webstudio Builder](../anatomy-of-the-webstudio-builder.md) – Overview of the Webstudio interface
+- [Commands and search](../commands-and-search.md) – Quick access to commands and settings
+- [Anatomy of the Webstudio builder](../anatomy-of-the-webstudio-builder.md) – Overview of the Webstudio interface

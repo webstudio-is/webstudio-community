@@ -4,26 +4,26 @@ description: >-
   fallback values, concatenation, and more.
 ---
 
-# ➕ Expression Editor
+# ➕ Expression editor
 
 <figure><img src="../../.gitbook/assets/webstudio-expression-editor.png" alt=""><figcaption></figcaption></figure>
 
-Expression Editor is available on every field when clicking the “+” button.
+Expression editor is available on every field when clicking the “+” button.
 
-Most commonly used with [Resources](variables.md#resource), Expression Editor has two primary features:
+Most commonly used with [Resources](variables.md#resource), Expression editor has two primary features:
 
 1. Binding (or “connecting”) external data to Webstudio fields. For example, connecting a blog’s featured image that exists in a headless CMS to the Image component in Webstudio.
 2. Running logical expressions such as concatenating two or more values or conditionally displaying a section.
 
 {% hint style="info" %}
-Hint: Expand Expression Editor to work within a larger window.
+Hint: Expand Expression editor to work within a larger window.
 {% endhint %}
 
 ## Binding
 
 Binding is when you “connect” or “map” various values to fields within Webstudio. For example, when creating a Dynamic Page for a blog, only one page exists in Webstudio, but the values within that page dynamically change based on the URL viewed. The dynamic aspect is enabled by _binding_ the various CMS fields to Webstudio components.
 
-You will see [Variables](variables.md) within the Expression Editor. You can click on the variable or type it in to bind its value to the field. But many times, the value you are looking for is a child within the variable.
+You will see [Variables](variables.md) within the Expression editor. You can click on the variable or type it in to bind its value to the field. But many times, the value you are looking for is a child within the variable.
 
 Take, for example, the value of a custom Variable called CMS Data:
 
@@ -44,7 +44,7 @@ For the image URL, you would type `CMS Data.image.url` .
 
 ## Expressions
 
-Expression Editor supports a simple subset of JavaScript, giving users a simple syntax without the footguns a complex programming language brings.
+Expression editor supports a simple subset of JavaScript, giving users a simple syntax without the footguns a complex programming language brings.
 
 The following JavaScript expressions are supported:
 
@@ -120,7 +120,7 @@ The exact key to look for will depend on your CMS, but think of something that w
 
 ## Related
 
-- [Data Variables](variables.md) – Define and use data throughout your pages
+- [Data variables](variables.md) – Define and use data throughout your pages
 - [CMS](cms.md) – Connect to external content management systems
 - [Collection](../core-components/collection.md) – Iterate over data to create dynamic lists
 - [HTML Embed](../core-components/html-embed.md) – Embed custom HTML and scripts

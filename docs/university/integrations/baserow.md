@@ -61,7 +61,7 @@ Replace:
 ### 4. Bind Data to Components
 
 1. Add components for your content (Heading, Text, Image, etc.)
-2. Use the Expression Editor to bind data from your Resource
+2. Use the Expression editor to bind data from your Resource
 3. Access fields like: `baserowData.results[0].title`
 
 ## Creating the Overview Page

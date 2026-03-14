@@ -1,16 +1,16 @@
 ---
 description: >-
-  The Commands & Search Panel is a centralized place to navigate the builder and
+  The Commands & search Panel is a centralized place to navigate the builder and
   perform actions such as switching pages and adding components — all with the
   keyboard.
 icon: arrow-turn-down-left
 ---
 
-# Commands & Search
+# Commands & search
 
-Commands & Search speeds up the building process and introduces new shortcuts.
+Commands & search speeds up the building process and introduces new shortcuts.
 
-**Open Commands & Search with ⌘ + K (Control + K for Windows).**
+**Open Commands & search with ⌘ + K (Control + K for Windows).**
 
 {% embed url="https://youtu.be/ofUP0Uc_ttY" %}
 
@@ -34,7 +34,7 @@ Commands & Search speeds up the building process and introduces new shortcuts.
   - Replace With Element – Replace the current instance with a different HTML element.
   - Insert Tag – Insert specific HTML tags at the current position.
   - Delete Unused Variables – Remove data variables that are no longer referenced anywhere.
-  - Delete Unused CSS Variables – Remove CSS custom properties that are no longer used.
+  - Delete Unused CSS variables – Remove CSS custom properties that are no longer used.
   - All other [keyboard shortcuts](shortcuts.md)
 
 ### Secondary Actions with Tab
@@ -52,7 +52,7 @@ Each category in the Commands Panel shows a counter indicating how many items it
 ## Related
 
 - [Shortcuts](shortcuts.md) – Complete list of keyboard shortcuts
-- [Anatomy of the Webstudio Builder](anatomy-of-the-webstudio-builder.md) – Overview of the Builder interface
-- [Design Tokens](design-tokens.md) – Manage reusable style packages
-- [CSS Variables](css-variables.md) – Manage CSS custom properties
-- [Data Variables](variables.md) – Manage data variables in your project
+- [Anatomy of the Webstudio builder](anatomy-of-the-webstudio-builder.md) – Overview of the Builder interface
+- [Design tokens](design-tokens.md) – Manage reusable style packages
+- [CSS variables](css-variables.md) – Manage CSS custom properties
+- [Data variables](variables.md) – Manage data variables in your project

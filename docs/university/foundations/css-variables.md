@@ -4,10 +4,10 @@ description: >-
   variable throughout the Style Panel inputs.
 ---
 
-# 🧱 CSS Variables
+# 🧱 CSS variables
 
 {% hint style="info" %}
-**Hint:** [Data Variables](variables.md) are different than CSS Variables. They enable the reuse of data in the Settings tab.
+**Hint:** [Data variables](variables.md) are different than CSS variables. They enable the reuse of data in the Settings tab.
 {% endhint %}
 {% embed url="https://www.youtube.com/watch?v=NrU_9BZytQY" %}
 
@@ -26,7 +26,7 @@ The concept of “reusability” is present in both CSS variables and [Tokens](d
 
 Let’s think of these two concepts as layers or building blocks.
 
-### Layer 1: CSS Variables
+### Layer 1: CSS variables
 
 **CSS variables are the bottom layer. They comprise individual variable names and values** often used for sizes, colors, and other styles with many input options.
 
@@ -86,7 +86,7 @@ The syntax for _displaying_ a variable is`var(--my-var)`, though it's much faste
 
 ### Using data to set CSS variables
 
-The common pattern is to generate a `<style>` tag via an [HTML Embed](../core-components/html-embed.md) expression, populate that tag with CSS variable definitions, and then consume those variables in the Advanced section or any style field. You can learn more about writing the bindings themselves in the [Expression Editor](expression-editor.md) documentation.
+The common pattern is to generate a `<style>` tag via an [HTML Embed](../core-components/html-embed.md) expression, populate that tag with CSS variable definitions, and then consume those variables in the Advanced section or any style field. You can learn more about writing the bindings themselves in the [Expression editor](expression-editor.md) documentation.
 
 The general pattern looks like this:
 
@@ -119,7 +119,7 @@ The general pattern looks like this:
    </style>`;
    ```
 
-   The `${}` expressions can reference any value accessible in the Expression Editor, including nested properties and ternary logic. The second form is useful when an API returns a single string containing multiple declarations.
+   The `${}` expressions can reference any value accessible in the Expression editor, including nested properties and ternary logic. The second form is useful when an API returns a single string containing multiple declarations.
 
    > _Note:_ you don’t need any special escaping; `dataVariables.variables` uses the standard JavaScript syntax to refer to a nested field. Since the HTML Embed evaluates whenever its dependencies change, the resulting `<style>` tag will update with new values. The variables it defines are now available everywhere on the page.
 
@@ -224,7 +224,7 @@ Webstudio supports CSS pseudo elements like `::before` and `::after`, allowing y
 
 ## Related
 
-- [Design Tokens](design-tokens.md) – Package multiple styles for reuse
+- [Design tokens](design-tokens.md) – Package multiple styles for reuse
 - [Modes](modes.md) – Create breakpoints for dark mode and other conditions
 - [Animations](animations.md) – Use CSS variables for hover animations
-- [Anatomy of the Webstudio Builder](anatomy-of-the-webstudio-builder.md) – Learn about Global Root and the Style Panel
+- [Anatomy of the Webstudio builder](anatomy-of-the-webstudio-builder.md) – Learn about Global Root and the Style Panel

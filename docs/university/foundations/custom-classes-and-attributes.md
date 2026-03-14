@@ -1,29 +1,29 @@
 ---
 description: >-
-  Custom classes, IDs, and data attributes allow you to target elements with custom code, animation libraries, and external scripts.
+  custom classes, IDs, and data attributes allow you to target elements with custom code, animation libraries, and external scripts.
 icon: code
 ---
 
-# Custom Classes and Attributes
+# Custom classes and attributes
 
-While [Design Tokens](design-tokens.md) handle styling in Webstudio, custom classes, IDs, and data attributes serve a different purpose: they allow external code to target specific elements.
+While [Design tokens](design-tokens.md) handle styling in Webstudio, custom classes, IDs, and data attributes serve a different purpose: they allow external code to target specific elements.
 
 {% embed url="https://www.youtube.com/watch?v=_1QSWHOtk08" %}
 
-## When to Use What
+## When to use what
 
 | Feature             | Purpose                                       | Output in HTML                              |
 | ------------------- | --------------------------------------------- | ------------------------------------------- |
-| **Design Tokens**   | Apply and manage styles                       | Converted to optimized classes (atomic CSS) |
-| **Custom Classes**  | Target elements with custom code              | Yes, exactly as specified                   |
+| **Design tokens**   | Apply and manage styles                       | Converted to optimized classes (atomic CSS) |
+| **Custom classes**  | Target elements with custom code              | Yes, exactly as specified                   |
 | **Custom IDs**      | Unique element targeting, anchor links        | Yes, exactly as specified                   |
-| **Data Attributes** | Pass data to JavaScript, custom functionality | Yes, exactly as specified                   |
+| **Data attributes** | Pass data to JavaScript, custom functionality | Yes, exactly as specified                   |
 
 {% hint style="info" %}
-**Important:** Design Tokens do NOT output their names as classes in HTML. The token name is an internal reference – the actual CSS output is optimized for performance. Use custom classes when you need a specific class name in the HTML.
+**Important:** Design tokens do NOT output their names as classes in HTML. The token name is an internal reference – the actual CSS output is optimized for performance. Use custom classes when you need a specific class name in the HTML.
 {% endhint %}
 
-## Adding Custom Classes
+## Adding custom classes
 
 1. Select an instance in the canvas
 2. Open the **Settings** panel (right side)
@@ -32,21 +32,21 @@ While [Design Tokens](design-tokens.md) handle styling in Webstudio, custom clas
 
 Multiple classes can be added: `card featured animate-on-scroll`
 
-### Use Cases for Custom Classes
+### Use cases for custom classes
 
 - **Animation libraries**: GSAP, AOS, or other libraries that target elements by class
 - **Third-party scripts**: Analytics, heatmaps, or widgets that need class selectors
 - **Custom CSS**: When adding CSS via HTML Embed or external stylesheets
 - **JavaScript targeting**: `document.querySelectorAll('.my-class')`
 
-## Adding Custom IDs
+## Adding custom IDs
 
 1. Select an instance
 2. Open **Settings**
 3. Find the **ID** field
 4. Enter a unique identifier (no spaces, no `#`)
 
-### Use Cases for Custom IDs
+### Use cases for custom IDs
 
 - **Anchor links**: Link to `#section-name` to scroll to that section
 - **JavaScript targeting**: `document.getElementById('my-element')`
@@ -57,7 +57,7 @@ Multiple classes can be added: `card featured animate-on-scroll`
 IDs must be unique on a page. Using the same ID multiple times can cause unexpected behavior.
 {% endhint %}
 
-## Adding Data Attributes
+## Adding data attributes
 
 Data attributes let you attach custom data to elements:
 
@@ -66,16 +66,16 @@ Data attributes let you attach custom data to elements:
 3. Scroll to custom properties or use the **+** to add properties
 4. Add attributes like `data-speed="0.5"` or `data-section="hero"`
 
-### Use Cases for Data Attributes
+### Use cases for Data attributes
 
 - **Animation parameters**: `data-speed`, `data-delay`, `data-direction`
 - **Configuration**: Pass settings to JavaScript components
 - **State tracking**: `data-active="true"`, `data-expanded="false"`
 - **Analytics**: `data-track="cta-button"`, `data-category="signup"`
 
-## Tokens vs Classes: Technical Details
+## Tokens vs classes: technical details
 
-Design Tokens in Webstudio use **atomic CSS** by default, which:
+Design tokens in Webstudio use **atomic CSS** by default, which:
 
 - Generates optimized, single-purpose classes
 - Reduces CSS file size by up to 90%
@@ -104,7 +104,7 @@ To animate elements with GSAP:
 </script>
 ```
 
-## Example: Scroll Spy Navigation
+## Example: Scroll spy navigation
 
 Create a scroll spy that highlights the current section:
 
@@ -114,6 +114,6 @@ Create a scroll spy that highlights the current section:
 
 ## Related
 
-- [Design Tokens](design-tokens.md) – For styling elements
+- [Design tokens](design-tokens.md) – For styling elements
 - [HTML Embed](../core-components/html-embed.md) – For adding custom scripts
-- [Expression Editor](expression-editor.md) – For dynamic attribute values
+- [Expression editor](expression-editor.md) – For dynamic attribute values

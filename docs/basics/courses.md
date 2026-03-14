@@ -12,5 +12,5 @@ description: Community-made courses
 
 - [Building your first site](building-your-first-site.md) – Quick video series to get started
 - [Intro](intro.md) – Overview of Webstudio for designers and developers
-- [Anatomy of the Webstudio Builder](../university/foundations/anatomy-of-the-webstudio-builder.md) – Understand the builder interface
+- [Anatomy of the Webstudio builder](../university/foundations/anatomy-of-the-webstudio-builder.md) – Understand the builder interface
 - [FAQs](FAQ.md) – Common questions and answers about Webstudio

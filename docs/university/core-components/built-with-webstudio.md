@@ -22,5 +22,5 @@ While the badge has default styling, you can customize its appearance:
 ## Related
 
 - [Gallery](https://webstudio.is/gallery) – Explore sites built with Webstudio
-- [Project Settings](../foundations/project-settings.md) – Manage your project's plan and settings
+- [Project settings](../foundations/project-settings.md) – Manage your project's plan and settings
 - [Publishing](../foundations/publishing-and-custom-domains.md) – Learn about publishing your site

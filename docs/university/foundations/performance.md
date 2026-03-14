@@ -126,7 +126,7 @@ For even smaller files, use the `text=` parameter to include only specific chara
 
 ### Third-Party Scripts
 
-Add scripts in [Project Settings](project-settings.md) or [Head Slot](../core-components/head-slot.md).
+Add scripts in [Project settings](project-settings.md) or [Head Slot](../core-components/head-slot.md).
 
 **Always use `defer` or `async`** to prevent render-blocking:
 
@@ -196,6 +196,6 @@ For optimal self-hosted performance:
 
 - [Image](../core-components/image.md) – Image component settings
 - [How to Use Custom Fonts](../how-tos/how-to-use-custom-fonts.md) – Font upload guide
-- [SEO Settings](seo-settings.md) – Related optimization settings
+- [SEO settings](seo-settings.md) – Related optimization settings
 - [CMS](cms.md) – External data fetching
 - [Cloudflare Website Builder](https://webstudio.is/cloudflare-website-builder) – How Webstudio uses Cloudflare

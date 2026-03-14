@@ -81,11 +81,11 @@ If interacting with a GraphQL API, use the [GraphQL resource](variables.md#graph
 
 At this point, the Resource Variable has the CMS Data, and now you need to bind or connect that data to the components and fields.
 
-Binding data is done with the [Expression Editor](expression-editor.md).
+Binding data is done with the [Expression editor](expression-editor.md).
 
-For example, go to a Header component > Settings > Text Content > and the “+” button. Within the Expression Editor, add the Resource Variable that contains the CMS data and the title value within it. This may look like `CMS Data.title`.
+For example, go to a Header component > Settings > Text Content > and the “+” button. Within the Expression editor, add the Resource Variable that contains the CMS data and the title value within it. This may look like `CMS Data.title`.
 
-For more information, see the [Expression Editor documentation](expression-editor.md).
+For more information, see the [Expression editor documentation](expression-editor.md).
 
 ## Compatible CMSs
 
@@ -130,8 +130,8 @@ Rich text in the form of HTML can be bound to the [Content Embed Component](../c
 
 - [Webstudio CMS](https://webstudio.is/cms) – Learn more about CMS capabilities in Webstudio
 - [Headless CMS Finder](https://webstudio.is/tools/headless-cms-finder) – Compare and find the right headless CMS
-- [Data Variables](variables.md) – Define Resources to fetch CMS data
-- [Expression Editor](expression-editor.md) – Bind CMS data to components
+- [Data variables](variables.md) – Define Resources to fetch CMS data
+- [Expression editor](expression-editor.md) – Bind CMS data to components
 - [Collection](../core-components/collection.md) – Iterate over CMS data to create lists
 - [Content Embed](../core-components/content-embed.md) – Display rich text HTML from your CMS
 - [Markdown Embed](../core-components/markdown-embed.md) – Display Markdown content from your CMS

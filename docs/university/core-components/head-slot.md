@@ -16,7 +16,7 @@ The Head Slot provides a visual interface for controlling your website's `<head>
 
 ## Key information
 
-- Even though the Head Slot is visually in the Body instance, the contents of Head Slot are added to the `<head>`. This hierarchy enables [Data Variables](../foundations/variables.md) defined on the Body to be used in the head.
+- Even though the Head Slot is visually in the Body instance, the contents of Head Slot are added to the `<head>`. This hierarchy enables [Data variables](../foundations/variables.md) defined on the Body to be used in the head.
 - If Head Slot and Page Settings define the same data, such as meta title, Head Slot will take priority. Similarly, a default canonical is output on every page and references the current path. By specifying a canonical in Head Slot, the default canonical will not be displayed on the page.
 - Head Slot comes with an instance for Title, Link, and Meta. These can be duplicated. If you remove them and later need to add them back, you can copy them from a new Head Slot instance.
 
@@ -71,6 +71,6 @@ Here is a list of relevant docs:
 
 ## Related
 
-- [SEO Settings](../foundations/seo-settings.md) – Page-level SEO configuration
-- [Project Settings](../foundations/project-settings.md) – Global project configuration
+- [SEO settings](../foundations/seo-settings.md) – Page-level SEO configuration
+- [Project settings](../foundations/project-settings.md) – Global project configuration
 - [HTML Embed](html-embed.md) – Custom HTML in body

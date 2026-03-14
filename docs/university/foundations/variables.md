@@ -1,14 +1,14 @@
 ---
-description: Data Variables enable the definition and use of a value throughout the page.
+description: Data variables enable the definition and use of a value throughout the page.
 ---
 
-# 🔡 Data Variables
+# 🔡 Data variables
 
 {% hint style="info" %}
-**Hint:** [CSS Variables](css-variables.md) are different than Data Variables. They enable the reuse of values in the Style Panel.
+**Hint:** [CSS variables](css-variables.md) are different than Data variables. They enable the reuse of values in the Style Panel.
 {% endhint %}
 
-Data Variables are defined on any instance in the navigator such as Global Root, Body, or Heading. Variables can be found on the right panel in the settings tab.
+Data variables are defined on any instance in the navigator such as Global Root, Body, or Heading. Variables can be found on the right panel in the settings tab.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-09-08 at 20.28.15.png" alt="Variables in the builder"><figcaption></figcaption></figure>
 
@@ -22,7 +22,7 @@ If you define a variable on the Global Root, it will be available on all pages a
 To access variables in the Page Settings, the variable must be defined on the Body of the page.
 {% endhint %}
 
-## Global Data Variables
+## Global data variables
 
 Variables defined on the **Global Root** are accessible across all pages in your project. This is powerful for:
 
@@ -99,7 +99,7 @@ There are several fields available to configure the fetch request.
 
 #### Response
 
-Once the Resource fetches data, you'll use the [Expression Editor](expression-editor.md) to bind data from the response to your website. See [Binding](expression-editor.md#binding) for more information.
+Once the Resource fetches data, you'll use the [Expression editor](expression-editor.md) to bind data from the response to your website. See [Binding](expression-editor.md#binding) for more information.
 
 #### Caching
 
@@ -136,8 +136,8 @@ Available system resources:
 
 ## Related
 
-- [Expression Editor](expression-editor.md) – Bind variables to components and create expressions
+- [Expression editor](expression-editor.md) – Bind variables to components and create expressions
 - [CMS](cms.md) – Use Resources to fetch content from external systems
 - [Collection](../core-components/collection.md) – Iterate over JSON or Resource data
-- [CSS Variables](css-variables.md) – Define reusable style values (different from Data Variables)
+- [CSS variables](css-variables.md) – Define reusable style values (different from Data variables)
 - [Slot](../core-components/slot.md) – Access global variables in reusable components

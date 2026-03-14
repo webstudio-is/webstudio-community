@@ -78,4 +78,4 @@ Now, you should have a website built on Webstudio that is hosted on AWS using Fl
 - [Digital Ocean with Coolify](./digital-ocean-coolify.md) – Deploy using Coolify on Digital Ocean
 - [Hetzner with Coolify](./hetzner-coolify.md) – Deploy using Coolify on Hetzner
 - [VPS with Docker](./vps-with-docker.md) – Manual Docker deployment on any VPS
-- [Publishing and Custom Domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site
+- [Publishing and custom domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site

@@ -21,7 +21,7 @@ We recommend creating templates using [Craft](../university/craft.md) — the st
 
 ### **2. Submit the Project**
 
-Navigate to Project Settings > Marketplace, fill out the required fields, select whether your Project includes pages, sections, or integrations, and submit it for review.
+Navigate to Project settings > Marketplace, fill out the required fields, select whether your Project includes pages, sections, or integrations, and submit it for review.
 
 <figure><img src="../.gitbook/assets/marketplace-submission.png" alt="Marketplace Submission"><figcaption></figcaption></figure>
 
@@ -44,4 +44,4 @@ Learn more about the [Marketplace](../university/marketplace.md).
 - [Marketplace](../university/marketplace.md) – Browse and use marketplace templates
 - [Craft](../university/craft.md) – The recommended standard for building templates
 - [Contributing for Designers](contributing-for-designers.md) – Other ways designers can contribute
-- [Design Tokens](../university/foundations/design-tokens.md) – Create consistent, reusable styles
+- [Design tokens](../university/foundations/design-tokens.md) – Create consistent, reusable styles

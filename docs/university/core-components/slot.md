@@ -19,7 +19,7 @@ Slots and their children will appear purple in the navigator and canvas to indic
 Slots are most commonly used to create reusable navigations and footers, though they are helpful for any sections you want to reuse throughout your site.
 
 {% hint style="info" %}
-Data Variables defined on the Global Root are accessible within Slots, while those defined on other instances outside the Slot are not.
+Data variables defined on the Global Root are accessible within Slots, while those defined on other instances outside the Slot are not.
 {% endhint %}
 
 ---

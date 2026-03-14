@@ -57,7 +57,7 @@ To create pages featuring dynamic content in Webstudio by integrating Supabase a
 3. Paste the API URL
 4. Add a Header:
    - Name: `apikey`
-   - Value: Your public API key from **Project Settings → API**
+   - Value: Your public API key from **Project settings → API**
 
 {% hint style="info" %}
 The API key stays between you and the builder and is not exposed on the frontend.

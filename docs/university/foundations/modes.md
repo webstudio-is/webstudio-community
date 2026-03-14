@@ -46,7 +46,7 @@ As the website designer/developer, Content mode helps you strike the balance bet
 Here’s what you need to know:
 
 - You can try the Content mode by going to the Top Bar and changing modes.
-- Users on the Pro tier can create a [Share Link](share-links.md) with “Content” permission
+- Users on the Pro tier can create a [Share link](share-links.md) with “Content” permission
 - Editors can perform [these actions](modes.md#allowed-actions)
 - You can create templates that editors can insert with [Content Blocks](../core-components/content-block.md)
 
@@ -128,7 +128,7 @@ Safe mode only affects the builder preview. Published sites always run scripts n
 
 ## Related
 
-- [Share Links](share-links.md) – Create Content mode share links for clients
+- [Share links](share-links.md) – Create Content mode share links for clients
 - [Content Block](../core-components/content-block.md) – Define editable regions for Content mode
 - [Shortcuts](shortcuts.md) – Keyboard shortcuts to switch modes quickly
-- [Anatomy of the Webstudio Builder](anatomy-of-the-webstudio-builder.md) – Overview of the Builder interface
+- [Anatomy of the Webstudio builder](anatomy-of-the-webstudio-builder.md) – Overview of the Builder interface

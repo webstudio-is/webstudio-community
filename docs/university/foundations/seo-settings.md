@@ -2,7 +2,7 @@
 description: Webstudio provides comprehensive SEO features.
 ---
 
-# 🎯 SEO Settings
+# 🎯 SEO settings
 
 {% embed url="https://youtu.be/8aNpE5JYn5g" %}
 
@@ -36,9 +36,9 @@ description: Webstudio provides comprehensive SEO features.
 - Favicon
 - All attributes
 
-## 🌐 Global Site Settings
+## 🌐 Global site settings
 
-In '[Project Settings](project-settings.md)' under the Webstudio menu, you'll find essential settings for your entire project:
+In '[Project settings](project-settings.md)' under the Webstudio menu, you'll find essential settings for your entire project:
 
 - **Site Name**: Used to output WebSite structured data to clearly define your website's identity.
 - **Favicon**: Output your logo in search engines, browser tabs, and more.
@@ -46,7 +46,7 @@ In '[Project Settings](project-settings.md)' under the Webstudio menu, you'll fi
 
 These settings ensure uniformity and brand coherence across all pages of your website.
 
-## 🔍 Individual Page SEO Settings
+## 🔍 Individual page SEO settings
 
 Fine-tune SEO settings for each page through the 'Pages' tab:
 
@@ -62,7 +62,7 @@ The social image you add to your homepage will be used as the cover image for th
 - **Custom Meta Tags**: Add additional Meta Tags your page for further search and social customization.
 - **Custom Head**: Visually customize the head on a per-page basis with [Head Slot](../core-components/head-slot.md).
 
-## 🐦 Twitter Card Customization
+## 🐦 Twitter card customization
 
 To customize how your content appears when shared on Twitter/X:
 
@@ -71,7 +71,7 @@ To customize how your content appears when shared on Twitter/X:
    - Property: `twitter:card`
    - Content: `summary_large_image` (for large image cards)
 
-## 🔧 Debugging Social Sharing
+## 🔧 Debugging social sharing
 
 Social platforms cache sharing previews. To clear caches and test your changes:
 
@@ -84,7 +84,7 @@ When you publish to a custom domain, staging and webstudio domains are automatic
 
 ## Related
 
-- [Project Settings](project-settings.md) – Configure site name, favicon, and global settings
+- [Project settings](project-settings.md) – Configure site name, favicon, and global settings
 - [Head Slot](../core-components/head-slot.md) – Add custom meta tags and scripts per page
-- [Publishing & Custom Domains](publishing-and-custom-domains.md) – Deploy your site with custom domains
+- [Publishing & custom domains](publishing-and-custom-domains.md) – Deploy your site with custom domains
 - [CMS](cms.md) – Create dynamic pages with SEO-optimized content

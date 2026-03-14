@@ -46,7 +46,7 @@ The Craft style guide includes a page template at the bottom (Nav, Main with Sec
 3. Duplicate again for the next section
 4. This keeps a clean template always available at the bottom
 
-## CSS Variables
+## CSS variables
 
 Craft uses [Open Props](https://open-props.style/), an MIT-licensed library of CSS variables that helps accelerate adaptive and consistent design.
 
@@ -196,8 +196,8 @@ This post demonstrates Craft Library getting inserted on two completely differen
 
 ## Related
 
-- [Design Tokens](foundations/design-tokens.md) – Create and manage reusable style tokens
-- [CSS Variables](foundations/css-variables.md) – Use CSS custom properties in Webstudio
-- [Anatomy of the Webstudio Builder](foundations/anatomy-of-the-webstudio-builder.md) – Understand the builder interface
+- [Design tokens](foundations/design-tokens.md) – Create and manage reusable style tokens
+- [CSS variables](foundations/css-variables.md) – Use CSS custom properties in Webstudio
+- [Anatomy of the Webstudio builder](foundations/anatomy-of-the-webstudio-builder.md) – Understand the builder interface
 - [Marketplace](marketplace.md) – Access Craft Library and other templates
 - [Contributing to the Marketplace](../contributing/marketplace.md) – Submit templates built with Craft

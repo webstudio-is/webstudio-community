@@ -47,7 +47,7 @@ In the Settings Panel, when you add custom attributes to SVG elements, Webstudio
 - Path-specific attributes like `d`, `points`, `cx`, `cy`, `r`, etc.
 
 {% hint style="success" %}
-Pasting SVG creates native components that can be styled with CSS Variables, allowing you to create icons that change color based on themes or states.
+Pasting SVG creates native components that can be styled with CSS variables, allowing you to create icons that change color based on themes or states.
 {% endhint %}
 
 ## Method 2: Using HTML Embed with SVG
@@ -74,7 +74,7 @@ Using `currentColor` allows the icon to inherit text color from its parent.
 
 You can also use icon fonts like Font Awesome:
 
-1. Add the Font Awesome CSS to your project's custom code (Project Settings > Custom Code)
+1. Add the Font Awesome CSS to your project's custom code (Project settings > Custom Code)
 2. Use an HTML Embed with the icon's HTML class: `<i class="fa-solid fa-star"></i>`
 
 ## Method 4: Using Image Component
@@ -90,5 +90,5 @@ For simple icons that don't need color changes:
 
 - [Image](../core-components/image.md) – Use images for simple icon needs
 - [HTML Embed](../core-components/html-embed.md) – Embed custom SVG code and icon fonts
-- [Design Tokens](../foundations/design-tokens.md) – Create reusable color tokens for icon styling
+- [Design tokens](../foundations/design-tokens.md) – Create reusable color tokens for icon styling
 - [Variables](../foundations/variables.md) – Use CSS variables to dynamically change icon colors

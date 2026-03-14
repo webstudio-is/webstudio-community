@@ -52,11 +52,11 @@ Cloudflare Workers are like small programs that run on Cloudflare's global netwo
 
 <summary>🎨 What are design tokens?</summary>
 
-Design Tokens provide a unified system for managing styles like colors, spacing, and font sizes. They serve as a single source of truth for both designers and developers, housed in accessible formats like JSON files. This system ensures consistency across a project and simplifies design maintenance.
+Design tokens provide a unified system for managing styles like colors, spacing, and font sizes. They serve as a single source of truth for both designers and developers, housed in accessible formats like JSON files. This system ensures consistency across a project and simplifies design maintenance.
 
 A common application of design tokens is in semantic color naming, where names correspond to usage rather than color values. The flexibility of design tokens allows for referencing, condition-specific alterations, and mathematical manipulations.
 
-[WC3 Design Tokens Format](https://tr.designtokens.org/format/), [Tokens Studio Plugin documentation](https://docs.tokens.studio/)
+[WC3 Design tokens Format](https://tr.designtokens.org/format/), [Tokens Studio Plugin documentation](https://docs.tokens.studio/)
 
 </details>
 

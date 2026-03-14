@@ -53,5 +53,5 @@ Learn more about script scope [here](../core-components/html-embed.md#avoid-crea
 
 - [Animations](../foundations/animations.md) – Built-in animation capabilities in Webstudio
 - [HTML Embed](../core-components/html-embed.md) – Add custom scripts and code to your pages
-- [Project Settings](../foundations/project-settings.md) – Add global scripts in the custom code section
+- [Project settings](../foundations/project-settings.md) – Add global scripts in the custom code section
 - [Variables](../foundations/variables.md) – Use variables for dynamic animation values

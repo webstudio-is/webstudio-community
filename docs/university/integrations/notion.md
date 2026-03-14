@@ -99,7 +99,7 @@ https://www.notion.so/**94582558d50a4cb98234f16973f69c8a**?v=1f9c545770334b2091e
 
 Third, you must modify the filter in the body to use the currently viewed URL. So, for example, if somebody is viewing `/events/birthday`, the URL needs to filter Notion records using birthday.
 
-Click the "+" in the URL field to open the [**Expression Editor**](../foundations/expression-editor.md)**.**
+Click the "+" in the URL field to open the [**Expression editor**](../foundations/expression-editor.md)**.**
 
 Use the following as a template to create your dynamic body:
 
@@ -151,7 +151,7 @@ Here's a page with the various components with their default values:
 
 For each component, go to Settings and the field to which you want to attach an external value and click the "+" to open Bindings.
 
-In the [Expression Editor](../foundations/expression-editor.md), click or type the variable you created previously. From there, "drill down" or access the child fields within the variable by typing a period and selecting the following field (repeat until you get the value).
+In the [Expression editor](../foundations/expression-editor.md), click or type the variable you created previously. From there, "drill down" or access the child fields within the variable by typing a period and selecting the following field (repeat until you get the value).
 
 Notion database properties are contained in: `<Your Variable>.results[0].properties`
 

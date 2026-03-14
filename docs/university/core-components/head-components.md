@@ -196,5 +196,5 @@ Use Page Settings for standard SEO, Head components for advanced needs.
 
 ## Related Documentation
 
-- [SEO Settings](../foundations/seo-settings.md)
-- [Project Settings](../foundations/project-settings.md)
+- [SEO settings](../foundations/seo-settings.md)
+- [Project settings](../foundations/project-settings.md)

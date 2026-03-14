@@ -34,7 +34,7 @@ Many styles can cause overflow, but here are some common things to look for:
 
 ## Related
 
-- [Anatomy of the Webstudio Builder](../university/foundations/anatomy-of-the-webstudio-builder.md) – Learn the builder interface and how to navigate instances
+- [Anatomy of the Webstudio builder](../university/foundations/anatomy-of-the-webstudio-builder.md) – Learn the builder interface and how to navigate instances
 - [Element](../university/core-components/element.md) – The fundamental building block for creating layouts
 - [Layout & Flexbox](../university/foundations/layout-and-flexbox.md) – Understand how layouts work to prevent overflow
-- [Responsive Design](../university/foundations/responsive-design.md) – Build layouts that adapt to different screen sizes
+- [Responsive design](../university/foundations/responsive-design.md) – Build layouts that adapt to different screen sizes

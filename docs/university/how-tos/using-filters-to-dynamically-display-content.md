@@ -40,7 +40,7 @@ Unlike static website builders, Webstudio enables dynamic filtering by:
 
 ## Step 4: Add Dynamic Filtering
 
-Use the Expression Editor to build a dynamic URL with Airtable's `filterByFormula` parameter:
+Use the Expression editor to build a dynamic URL with Airtable's `filterByFormula` parameter:
 
 ### Basic Filter (always applied)
 

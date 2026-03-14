@@ -117,6 +117,6 @@ Transforms are GPU-accelerated, making them ideal for animations:
 ## Related
 
 - [Animations](animations.md) – Create scroll-driven and interactive animations
-- [CSS Variables](css-variables.md) – Define reusable style values
+- [CSS variables](css-variables.md) – Define reusable style values
 - [Animation Group](../core-components/animation-group.md) – Container for scroll-driven animations
-- [Anatomy of the Webstudio Builder](anatomy-of-the-webstudio-builder.md) – Learn about the Style Panel
+- [Anatomy of the Webstudio builder](anatomy-of-the-webstudio-builder.md) – Learn about the Style Panel

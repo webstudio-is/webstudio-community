@@ -62,4 +62,4 @@ See Vercel’s “[Import an existing project](https://vercel.com/docs/getting-s
 - [CLI](./cli.md) – Export and build your project using the command line
 - [Netlify](./netlify.md) – Another popular platform for deploying JavaScript apps
 - [Cloudflare Pages](./cloudflare-pages.md) – Deploy static sites to Cloudflare's network
-- [Publishing and Custom Domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site
+- [Publishing and custom domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site

@@ -64,7 +64,7 @@ To display dynamic dates from your CMS:
 
 1. Select the XML Time component
 2. In Settings, click the binding icon next to `datetime`
-3. Open the Expression Editor
+3. Open the Expression editor
 4. Bind to your date field: `Collection Item.publishedAt`
 
 ## Difference from Time Component

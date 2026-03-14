@@ -43,7 +43,7 @@ Learn the fundamentals and advanced techniques:
 
 ## Hover Animations
 
-For interactive effects like hover animations, Webstudio leverages [CSS variables](css-variables.md) with a "parent interaction modifies children" approach. Define hover states on a parent element, then use CSS variables to adjust child element properties dynamically. For more information, see [CSS Variables – Parent-Child Interactions](css-variables.md#parent-child-interactions).
+For interactive effects like hover animations, Webstudio leverages [CSS variables](css-variables.md) with a "parent interaction modifies children" approach. Define hover states on a parent element, then use CSS variables to adjust child element properties dynamically. For more information, see [CSS variables – Parent-child interactions](css-variables.md#parent-child-interactions).
 
 ## CSS Transitions
 

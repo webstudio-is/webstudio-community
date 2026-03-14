@@ -116,7 +116,7 @@ Copy the query from WordPress and paste it into the query field in Webstudio.
 
 Next, it's time to inform the query what the slug will be. When defining the dynamic page, the dynamic part (the parameter) was `slug`. The value of `slug` will be whatever URL is currently viewed.
 
-In the variables field of the Resource, expand Expression Editor by clicking the "+".
+In the variables field of the Resource, expand Expression editor by clicking the "+".
 
 In there, type or paste in the following:
 
@@ -156,7 +156,7 @@ First, add the various [Components](../core-components/) you want to your page.
 
 For each Component, go to Settings and the field to which you want to attach an external value and click the "+" to open [Bindings](../foundations/expression-editor.md#expressions).
 
-In the [Expression Editor](../foundations/expression-editor.md), click or type the variable you created previously. From there, "drill down" or access the child fields within the variable by typing a period and selecting the field (repeat until you get the value).
+In the [Expression editor](../foundations/expression-editor.md), click or type the variable you created previously. From there, "drill down" or access the child fields within the variable by typing a period and selecting the field (repeat until you get the value).
 
 Here is what that looks like:
 

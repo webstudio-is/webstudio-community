@@ -149,4 +149,4 @@ If menu dropdowns appear behind other content:
 - [Sheet Component](../radix/sheet.md)
 - [Slot Component](../core-components/slot.md)
 - [Navigation Menu](../radix/navigation-menu.md) - For mega menu dropdowns
-- [Responsive Design](../foundations/responsive-design.md)
+- [Responsive design](../foundations/responsive-design.md)

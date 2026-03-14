@@ -18,7 +18,7 @@ The "Blockquote" component can be found in Components > Text, and you can place 
 
 Once the component is placed on your canvas, you can customize its appearance using the Style panel on the right. You can also create a design token for this styling. This allows you to apply consistent styling on multiple blockquotes across your project by reusing the same design token for each instance.
 
-For more on Design Tokens in Webstudio, refer to [this guide](../foundations/design-tokens.md).
+For more on Design tokens in Webstudio, refer to [this guide](../foundations/design-tokens.md).
 
 ### Styling a Blockquote
 

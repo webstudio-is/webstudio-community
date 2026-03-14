@@ -4,7 +4,7 @@ description: >-
   visual development platform that allows you to build advanced websites.
 ---
 
-# 🛠️ Anatomy of the Webstudio Builder
+# 🛠️ Anatomy of the Webstudio builder
 
 ---
 
@@ -146,7 +146,7 @@ There are three methods for adding styles:
 
     <img src="../../.gitbook/assets/local.png" alt="Local style source" data-size="original">
 
-2.  [CSS Variables](css-variables.md) - Instead of pasting in your colors, sizes, and other styles, you can create a variable for each style and access the variables in each input field. For example, you can define a variable called "color-primary," and in your border color field, you can enter the variable name instead of the color itself.
+2.  [CSS variables](css-variables.md) - Instead of pasting in your colors, sizes, and other styles, you can create a variable for each style and access the variables in each input field. For example, you can define a variable called "color-primary," and in your border color field, you can enter the variable name instead of the color itself.
 3.  [Tokens](design-tokens.md) - These enable reusing groupings of styles across your site. You can either create a new Token and apply styles to it or start with Local and convert it to a Token. Tokens are typically comprised of CSS variables and one-off styles.
 
 ### Label colors
@@ -168,7 +168,7 @@ The order of tokens in the Style Source Input matters. When multiple Tokens have
 
 ## Settings Panel
 
-The Settings Panel is on the right side of your canvas. You can use this panel to access and edit component-specific properties (such as ID or class) and [Data Variables](variables.md) for a selected instance, enabling you to store reusable content and fetch APIs — a building block of [CMS](cms.md).
+The Settings Panel is on the right side of your canvas. You can use this panel to access and edit component-specific properties (such as ID or class) and [Data variables](variables.md) for a selected instance, enabling you to store reusable content and fetch APIs — a building block of [CMS](cms.md).
 
 ---
 
@@ -197,7 +197,7 @@ Publishing currently takes around 45 seconds. During publishing, your Project is
 ## Related
 
 - [Shortcuts](shortcuts.md) – Keyboard shortcuts to speed up building
-- [Commands & Search](commands-and-search.md) – Navigate and perform actions quickly
-- [Design Tokens](design-tokens.md) – Create reusable style packages
-- [CSS Variables](css-variables.md) – Define and reuse style values
+- [Commands & search](commands-and-search.md) – Navigate and perform actions quickly
+- [Design tokens](design-tokens.md) – Create reusable style packages
+- [CSS variables](css-variables.md) – Define and reuse style values
 - [Modes](modes.md) – Switch between Design, Content, and Preview modes

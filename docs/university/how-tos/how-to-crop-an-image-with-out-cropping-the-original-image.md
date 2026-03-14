@@ -76,5 +76,5 @@ For responsive cropping that maintains proportions:
 ## Related
 
 - [Image](../core-components/image.md) – Learn about the Image component and its properties
-- [Design Tokens](../foundations/design-tokens.md) – Create reusable styles for consistent image sizing
+- [Design tokens](../foundations/design-tokens.md) – Create reusable styles for consistent image sizing
 - [Collection](../core-components/collection.md) – Display cropped images in dynamic lists

@@ -46,7 +46,7 @@ The upcoming version will:
 ## Related
 
 - [Inception](https://webstudio.is/inception) – Explore Webstudio's standalone AI design tool
-- [Expression Editor](foundations/expression-editor.md) – Write expressions and logic in Webstudio
-- [Data Variables](foundations/variables.md) – Work with dynamic data and resources
+- [Expression editor](foundations/expression-editor.md) – Write expressions and logic in Webstudio
+- [Data variables](foundations/variables.md) – Work with dynamic data and resources
 - [CMS](foundations/cms.md) – Manage content with Webstudio's built-in CMS
 - [Roadmap & Links](../basics/roadmap-and-links.md) – See what features are coming next

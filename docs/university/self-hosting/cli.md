@@ -134,4 +134,4 @@ See [static site hosting platforms](./#platforms-for-static-sites) we have docum
 - [Netlify](./netlify.md) – Deploy your project to Netlify
 - [Vercel](./vercel.md) – Deploy your project to Vercel
 - [VPS with Docker](./vps-with-docker.md) – Deploy to your own server using Docker
-- [Publishing and Custom Domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site
+- [Publishing and custom domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site

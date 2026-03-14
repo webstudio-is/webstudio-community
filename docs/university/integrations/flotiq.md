@@ -59,9 +59,9 @@ In the [Address Bar](../foundations/cms.md#address-bar), provide a test value.
 
 ### **Add a GraphQL Data Variable**
 
-[GraphQL Data Variables](../foundations/variables.md#graphql) fetch external content.
+[GraphQL data variables](../foundations/variables.md#graphql) fetch external content.
 
-Go to `Page Settings > Data Variables > Add New Variable`.
+Go to `Page Settings > Data variables > Add New Variable`.
 
 Next, configure the variable:
 
@@ -113,7 +113,7 @@ To bind data:
 
 * Select a component and navigate to its settings.
 * Click the "+" button next to the desired property (e.g., **Text Content**).
-* Open the [Expression Editor](../foundations/expression-editor.md) and map values from your Flotiq data variable, for example, `VariableName.data.data.blogpost.title`.
+* Open the [Expression editor](../foundations/expression-editor.md) and map values from your Flotiq data variable, for example, `VariableName.data.data.blogpost.title`.
 
 {% hint style="info" %}
 > For images add an **Image Component**, and bind the **Source Property** to the image URL: `"https://api.flotiq.com/" + VariableName.data.data.blogpost.headerImage[0].url`.

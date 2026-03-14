@@ -2,11 +2,11 @@
 description: Set project-wide configuration.
 ---
 
-# ⚙️ Project Settings
+# ⚙️ Project settings
 
-Project Settings are located in the top left by clicking the Webstudio logo > Project Settings.
+Project settings are located in the top left by clicking the Webstudio logo > Project settings.
 
-<figure><img src="../../.gitbook/assets/project-settings.png" alt="Project Settings located in top left" width="261"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/project-settings.png" alt="Project settings located in top left" width="261"><figcaption></figcaption></figure>
 
 ## General
 
@@ -100,8 +100,8 @@ For more information, see [Contributing to the Marketplace](../../contributing/m
 
 ## Related
 
-- [SEO Settings](seo-settings.md) – Configure meta tags and social sharing
-- [Publishing & Custom Domains](publishing-and-custom-domains.md) – Deploy your site and manage domains
-- [Design Tokens](design-tokens.md) – Understand atomic CSS output options
+- [SEO settings](seo-settings.md) – Configure meta tags and social sharing
+- [Publishing & custom domains](publishing-and-custom-domains.md) – Deploy your site and manage domains
+- [Design tokens](design-tokens.md) – Understand atomic CSS output options
 - [Head Slot](../core-components/head-slot.md) – Add custom code per page
 - [HTML Embed](../core-components/html-embed.md) – Embed analytics and custom scripts

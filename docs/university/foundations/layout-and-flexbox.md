@@ -209,6 +209,6 @@ The Style Panel uses colors to indicate property states:
 
 ## Related Resources
 
-- [Responsive Design](responsive-design.md) — Working with breakpoints
-- [Design Tokens](design-tokens.md) — Creating reusable styles
-- [Custom Classes & Attributes](custom-classes-and-attributes.md) — Advanced styling options
+- [Responsive design](responsive-design.md) — Working with breakpoints
+- [Design tokens](design-tokens.md) — Creating reusable styles
+- [Custom classes & attributes](custom-classes-and-attributes.md) — Advanced styling options

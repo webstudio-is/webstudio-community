@@ -4,7 +4,7 @@ description: >-
 icon: mobile-screen
 ---
 
-# Responsive Design
+# Responsive design
 
 Webstudio uses a mobile-first approach with customizable breakpoints to create responsive designs. Styles cascade from larger to smaller breakpoints, allowing you to progressively enhance designs for bigger screens.
 
@@ -21,7 +21,7 @@ Breakpoints are found at the top of the Style Panel. Each breakpoint represents 
 - **479px** - Mobile
 
 {% hint style="info" %}
-You can customize breakpoints in Project Settings to match your design needs.
+You can customize breakpoints in Project settings to match your design needs.
 {% endhint %}
 
 ## Style Cascading

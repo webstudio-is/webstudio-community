@@ -14,7 +14,7 @@ The Dashboard is the first screen you see after logging into Webstudio. It provi
 
 The Dashboard includes a unified search feature that helps you quickly find projects and templates across your entire workspace.
 
-### How to Use Search
+### How to use search
 
 1. Click the search field in the left sidebar or start typing directly
 2. Type your search query to filter projects by name
@@ -29,18 +29,18 @@ Search is performed client-side for instant results, making it snappy even with 
 
 ---
 
-## Project Tags
+## Project tags
 
 Tags help you organize and categorize your projects for easier management. This is especially useful when you have many projects and need to group them by client, project type, status, or any other criteria.
 
-### Creating and Managing Tags
+### Creating and managing tags
 
 1. Hover over a project card and click the tag icon (or access via the project menu)
 2. Click "Create new tag" to add a new tag
 3. Enter a tag name and select a color
 4. Tags are automatically saved when you select them
 
-### Tag Features
+### Tag features
 
 - **Color-coded tags** – Each tag can have a distinct color for visual organization
 - **Multiple tags per project** – Assign as many tags as needed to a single project
@@ -52,11 +52,11 @@ Tags appear on project cards, making it easy to see project categories at a glan
 
 ---
 
-## View Options
+## View options
 
 The Dashboard supports two different view layouts to suit your preference:
 
-### Grid View (Card View)
+### Grid view (card view)
 
 The default view displays projects as visual cards with:
 
@@ -66,7 +66,7 @@ The default view displays projects as visual cards with:
 - Assigned tags
 - Quick action buttons
 
-### List View
+### List view
 
 A compact view that displays projects in rows with:
 
@@ -81,7 +81,7 @@ Switch between views using the view toggle buttons in the toolbar.
 
 ---
 
-## Sorting Projects
+## Sorting projects
 
 Projects can be sorted in multiple ways to help you find what you need:
 
@@ -95,7 +95,7 @@ Click the sort dropdown in the toolbar to change the sorting order. Your prefere
 
 ---
 
-## Custom Domain Display
+## Custom domain display
 
 When a project has a custom domain configured, the domain is displayed on the project card. This makes it easy to identify which projects are live and what their public URLs are without opening each project.
 
@@ -106,7 +106,7 @@ The domain display shows:
 
 ---
 
-## Project Settings from Dashboard
+## Project settings from Dashboard
 
 You can access project settings directly from the Dashboard without opening the Builder:
 
@@ -118,17 +118,17 @@ This allows you to quickly update project metadata, configure redirects, manage 
 
 ---
 
-## Project Actions
+## Project actions
 
 From the Dashboard, you can perform several actions on your projects:
 
-### Quick Actions (hover over card)
+### Quick actions (hover over card)
 
 - **Open** – Open the project in the Builder
 - **Tags** – Manage project tags
 - **Menu** – Access more options
 
-### Menu Actions
+### Menu actions
 
 - **Settings** – Open project settings dialog
 - **Duplicate** – Create a copy of the project
@@ -150,7 +150,7 @@ Templates are searchable using the same unified search feature.
 
 ## Related
 
-- [Project Settings](project-settings.md) – Configure project-wide settings
-- [Publishing & Custom Domains](publishing-and-custom-domains.md) – Deploy your site and manage domains
-- [Share Links](share-links.md) – Share projects and transfer ownership
-- [Anatomy of the Webstudio Builder](anatomy-of-the-webstudio-builder.md) – Learn the Builder interface
+- [Project settings](project-settings.md) – Configure project-wide settings
+- [Publishing & custom domains](publishing-and-custom-domains.md) – Deploy your site and manage domains
+- [Share links](share-links.md) – Share projects and transfer ownership
+- [Anatomy of the Webstudio builder](anatomy-of-the-webstudio-builder.md) – Learn the Builder interface

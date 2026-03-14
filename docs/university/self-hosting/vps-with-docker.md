@@ -229,4 +229,4 @@ This setup is simple, stable, and production-ready.
 - [Digital Ocean with Coolify](./digital-ocean-coolify.md) – Simplified Docker deployment using Coolify
 - [Hetzner with Coolify](./hetzner-coolify.md) – Deploy to Hetzner using Coolify
 - [AWS with Flightcontrol](./flightcontrol.md) – Deploy to AWS using Flightcontrol
-- [Publishing and Custom Domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site
+- [Publishing and custom domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site

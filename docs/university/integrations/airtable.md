@@ -75,7 +75,7 @@ First, replace `YOUR_SECRET_API_TOKEN` with your API token. Refer to [Airtable's
 
 Second, you must modify the URL to filter by the currently viewed URL. So, for example, if somebody is viewing `/products/wireless-mouse`, the URL needs to filter Airtable records using `wireless-mouse`.
 
-Click the "+" in the URL field to open up the [**Expression Editor**](../foundations/expression-editor.md)**.**
+Click the "+" in the URL field to open up the [**Expression editor**](../foundations/expression-editor.md)**.**
 
 Use the following as a template to create your dynamic URL:
 
@@ -119,7 +119,7 @@ Here's a page with the various components with their default values:
 
 For each component, go to Settings and the field to which you want to attach an external value and click the "+" to open Bindings.
 
-In the [Expression Editor](../foundations/expression-editor.md), click or type the variable you created previously. From there, "drill down" or access the child fields within the variable by typing a period and selecting the following field (repeat until you get the value).
+In the [Expression editor](../foundations/expression-editor.md), click or type the variable you created previously. From there, "drill down" or access the child fields within the variable by typing a period and selecting the following field (repeat until you get the value).
 
 Here is what that looks like:
 

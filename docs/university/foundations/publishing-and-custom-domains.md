@@ -2,7 +2,7 @@
 description: Learn how to connect a custom domain to your Project.
 ---
 
-# 🌐 Publishing & Custom Domains
+# 🌐 Publishing & custom domains
 
 {% hint style="warning" %}
 Many DNS providers do not allow adding a CNAME at the root/apex. If yours doesn’t, jump to [this section](publishing-and-custom-domains.md#dns-provider-doesnt-allow-cname-flattening) for alternate options.
@@ -271,7 +271,7 @@ Here are the provided records and correct records when adding `example.co.uk`:
 ## Related
 
 - [Cloudflare Website Builder](https://webstudio.is/cloudflare-website-builder) – Learn about Webstudio's Cloudflare integration
-- [Project Settings](project-settings.md) – Configure redirects and site settings
-- [Share Links](share-links.md) – Share projects and manage permissions
-- [SEO Settings](seo-settings.md) – Optimize your site for search engines
+- [Project settings](project-settings.md) – Configure redirects and site settings
+- [Share links](share-links.md) – Share projects and manage permissions
+- [SEO settings](seo-settings.md) – Optimize your site for search engines
 - [Self-Hosting](../self-hosting/) – Export and host your project independently

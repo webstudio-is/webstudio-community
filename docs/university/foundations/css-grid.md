@@ -2,7 +2,7 @@
 description: Learn how to create two-dimensional layouts using CSS Grid in Webstudio — define columns, rows, named areas, and position child elements visually.
 ---
 
-# 📐 CSS Grid
+# 📐 Layout & Grid
 
 > See [MDN: CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
 
@@ -215,6 +215,6 @@ When working with Grid, Webstudio displays an overlay on the canvas showing:
 ## Related
 
 - [Layout & Flexbox](layout-and-flexbox.md) — One-dimensional layout with Flexbox
-- [Responsive Design](responsive-design.md) — Working with breakpoints
-- [Design Tokens](design-tokens.md) — Creating reusable styles
-- [Anatomy of the Builder](anatomy-of-the-webstudio-builder.md) — Overview of all builder panels
+- [Responsive design](responsive-design.md) — Working with breakpoints
+- [Design tokens](design-tokens.md) — Creating reusable styles
+- [Anatomy of the builder](anatomy-of-the-webstudio-builder.md) — Overview of all builder panels

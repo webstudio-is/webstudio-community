@@ -1,11 +1,11 @@
 ---
 description: >-
-  Design Tokens enable the creation of consistent designs by packaging up
+  Design tokens enable the creation of consistent designs by packaging up
   multiple styles so that on any instance you add that Token, those styles will
   show up and stay in sync.
 ---
 
-# 🖌️ Design Tokens
+# 🖌️ Design tokens
 
 {% embed url="https://youtu.be/O8XNB2_JfaQ" %}
 
@@ -18,14 +18,14 @@ Scenario: You’re building a website with Webflow. You have two separate elemen
 - A: Manually configure the box shadow on the existing Button and Card classes individually. With this option you’re doing the same thing twice. It would save time if we could reuse the box shadow styles.
 - B: Apply the Box Shadow class on top of the existing Button and Card classes, making a combo class. Now you can’t edit the styles on Button or Card without first removing the Box Shadow class. Don’t forget to re-apply it! And good luck managing the classes on a different breakpoint. To edit the Button or Card classes you must first remove the Box Shadow combo class, then Webflow will kick you back to the desktop breakpoint, then you select the intended breakpoint again, then make your style changes, then re-apply the combo class. Experienced Webflowers know the pain.
 
-There’s a better way. It’s Design Tokens.
+There’s a better way. It’s Design tokens.
 
-## What are Design Tokens? <a href="#what-are-design-tokens" id="what-are-design-tokens"></a>
+## What are Design tokens? <a href="#what-are-design-tokens" id="what-are-design-tokens"></a>
 
-Design Tokens are everything that you wish classes would be - a way to reuse styles without limitations.
+Design tokens are everything that you wish classes would be - a way to reuse styles without limitations.
 
 - **Mix-and-match Tokens freely**: You can apply as many Tokens as you want to an instance in any order. There is no combo class silliness and no limitations with breakpoints.
-- **Universal format:** We didn’t invent Design Tokens. There is an independent spec (by the [Design Tokens Community Group](https://design-tokens.github.io/community-group/format/)) that defines a data format for Tokens, meaning you can potentially import and export tokens between multiple apps. Soon you’ll be able to sync tokens between Webstudio and Figma through the [Tokens Studio for Figma](https://tokens.studio/) plugin!
+- **Universal format:** We didn’t invent Design tokens. There is an independent spec (by the [Design Tokens Community Group](https://design-tokens.github.io/community-group/format/)) that defines a data format for Tokens, meaning you can potentially import and export tokens between multiple apps. Soon you’ll be able to sync tokens between Webstudio and Figma through the [Tokens Studio for Figma](https://tokens.studio/) plugin!
 
 ## How to use Tokens <a href="#how-to-use-tokens-in-webstudio" id="how-to-use-tokens-in-webstudio"></a>
 
@@ -123,11 +123,11 @@ When pasting content from another project or copying between pages, Webstudio in
 - This preserves both your existing styles and the pasted styles
 
 **Find Duplicate Tokens**
-Use Commands & Search (⌘+K) and search for "duplicate tokens" to find tokens with identical styles but different names. This helps clean up your token library.
+Use Commands & search (⌘+K) and search for "duplicate tokens" to find tokens with identical styles but different names. This helps clean up your token library.
 
 ## Related
 
-- [CSS Variables](css-variables.md) – Define reusable style values to use within Tokens
-- [Anatomy of the Webstudio Builder](anatomy-of-the-webstudio-builder.md) – Learn about the Style Panel and Style Sources
-- [Project Settings](project-settings.md) – Configure atomic CSS output
-- [Commands & Search](commands-and-search.md) – Quickly manage and search Tokens
+- [CSS variables](css-variables.md) – Define reusable style values to use within Tokens
+- [Anatomy of the Webstudio builder](anatomy-of-the-webstudio-builder.md) – Learn about the Style Panel and Style Sources
+- [Project settings](project-settings.md) – Configure atomic CSS output
+- [Commands & search](commands-and-search.md) – Quickly manage and search Tokens

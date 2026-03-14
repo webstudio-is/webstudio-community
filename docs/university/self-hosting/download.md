@@ -32,4 +32,4 @@ See [static site hosting platforms](./#platforms-for-static-sites) we have docum
 - [Cloudflare Pages](./cloudflare-pages.md) – Deploy static sites to Cloudflare's network
 - [GitHub Pages](./github-pages.md) – Free static site hosting from GitHub
 - [Netlify](./netlify.md) – Deploy static sites to Netlify
-- [Publishing and Custom Domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site
+- [Publishing and custom domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site
