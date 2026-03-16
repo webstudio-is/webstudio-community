@@ -127,6 +127,7 @@
   - [How to integrate Webhook Form with Zapier](university/integrations/zapier.md)
   - [How to integrate Webhook Form with N8N](university/integrations/n8n.md)
   - [How to integrate Flotiq with Webstudio](university/integrations/flotiq.md)
+  - [How to integrate Inbind with Webstudio](university/integrations/inbind.md)
 - [Craft](university/craft.md)
 
 ## Contributing
