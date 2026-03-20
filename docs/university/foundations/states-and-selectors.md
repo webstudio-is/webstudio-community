@@ -31,43 +31,6 @@ States are CSS pseudo-classes that apply styles when a condition is true, such a
 
 <figure><img src="../../.gitbook/assets/state-active.png" alt="Active hover state on a Button" width="375"><figcaption><p>The :hover state is selected — styles set now only apply on hover</p></figcaption></figure>
 
-### Available states by element
-
-The dropdown automatically shows relevant states based on the selected element's HTML tag.
-
-#### All elements
-
-| State              | When it applies                                                     |
-| ------------------ | ------------------------------------------------------------------- |
-| `:hover`           | Pointer is over the element                                         |
-| `:active`          | Element is being pressed                                            |
-| `:focus-visible`   | Element has keyboard focus (browser determines visibility)          |
-| `:focus-within`    | Element or any of its descendants has focus                         |
-
-#### Links (`a`)
-
-| State           | When it applies                      |
-| --------------- | ------------------------------------ |
-| `:visited`      | Link has been visited by the user    |
-| `:local-link`   | Link points to the current page      |
-
-#### Buttons, inputs, selects, textareas
-
-| State                | When it applies                                 |
-| -------------------- | ----------------------------------------------- |
-| `:disabled`          | Element is disabled                             |
-| `:required`          | Field must be filled before submitting           |
-| `:invalid`           | Value fails validation                          |
-| `:user-invalid`      | Value fails validation after user interaction   |
-| `:placeholder-shown` | Input is showing placeholder text                |
-| `:checked`           | Checkbox or radio is selected (inputs only)     |
-
-#### Details, dialog
-
-| State    | When it applies                    |
-| -------- | ---------------------------------- |
-| `:open`  | Element is in open/expanded state  |
-
 ### Custom states
 
 You can type any valid CSS pseudo-class into the Style Sources dropdown. If it's not in the predefined list, Webstudio will accept it as a custom selector.
