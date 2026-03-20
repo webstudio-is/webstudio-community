@@ -29,7 +29,7 @@ Be sure to clone the repository to your local machine.
 
 Use the [CLI](cli.md) to export your Project and select the “Docker” option.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-27 at 7.42.11 PM.png" alt="Selecting Docker for Webstudio"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/flightcontrol-docker-export.png" alt="Selecting Docker for Webstudio"><figcaption></figcaption></figure>
 
 ## 3. Push to GitHub
 
@@ -43,13 +43,13 @@ You do not need to install dependencies.
 
 1.  Follow the prompt to connect AWS, which will direct you to AWS. Then click “Create stack”. It may take a couple of minutes, but once it is done, Flightcontrol will take you to the next step.
 
-    ![AWS setup in Flightcontrol](../../.gitbook/assets/aws.PNG)
+    ![AWS setup in Flightcontrol](../../.gitbook/assets/flightcontrol-aws-setup.png)
 2.  Connect your GitHub account and select the repository you want to give it permission to.
 
-    ![connect GitHub button](../../.gitbook/assets/connect-github.PNG)
+    ![connect GitHub button](../../.gitbook/assets/flightcontrol-connect-github.png)
 3.  Follow the prompts: Select "Build your own" > Select "Web server" > and select "Dockerfile" in "Build Configuration".
 
-    ![build your own option](../../.gitbook/assets/buildown.PNG)![build config dockerfile](../../.gitbook/assets/build-config.png)
+    ![build your own option](../../.gitbook/assets/flightcontrol-build-config-own.png)![build config dockerfile](../../.gitbook/assets/build-config.png)
 4.  Deploy and wait. The initial deployment takes some time. Please allow up to  \~15 minutes for the deployment to finish.
 
     ![Deployed app](../../.gitbook/assets/flightcontrol-done.png)

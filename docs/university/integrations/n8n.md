@@ -20,7 +20,7 @@ One of the key features of n8n is its visual editor, which allows you to build t
 
 For our Webstudio integration, we will create a workflow that sends form submissions to Supabase and notifies a Slack channel if certain requirements are met.
 
-<figure><img src="../../.gitbook/assets/creators.app.n8n_2_L2bSfi01s2coM05A7-69U (1).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/n8n-workflow-overview.avif" alt=""><figcaption></figcaption></figure>
 
 * Get started with n8n
 * Create the workflow trigger
@@ -49,7 +49,7 @@ You can learn more about the [Webhook node and its parameters](https://docs.n8n.
 
 #### Connect the webhook to your Webstudio Form
 
-<figure><img src="../../.gitbook/assets/group_4_Xt06GzUYWM7Kf9OWv0jga.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/n8n-webhook-form-settings.avif" alt=""><figcaption></figcaption></figure>
 
 1. Open the Webstudio builder, select your form instance, go to Settings and add two properties— _Action_ and _Method_.
 2. Paste your copied Test Webhook into the Action property.
@@ -109,7 +109,7 @@ After the checks are concluded, activate your workflow.
 
 1. Replace the “Test Webhook URL” with the “Production Webhook URL” in your Form’s Action property.
 2. Go to the upper left of your n8n canvas and activate your workflow by toggling it from “Inactive” to “Active”.\
-   ![](../../.gitbook/assets/creators.app.n8n\_2\_L2bSfi01s2coM05A7-69U.avif)
+   ![](../../.gitbook/assets/n8n-workflow-overview.avif)
 ## Related
 
 - [Webhook Form](../core-components/webhook-form.md) – The form component used to trigger n8n workflows

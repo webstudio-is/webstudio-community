@@ -39,7 +39,7 @@ You can add an attribution or citation by using the “Cite” property in your 
 
 #### Using the "Cite" Property
 
-<figure><img src="../../.gitbook/assets/Blockquote-Image-1_RtA7AhlDjAzKYSdRl8F2o.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/blockquote-cite-property.avif" alt=""><figcaption></figcaption></figure>
 
 If you want to include a URL link as a citation:
 
@@ -51,7 +51,7 @@ Please note that this value will not be visible to the end-user.
 
 #### Using the “Cite” Tag
 
-<figure><img src="../../.gitbook/assets/Blockquote-Image-2_uUD_vk1OFfpy2Th1blIj6.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/blockquote-cite-tag.avif" alt=""><figcaption></figcaption></figure>
 
 If you want to include a Name/Title as a citation alongside your Blockquote:
 

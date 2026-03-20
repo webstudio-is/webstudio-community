@@ -12,7 +12,7 @@ The Element component is a versatile component that can represent any HTML eleme
 
 The Element component can be found in **Components > General**, and you can place it on your canvas by dragging and dropping it or clicking it in the Components panel.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="278"><figcaption><p>Components panel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/element-components-panel.png" alt="" width="278"><figcaption><p>Components panel</p></figcaption></figure>
 
 ---
 
@@ -72,7 +72,7 @@ The Element component can be rendered as many HTML tags, including but not limit
 
 You can change the HTML tag of the Element by opening the **Settings Panel** located on the right side of the Builder.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="239"><figcaption><p>Settings panel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/element-settings-panel.png" alt="" width="239"><figcaption><p>Settings panel</p></figcaption></figure>
 
 The tag dropdown shows all available HTML elements you can use. When you change the tag, the component's properties automatically update to show relevant attributes for that element type.
 

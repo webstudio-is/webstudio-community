@@ -14,7 +14,7 @@ description: >-
 
 ### How to use the Image component
 
-The "Image Component" can be found in Components > Media, and you can place it on your canvas by dragging and dropping it or clicking it in the Components panel. ![Webstudio image component](../../.gitbook/assets/university/Image-Article-1.webp)
+The "Image Component" can be found in Components > Media, and you can place it on your canvas by dragging and dropping it or clicking it in the Components panel. ![Webstudio image component](../../.gitbook/assets/image-component-overview.webp)
 
 #### Responsive Images
 

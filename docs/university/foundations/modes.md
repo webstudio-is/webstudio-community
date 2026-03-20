@@ -17,7 +17,7 @@ You can change modes in the Top Bar or via [keyboard shortcuts](shortcuts.md) if
 
 Additionally, you can open any project in [Safe Mode](modes.md#safe-mode), which disables script execution for security and troubleshooting purposes.
 
-<figure><img src="../../.gitbook/assets/modes (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/builder-modes.png" alt=""><figcaption></figcaption></figure>
 
 ## Design
 

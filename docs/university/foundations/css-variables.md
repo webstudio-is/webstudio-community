@@ -194,36 +194,9 @@ Add transitions on the **child instances** (not the parent) to smooth out the ch
 
 You can define as many variables as you want and use them on any children where they are defined to create more complex interactions.
 
-## Pseudo Elements
-
-Webstudio supports CSS pseudo elements like `::before` and `::after`, allowing you to add decorative content without additional HTML.
-
-### Adding Pseudo Elements
-
-1. Select an instance
-2. Open the Style Sources dropdown (or press `⌘ + Enter`)
-3. Type a custom selector like `::before` or `::after`
-4. The autocomplete will suggest available pseudo elements
-5. Add styles to the pseudo element
-
-### Common Pseudo Elements
-
-- `::before` – Insert content before the element's content
-- `::after` – Insert content after the element's content
-- `::placeholder` – Style placeholder text in inputs
-- `::selection` – Style selected/highlighted text
-- `::first-letter` – Style the first letter of text
-- `::first-line` – Style the first line of text
-
-### Example: Adding an Icon with ::before
-
-1. Select a Link or Button
-2. Add a `::before` state
-3. Set `content` to the desired text or leave empty for icon backgrounds
-4. Style the pseudo element (width, height, background, etc.)
-
 ## Related
 
+- [States and selectors](states-and-selectors.md) – Style hover, focus, active states and pseudo-elements
 - [Design tokens](design-tokens.md) – Package multiple styles for reuse
 - [Modes](modes.md) – Create breakpoints for dark mode and other conditions
 - [Animations](animations.md) – Use CSS variables for hover animations

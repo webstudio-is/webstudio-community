@@ -10,7 +10,7 @@ description: Data variables enable the definition and use of a value throughout 
 
 Data variables are defined on any instance in the navigator such as Global Root, Body, or Heading. Variables can be found on the right panel in the settings tab.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-08 at 20.28.15.png" alt="Variables in the builder"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/variables-settings-panel.png" alt="Variables in the builder"><figcaption></figcaption></figure>
 
 ## Variable scope
 

@@ -30,7 +30,7 @@ Here is the process for creating and reusing Slot instances:
 
 #### Creating a Slot instance
 
-&#x20;![create a slot in Webstudio](../../.gitbook/assets/university/Slots_Image.avif)
+&#x20;![create a slot in Webstudio](../../.gitbook/assets/slot-component-overview.avif)
 
 1. You can find the Slots component in the “Components Panel.”
 2. Drag “Slot” from the Components Panel onto your canvas to create a Slot instance. Alternatively, you can add it to the currently selected instance with a click.

@@ -26,14 +26,14 @@ You can customize the properties of a Link instance by selecting it and going to
 
 ### Href
 
-<figure><img src="../../.gitbook/assets/Mask_group_IidxWSFrpfv1FljERzYHo.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/link-href-property.avif" alt=""><figcaption></figcaption></figure>
 
 The "href" property determines what the Link instance will lead to, such as a URL, page, phone, attachment, or email address.
 
 1. **URL**: In its most common form, the "href" property references a URL, linking to another website or page.
 2. **Page**: You can link to all of your pages within your site here. You can also link to specific sections within those pages. To link to a section on a page, first go to the section and fill out the `ID` field in Settings. Then go back to the link, select the page, and then in the next dropdown select the `ID` you just created. Like this:
 
-   <div align="center"><figure><img src="../../.gitbook/assets/section-id (1).png" alt="" width="375"><figcaption><p>First add the ID to the section you want to link to</p></figcaption></figure></div>
+   <div align="center"><figure><img src="../../.gitbook/assets/section-id.png" alt="" width="375"><figcaption><p>First add the ID to the section you want to link to</p></figcaption></figure></div>
 
    <div align="center"><figure><img src="../../.gitbook/assets/link-to-section.png" alt="" width="375"><figcaption><p>Then add a page link and select the section.</p></figcaption></figure></div>
 
@@ -43,7 +43,7 @@ The "href" property determines what the Link instance will lead to, such as a UR
 
 ### Target
 
-<figure><img src="../../.gitbook/assets/Mask_group-1_E-3k5yfSy8NojJjjkjPZl.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/link-target-property.avif" alt=""><figcaption></figcaption></figure>
 
 You can use the "Target" property to modify a link instance's behavior and define how linked content is displayed.
 
@@ -71,7 +71,7 @@ You can add any Webstudio component inside a Link element to make it clickable â
 
 When using links for navigation and wanting to highlight the current page, the link component has a "Local Link" state in every style source.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-08-22 at 11.36.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/link-local-link-state.png" alt=""><figcaption></figcaption></figure>
 
 ## Related
 

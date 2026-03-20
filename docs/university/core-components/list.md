@@ -40,7 +40,7 @@ Setting the List Style Type allows you to define the appearance of the bullet po
 
 ### How to customize a List instance's properties in Webstudio
 
-<figure><img src="../../.gitbook/assets/List_Component_Article_Image_KbSE_DHwgNmwowMkgT7Sy.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/list-component-properties.avif" alt=""><figcaption></figcaption></figure>
 
 You can customize a List’s properties by selecting it and going to Settings. Lists come with three base properties: Ordered, Reserved, and Start. To add additional properties, click the “+” next to Properties and add a new property.
 

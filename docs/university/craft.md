@@ -170,7 +170,7 @@ Avoid abbreviations unless otherwise noted. Universal clarity is a priority, and
 
 - Changed `container` token to use flex for proper compatibility with Craft Library. To adopt this change, go to any container token and set display flex, flex-direction column, and gap to `var(--gap-m)` . Any containers that need a horizontal layout will need to be manually set on Local, such as the style guide navigation.
 
-  ![container flex styles](../.gitbook/assets/1.2.png)
+  ![container flex styles](../.gitbook/assets/craft-container-flex-styles.png)
 
 ### 1.1
 

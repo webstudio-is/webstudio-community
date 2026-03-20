@@ -3,7 +3,7 @@ description: >-
   Learn how to use Webstudio's advanced visual builder to create an Airtable
   frontend without writing code, including an overview page with filters, a
   details page, and a sitemap.
-cover: ../../.gitbook/assets/airtable-frontend-cover (1).png
+cover: ../../.gitbook/assets/airtable-frontend-cover.png
 coverY: 0
 ---
 
@@ -15,10 +15,10 @@ A lightweight Airtable template is in the Marketplace. To start a new project, [
 
 By the end of this tutorial, you will have the following using your [Airtable](https://airtable.com/) database and [Webstudio](https://webstudio.is/):
 
-* **An overview page** – One page that contains all the records in Airtable, each with a link to view that record on a details page (a dynamic page).
-* **A details page** – A template displaying the record/row matching the record viewed. If the user is on /products/mouse, the Dynamic Page will fetch the Airtable record matching "mouse" and display its contents.
-* **A filter on the overview page** – A search field that lets users search the backend (Airtable) for records.
-* **A sitemap** – A dynamic sitemap containing the various records in Airtable.
+- **An overview page** – One page that contains all the records in Airtable, each with a link to view that record on a details page (a dynamic page).
+- **A details page** – A template displaying the record/row matching the record viewed. If the user is on /products/mouse, the Dynamic Page will fetch the Airtable record matching "mouse" and display its contents.
+- **A filter on the overview page** – A search field that lets users search the backend (Airtable) for records.
+- **A sitemap** – A dynamic sitemap containing the various records in Airtable.
 
 {% embed url="https://vimeo.com/949913677" fullWidth="true" %}
 Video tutorial
@@ -85,9 +85,9 @@ Use the following as a template to create your dynamic URL:
 
 Be sure to:
 
-* Use your URL
-* Replace `YOUR_COLUMN_NAME` with the column you want to filter by. It's best to have a URL-friendly column in your Airtable, meaning it only contains alphanumeric characters and dashes.
-* Replace `YOUR_DYNAMIC_PATH` with what you created in the Dynamic Path. If you used `:slug`, you will enter "slug".
+- Use your URL
+- Replace `YOUR_COLUMN_NAME` with the column you want to filter by. It's best to have a URL-friendly column in your Airtable, meaning it only contains alphanumeric characters and dashes.
+- Replace `YOUR_DYNAMIC_PATH` with what you created in the Dynamic Path. If you used `:slug`, you will enter "slug".
 
 **In plain text, the Expression will say, "Hey, Airtable, get the record where the slug value equals the currently viewed slug."**
 
@@ -205,7 +205,7 @@ Here's how to do it:
 2. Add a new Resource that fetches your slugs and, optionally, the record's updated time to inform search engines when the last edit was made.
 3. Bind those values.
 
-Refer to [this video chapter](https://www.youtube.com/watch?v=QC6Y7BHduLw\&t=975s) for a full video demonstration on building a sitemap. While the backend differs in this video, the concepts are the same.
+Refer to [this video chapter](https://www.youtube.com/watch?v=QC6Y7BHduLw&t=975s) for a full video demonstration on building a sitemap. While the backend differs in this video, the concepts are the same.
 
 ## Start using Webstudio as a frontend for Airtable
 
@@ -215,10 +215,10 @@ The flexibility of Resources enables you to fetch exactly what you need from one
 
 ## Resources
 
-* [Using filters to dynamically display Airtable content](../how-tos/using-filters-to-dynamically-display-content.md)
-* [Building dynamic pages for Airtable data](https://youtu.be/3mW7cPDXIxY)
-* [Using Webstudio Webhook form to send data to an Airtable automation (doc)](airtable-1.md)
-* [Airtable filters API (doc)](https://support.airtable.com/docs/airtable-web-api-using-filterbyformula-or-sort-parameters)
+- [Using filters to dynamically display Airtable content](../how-tos/using-filters-to-dynamically-display-content.md)
+- [Building dynamic pages for Airtable data](https://youtu.be/3mW7cPDXIxY)
+- [Using Webstudio Webhook form to send data to an Airtable automation (doc)](airtable-1.md)
+- [Airtable filters API (doc)](https://support.airtable.com/docs/airtable-web-api-using-filterbyformula-or-sort-parameters)
 
 ## Related
 

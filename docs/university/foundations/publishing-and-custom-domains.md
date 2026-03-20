@@ -249,7 +249,7 @@ To publish to a subdomain:
 
 You may see "Worker not Found" message when opening the site, like this:
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="Worker not found"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/worker-not-found.png" alt="Worker not found"><figcaption></figcaption></figure>
 
 Worker not found is due to one of the following reasons:
 

@@ -27,13 +27,13 @@ You can find the Vimeo Component in the Components Panel in the Media Section. H
 
 #### Adding the Vimeo component to your canvas
 
-![Vimeo to your canvas](../../.gitbook/assets/university/Video_component_step_1.avif)
+![Vimeo to your canvas](../../.gitbook/assets/vimeo-component-step-1.avif)
 
 1. You can find the Vimeo component in the “Components Panel” in the Media section.
 2. Add the component by dragging and dropping it to the canvas or with a click to put it inside the selected instance.
 3. Once you have the component on your canvas, you can head to Settings on the right to add your video URL and make other changes.
 
-![Vimeo background settings](../../.gitbook/assets/university/Video_component_properties.avif)
+![Vimeo background settings](../../.gitbook/assets/vimeo-component-properties.avif)
 
 #### Modifying the Preview Image
 
@@ -48,7 +48,7 @@ The Vimeo component comes with several properties that you can use to customize 
 
 Here’s how you can use the following properties:&#x20;
 
-![Vimeo background properties](../../.gitbook/assets/university/Vimeo_instance_properties-2.avif)
+![Vimeo background properties](../../.gitbook/assets/vimeo-instance-properties.avif)
 
 - **Show Preview**\
   Toggle this property on to render the preview image from Vimeo rather than the static image in Webstudio. This property is turned off by default because rendering the Vimeo preview requires making an API call which can slow down the speed of your page.

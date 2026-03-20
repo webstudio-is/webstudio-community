@@ -19,6 +19,7 @@
   - [📱 Responsive design](university/foundations/responsive-design.md)
   - [🧱 CSS variables](university/foundations/css-variables.md)
   - [🖌️ Design tokens](university/foundations/design-tokens.md)
+  - [🎯 States and selectors](university/foundations/states-and-selectors.md)
   - [🔡 Data variables](university/foundations/variables.md)
   - [➕ Expression editor](university/foundations/expression-editor.md)
   - [🎨 Custom classes & attributes](university/foundations/custom-classes-and-attributes.md)
