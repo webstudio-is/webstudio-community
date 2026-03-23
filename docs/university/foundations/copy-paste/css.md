@@ -28,13 +28,28 @@ The styles are parsed and displayed in their respective fields (they will also b
 4. Inspect your website with [**DevTools**](https://developer.chrome.com/docs/devtools) and copy the CSS.
 5. Online tutorials, [CodePen](https://codepen.io/), ChatGPT, and many other sources provide CSS.
 
-## CSS declarations only
+## Pasting CSS declarations
 
-Webstudio liberates website creators from CSS selectors so they don't have to worry about specificity, combo classes, and having an HTML structure tightly coupled with CSS.
+When pasting into the Style Panel, Webstudio accepts CSS declarations (e.g., `background: blue;`). Selectors are not needed because Webstudio applies styles directly to the selected instance.
 
-Therefore, Webstudio supports pasting CSS declarations, _not_ selectors.
+## Pasting HTML with CSS
 
-## Tailwind CSS Support
+When you paste HTML that includes `<style>` blocks, Webstudio extracts the CSS rules and converts class-based selectors into [design tokens](../design-tokens.md). Each class becomes a reusable token, and styles are applied to the matching elements.
+
+### Supported selectors
+
+- **Class selectors** — `.card { padding: 16px; }` creates a token named "card"
+- **Compound selectors** — `.card.featured { border: 1px solid gold; }` creates a combined token
+- **Descendant selectors** — `.card .title { font-size: 24px; }` applies styles to `.title` elements inside `.card`
+- **Child selectors** — `.card > .header { display: flex; }` applies styles to direct `.header` children of `.card`
+- **Pseudo-states** — `.button:hover { opacity: 0.8; }` applies styles to the hover state
+- **Media queries** — `@media (min-width: 768px) { .card { ... } }` creates breakpoint-specific styles, including nested `@media` rules
+
+Non-class selectors (tag selectors, ID selectors, attribute selectors) are applied as inline styles where possible.
+
+If a nested selector references elements not present in the pasted HTML, Webstudio shows a notification listing the skipped selectors.
+
+## Tailwind CSS support
 
 You can paste HTML with Tailwind CSS classes, and Webstudio will automatically convert the Tailwind utility classes into native Webstudio styles.
 

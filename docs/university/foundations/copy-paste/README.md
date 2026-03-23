@@ -20,6 +20,7 @@ description: Webstudio supports copy-pasting within the platform and from extern
 
 ## Additional Paste Support
 
+- **HTML with CSS** – Paste HTML containing `<style>` blocks; class-based selectors are converted into [design tokens](../design-tokens.md) and applied to matching elements
 - **SVG** – Paste SVG code directly onto the canvas to create native SVG components
 - **HTML with Tailwind** – Paste HTML containing Tailwind CSS classes; styles are automatically converted
 - **Images** – Paste images from clipboard; they are automatically uploaded to Assets
