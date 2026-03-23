@@ -14,7 +14,7 @@ n8n is a platform designed to automate workflows. It helps you set up a series o
 
 One of the key features of n8n is its visual editor, which allows you to build these automated workflows without having to write any code.
 
-***
+---
 
 ### How to create a Webstudio > n8n integration?
 
@@ -22,28 +22,28 @@ For our Webstudio integration, we will create a workflow that sends form submiss
 
 <figure><img src="../../.gitbook/assets/n8n-workflow-overview.avif" alt=""><figcaption></figcaption></figure>
 
-* Get started with n8n
-* Create the workflow trigger
-* Connect the webhook to your Webstudio Form
-* Integrate with External Applications (Supabase)
-* Add an IF Node
-* Add a Slack Node
-* Finalize your workflow
+- Get started with n8n
+- Create the workflow trigger
+- Connect the webhook to your Webstudio Form
+- Integrate with External Applications (Supabase)
+- Add an IF Node
+- Add a Slack Node
+- Finalize your workflow
 
 #### Get started with n8n
 
 Start by logging in to your n8n account.
 
-* Inside your dashboard, go to Credentials > Add credential. For this demo, we will be using Supabase and Slack. You can find detailed instructions for all [supported credential setups](https://docs.n8n.io/integrations/builtin/credentials).
-* After setting up the relevant credentials, go to “Workflows” and create a new workflow to start building your automation.
+- Inside your dashboard, go to Credentials > Add credential. For this demo, we will be using Supabase and Slack. You can find detailed instructions for all [supported credential setups](https://docs.n8n.io/integrations/builtin/credentials).
+- After setting up the relevant credentials, go to “Workflows” and create a new workflow to start building your automation.
 
 #### Create the workflow trigger
 
 To initiate our n8n workflow with a webhook, we need to configure a webhook trigger.
 
-* Add a Webhook node to your workflow by going to Add first step > Select a trigger > On webhook call
-* Set HTTP Method to POST.
-* Copy the “Test Webhook URL” and head over to Webstudio.
+- Add a Webhook node to your workflow by going to Add first step > Select a trigger > On webhook call
+- Set HTTP Method to POST.
+- Copy the “Test Webhook URL” and head over to Webstudio.
 
 You can learn more about the [Webhook node and its parameters](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/).
 
@@ -77,11 +77,11 @@ For this example, we will create a condition to send a Slack channel message onl
 
 1. Go to Add Node > Flow > IF.
 2. Add a condition that sets your IF node to “true” if the value from your input is $10,000 or under.
-3.  Click on “Execute Node” This will return a true/false result.
+3. Click on “Execute Node” This will return a true/false result.
 
-    a. On “true”, the value is under $10,000.
+   a. On “true”, the value is under $10,000.
 
-    b. On “false”, the value is over $10,000.
+   b. On “false”, the value is over $10,000.
 
 You can [learn more about the IF node and its parameters](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.if/).
 
@@ -110,10 +110,11 @@ After the checks are concluded, activate your workflow.
 1. Replace the “Test Webhook URL” with the “Production Webhook URL” in your Form’s Action property.
 2. Go to the upper left of your n8n canvas and activate your workflow by toggling it from “Inactive” to “Active”.\
    ![](../../.gitbook/assets/n8n-workflow-overview.avif)
+
 ## Related
 
 - [Webhook Form](../core-components/webhook-form.md) – The form component used to trigger n8n workflows
 - [Zapier Integration](./zapier.md) – Alternative workflow automation platform
 - [Pabbly Integration](./pabbly.md) – Another automation option with flat-rate pricing
 - [Supabase Integration](./supabase.md) – Database that works well with n8n workflows
-- [Airtable Form Integration](./airtable-1.md) – Send form data directly to Airtable
+- [Airtable Form Integration](./airtable-form-webhook.md) – Send form data directly to Airtable

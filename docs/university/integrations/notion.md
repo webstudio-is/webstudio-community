@@ -248,5 +248,5 @@ The flexibility of Resources enables you to fetch exactly what you need from one
 - [CMS](../foundations/cms.md) – Learn about dynamic pages and Resources in Webstudio
 - [Variables](../foundations/variables.md) – Understand how to create and use Resource variables
 - [Collection](../core-components/collection.md) – Display multiple records from your data source
-- [Airtable Integration](./airtable.md) – Another popular CMS option for Webstudio
+- [Airtable Integration](./airtable-frontend.md) – Another popular CMS option for Webstudio
 - [Hygraph Integration](./hygraph.md) – Build a frontend for Hygraph using Webstudio

@@ -56,16 +56,16 @@ Pseudo-elements target virtual parts of an element, such as inserting content be
 
 ### Common pseudo-elements
 
-| Pseudo-element      | What it targets                                    |
-| ------------------- | -------------------------------------------------- |
-| `::before`          | Virtual element inserted before the content        |
-| `::after`           | Virtual element inserted after the content         |
-| `::placeholder`     | Placeholder text in inputs and textareas           |
-| `::selection`       | Text selected/highlighted by the user              |
-| `::first-letter`    | First letter of a block element                    |
-| `::first-line`      | First line of a block element                      |
-| `::marker`          | Bullet or number of a list item                    |
-| `::backdrop`        | Box behind a fullscreen or modal element           |
+| Pseudo-element   | What it targets                             |
+| ---------------- | ------------------------------------------- |
+| `::before`       | Virtual element inserted before the content |
+| `::after`        | Virtual element inserted after the content  |
+| `::placeholder`  | Placeholder text in inputs and textareas    |
+| `::selection`    | Text selected/highlighted by the user       |
+| `::first-letter` | First letter of a block element             |
+| `::first-line`   | First line of a block element               |
+| `::marker`       | Bullet or number of a list item             |
+| `::backdrop`     | Box behind a fullscreen or modal element    |
 
 {% hint style="info" %}
 `::before` and `::after` require a `content` value to be visible. Set it in the **Advanced** section — even an empty string (`""`) works.

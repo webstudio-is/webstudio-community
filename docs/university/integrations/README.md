@@ -13,7 +13,7 @@ This page is a work in progress – much more to come.
 ### CMSs
 
 * [Hygraph](hygraph.md)
-* [Airtable](airtable.md)
+* [Airtable](airtable-frontend.md)
 * [WordPress](wordpress.md)
 * [Flotiq](flotiq.md)
 
@@ -27,7 +27,7 @@ This page is a work in progress – much more to come.
 * [Pabbly](pabbly.md)
 * [Zappier](zapier.md)
 * [N8N](n8n.md)
-* [Airtable](airtable-1.md)
+* [Airtable](airtable-form-webhook.md)
 
 
 

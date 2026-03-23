@@ -85,5 +85,5 @@ Make sure to check the responsiveness and appearance on mobile devices before pu
 - [CMS](../foundations/cms.md) – Learn about dynamic pages and Resources in Webstudio
 - [Variables](../foundations/variables.md) – Understand how to create Resource variables
 - [Collection](../core-components/collection.md) – Display multiple records from Supabase
-- [Airtable Integration](./airtable.md) – Alternative database option for Webstudio
+- [Airtable Integration](./airtable-frontend.md) – Alternative database option for Webstudio
 - [n8n Integration](./n8n.md) – Automate workflows between Webstudio forms and Supabase

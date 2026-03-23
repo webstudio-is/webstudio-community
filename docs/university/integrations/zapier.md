@@ -61,4 +61,4 @@ Zapier allows you to connect Webstudio forms to thousands of apps, automating wo
 - [Webhook Form](../core-components/webhook-form.md) – The form component used to send data to Zapier
 - [Pabbly Integration](./pabbly.md) – Alternative with flat-rate pricing for high volume
 - [n8n Integration](./n8n.md) – Open-source workflow automation platform
-- [Airtable Form Integration](./airtable-1.md) – Send form submissions directly to Airtable
+- [Airtable Form Integration](./airtable-form-webhook.md) – Send form submissions directly to Airtable

@@ -10,7 +10,7 @@ description: >-
 
 Out of the box, Webstudio automatically sends form data to the site owner’s registered email, effectively creating singular records. To expand this functionality, we can seamlessly integrate it with a relational database like Airtable. This will centralize, access, and analyze all your form submission data in one place, making data management a breeze and enabling efficient team collaboration.
 
-***
+---
 
 ### Integration overview:
 
@@ -70,7 +70,7 @@ Airtable's native [automation](https://support.airtable.com/docs/getting-started
 ## Related
 
 - [Webhook Form](../core-components/webhook-form.md) – The form component used to send data to Airtable
-- [Airtable Frontend](./airtable.md) – Build a complete frontend for Airtable data
+- [Airtable Frontend](./airtable-frontend.md) – Build a complete frontend for Airtable data
 - [Zapier Integration](./zapier.md) – Alternative workflow automation for forms
 - [Pabbly Integration](./pabbly.md) – Another automation option with flat-rate pricing
 - [n8n Integration](./n8n.md) – Open-source automation with visual workflow editor

@@ -30,7 +30,7 @@ By default, submissions are sent to the Project owner.
 
 You can also send form submission data to a webhook—an external URL that receives the data and triggers an action, such as adding a contact to an email automation platform.
 
-1. Obtain a webhook URL from a third-party platform such as [Airtable](../integrations/airtable-1.md).
+1. Obtain a webhook URL from a third-party platform such as [Airtable](../integrations/airtable-form-webhook.md).
 2. Paste the URL into the `Action` field in **Webhook Form > Settings**.
 
 Once set up, every form submission will send a payload (form fields and values) to the webhook URL.

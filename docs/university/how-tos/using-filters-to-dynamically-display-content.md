@@ -82,5 +82,5 @@ You can add multiple filters by extending the filterByFormula with AND/OR logic.
 - [CMS](../foundations/cms.md) – Understand how dynamic content works in Webstudio
 - [Collection](../core-components/collection.md) – Display lists of dynamic data
 - [Variables](../foundations/variables.md) – Create and use variables for dynamic content
-- [Airtable Integration](../integrations/airtable.md) – Connect your Airtable base to Webstudio
+- [Airtable Integration](../integrations/airtable-frontend.md) – Connect your Airtable base to Webstudio
 - [Form](../core-components/form.md) – Build forms to capture user input

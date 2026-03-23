@@ -217,7 +217,7 @@ The flexibility of Resources enables you to fetch exactly what you need from one
 
 - [Using filters to dynamically display Airtable content](../how-tos/using-filters-to-dynamically-display-content.md)
 - [Building dynamic pages for Airtable data](https://youtu.be/3mW7cPDXIxY)
-- [Using Webstudio Webhook form to send data to an Airtable automation (doc)](airtable-1.md)
+- [Using Webstudio Webhook form to send data to an Airtable automation (doc)](airtable-form-webhook.md)
 - [Airtable filters API (doc)](https://support.airtable.com/docs/airtable-web-api-using-filterbyformula-or-sort-parameters)
 
 ## Related
@@ -225,5 +225,5 @@ The flexibility of Resources enables you to fetch exactly what you need from one
 - [CMS](../foundations/cms.md) – Learn about dynamic pages and Resources in Webstudio
 - [Variables](../foundations/variables.md) – Understand how to create Resource variables
 - [Collection](../core-components/collection.md) – Display multiple records from Airtable
-- [Airtable Form Integration](./airtable-1.md) – Send form submissions to Airtable
+- [Airtable Form Integration](./airtable-form-webhook.md) – Send form submissions to Airtable
 - [Notion Integration](./notion.md) – Alternative database option for Webstudio
