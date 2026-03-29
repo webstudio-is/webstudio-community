@@ -16,6 +16,7 @@ This page is a work in progress – much more to come.
 * [Airtable](airtable-frontend.md)
 * [WordPress](wordpress.md)
 * [Flotiq](flotiq.md)
+* [Inbind](inbind.md)
 
 ### Databases
 
