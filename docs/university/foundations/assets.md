@@ -10,41 +10,54 @@ The Assets panel is located on the left side of the builder. It stores all stati
 
 | Category | Formats |
 |---|---|
-| **Images** | JPEG, PNG, GIF, WebP, SVG, ICO, and more |
-| **Fonts** | WOFF, WOFF2, TTF, OTF, and more |
-| **Documents** | PDF, JSON, XML, and more |
+| **Images** | JPEG, PNG, GIF, WebP, SVG, AVIF, ICO, BMP, TIFF |
+| **Fonts** | WOFF, WOFF2, TTF, OTF |
+| **Video** | MP4, MOV, AVI, WebM |
+| **Audio** | MP3, WAV, OGG, M4A |
+| **Documents** | PDF, DOC, DOCX, XLS, XLSX, CSV, PPT, PPTX |
+| **Code & text** | TXT, MD, JS, CSS, JSON, HTML, XML |
+| **Archives** | ZIP, RAR |
+
+{% hint style="info" %}
+JPEG, PNG, GIF, WebP, SVG, and AVIF images are automatically optimized and resized by Cloudflare. Other image formats (ICO, BMP, TIFF) are served as-is without optimization.
+{% endhint %}
 
 ## Uploading assets
 
-Drag files directly into the Assets panel or click the upload button. Multiple files can be uploaded at once.
+Drag files directly into the Assets panel, drop them anywhere on the panel, or click the upload icon in the panel header. Multiple files can be uploaded at once. For images, you can also drag a URL directly from the browser to upload from an external source.
+
+## Search
+
+Type in the search field at the top of the Assets panel to filter assets by name.
 
 ## Filtering and sorting
 
-Use the filter dropdown to show only a specific category (Images, Fonts, Documents, or All). Sort assets by:
+Use the filter dropdown to show only a specific category: All, Images, Documents, Video, Audio, Code, Archives, or Fonts.
 
-- **Name** — alphabetically A–Z or Z–A
-- **Date** — newest or oldest first
-- **Size** — largest or smallest first
+Sort assets by:
+
+- **Alphabetical** — A→Z or Z→A
+- **Date created** — newest or oldest first
+- **File size** — largest or smallest first
 
 ## Asset details
 
-Click any asset to open its detail panel:
+Hover any asset and click the gear icon to open its detail panel:
 
-- **Name** — click to rename
-- **Description** — optional notes for organization
-- **Dimensions** — width and height (images only)
-- **File size**
+- **File size** and **MIME type**
+- **Dimensions** and **Aspect ratio** (images only)
 - **Uses** — how many places in the project reference this asset
+- **Name** — editable; used as the filename in URLs
+- **Description** — used as the default `alt` text for images
+- **ID** — unique identifier, can be copied to clipboard
 
 ## Deleting assets
 
-- **Unused assets** can be deleted directly.
-- **Assets in use** show a list of all usages before confirming deletion, so you can review the impact.
-- **Delete all unused assets** — click the brush icon in the Assets panel header to find and batch-delete all unreferenced assets. The same action is available from the [Command panel](commands-and-search.md).
+Delete and download buttons are available inside the asset detail panel (gear icon on hover):
 
-{% hint style="info" %}
-Assets that are in use display a gear icon. Attempting to delete them will show every usage so you can decide.
-{% endhint %}
+- **Unused assets** can be deleted immediately.
+- **Assets in use** show a "Review & delete" button that lists every usage with clickable links to each location, so you can review the impact before confirming.
+- **Delete all unused assets** — click the brush icon in the Assets panel header to find and batch-delete all unreferenced assets in one action.
 
 ## Downloading assets
 

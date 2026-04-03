@@ -4,44 +4,48 @@ description: Add, edit, and manage breakpoints to control how your site responds
 
 # 📱 Breakpoints
 
-Breakpoints are found at the top of the builder canvas. They define the screen widths (and other media conditions) at which your site's styles change. Webstudio uses a **desktop-first** cascade — styles set on a larger breakpoint apply downward to all smaller breakpoints unless overridden.
+Breakpoints are found at the top of the builder canvas. They define the screen widths (and other media conditions) at which your site's styles change. Webstudio is **desktop-first by default** — Base has no media condition and applies everywhere, and the default breakpoints use max-width to adjust styles as the screen gets smaller. You can change this by adding min-width breakpoints instead, making your project mobile-first.
 
 For guidance on how to use breakpoints to build responsive layouts, see [Responsive design](responsive-design.md).
 
+## Two types of width breakpoints
+
+**Max-width breakpoints** apply styles when the screen is at or below the specified width. This is the **desktop-first** approach — you design for large screens first on Base, then add max-width breakpoints to adjust styles as the screen gets smaller.
+
+**Min-width breakpoints** apply styles when the screen is at or above the specified width. This is the **mobile-first** approach — you design for small screens first, then add min-width breakpoints to adjust as the screen gets larger.
+
+You can mix both types in one project if needed.
+
 ## Default breakpoints
 
-| Breakpoint | Min / Max width | Typical device |
-|---|---|---|
-| **Base** | ≥ 1280px | Desktop / large screen |
-| **1280** | ≤ 1280px | Laptop / medium desktop |
-| **991** | ≤ 991px | Tablet landscape |
-| **767** | ≤ 767px | Tablet portrait |
-| **479** | ≤ 479px | Mobile |
+The default breakpoints use the **max-width** (desktop-first) approach:
 
-{% hint style="info" %}
-When you select the 991px breakpoint, the canvas resizes to 768px. This is intentional — you style for the extreme edge of the breakpoint range to catch all edge cases. When the viewport drops below 767px, the next breakpoint takes over.
-{% endhint %}
+| Breakpoint | Condition | Description |
+|---|---|---|
+| **Base** | None (default) | Applies to all screen sizes — the starting point for all styles |
+| **Tablet** | `max-width: 991px` | Screens 991px wide and below |
+| **Mobile landscape** | `max-width: 767px` | Screens 767px wide and below |
+| **Mobile portrait** | `max-width: 479px` | Screens 479px wide and below |
 
 ## How styles cascade
 
-Styles flow **downward** (from larger to smaller):
+Styles cascade **in the direction that narrows the match**:
 
-- A style set on **Base** applies to all breakpoints.
-- A style set on **991px** applies to 991px, 767px, and 479px.
-- A style set on **479px** applies only to 479px.
+- With **max-width** breakpoints: styles flow from Base (largest) downward to smaller breakpoints. A style set on Base applies everywhere; a style on the 479px breakpoint only applies at 479px and below.
+- With **min-width** breakpoints: styles flow upward. A style set on a 768px min-width breakpoint applies to all screens 768px and wider.
 
-Each breakpoint can override styles from larger ones. This means you typically design at Base first, then progressively adjust for smaller screens.
+Each breakpoint can override styles inherited from the previous one in the cascade.
 
 ## Adding a breakpoint
 
 1. Click any breakpoint in the top bar to open the breakpoint menu.
 2. Click **+** to add a new breakpoint.
-3. Set a **width** (for `min-width` or `max-width`) or choose a **media condition** (see below).
+3. Set a **min-width** or **max-width** value, or choose a **media condition** (see below).
 4. Give it a label.
 
 ## Editing and deleting breakpoints
 
-Click any breakpoint to open its settings. You can change the scale, label, or media condition. Breakpoints can be deleted unless they are the base breakpoint.
+Click any breakpoint to open its settings. You can change the width, label, or media condition. Breakpoints can be deleted unless they are the base breakpoint.
 
 ## Custom media conditions
 
@@ -69,16 +73,13 @@ Beyond screen width, Webstudio supports any CSS media condition. This lets you s
 2. Disable or simplify animations for affected users.
 3. Improves accessibility for users with vestibular disorders.
 
+## Related
+
+- [Responsive design](responsive-design.md) – How to use breakpoints to build responsive layouts
+- [Style panel](style-panel.md) – Applying styles at each breakpoint
 ## Style label colors
 
-When a breakpoint is selected, style labels in the Style Panel show:
-
-| Color | Meaning |
-|---|---|
-| **Blue** | Style set on the current breakpoint |
-| **Orange** | Inherited from a larger breakpoint (or another source) |
-
-Hover any label to see a tooltip with the exact source.
+When a breakpoint is active, style property labels in the Style Panel use color to show where a value comes from. See [Label colors](anatomy-of-the-webstudio-builder.md#label-colors) for the full reference. Hover any label to see a tooltip with the exact source.
 
 {% hint style="warning" %}
 Mixing `min-width` and `max-width` breakpoints in the same project makes style cascading harder to reason about. Stick to one direction for maintainability.
@@ -88,4 +89,5 @@ Mixing `min-width` and `max-width` breakpoints in the same project makes style c
 
 - [Responsive design](responsive-design.md) – How to build layouts that adapt to different screen sizes
 - [Style panel](style-panel.md) – Apply styles at the selected breakpoint
+- [Label colors](anatomy-of-the-webstudio-builder.md#label-colors) – Full reference for property label colors
 - [Project settings](project-settings.md) – Breakpoints can also be managed via Project settings
