@@ -6,6 +6,8 @@ description: Configure per-page settings such as path, SEO, redirects, and metad
 
 Page settings control how an individual page behaves — its URL, SEO metadata, status code, redirect, and more. Open Page Settings by clicking the gear icon next to any page in the Pages panel.
 
+<figure><img src="../../.gitbook/assets/page-settings-general.png" alt="Page settings panel showing Page name, Path, Status code, Redirect, and Language fields"><figcaption><p>General page settings</p></figcaption></figure>
+
 ## Page name
 
 The name displayed in the Pages panel in the builder. It does not affect the URL or any output — it's purely for organizing pages in the editor.
@@ -30,8 +32,6 @@ Enter a path such as `/new-page`. This performs a `301` permanent redirect. Leav
 
 The redirect field supports expressions, making it dynamic. For example, on a dynamic page you can redirect to your 404 page when no CMS data is found. See [Alternative: redirect instead of showing 404 content](cms.md#alternative-redirect-instead-of-showing-404-content) for details.
 
-<figure><img src="../../.gitbook/assets/page-settings-general.png" alt="Page settings panel showing Page name, Path, Status code, Redirect, and Language fields"><figcaption><p>General page settings</p></figcaption></figure>
-
 ## Language
 
 Sets the `lang` attribute on the `<html>` element for this page, e.g. `en`, `fr`, `de`. Used by browsers, screen readers, and search engines to identify the page language.
@@ -46,6 +46,8 @@ Defaults to **HTML**. Switch to **XML** when building XML-based pages such as si
 
 SEO settings that control how the page appears in search engine results.
 
+<figure><img src="../../.gitbook/assets/page-settings-seo.png" alt="SEO section showing Title, Description, Exclude from search, and search result preview"><figcaption><p>SEO settings with search result preview</p></figcaption></figure>
+
 ### Title
 
 The `<title>` tag and the headline shown in search results. Should clearly describe the page content. Can be bound to a CMS variable on dynamic pages.
@@ -58,8 +60,6 @@ The meta description shown as the snippet in search results. Does not affect ran
 
 Adds a `noindex` directive to the page, preventing search engines from indexing it.
 
-<figure><img src="../../.gitbook/assets/page-settings-seo.png" alt="SEO section showing Title, Description, Exclude from search, and search result preview"><figcaption><p>SEO settings with search result preview</p></figcaption></figure>
-
 ## Social image
 
 The Open Graph image displayed when the page is shared on social media (Facebook, X, LinkedIn, etc.). You can either upload an image or bind a URL expression to a dynamic image from your CMS.
@@ -70,9 +70,9 @@ The Open Graph image displayed when the page is shared on social media (Facebook
 
 Add arbitrary `<meta>` tags to the page's `<head>`. Each entry has a **property** (the meta tag's `name` or `property` attribute) and a **content** value, both of which support expressions.
 
-Use this for meta tags not covered by the fields above, such as `og:type`, `twitter:card`, or any custom meta needed by third-party integrations.
-
 <figure><img src="../../.gitbook/assets/page-settings-custom-metadata.png" alt="Custom metadata section with a property and content row filled in"><figcaption><p>Adding a custom meta tag</p></figcaption></figure>
+
+Use this for meta tags not covered by the fields above, such as `og:type`, `twitter:card`, or any custom meta needed by third-party integrations.
 
 ## Dynamic data
 
