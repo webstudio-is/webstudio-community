@@ -4,7 +4,7 @@ description: Upload and manage images, fonts, and other files used in your proje
 
 # 🗂️ Assets
 
-The Assets panel is located on the left side of the builder. It stores all static files used in your project — images, fonts, documents, and more. Upload files here and then reference them in components and styles throughout your site.
+The Assets panel is located on the left side of the builder. It stores all static files used in your project — images, fonts, documents, and more. Upload files here and then reference them in instances and styles throughout your site.
 
 ## Supported file types
 

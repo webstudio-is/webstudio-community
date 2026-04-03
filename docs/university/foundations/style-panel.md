@@ -1,10 +1,10 @@
 ---
-description: Use the Style Panel to apply CSS styles to any component on your page.
+description: Use the Style Panel to apply CSS styles to any instance on your page.
 ---
 
 # 🎨 Style panel
 
-The Style Panel is on the right side of the builder. It exposes every CSS property visually and applies styles to the currently selected component. All style changes are scoped by the active [breakpoint](responsive-design.md) and [style source](#style-sources).
+The Style Panel is on the right side of the builder. It exposes every CSS property visually and applies styles to the currently selected instance. All style changes are scoped by the active [breakpoint](responsive-design.md) and [style source](#style-sources).
 
 <figure><img src="../../.gitbook/assets/style-panel.png" alt="Style Panel on the right side of the builder"><figcaption><p>The Style Panel</p></figcaption></figure>
 
@@ -14,19 +14,19 @@ At the top of the Style Panel is the **style source bar**. It determines where t
 
 ### Local
 
-The default source. Styles are saved to the specific component instance and apply nowhere else. A filled dot on the Local icon indicates the instance has local styles applied.
+The default source. Styles are saved to this specific instance and apply nowhere else. A filled dot on the Local icon indicates the instance has local styles applied.
 
 <figure><img src="../../.gitbook/assets/local.png" alt="Local style source icon"><figcaption><p>Local style source — dot indicates styles are applied</p></figcaption></figure>
 
-Use Local when a style is unique to one component and won't be reused.
+Use Local when a style is unique to one instance and won't be reused.
 
 ### Tokens
 
-[Design tokens](design-tokens.md) are reusable groups of styles you can apply to multiple components. When a token is selected, any style you change is saved to that token and immediately updates every component that uses it.
+[Design tokens](design-tokens.md) are reusable groups of styles you can apply to multiple instances. When a token is selected, any style you change is saved to that token and immediately updates every instance that uses it.
 
 You can:
 - Create a new token and start styling it
-- Apply an existing token to a component
+- Apply an existing token to an instance
 - Convert Local styles into a token
 
 ### CSS variables
@@ -74,5 +74,5 @@ The Style Panel is organized into collapsible sections:
 - [CSS variables](css-variables.md) – Define and use named values across styles
 - [States and selectors](states-and-selectors.md) – Style hover, focus, and other states
 - [Responsive design](responsive-design.md) – Style at different breakpoints
-- [Transforms](transforms.md) – Translate, rotate, and scale components
-- [Navigator](navigator.md) – Select components to style
+- [Transforms](transforms.md) – Translate, rotate, and scale instances
+- [Navigator](navigator.md) – Select instances to style
