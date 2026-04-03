@@ -19,32 +19,33 @@ To create a shared layout, build the header (or any repeating section) on one pa
 
 → [Slot component reference](../core-components/slot.md)
 
-## Design tokens — centralized style values
+## Design tokens & CSS variables — reusable styles
 
-[Design tokens](design-tokens.md) are named style values (colors, font sizes, spacing, radii, etc.) stored in one place and applied across many components.
+CSS variables and design tokens work together as two layers of reusability.
 
-When a brand color changes, you update the token once — every component using that token updates automatically. Without tokens, you would hunt for every hard-coded color in every component.
+**[CSS variables](css-variables.md)** are the bottom layer — individual named values like colors, sizes, and spacing. Define `--color-brand` once, and use it in any style input across the entire site. When the brand color changes, update the variable in one place and every element referencing it updates.
+
+**[Design tokens](design-tokens.md)** are the next layer — named collections of styles that can be applied to any element, similar to CSS classes but without their common problems like combo classes, breakpoint conflicts, and accidental style inheritance. A `card` token might define padding, background, and border-radius. The values inside a token can reference CSS variables, giving you another level of reuse.
+
+Together: CSS variables store the raw values, tokens package those variables into semantic, reusable style groups.
+
+When you update a token — say, changing the padding defined on it — every element using that token updates automatically. Without tokens, you would make the same style change on every element individually.
 
 **Common uses:**
-- Primary and secondary brand colors
-- Heading and body type sizes
-- Border radii and spacing scale
-- Shadow definitions
+- CSS variables: `--color-brand`, `--space-md`, `--radius-lg`
+- Tokens: `button-primary`, `card`, `heading-lg` — each referencing those variables internally
 
 → [Design tokens](design-tokens.md) · [CSS variables](css-variables.md)
 
-## Dynamic data — one page template, many pages
+## Dynamic data — one template, many pages
 
-Instead of creating a separate page for every blog post, product, or team member, you create **one dynamic page** and bind its content to data from an external source.
+### Static pages vs. dynamic pages
 
-### Static pages vs. dynamic data
+A **static page** is the full implementation of a design — layout, styles, and content all built directly on the canvas. The content is part of the page itself: you type the text, drop in the images, and publish. A home page, an about page, or a contact page are typically static.
 
-| Approach | Use case |
-|---|---|
-| **Static page** | Content rarely changes, is unique, and is small in number (home, about, contact) |
-| **Dynamic page** | Content follows a pattern and there are many items (blog posts, products, docs) |
+A **dynamic page** is the design without the content. It has the same layout and structure as a static page, but instead of real text and images, its content comes from data — fetched at request time from an external source. The same template renders differently for every record: one URL loads a blog post, another loads a different one, using the exact same page design.
 
-A static page has its content typed directly into the canvas. A dynamic page fetches data at request time — the URL slug determines which record to load, and expressions bind that record's fields to text, images, and conditions on the page.
+This is the key to scaling content-heavy sites. Instead of creating a separate page for every blog post, product, or team member, you build one dynamic page template and let the data do the rest.
 
 → [CMS & dynamic data](cms.md)
 
@@ -54,7 +55,7 @@ Webstudio is a **visual builder**, not a content management system. It does not 
 
 This means:
 - Creating one page per blog post is **not the right approach** for content-heavy sites. You would end up managing hundreds of pages inside the builder, with no structured editing workflow, no content relations, and no bulk operations.
-- The right approach is to store that content in a dedicated CMS (Contentful, Hygraph, Airtable, Notion, etc.) and connect it to a single dynamic page template in Webstudio via the [CMS integration](cms.md).
+- The right approach is to store that content in a dedicated CMS (WordPress, Directus, Baserow, Ghost, etc.) and connect it to a single dynamic page template in Webstudio via the [CMS integration](cms.md).
 
 The builder is designed to be the **presentation layer** — responsible for layout, design, and how data is displayed — while the CMS is the **data layer** responsible for storing and editing content at scale.
 
@@ -67,14 +68,14 @@ Webstudio dynamic pages use **one template for all records**. The CMS handles cr
 | Tool | What it solves |
 |---|---|
 | [Slots](../core-components/slot.md) | Duplicate structure across pages — edit once, update everywhere |
-| [Design tokens](design-tokens.md) | Hard-coded style values scattered across components |
-| [Dynamic data](cms.md) | Creating one page per content item instead of one template |
+| [CSS variables](css-variables.md) + [Design tokens](design-tokens.md) | Hard-coded style values scattered across elements |
+| [Dynamic data](cms.md) | Building one page per content item instead of one template |
 | External CMS | Managing dozens or hundreds of records inside the builder |
 
 ## Related
 
 - [Slot](../core-components/slot.md) – Shared components across pages
-- [Design tokens](design-tokens.md) – Centralized style values
-- [CSS variables](css-variables.md) – Native CSS custom properties
+- [CSS variables](css-variables.md) – Individual named values (colors, sizes, spacing)
+- [Design tokens](design-tokens.md) – Reusable style collections built on top of CSS variables
 - [CMS & dynamic data](cms.md) – One template, many pages
 - [Data variables](variables.md) – Binding data to the canvas
