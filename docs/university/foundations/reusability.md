@@ -29,6 +29,8 @@ CSS variables and design tokens work together as two layers of reusability.
 
 **[CSS variables](css-variables.md)** are the bottom layer — individual named values like colors, sizes, and spacing. Define `--color-brand` once, and use it in any style input across the entire site. When the brand color changes, update the variable in one place and every element referencing it updates.
 
+<figure><img src="../../.gitbook/assets/css-var-example.png" alt="CSS variable defined in the Advanced section with a name and value" width="319"><figcaption><p>Define a CSS variable once, use it anywhere</p></figcaption></figure>
+
 **[Design tokens](design-tokens.md)** are the next layer — named collections of styles that can be applied to any element, similar to CSS classes but without their common problems like combo classes, breakpoint conflicts, and accidental style inheritance. A `card` token might define padding, background, and border-radius. The values inside a token can reference CSS variables, giving you another level of reuse.
 
 Together: CSS variables store the raw values, tokens package those variables into semantic, reusable style groups.
@@ -50,6 +52,8 @@ A **static page** is the full implementation of a design — layout, styles, and
 A **dynamic page** is the design without the content. It has the same layout and structure as a static page, but instead of real text and images, its content comes from data — fetched at request time from an external source. The same template renders differently for every record: one URL loads a blog post, another loads a different one, using the exact same page design.
 
 This is the key to scaling content-heavy sites. Instead of creating a separate page for every blog post, product, or team member, you build one dynamic page template and let the data do the rest.
+
+<figure><img src="../../.gitbook/assets/right-and-wrong-way-collections.png" alt="Comparison showing one template for all records vs. one page per record"><figcaption><p>One template renders all records — don't create a separate page for each</p></figcaption></figure>
 
 → [CMS & dynamic data](cms.md)
 
