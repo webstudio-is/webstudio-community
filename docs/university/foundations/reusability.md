@@ -13,10 +13,6 @@ A [Slot](../core-components/slot.md) is a component that references the content 
 
 To create a shared layout, build the header (or any repeating section) on one page, then add a Slot on every other page and point it at that source. You only maintain the design in one place.
 
-{% hint style="info" %}
-Variables defined on the **Global Root** are accessible inside Slots, so dynamic data (login state, cart count, etc.) works correctly in shared components.
-{% endhint %}
-
 → [Slot component reference](../core-components/slot.md)
 
 ## Design tokens — centralized style values
