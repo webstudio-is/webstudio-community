@@ -22,7 +22,6 @@ Why Use CSS variables?
 
 The concept of “reusability” is present in both CSS variables and [Tokens](design-tokens.md), but they are different and complement each other exceptionally well.
 
-![CSS variables and Tokens](../../.gitbook/assets/css-vars-vs-tokens.png)
 
 Let’s think of these two concepts as layers or building blocks.
 
