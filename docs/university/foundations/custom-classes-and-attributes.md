@@ -30,6 +30,8 @@ While [Design tokens](design-tokens.md) handle styling in Webstudio, custom clas
 3. Find the **Class** field
 4. Enter your class name(s), separated by spaces
 
+<figure><img src="../../.gitbook/assets/custom-attributes.png" alt="Settings panel showing Class, ID, and data attribute fields"><figcaption><p>Custom classes, IDs, and data attributes in the Settings panel</p></figcaption></figure>
+
 Multiple classes can be added: `card featured animate-on-scroll`
 
 ### Use cases for custom classes

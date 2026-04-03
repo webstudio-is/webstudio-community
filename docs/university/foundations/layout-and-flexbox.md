@@ -25,6 +25,8 @@ The **Display** property in the Layout section controls how an element and its c
 | **Inline Block** | Inline flow but respects width/height                           |
 | **None**         | Hides the element completely                                    |
 
+<figure><img src="../../.gitbook/assets/layout-section.png" alt="Layout section in the Style Panel showing display mode and flex controls"><figcaption><p>The Layout section in the Style Panel</p></figcaption></figure>
+
 ---
 
 ## Flexbox Fundamentals

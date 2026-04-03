@@ -12,6 +12,8 @@ Commands & search speeds up the building process and introduces new shortcuts.
 
 **Open Commands & search with ⌘ + K (Control + K for Windows).**
 
+<figure><img src="../../.gitbook/assets/commands-search.png" alt="Commands and search dialog open with results listed"><figcaption><p>Commands &amp; search</p></figcaption></figure>
+
 {% embed url="https://youtu.be/ofUP0Uc_ttY" %}
 
 ### Actions

@@ -6,6 +6,8 @@ description: Upload and manage images, fonts, and other files used in your proje
 
 The Assets panel is located on the left side of the builder. It stores all static files used in your project — images, fonts, documents, and more. Upload files here and then reference them in instances and styles throughout your site.
 
+<figure><img src="../../.gitbook/assets/assets-panel.png" alt="Assets panel showing uploaded images with search and filter controls"><figcaption><p>The Assets panel</p></figcaption></figure>
+
 ## Supported file types
 
 | Category | Formats |
@@ -43,6 +45,8 @@ Sort assets by:
 ## Asset details
 
 Hover any asset and click the gear icon to open its detail panel:
+
+<figure><img src="../../.gitbook/assets/assets-detail.png" alt="Asset detail panel showing name, description, dimensions, MIME type, uses, and ID"><figcaption><p>Asset detail panel</p></figcaption></figure>
 
 - **File size** and **MIME type**
 - **Dimensions** and **Aspect ratio** (images only)

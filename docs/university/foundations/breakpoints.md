@@ -43,6 +43,8 @@ Each breakpoint can override styles inherited from the previous one in the casca
 3. Set a **min-width** or **max-width** value, or choose a **media condition** (see below).
 4. Give it a label.
 
+<figure><img src="../../.gitbook/assets/breakpoints-edit.png" alt="Breakpoint edit dialog showing min-width and max-width fields"><figcaption><p>Editing a breakpoint</p></figcaption></figure>
+
 ## Editing and deleting breakpoints
 
 Click any breakpoint to open its settings. You can change the width, label, or media condition. Breakpoints can be deleted unless they are the base breakpoint.
@@ -79,7 +81,9 @@ Beyond screen width, Webstudio supports any CSS media condition. This lets you s
 - [Style panel](style-panel.md) – Applying styles at each breakpoint
 ## Style label colors
 
-When a breakpoint is active, style property labels in the Style Panel use color to show where a value comes from. See [Label colors](anatomy-of-the-webstudio-builder.md#label-colors) for the full reference. Hover any label to see a tooltip with the exact source.
+When a breakpoint is active, style property labels in the Style Panel use color to show where a value comes from.
+
+<figure><img src="../../.gitbook/assets/breakpoints-cascade.png" alt="Style Panel property label in orange indicating a style inherited from a larger breakpoint"><figcaption><p>An orange label means the value is inherited from a larger breakpoint</p></figcaption></figure> See [Label colors](anatomy-of-the-webstudio-builder.md#label-colors) for the full reference. Hover any label to see a tooltip with the exact source.
 
 {% hint style="warning" %}
 Mixing `min-width` and `max-width` breakpoints in the same project makes style cascading harder to reason about. Stick to one direction for maintainability.
