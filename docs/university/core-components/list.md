@@ -11,6 +11,18 @@ description: >-
 
 {% embed url="https://www.youtube.com/watch?v=oKmMCOVGQOM&t=20s" %}
 
+## Components
+
+### List
+
+The outer container — renders as `<ul>` (unordered) or `<ol>` (ordered) depending on the Ordered property.
+
+### List Item
+
+The individual item inside a List — renders as `<li>`. Every List starts with three List Item instances. Add more from **Components > General** or duplicate an existing one with **Cmd+D** / **Ctrl+D**.
+
+List Items can contain any component — text, images, links, buttons — making them suitable for rich, interactive lists beyond simple bullet points.
+
 ### How to use the List Component
 
 The “List” component can be found in **Components > General**, and you can place it on your canvas by dragging and dropping it or clicking it in the Components panel. Every List component comes with three “List Item” instances as bullet points by default.

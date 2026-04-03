@@ -31,7 +31,9 @@ Once added to the canvas, the right panel will show a Code field. You can either
 ### 2. Style
 
 In the Navigator, Content Embed has various HTML tags nested. Expand Content Embed, and you’ll see tags such as Heading 1, Link, Image, and much more.
-
+{% hint style="info" %}
+Links inside Content Embed are represented by the **Rich Text Link** sub-component, which behaves like the [Link component](link.md). Select it in the Navigator to style all links within the embedded HTML.
+{% endhint %}
 <figure><img src="../../.gitbook/assets/content-embed-style.png" alt="Content Embed H2 styled"><figcaption><p>Heading 2 selected and styled</p></figcaption></figure>
 
 Styles applied to each of these tags will apply to all occurrences of that tag within the Content Embed. For example, if you apply a border on the Image tag, then all images contained within the HTML will have a border.

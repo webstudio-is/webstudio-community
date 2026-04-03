@@ -34,7 +34,15 @@ You can find the Vimeo Component in the Components Panel in the Media Section. H
 3. Once you have the component on your canvas, you can head to Settings on the right to add your video URL and make other changes.
 
 ![Vimeo background settings](../../.gitbook/assets/vimeo-component-properties.avif)
+## Sub-components
 
+The Vimeo component contains three child instances visible in the Navigator:
+
+| Sub-component | Description |
+|---|---|
+| **Preview Image** | The thumbnail shown before playback. Replace it with your own image in Settings. |
+| **Spinner** | The loading indicator shown while the video buffers. Hide it via the **Show** toggle in Settings. |
+| **Play Button** | Contains a Box and a Play Icon. Style the Box (background, border-radius, etc.), swap the icon SVG via the HTML Embed inside, or hide the entire button via the **Show** toggle for background video use. |
 #### Modifying the Preview Image
 
 1. Inside the Vimeo Component, you will find three instances- the Preview Image, Spinner and Play Button. These instances define the primary look of the embedded video player.
