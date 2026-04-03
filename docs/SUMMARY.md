@@ -34,6 +34,7 @@
   - [🎯 SEO settings](university/foundations/seo-settings.md)
   - [⚡ Performance](university/foundations/performance.md)
   - [⌨️ Shortcuts](university/foundations/shortcuts.md)
+  - [📄 Page settings](university/foundations/page-settings.md)
   - [⚙️ Project settings](university/foundations/project-settings.md)
   - [🎭 Modes](university/foundations/modes.md)
   - [🔗 Share links & transferring projects](university/foundations/share-links.md)
