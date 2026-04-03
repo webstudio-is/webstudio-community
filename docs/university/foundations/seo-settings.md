@@ -48,19 +48,11 @@ These settings ensure uniformity and brand coherence across all pages of your we
 
 ## 🔍 Individual page SEO settings
 
-Fine-tune SEO settings for each page through the 'Pages' tab:
-
-- **Title & Description**: Craft unique titles and descriptions for each page, enhancing search engine visibility.
-- **SEO Previews**: Visualize how your pages will display in search results and on social media.
-- **Exclude from Search Results**: Opt to hide (no index) specific pages from search engines. No indexing the content will also remove it from the sitemap.
-- **Social Sharing**: Set engaging images for social media sharing, complete with previews.
+Fine-tune SEO settings for each page through the Pages panel. See [Page settings](page-settings.md) for a full reference of all available fields, including title, description, social image, custom meta tags, and more.
 
 {% hint style="info" %}
 The social image you add to your homepage will be used as the cover image for the project on the dashboard.
 {% endhint %}
-
-- **Custom Meta Tags**: Add additional Meta Tags your page for further search and social customization.
-- **Custom Head**: Visually customize the head on a per-page basis with [Head Slot](../core-components/head-slot.md).
 
 ## 🐦 Twitter card customization
 
@@ -84,6 +76,7 @@ When you publish to a custom domain, staging and webstudio domains are automatic
 
 ## Related
 
+- [Page settings](page-settings.md) – Per-page SEO fields: title, description, social image, custom meta tags
 - [Project settings](project-settings.md) – Configure site name, favicon, and global settings
 - [Head Slot](../core-components/head-slot.md) – Add custom meta tags and scripts per page
 - [Publishing & custom domains](publishing-and-custom-domains.md) – Deploy your site with custom domains
