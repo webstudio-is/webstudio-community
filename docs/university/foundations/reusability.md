@@ -4,6 +4,8 @@ Webstudio provides several tools that let you build sites that are easy to updat
 
 ## Slots — shared structure across pages
 
+<figure><img src="../../.gitbook/assets/slot-component-overview.png" alt="Slot component in the Navigator showing shared structure"><figcaption><p>A Slot references another page's content — edit the source once, all slots update</p></figcaption></figure>
+
 A [Slot](../core-components/slot.md) is a component that references the content of another page. Any instance that uses that slot always renders the same content, so editing the source page updates every slot automatically.
 
 **Common uses:**
@@ -20,6 +22,8 @@ To create a shared layout, build the header (or any repeating section) on one pa
 → [Slot component reference](../core-components/slot.md)
 
 ## Design tokens & CSS variables — reusable styles
+
+<figure><img src="../../.gitbook/assets/h1-token.png" alt="A design token applied to a Heading instance in the Style Sources input"><figcaption><p>A token applied to an instance — styles update everywhere this token is used</p></figcaption></figure>
 
 CSS variables and design tokens work together as two layers of reusability.
 
