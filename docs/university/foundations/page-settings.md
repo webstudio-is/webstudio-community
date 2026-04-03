@@ -28,6 +28,8 @@ Redirects all requests for this page's path to another path. Useful for retired 
 
 Enter a path such as `/new-page`. This performs a `301` permanent redirect. Leave empty if no redirect is needed.
 
+The redirect field supports expressions, making it dynamic. For example, on a dynamic page you can redirect to your 404 page when no CMS data is found. See [Alternative: redirect instead of showing 404 content](cms.md#alternative-redirect-instead-of-showing-404-content) for details.
+
 <figure><img src="../../.gitbook/assets/page-settings-general.png" alt="Page settings panel showing Page name, Path, Status code, Redirect, and Language fields"><figcaption><p>General page settings</p></figcaption></figure>
 
 ## Language

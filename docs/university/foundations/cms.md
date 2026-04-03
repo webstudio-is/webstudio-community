@@ -62,8 +62,8 @@ The static part of the URL (in this case, `/post/`) is already in the Address Ba
 
 Address Bar values are saved in the editor by:
 
-* Manually entering values
-* Navigating links that lead to the Dynamic Page, such as clicking on `/post/hello-world`
+- Manually entering values
+- Navigating links that lead to the Dynamic Page, such as clicking on `/post/hello-world`
 
 ## Resources
 
@@ -93,24 +93,24 @@ Webstudio CMS supports any content management system (CMS) that provides an HTTP
 
 Below is a non-comprehensive list of CMSs, whether or not they provide an HTTP API (i.e., compatible with Webstudio), and the compatibility of specific CMS features. You can also use the [Headless CMS Finder](https://wstd.us/cms-finder) to compare and filter headless CMS options based on key features and pricing.
 
-| CMS                                       | Compatible | Rich text                                                                                                                                                                                        | Tutorial                                 | Template                                       | Known issues                                                             |
-| ----------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------ |
-| [Hygraph](https://hygraph.com/)           | ✅          | ✅ Must request HTML                                                                                                                                                                              | [Tutorial](../integrations/hygraph.md)   | [Template](https://wstd.us/hygraph-template)   |                                                                          |
-| [Sanity](https://www.sanity.io/)          | ✅          | ❌                                                                                                                                                                                                |                                          |                                                |                                                                          |
-| [Strapi](https://strapi.io/)              | ✅          | ✅ Must use the [CKEditor 5 integration](https://market.strapi.io/plugins/@ckeditor-strapi-plugin-ckeditor) and field as it outputs HTML. Not compatible with the default rich text field.        |                                          |                                                |                                                                          |
-| [Contentful](https://www.contentful.com/) | ✅          | ✅ Using Markdown field                                                                                                                                                                           |                                          |                                                |                                                                          |
-| [WordPress](https://wordpress.org/)       | ✅          | ✅                                                                                                                                                                                                | [Tutorial](../integrations/wordpress.md) | [Template](https://wstd.us/wordpress-template) |                                                                          |
-| [Drupal](https://www.drupal.org/)         | ✅          | ✅                                                                                                                                                                                                |                                          |                                                |                                                                          |
-| [Directus](https://directus.io/)          | ✅          | ✅                                                                                                                                                                                                |                                          |                                                |                                                                          |
-| [Hashnode](https://hashnode.com/headless) | ✅          | ✅                                                                                                                                                                                                |                                          |                                                |                                                                          |
-| [Payload](https://payloadcms.com/)        | ✅          | ✅ Need to create a field and hook that auto converts rich text from field A and saves HTML in field B ([src](https://payloadcms.com/docs/rich-text/lexical#outputting-html-from-the-collection)) |                                          |                                                |                                                                          |
-| [Airtable](https://www.airtable.com/)     | ✅          | ✅                                                                                                                                                                                                | [Tutorial](../integrations/airtable-frontend.md)  | [Template](https://wstd.us/airtable-template)  |                                                                          |
-| [Baserow](https://baserow.io/)            | ✅          | ✅                                                                                                                                                                                                |                                          |                                                |                                                                          |
-| [Notion](https://www.notion.so/)          | ✅          | ❌                                                                                                                                                                                                | [Tutorial](../integrations/notion.md)    | [Template](https://wstd.us/notion-template)    | [Can't use pages](https://github.com/webstudio-is/webstudio/issues/3709) |
-| [Flotiq](https://flotiq.com/)             | ✅          | ✅                                                                                                                                                                                                | [Tutorial](../integrations/flotiq.md)    |                                                |                                                                          |
-| [Ghost](https://ghost.org/)               | ✅          | ✅                                                                                                                                                                                                |                                          | [Template](https://wstd.us/ghost-template)     |                                                                          |
-| [Coda](https://coda.io/)                  | ✅          | ✅                                                                                                                                                                                                |                                          |                                                | [Multiple](https://github.com/webstudio-is/webstudio/issues/3708)        |
-| [Hyvor Blogs](https://blogs.hyvor.com/)   | ✅          | ✅                                                                                                                                                                                                |                                          | [Template](https://wstd.us/template-hyvor)     |                                                                          |
+| CMS                                       | Compatible | Rich text                                                                                                                                                                                         | Tutorial                                         | Template                                       | Known issues                                                             |
+| ----------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------------------------------ |
+| [Hygraph](https://hygraph.com/)           | ✅         | ✅ Must request HTML                                                                                                                                                                              | [Tutorial](../integrations/hygraph.md)           | [Template](https://wstd.us/hygraph-template)   |                                                                          |
+| [Sanity](https://www.sanity.io/)          | ✅         | ❌                                                                                                                                                                                                |                                                  |                                                |                                                                          |
+| [Strapi](https://strapi.io/)              | ✅         | ✅ Must use the [CKEditor 5 integration](https://market.strapi.io/plugins/@ckeditor-strapi-plugin-ckeditor) and field as it outputs HTML. Not compatible with the default rich text field.        |                                                  |                                                |                                                                          |
+| [Contentful](https://www.contentful.com/) | ✅         | ✅ Using Markdown field                                                                                                                                                                           |                                                  |                                                |                                                                          |
+| [WordPress](https://wordpress.org/)       | ✅         | ✅                                                                                                                                                                                                | [Tutorial](../integrations/wordpress.md)         | [Template](https://wstd.us/wordpress-template) |                                                                          |
+| [Drupal](https://www.drupal.org/)         | ✅         | ✅                                                                                                                                                                                                |                                                  |                                                |                                                                          |
+| [Directus](https://directus.io/)          | ✅         | ✅                                                                                                                                                                                                |                                                  |                                                |                                                                          |
+| [Hashnode](https://hashnode.com/headless) | ✅         | ✅                                                                                                                                                                                                |                                                  |                                                |                                                                          |
+| [Payload](https://payloadcms.com/)        | ✅         | ✅ Need to create a field and hook that auto converts rich text from field A and saves HTML in field B ([src](https://payloadcms.com/docs/rich-text/lexical#outputting-html-from-the-collection)) |                                                  |                                                |                                                                          |
+| [Airtable](https://www.airtable.com/)     | ✅         | ✅                                                                                                                                                                                                | [Tutorial](../integrations/airtable-frontend.md) | [Template](https://wstd.us/airtable-template)  |                                                                          |
+| [Baserow](https://baserow.io/)            | ✅         | ✅                                                                                                                                                                                                |                                                  |                                                |                                                                          |
+| [Notion](https://www.notion.so/)          | ✅         | ❌                                                                                                                                                                                                | [Tutorial](../integrations/notion.md)            | [Template](https://wstd.us/notion-template)    | [Can't use pages](https://github.com/webstudio-is/webstudio/issues/3709) |
+| [Flotiq](https://flotiq.com/)             | ✅         | ✅                                                                                                                                                                                                | [Tutorial](../integrations/flotiq.md)            |                                                |                                                                          |
+| [Ghost](https://ghost.org/)               | ✅         | ✅                                                                                                                                                                                                |                                                  | [Template](https://wstd.us/ghost-template)     |                                                                          |
+| [Coda](https://coda.io/)                  | ✅         | ✅                                                                                                                                                                                                |                                                  |                                                | [Multiple](https://github.com/webstudio-is/webstudio/issues/3708)        |
+| [Hyvor Blogs](https://blogs.hyvor.com/)   | ✅         | ✅                                                                                                                                                                                                |                                                  | [Template](https://wstd.us/template-hyvor)     |                                                                          |
 
 {% hint style="warning" %}
 While we do our best to verify the supported features, we may make mistakes in our research.
@@ -137,7 +137,7 @@ There are three steps to handle this correctly.
 Open **Page Settings > Status Code** and bind an expression to it. The goal is to look for some piece of data in the response and if it's not there, output `404`:
 
 ```javascript
-cmsData.data[0].id ? 200 : 404
+cmsData.data[0].id ? 200 : 404;
 ```
 
 This example looks for the ID of a record. If it's there, output `200` (found!) otherwise `404` (not found).
@@ -153,7 +153,7 @@ The exact key to look for will depend on your CMS, but think of something that w
 Add a component (e.g. a Box) to the page that contains your 404 message. Set its **Show** condition to the same expression:
 
 ```javascript
-!cmsData.data[0].id
+!cmsData.data[0].id;
 ```
 
 When this evaluates to `true`, the 404 content is shown.
@@ -169,12 +169,24 @@ To reuse an existing custom 404 page design without rebuilding it, [add a Slot](
 Select the component (e.g. a Box) that wraps the normal page content and set its **Show** condition to the same expression:
 
 ```javascript
-cmsData.data[0].id
+cmsData.data[0].id;
 ```
 
 This hides the regular content when there is no data, avoiding an empty-looking page.
 
 <figure><img src="../../.gitbook/assets/cms-dynamic-404-show-regular-content.png" alt="Box component with Show condition set to cmsData.data[0].id"><figcaption><p>Setting the Show condition on the regular content Box</p></figcaption></figure>
+
+## Alternative: redirect instead of showing 404 content
+
+Instead of rendering 404 content on the same page, you can redirect the user to another page entirely — for example your custom `/404` page — using **Page Settings > Redirect** bound to an expression:
+
+```javascript
+!cmsData.data[0].id ? "/404" : ""
+```
+
+When data is missing, this redirects to `/404`. When data is found, the empty string means no redirect occurs and the page loads normally.
+
+This approach is simpler — no need to conditionally show/hide content — but the user sees a URL change rather than staying on the original URL.
 
 ## Related
 
