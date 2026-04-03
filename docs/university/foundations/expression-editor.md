@@ -98,29 +98,10 @@ Again, be sure to change `slug` to your dynamic path parameter and `collectionIt
 
 This expression will now show “false” meaning “turn this off” if the related blog post is actually the same as the current blog post.
 
-### 404 status code
-
-When working with a dynamic page, how do we determine if the page should return `404` (not found) or `200` (found/success)?
-
-After all, the content on the page is dependent on the response from the [Resource](variables.md#resource).
-
-Therefore, we need to tell the page to return `404` when the Resource doesn’t return any data.
-
-To do so, go to the Page Settings > Status Code > and bind an expression to it. The goal is to look for some piece of data in the response and if it’s not there, output `404`.
-
-```javascript
-cmsData.data[0].id ? 200 : 404
-```
-
-This example looks for the ID of a record. If it’s there, output `200` (we found something!) otherwise nothing was found therefore `404`.
-
-{% hint style="info" %}
-The exact key to look for will depend on your CMS, but think of something that will always be there if the post/record is found (slug, ID, title).
-{% endhint %}
-
 ## Related
 
 - [Data variables](variables.md) – Define and use data throughout your pages
 - [CMS](cms.md) – Connect to external content management systems
+- [Dynamic 404 handling](cms.md#handling-dynamic-404s) – Return 404 when CMS data is missing on a dynamic page
 - [Collection](../core-components/collection.md) – Iterate over data to create dynamic lists
 - [HTML Embed](../core-components/html-embed.md) – Embed custom HTML and scripts

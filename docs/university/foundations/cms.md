@@ -126,6 +126,56 @@ In the meantime, advanced users can set up a proxy on Cloudflare Workers to conv
 
 Rich text in the form of HTML can be bound to the [Content Embed Component](../core-components/content-embed.md), and Markdown can be bound to the [Markdown Embed Component](../core-components/markdown-embed.md).
 
+## Handling dynamic 404s
+
+On a dynamic page, the URL may technically exist (e.g. `/post/hello-world`) but the Resource query returns no data — for example, because the slug doesn't match any record. In that case the page should return `404` instead of rendering empty content.
+
+There are three steps to handle this correctly.
+
+### 1. Set the status code
+
+Open **Page Settings > Status Code** and bind an expression to it. The goal is to look for some piece of data in the response and if it's not there, output `404`:
+
+```javascript
+cmsData.data[0].id ? 200 : 404
+```
+
+This example looks for the ID of a record. If it's there, output `200` (found!) otherwise `404` (not found).
+
+<figure><img src="../../.gitbook/assets/cms-dynamic-404-status-code.png" alt="Status Code field in Page Settings with expression bound"><figcaption><p>Binding an expression to the Status Code field in Page Settings</p></figcaption></figure>
+
+{% hint style="info" %}
+The exact key to look for will depend on your CMS, but think of something that will always be there if the post/record is found (slug, ID, title).
+{% endhint %}
+
+### 2. Show 404 content conditionally
+
+Add a component (e.g. a Box) to the page that contains your 404 message. Set its **Show** condition to the same expression:
+
+```javascript
+!cmsData.data[0].id
+```
+
+When this evaluates to `true`, the 404 content is shown.
+
+<figure><img src="../../.gitbook/assets/cms-dynamic-404-show-404-content.png" alt="Box component with Show condition set to !cmsData.data[0].id"><figcaption><p>Setting the Show condition on the 404 content Box</p></figcaption></figure>
+
+{% hint style="info" %}
+To reuse an existing custom 404 page design without rebuilding it, [add a Slot](../core-components/slot.md) and select your 404 page's content as the slot source. This keeps the 404 UI in one place and lets you reuse it across any dynamic page.
+{% endhint %}
+
+### 3. Hide regular content conditionally
+
+Select the component (e.g. a Box) that wraps the normal page content and set its **Show** condition to the same expression:
+
+```javascript
+cmsData.data[0].id
+```
+
+This hides the regular content when there is no data, avoiding an empty-looking page.
+
+<figure><img src="../../.gitbook/assets/cms-dynamic-404-show-regular-content.png" alt="Box component with Show condition set to cmsData.data[0].id"><figcaption><p>Setting the Show condition on the regular content Box</p></figcaption></figure>
+
 ## Related
 
 - [Webstudio CMS](https://webstudio.is/cms) – Learn more about CMS capabilities in Webstudio
@@ -135,3 +185,4 @@ Rich text in the form of HTML can be bound to the [Content Embed Component](../c
 - [Collection](../core-components/collection.md) – Iterate over CMS data to create lists
 - [Content Embed](../core-components/content-embed.md) – Display rich text HTML from your CMS
 - [Markdown Embed](../core-components/markdown-embed.md) – Display Markdown content from your CMS
+- [Custom 404 page](../how-tos/how-to-make-a-custom-404-page.md) – Create a custom 404 design to reuse on dynamic pages
