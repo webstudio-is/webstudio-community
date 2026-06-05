@@ -1,5 +1,5 @@
 ---
-description: Set project-wide configuration.
+description: Set project-wide configuration, including redirects, authentication, and publishing options.
 ---
 
 # ⚙️ Project settings
@@ -92,6 +92,49 @@ The same example from above looks like this when atomic is _disabled_:
 
 Redirects old URLs to new ones so that you don’t lose any traffic or search engine rankings. 301 and 302 status codes are available.
 
+## Authentication
+
+Use Authentication to require HTTP Basic Auth credentials for one or more routes on custom domains.
+
+This is useful when you want to protect:
+
+- A group of pages, such as `/private/*`
+- Dynamic routes, such as `/blog/:slug`
+- The home page, using `/`
+- A route that does not map cleanly to one page setting
+
+To add a protected route:
+
+1. Open **Project settings**
+2. Go to **Authentication**
+3. Enter a route, such as `/private` or `/docs/*`, plus a login and password
+4. Click **Add**
+5. Publish the site
+
+Routes use the same syntax as page paths. See [Path syntax](page-settings.md#path-syntax) for supported static routes, dynamic segments, optional segments, and wildcards.
+
+<figure><img src="../../.gitbook/assets/project-settings-authentication.png" alt="Project Settings Authentication section with route, login, password fields, and protected route list"><figcaption><p>Project route authentication</p></figcaption></figure>
+
+Login and password rules:
+
+- Login is required
+- Password is required
+- Login cannot contain `:`
+- Login and password cannot contain whitespace
+- Password can contain `:`
+
+If a page has authentication in Page Settings and the same route is also protected in Project Settings, the page setting takes priority for that route.
+
+{% hint style="info" %}
+Authentication applies to protected routes on custom domains. Staging domains have their own built-in password protection, described in [Publishing & custom domains](publishing-and-custom-domains.md#staging-domain-password-protection).
+{% endhint %}
+
+{% hint style="warning" %}
+Authentication is a Pro feature for custom domains. You can publish to staging for free, but publishing authentication to custom domains requires a plan that includes it.
+{% endhint %}
+
+For a single page, you can also configure authentication directly in [Page settings](page-settings.md#authentication).
+
 ## Marketplace
 
 You can contribute free or paid templates by creating a Project and submitting it for review. Approved templates will appear in the [Marketplace](../marketplace.md).
@@ -102,6 +145,7 @@ For more information, see [Contributing to the Marketplace](../../contributing/m
 
 - [SEO settings](seo-settings.md) – Configure meta tags and social sharing
 - [Publishing & custom domains](publishing-and-custom-domains.md) – Deploy your site and manage domains
+- [Page settings](page-settings.md) – Configure authentication for a single page
 - [Design tokens](design-tokens.md) – Understand atomic CSS output options
 - [Head Slot](../core-components/head-slot.md) – Add custom code per page
 - [HTML Embed](../core-components/html-embed.md) – Embed analytics and custom scripts

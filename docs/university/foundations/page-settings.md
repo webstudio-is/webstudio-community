@@ -1,10 +1,10 @@
 ---
-description: Configure per-page settings such as path, SEO, redirects, and metadata.
+description: Configure per-page settings such as path, SEO, authentication, redirects, and metadata.
 ---
 
 # 📄 Page settings
 
-Page settings control how an individual page behaves — its URL, SEO metadata, status code, redirect, and more. Open Page Settings by clicking the gear icon next to any page in the Pages panel.
+Page settings control how an individual page behaves — its URL, SEO metadata, authentication, status code, redirect, and more. Open Page Settings by clicking the gear icon next to any page in the Pages panel.
 
 <figure><img src="../../.gitbook/assets/page-settings-general.png" alt="Page settings panel showing Page name, Path, Status code, Redirect, and Language fields"><figcaption><p>General page settings</p></figcaption></figure>
 
@@ -16,7 +16,25 @@ The name displayed in the Pages panel in the builder. It does not affect the URL
 
 The URL path for this page, e.g. `/about` or `/blog/:slug`.
 
-Dynamic segments use a `:` prefix (e.g. `:slug`), making the page a [Dynamic Page](cms.md#dynamic-pages). Optional segments use `?` (e.g. `:slug?`). Wildcards capture the remaining path (e.g. `/*` or `/:slug*`).
+### Path syntax
+
+Webstudio paths can be static or dynamic. Dynamic segments use a `:` prefix, making the page a [Dynamic Page](cms.md#dynamic-pages).
+
+| Pattern | Matches |
+| --- | --- |
+| `/about` | One static route |
+| `/blog/:slug` | One dynamic segment |
+| `/blog/:slug?` | Optional dynamic segment |
+| `/docs/*` | Everything under `/docs/` |
+| `/docs/:path*` | Named wildcard under `/docs/` |
+
+Path rules:
+
+- Paths must start with `/`, except the home page path, which is empty
+- Paths cannot contain repeating `/`
+- Paths cannot end with `/`, except the home route `/`
+- Wildcards such as `*` and `:path*` must be the final segment
+- Parameter names can contain letters, numbers, and underscores
 
 ## Status code
 
@@ -41,6 +59,38 @@ Can be bound to an expression — for example using a URL parameter — to serve
 ## Document type
 
 Defaults to **HTML**. Switch to **XML** when building XML-based pages such as sitemaps or RSS feeds. See the [XML Node component](../core-components/xml-node.md) for details.
+
+## Authentication
+
+Use Authentication to require HTTP Basic Auth credentials before visitors can load this page on custom domains.
+
+1. Open the page's settings from the Pages panel
+2. Open the **Authentication** section
+3. Enable **Require login and password**
+4. Enter a login and password
+5. Publish the site
+
+Page authentication is useful for private previews, client-only pages, internal pages, or temporary gated content.
+
+<figure><img src="../../.gitbook/assets/page-settings-authentication-enabled.png" alt="Page Settings Authentication section enabled with Login and Password fields"><figcaption><p>Page authentication</p></figcaption></figure>
+
+{% hint style="info" %}
+Authentication applies to protected pages on custom domains. Staging domains have their own built-in password protection, described in [Publishing & custom domains](publishing-and-custom-domains.md#staging-domain-password-protection).
+{% endhint %}
+
+{% hint style="warning" %}
+Authentication is a Pro feature for custom domains. You can publish to staging for free, but publishing authentication to custom domains requires a plan that includes it.
+{% endhint %}
+
+Login and password rules:
+
+- Login is required
+- Password is required
+- Login cannot contain `:`
+- Login and password cannot contain whitespace
+- Password can contain `:`
+
+To protect multiple routes, dynamic paths, or wildcard sections of the site, use [Project settings](project-settings.md#authentication).
 
 ## Search
 
@@ -82,7 +132,8 @@ Variables and Resources defined on the page are scoped to that page and are avai
 
 - [CMS](cms.md) – Connect to a CMS and use dynamic data on pages
 - [Dynamic 404 handling](cms.md#handling-dynamic-404s) – Return 404 when CMS data is missing
-- [Project settings](project-settings.md) – Site-wide settings such as favicon, custom code, and redirects
+- [Project settings](project-settings.md) – Site-wide settings such as favicon, custom code, redirects, and route authentication
+- [Publishing & custom domains](publishing-and-custom-domains.md) – Publish protected pages to custom domains
 - [Data variables](variables.md) – Define and use variables on pages
 - [Expression editor](expression-editor.md) – Bind expressions to Page Settings fields
 - [XML Node](../core-components/xml-node.md) – Build XML pages such as sitemaps

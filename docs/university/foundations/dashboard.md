@@ -8,7 +8,7 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/dashboard.png" alt="Webstudio dashboard showing project cards"><figcaption><p>The Webstudio Dashboard</p></figcaption></figure>
 
-The Dashboard is the first screen you see after logging into Webstudio. It provides an overview of your workspaces, projects, and templates, with powerful features for organization and quick access.
+The Dashboard is the first screen you see after logging into Webstudio. It provides an overview of your workspaces and projects, with powerful features for organization and quick access.
 
 ---
 
@@ -38,7 +38,7 @@ Workspace creation is limited by your plan.
 
 ### Switching workspaces
 
-Use the workspace selector in the Dashboard sidebar to switch between workspaces. The project list, templates, search results, and tags update to match the selected workspace.
+Use the workspace selector in the Dashboard sidebar to switch between workspaces. The project list, search results, and tags update to match the selected workspace.
 
 ### Members and roles
 
@@ -91,7 +91,7 @@ Workspaces are best for secure ongoing collaboration. Share links are still usef
 
 ## Search
 
-The Dashboard includes a unified search feature that helps you quickly find projects and templates in the selected workspace.
+The Dashboard includes search to help you quickly find projects in the selected workspace.
 
 ### How to use search
 
@@ -100,7 +100,7 @@ The Dashboard includes a unified search feature that helps you quickly find proj
 3. Use arrow keys to navigate through search results
 4. Press Enter to open the selected project
 
-The search works across both your projects and starter templates, displaying results in a dedicated search view. This allows you to find any project in the selected workspace regardless of which section you're currently viewing.
+Search displays matching projects in a dedicated search view. This allows you to find any project in the selected workspace regardless of which section you're currently viewing.
 
 {% hint style="info" %}
 Search is performed client-side for instant results, making it snappy even with many projects.
@@ -216,19 +216,6 @@ From the Dashboard, you can perform several actions on your projects:
 - **Delete** – Remove the project (with confirmation)
 
 Available actions depend on your workspace role. For example, Editors can rename and tag projects, Builders can create and duplicate projects, and Admins can transfer projects.
-
----
-
-## Starter Templates
-
-The Templates section of the Dashboard provides access to pre-built project templates that you can clone and customize:
-
-1. Navigate to the "Templates" section in the sidebar
-2. Browse available templates
-3. Click a template to preview it
-4. Clone it to create your own project based on that template
-
-Templates are searchable using the same unified search feature.
 
 ## Related
 

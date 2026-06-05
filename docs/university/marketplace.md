@@ -7,11 +7,7 @@ description: >-
 
 # Marketplace
 
-See [Webstudio Templates](https://webstudio.is/marketplace/templates) or head over to the Builder to view all templates.
-
-{% hint style="info" %}
-The Marketplace in the Builder contains more templates than what's shown in the Dashboard. The Dashboard shows starter Projects, while the Builder shows everything in the Dashboard, plus pages and sections.
-{% endhint %}
+See [Webstudio Templates](https://webstudio.is/marketplace/templates) or head over to the Builder to view templates.
 
 <figure><img src="../.gitbook/assets/marketplace-three-tabs.png" alt="Webstudio Marketplace in the Builder" width="175"><figcaption></figcaption></figure>
 
@@ -71,4 +67,4 @@ This ensures marketplace templates integrate smoothly into your projects without
 - [Contributing to the Marketplace](../contributing/marketplace.md) – Submit your own templates
 - [Craft](craft.md) – The standard for building marketplace templates
 - [Copy-Paste from Webflow](foundations/copy-paste/webflow.md) – Import templates from Webflow
-- [Dashboard](foundations/dashboard.md) – Manage your projects and access templates
+- [Dashboard](foundations/dashboard.md) – Manage your projects and workspaces
