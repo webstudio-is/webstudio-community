@@ -40,6 +40,7 @@
   - [⚡ Performance](university/foundations/performance.md)
   - [⌨️ Shortcuts](university/foundations/shortcuts.md)
   - [📄 Page settings](university/foundations/page-settings.md)
+  - [📄 Page templates](university/foundations/page-templates.md)
   - [⚙️ Project settings](university/foundations/project-settings.md)
   - [🎭 Modes](university/foundations/modes.md)
   - [🔗 Share links](university/foundations/share-links.md)

@@ -12,6 +12,8 @@ Page settings control how an individual page behaves — its URL, SEO metadata, 
 
 The name displayed in the Pages panel in the builder. It does not affect the URL or any output — it's purely for organizing pages in the editor.
 
+When creating a page from a [page template](page-templates.md), the page name is pre-filled from the template and can be adjusted before the page is created.
+
 ## Path
 
 The URL path for this page, e.g. `/about` or `/blog/:slug`.
@@ -133,6 +135,7 @@ Variables and Resources defined on the page are scoped to that page and are avai
 - [CMS](cms.md) – Connect to a CMS and use dynamic data on pages
 - [Dynamic 404 handling](cms.md#handling-dynamic-404s) – Return 404 when CMS data is missing
 - [Project settings](project-settings.md) – Site-wide settings such as favicon, custom code, redirects, and route authentication
+- [Page templates](page-templates.md) – Create reusable blueprints for new pages
 - [Publishing & custom domains](publishing-and-custom-domains.md) – Publish protected pages to custom domains
 - [Data variables](variables.md) – Define and use variables on pages
 - [Expression editor](expression-editor.md) – Bind expressions to Page Settings fields

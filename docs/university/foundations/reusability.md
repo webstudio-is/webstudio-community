@@ -57,6 +57,12 @@ This is the key to scaling content-heavy sites. Instead of creating a separate p
 
 → [CMS & dynamic data](cms.md)
 
+## Page templates — repeatable page creation
+
+[Page templates](page-templates.md) let designers create reusable page blueprints inside a project. Unlike dynamic pages, which render many URLs from one live page and external data, page templates create independent regular pages.
+
+Use page templates for repeatable static page types, such as service pages, campaign pages, landing pages, or client-created content pages that should start from a controlled structure.
+
 ## Why Webstudio is not a CMS
 
 Webstudio is a **visual builder**, not a content management system. It does not have a built-in database for storing and managing hundreds of records.
@@ -78,6 +84,7 @@ Webstudio dynamic pages use **one template for all records**. The CMS handles cr
 | [Slots](../core-components/slot.md) | Duplicate structure across pages — edit once, update everywhere |
 | [CSS variables](css-variables.md) + [Design tokens](design-tokens.md) | Hard-coded style values scattered across elements |
 | [Dynamic data](cms.md) | Building one page per content item instead of one template |
+| [Page templates](page-templates.md) | Recreating the same page structure manually |
 | External CMS | Managing dozens or hundreds of records inside the builder |
 
 ## Related
@@ -86,4 +93,5 @@ Webstudio dynamic pages use **one template for all records**. The CMS handles cr
 - [CSS variables](css-variables.md) – Individual named values (colors, sizes, spacing)
 - [Design tokens](design-tokens.md) – Reusable style collections built on top of CSS variables
 - [CMS & dynamic data](cms.md) – One template, many pages
+- [Page templates](page-templates.md) – Reusable blueprints for creating pages
 - [Data variables](variables.md) – Binding data to the canvas

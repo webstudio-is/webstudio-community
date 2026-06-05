@@ -35,6 +35,7 @@ In Content mode, the following actions can be performed:
 - Add and edit links within text
 - Upload and change images
 - Insert instances of templates to designer-specified regions called [Content Blocks](../core-components/content-block.md)
+- Create pages from existing [Page templates](page-templates.md), if the designer provided them
 - Publish the site (optional [permission](share-links.md#types-of-share-links))
 
 ### For designers/developers
@@ -49,6 +50,7 @@ Here’s what you need to know:
 - Users on the Pro tier can create a [Share link](share-links.md) with “Content” permission
 - Editors can perform [these actions](modes.md#allowed-actions)
 - You can create templates that editors can insert with [Content Blocks](../core-components/content-block.md)
+- You can create [Page templates](page-templates.md) that editors can use to create new pages
 
 #### Creating a Content mode share link
 
@@ -61,9 +63,9 @@ Here’s what you need to know:
 
 You can quickly switch to Content mode using the mode dropdown arrow next to Design in the top bar — useful for testing what clients will see before sharing the link.
 
-#### Templates
+#### Content Block templates
 
-Templates cannot be deleted by editors. Even if all instances of a template are removed, the template itself remains available for editors to add again. Make sure templates include complete styling since editors don't have access to the Style panel.
+Content Block templates cannot be deleted by editors. Even if all instances of a template are removed, the template itself remains available for editors to add again. Make sure templates include complete styling since editors don't have access to the Style panel.
 
 ### For editors
 

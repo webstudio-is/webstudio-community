@@ -15,7 +15,9 @@ See [Webstudio Templates](https://webstudio.is/marketplace/templates) or head ov
 
 ### **Pages**
 
-Page templates are pre-designed single or multi-page layouts for entire pages. Upon selection, a new page will be inserted into your Project.
+Marketplace page templates are pre-designed single or multi-page layouts for entire pages. Upon selection, a new page will be inserted into your Project.
+
+For reusable page blueprints inside a single project, use [Page templates](foundations/page-templates.md).
 
 ### **Integrations**
 
@@ -64,6 +66,7 @@ This ensures marketplace templates integrate smoothly into your projects without
 ## Related
 
 - [Webstudio Templates](https://webstudio.is/marketplace/templates) – Browse all available templates
+- [Page templates](foundations/page-templates.md) – Create reusable page blueprints inside a project
 - [Contributing to the Marketplace](../contributing/marketplace.md) – Submit your own templates
 - [Craft](craft.md) – The standard for building marketplace templates
 - [Copy-Paste from Webflow](foundations/copy-paste/webflow.md) – Import templates from Webflow
