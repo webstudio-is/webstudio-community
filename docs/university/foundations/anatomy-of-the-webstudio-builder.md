@@ -174,9 +174,21 @@ The Settings Panel is on the right side of your canvas. You can use this panel t
 
 ## Modes
 
-[Modes](modes.md) change the Builder’s behavior, such as previewing your site without distractions.
+[Modes](modes.md) change the Builder's behavior, such as previewing your site without distractions.
 
-<figure><img src="../../.gitbook/assets/modes.png" alt="mode switcher"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/builder-modes.png" alt="Mode switcher showing Design and Content modes"><figcaption></figcaption></figure>
+
+---
+
+## Hide UI
+
+Hide UI gives the canvas the full builder workspace by hiding the sidebars, footer, and top bar. It works in any mode, so you can keep using Design, Content, or Preview while the Builder chrome is hidden.
+
+Use Hide UI when you want more canvas space while designing, editing content, or previewing a page. Move the pointer to the top edge to temporarily reveal the top bar.
+
+You can enable Hide UI from **Menu > View > Hide UI** or with `⌘ + \` on Mac and `Ctrl + \` on Windows.
+
+<figure><img src="../../.gitbook/assets/builder-hide-ui-menu.png" alt="Builder View menu showing the Hide UI option and keyboard shortcut"><figcaption><p>Hide UI in the View menu</p></figcaption></figure>
 
 ---
 

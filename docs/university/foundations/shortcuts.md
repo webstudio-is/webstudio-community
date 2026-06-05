@@ -25,6 +25,7 @@ icon: command
     - Unwrap
     - Wrap In Box
     - Wrap In Link
+- Hide UI: `⌘ + \`
 
 ## **Sidebar Left**
 

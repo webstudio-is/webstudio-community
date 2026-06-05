@@ -91,7 +91,7 @@ Here’s what you need to know:
 
 ## Preview
 
-Preview mode hides editing capabilities so you can browse your website. Be sure to test your website on every breakpoint!
+Preview mode hides editing capabilities so you can browse your website. Use it to test navigation, interactions, and responsive behavior on every breakpoint.
 
 ## Safe Mode
 
