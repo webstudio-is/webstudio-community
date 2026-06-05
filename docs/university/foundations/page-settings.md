@@ -60,7 +60,42 @@ Can be bound to an expression — for example using a URL parameter — to serve
 
 ## Document type
 
-Defaults to **HTML**. Switch to **XML** when building XML-based pages such as sitemaps or RSS feeds. See the [XML Node component](../core-components/xml-node.md) for details.
+Controls the response format for the page.
+
+| Type | Use for |
+| --- | --- |
+| **HTML** | Regular web pages built visually on the canvas |
+| **XML** | XML-based output such as sitemaps and RSS feeds. See the [XML Node component](../core-components/xml-node.md) for details |
+| **TEXT** | Plain text output such as `robots.txt`, `ads.txt`, `security.txt`, verification files, or generated text responses |
+
+HTML is the default document type. XML and TEXT pages cannot be set as the home page.
+
+## Plain text pages
+
+Use the **TEXT** document type when a route needs to serve plain text instead of an HTML document. Text pages return only the content from the page's **Content** section with a `text/plain` response.
+
+Common uses include:
+
+- `robots.txt`
+- `ads.txt`
+- `/.well-known/security.txt`
+- Domain or service verification files
+- Dynamic text generated from Resources and expressions
+
+To create a plain text page:
+
+1. Create or open a page in the Pages panel
+2. Set the **Path**, such as `/robots.txt` or `/.well-known/security.txt`, using the same [path syntax](#path-syntax) as other pages
+3. Set **Document type** to **TEXT**
+4. Open the **Content** section
+5. Enter the plain text, or bind the field to an expression
+6. Publish the site
+
+<figure><img src="../../.gitbook/assets/page-settings-plain-text-page.png" alt="Page Settings showing Document type set to TEXT and the Content section with a plain text field"><figcaption><p>Plain text page settings</p></figcaption></figure>
+
+Plain text pages can still use Page Settings fields such as Status code, Redirect, Authentication, and Dynamic data. SEO, social image, and custom metadata fields apply only to HTML pages, so they are hidden when the document type is TEXT.
+
+Plain text pages are not included in the generated sitemap because they are not HTML pages.
 
 ## Authentication
 
