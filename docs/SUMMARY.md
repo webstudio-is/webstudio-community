@@ -42,7 +42,7 @@
   - [📄 Page settings](university/foundations/page-settings.md)
   - [⚙️ Project settings](university/foundations/project-settings.md)
   - [🎭 Modes](university/foundations/modes.md)
-  - [🔗 Share links & transferring projects](university/foundations/share-links.md)
+  - [🔗 Share links](university/foundations/share-links.md)
   - [🌐 Publishing & custom domains](university/foundations/publishing-and-custom-domains.md)
 - [🧩 Core Components](university/core-components/README.md)
   - [📦 Element](university/core-components/element.md)

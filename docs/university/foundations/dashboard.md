@@ -1,20 +1,87 @@
 ---
 description: >-
   The Dashboard is your central hub for managing all your Webstudio projects, 
-  featuring search, organization with tags, and multiple view options.
+  featuring workspaces, search, organization with tags, and multiple view options.
 ---
 
 # 🏠 Dashboard
 
 <figure><img src="../../.gitbook/assets/dashboard.png" alt="Webstudio dashboard showing project cards"><figcaption><p>The Webstudio Dashboard</p></figcaption></figure>
 
-The Dashboard is the first screen you see after logging into Webstudio. It provides an overview of all your projects and templates, with powerful features for organization and quick access.
+The Dashboard is the first screen you see after logging into Webstudio. It provides an overview of your workspaces, projects, and templates, with powerful features for organization and quick access.
 
 ---
 
+## Workspaces
+
+Workspaces let you organize projects and collaborate with other people. Each workspace has its own projects, members, roles, and seats.
+
+Use workspaces when you want to:
+
+- Keep client, team, or personal projects separate
+- Give collaborators access to multiple projects at once
+- Control what each person can view, edit, build, or publish
+- Move projects between workspaces you can manage
+
+### Creating a workspace
+
+1. Open the workspace selector in the Dashboard sidebar
+2. Choose "New workspace"
+3. Enter a workspace name
+4. Click "Create"
+
+Workspace creation is limited by your plan.
+
+### Switching workspaces
+
+Use the workspace selector in the Dashboard sidebar to switch between workspaces. The project list, templates, search results, and tags update to match the selected workspace.
+
+### Members and roles
+
+Workspace owners can manage members from the workspace menu. Add members by entering their email addresses; Webstudio sends them a secure dashboard notification to accept. Multiple emails can be entered at once by separating them with commas.
+
+Unlike share links, workspace membership is tied to a user's Webstudio account. This makes membership invitations safer for ongoing collaboration, especially when access should not depend on whether someone keeps a link private.
+
+When inviting or updating a member, choose a role:
+
+| Role | What they can do |
+| --- | --- |
+| Viewer | View, copy instances, and clone projects. |
+| Editor | Edit content only, such as text, images, and predefined components. |
+| Builder | Make design changes and publish to staging. |
+| Admin | Make design changes and publish to custom domains. |
+
+Owners have full control of the workspace, including member management and billing-related actions. Owners cannot be removed from their own workspace.
+
+### Pending invites
+
+Invited members appear as pending until they accept the invitation. Workspace owners can remove pending invites from the Members dialog.
+
+### Seats and billing
+
+Each workspace has an included seat count based on the workspace owner's plan. The Members dialog shows how many seats are still included.
+
+If an invite would exceed the included seats, Webstudio asks you to confirm the extra seats before sending the invite. Extra seats are added to billing for the workspace owner.
+
+If a workspace has more members than the plan covers, non-owner members cannot access the workspace until the owner buys the extra seats or removes members.
+
+### Moving and transferring projects
+
+From a project menu, choose "Transfer" to move or transfer a project:
+
+- Move it to another workspace you can manage
+- Transfer it to another user's workspace that you already have access to
+- Transfer it to another user by entering their email address
+
+If the recipient has no shared workspace available, Webstudio sends a transfer request. When the recipient accepts it, the project is placed in their default workspace.
+
+{% hint style="info" %}
+Workspaces are best for secure ongoing collaboration. Share links are still useful for one-off access, support, marketplace templates, and transferring cloneable copies, but anyone with the link can use it according to its permissions. See [Share links](share-links.md).
+{% endhint %}
+
 ## Search
 
-The Dashboard includes a unified search feature that helps you quickly find projects and templates across your entire workspace.
+The Dashboard includes a unified search feature that helps you quickly find projects and templates in the selected workspace.
 
 ### How to use search
 
@@ -23,7 +90,7 @@ The Dashboard includes a unified search feature that helps you quickly find proj
 3. Use arrow keys to navigate through search results
 4. Press Enter to open the selected project
 
-The search works across both your projects and starter templates, displaying results in a dedicated search view. This allows you to find any project regardless of which section you're currently viewing.
+The search works across both your projects and starter templates, displaying results in a dedicated search view. This allows you to find any project in the selected workspace regardless of which section you're currently viewing.
 
 {% hint style="info" %}
 Search is performed client-side for instant results, making it snappy even with many projects.
@@ -135,7 +202,10 @@ From the Dashboard, you can perform several actions on your projects:
 - **Settings** – Open project settings dialog
 - **Duplicate** – Create a copy of the project
 - **Share** – Create a share link
+- **Transfer** – Move the project to another workspace or transfer it to another user
 - **Delete** – Remove the project (with confirmation)
+
+Available actions depend on your workspace role. For example, Editors can rename and tag projects, Builders can create and duplicate projects, and Admins can transfer projects.
 
 ---
 
@@ -154,5 +224,5 @@ Templates are searchable using the same unified search feature.
 
 - [Project settings](project-settings.md) – Configure project-wide settings
 - [Publishing & custom domains](publishing-and-custom-domains.md) – Deploy your site and manage domains
-- [Share links](share-links.md) – Share projects and transfer ownership
+- [Share links](share-links.md) – Create share links and cloneable transfers
 - [Anatomy of the Webstudio builder](anatomy-of-the-webstudio-builder.md) – Learn the Builder interface

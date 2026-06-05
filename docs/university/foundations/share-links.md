@@ -1,19 +1,27 @@
 ---
 description: >-
-  Share links enable you to share your Webstudio Project with other people and
-  set permissions.
+  Share links enable you to share your Webstudio Project with other people,
+  set permissions, and create cloneable project copies.
 icon: clone
 ---
 
-# Share links & transferring projects
+# Share links
 
 **Use cases:**
 
-- Providing team members or clients the ability to modify a site
+- Providing one-off access to a site
 - Cloning the Project to another Webstudio account
 - Sharing your Project to get support
 - [Selling templates](../../contributing/marketplace.md#selling-templates) (i.e., using share links to deliver the template upon payment)
 - Creating your own marketplace of templates
+
+{% hint style="info" %}
+For ongoing collaboration, invite people to a workspace from the [Dashboard](dashboard.md#workspaces). For moving a project to another workspace or transferring it to another user, use the project menu in the Dashboard.
+{% endhint %}
+
+{% hint style="warning" %}
+Share links should be treated like access keys. Anyone who gets the link can use it according to the permissions you set, so avoid sending share links through unsecured channels. Workspace membership invites are more secure for ongoing collaboration because access is tied to the recipient's Webstudio account and accepted from their Dashboard notifications.
+{% endhint %}
 
 ## Cloning projects
 
@@ -49,17 +57,17 @@ There is no limit to how many share links you can add.
 
 ## Working with clients
 
-When building a site for someone else, you may want to either transfer the site to them altogether, or provide them the ability to edit the content without providing the full power of the website builder.
+When building a site for someone else, you may want to give them a cloneable copy, transfer the original project from the Dashboard, or provide limited editing access.
 
-### Option 1: Transfer entire project
+### Option 1: Share a cloneable copy
 
-Create a new share link to transfer the Project to your client. Ensure the link has cloning permissions (see [Types of share links](share-links.md#types-of-share-links)). Then, send the link to your client so they can clone the Project into their Webstudio account.
+Create a new share link with cloning permissions (see [Types of share links](share-links.md#types-of-share-links)). Then, send the link to your client so they can clone the Project into their Webstudio account.
 
 {% hint style="warning" %}
-If you are on a paid tier, it’s tied to your account, not the site. Therefore, if you transfer the site to another account, that account would need to purchase a plan if the site requires paid features/limits.
+If you are on a paid tier, it is tied to your account or workspace, not to the cloned project. The recipient needs a plan that covers any paid features or limits used by their copy.
 {% endhint %}
 
-If you plan to continue working on the website, they’ll need to create a Share link and send it to you once it’s in their account.
+If you plan to continue working on the website after they clone it, they can invite you to their workspace or create a Share link and send it to you.
 
 ### Option 2: Content mode
 
