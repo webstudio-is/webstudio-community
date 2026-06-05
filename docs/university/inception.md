@@ -208,6 +208,8 @@ Use **Improve design** from the frame menu when you want Inception to refine a g
 
 Improve design uses a stronger model for design critique and refinement.
 
+<figure><img src="../.gitbook/assets/inception-improve-design.png" alt="Inception frame menu showing the Improve design action"><figcaption><p>Improve design</p></figcaption></figure>
+
 ## Previewing and reviewing
 
 ### Preview mode
