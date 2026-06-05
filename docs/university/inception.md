@@ -82,7 +82,11 @@ Use variants when you want to compare different layouts, visual styles, or inter
 
 ### Model selector
 
-The model selector chooses which AI model should generate the design. The available models can change depending on what you are doing.
+The model selector chooses which AI model should generate the design. Inception gives you access to dozens of models, so you can choose the one that best fits the task, budget, and quality bar.
+
+<figure><img src="../.gitbook/assets/inception-model-selector.png" alt="Inception model selector dropdown showing multiple AI model options"><figcaption><p>Model selector</p></figcaption></figure>
+
+The available models can change depending on what you are doing.
 
 For example:
 
