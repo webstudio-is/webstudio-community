@@ -32,6 +32,10 @@ Use workspaces when you want to:
 
 Workspace creation is limited by your plan.
 
+<figure><img src="../../.gitbook/assets/workspace-selector.png" alt="Workspace selector open in the Dashboard sidebar"><figcaption><p>Workspace selector</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/new-workspace-dialog.png" alt="New workspace dialog with a workspace name field"><figcaption><p>Creating a new workspace</p></figcaption></figure>
+
 ### Switching workspaces
 
 Use the workspace selector in the Dashboard sidebar to switch between workspaces. The project list, templates, search results, and tags update to match the selected workspace.
@@ -41,6 +45,8 @@ Use the workspace selector in the Dashboard sidebar to switch between workspaces
 Workspace owners can manage members from the workspace menu. Add members by entering their email addresses; Webstudio sends them a secure dashboard notification to accept. Multiple emails can be entered at once by separating them with commas.
 
 Unlike share links, workspace membership is tied to a user's Webstudio account. This makes membership invitations safer for ongoing collaboration, especially when access should not depend on whether someone keeps a link private.
+
+<figure><img src="../../.gitbook/assets/workspace-members-dialog.png" alt="Workspace Members dialog showing invite field, role selector, member list, and included seats"><figcaption><p>Managing workspace members</p></figcaption></figure>
 
 When inviting or updating a member, choose a role:
 
@@ -52,6 +58,8 @@ When inviting or updating a member, choose a role:
 | Admin | Make design changes and publish to custom domains. |
 
 Owners have full control of the workspace, including member management and billing-related actions. Owners cannot be removed from their own workspace.
+
+<figure><img src="../../.gitbook/assets/workspace-role-selector.png" alt="Workspace role selector open with Viewer, Editor, Builder, and Admin options"><figcaption><p>Workspace roles</p></figcaption></figure>
 
 ### Pending invites
 
@@ -74,6 +82,8 @@ From a project menu, choose "Transfer" to move or transfer a project:
 - Transfer it to another user by entering their email address
 
 If the recipient has no shared workspace available, Webstudio sends a transfer request. When the recipient accepts it, the project is placed in their default workspace.
+
+<figure><img src="../../.gitbook/assets/project-transfer-dialog.png" alt="Project transfer dialog with workspace selector and recipient email field"><figcaption><p>Moving or transferring a project</p></figcaption></figure>
 
 {% hint style="info" %}
 Workspaces are best for secure ongoing collaboration. Share links are still useful for one-off access, support, marketplace templates, and transferring cloneable copies, but anyone with the link can use it according to its permissions. See [Share links](share-links.md).
