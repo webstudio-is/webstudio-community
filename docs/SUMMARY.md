@@ -101,6 +101,7 @@
   - [Tabs](university/radix/tabs.md)
   - [Tooltip](university/radix/tooltip.md)
 - [Marketplace](university/marketplace.md)
+- [✨ Inception](university/inception.md)
 - [🤖 Webstudio AI](university/webstudio-ai.md)
 - [📤 Self-Hosting](university/self-hosting/README.md)
   - [▶️ CLI](university/self-hosting/cli.md)

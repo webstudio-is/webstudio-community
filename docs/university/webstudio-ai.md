@@ -2,7 +2,7 @@
 
 Webstudio AI has been discontinued and is no longer maintained.
 
-Separately, the Webstudio team has launched [Inception](https://wstd.us/inception) — a **standalone product** designed specifically for creative design exploration, powered by a much more advanced AI foundation.
+Separately, the Webstudio team has launched [Inception](inception.md) — a **standalone product** designed specifically for creative design exploration, powered by a much more advanced AI foundation.
 
 Inception is **not** a new version of Webstudio AI and **not** a replacement for it. Webstudio AI was an experimental open-source project; Inception is a completely independent tool with a different purpose and workflow.
 
@@ -45,7 +45,7 @@ The upcoming version will:
 
 ## Related
 
-- [Inception](https://webstudio.is/inception) – Explore Webstudio's standalone AI design tool
+- [Inception](inception.md) – Explore Webstudio's standalone AI design exploration app
 - [Expression editor](foundations/expression-editor.md) – Write expressions and logic in Webstudio
 - [Data variables](foundations/variables.md) – Work with dynamic data and resources
 - [CMS](foundations/cms.md) – Manage content with Webstudio's built-in CMS

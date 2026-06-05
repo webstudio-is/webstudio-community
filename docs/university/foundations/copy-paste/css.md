@@ -61,7 +61,7 @@ You can paste HTML with Tailwind CSS classes, and Webstudio will automatically c
 
 This is especially useful when:
 
-- Using AI tools that generate Tailwind-based HTML
+- Using AI tools that generate Tailwind-based HTML, including [Inception](../../inception.md)
 - Migrating from Tailwind projects
 - Using Tailwind component libraries as a starting point
 
@@ -69,6 +69,7 @@ This is especially useful when:
 
 - [Markdown](./markdown.md) – Paste Markdown to create components automatically
 - [Webflow](./webflow.md) – Copy Webflow components into Webstudio
+- [Inception](../../inception.md) – Generate design directions and copy HTML/Tailwind output
 - [Shortcuts](../shortcuts.md) – Keyboard shortcuts for faster workflows
 - [Commands and search](../commands-and-search.md) – Quick access to commands and settings
 - [Anatomy of the Webstudio builder](../anatomy-of-the-webstudio-builder.md) – Overview of the Webstudio interface

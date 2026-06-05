@@ -30,6 +30,10 @@ Our getting started guide will help you navigate through building your first Web
 [marketplace.md](university/marketplace.md)
 {% endcontent-ref %}
 
+{% content-ref url="university/inception.md" %}
+[inception.md](university/inception.md)
+{% endcontent-ref %}
+
 {% content-ref url="university/self-hosting/" %}
 [self-hosting](university/self-hosting/)
 {% endcontent-ref %}

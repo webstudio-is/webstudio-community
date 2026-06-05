@@ -18,4 +18,5 @@ Developers will appreciate Webstudio's flexibility and extensibility. It simplif
 - [Building your first site](building-your-first-site.md) – Step-by-step guide to create your first website
 - [Courses](courses.md) – Community-made courses for learning Webstudio
 - [Anatomy of the Webstudio builder](../university/foundations/anatomy-of-the-webstudio-builder.md) – Understand the builder interface
+- [Inception](../university/inception.md) – Explore Webstudio's standalone AI design exploration app
 - [FAQs](FAQ.md) – Common questions and answers about Webstudio
