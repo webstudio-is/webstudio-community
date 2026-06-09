@@ -36,7 +36,10 @@ In Content mode, the following actions can be performed:
 - Upload and change images
 - Insert instances of templates to designer-specified regions called [Content Blocks](../core-components/content-block.md)
 - Create pages from existing [Page templates](page-templates.md), if the designer provided them
+- Edit safe page settings: page name, static path, title, description, search visibility, language, social image, and custom metadata
 - Publish the site (optional [permission](share-links.md#types-of-share-links))
+
+Content mode keeps structural and developer-oriented settings protected. Editors cannot create dynamic paths, change redirects, status codes, document type, authentication, page variables, or the page templates themselves.
 
 ### For designers/developers
 
@@ -51,6 +54,7 @@ Here’s what you need to know:
 - Editors can perform [these actions](modes.md#allowed-actions)
 - You can create templates that editors can insert with [Content Blocks](../core-components/content-block.md)
 - You can create [Page templates](page-templates.md) that editors can use to create new pages
+- Editors can update safe page metadata, but dynamic routes, redirects, authentication, document type, and status-code logic remain under designer control
 
 #### Creating a Content mode share link
 
@@ -86,6 +90,8 @@ Here’s what you need to know:
 - The designer of the site may have included [Content Blocks(s)](../core-components/content-block.md#content-block-in-content-mode). These are regions on the site where you have more capabilities — you can add templates the designer provided you and edit the content. See [Content Block](../core-components/content-block.md) for more information.
 
   <figure><img src="../../.gitbook/assets/add-content.png" alt="Adding a template"><figcaption></figcaption></figure>
+
+- If the designer provided [Page templates](page-templates.md), you can create new pages from them and edit page details like name, path, SEO title, description, language, social image, and custom metadata.
 
 - Changes save in real-time, but you must publish your changes when you are ready for them to go live. To do so, open the publish dialog by clicking “Publish” in the top right, then click “Publish”. It takes around 45 seconds for the site to publish. Note, “Publish” may be disabled if the designer didn’t enable the publishing permission for you.
 

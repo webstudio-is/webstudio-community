@@ -165,6 +165,20 @@ Use this for meta tags not covered by the fields above, such as `og:type`, `twit
 
 Variables and Resources defined on the page are scoped to that page and are available to bind to components and Page Settings fields. Define a [Resource variable](variables.md#resource) here to fetch CMS data and then bind it to the Title, Description, Status Code, and other fields above.
 
+## Content mode access
+
+In Content mode, editors can update the page settings that affect editable content and share previews:
+
+- Page name
+- Static page path
+- Search title and description
+- Exclude from search
+- Language
+- Social image
+- Custom metadata
+
+Content editors cannot create dynamic paths such as `/blog/:slug`, wildcard paths such as `/docs/*`, or external URL paths. Redirects, status codes, document type, authentication, dynamic data, and other structural settings remain available only in Design mode.
+
 ## Related
 
 - [CMS](cms.md) – Connect to a CMS and use dynamic data on pages

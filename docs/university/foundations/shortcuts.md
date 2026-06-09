@@ -41,6 +41,13 @@ icon: command
 - Collapse Navigator item: `left arrow`
 - Expand all Navigator item children: `alt + click`
 
+## **Pages Panel**
+
+- Copy selected page, folder, or page template: `⌘ + c`
+- Paste copied page, folder, or page template: `⌘ + v`
+- Duplicate selected page, folder, or page template: `⌘ + d`
+- Delete selected page, folder, or page template: `backspace`
+
 ## **Style Panel**
 
 - Open Style Panel: `s`

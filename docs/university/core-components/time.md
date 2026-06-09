@@ -22,7 +22,8 @@ Use Time for:
 1. Drag a **Time** component from Components > General onto your canvas
 2. Set the `datetime` value (the actual date/time data)
 3. Configure the display format using the formatting properties
-4. Optionally bind dynamic dates from your CMS
+4. Choose the timezone used to display the date
+5. Optionally bind dynamic dates from your CMS
 
 ## Properties
 
@@ -30,9 +31,10 @@ Some commonly used properties (see the Settings panel for all available options)
 
 ### Core Properties
 
-| Property     | Description                                       |
-| ------------ | ------------------------------------------------- |
-| **datetime** | The date/time value (ISO 8601 format recommended) |
+| Property     | Description                                                |
+| ------------ | ---------------------------------------------------------- |
+| **datetime** | The date/time value (ISO 8601 format recommended)          |
+| **timeZone** | Timezone used to display the date, such as `UTC`, `visitor`, or `Europe/Berlin` |
 
 ### Formatting Properties
 
@@ -43,6 +45,20 @@ Some commonly used properties (see the Settings panel for all available options)
 | **dateStyle** | How to display the date              | `full`, `long`, `medium`, `short` |
 | **timeStyle** | How to display the time              | `full`, `long`, `medium`, `short` |
 | **format**    | Custom format using tokens           | `DDDD, MMMM DD, YYYY`             |
+
+## Timezone
+
+The Time component formats dates in `UTC` by default, which keeps output consistent across visitors and deployments.
+
+Use the `timeZone` property when the displayed time should be tied to a specific location or to the visitor:
+
+| Value | Behavior |
+| --- | --- |
+| `UTC` | Displays the date in Coordinated Universal Time |
+| `visitor` | Displays the date in each visitor's browser timezone after the page loads |
+| IANA timezone | Displays the date in a fixed timezone such as `Europe/Berlin`, `America/New_York`, or `Asia/Tokyo` |
+
+For events, webinars, launches, and deadlines, use a fixed IANA timezone so every visitor sees the time in the intended location. Use `visitor` when the time should adapt to each visitor's local timezone.
 
 ## Custom Date Formatting
 
@@ -123,7 +139,8 @@ When binding dates from a CMS or API:
 
 1. Bind the `datetime` property to your date field
 2. Optionally bind `language` to a dynamic value for multilingual sites
-3. The component will format the date according to your settings
+3. Optionally bind `timeZone` if the CMS provides an IANA timezone
+4. The component will format the date according to your settings
 
 ### Example Expression
 
