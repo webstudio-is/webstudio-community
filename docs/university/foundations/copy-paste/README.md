@@ -4,10 +4,16 @@ description: Webstudio supports copy-pasting within the platform and from extern
 
 # ↔️ Copy-Paste
 
-## Supported External Sources
-
 {% content-ref url="css.md" %}
 [css.md](css.md)
+{% endcontent-ref %}
+
+{% content-ref url="html-with-css.md" %}
+[html-with-css.md](html-with-css.md)
+{% endcontent-ref %}
+
+{% content-ref url="html-with-tailwind.md" %}
+[html-with-tailwind.md](html-with-tailwind.md)
 {% endcontent-ref %}
 
 {% content-ref url="markdown.md" %}
@@ -18,10 +24,10 @@ description: Webstudio supports copy-pasting within the platform and from extern
 [webflow.md](webflow.md)
 {% endcontent-ref %}
 
-## Additional Paste Support
+{% content-ref url="svg.md" %}
+[svg.md](svg.md)
+{% endcontent-ref %}
 
-- **HTML with CSS** – Paste HTML containing `<style>` blocks; class-based selectors are converted into [design tokens](../design-tokens.md) and applied to matching elements
-- **SVG** – Paste SVG code directly onto the canvas to create native SVG components
-- **HTML with Tailwind** – Use the **Paste HTML with Tailwind classes** command to paste HTML containing Tailwind CSS classes; output copied from [Inception](../../inception.md) can also be pasted directly
-- **Images** – Paste images from clipboard; they are automatically uploaded to Assets
-- **GitHub Markdown** – Paste markdown from GitHub; formatting is preserved
+{% content-ref url="images.md" %}
+[images.md](images.md)
+{% endcontent-ref %}

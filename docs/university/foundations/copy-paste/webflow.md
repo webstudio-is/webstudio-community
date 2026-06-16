@@ -8,6 +8,8 @@ description: >-
 
 It works by copying anything in Webflow format, such as component libraries and projects, and pasting it into Webstudio, transferring the structure and styles.
 
+If the pasted Webflow content references images, including background images, Webstudio uploads those images into [Assets](../assets.md) and rewrites the pasted components/styles to use the uploaded assets.
+
 ## What does and doesn’t transfer
 
 ### Elements
@@ -96,6 +98,7 @@ Pasting a class/Token that already exists will not cause duplication or override
 - [Copy & Paste](https://webstudio.is/copy-paste) – Learn more about copying from Webflow to Webstudio
 - [CSS](./css.md) – Paste CSS to populate the Style Panel
 - [Markdown](./markdown.md) – Paste Markdown to create components automatically
+- [Referenced images](./images.md) – Understand image handling during paste
 - [Shortcuts](../shortcuts.md) – Keyboard shortcuts for faster workflows
 - [Commands and search](../commands-and-search.md) – Quick access to commands and settings
 - [Anatomy of the Webstudio builder](../anatomy-of-the-webstudio-builder.md) – Overview of the Webstudio interface

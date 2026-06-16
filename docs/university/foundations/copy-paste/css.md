@@ -32,53 +32,12 @@ The styles are parsed and displayed in their respective fields (they will also b
 
 When pasting into the Style Panel, Webstudio accepts CSS declarations (e.g., `background: blue;`). Selectors are not needed because Webstudio applies styles directly to the selected instance.
 
-## Pasting HTML with CSS
-
-When you paste HTML that includes `<style>` blocks, Webstudio extracts the CSS rules and converts class-based selectors into [design tokens](../design-tokens.md). Each class becomes a reusable token, and styles are applied to the matching elements.
-
-### Supported selectors
-
-- **Class selectors** — `.card { padding: 16px; }` creates a token named "card"
-- **Compound selectors** — `.card.featured { border: 1px solid gold; }` creates a combined token
-- **Descendant selectors** — `.card .title { font-size: 24px; }` applies styles to `.title` elements inside `.card`
-- **Child selectors** — `.card > .header { display: flex; }` applies styles to direct `.header` children of `.card`
-- **Pseudo-states** — `.button:hover { opacity: 0.8; }` applies styles to the hover state
-- **Media queries** — `@media (min-width: 768px) { .card { ... } }` creates breakpoint-specific styles, including nested `@media` rules
-
-Non-class selectors (tag selectors, ID selectors, attribute selectors) are applied as inline styles where possible.
-
-If a nested selector references elements not present in the pasted HTML, Webstudio shows a notification listing the skipped selectors.
-
-## Tailwind CSS support
-
-You can paste HTML with Tailwind CSS classes into Webstudio and convert the utility classes into native Webstudio styles.
-
-For general Tailwind HTML, use the **Paste HTML with Tailwind classes** command:
-
-1. Copy HTML containing Tailwind classes, such as `<div class="flex items-center gap-4 p-6 bg-white rounded-lg">`
-2. Open [Commands & search](../commands-and-search.md) with `⌘ + K` (`Ctrl + K` on Windows)
-3. Search for **Paste HTML with Tailwind classes**
-4. Run the command
-
-<figure><img src="../../../.gitbook/assets/paste-html-tailwind-command.png" alt="Commands and search showing the Paste HTML with Tailwind classes command"><figcaption><p>Paste HTML with Tailwind classes command</p></figcaption></figure>
-
-HTML/Tailwind output copied from [Inception](../../inception.md) can also be pasted directly into the Builder.
-
-### How it works
-
-Webstudio creates the component structure and applies the equivalent styles.
-
-This is especially useful when:
-
-- Using AI tools that generate Tailwind-based HTML, including [Inception](../../inception.md)
-- Migrating from Tailwind projects
-- Using Tailwind component libraries as a starting point
-
 ## Related
 
+- [HTML with CSS](./html-with-css.md) – Paste HTML containing `<style>` blocks
+- [HTML with Tailwind](./html-with-tailwind.md) – Paste HTML containing Tailwind utility classes
 - [Markdown](./markdown.md) – Paste Markdown to create components automatically
 - [Webflow](./webflow.md) – Copy Webflow components into Webstudio
-- [Inception](../../inception.md) – Generate design directions and copy HTML/Tailwind output
 - [Shortcuts](../shortcuts.md) – Keyboard shortcuts for faster workflows
 - [Commands and search](../commands-and-search.md) – Quick access to commands and settings
 - [Anatomy of the Webstudio builder](../anatomy-of-the-webstudio-builder.md) – Overview of the Webstudio interface
