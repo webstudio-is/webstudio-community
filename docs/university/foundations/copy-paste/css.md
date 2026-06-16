@@ -51,13 +51,22 @@ If a nested selector references elements not present in the pasted HTML, Webstud
 
 ## Tailwind CSS support
 
-You can paste HTML with Tailwind CSS classes, and Webstudio will automatically convert the Tailwind utility classes into native Webstudio styles.
+You can paste HTML with Tailwind CSS classes into Webstudio and convert the utility classes into native Webstudio styles.
+
+For general Tailwind HTML, use the **Paste HTML with Tailwind classes** command:
+
+1. Copy HTML containing Tailwind classes, such as `<div class="flex items-center gap-4 p-6 bg-white rounded-lg">`
+2. Open [Commands & search](../commands-and-search.md) with `⌘ + K` (`Ctrl + K` on Windows)
+3. Search for **Paste HTML with Tailwind classes**
+4. Run the command
+
+<figure><img src="../../../.gitbook/assets/paste-html-tailwind-command.png" alt="Commands and search showing the Paste HTML with Tailwind classes command"><figcaption><p>Paste HTML with Tailwind classes command</p></figcaption></figure>
+
+HTML/Tailwind output copied from [Inception](../../inception.md) can also be pasted directly into the Builder.
 
 ### How it works
 
-1. Copy HTML containing Tailwind classes (e.g., `<div class="flex items-center gap-4 p-6 bg-white rounded-lg">`)
-2. Paste into Webstudio
-3. Webstudio creates the component structure and applies the equivalent styles
+Webstudio creates the component structure and applies the equivalent styles.
 
 This is especially useful when:
 

@@ -35,6 +35,7 @@ Commands & search speeds up the building process and introduces new shortcuts.
   - Convert To – Convert the current instance to a different component type while preserving children and styles.
   - Replace With Element – Replace the current instance with a different HTML element.
   - Insert Tag – Insert specific HTML tags at the current position.
+  - Paste HTML with Tailwind classes – Paste HTML from your clipboard and convert Tailwind utility classes into native Webstudio styles.
   - Delete Unused Variables – Remove data variables that are no longer referenced anywhere.
   - Delete Unused CSS variables – Remove CSS custom properties that are no longer used.
   - All other [keyboard shortcuts](shortcuts.md)
