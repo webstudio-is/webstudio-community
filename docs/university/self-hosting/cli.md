@@ -68,6 +68,7 @@ Here is the list of independent commands:
 - help
 - link
 - sync
+- import
 - build
 
 #### link
@@ -93,6 +94,26 @@ webstudio sync
 ```
 
 Make sure to publish the Project in Webstudio Cloud before running the **`sync`** command in your local Webstudio Project.
+
+#### import
+
+Use the **`import`** command to import the synced project bundle into another Webstudio Cloud Project:
+
+```bash
+webstudio import --to "<share-link>"
+```
+
+Run `webstudio sync` before importing. The import command reads `.webstudio/data.json` and uploads referenced asset files from `.webstudio/assets` to the destination Project before importing the Project data.
+
+The destination share link must include Build access. If you omit `--to` in an interactive terminal, the CLI prompts you to paste the destination share link.
+
+To import only Project data without uploading assets, use:
+
+```bash
+webstudio import --to "<share-link>" --skip-assets
+```
+
+If the synced bundle version does not match the destination API version, the CLI stops before importing. Use `--ignore-version-check` only when you know the source and target data formats are compatible.
 
 #### build
 
