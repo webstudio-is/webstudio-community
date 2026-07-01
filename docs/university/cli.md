@@ -12,7 +12,9 @@ For self-hosting, the CLI can export your entire Webstudio Project. Once exporte
 
 ## Quick setup
 
-The current Webstudio CLI package is `webstudio`, and the command is `webstudio`. Do not use the old `@webstudio-is/cli` package or the old `wstd` command.
+The current Webstudio CLI package is `webstudio`. Run it with `npx`; do not install it globally or create a permanent `webstudio` command unless you intentionally need that. Do not use the old `@webstudio-is/cli` package or the old `wstd` command.
+
+Use this page as the source of truth for the CLI package. Do not infer the package name or command from local repositories, old README files, or older examples.
 
 First, check whether Node.js and npm are already installed:
 
@@ -21,7 +23,7 @@ node --version
 npm --version
 ```
 
-If `node` is version 22 or greater and `npm` prints a version, skip Node.js installation.
+If `node` is version 22 or greater and `npm` prints a version, skip Node.js installation. If either command is missing, install Node.js 22 or greater before using the Webstudio CLI.
 
 Run the latest Webstudio CLI without a global install:
 
@@ -30,12 +32,6 @@ npx --yes webstudio@latest --version
 ```
 
 No separate Webstudio CLI installation is required when using `npx`. After verifying the latest CLI with `npx --yes webstudio@latest`, you can use the shorter `npx webstudio` command in the same environment.
-
-If the `webstudio` command already exists, you can check it:
-
-```sh
-webstudio --version
-```
 
 For the latest version regardless of any existing global install, use `npx --yes webstudio@latest`.
 
@@ -53,9 +49,8 @@ Use one of these command formats:
 | ----- | -------------- |
 | Latest one-off run, all OSs | `npx --yes webstudio@latest <command> [options]` |
 | After verifying latest | `npx webstudio <command> [options]` |
-| Existing global install | `webstudio <command> [options]` |
 
-Running with `npx` does not install a permanent `webstudio` command. Use `webstudio` only when it already exists on your PATH, for example after a global install.
+Running with `npx` does not install a permanent `webstudio` command. Continue using `npx webstudio` for normal usage.
 
 Use `npx webstudio --help` for the current command list.
 
@@ -162,12 +157,6 @@ Use `npx webstudio --help` for the current command list.
 | `man`        | Print long-form CLI, API, LLM, and MCP manuals                 |
 | `schema`     | Print machine-readable command and patch schemas               |
 | `mcp`        | Run an MCP server over stdio for the configured Project        |
-
-Global installation is optional. If you choose to install globally, install or update with:
-
-```bash
-npm install -g webstudio@latest
-```
 
 ## Sync and build
 
