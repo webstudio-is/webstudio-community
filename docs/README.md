@@ -22,8 +22,8 @@ Our getting started guide will help you navigate through building your first Web
 [core-components](university/core-components/)
 {% endcontent-ref %}
 
-{% content-ref url="cli.md" %}
-[cli.md](cli.md)
+{% content-ref url="university/cli.md" %}
+[cli.md](university/cli.md)
 {% endcontent-ref %}
 
 {% content-ref url="university/inception.md" %}

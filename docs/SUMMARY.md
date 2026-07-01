@@ -90,7 +90,7 @@
   - [🕐 XML Time](university/core-components/xml-time.md)
   - [🕐 Time](university/core-components/time.md)
   - [🏷️ Built with Webstudio](university/core-components/built-with-webstudio.md)
-- [⬛ CLI](cli.md)
+- [⬛ CLI](university/cli.md)
 - [✨ Inception](university/inception.md)
 - [▫️ Radix UI Components](university/radix/README.md)
   - [Accordion](university/radix/accordion.md)
