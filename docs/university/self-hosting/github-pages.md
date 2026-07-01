@@ -27,6 +27,6 @@ See [GitHub’s installation instructions](https://pages.github.com/) for a comp
 ## Related
 
 - [Download](./download.md) – Export a static site directly from the Builder
-- [CLI](../cli.md) – Export and build your project using the command line
+- [CLI](../../cli.md) – Export and build your project using the command line
 - [Cloudflare Pages](./cloudflare-pages.md) – Another platform for static site hosting
 - [Publishing and custom domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site

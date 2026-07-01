@@ -16,7 +16,7 @@ Coolify is a PaaS that makes it easy to deploy and manage applications on your o
 
 * [GitHub account](https://github.com)
 * [Digital Ocean account](https://www.digitalocean.com)
-* [Webstudio CLI](../cli.md)
+* [Webstudio CLI](../../cli.md)
 
 ## 1. Create a GitHub repository
 
@@ -95,7 +95,7 @@ Now, you should have a website built on Webstudio that is hosted on Digital Ocea
 
 ## Related
 
-- [CLI](../cli.md) – Export and build your project using the command line
+- [CLI](../../cli.md) – Export and build your project using the command line
 - [Hetzner with Coolify](./hetzner-coolify.md) – Similar deployment using Hetzner
 - [VPS with Docker](./vps-with-docker.md) – Manual Docker deployment on any VPS
 - [AWS with Flightcontrol](./flightcontrol.md) – Deploy to AWS using Flightcontrol

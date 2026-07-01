@@ -20,8 +20,8 @@ How to Export and Self-Host Your Site on Vercel
 
 ### **Prerequisites**
 
-* Install the [Webstudio CLI](../cli.md)
-* [Build](../cli.md#sync-and-build) your project locally
+* Install the [Webstudio CLI](../../cli.md)
+* [Build](../../cli.md#sync-and-build) your project locally
 
 Once you've built the project locally, you can use the [Vercel CLI](https://vercel.com/docs/cli) to deploy your app directly to Vercel:
 
@@ -59,7 +59,7 @@ Learn how to upload your static site to Vercel.
 See Vercel’s “[Import an existing project](https://vercel.com/docs/getting-started-with-vercel/import)” doc for a comprehensive tutorial.
 ## Related
 
-- [CLI](../cli.md) – Export and build your project using the command line
+- [CLI](../../cli.md) – Export and build your project using the command line
 - [Netlify](./netlify.md) – Another popular platform for deploying JavaScript apps
 - [Cloudflare Pages](./cloudflare-pages.md) – Deploy static sites to Cloudflare's network
 - [Publishing and custom domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site

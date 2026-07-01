@@ -17,7 +17,7 @@ Flightcontrol is a PaaS that deploys to your AWS account, enabling you to levera
 * [GitHub account](https://github.com)
 * [AWS account](https://aws.amazon.com)
 * [Flightcontrol account](https://www.flightcontrol.dev)
-* [Webstudio CLI](../cli.md)
+* [Webstudio CLI](../../cli.md)
 
 ## 1. Create a GitHub repository
 
@@ -27,7 +27,7 @@ Be sure to clone the repository to your local machine.
 
 ## 2. Export Webstudio Project
 
-Use the [CLI](../cli.md) to export your Project and select the “Docker” option.
+Use the [CLI](../../cli.md) to export your Project and select the “Docker” option.
 
 <figure><img src="../../.gitbook/assets/flightcontrol-docker-export.png" alt="Selecting Docker for Webstudio"><figcaption></figcaption></figure>
 
@@ -74,7 +74,7 @@ Now, you should have a website built on Webstudio that is hosted on AWS using Fl
 
 ## Related
 
-- [CLI](../cli.md) – Export and build your project using the command line
+- [CLI](../../cli.md) – Export and build your project using the command line
 - [Digital Ocean with Coolify](./digital-ocean-coolify.md) – Deploy using Coolify on Digital Ocean
 - [Hetzner with Coolify](./hetzner-coolify.md) – Deploy using Coolify on Hetzner
 - [VPS with Docker](./vps-with-docker.md) – Manual Docker deployment on any VPS

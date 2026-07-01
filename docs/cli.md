@@ -4,7 +4,7 @@ description: >-
   your Projects from the command line.
 ---
 
-# ▶️ CLI
+# ⬛ CLI
 
 Webstudio's CLI lets you work with Projects from the command line. You can export and build a Project, publish and manage domains, inspect Project permissions, capture screenshots, and expose the configured Project to automation tools through MCP.
 
@@ -73,7 +73,7 @@ webstudio build --template ssg
 ```
 
 {% hint style="info" %}
-See [export types](self-hosting/#export-types) for more information about JavaScript applications vs. static sites.
+See [export types](university/self-hosting/#export-types) for more information about JavaScript applications vs. static sites.
 {% endhint %}
 
 ## How the CLI connects to a Project
@@ -149,7 +149,7 @@ Build a static site with:
 webstudio build --template ssg
 ```
 
-Please review [the limitations](self-hosting/#ssg-limitations) of using the static site export instead of dynamic templates.
+Please review [the limitations](university/self-hosting/#ssg-limitations) of using the static site export instead of dynamic templates.
 
 ## Import into another Project
 
@@ -255,8 +255,8 @@ Prefer semantic MCP tools for Project edits. Use raw `apply-patch` only when no 
 
 ## Related
 
-- [Download](self-hosting/download.md) – Export a static site directly from the Builder
-- [Netlify](self-hosting/netlify.md) – Deploy your project to Netlify
-- [Vercel](self-hosting/vercel.md) – Deploy your project to Vercel
-- [VPS with Docker](self-hosting/vps-with-docker.md) – Deploy to your own server using Docker
-- [Publishing and custom domains](foundations/publishing-and-custom-domains.md) – Set up custom domains for your site
+- [Download](university/self-hosting/download.md) – Export a static site directly from the Builder
+- [Netlify](university/self-hosting/netlify.md) – Deploy your project to Netlify
+- [Vercel](university/self-hosting/vercel.md) – Deploy your project to Vercel
+- [VPS with Docker](university/self-hosting/vps-with-docker.md) – Deploy to your own server using Docker
+- [Publishing and custom domains](university/foundations/publishing-and-custom-domains.md) – Set up custom domains for your site

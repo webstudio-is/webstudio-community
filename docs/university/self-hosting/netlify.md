@@ -20,7 +20,7 @@ Learn how to deploy your dynamic JavaScript application to Netlify.
 
 ### Prerequisites
 
-- Install the [Webstudio CLI](../cli.md)
+- Install the [Webstudio CLI](../../cli.md)
 
 Use the [Netlify CLI](https://docs.netlify.com/cli/get-started/) to deploy your app directly to [Netlify](https://netlify.com/):
 
@@ -103,7 +103,7 @@ Learn how to upload your static site to Netlify.
 
 ## Related
 
-- [CLI](../cli.md) – Export and build your project using the command line
+- [CLI](../../cli.md) – Export and build your project using the command line
 - [Vercel](./vercel.md) – Another popular platform for deploying JavaScript apps
 - [Cloudflare Pages](./cloudflare-pages.md) – Deploy static sites to Cloudflare's network
 - [Publishing and custom domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site
