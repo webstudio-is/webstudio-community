@@ -6,9 +6,9 @@ description: >-
 
 # ▶️ CLI
 
-One of the key features of Webstudio's CLI is its exporting capability. With this, you can export your entire Webstudio Project in full.
+Webstudio's CLI lets you work with Projects from the command line. You can export and build a Project, publish and manage domains, inspect Project permissions, capture screenshots, and expose the configured Project to automation tools through MCP.
 
-Once exported, these projects are ready to be deployed on any hosting platform of your choice - giving you complete freedom over where and how your website goes live.
+For self-hosting, the CLI can export your entire Webstudio Project. Once exported, these projects are ready to be deployed on any hosting platform of your choice - giving you complete freedom over where and how your website goes live.
 
 ## Prerequisites: Installing Node.js
 
@@ -50,104 +50,208 @@ To get started with the Webstudio CLI:
 
 3.  To keep your CLI updated, use the same command used for installation whenever a new release is available.
 
-## Initiating a Webstudio Project
+## Quick start
 
-Now, you can run a Webstudio Project on your local machine using this command:
+Run the CLI without a command to start the guided setup flow:
 
 ```bash
 webstudio
 ```
 
-This will initiate the flow to connect your Webstudio Cloud project and build it in your local computer. The default flow will guide you through the steps. You can also perform all the operations individually using independent commands.
-
-### Commands
-
-Here is the list of independent commands:
-
-- version
-- help
-- link
-- sync
-- import
-- build
-
-#### link
-
-The **`link`** command syncs your local Webstudio Project with the Project from the Cloud. This means that any changes made in the Cloud can be synced to the local Project, once they are published.
-
-You can link a Project from Webstudio Cloud with the following command:
+This connects a Webstudio Cloud Project, syncs it, builds it locally, and optionally installs dependencies. You can also run each step yourself.
 
 ```bash
 webstudio link
-```
-
-This command will prompt you to paste a link which you can create using the _Share_ option in your Project.
-
-**Make sure to provide Build access when generating the link in Webstudio Cloud.**
-
-#### sync
-
-Once the project is linked, use the **`sync`** command to sync it with the Cloud:
-
-```bash
 webstudio sync
+webstudio build --template docker
 ```
 
-Make sure to publish the Project in Webstudio Cloud before running the **`sync`** command in your local Webstudio Project.
-
-#### import
-
-Use the **`import`** command to import the synced project bundle into another Webstudio Cloud Project:
+For a static export, use:
 
 ```bash
-webstudio import --to "<share-link>"
-```
-
-Run `webstudio sync` before importing. The import command reads `.webstudio/data.json` and uploads referenced asset files from `.webstudio/assets` to the destination Project before importing the Project data.
-
-The destination share link must include Build access. If you omit `--to` in an interactive terminal, the CLI prompts you to paste the destination share link.
-
-To import only Project data without uploading assets, use:
-
-```bash
-webstudio import --to "<share-link>" --skip-assets
-```
-
-If the synced bundle version does not match the destination API version, the CLI stops before importing. Use `--ignore-version-check` only when you know the source and target data formats are compatible.
-
-#### build
-
-Now, you can build your Project as a dynamic app or static site using the **`build`** command:
-
-```bash
-webstudio build
+webstudio build --template ssg
 ```
 
 {% hint style="info" %}
 See [export types](./#export-types) for more information about JavaScript applications vs. static sites.
 {% endhint %}
 
-**Build a JavaScript application**
+## How the CLI connects to a Project
 
-During this phase, the CLI establishes the necessary routes and pages, scaffolding the entire application using the default Remix template. Additionally, all assets, such as images and fonts, are downloaded to the `assets` folder inside the `public` directory.
+Most CLI commands operate on the single Project configured in the current directory.
 
-Once the project is scaffolded, you can run `npm install` and then `npm run dev` to run your app in development mode.
+- `.webstudio/config.json` stores the Project ID.
+- The global Webstudio config stores the origin and share-link token.
+- `webstudio sync` downloads the Project bundle to `.webstudio/data.json`.
+- Synced asset files are stored in `.webstudio/assets`.
 
-If you want to build a production version of the app, you can run `npm run build`.
+You can configure a Project interactively:
 
-See [JavaScript app hosting platforms](./#platforms-for-javascript-applications) we have documented.
+```bash
+webstudio link
+```
 
-**Build a static site**
+Or pass a share link directly:
 
-You can optionally build the project as a static site by selecting "Static Site Generation (SSG)" in templates or with the following command:
+```bash
+webstudio link --link "<share-link>"
+```
+
+For automation, use `init` with JSON output:
+
+```bash
+webstudio init --link "<share-link>" --json
+```
+
+The share link should include Build access when you need to sync, build, import, or automate Project changes.
+
+## Commands
+
+Use `webstudio --help` for the current command list.
+
+| Command      | Use                                                            |
+| ------------ | -------------------------------------------------------------- |
+| `init`       | Create or link a local Webstudio Project setup                 |
+| `link`       | Link the current directory to a Builder share link             |
+| `sync`       | Download the configured Project bundle and assets              |
+| `import`     | Import the synced bundle into another Project                  |
+| `build`      | Build the synced Project with a selected template              |
+| `preview`    | Regenerate files and run the generated app dev server          |
+| `screenshot` | Capture a PNG screenshot of a URL                              |
+| `permissions`| Show API, role, publish, and domain capabilities               |
+| `publish`    | Publish, list publish jobs, check status, and unpublish        |
+| `domains`    | List, create, update, delete, and verify custom domains        |
+| `man`        | Print long-form CLI, API, LLM, and MCP manuals                 |
+| `schema`     | Print machine-readable command and patch schemas               |
+| `mcp`        | Run an MCP server over stdio for the configured Project        |
+
+## Sync and build
+
+After linking, publish the Project in Webstudio Cloud, then sync it locally:
+
+```bash
+webstudio sync
+```
+
+Build a dynamic app with one of the deployment templates:
+
+```bash
+webstudio build --template docker
+```
+
+During this phase, the CLI establishes the necessary routes and pages, scaffolding the application using the selected React Router template. Assets such as images and fonts are downloaded to the `assets` folder inside `public`.
+
+Once the project is scaffolded, run `npm install` and then `npm run dev` to run your app in development mode. To build a production version, run `npm run build`.
+
+Build a static site with:
 
 ```bash
 webstudio build --template ssg
 ```
 
-Please review [the limitations](./#ssg-limitations) of using the static site export instead of dynamic (i.e., all the other options in templates).
+Please review [the limitations](./#ssg-limitations) of using the static site export instead of dynamic templates.
 
-See [static site hosting platforms](./#platforms-for-static-sites) we have documented.
+## Import into another Project
+
+Use `import` to transfer the synced Project bundle into another Webstudio Project:
+
+```bash
+webstudio import --to "<destination-share-link>"
+```
+
+Run `webstudio sync` before importing. The command reads `.webstudio/data.json` and imports it into the destination Project. The destination share link must include Build access. If you omit `--to` in an interactive terminal, the CLI prompts you to paste the destination share link.
+
+By default, the CLI reads referenced asset files from `.webstudio/assets`, uploads them to the destination Project, and imports the asset records. Use `--assets-dir` when the asset files are somewhere else:
+
+```bash
+webstudio import --to "<destination-share-link>" --assets-dir "./path/to/assets"
+```
+
+To import Project data without asset files or asset records, use:
+
+```bash
+webstudio import --to "<destination-share-link>" --skip-assets
+```
+
+If the synced bundle version does not match the destination API version, the CLI stops before importing. Use `--ignore-version-check` only when you know the source and target data formats are compatible.
+
+## Preview and screenshot
+
+Run the generated app locally:
+
+```bash
+webstudio preview --template ssg --port 5173
+```
+
+The preview command uses `.webstudio/data.json`, so run `webstudio sync` first. It does not install dependencies for the generated app. For a fresh checkout or newly generated app, run `npm install` or `pnpm install` before previewing.
+
+Capture a screenshot with an installed Chromium-family browser:
+
+```bash
+webstudio screenshot "http://127.0.0.1:5173" --output current.png --width 1440 --height 900
+```
+
+## Publish and domains
+
+These commands operate on the configured Project and return JSON. Check the configured token's capabilities first:
+
+```bash
+webstudio permissions --json
+```
+
+Publish, inspect publish jobs, and unpublish:
+
+```bash
+webstudio publish deploy --target production --json
+webstudio publish list --json
+webstudio publish status --job <build-id> --json
+webstudio publish unpublish --target production --confirm --json
+```
+
+List and manage custom domains:
+
+```bash
+webstudio domains list --json
+webstudio domains create --domain example.com --json
+webstudio domains verify --domain-id <domain-id> --json
+webstudio domains delete --domain-id <domain-id> --confirm --json
+```
+
+Use `--confirm` only for destructive commands the user explicitly wants to run, such as unpublish, domain deletion, or replacement.
+
+## API, manuals, and MCP
+
+The CLI includes built-in manuals and machine-readable schemas:
+
+```bash
+webstudio man api
+webstudio man llm --json
+webstudio man mcp
+webstudio schema api --json
+```
+
+API commands follow these rules:
+
+- They operate on the configured Project only; do not pass a Project ID.
+- Use `--json`; successful responses are JSON on stdout, while diagnostics go to stderr.
+- Read IDs before writing. Do not invent IDs for existing pages, domains, assets, or other records.
+- Use `--refresh` before local-capable commands when cached Project data may be stale.
+
+For detailed Project editing and automation, start the MCP server:
+
+```bash
+webstudio mcp
+```
+
+After startup, MCP clients can discover capabilities with `tools/list`, `resources/list`, `meta.index`, `meta.guide`, and `meta.get_more_tools`.
+
+Useful MCP resources include:
+
+- `webstudio://project/status`
+- `webstudio://project/tools`
+- `webstudio://project/guide`
+
+Prefer semantic MCP tools for Project edits. Use raw `apply-patch` only when no semantic tool exists, and read the latest snapshot before writing.
 
 ## Related
 
