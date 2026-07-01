@@ -2,3 +2,4 @@
 transcripts/
 .github/copilot-instructions.md
 .temp
+.DS_Store

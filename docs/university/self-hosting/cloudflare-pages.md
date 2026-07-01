@@ -33,7 +33,7 @@ See [Cloudflare’s getting started docs](https://developers.cloudflare.com/page
 ## Related
 
 - [Download](./download.md) – Export a static site directly from the Builder
-- [CLI](./cli.md) – Export and build your project using the command line
+- [CLI](../cli.md) – Export and build your project using the command line
 - [GitHub Pages](./github-pages.md) – Another platform for static site hosting
 - [Netlify](./netlify.md) – Deploy static sites or JavaScript apps to Netlify
 - [Publishing and custom domains](../foundations/publishing-and-custom-domains.md) – Set up custom domains for your site
