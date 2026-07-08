@@ -123,7 +123,7 @@ Each animation can be customized using the following properties:
   - **Contain** – Animates only while the subject element is fully in view (fullly visible after entering → starts exiting)
   - **Cover** – Animates entire time the subject element is visible (starts entering → ends after exiting)
   - **Entry Crossing** – Animates as the subject element enters (leading edge → trailing edge enters view)
-  - **Exist Crossing** – Animates as the subject element exits (leading edge → trailing edge leaves view)
+  - **Exit Crossing** – Animates as the subject element exits (leading edge → trailing edge leaves view)
 - **Duration** – Setting a duration will play the animation when it enters the scrollport (taking into account Range Start and Inset), then animate for the duration and end. On the published site, the animation will play just once, but in the builder, it will play multiple times to aid in building. Because the duration dictates when the animation will end, the Range End field will be disabled.
 - **Fill Mode** – Controls how an element appears before and after the animation:
   - **None** – Only displays its animation styles _during_ the animation.
@@ -142,6 +142,16 @@ Each animation can be customized using the following properties:
 - Offset values determine when changes occur (0 to 100).
 
 You can stack multiple animations on the same element by adding additional animations to your Animation Group. This enables complex, multi-step effects.
+
+## Helper animation components
+
+Animation Group is the controller for all animation helper components. Put regular instances directly inside an Animation Group when you want the group to animate those instances. Put these helper components directly inside an Animation Group when you need specialized behavior:
+
+- **Text Animation** – Splits descendant text into characters, words, or custom separators and applies the parent Animation Group progress to each part.
+- **Stagger Animation** – Applies the parent Animation Group progress across its direct child elements in sequence.
+- **Video Animation** – Passes the parent Animation Group progress and visibility state to a Video child.
+
+Text Animation, Stagger Animation, and Video Animation should be direct children of Animation Group because they consume the group’s progress. The actual animated CSS properties still belong in the Animation Group keyframes.
 
 ## CSS input fields
 

@@ -18,9 +18,21 @@ Just remember that you'll need to wrap the Stagger Animation component in an [An
 
 Controls how many child elements animate concurrently during the stagger effect.
 
+- **Default**: `1`
 - **`0`**: Disables the transition animation for each element. Elements **appear instantly** one after the other in sequence.
 - **`1`**: Classic stagger effect. Only **one** element animates (with its transition, e.g., fade-in) at any given time.
 - **`> 1`**: Overlapping stagger effect. **Multiple** elements animate concurrently. The number specifies the maximum elements animating simultaneously (e.g., `3` means up to three animate at once), creating a smoother, wave-like reveal.
+
+## Easing
+
+Controls the easing within the sliding window. The default is `linear`.
+
+## Usage notes
+
+- Stagger Animation applies the parent Animation Group progress to its **direct** children.
+- Put the repeated elements, such as cards, list items, images, or text rows, directly inside Stagger Animation.
+- Define the animated CSS properties on the parent Animation Group, such as opacity, translate, scale, or rotate.
+- Use the regular Style Panel to define the final state of each child. Use Animation Group keyframes to define the starting state for "in" animations or the ending state for "out" animations.
 
 ## Related
 

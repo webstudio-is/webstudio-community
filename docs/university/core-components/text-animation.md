@@ -27,6 +27,29 @@ You can split text by:
 - `#`
 - `~`
 
+## Settings
+
+### Split By
+
+Defines how text is split into animated parts.
+
+- **Characters** (`char`) – Animates one character at a time. This is the default.
+- **Spaces** (`space`) – Animates one word at a time.
+- **`#`** – Splits text at the `#` symbol.
+- **`~`** – Splits text at the `~` symbol.
+
+### Sliding Window
+
+Controls how many text parts animate concurrently. The default is `5`.
+
+- **`0`** – Creates an instant typewriter-like step between parts.
+- **`0..1`** – Animates one text part at a time.
+- **`> 1`** – Animates multiple text parts at once, creating an overlapping wave.
+
+### Easing
+
+Controls the easing within the sliding window. The default is `linear`. Use stronger easing, such as ease-out variants, when you want each character or word to settle more softly.
+
 ## Under the hood
 
 Here's an example of what happens automatically under the hood.
@@ -49,6 +72,13 @@ in a Text Component and split the text by spaces, it will appear as:
 ```
 
 Now the parent Animation Group can effectively target each word individually.
+
+## Usage notes
+
+- Text Animation can contain Heading, Paragraph, Text, or other text-containing instances.
+- The Text Animation component splits non-empty text nodes under the hood, including text inside nested instances.
+- The parent Animation Group provides the actual animation styles, such as opacity, translate, scale, or rotate.
+- Use the regular Style Panel to define the final readable state of the text. Use Animation Group keyframes to define the starting state for "in" animations or the ending state for "out" animations.
 
 ## Related
 
