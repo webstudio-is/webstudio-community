@@ -35,20 +35,131 @@ Defines how text is split into animated parts.
 
 - **Characters** (`char`) – Animates one character at a time. This is the default.
 - **Spaces** (`space`) – Animates one word at a time.
-- **`#`** – Splits text at the `#` symbol.
-- **`~`** – Splits text at the `~` symbol.
+- **`#`** (`symbol "#"`) – Splits text at the `#` symbol.
+- **`~`** (`symbol "~"`) – Splits text at the `~` symbol.
 
 ### Sliding Window
 
 Controls how many text parts animate concurrently. The default is `5`.
 
 - **`0`** – Creates an instant typewriter-like step between parts.
-- **`0..1`** – Animates one text part at a time.
+- **`(0..1]`** – Animates one text part at a time.
 - **`> 1`** – Animates multiple text parts at once, creating an overlapping wave.
 
 ### Easing
 
-Controls the easing within the sliding window. The default is `linear`. Use stronger easing, such as ease-out variants, when you want each character or word to settle more softly.
+Controls the easing within the sliding window. The default is `linear`. Supported values are `linear`, `easeIn`, `easeInCubic`, `easeInQuart`, `easeOut`, `easeOutCubic`, `easeOutQuart`, `ease`, `easeInOutCubic`, and `easeInOutQuart`.
+
+## Webstudio JSX example
+
+The Text Animation component must be the direct child of Animation Group. The text-containing element goes inside Text Animation. This example follows the working demo pattern: word splitting on the child component, and translate/opacity/scale keyframes on the parent Animation Group.
+
+```tsx
+<animation.AnimateChildren
+  action={{
+    type: "view",
+    animations: [
+      {
+        name: "Parallax In",
+        timing: {
+          fill: "backwards",
+          rangeStart: ["cover", { type: "unit", value: 0, unit: "%" }],
+          rangeEnd: ["cover", { type: "unit", value: 70, unit: "%" }],
+        },
+        keyframes: [
+          {
+            offset: 0,
+            styles: {
+              translate: {
+                type: "tuple",
+                value: [
+                  { type: "unit", value: 0, unit: "number" },
+                  { type: "unit", value: 100, unit: "px" },
+                ],
+              },
+            },
+          },
+        ],
+      },
+      {
+        name: "Opacity In",
+        timing: {
+          fill: "backwards",
+          rangeStart: ["cover", { type: "unit", value: 0, unit: "%" }],
+          rangeEnd: ["cover", { type: "unit", value: 70, unit: "%" }],
+        },
+        keyframes: [
+          {
+            offset: 0,
+            styles: {
+              opacity: { type: "unit", value: 0, unit: "number" },
+            },
+          },
+        ],
+      },
+      {
+        name: "Scale In",
+        timing: {
+          fill: "backwards",
+          rangeStart: ["cover", { type: "unit", value: 0, unit: "%" }],
+          rangeEnd: ["cover", { type: "unit", value: 70, unit: "%" }],
+        },
+        keyframes: [
+          {
+            offset: 0,
+            styles: {
+              scale: {
+                type: "tuple",
+                value: [
+                  { type: "unit", value: 5, unit: "number" },
+                  { type: "unit", value: 5, unit: "number" },
+                ],
+              },
+            },
+          },
+        ],
+      },
+      {
+        name: "Parallax Out",
+        timing: {
+          fill: "forwards",
+          rangeStart: ["cover", { type: "unit", value: 50, unit: "%" }],
+          rangeEnd: ["cover", { type: "unit", value: 100, unit: "%" }],
+        },
+        keyframes: [
+          {
+            offset: 1,
+            styles: {
+              translate: {
+                type: "tuple",
+                value: [
+                  { type: "unit", value: 0, unit: "number" },
+                  { type: "unit", value: -100, unit: "px" },
+                ],
+              },
+              scale: {
+                type: "tuple",
+                value: [
+                  { type: "unit", value: 5, unit: "number" },
+                  { type: "unit", value: 5, unit: "number" },
+                ],
+              },
+              opacity: { type: "unit", value: 0, unit: "number" },
+            },
+          },
+        ],
+      },
+    ],
+    insetStart: { type: "unit", value: 5, unit: "%" },
+    insetEnd: { type: "unit", value: 5, unit: "%" },
+    isPinned: true,
+  }}
+>
+  <animation.AnimateText splitBy="space" slidingWindow={5} easing="easeOutQuart">
+    <ws.element ws:tag="h2">Animate words with controlled rhythm</ws.element>
+  </animation.AnimateText>
+</animation.AnimateChildren>
+```
 
 ## Under the hood
 

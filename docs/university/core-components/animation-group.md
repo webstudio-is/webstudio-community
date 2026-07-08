@@ -120,15 +120,15 @@ Each animation can be customized using the following properties:
 - **Range Start** and **Range End** – Define when the animation starts and stops, typically based on element position or scroll progress. See [Scroll-driven Animations](https://scroll-driven-animations.style/tools/view-timeline/ranges) for an interactive tool that explains the various options.
   - **Entry** – Animates during the subject element entry (starts entering → fully visible)
   - **Exit** – Animates during the subject element exit (starts exiting → fully hidden)
-  - **Contain** – Animates only while the subject element is fully in view (fullly visible after entering → starts exiting)
+  - **Contain** – Animates only while the subject element is fully in view (fully visible after entering → starts exiting)
   - **Cover** – Animates entire time the subject element is visible (starts entering → ends after exiting)
   - **Entry Crossing** – Animates as the subject element enters (leading edge → trailing edge enters view)
   - **Exit Crossing** – Animates as the subject element exits (leading edge → trailing edge leaves view)
 - **Duration** – Setting a duration will play the animation when it enters the scrollport (taking into account Range Start and Inset), then animate for the duration and end. On the published site, the animation will play just once, but in the builder, it will play multiple times to aid in building. Because the duration dictates when the animation will end, the Range End field will be disabled.
 - **Fill Mode** – Controls how an element appears before and after the animation:
   - **None** – Only displays its animation styles _during_ the animation.
-  - **Forwards** – The animation transitions from the **canvas styles → animation styles**. Prefered for "_out_" animations.
-  - **Backwards** – The animation transitions from the the **animation styles → canvas styles**. Prefered for "_in_" animations. For example, the opacity is "1" by default on the canvas so to fade it in, you'd set "0" in the animation. It then transitions from the animation style (0) to the canvas style (1).
+  - **Forwards** – The animation transitions from the **canvas styles → animation styles**. Preferred for "_out_" animations.
+  - **Backwards** – The animation transitions from the **animation styles → canvas styles**. Preferred for "_in_" animations. For example, the opacity is "1" by default on the canvas so to fade it in, you'd set "0" in the animation. It then transitions from the animation style (0) to the canvas style (1).
   - **Both** – Combines "Forwards" and "Backwards," transitioning smoothly before and after animation.
 - **Easing** – Defines the speed curve of the animation:
   - **Linear** – Moves at a constant speed.
@@ -139,7 +139,7 @@ Each animation can be customized using the following properties:
 
 - Define specific points in the animation timeline.
 - Each keyframe can modify multiple CSS properties.
-- Offset values determine when changes occur (0 to 100).
+- Offset values determine when changes occur in the keyframe timeline. Use `0` for the start of the timeline and `1` for the end.
 
 You can stack multiple animations on the same element by adding additional animations to your Animation Group. This enables complex, multi-step effects.
 
@@ -152,6 +152,56 @@ Animation Group is the controller for all animation helper components. Put regul
 - **Video Animation** – Passes the parent Animation Group progress and visibility state to a Video child.
 
 Text Animation, Stagger Animation, and Video Animation should be direct children of Animation Group because they consume the group’s progress. The actual animated CSS properties still belong in the Animation Group keyframes.
+
+## Webstudio JSX example
+
+When using Webstudio MCP or CLI automation, author animation structures with Webstudio JSX. The final visible state belongs in `ws:style`; the Animation Group `action` defines the animated starting or ending styles. Include an explicit `offset` on every keyframe: use `offset: 0` for starting-state keyframes with `fill:"backwards"` and `offset: 1` for ending-state keyframes with `fill:"forwards"`.
+
+```tsx
+<animation.AnimateChildren
+  action={{
+    type: "view",
+    axis: "block",
+    animations: [
+      {
+        name: "Fade up on entry",
+        timing: {
+          fill: "backwards",
+          rangeStart: ["entry", { type: "unit", value: 0, unit: "%" }],
+          rangeEnd: ["entry", { type: "unit", value: 100, unit: "%" }],
+        },
+        keyframes: [
+          {
+            offset: 0,
+            styles: {
+              opacity: { type: "unit", value: 0, unit: "number" },
+              translate: {
+                type: "tuple",
+                value: [
+                  { type: "unit", value: 0, unit: "number" },
+                  { type: "unit", value: 24, unit: "px" },
+                ],
+              },
+            },
+          },
+        ],
+      },
+    ],
+  }}
+>
+  <ws.element
+    ws:tag="section"
+    ws:style={css`display: grid; gap: 16px; padding: 48px; border-radius: 24px; background: #111827; color: white;`}
+  >
+    <ws.element ws:tag="h2">Launch metrics</ws.element>
+    <ws.element ws:tag="p">
+      A polished card that fades up as it enters the viewport.
+    </ws.element>
+  </ws.element>
+</animation.AnimateChildren>
+```
+
+Use this structure as the base for helper components too: Animation Group stays the direct parent, and the helper component receives the group progress.
 
 ## CSS input fields
 
