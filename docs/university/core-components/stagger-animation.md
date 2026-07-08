@@ -27,55 +27,9 @@ Controls how many child elements animate concurrently during the stagger effect.
 
 Controls the easing within the sliding window. The default is `linear`. Supported values are `linear`, `easeIn`, `easeInCubic`, `easeInQuart`, `easeOut`, `easeOutCubic`, `easeOutQuart`, `ease`, `easeInOutCubic`, and `easeInOutQuart`.
 
-## Webstudio JSX example
+## Structure
 
 The Stagger Animation component must be the direct child of Animation Group. Put the repeated cards, list items, or rows directly inside Stagger Animation. Start with the default `slidingWindow` and `easing`; add overrides only when you intentionally want a different rhythm.
-
-```tsx
-<animation.AnimateChildren
-  action={{
-    type: "view",
-    animations: [
-      {
-        timing: {
-          fill: "backwards",
-          rangeStart: ["contain", { type: "unit", value: 0, unit: "%" }],
-          rangeEnd: ["contain", { type: "unit", value: 30, unit: "%" }],
-        },
-        keyframes: [
-          {
-            offset: 0,
-            styles: {
-              opacity: { type: "unit", value: 0, unit: "number" },
-            },
-          },
-        ],
-      },
-    ],
-  }}
->
-  <animation.StaggerAnimation>
-    <ws.element
-      ws:tag="article"
-      ws:style={css`padding: 20px; border: 1px solid #d1d5db; border-radius: 16px;`}
-    >
-      Plan
-    </ws.element>
-    <ws.element
-      ws:tag="article"
-      ws:style={css`padding: 20px; border: 1px solid #d1d5db; border-radius: 16px;`}
-    >
-      Build
-    </ws.element>
-    <ws.element
-      ws:tag="article"
-      ws:style={css`padding: 20px; border: 1px solid #d1d5db; border-radius: 16px;`}
-    >
-      Launch
-    </ws.element>
-  </animation.StaggerAnimation>
-</animation.AnimateChildren>
-```
 
 ## Usage notes
 

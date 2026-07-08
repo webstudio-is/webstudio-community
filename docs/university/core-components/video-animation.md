@@ -36,39 +36,6 @@ Configure the video source on the Video child.
 
 When Timeline is enabled, the Video child receives timeline progress from the parent Animation Group. Use this when you want video playback to follow scroll/view progress. When Timeline is disabled, the Video child still receives visibility/progress state from the group.
 
-## Webstudio JSX example
-
-Prefer inserting the Video Animation template when possible so Webstudio creates the Video child for you. If you author the structure with MCP or CLI JSX, include the Video child explicitly.
-
-```tsx
-<animation.AnimateChildren
-  action={{
-    type: "view",
-    animations: [
-      {
-        name: "Video progress",
-        timing: {
-          fill: "both",
-          rangeStart: ["cover", { type: "unit", value: 0, unit: "%" }],
-          rangeEnd: ["cover", { type: "unit", value: 100, unit: "%" }],
-        },
-        keyframes: [{ offset: 0, styles: {} }],
-      },
-    ],
-  }}
->
-  <animation.VideoAnimation timeline={true}>
-    <$.Video
-      preload="auto"
-      autoPlay={true}
-      muted={true}
-      playsInline={true}
-      crossOrigin="anonymous"
-    />
-  </animation.VideoAnimation>
-</animation.AnimateChildren>
-```
-
 ## Usage notes
 
 - Use short videos for scroll-linked playback.

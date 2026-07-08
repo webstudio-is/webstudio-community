@@ -153,55 +153,11 @@ Animation Group is the controller for all animation helper components. Put regul
 
 Text Animation, Stagger Animation, and Video Animation should be direct children of Animation Group because they consume the group’s progress. The actual animated CSS properties still belong in the Animation Group keyframes.
 
-## Webstudio JSX example
+## Structure
 
-When using Webstudio MCP or CLI automation, author animation structures with Webstudio JSX. The final visible state belongs in `ws:style`; the Animation Group `action` defines the animated starting or ending styles. Include an explicit `offset` on every keyframe: use `offset: 0` for starting-state keyframes with `fill:"backwards"` and `offset: 1` for ending-state keyframes with `fill:"forwards"`.
+Animation Group should wrap the content it controls. The final readable or visible state belongs in the normal Style Panel styles on the animated instances. The Animation Group keyframes define the starting state for "in" animations or the ending state for "out" animations.
 
-```tsx
-<animation.AnimateChildren
-  action={{
-    type: "view",
-    axis: "block",
-    animations: [
-      {
-        name: "Fade up on entry",
-        timing: {
-          fill: "backwards",
-          rangeStart: ["entry", { type: "unit", value: 0, unit: "%" }],
-          rangeEnd: ["entry", { type: "unit", value: 100, unit: "%" }],
-        },
-        keyframes: [
-          {
-            offset: 0,
-            styles: {
-              opacity: { type: "unit", value: 0, unit: "number" },
-              translate: {
-                type: "tuple",
-                value: [
-                  { type: "unit", value: 0, unit: "number" },
-                  { type: "unit", value: 24, unit: "px" },
-                ],
-              },
-            },
-          },
-        ],
-      },
-    ],
-  }}
->
-  <ws.element
-    ws:tag="section"
-    ws:style={css`display: grid; gap: 16px; padding: 48px; border-radius: 24px; background: #111827; color: white;`}
-  >
-    <ws.element ws:tag="h2">Launch metrics</ws.element>
-    <ws.element ws:tag="p">
-      A polished card that fades up as it enters the viewport.
-    </ws.element>
-  </ws.element>
-</animation.AnimateChildren>
-```
-
-Use this structure as the base for helper components too: Animation Group stays the direct parent, and the helper component receives the group progress.
+Use this same structure for helper components too: Animation Group stays the direct parent, and the helper component receives the group progress.
 
 ## CSS input fields
 
