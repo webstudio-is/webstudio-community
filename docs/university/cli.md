@@ -282,6 +282,29 @@ npx webstudio mcp
 
 After startup, MCP clients can discover capabilities with `tools/list`, `resources/list`, `meta.index`, `meta.guide`, and `meta.get_more_tools`.
 
+### What MCP can automate
+
+MCP lets AI agents work on the Project configured in the current directory. Agents can:
+
+- Check the connected Project and share-link permissions.
+- Inspect Project metadata and the latest editable build.
+- Read selected Project data for audits, migrations, and repair.
+- Create and edit pages, folders, redirects, breakpoints, and page templates.
+- Create pages from reusable templates.
+- Update page titles, descriptions, metadata, auth settings, and SEO fields.
+- Update Project site settings and marketplace metadata.
+- Insert registered components and styled JSX sections.
+- Move, copy, wrap, unwrap, convert, rename, retag, and delete elements.
+- Update text, rich text, props, bindings, and actions.
+- Create and update styles, design tokens, style sources, and CSS variables.
+- Create static data variables and JSON variables.
+- Create HTTP, GraphQL, and system resources.
+- Use system resources for sitemap, current date, and assets.
+- Bind resources to rendered data or form/action props.
+- Upload, replace, delete, and inspect asset usage.
+- Publish, unpublish, inspect publish jobs, and manage custom domains.
+- Start preview, capture screenshots, compare screenshot diffs, and use OCR when installed.
+
 Useful MCP resources include:
 
 - `webstudio://project/status`
