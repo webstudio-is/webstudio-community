@@ -25,15 +25,15 @@ Designer mode provides the full power of the builder. For example, you can add a
 
 ## Content
 
-Content mode tailors the builder’s features to editor tasks like updating text and images, and adding templates to designer-specified regions. This mode is ideal for team members and clients.
+Content mode tailors the builder’s features to editor tasks like updating text and images, and adding templates to designer-specified regions. Text and supported props are editable only inside [Content Blocks](../core-components/content-block.md); everything outside them is read-only. This mode is ideal for team members and clients.
 
 ### Allowed actions
 
 In Content mode, the following actions can be performed:
 
-- Edit text content (e.g., paragraphs, headings, links, etc.)
-- Add and edit links within text
-- Upload and change images
+- Edit text content (e.g., paragraphs, headings, links, etc.) inside Content Blocks
+- Add and edit links within text inside Content Blocks
+- Upload and change images inside Content Blocks when their props are available in Content mode
 - Insert instances of templates to designer-specified regions called [Content Blocks](../core-components/content-block.md)
 - Create pages from existing [Page templates](page-templates.md), if the designer provided them
 - Edit safe page settings: page name, static path, title, description, search visibility, language, social image, and custom metadata
@@ -79,15 +79,15 @@ With Content mode, you can dive right in and edit the website without feeling ov
 
 Here’s what you need to know:
 
-- You can click directly on the canvas to update any text you see. Want to update a title to the latest promotion? Click, type, done.
+- You can click directly on the canvas to update text inside a Content Block. Text outside a Content Block is read-only. Want to update a title to the latest promotion? Click, type, done.
 
   <figure><img src="../../.gitbook/assets/edit-text.gif" alt="editing content on the canvas"><figcaption><p>Editing content on the canvas</p></figcaption></figure>
 
-- Some items on the canvas may have settings, like images. Clicking on an image will display the settings on the right. There, you can upload a new image. Just be sure to fill in the field called “Alt” describing the image so visually impaired people can consume your site.
+- Some items inside a Content Block may have settings, like images. Clicking on an image will display the settings on the right. There, you can upload a new image. Just be sure to fill in the field called “Alt” describing the image so visually impaired people can consume your site.
 
   <figure><img src="../../.gitbook/assets/image-content-mode.png" alt="image editing in content editor mode"><figcaption><p>The image can be replaced in the Settings Panel</p></figcaption></figure>
 
-- The designer of the site may have included [Content Blocks(s)](../core-components/content-block.md#content-block-in-content-mode). These are regions on the site where you have more capabilities — you can add templates the designer provided you and edit the content. See [Content Block](../core-components/content-block.md) for more information.
+- The designer must include [Content Blocks](../core-components/content-block.md#content-block-in-content-mode) for content you need to change. These are the regions where you can edit content and add templates the designer provided. See [Content Block](../core-components/content-block.md) for more information.
 
   <figure><img src="../../.gitbook/assets/add-content.png" alt="Adding a template"><figcaption></figcaption></figure>
 

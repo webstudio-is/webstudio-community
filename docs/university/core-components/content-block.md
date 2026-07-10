@@ -7,7 +7,7 @@ icon: pen-to-square
 
 # Content Block
 
-[Content _mode_](../foundations/modes.md#content) enables editing _existing_ content, anywhere on the site. But there are many use cases where editors need to add _new_ content.
+[Content _mode_](../foundations/modes.md#content) enables editing existing content only inside Content Blocks. Content outside a Content Block is read-only for editors. Content Blocks also let editors add _new_ content.
 
 Content Block enables adding new content — not just any content, but specifically inserting new instances predefined in Templates.
 
@@ -50,7 +50,7 @@ Every top-level instance within Templates will appear in Content mode like this:
 
 <div><figure><img src="../../.gitbook/assets/templates-design-mode.png" alt="Templates in Design mode"><figcaption><p>Templates in Design mode</p></figcaption></figure> <figure><img src="../../.gitbook/assets/templates-content-mode.png" alt="Template in Content mode"><figcaption><p>Template in Content mode</p></figcaption></figure></div>
 
-Each time they insert a template, it will appear as a direct child of Templates.
+Each time they insert a template, its copy appears as a direct child of the Content Block, alongside any initial content. The Templates container remains protected source material.
 
 ### Step 3: Add an initial setup (optional)
 
@@ -60,11 +60,11 @@ Optionally, you can add instances as direct children of Content Block.
 
 Doing so will provide an initial setup for editors.
 
-Just keep in mind that editors have permissions to delete any instances within Editable Block (not within Templates though).
+Editors can delete direct children of the Content Block. They cannot delete the Templates container, templates, or nested instances independently.
 
 ## Content Block in Content mode
 
-In [Content mode](../foundations/modes.md#content), you can edit any _existing_ content. But what if you want to add _new_ content?
+In [Content mode](../foundations/modes.md#content), you can edit existing content inside Content Blocks. But what if you want to add _new_ content?
 
 You can within Editable Block — region(s) on the page the designer designates as a place you can add new content from building blocks to entire sections.
 
@@ -94,7 +94,7 @@ Click into it to make changes. See more about editing content in [Content mode](
 
 ### Step 3: Delete instances
 
-You can delete any instances within the Content Block in one of two ways:
+You can delete a direct child of the Content Block in one of two ways:
 
 1. The blue + button will turn into a red delete button if you hold the option/alt key on your keyboard.
 2. Select the instance in the navigator, and press delete/backspace on your keyboard.
@@ -105,7 +105,7 @@ You can delete any instances within the Content Block in one of two ways:
 You can’t delete the template itself, so you can always add it back.
 {% endhint %}
 
-Beyond adding new content, you can edit any of the existing content. See [Content mode](../foundations/modes.md#content) for more information.
+Beyond adding new content, you can edit the existing content inside the Content Block. See [Content mode](../foundations/modes.md#content) for more information.
 
 ## Related
 

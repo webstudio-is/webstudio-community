@@ -71,7 +71,7 @@ If you plan to continue working on the website after they clone it, they can inv
 
 ### Option 2: Content mode
 
-The Pro tier lets you create share links with the Content permission, allowing recipients to edit content without designer-oriented features like the Style Panel.
+The Pro tier lets you create share links with the Content permission, allowing recipients to edit content inside [Content Blocks](../core-components/content-block.md) without designer-oriented features like the Style Panel. Content outside Content Blocks remains read-only.
 
 To provide this, create a Share link, toggle “Content”, and send this link to your client.
 
