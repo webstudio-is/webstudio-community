@@ -73,4 +73,5 @@ Here is a list of relevant docs:
 
 - [SEO settings](../foundations/seo-settings.md) – Page-level SEO configuration
 - [Project settings](../foundations/project-settings.md) – Global project configuration
+- [JSON-LD](json-ld.md) – Add structured data to the document head
 - [HTML Embed](html-embed.md) – Custom HTML in body

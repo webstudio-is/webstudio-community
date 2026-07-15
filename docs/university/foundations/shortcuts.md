@@ -40,6 +40,13 @@ icon: command
 - Expand Navigator item: `right arrow`
 - Collapse Navigator item: `left arrow`
 - Expand all Navigator item children: `alt + click`
+- Add or remove an item from the selection: `⌘ + click`
+- Select a range of items: `shift + click`
+- Extend the selection: `shift + up/down arrow`
+- Select all sibling items: `⌘ + a`
+- Move selection before or after a sibling: `Ctrl + up/down arrow`
+- Move selection out of its parent: `Ctrl + left arrow`
+- Move selection into the previous sibling: `Ctrl + right arrow`
 
 ## **Pages Panel**
 

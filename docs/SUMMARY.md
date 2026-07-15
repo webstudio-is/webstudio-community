@@ -85,6 +85,7 @@
   * [🎥 Video Animation](university/core-components/video-animation.md)
   * [👨‍👨‍👦‍👦 Stagger Animation](university/core-components/stagger-animation.md)
   * [🗂️ Head Slot](university/core-components/head-slot.md)
+  * [JSON-LD](university/core-components/json-ld.md)
   * [🗂️ Head Components](university/core-components/head-components.md)
   * [📘 XML Node](university/core-components/xml-node.md)
   * [🕐 XML Time](university/core-components/xml-time.md)

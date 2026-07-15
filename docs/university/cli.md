@@ -45,10 +45,10 @@ npx webstudio <command> [options]
 
 Use one of these command formats:
 
-| Setup | Command format |
-| ----- | -------------- |
+| Setup                       | Command format                                   |
+| --------------------------- | ------------------------------------------------ |
 | Latest one-off run, all OSs | `npx --yes webstudio@latest <command> [options]` |
-| After verifying latest | `npx webstudio <command> [options]` |
+| After verifying latest      | `npx webstudio <command> [options]`              |
 
 Running with `npx` does not install a permanent `webstudio` command. Continue using `npx webstudio` for normal usage.
 
@@ -138,27 +138,7 @@ npx webstudio init --link "<share-link>" --json
 
 The share link should include Build access when you need to sync, build, import, or automate Project changes.
 
-## Commands
-
-Use `npx webstudio --help` for the current command list.
-
-| Command      | Use                                                            |
-| ------------ | -------------------------------------------------------------- |
-| `init`       | Create or link a local Webstudio Project setup                 |
-| `link`       | Link the current directory to a Builder share link             |
-| `sync`       | Download the configured Project bundle and assets              |
-| `import`     | Import the synced bundle into another Project                  |
-| `build`      | Build the synced Project with a selected template              |
-| `preview`    | Regenerate files and run the generated app dev server          |
-| `screenshot` | Capture a PNG screenshot of a URL                              |
-| `permissions`| Show API, role, publish, and domain capabilities               |
-| `publish`    | Publish, list publish jobs, check status, and unpublish        |
-| `domains`    | List, create, update, delete, and verify custom domains        |
-| `man`        | Print long-form CLI, API, LLM, and MCP manuals                 |
-| `schema`     | Print machine-readable command and patch schemas               |
-| `mcp`        | Run an MCP server over stdio for the configured Project        |
-
-## Sync and build
+## Export and build a Project
 
 After linking, publish the Project in Webstudio Cloud, then sync it locally:
 
@@ -166,7 +146,7 @@ After linking, publish the Project in Webstudio Cloud, then sync it locally:
 npx webstudio sync
 ```
 
-Build a dynamic app with one of the deployment templates:
+Build a dynamic app with a deployment template:
 
 ```bash
 npx webstudio build --template docker
@@ -176,9 +156,9 @@ npx webstudio build --template docker
 See [export types](self-hosting/#export-types) for more information about JavaScript applications vs. static sites.
 {% endhint %}
 
-During this phase, the CLI establishes the necessary routes and pages, scaffolding the application using the selected React Router template. Assets such as images and fonts are downloaded to the `assets` folder inside `public`.
-
-Once the project is scaffolded, run `npm install` and then `npm run dev` to run your app in development mode. To build a production version, run `npm run build`.
+The CLI scaffolds the application, creates its routes and pages, and downloads
+assets. In the generated project, install dependencies and use the scripts in
+its `package.json` to develop or create a production build.
 
 Build a static site with:
 
@@ -188,77 +168,28 @@ npx webstudio build --template ssg
 
 Please review [the limitations](self-hosting/#ssg-limitations) of using the static site export instead of dynamic templates.
 
-## Import into another Project
+## Other workflows
 
-Use `import` to transfer the synced Project bundle into another Webstudio Project:
+The CLI can also:
 
-```bash
-npx webstudio import --to "<destination-share-link>"
-```
+- Import a synced Project into another Project.
+- Preview an export and capture screenshots.
+- Publish, unpublish, and inspect publishing jobs.
+- Manage and verify custom domains.
+- Audit accessibility, security, SEO, and performance settings.
+- Expose a Project to AI agents and other automation through MCP.
 
-Run `npx webstudio sync` before importing. The command reads `.webstudio/data.json` and imports it into the destination Project. The destination share link must include Build access. If you omit `--to` in an interactive terminal, the CLI prompts you to paste the destination share link.
-
-By default, the CLI reads referenced asset files from `.webstudio/assets`, uploads them to the destination Project, and imports the asset records. Use `--assets-dir` when the asset files are somewhere else:
-
-```bash
-npx webstudio import --to "<destination-share-link>" --assets-dir "./path/to/assets"
-```
-
-To import Project data without asset files or asset records, use:
+Use the built-in help for current commands and options:
 
 ```bash
-npx webstudio import --to "<destination-share-link>" --skip-assets
+npx webstudio --help
+npx webstudio <command> --help
 ```
 
-If the synced bundle version does not match the destination API version, the CLI stops before importing. Use `--ignore-version-check` only when you know the source and target data formats are compatible.
+## Automation and MCP
 
-## Preview and screenshot
-
-Run the generated app locally:
-
-```bash
-npx webstudio preview --template ssg --port 5173
-```
-
-The preview command uses `.webstudio/data.json`, so run `npx webstudio sync` first. It does not install dependencies for the generated app. For a fresh checkout or newly generated app, run `npm install` or `pnpm install` before previewing.
-
-Capture a screenshot with an installed Chromium-family browser:
-
-```bash
-npx webstudio screenshot "http://127.0.0.1:5173" --output current.png --width 1440 --height 900
-```
-
-## Publish and domains
-
-These commands operate on the configured Project and return JSON. Check the configured token's capabilities first:
-
-```bash
-npx webstudio permissions --json
-```
-
-Publish, inspect publish jobs, and unpublish:
-
-```bash
-npx webstudio publish deploy --target production --json
-npx webstudio publish list --json
-npx webstudio publish status --job <build-id> --json
-npx webstudio publish unpublish --target production --confirm --json
-```
-
-List and manage custom domains:
-
-```bash
-npx webstudio domains list --json
-npx webstudio domains create --domain example.com --json
-npx webstudio domains verify --domain-id <domain-id> --json
-npx webstudio domains delete --domain-id <domain-id> --confirm --json
-```
-
-Use `--confirm` only for destructive commands the user explicitly wants to run, such as unpublish, domain deletion, or replacement.
-
-## API, manuals, and MCP
-
-The CLI includes built-in manuals and machine-readable schemas:
+The CLI includes current manuals and machine-readable schemas for scripts and
+agents:
 
 ```bash
 npx webstudio man api
@@ -267,51 +198,45 @@ npx webstudio man mcp
 npx webstudio schema api --json
 ```
 
-API commands follow these rules:
+Generate the configuration for your AI client from the linked Project folder:
 
-- They operate on the configured Project only; do not pass a Project ID.
-- Use `--json`; successful responses are JSON on stdout, while diagnostics go to stderr.
-- Read IDs before writing. Do not invent IDs for existing pages, domains, assets, or other records.
-- Use `--refresh` before local-capable commands when cached Project data may be stale.
+```bash
+npx webstudio connect claude
+npx webstudio connect codex
+npx webstudio connect cursor
+npx webstudio connect vscode
+```
 
-For detailed Project editing and automation, start the MCP server:
+The command updates the supported client's MCP configuration. Add `--print` to
+preview file-based configuration without writing it.
+
+For direct use or clients configured manually, start the MCP server:
 
 ```bash
 npx webstudio mcp
 ```
 
-After startup, MCP clients can discover capabilities with `tools/list`, `resources/list`, `meta.index`, `meta.guide`, and `meta.get_more_tools`.
+### Project audits
 
-### What MCP can automate
+Run every available project-quality check:
 
-MCP lets AI agents work on the Project configured in the current directory. Agents can:
+```bash
+npx webstudio audit --json
+```
 
-- Check the connected Project and share-link permissions.
-- Inspect Project metadata and the latest editable build.
-- Read selected Project data for audits, migrations, and repair.
-- Create and edit pages, folders, redirects, breakpoints, and page templates.
-- Create pages from reusable templates.
-- Update page titles, descriptions, metadata, auth settings, and SEO fields.
-- Update Project site settings and marketplace metadata.
-- Insert registered components and styled JSX sections.
-- Move, copy, wrap, unwrap, convert, rename, retag, and delete elements.
-- Update text, rich text, props, bindings, and actions.
-- Create and update styles, design tokens, style sources, and CSS variables.
-- Create static data variables and JSON variables.
-- Create HTTP, GraphQL, and system resources.
-- Use system resources for sitemap, current date, and assets.
-- Bind resources to rendered data or form/action props.
-- Upload, replace, delete, and inspect asset usage.
-- Publish, unpublish, inspect publish jobs, and manage custom domains.
-- Start preview, capture screenshots, compare screenshot diffs, and use OCR when installed.
+Audits check accessibility, security, SEO, performance settings, assets, and
+style data. Use command help to select scopes, audit a page, request verbose
+evidence, or include rendered checks. Some visual judgments still require a
+person or vision-capable agent.
 
-Useful MCP resources include:
+MCP lets an AI agent inspect and edit the configured Project, work with pages,
+components, styles, data, and assets, run audits, publish, and visually verify
+changes. The server exposes its current capabilities and input schemas directly
+to the client, so this page intentionally does not duplicate every tool.
 
-- `webstudio://project/status`
-- `webstudio://project/tools`
-- `webstudio://project/guide`
-
-Prefer semantic MCP tools for Project edits. Use raw `apply-patch` only when no semantic tool exists, and read the latest snapshot before writing.
+Project Settings can store shared **Agent instructions** for naming,
+design-token, component, and copy conventions. Do not put credentials or other
+secrets in these instructions.
 
 ## Related
 

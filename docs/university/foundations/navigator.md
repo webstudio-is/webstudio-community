@@ -16,6 +16,22 @@ Click any item in the Navigator to select it. The selected instance is also high
 - Instances hidden behind other instances
 - Instances inside a collapsed container
 
+### Select multiple instances
+
+You can select multiple sibling instances and edit their shared settings in one
+operation:
+
+- Hold `Command` on macOS or `Ctrl` on Windows and click to add or remove an
+  instance from the selection.
+- Hold `Shift` and click to select a range.
+- Press `Shift + Up Arrow` or `Shift + Down Arrow` to extend the selection.
+- Press `Command + A` on macOS or `Ctrl + A` on Windows to select all siblings
+  of the current instance.
+
+Copy, cut, duplicate, delete, and compatible style or settings changes apply to
+the selection. Webstudio skips instances that cannot accept an operation and
+keeps the remaining selection intact.
+
 ## Renaming instances
 
 Double-click any item in the Navigator to rename it. Use descriptive names like "Hero Section" or "Product Card" to make large projects easier to navigate.
@@ -23,6 +39,12 @@ Double-click any item in the Navigator to rename it. Use descriptive names like 
 ## Reordering and nesting
 
 Drag items in the Navigator to reorder or re-nest them. This is the most reliable way to restructure deeply nested layouts.
+
+You can also move the selected instance or sibling selection with the keyboard:
+
+- `Ctrl + Up Arrow` or `Ctrl + Down Arrow` moves it before or after a sibling.
+- `Ctrl + Left Arrow` moves it out of its parent.
+- `Ctrl + Right Arrow` moves it into the previous sibling.
 
 ## Show / hide
 

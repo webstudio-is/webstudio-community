@@ -158,6 +158,10 @@
 [head-slot.md](head-slot.md)
 {% endcontent-ref %}
 
+{% content-ref url="json-ld.md" %}
+[json-ld.md](json-ld.md)
+{% endcontent-ref %}
+
 {% content-ref url="head-components.md" %}
 [head-components.md](head-components.md)
 {% endcontent-ref %}
