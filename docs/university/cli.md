@@ -234,6 +234,39 @@ components, styles, data, and assets, run audits, publish, and visually verify
 changes. The server exposes its current capabilities and input schemas directly
 to the client, so this page intentionally does not duplicate every tool.
 
+### What makes Webstudio MCP different
+
+Webstudio MCP gives an agent access to the Project's native visual-builder
+model, not only its exported code. This lets an agent make changes that remain
+editable in the Builder and continue to use Webstudio components, styles,
+breakpoints, variables, resources, and page settings.
+
+Distinct capabilities include:
+
+- **Semantic visual editing** – Create and reorganize pages, components, and
+  reusable sections while preserving the Project structure designers see in
+  the Builder.
+- **Design-system-aware styling** – Reuse existing design tokens, style
+  sources, CSS variables, and responsive breakpoints instead of generating
+  isolated styles.
+- **Dynamic content authoring** – Connect HTTP, GraphQL, and system resources;
+  bind their data to components; and build repeated lists, grids, cards, or
+  options from arrays and objects.
+- **Project quality audits** – Find accessibility, security, SEO, asset, style,
+  and performance issues, then rerun the audit to verify a fix.
+- **Visual verification** – Preview changed pages, capture responsive
+  screenshots, compare them with baselines, and use image or text evidence to
+  iterate on the result.
+- **Asset and image workflows** – Upload and replace assets, inspect where they
+  are used, and add image descriptions or mark decorative images appropriately.
+- **Publishing workflows** – Publish or unpublish the Project, inspect jobs,
+  and manage custom domains from the same agent session.
+
+These capabilities make MCP useful for more than generating a first draft. An
+agent can inspect an existing Project, follow its conventions, implement a
+change, check the result, and publish it without translating the Project into a
+separate codebase.
+
 Project Settings can store shared **Agent instructions** for naming,
 design-token, component, and copy conventions. Do not put credentials or other
 secrets in these instructions.
