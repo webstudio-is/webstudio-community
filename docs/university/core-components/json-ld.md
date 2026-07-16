@@ -2,7 +2,7 @@
 description: Add structured data to a page with valid JSON-LD in the document head.
 ---
 
-# JSON-LD
+# 🏷️ JSON-LD
 
 The JSON-LD component adds structured data to a page as a
 `<script type="application/ld+json">` element. Search engines can use this data

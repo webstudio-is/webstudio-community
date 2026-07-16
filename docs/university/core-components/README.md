@@ -159,11 +159,7 @@
 {% endcontent-ref %}
 
 {% content-ref url="json-ld.md" %}
-[json-ld.md](json-ld.md)
-{% endcontent-ref %}
-
-{% content-ref url="head-components.md" %}
-[head-components.md](head-components.md)
+[🏷️ JSON-LD](json-ld.md)
 {% endcontent-ref %}
 
 ## XML / Localization

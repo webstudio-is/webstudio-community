@@ -31,6 +31,28 @@ Head Slot accepts these components:
 - **[JSON-LD](json-ld.md)** – Add structured data as an
   `<script type="application/ld+json">` element.
 
+### Title
+
+Title sets or overrides the document title shown in browser tabs, bookmarks,
+and search results. Prefer the title field in Page Settings for standard SEO;
+use Title in Head Slot when you need a custom or dynamic value.
+
+### Meta
+
+Meta creates a `<meta>` element. Use its `name` or `property` field to identify
+the metadata and `content` for its value. Common uses include metadata not
+available in Page Settings and Open Graph properties for social sharing.
+
+### Link
+
+Link creates a `<link>` element. Set `rel` to describe the relationship and
+`href` to identify the resource or URL. Common uses include canonical and
+alternate URLs, favicons, external stylesheets, preconnects, and preloads.
+
+For standard titles, descriptions, social images, and search visibility, start
+with [Page Settings](../foundations/page-settings.md). Use Head Slot when you
+need finer control or values bound to dynamic data.
+
 ## Common Use Cases
 
 ### Canonical URLs
