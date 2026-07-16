@@ -89,7 +89,7 @@
   * [📘 XML Node](university/core-components/xml-node.md)
   * [🕐 XML Time](university/core-components/xml-time.md)
   * [🕐 Time](university/core-components/time.md)
-  * [🏷️ Built with Webstudio](university/core-components/built-with-webstudio.md)
+  * [📛 Built with Webstudio](university/core-components/built-with-webstudio.md)
 * [⬛ CLI](university/cli.md)
 * [✨ Inception](university/inception.md)
 * [▫️ Radix UI Components](university/radix/README.md)

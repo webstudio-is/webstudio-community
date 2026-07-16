@@ -2,7 +2,7 @@
 description: Display a 'Built with Webstudio' badge on your site.
 ---
 
-# 🏷️ Built with Webstudio
+# 📛 Built with Webstudio
 
 The Built with Webstudio component displays a badge that links to Webstudio.
 
