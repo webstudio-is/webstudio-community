@@ -54,6 +54,32 @@ Running with `npx` does not install a permanent `webstudio` command. Continue us
 
 Use `npx webstudio --help` for the current command list.
 
+## How to update the CLI
+
+The recommended `npx` setup does not install a permanent copy of the Webstudio
+CLI, so there is no separate update command. Run the latest published version
+explicitly:
+
+```bash
+npx --yes webstudio@latest --version
+```
+
+Then use `@latest` with any command when you need to guarantee that run uses
+the newest release:
+
+```bash
+npx --yes webstudio@latest <command> [options]
+```
+
+This updates the CLI used by `npx`; it does not modify your linked Project or
+its `.webstudio` files until you run a command that does so. If you previously
+installed `webstudio` globally, remove that installation to avoid invoking an
+older permanent command:
+
+```bash
+npm uninstall --global webstudio
+```
+
 ## First use
 
 To use the CLI with a Project, you need an existing Webstudio Project and a Builder share link with Build access. Create the share link from the Share dialog in the Builder.
