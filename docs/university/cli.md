@@ -234,7 +234,10 @@ npx webstudio connect vscode
 ```
 
 The command updates the supported client's MCP configuration. Add `--print` to
-preview file-based configuration without writing it.
+preview file-based configuration without writing it. Before writing, the CLI
+checks that the current directory is linked to a reachable Project and that its
+saved credential still has access. Existing client settings and other MCP
+servers are preserved; only the `webstudio` entry is created or updated.
 
 For direct use or clients configured manually, start the MCP server:
 
@@ -284,7 +287,12 @@ Distinct capabilities include:
   screenshots, compare them with baselines, and use image or text evidence to
   iterate on the result.
 - **Asset and image workflows** – Upload and replace assets, inspect where they
-  are used, and add image descriptions or mark decorative images appropriately.
+  are used, organize them in nested folders, and add image descriptions or mark
+  decorative images appropriately.
+- **Shared content authoring** – Convert an existing section into a shared Slot
+  and insert synchronized copies across pages.
+- **Draft-page verification** – Build and inspect private previews of unfinished
+  pages without exposing them on staging or production.
 - **Publishing workflows** – Publish or unpublish the Project, inspect jobs,
   and manage custom domains from the same agent session.
 
@@ -296,6 +304,25 @@ separate codebase.
 Project Settings can store shared **Agent instructions** for naming,
 design-token, component, and copy conventions. Do not put credentials or other
 secrets in these instructions.
+
+### Restore points for agent changes
+
+Before a large edit, an agent can create a named restore point for the
+Project's versioned build data. Restore points make ambitious changes
+reversible without creating a separate Project copy.
+
+Reverting is intentionally a reviewed operation. The agent first performs a
+dry run and presents the planned transaction. Webstudio requires explicit
+confirmation tied to that plan before restoring the content atomically. Assets
+are not included in restore points and are not changed by a revert.
+
+### Safety for destructive changes
+
+Destructive MCP operations require explicit confirmation. The confirmation is
+bound to the reviewed dry run, so it cannot silently approve a different
+transaction. Webstudio also validates semantic inputs and raw patches, rejects
+references to records that do not exist, and returns actionable errors instead
+of inventing IDs or partially applying an invalid change.
 
 ## Related
 

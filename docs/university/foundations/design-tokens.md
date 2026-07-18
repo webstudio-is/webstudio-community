@@ -27,7 +27,36 @@ Design tokens are everything that you wish classes would be - a way to reuse sty
 - **Mix-and-match Tokens freely**: You can apply as many Tokens as you want to an instance in any order. There is no combo class silliness and no limitations with breakpoints.
 - **Universal format:** We didn’t invent Design tokens. There is an independent spec (by the [Design Tokens Community Group](https://design-tokens.github.io/community-group/format/)) that defines a data format for Tokens, meaning you can potentially import and export tokens between multiple apps. Soon you’ll be able to sync tokens between Webstudio and Figma through the [Tokens Studio for Figma](https://tokens.studio/) plugin!
 
-## How to use Tokens <a href="#how-to-use-tokens-in-webstudio" id="how-to-use-tokens-in-webstudio"></a>
+## Import design tokens
+
+Webstudio can import token data from the
+[Design Tokens Community Group format](https://design-tokens.github.io/community-group/format/)
+and Figma Variables API exports. Copy the JSON document, then paste it into the
+Builder. Webstudio detects supported token documents and asks how to represent
+them:
+
+- **Design tokens** creates reusable style tokens for composite and
+  unambiguous style values. Other primitive values become CSS variables.
+- **CSS variables** imports the values as custom properties for use in
+  individual styles.
+
+The importer resolves aliases and supports Figma modes and DTCG composite
+values such as borders, shadows, gradients, transitions, and typography. CLI
+and MCP integrations can additionally select modes, import every mode with
+qualified names, map token types to style properties, and apply a prefix or
+breakpoint.
+
+If an imported name conflicts with an existing token, choose how to continue:
+
+- **Theirs** keeps the imported token under a name with a numeric suffix.
+- **Ours** skips the incoming token and keeps the Project token.
+- **Merge** writes incoming styles into the existing token, with incoming
+  values taking priority.
+
+Review imported tokens and CSS variables before applying them throughout the
+Project, especially when the source contains multiple modes or aliases.
+
+## How to use tokens <a href="#how-to-use-tokens-in-webstudio" id="how-to-use-tokens-in-webstudio"></a>
 
 The workflow for styling Tokens in Webstudio is nearly the same as styling classes in Webflow, except better.
 

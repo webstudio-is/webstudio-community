@@ -28,9 +28,44 @@ JPEG, PNG, GIF, WebP, SVG, and AVIF images are automatically optimized and resiz
 
 Drag files directly into the Assets panel, drop them anywhere on the panel, or click the upload icon in the panel header. Multiple files can be uploaded at once. For images, you can also drag a URL directly from the browser to upload from an external source.
 
+Open a folder before uploading to add the new assets directly to that folder.
+
+## Organizing assets with folders
+
+Create folders in the Assets panel to organize large asset libraries. Folders
+can contain both assets and other folders. Open a folder to view its contents,
+and use the breadcrumbs above the asset grid to move back through the folder
+hierarchy.
+
+You can:
+
+- Drag assets and folders into another folder.
+- Use **Move** to choose a destination without dragging.
+- Cut, copy, paste, and duplicate assets or complete folder trees.
+- Rename or delete folders.
+
+Duplicating a folder copies its nested folders and assets. Deleting a folder
+deletes everything inside it, so review the confirmation before continuing.
+
+### Select and update multiple items
+
+Select multiple assets and folders to move, copy, cut, duplicate, or delete
+them together:
+
+- Hold `Command` on macOS or `Ctrl` on Windows and click to add or remove an
+  item from the selection.
+- Hold `Shift` and click to select a range.
+- Drag across empty space in the asset grid to select items with a marquee.
+
+The familiar `Command` or `Ctrl` shortcuts for copy, cut, paste, and duplicate
+work while the Assets panel is focused. Press `Backspace` to delete the
+selection. The panel scrolls automatically when you drag selected items near
+the top or bottom of a long list.
+
 ## Search
 
-Type in the search field at the top of the Assets panel to filter assets by name.
+Type in the search field at the top of the Assets panel to filter assets and
+folders by name. Search can surface matching content inside nested folders.
 
 ## Filtering and sorting
 
@@ -41,6 +76,8 @@ Sort assets by:
 - **Alphabetical** — A→Z or Z→A
 - **Date created** — newest or oldest first
 - **File size** — largest or smallest first
+
+Folders are included in the current search and sort order.
 
 ## Asset details
 
@@ -74,6 +111,14 @@ Once uploaded, assets are available in:
 - **Image component** — select an asset as the image source
 - **Background image** — pick an asset in the Style Panel under Backgrounds
 - **Custom fonts** — uploaded font files are automatically available in the Typography section of the Style Panel
+
+## Organizing assets with AI agents
+
+Webstudio MCP exposes the same folder hierarchy to connected agents. An agent
+can list, create, rename, move, recursively duplicate, and recursively delete
+folders. It can also upload assets into a folder or move existing assets
+between folders. This keeps automated asset work visible and editable in the
+Builder.
 
 ## Related
 

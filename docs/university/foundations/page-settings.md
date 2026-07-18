@@ -14,6 +14,29 @@ The name displayed in the Pages panel in the builder. It does not affect the URL
 
 When creating a page from a [page template](page-templates.md), the page name is pre-filled from the template and can be adjusted before the page is created.
 
+## Draft pages
+
+Mark an unfinished page as a draft to keep working on it without including it
+in the next deployment. Open the page settings menu and choose **Mark as
+draft**. The Pages panel prefixes its display name with `[Draft]` without
+changing the stored page name.
+
+Draft pages remain editable, previewable, linkable, copyable, and duplicable in
+the Builder. They continue to reserve their paths, but Webstudio excludes them
+from generated routes, public page collections, sitemaps, staging, and
+production builds.
+
+Choose **Stage for publish** from the same menu when the page is ready. This
+removes its draft state so it can be included in a future deployment; it does
+not publish the site immediately.
+
+The home page and the `/*` catch-all page cannot be drafts. A draft must be
+staged before you can make it the home page.
+
+Connected agents can create and edit draft pages and include them in private
+generated previews for visual audits. This does not expose the drafts on
+staging or production.
+
 ## Path
 
 The URL path for this page, e.g. `/about` or `/blog/:slug`.

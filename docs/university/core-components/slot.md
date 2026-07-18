@@ -47,6 +47,18 @@ And that’s it! Now updates that you make to any Slot will update all other ins
 
 If you need a new unique Slot instance, simply add a new Slot from the Add panel and it will not interfere with your existing Slots.
 
+## Create shared Slots with AI agents
+
+Webstudio MCP can convert an existing section into a shared Slot and insert
+linked copies elsewhere in the Project. The agent can also add another copy of
+an existing Slot to a different page. Every copy points to the same shared
+content, so later edits remain synchronized in the Builder.
+
+Ask the agent to inspect the target parent before inserting a Slot. Webstudio
+validates component nesting, prevents a Slot from being inserted inside its own
+content, and rejects ambiguous instance paths instead of guessing which shared
+occurrence to change.
+
 ---
 
 ### Conclusion
