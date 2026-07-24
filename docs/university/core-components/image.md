@@ -54,6 +54,10 @@ The Source property lets you link an image file from the Assets Panel to your im
 
 If your image is not in the Assets Panel, you can upload it from your computer files.
 
+You can also drag a single image from the Assets panel directly onto the canvas.
+Webstudio inserts a new Image component and selects the dragged asset as its
+source.
+
 #### Width/Height
 
 The "width" and "height" properties define your image's initial display size in pixels and its aspect ratio. However, the final rendered image size is subject to CSS rules and layout constraints.

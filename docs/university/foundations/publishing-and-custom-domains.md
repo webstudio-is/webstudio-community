@@ -8,6 +8,20 @@ description: Learn how to connect a custom domain to your Project.
 Many DNS providers do not allow adding a CNAME at the root/apex. If yours doesn’t, jump to [this section](publishing-and-custom-domains.md#dns-provider-doesnt-allow-cname-flattening) for alternate options.
 {% endhint %}
 
+## Pre-publish checks
+
+Webstudio checks publishable pages before starting a cloud publish or static
+export. These checks detect broken Resource references and invalid HTML nesting
+that could make the generated site fail or behave unexpectedly.
+
+- **Errors** stop publishing until you resolve them.
+- **Warnings** appear immediately but do not prevent publishing.
+
+When a finding identifies a component, choose **Show element** to close the
+publish dialog, open the affected page, select the instance, and scroll it into
+view. Fix the problem, then publish again. Draft pages are excluded because
+they are not part of the generated site.
+
 ## Adding a custom domain
 
 These steps will show you how to add a custom domain to your Project.

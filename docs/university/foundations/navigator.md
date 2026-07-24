@@ -32,6 +32,14 @@ Copy, cut, duplicate, delete, and compatible style or settings changes apply to
 the selection. Webstudio skips instances that cannot accept an operation and
 keeps the remaining selection intact.
 
+### Link to a selected instance
+
+The Builder URL tracks the selected page and instance. Copy the browser URL to
+share a link that opens the same page and selects the same instance. Webstudio
+also uses these links for actions such as **Show element** in pre-publish
+findings. If the instance was removed before the link is opened, the Builder
+still opens the requested page.
+
 ## Renaming instances
 
 Double-click any item in the Navigator to rename it. Use descriptive names like "Hero Section" or "Product Card" to make large projects easier to navigate.

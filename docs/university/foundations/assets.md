@@ -12,7 +12,7 @@ The Assets panel is located on the left side of the builder. It stores all stati
 
 | Category | Formats |
 |---|---|
-| **Images** | JPEG, PNG, GIF, WebP, SVG, AVIF, ICO, BMP, TIFF |
+| **Images** | JPEG, PNG, GIF, WebP, SVG, AVIF, ICO, BMP |
 | **Fonts** | WOFF, WOFF2, TTF, OTF |
 | **Video** | MP4, MOV, AVI, WebM |
 | **Audio** | MP3, WAV, OGG, M4A |
@@ -21,7 +21,7 @@ The Assets panel is located on the left side of the builder. It stores all stati
 | **Archives** | ZIP, RAR |
 
 {% hint style="info" %}
-JPEG, PNG, GIF, WebP, SVG, and AVIF images are automatically optimized and resized by Cloudflare. Other image formats (ICO, BMP, TIFF) are served as-is without optimization.
+JPEG, PNG, GIF, WebP, SVG, and AVIF images are automatically optimized and resized by Cloudflare. ICO and BMP images are served as-is without optimization.
 {% endhint %}
 
 ## Uploading assets
@@ -29,6 +29,28 @@ JPEG, PNG, GIF, WebP, SVG, and AVIF images are automatically optimized and resiz
 Drag files directly into the Assets panel, drop them anywhere on the panel, or click the upload icon in the panel header. Multiple files can be uploaded at once. For images, you can also drag a URL directly from the browser to upload from an external source.
 
 Open a folder before uploading to add the new assets directly to that folder.
+
+### Add an image directly to the canvas
+
+Drag one image asset from the Assets panel onto the canvas to insert an
+**Image** component with that asset already selected as its source. Drop it at
+the insertion indicator like a component from the Components panel. Dragging
+multiple selected assets does not insert multiple Image components.
+
+### Create and edit text files
+
+Open the add menu in the Assets panel and choose **Create text file**. Enter a
+supported filename, such as `notes.md` or `data.json`. Webstudio creates the
+blank file in the current folder and opens it in the code editor.
+
+You can open uploaded `txt`, `csv`, `md`, `js`, `css`, `json`, `html`, `xml`,
+and `svg` assets in the same editor. Syntax highlighting follows the file type;
+unsupported text types use plain text. Markdown files also provide formatting
+controls and a preview.
+
+Edits save when the editor loses focus or when you press `Command + S` on
+macOS, `Ctrl + S` on Windows, or `Command/Ctrl + Enter`. The file extension is
+fixed, but you can rename its basename in Asset settings.
 
 ## Organizing assets with folders
 
