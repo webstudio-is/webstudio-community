@@ -1,14 +1,20 @@
 import { execFileSync } from "node:child_process";
-import { writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const manualTitle = "# Webstudio MCP Manual";
+const manualPlaceholder = "{{manual}}";
 const npmCommand = process.platform === "win32" ? "npm.cmd" : "npm";
 const pnpmCommand = process.platform === "win32" ? "pnpm.cmd" : "pnpm";
+const versionPlaceholder = "{{version}}";
 const outputPath = resolve(
   fileURLToPath(new URL("..", import.meta.url)),
   "docs/university/mcp.md"
+);
+const template = readFileSync(
+  new URL("templates/mcp.md", import.meta.url),
+  "utf8"
 );
 
 const run = (command: string, args: string[]) =>
@@ -35,6 +41,26 @@ const getMcpManual = (version: string) =>
     "--verbose",
   ]);
 
+const replacePlaceholder = ({
+  contents,
+  expectedCount,
+  placeholder,
+  value,
+}: {
+  contents: string;
+  expectedCount: number;
+  placeholder: string;
+  value: string;
+}) => {
+  const count = contents.split(placeholder).length - 1;
+  if (count !== expectedCount) {
+    throw new Error(
+      `Expected ${expectedCount} ${placeholder} placeholder${expectedCount === 1 ? "" : "s"}, found ${count}.`
+    );
+  }
+  return contents.replaceAll(placeholder, value);
+};
+
 export const renderMcpDocumentation = ({
   manual,
   version,
@@ -49,33 +75,18 @@ export const renderMcpDocumentation = ({
     );
   }
   const manualBody = normalizedManual.slice(manualTitle.length).trimStart();
-  return `---
-description: >-
-  Connect AI agents and automation to a Webstudio Project through MCP or direct
-  CLI tool calls.
-icon: robot
----
-
-<!-- Generated from Webstudio CLI v${version} with \`webstudio man mcp --verbose\`. Do not edit directly. -->
-
-# Webstudio MCP
-
-{% hint style="info" %}
-This reference was generated from Webstudio CLI **v${version}**. It documents
-the latest published CLI available when this page was generated. Examples use
-an installed \`webstudio\` command. See [CLI](cli.md) for Node.js and \`npx\` setup.
-{% endhint %}
-
-${manualBody}
-
-## Related
-
-- [CLI](cli.md) – Install and use the Webstudio command-line interface
-- [Commands and search](foundations/commands-and-search.md) – Run Builder commands from the keyboard
-- [Shortcuts](foundations/shortcuts.md) – Reorder and edit instances without drag-and-drop
-- [Share links](foundations/share-links.md) – Grant the access used to link a Project
-- [Publishing and custom domains](foundations/publishing-and-custom-domains.md) – Publish the completed Project
-`;
+  const versionedTemplate = replacePlaceholder({
+    contents: template,
+    expectedCount: 2,
+    placeholder: versionPlaceholder,
+    value: version,
+  });
+  return replacePlaceholder({
+    contents: versionedTemplate,
+    expectedCount: 1,
+    placeholder: manualPlaceholder,
+    value: manualBody,
+  });
 };
 
 export const generateDocs = () => {

@@ -9,6 +9,7 @@ on:
       - "pnpm-lock.yaml"
       - "scripts/generate-docs.test.ts"
       - "scripts/generate-docs.ts"
+      - "scripts/templates/mcp.md"
       - "tsconfig.json"
 
 permissions:
