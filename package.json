@@ -1,12 +1,20 @@
 {
   "name": "webstudio-community-docs",
   "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.14.4",
   "engines": {
     "node": ">=22"
   },
   "scripts": {
-    "docs:sync:mcp": "node scripts/sync-mcp-docs.mjs --latest",
-    "docs:check:mcp": "node scripts/sync-mcp-docs.mjs --check",
-    "test": "node --test scripts/*.test.mjs"
+    "generate-docs": "tsx scripts/generate-docs.ts",
+    "check:generated-docs": "pnpm generate-docs && git diff --exit-code -- docs/university/mcp.md",
+    "test": "tsx --test scripts/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "7.0.2"
   }
 }

@@ -19,13 +19,19 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
       - name: Test the generator
-        run: npm test
-      - name: Generate from the latest published CLI
-        run: npm run docs:sync:mcp
+        run: pnpm test
+      - name: Typecheck the generator
+        run: pnpm typecheck
+      - id: generate
+        name: Generate from the latest published CLI
+        run: echo "version=$(pnpm exec tsx scripts/generate-docs.ts)" >> "$GITHUB_OUTPUT"
       - id: changes
         name: Detect a documentation update
         run: |
@@ -33,17 +39,16 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "version=$(node scripts/sync-mcp-docs.mjs --print-recorded-version)" >> "$GITHUB_OUTPUT"
           fi
       - name: Open the update pull request
         if: steps.changes.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
-          MCP_DOCS_VERSION: ${{ steps.changes.outputs.version }}
+          MCP_DOCS_VERSION: ${{ steps.generate.outputs.version }}
           PR_BODY: |
             ## Summary
 
-            Regenerate the exhaustive MCP documentation from Webstudio CLI v${{ steps.changes.outputs.version }}.
+            Regenerate the exhaustive MCP documentation from Webstudio CLI v${{ steps.generate.outputs.version }}.
 
             ## Todo
 
@@ -54,8 +59,9 @@ jobs:
 
             ## Verification
 
-            - `npm test`
-            - `npm run docs:sync:mcp`
+            - `pnpm test`
+            - `pnpm typecheck`
+            - `pnpm generate-docs`
 
             This pull request was created automatically by the MCP documentation updater.
         run: |
