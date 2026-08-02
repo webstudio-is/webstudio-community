@@ -214,6 +214,22 @@ npx webstudio <command> --help
 
 ## Automation and MCP
 
+See [Webstudio MCP](mcp.md) for the complete setup, tool-discovery, editing,
+verification, and safety workflow.
+
+Shell-capable agents can call MCP tools directly as CLI subcommands. This does
+not require MCP client configuration or a client restart:
+
+```bash
+npx webstudio meta.index
+npx webstudio components.search '{"brief":"button"}'
+npx webstudio insert-fragment '{"parentInstanceId":"<parent-id>","fragment":"<ws.element ws:tag=\"section\" />"}' --dry-run
+```
+
+The explicit equivalent is
+`npx webstudio mcp single-op-call <tool> '<json>'`. Use native client setup when
+you want Webstudio tools to remain available inside the client.
+
 The CLI includes current manuals and machine-readable schemas for scripts and
 agents:
 
@@ -326,6 +342,7 @@ of inventing IDs or partially applying an invalid change.
 
 ## Related
 
+- [Webstudio MCP](mcp.md) – Connect agents to the native visual-builder model
 - [Download](self-hosting/download.md) – Export a static site directly from the Builder
 - [Netlify](self-hosting/netlify.md) – Deploy your project to Netlify
 - [Vercel](self-hosting/vercel.md) – Deploy your project to Vercel
