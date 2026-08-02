@@ -1,0 +1,27 @@
+name: Check MCP documentation
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/*mcp-docs.yml"
+      - "docs/university/mcp.md"
+      - "package.json"
+      - "scripts/sync-mcp-docs.mjs"
+      - "scripts/sync-mcp-docs.test.mjs"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Test the generator
+        run: npm test
+      - name: Verify the generated manual
+        run: npm run docs:check:mcp

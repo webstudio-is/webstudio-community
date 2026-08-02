@@ -214,33 +214,19 @@ npx webstudio <command> --help
 
 ## Automation and MCP
 
-See [Webstudio MCP](mcp.md) for the complete setup, tool-discovery, editing,
-verification, and safety workflow.
-
-Shell-capable agents can call MCP tools directly as CLI subcommands. This does
-not require MCP client configuration or a client restart:
+Webstudio MCP lets agents inspect and edit the native visual-builder model so
+their changes remain editable in the Builder. After linking a Project,
+shell-capable agents can call MCP tools directly without configuring or
+restarting an MCP client:
 
 ```bash
 npx webstudio meta.index
-npx webstudio components.search '{"brief":"button"}'
 npx webstudio insert-fragment '{"parentInstanceId":"<parent-id>","fragment":"<ws.element ws:tag=\"section\" />"}' --dry-run
 ```
 
 The explicit equivalent is
-`npx webstudio mcp single-op-call <tool> '<json>'`. Use native client setup when
-you want Webstudio tools to remain available inside the client.
-
-The CLI includes current manuals and machine-readable schemas for scripts and
-agents:
-
-```bash
-npx webstudio man api
-npx webstudio man llm --json
-npx webstudio man mcp
-npx webstudio schema api --json
-```
-
-Generate the configuration for your AI client from the linked Project folder:
+`npx webstudio mcp single-op-call <tool> '<json>'`. To keep Webstudio tools
+available inside a supported client, generate its persistent configuration:
 
 ```bash
 npx webstudio connect claude
@@ -249,96 +235,9 @@ npx webstudio connect cursor
 npx webstudio connect vscode
 ```
 
-The command updates the supported client's MCP configuration. Add `--print` to
-preview file-based configuration without writing it. Before writing, the CLI
-checks that the current directory is linked to a reachable Project and that its
-saved credential still has access. Existing client settings and other MCP
-servers are preserved; only the `webstudio` entry is created or updated.
-
-For direct use or clients configured manually, start the MCP server:
-
-```bash
-npx webstudio mcp
-```
-
-### Project audits
-
-Run every available project-quality check:
-
-```bash
-npx webstudio audit --json
-```
-
-Audits check accessibility, security, SEO, performance settings, assets, and
-style data. Use command help to select scopes, audit a page, request verbose
-evidence, or include rendered checks. Some visual judgments still require a
-person or vision-capable agent.
-
-MCP lets an AI agent inspect and edit the configured Project, work with pages,
-components, styles, data, and assets, run audits, publish, and visually verify
-changes. The server exposes its current capabilities and input schemas directly
-to the client, so this page intentionally does not duplicate every tool.
-
-### What makes Webstudio MCP different
-
-Webstudio MCP gives an agent access to the Project's native visual-builder
-model, not only its exported code. This lets an agent make changes that remain
-editable in the Builder and continue to use Webstudio components, styles,
-breakpoints, variables, resources, and page settings.
-
-Distinct capabilities include:
-
-- **Semantic visual editing** – Create and reorganize pages, components, and
-  reusable sections while preserving the Project structure designers see in
-  the Builder.
-- **Design-system-aware styling** – Reuse existing design tokens, style
-  sources, CSS variables, and responsive breakpoints instead of generating
-  isolated styles.
-- **Dynamic content authoring** – Connect HTTP, GraphQL, and system resources;
-  bind their data to components; and build repeated lists, grids, cards, or
-  options from arrays and objects.
-- **Project quality audits** – Find accessibility, security, SEO, asset, style,
-  and performance issues, then rerun the audit to verify a fix.
-- **Visual verification** – Preview changed pages, capture responsive
-  screenshots, compare them with baselines, and use image or text evidence to
-  iterate on the result.
-- **Asset and image workflows** – Upload and replace assets, inspect where they
-  are used, organize them in nested folders, and add image descriptions or mark
-  decorative images appropriately.
-- **Shared content authoring** – Convert an existing section into a shared Slot
-  and insert synchronized copies across pages.
-- **Draft-page verification** – Build and inspect private previews of unfinished
-  pages without exposing them on staging or production.
-- **Publishing workflows** – Publish or unpublish the Project, inspect jobs,
-  and manage custom domains from the same agent session.
-
-These capabilities make MCP useful for more than generating a first draft. An
-agent can inspect an existing Project, follow its conventions, implement a
-change, check the result, and publish it without translating the Project into a
-separate codebase.
-
-Project Settings can store shared **Agent instructions** for naming,
-design-token, component, and copy conventions. Do not put credentials or other
-secrets in these instructions.
-
-### Restore points for agent changes
-
-Before a large edit, an agent can create a named restore point for the
-Project's versioned build data. Restore points make ambitious changes
-reversible without creating a separate Project copy.
-
-Reverting is intentionally a reviewed operation. The agent first performs a
-dry run and presents the planned transaction. Webstudio requires explicit
-confirmation tied to that plan before restoring the content atomically. Assets
-are not included in restore points and are not changed by a revert.
-
-### Safety for destructive changes
-
-Destructive MCP operations require explicit confirmation. The confirmation is
-bound to the reviewed dry run, so it cannot silently approve a different
-transaction. Webstudio also validates semantic inputs and raw patches, rejects
-references to records that do not exist, and returns actionable errors instead
-of inventing IDs or partially applying an invalid change.
+See [Webstudio MCP](mcp.md) for the exhaustive, versioned setup, discovery,
+editing, verification, safety, and troubleshooting reference generated from
+the latest published CLI manual.
 
 ## Related
 

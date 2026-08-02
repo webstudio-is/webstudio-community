@@ -1,0 +1,12 @@
+{
+  "name": "webstudio-community-docs",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "docs:sync:mcp": "node scripts/sync-mcp-docs.mjs --latest",
+    "docs:check:mcp": "node scripts/sync-mcp-docs.mjs --check",
+    "test": "node --test scripts/*.test.mjs"
+  }
+}

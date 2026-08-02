@@ -1,0 +1,82 @@
+name: Update MCP documentation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 5 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-mcp-documentation
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Test the generator
+        run: npm test
+      - name: Generate from the latest published CLI
+        run: npm run docs:sync:mcp
+      - id: changes
+        name: Detect a documentation update
+        run: |
+          if git diff --quiet -- docs/university/mcp.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "version=$(node scripts/sync-mcp-docs.mjs --print-recorded-version)" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Open the update pull request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MCP_DOCS_VERSION: ${{ steps.changes.outputs.version }}
+          PR_BODY: |
+            ## Summary
+
+            Regenerate the exhaustive MCP documentation from Webstudio CLI v${{ steps.changes.outputs.version }}.
+
+            ## Todo
+
+            - [x] Resolve the latest published Webstudio CLI version.
+            - [x] Generate the complete Markdown manual.
+            - [x] Record the source version in the public page.
+            - [x] Run the generator tests.
+
+            ## Verification
+
+            - `npm test`
+            - `npm run docs:sync:mcp`
+
+            This pull request was created automatically by the MCP documentation updater.
+        run: |
+          branch="automation/update-mcp-docs-v${MCP_DOCS_VERSION}"
+          existing_pr=$(gh pr list --head "$branch" --state open --json url --jq '.[0].url')
+          if [ -n "$existing_pr" ]; then
+            echo "An update pull request is already open: $existing_pr"
+            exit 0
+          fi
+          if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+            branch="${branch}-${GITHUB_RUN_ID}"
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add docs/university/mcp.md
+          git commit -m "docs: update MCP manual to v${MCP_DOCS_VERSION}"
+          git push --set-upstream origin "$branch"
+          gh pr create \
+            --base main \
+            --head "$branch" \
+            --draft \
+            --title "docs: Update MCP manual to v${MCP_DOCS_VERSION}" \
+            --body "$PR_BODY"
