@@ -1,0 +1,35 @@
+name: Check MCP documentation
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/*mcp-docs.yml"
+      - "docs/university/mcp.md"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "scripts/generate-docs.test.ts"
+      - "scripts/generate-docs.ts"
+      - "scripts/templates/mcp.md"
+      - "tsconfig.json"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Test the generator
+        run: pnpm test
+      - name: Typecheck the generator
+        run: pnpm typecheck
+      - name: Verify the generated manual
+        run: pnpm docs:mcp:check
