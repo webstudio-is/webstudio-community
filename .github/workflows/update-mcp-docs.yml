@@ -31,7 +31,7 @@ jobs:
         run: pnpm typecheck
       - id: generate
         name: Generate from the latest published CLI
-        run: echo "version=$(pnpm exec tsx scripts/generate-docs.ts)" >> "$GITHUB_OUTPUT"
+        run: echo "version=$(pnpm --silent docs:mcp:sync)" >> "$GITHUB_OUTPUT"
       - id: changes
         name: Detect a documentation update
         run: |
@@ -61,7 +61,7 @@ jobs:
 
             - `pnpm test`
             - `pnpm typecheck`
-            - `pnpm generate-docs`
+            - `pnpm docs:mcp:sync`
 
             This pull request was created automatically by the MCP documentation updater.
         run: |

@@ -7,8 +7,8 @@
     "node": ">=22"
   },
   "scripts": {
-    "generate-docs": "tsx scripts/generate-docs.ts",
-    "check:generated-docs": "pnpm generate-docs && git diff --exit-code -- docs/university/mcp.md",
+    "docs:mcp:sync": "tsx scripts/generate-docs.ts",
+    "docs:mcp:check": "pnpm docs:mcp:sync && git diff --exit-code -- docs/university/mcp.md",
     "test": "tsx --test scripts/*.test.ts",
     "typecheck": "tsc --noEmit"
   },

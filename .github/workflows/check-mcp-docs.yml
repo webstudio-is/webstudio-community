@@ -31,4 +31,4 @@ jobs:
       - name: Typecheck the generator
         run: pnpm typecheck
       - name: Verify the generated manual
-        run: pnpm check:generated-docs
+        run: pnpm docs:mcp:check
