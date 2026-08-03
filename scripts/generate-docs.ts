@@ -29,8 +29,27 @@ const run = (command: string, args: string[]) =>
     maxBuffer: 10 * 1024 * 1024,
   }).trim();
 
-const getLatestCliVersion = () =>
-  run(npmCommand, ["view", "webstudio@latest", "version"]);
+const getPublishedCliVersion = (specifier: string) =>
+  run(npmCommand, ["view", `webstudio@${specifier}`, "version"]);
+
+export const resolveCliVersion = ({
+  requestedVersion,
+  getPublishedVersion,
+}: {
+  requestedVersion: string | undefined;
+  getPublishedVersion: (specifier: string) => string;
+}) => {
+  const requested = requestedVersion?.trim();
+  const hasRequestedVersion = requested !== undefined && requested !== "";
+  const specifier = hasRequestedVersion ? requested : "latest";
+  const version = getPublishedVersion(specifier);
+  if (hasRequestedVersion && version !== specifier) {
+    throw new Error(
+      `Dispatched CLI version ${JSON.stringify(specifier)} must resolve exactly; npm resolved ${JSON.stringify(version)}.`
+    );
+  }
+  return version;
+};
 
 const getMcpManual = (version: string) =>
   run(pnpmCommand, [
@@ -90,7 +109,10 @@ export const renderMcpDocumentation = ({
 };
 
 export const generateDocs = () => {
-  const version = getLatestCliVersion();
+  const version = resolveCliVersion({
+    requestedVersion: process.env.WEBSTUDIO_CLI_VERSION,
+    getPublishedVersion: getPublishedCliVersion,
+  });
   const manual = getMcpManual(version);
   writeFileSync(
     outputPath,

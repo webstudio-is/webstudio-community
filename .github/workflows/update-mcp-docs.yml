@@ -2,6 +2,11 @@ name: Update MCP documentation
 
 on:
   workflow_dispatch:
+    inputs:
+      version:
+        description: Exact published Webstudio CLI version to document
+        required: false
+        type: string
   schedule:
     - cron: "15 5 * * *"
 
@@ -30,7 +35,9 @@ jobs:
       - name: Typecheck the generator
         run: pnpm typecheck
       - id: generate
-        name: Generate from the latest published CLI
+        name: Generate from the published CLI
+        env:
+          WEBSTUDIO_CLI_VERSION: ${{ inputs.version }}
         run: echo "version=$(pnpm --silent docs:mcp:sync)" >> "$GITHUB_OUTPUT"
       - id: changes
         name: Detect a documentation update
@@ -52,7 +59,7 @@ jobs:
 
             ## Todo
 
-            - [x] Resolve the latest published Webstudio CLI version.
+            - [x] Resolve the requested published Webstudio CLI version.
             - [x] Generate the complete Markdown manual.
             - [x] Record the source version in the public page.
             - [x] Run the generator tests.

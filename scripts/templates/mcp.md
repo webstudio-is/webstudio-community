@@ -11,8 +11,8 @@ icon: robot
 
 {% hint style="info" %}
 This reference was generated from Webstudio CLI **v{{version}}**. It documents
-the latest published CLI available when this page was generated. Examples use
-an installed `webstudio` command. See [CLI](cli.md) for Node.js and `npx` setup.
+that published CLI release. Examples use an installed `webstudio` command.
+See [CLI](cli.md) for Node.js and `npx` setup.
 {% endhint %}
 
 {{manual}}
